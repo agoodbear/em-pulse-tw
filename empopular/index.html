@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EM Popular — 急診醫學熱門主題 | Derin Soluk</title>
+<meta name="description" content="近 30 天在 64 本急診醫學期刊發表的文獻中，最常出現的關鍵字主題，以文字雲呈現。資料即時來自 NCBI PubMed。Derin Soluk。">
+<meta name="author" content="İbrahim Sarbay, MD｜繁中化：曹建雄">
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CKCFNRZ1WM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-CKCFNRZ1WM');
+</script>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --red: #E24B4A;
+    --bg: #ffffff;
+    --bg2: #f5f5f3;
+    --bg3: #eeede9;
+    --text: #1a1a1a;
+    --text2: #555550;
+    --text3: #888880;
+    --border: rgba(0,0,0,0.12);
+    --border2: rgba(0,0,0,0.22);
+    --info-bg: #e6f1fb;
+    --info-text: #0c447c;
+    --danger-bg: #fcebeb;
+    --danger-text: #a32d2d;
+    --success: #1D9E75;
+    --radius: 8px;
+    --radius-lg: 12px;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #1a1a1a;
+      --bg2: #242424;
+      --bg3: #2e2e2e;
+      --text: #f0efe9;
+      --text2: #a8a8a0;
+      --text3: #666660;
+      --border: rgba(255,255,255,0.12);
+      --border2: rgba(255,255,255,0.22);
+      --info-bg: #042c53;
+      --info-text: #b5d4f4;
+      --danger-bg: #501313;
+      --danger-text: #f7c1c1;
+    }
+  }
+
+  body {
+    font-family: 'Noto Sans TC', 'Quicksand', system-ui, -apple-system, sans-serif;
+    background: var(--bg3);
+    color: var(--text);
+    min-height: 100vh;
+    padding: 1rem 0 2rem;
+  }
+
+  .page {
+    max-width: 860px;
+    margin: 0 auto;
+    background: var(--bg);
+    border-radius: var(--radius-lg);
+    border: 0.5px solid var(--border);
+    overflow: hidden;
+  }
+
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    padding: 0.7rem 1.5rem;
+    border-bottom: 0.5px solid var(--border);
+    background: var(--bg2);
+    font-size: 13px;
+  }
+  .nav a { color: var(--text2); text-decoration: none; font-weight: 500; }
+  .nav a:hover { color: var(--red); }
+  .nav .cur { color: var(--red); font-weight: 700; }
+  .nav .sep { color: var(--text3); }
+
+  .header {
+    text-align: center;
+    padding: 2rem 1.5rem 1rem;
+    border-bottom: 0.5px solid var(--border);
+  }
+
+  .logo {
+    font-family: 'Quicksand', sans-serif;
+    font-size: clamp(1.8rem, 5vw, 2.8rem);
+    font-weight: 700;
+    color: var(--red);
+    letter-spacing: -1px;
+  }
+  .logo span { color: var(--text); }
+
+  .tagline {
+    font-size: 14px;
+    color: var(--text2);
+    margin-top: 8px;
+    line-height: 1.7;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .tagline a { color: var(--red); text-decoration: none; }
+
+  .controls {
+    display: flex;
+    gap: 8px;
+    padding: 1rem 1.5rem;
+    flex-wrap: wrap;
+    align-items: center;
+    border-bottom: 0.5px solid var(--border);
+    background: var(--bg2);
+  }
+
+  .fbtn {
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 6px 14px;
+    border-radius: 20px;
+    border: 0.5px solid var(--border2);
+    background: var(--bg);
+    color: var(--text2);
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+  .fbtn.active { background: var(--red); color: #fff; border-color: var(--red); }
+  .fbtn:hover:not(.active) { background: var(--bg3); }
+  .ml { margin-left: auto; }
+
+  #cacheNote {
+    display: none;
+    margin: 0.75rem 1.5rem 0;
+    padding: 8px 14px;
+    background: var(--info-bg);
+    color: var(--info-text);
+    border-radius: var(--radius);
+    font-size: 12px;
+  }
+  #cacheNote button {
+    background: none; border: none; color: var(--info-text);
+    font-size: 12px; font-weight: 700; cursor: pointer; padding: 0;
+    font-family: inherit;
+  }
+
+  .stats-row {
+    display: flex;
+    gap: 10px;
+    padding: 1rem 1.5rem 0.5rem;
+    flex-wrap: wrap;
+  }
+  .stat {
+    background: var(--bg2);
+    border-radius: var(--radius);
+    padding: 8px 16px;
+    min-width: 120px;
+  }
+  .stat-label { font-size: 11px; color: var(--text3); }
+  .stat-val { font-size: 20px; font-weight: 700; color: var(--text); }
+
+  .legend {
+    display: flex;
+    gap: 20px;
+    padding: 0.25rem 1.5rem 0.75rem;
+    flex-wrap: wrap;
+  }
+  .li {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 12px;
+    color: var(--text3);
+  }
+
+  .cloud {
+    padding: 1rem 1.5rem 1.5rem;
+    line-height: 3em;
+    text-align: justify;
+  }
+  .cloud a {
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 4px;
+    padding: 2px 3px;
+    transition: background 0.12s, transform 0.1s;
+    display: inline;
+  }
+  .cloud a:hover {
+    background: var(--bg2);
+    transform: scale(1.05);
+  }
+  .cloud sup {
+    font-size: 0.6em;
+    color: var(--text3);
+    font-weight: 400;
+    margin-left: 1px;
+    vertical-align: super;
+  }
+
+  .status-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1.5rem;
+    border-top: 0.5px solid var(--border);
+    font-size: 11px;
+    color: var(--text3);
+    background: var(--bg2);
+  }
+  .dot {
+    display: inline-block;
+    width: 7px; height: 7px;
+    border-radius: 50%;
+    background: var(--success);
+    margin-right: 5px;
+    vertical-align: middle;
+    animation: pulse 2.5s infinite;
+  }
+  @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.35} }
+
+  .loading {
+    text-align: center;
+    padding: 4rem 1.5rem;
+  }
+  .spinner {
+    width: 40px; height: 40px;
+    border: 3px solid var(--border);
+    border-top-color: var(--red);
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+    margin: 0 auto 1rem;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  .lmsg { font-size: 14px; color: var(--text2); font-weight: 500; }
+  .lsub { font-size: 12px; color: var(--text3); margin-top: 4px; }
+  .progress-bar {
+    width: 200px; height: 3px;
+    background: var(--border);
+    border-radius: 2px;
+    margin: 1rem auto 0;
+    overflow: hidden;
+  }
+  .progress-fill {
+    height: 100%;
+    background: var(--red);
+    border-radius: 2px;
+    width: 0%;
+    transition: width 0.5s ease;
+  }
+
+  .err {
+    margin: 1.5rem;
+    padding: 1rem 1.25rem;
+    border: 0.5px solid var(--danger-text);
+    border-radius: var(--radius);
+    font-size: 13px;
+    color: var(--danger-text);
+    background: var(--danger-bg);
+  }
+  .err strong { display: block; margin-bottom: 4px; }
+
+  .footer {
+    border-top: 0.5px solid var(--border);
+    padding: 1.25rem 1.5rem;
+    font-size: 12px;
+    color: var(--text3);
+    line-height: 1.9;
+    background: var(--bg2);
+  }
+  .footer a { color: var(--red); text-decoration: none; }
+  .footer strong { color: var(--text2); }
+
+  @media (max-width: 600px) {
+    body { padding: 0; }
+    .page { border-radius: 0; border-left: none; border-right: none; }
+    .nav { padding: 0.6rem 1rem; }
+    .header { padding: 1.5rem 1rem 0.75rem; }
+    .controls { padding: 0.75rem 1rem; }
+    .stats-row { padding: 0.75rem 1rem 0.25rem; }
+    .legend { padding: 0.25rem 1rem 0.5rem; }
+    .cloud { padding: 0.75rem 1rem 1rem; }
+    .status-bar { padding: 0.5rem 1rem; }
+    .footer { padding: 1rem; }
+    #cacheNote { margin: 0.5rem 1rem 0; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <nav class="nav">
+    <a href="../">EM Pulse 文獻雷達</a>
+    <span class="sep">·</span>
+    <span class="cur">EM Popular 熱門主題</span>
+    <span class="sep">·</span>
+    <a href="https://derinsoluk.com/" target="_blank" rel="noopener">Derin Soluk</a>
+  </nav>
+
+  <div class="header">
+    <div class="logo">&#10084; EM <span>Popular</span></div>
+    <p class="tagline">
+      近 30 天在 <strong>64 本急診醫學期刊</strong>發表的文獻中，最常出現的關鍵字主題
+      <a href="#altbilgi">*</a>
+    </p>
+  </div>
+
+  <div class="controls">
+    <button class="fbtn active" id="btn-all" onclick="applyFilter('all')">全部</button>
+    <button class="fbtn" id="btn-hot" onclick="applyFilter('hot')">&#128293; 高頻 (≥4)</button>
+    <button class="fbtn" id="btn-med" onclick="applyFilter('med')">中頻 (2–3)</button>
+    <button class="fbtn ml" id="btn-ref" onclick="hardRefresh()" title="重新整理">&#8635; 重新整理</button>
+  </div>
+
+  <div id="cacheNote">
+    &#128336; 從快取載入 — <span id="cacheAge"></span>前更新。
+    <button onclick="hardRefresh()">↻ 立即更新</button>
+  </div>
+
+  <div id="app">
+    <div class="loading">
+      <div class="spinner"></div>
+      <p class="lmsg" id="lmsg">正在連線 PubMed…</p>
+      <p class="lsub" id="lsub">NCBI eutils API — 完全免費</p>
+      <div class="progress-bar"><div class="progress-fill" id="prog"></div></div>
+    </div>
+  </div>
+
+  <div class="footer" id="altbilgi">
+    <p>
+      <strong>運作原理</strong>
+      本頁透過 NCBI PubMed eutils API，自動掃描 <strong>64</strong> 本急診醫學期刊近 30 天的文獻。
+      收集每篇文獻的關鍵字（keywords），依出現頻率以不同字級大小呈現成文字雲。
+      點擊主題即跳轉到對應的 PubMed 搜尋。資料會在你的瀏覽器本地快取保存 24 小時。
+    </p>
+    <p style="margin-top:0.5rem">
+      <strong>相關頁面：</strong>
+      <a href="../">EM Pulse 急診文獻雷達（繁中版）</a> ·
+      <a href="http://derinsoluk.com/pubmed/" target="_blank" rel="noopener">PubMed Trending Article（原作者）</a> ·
+      <a href="http://derinsoluk.com/emarticles/" target="_blank" rel="noopener">Recent EM Articles（原作者）</a>
+    </p>
+    <p style="margin-top:0.5rem">
+      EM Popular v3 · 開發者：
+      <a href="https://twitter.com/ibrahimsarbay" target="_blank" rel="noopener">İbrahim Sarbay, MD</a> ·
+      繁中化：曹建雄 ·
+      資料：<a href="https://eutils.ncbi.nlm.nih.gov/" target="_blank" rel="noopener">NCBI eutils</a>（開放存取）
+    </p>
+  </div>
+
+</div>
+
+<script>
+const CACHE_KEY = 'empopular_v3';
+const CACHE_TTL = 86400000; // 24 小時
+
+const JOURNAL_TERMS = [
+  '"Resuscitation"[jour]','"Ann Emerg Med"[jour]','"Acad Emerg Med"[jour]',
+  '"Shock"[jour]','"Prehosp Emerg Care"[jour]','"Emerg Med J"[jour]',
+  '"Injury"[jour]','"West J Emerg Med"[jour]','"BMC Emerg Med"[jour]',
+  '"Scand J Trauma Resusc Emerg Med"[jour]','"Intern Emerg Med"[jour]',
+  '"Am J Emerg Med"[jour]','"Emerg Med Australas"[jour]','"J Emerg Med"[jour]',
+  '"World J Emerg Med"[jour]','"Eur J Emerg Med"[jour]',
+  '"Prehosp Disaster Med"[jour]','"Wilderness Environ Med"[jour]',
+  '"CJEM"[jour]','"Eur J Trauma Emerg Surg"[jour]','"Int J Emerg Med"[jour]',
+  '"Pediatr Emerg Care"[jour]','"J Emerg Trauma Shock"[jour]',
+  '"Open Access Emerg Med"[jour]','"Emergencias"[jour]','"Emerg Radiol"[jour]',
+  '"Turk J Emerg Med"[jour]','"Afr J Emerg Med"[jour]','"burns"[jour]',
+  '"World J Emerg Surg"[jour]','"J Burn Care Res"[jour]','"Air Med J"[jour]',
+  '"Adv Emerg Nurs J"[jour]','"Emerg Med Int"[jour]','"Acute Med"[jour]',
+  '"trauma"[jour]','"Bull Emerg Trauma"[jour]','"AACN Adv Crit Care"[jour]',
+  '"Emerg Med Clin North Am"[jour]','"Curr Heart Fail Rep"[jour]',
+  '"Crit Care Resusc"[jour]','"J Child Adolesc Trauma"[jour]',
+  '"Health Secur"[jour]','"Ann Burns Fire Disasters"[jour]',
+  '"Traumatology"[jour]','"Clin Pediatr Emerg Med"[jour]',
+  '"Trauma Case Rep"[jour]','"Int J Crit Illn Inj Sci"[jour]',
+  '"J Emerg Manag"[jour]','"Med Klin Intensivmed Notfmed"[jour]',
+  '"Notf Rett Med"[jour]','"Acute Card Care"[jour]',
+  '"J Trauma Manag Outcomes"[jour]','"Rom J Anaesth Intensive Care"[jour]',
+  '"Anasthesiol Intensivmed Notfallmed Schmerzther"[jour]',
+  '"Prat Anesth Reanim"[jour]','"Ulus Travma Acil Cerrahi Derg"[jour]',
+  '"Turk J Anaesthesiol Reanim"[jour]','"Unfallchirurg"[jour]',
+  '"Malays Orthop J"[jour]','"Adv Wound Care (New Rochelle)"[jour]',
+  '"Emerg (Tehran)"[jour]','"J Trauma Acute Care Surg"[jour]',
+  '"Injury Epidemiology"[jour]'
+];
+
+const COLORS = [
+  '#E24B4A','#185FA5','#1D9E75','#BA7517','#534AB7',
+  '#D4537E','#3B6D11','#993C1D','#0F6E56','#D85A30',
+  '#9933CC','#0088AA'
+];
+
+let allTopics = [];
+let colorMap = {};
+let cIdx = 0;
+
+function getColor(w) {
+  if (!colorMap[w]) colorMap[w] = COLORS[cIdx++ % COLORS.length];
+  return colorMap[w];
+}
+
+function calcSize(n) {
+  if (n <= 1) return null;
+  if (n === 2) return 0.80;
+  if (n === 3) return 1.0;
+  if (n === 4) return 1.28;
+  if (n === 5) return 1.58;
+  if (n === 6) return 1.88;
+  return Math.min(2.6, 1.88 + (n - 6) * 0.1);
+}
+
+function buildCloud(topics) {
+  if (!topics.length) return '<p style="color:var(--text3);font-size:14px;text-align:center;padding:2rem">此篩選沒有符合的主題。</p>';
+  let h = '';
+  topics.forEach(({ word, count }) => {
+    const sz = calcSize(count);
+    if (!sz) return;
+    const col = getColor(word);
+    const enc = encodeURIComponent('"' + word + '"');
+    h += `<a href="https://pubmed.ncbi.nlm.nih.gov/?term=${enc}" target="_blank" rel="noopener" style="font-size:${sz}em;color:${col}">${word}<sup>${count}</sup></a> `;
+  });
+  return h;
+}
+
+function applyFilter(f) {
+  document.querySelectorAll('.fbtn').forEach(b => b.classList.remove('active'));
+  document.getElementById('btn-' + f).classList.add('active');
+  if (!allTopics.length) return;
+  let t = allTopics;
+  if (f === 'hot') t = allTopics.filter(x => x.count >= 4);
+  else if (f === 'med') t = allTopics.filter(x => x.count >= 2 && x.count <= 3);
+  const cloud = document.getElementById('cloudArea');
+  if (cloud) cloud.innerHTML = buildCloud(t);
+}
+
+function setMsg(m, s, pct) {
+  const el = document.getElementById('lmsg');
+  const el2 = document.getElementById('lsub');
+  const prog = document.getElementById('prog');
+  if (el) el.textContent = m;
+  if (el2) el2.textContent = s || '';
+  if (prog && pct !== undefined) prog.style.width = pct + '%';
+}
+
+function hardRefresh() {
+  try { localStorage.removeItem(CACHE_KEY); } catch (e) {}
+  loadData();
+}
+
+function renderUI(topics, fromCache, cacheTime) {
+  allTopics = topics;
+  const app = document.getElementById('app');
+  const total = topics.reduce((s, t) => s + t.count, 0);
+
+  app.innerHTML = `
+    <div class="stats-row">
+      <div class="stat">
+        <div class="stat-label">不重複主題</div>
+        <div class="stat-val">${topics.length}</div>
+      </div>
+      <div class="stat">
+        <div class="stat-label">關鍵字總數</div>
+        <div class="stat-val">${total}</div>
+      </div>
+      <div class="stat">
+        <div class="stat-label">掃描期刊數</div>
+        <div class="stat-val">64</div>
+      </div>
+    </div>
+    <div class="legend">
+      <div class="li"><span style="font-size:1.9em;color:var(--text);line-height:1;font-weight:700">A</span>&nbsp;很常見</div>
+      <div class="li"><span style="font-size:1.15em;color:var(--text2);line-height:1;font-weight:700">A</span>&nbsp;中等</div>
+      <div class="li"><span style="font-size:0.82em;color:var(--text3);line-height:1;font-weight:700">A</span>&nbsp;較少見</div>
+    </div>
+    <div class="cloud" id="cloudArea">${buildCloud(topics)}</div>
+    <div class="status-bar">
+      <span><span class="dot"></span>PubMed eutils（免費、開放）</span>
+      <span id="updTime"></span>
+    </div>
+  `;
+
+  if (fromCache && cacheTime) {
+    const ago = Math.round((Date.now() - cacheTime) / 60000);
+    const agoStr = ago < 60 ? ago + ' 分鐘' : Math.round(ago / 60) + ' 小時';
+    document.getElementById('cacheAge').textContent = agoStr;
+    document.getElementById('cacheNote').style.display = 'block';
+    document.getElementById('updTime').textContent = '快取 · ' + new Date(cacheTime).toLocaleTimeString('zh-TW', { hour: '2-digit', minute: '2-digit' });
+  } else {
+    document.getElementById('cacheNote').style.display = 'none';
+    document.getElementById('updTime').textContent = '更新於 · ' + new Date().toLocaleTimeString('zh-TW', { hour: '2-digit', minute: '2-digit' });
+  }
+}
+
+async function loadData() {
+  colorMap = {}; cIdx = 0; allTopics = [];
+  document.getElementById('cacheNote').style.display = 'none';
+  document.getElementById('app').innerHTML = `
+    <div class="loading">
+      <div class="spinner"></div>
+      <p class="lmsg" id="lmsg">檢查快取中…</p>
+      <p class="lsub" id="lsub"></p>
+      <div class="progress-bar"><div class="progress-fill" id="prog"></div></div>
+    </div>`;
+
+  // 快取檢查
+  try {
+    const cached = localStorage.getItem(CACHE_KEY);
+    if (cached) {
+      const { data, ts } = JSON.parse(cached);
+      if (Date.now() - ts < CACHE_TTL && data && data.length) {
+        renderUI(data, true, ts);
+        return;
+      }
+    }
+  } catch (e) {}
+
+  try {
+    setMsg('正在 PubMed 搜尋文獻…', '查詢 64 本期刊中', 10);
+
+    const termStr = '((' + JOURNAL_TERMS.join('+OR+') + '))+NOT+(letter[Publication+Type])';
+    const searchUrl = 'https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi'
+      + '?db=pubmed&retmode=json&retmax=200&reldate=30&term=' + termStr;
+
+    const sr = await fetch(searchUrl);
+    if (!sr.ok) throw new Error('PubMed 搜尋錯誤：HTTP ' + sr.status);
+    const sj = await sr.json();
+    const ids = (sj.esearchresult && sj.esearchresult.idlist) || [];
+    if (!ids.length) throw new Error('近 30 天找不到文獻');
+
+    setMsg('正在抓取文獻細節…', '找到 ' + ids.length + ' 篇文獻', 30);
+
+    // 每 50 篇一組抓取
+    const chunks = [];
+    for (let i = 0; i < ids.length; i += 50) chunks.push(ids.slice(i, i + 50));
+
+    const kwMap = {};
+    for (let ci = 0; ci < chunks.length; ci++) {
+      const pct = 30 + Math.round(((ci + 1) / chunks.length) * 55);
+      setMsg('處理關鍵字中…', '第 ' + (ci + 1) + '/' + chunks.length + ' 批 — ' + chunks[ci].length + ' 篇文獻', pct);
+
+      const fetchUrl = 'https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi'
+        + '?db=pubmed&retmode=xml&id=' + chunks[ci].join(',');
+      const fr = await fetch(fetchUrl);
+      if (!fr.ok) continue;
+      const xmlText = await fr.text();
+      const parser = new DOMParser();
+      const doc = parser.parseFromString(xmlText, 'text/xml');
+
+      doc.querySelectorAll('Keyword').forEach(kw => {
+        const t = (kw.textContent || '').trim();
+        if (t.length > 1 && t.length < 80) {
+          const key = t.toLowerCase();
+          if (!kwMap[key]) kwMap[key] = { word: t, count: 0 };
+          kwMap[key].count++;
+        }
+      });
+
+      // 速率限制：短暫等待
+      if (ci < chunks.length - 1) await new Promise(r => setTimeout(r, 400));
+    }
+
+    setMsg('產生文字雲中…', '', 95);
+
+    let topics = Object.values(kwMap)
+      .filter(x => x.count >= 2)
+      .sort((a, b) => b.count - a.count)
+      .slice(0, 150);
+
+    // 若沒有 count>=2 的詞，就取全部關鍵字
+    if (!topics.length) {
+      topics = Object.values(kwMap).sort((a, b) => b.count - a.count).slice(0, 100);
+    }
+
+    try {
+      localStorage.setItem(CACHE_KEY, JSON.stringify({ data: topics, ts: Date.now() }));
+    } catch (e) {}
+
+    renderUI(topics, false, null);
+
+  } catch (err) {
+    const app = document.getElementById('app');
+    app.innerHTML = `
+      <div class="err">
+        <strong>&#9888; 無法連線 PubMed</strong>
+        ${err.message}<br>
+        <small>請檢查網路連線後重新整理頁面。</small>
+        <br><br>
+        <button onclick="hardRefresh()" style="font-family:inherit;font-size:12px;padding:5px 12px;border-radius:6px;border:1px solid currentColor;background:none;color:inherit;cursor:pointer">
+          &#8635; 再試一次
+        </button>
+      </div>`;
+  }
+}
+
+// 頁面載入後啟動
+loadData();
+</script>
+</body>
+</html>
