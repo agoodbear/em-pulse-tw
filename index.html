@@ -1,0 +1,954 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EM Pulse — 急診醫學與重症照護文獻雷達 | Derin Soluk</title>
+<meta name="description" content="近 7 天的急診醫學與重症照護文獻，依影響力評分排序。Derin Soluk。">
+<meta name="author" content="İbrahim Sarbay, MD｜繁中化：曹建雄">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DM+Mono:wght@300;400;500&family=Noto+Sans+TC:wght@300;400;500;600&display=swap" rel="stylesheet">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CKCFNRZ1WM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CKCFNRZ1WM');
+</script>
+
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg:       #ffffff;
+  --surface:  #f8f8f6;
+  --card:     #ffffff;
+  --border:   #b7b7b7;
+  --border2:  #f0f0ec;
+  --ink:      #1a1a18;
+  --mid:      #6b6b65;
+  --dim:      #84847b;
+  --serif:    'Lora', Georgia, serif;
+  --mono:     'DM Mono', ui-monospace, monospace;
+  --sans:     'Noto Sans TC', 'Inter', system-ui, sans-serif;
+
+  --t1:       #b85c00;
+  --t1-bg:    #fff7ee;
+  --t2:       #1a7a5a;
+  --t2-bg:    #f0faf5;
+  --t3:       #2255aa;
+  --t3-bg:    #f0f4ff;
+
+  --meta:     #7c3aed;
+  --meta-bg:  #f5f0ff;
+  --rct:      #b85c00;
+  --rct-bg:   #fff7ee;
+  --review:   #1a7a5a;
+  --review-bg:#f0faf5;
+  --guide:    #c0392b;
+  --guide-bg: #fff0ee;
+  --orig:     #555550;
+  --orig-bg:  #f4f4f2;
+
+  --pulse:    #c0392b;
+  --pulse-lt: #fff0ee;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: var(--sans);
+  background: var(--bg);
+  color: var(--ink);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ── NAV ─────────────────────────────────────────── */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.1rem clamp(1.25rem, 5vw, 3rem);
+  border-bottom: 1px solid var(--border);
+  background: rgba(255,255,255,.94);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.nav-brand {
+  font-family: var(--serif);
+  font-size: 1.05rem;
+  color: var(--ink);
+  text-decoration: none;
+  letter-spacing: -.01em;
+}
+.nav-brand em { font-style: italic; color: var(--mid); }
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 1.75rem;
+}
+.nav-link {
+  font-family: var(--mono);
+  font-size: .65rem;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--mid);
+  text-decoration: none;
+  transition: color .15s;
+}
+.nav-link:hover { color: var(--mid); }
+.nav-link.active { color: var(--pulse); }
+
+.live-dot {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--mono);
+  font-size: .63rem;
+  letter-spacing: .08em;
+  color: var(--mid);
+}
+.live-dot::before {
+  content: '';
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  background: var(--pulse);
+  animation: blink 2.4s ease-in-out infinite;
+}
+@keyframes blink { 0%,100%{opacity:1} 50%{opacity:.2} }
+
+/* ── WRAP ────────────────────────────────────────── */
+.wrap {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 clamp(1.25rem, 5vw, 3rem);
+}
+
+/* ── HERO ────────────────────────────────────────── */
+.hero {
+  padding: clamp(2.5rem, 5vw, 4rem) 0 0;
+  max-width: 780px;
+}
+.hero-eyebrow {
+  font-family: var(--mono);
+  font-size: .65rem;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--pulse);
+  margin-bottom: 1rem;
+}
+.hero-title {
+  font-family: var(--serif);
+  font-size: clamp(2.4rem, 5.5vw, 3.8rem);
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: -.02em;
+  color: var(--ink);
+  margin-bottom: 1.1rem;
+}
+.hero-title em { font-style: italic; color: var(--pulse); }
+.hero-sub {
+  font-size: clamp(.875rem, 1.4vw, 1rem);
+  color: var(--mid);
+  line-height: 1.9;
+  font-weight: 300;
+  max-width: 520px;
+}
+
+/* ── STATS BAR ───────────────────────────────────── */
+.stats-bar {
+  display: flex;
+  flex-wrap: wrap;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  margin: clamp(1rem, 2vw, 1.75rem) 0;
+}
+.stat {
+  flex: 1;
+  min-width: 90px;
+  padding: 1rem clamp(.75rem, 2.5vw, 1.75rem);
+  border-right: 1px solid var(--border);
+}
+.stat:last-child { border-right: none; }
+.stat-num {
+  font-family: var(--mono);
+  font-size: clamp(1.3rem, 2.8vw, 1.8rem);
+  font-weight: 500;
+  color: var(--ink);
+  letter-spacing: -.02em;
+}
+.stat-num.pulse { color: var(--pulse); }
+.stat-lbl {
+  font-family: var(--mono);
+  font-size: .6rem;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--mid);
+  margin-top: .25rem;
+}
+
+/* ── LAYOUT ──────────────────────────────────────── */
+.main-grid {
+  display: grid;
+  grid-template-columns: 1fr 280px;
+  gap: 2rem;
+  align-items: start;
+}
+@media (max-width: 840px) {
+  .main-grid { grid-template-columns: 1fr; }
+  .sidebar { display: none; }
+}
+
+/* ── SECTION HEAD ────────────────────────────────── */
+.section-head {
+  display: flex;
+  align-items: center;
+  gap: .9rem;
+  margin-bottom: 1.1rem;
+}
+.section-label {
+  font-family: var(--mono);
+  font-size: .62rem;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--mid);
+  white-space: nowrap;
+}
+.section-rule {
+  flex: 1;
+  height: 1px;
+  background: var(--border);
+}
+
+/* ── ARTICLE OF WEEK ─────────────────────────────── */
+.aow {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1.75rem 2rem;
+  margin-bottom: 2rem;
+  border-left: 3px solid var(--pulse);
+}
+.aow-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-family: var(--mono);
+  font-size: .6rem;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--pulse);
+  background: var(--pulse-lt);
+  padding: 3px 8px;
+  border-radius: 3px;
+  margin-bottom: 1rem;
+}
+.aow-title {
+  font-family: var(--serif);
+  font-size: clamp(1.05rem, 2vw, 1.25rem);
+  font-weight: 500;
+  line-height: 1.45;
+  color: var(--ink);
+  margin-bottom: .75rem;
+}
+.aow-title a {
+  color: inherit;
+  text-decoration: none;
+}
+.aow-title a:hover { color: var(--pulse); }
+.aow-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .4rem .65rem;
+  margin-bottom: .9rem;
+}
+.aow-abstract {
+  font-size: .875rem;
+  color: var(--mid);
+  line-height: 1.85;
+  font-weight: 300;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.aow-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: .5rem;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+}
+.aow-authors {
+  font-size: .78rem;
+  color: var(--mid);
+  font-style: italic;
+  font-weight: 300;
+}
+.score-wrap {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.score-label {
+  font-family: var(--mono);
+  font-size: .6rem;
+  letter-spacing: .06em;
+  color: var(--mid);
+}
+.score-bar {
+  width: 72px;
+  height: 3px;
+  background: var(--border);
+  border-radius: 2px;
+  overflow: hidden;
+}
+.score-bar-fill {
+  height: 100%;
+  background: var(--pulse);
+  border-radius: 2px;
+}
+
+/* ── FILTER BAR ──────────────────────────────────── */
+.filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .4rem;
+  margin-bottom: 1.1rem;
+}
+.filter-btn {
+  font-family: var(--mono);
+  font-size: .68rem;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  padding: .32rem .7rem;
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  background: var(--bg);
+  color: var(--mid);
+  cursor: pointer;
+  transition: all .12s;
+}
+.filter-btn:hover { border-color: var(--mid); color: var(--mid); }
+.filter-btn.active {
+  background: var(--ink);
+  color: var(--bg);
+  border-color: var(--ink);
+}
+
+/* ── ARTICLE CARDS ───────────────────────────────── */
+.article-list { display: flex; flex-direction: column; }
+
+.article-card {
+  display: grid;
+  grid-template-columns: 28px 1fr;
+  gap: .5rem .9rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--border2);
+  text-decoration: none;
+  color: inherit;
+  transition: background .12s;
+  border-radius: 4px;
+  padding-left: 4px;
+}
+.article-card:hover { background: var(--surface); padding-left: 8px; }
+.article-card:first-child { border-top: 1px solid var(--border2); }
+
+.article-rank {
+  font-family: var(--mono);
+  font-size: .65rem;
+  color: var(--mid);
+  padding-top: 3px;
+  text-align: right;
+}
+.article-title {
+  font-family: var(--sans);
+  font-size: clamp(.9rem, 1.5vw, 1rem);
+  font-weight: 600;
+  line-height: 1.5;
+  color: var(--ink);
+  margin-bottom: .4rem;
+}
+.article-card:hover .article-title { color: var(--pulse); }
+.article-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .3rem .55rem;
+}
+.meta-journal {
+  font-family: var(--mono);
+  font-size: .62rem;
+  color: var(--mid);
+  max-width: 220px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.meta-date {
+  font-family: var(--mono);
+  font-size: .6rem;
+  color: var(--mid);
+}
+.meta-authors {
+  font-size: .7rem;
+  color: var(--mid);
+  font-style: italic;
+  font-weight: 300;
+}
+.score-mini {
+  font-family: var(--mono);
+  font-size: .58rem;
+  color: var(--mid);
+  margin-left: auto;
+}
+
+/* ── BADGES ──────────────────────────────────────── */
+.tier-badge {
+  font-family: var(--mono);
+  font-size: .56rem;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  padding: 2px 5px;
+  border-radius: 3px;
+  font-weight: 500;
+}
+.tier-badge.t1 { background: var(--t1-bg); color: var(--t1); }
+.tier-badge.t2 { background: var(--t2-bg); color: var(--t2); }
+.tier-badge.t3 { background: var(--t3-bg); color: var(--t3); }
+
+.type-badge {
+  font-family: var(--mono);
+  font-size: .58rem;
+  letter-spacing: .04em;
+  padding: 2px 6px;
+  border-radius: 3px;
+}
+.type-badge.meta-analysis, .type-badge.systematic-review { background: var(--meta-bg); color: var(--meta); }
+.type-badge.rct, .type-badge.clinical-trial             { background: var(--rct-bg);  color: var(--rct); }
+.type-badge.guideline                                    { background: var(--guide-bg);color: var(--guide); }
+.type-badge.review                                       { background: var(--review-bg);color: var(--review); }
+.type-badge.original, .type-badge.case-report,
+.type-badge.editorial, .type-badge.letter,
+.type-badge.comment                                      { background: var(--orig-bg); color: var(--orig); }
+
+/* ── SIDEBAR ─────────────────────────────────────── */
+.sidebar {
+  position: sticky;
+  top: 72px;
+}
+.sidebar-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1.25rem;
+  margin-bottom: .75rem;
+}
+.sidebar-title {
+  font-family: var(--mono);
+  font-size: .62rem;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--mid);
+  margin-bottom: .9rem;
+  padding-bottom: .75rem;
+  border-bottom: 1px solid var(--border);
+}
+.dist-row {
+  display: flex;
+  align-items: center;
+  gap: .55rem;
+  margin-bottom: .5rem;
+}
+.dist-label {
+  font-family: var(--mono);
+  font-size: .64rem;
+  color: var(--mid);
+  width: 95px;
+  flex-shrink: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.dist-bar-wrap {
+  flex: 1;
+  height: 3px;
+  background: var(--surface);
+  border-radius: 2px;
+  overflow: hidden;
+}
+.dist-bar { height: 100%; border-radius: 2px; }
+.dist-count {
+  font-family: var(--mono);
+  font-size: .6rem;
+  color: var(--mid);
+  min-width: 20px;
+  text-align: right;
+}
+.keyword-list { display: flex; flex-wrap: wrap; gap: .3rem; }
+.keyword-tag {
+  font-family: var(--mono);
+  font-size: .6rem;
+  padding: 3px 6px;
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  color: var(--mid);
+  background: var(--bg);
+  cursor: pointer;
+  transition: all .1s;
+}
+.keyword-tag:hover { border-color: var(--mid); color: var(--mid); }
+
+/* ── PAGINATION ──────────────────────────────────── */
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+  padding: 2rem 0 1.5rem;
+}
+.page-btn {
+  font-family: var(--mono);
+  font-size: .68rem;
+  letter-spacing: .04em;
+  padding: .4rem .85rem;
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  background: var(--bg);
+  color: var(--mid);
+  cursor: pointer;
+  transition: all .12s;
+}
+.page-btn:hover:not(:disabled) { border-color: var(--ink); color: var(--ink); }
+.page-btn:disabled { opacity: .3; cursor: default; }
+.page-info {
+  font-family: var(--mono);
+  font-size: .63rem;
+  color: var(--mid);
+}
+
+/* ── FOOTER ──────────────────────────────────────── */
+footer {
+  border-top: 1px solid var(--border);
+  padding: 1.5rem clamp(1.25rem, 5vw, 3rem);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: .75rem;
+  margin-top: 3rem;
+  background: var(--surface);
+}
+.footer-l {
+  font-family: var(--mono);
+  font-size: .63rem;
+  color: var(--mid);
+}
+.footer-l a { color: inherit; text-decoration: underline; }
+.footer-r { display: flex; gap: 1.25rem; }
+.footer-r a {
+  font-family: var(--mono);
+  font-size: .62rem;
+  color: var(--mid);
+  text-decoration: none;
+  transition: color .12s;
+}
+.footer-r a:hover { color: var(--mid); }
+
+/* ── STATUS ──────────────────────────────────────── */
+.status {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem 1rem;
+  gap: .9rem;
+  text-align: center;
+}
+.spin {
+  width: 24px; height: 24px;
+  border: 2px solid var(--border);
+  border-top-color: var(--pulse);
+  border-radius: 50%;
+  animation: spin .9s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+.status-text {
+  font-family: var(--mono);
+  font-size: .72rem;
+  color: var(--mid);
+  letter-spacing: .06em;
+}
+
+/* ── ANIMATIONS ──────────────────────────────────── */
+.fade-in {
+  opacity: 0;
+  animation: fadeUp .4s ease forwards;
+}
+.fade-in:nth-child(1)  { animation-delay: .00s; }
+.fade-in:nth-child(2)  { animation-delay: .04s; }
+.fade-in:nth-child(3)  { animation-delay: .08s; }
+.fade-in:nth-child(4)  { animation-delay: .12s; }
+.fade-in:nth-child(5)  { animation-delay: .16s; }
+.fade-in:nth-child(6)  { animation-delay: .20s; }
+.fade-in:nth-child(7)  { animation-delay: .24s; }
+.fade-in:nth-child(8)  { animation-delay: .28s; }
+.fade-in:nth-child(9)  { animation-delay: .32s; }
+.fade-in:nth-child(10) { animation-delay: .36s; }
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ── MOBILE ──────────────────────────────────────── */
+@media (max-width: 520px) {
+  .stats-bar { overflow-x: auto; flex-wrap: nowrap; }
+  .stat { min-width: 80px; }
+  .article-card { grid-template-columns: 1fr; }
+  .article-rank { display: none; }
+  .nav-link:not(.active) { display: none; }
+}
+
+/* ── ABOUT CARD ──────────────────────────────────── */
+.about-text {
+  font-size: .78rem;
+  color: var(--mid);
+  line-height: 1.85;
+  font-weight: 300;
+}
+.about-score {
+  margin-top: 1rem;
+  padding-top: .85rem;
+  border-top: 1px solid var(--border2);
+  display: flex;
+  flex-direction: column;
+  gap: .35rem;
+}
+.score-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.score-item {
+  font-family: var(--mono);
+  font-size: .62rem;
+  color: var(--mid);
+}
+.score-val {
+  font-family: var(--mono);
+  font-size: .62rem;
+  color: var(--pulse);
+  font-weight: 500;
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-brand" href="https://derinsoluk.com/">Derin <em>Soluk</em></a>
+  <div class="nav-right">
+    <a class="nav-link" href="https://derinsoluk.com/empopular/">EM Popular</a>
+    <a class="nav-link active" href="./">EM Pulse</a>
+    <a class="nav-link" href="https://derinsoluk.com/about/">關於</a>
+    <span class="live-dot" id="live-label">載入中</span>
+  </div>
+</nav>
+
+<div class="wrap">
+
+  <div class="hero fade-in">
+    <p class="hero-eyebrow">文獻雷達</p>
+    <h1 class="hero-title">EM <em>Pulse</em></h1>
+    <p class="hero-sub">精選近 7 天發表的急診醫學與重症照護重點文獻，每天清晨更新。</p>
+  </div>
+
+  <div class="stats-bar fade-in">
+    <div class="stat">
+      <div class="stat-num pulse" id="stat-total">—</div>
+      <div class="stat-lbl">篇文獻</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num" id="stat-tier1">—</div>
+      <div class="stat-lbl">Tier 1 文獻</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num" id="stat-updated">—</div>
+      <div class="stat-lbl">更新時間</div>
+    </div>
+  </div>
+
+  <div id="content">
+    <div class="status">
+      <div class="spin"></div>
+      <p class="status-text">資料載入中…</p>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  <span class="footer-l">
+    <strong>Derin Soluk</strong> · İbrahim Sarbay, MD · 繁中化：曹建雄 ·
+    資料來源：<a href="https://pubmed.ncbi.nlm.nih.gov/" target="_blank" rel="noopener">NCBI PubMed</a>
+  </span>
+  <div class="footer-r">
+    <a href="https://twitter.com/ibrahimsarbay" target="_blank" rel="noopener">@ibrahimsarbay</a>
+    <a href="https://derinsoluk.com" target="_blank" rel="noopener">derinsoluk.com</a>
+  </div>
+</footer>
+
+<script>
+const TYPE_LABELS = {
+  'meta-analysis':'統合分析','systematic-review':'系統性回顧',
+  'rct':'隨機對照試驗','clinical-trial':'臨床試驗','guideline':'臨床指引',
+  'review':'綜論','original':'原著研究','case-report':'病例報告',
+  'editorial':'社論','letter':'來函','comment':'評論',
+};
+const TYPE_ORDER = ['guideline','meta-analysis','systematic-review','rct','clinical-trial','review','original','case-report','editorial','letter','comment'];
+
+function typeLabel(t) { return TYPE_LABELS[t] || t; }
+
+function relDate(s) {
+  if (!s) return '';
+  const d = new Date(s), now = new Date();
+  const days = Math.floor((now - d) / 86400000);
+  if (days === 0) return '今天';
+  if (days === 1) return '昨天';
+  if (days < 7) return `${days} 天前`;
+  return d.toLocaleDateString('zh-TW', { month:'long', day:'numeric' });
+}
+
+function sw(score, max) { return Math.max(5, Math.round((score / Math.max(max,1)) * 100)); }
+
+let state = {
+  all:[], filtered:[], activeFilter:'all', activeKeyword:null,
+  page:0, pageSize:30, maxScore:100,
+};
+
+function renderStats(data) {
+  document.getElementById('stat-total').textContent    = data.stats.total;
+  document.getElementById('stat-tier1').textContent    = data.stats.byTier?.[1] ?? '—';
+  const d = new Date(data.generatedAt);
+  document.getElementById('stat-updated').textContent  =
+    d.toLocaleTimeString('zh-TW', { hour:'2-digit', minute:'2-digit' });
+  document.getElementById('live-label').textContent = '即時';
+}
+
+function renderAOW(a, max) {
+  if (!a) return '';
+  return `
+  <div class="section-head fade-in">
+    <span class="section-label">本週精選</span>
+    <div class="section-rule"></div>
+  </div>
+  <div class="aow fade-in">
+    <div class="aow-badge">★ 本週文獻</div>
+    <div class="aow-title"><a href="${a.url}" target="_blank" rel="noopener">${a.title}</a></div>
+    <div class="aow-meta">
+      <span class="tier-badge t${a.journalTier}">Tier ${a.journalTier}</span>
+      <span class="type-badge ${a.articleType}">${typeLabel(a.articleType)}</span>
+      <span class="meta-journal">${a.journal}</span>
+      <span class="meta-date">${relDate(a.pubDate)}</span>
+    </div>
+    ${a.abstract ? `<p class="aow-abstract">${a.abstract}</p>` : ''}
+    <div class="aow-footer">
+      <span class="aow-authors">${a.authors.join(', ')}</span>
+      <div class="score-wrap">
+        <span class="score-label">影響力 ${a.impactScore}</span>
+        <div class="score-bar"><div class="score-bar-fill" style="width:${sw(a.impactScore,max)}%"></div></div>
+      </div>
+    </div>
+  </div>`;
+}
+
+function renderCard(a, rank, max) {
+  return `
+  <a class="article-card fade-in" href="${a.url}" target="_blank" rel="noopener">
+    <div class="article-rank">${String(rank).padStart(2,'0')}</div>
+    <div>
+      <div class="article-title">${a.title}</div>
+      <div class="article-meta">
+        <span class="tier-badge t${a.journalTier}">T${a.journalTier}</span>
+        <span class="type-badge ${a.articleType}">${typeLabel(a.articleType)}</span>
+        <span class="meta-journal">${a.journal}</span>
+        <span class="meta-date">${relDate(a.pubDate)}</span>
+        <span class="meta-authors">${a.authors.slice(0,2).join(', ')}${a.authors.length>2?' 等':''}</span>
+        <span class="score-mini">↑${a.impactScore}</span>
+      </div>
+    </div>
+  </a>`;
+}
+
+function renderTypeDist(articles) {
+  const counts = {};
+  articles.forEach(a => { counts[a.articleType] = (counts[a.articleType]||0)+1; });
+  const max = Math.max(...Object.values(counts), 1);
+  const colors = {
+    guideline:'#c0392b','meta-analysis':'#7c3aed','systematic-review':'#7c3aed',
+    rct:'#b85c00','clinical-trial':'#b85c00',review:'#1a7a5a',
+    original:'#aaa',default:'#ccc'
+  };
+  return TYPE_ORDER.filter(t => counts[t]).map(t => `
+    <div class="dist-row">
+      <span class="dist-label">${typeLabel(t)}</span>
+      <div class="dist-bar-wrap">
+        <div class="dist-bar" style="width:${Math.round((counts[t]/max)*100)}%;background:${colors[t]||colors.default}"></div>
+      </div>
+      <span class="dist-count">${counts[t]}</span>
+    </div>`).join('');
+}
+
+function renderKeywords(articles) {
+  const counts = {};
+  articles.forEach(a => {
+    [...(a.keywords||[]),...(a.meshTerms||[])].forEach(k => {
+      const n = k.trim();
+      if (n.length > 3 && n.length < 40) counts[n] = (counts[n]||0)+1;
+    });
+  });
+  return Object.entries(counts).sort((a,b)=>b[1]-a[1]).slice(0,28)
+    .map(([k]) => `<span class="keyword-tag" data-kw="${k}">${k}</span>`).join('');
+}
+
+function renderPagination(filtered, page, ps) {
+  const pages = Math.ceil(filtered.length / ps);
+  if (pages <= 1) return '';
+  let h = '';
+  if (page > 0) h += `<button class="page-btn" data-page="${page-1}">← 上一頁</button>`;
+  h += `<span class="page-info">${page+1} / ${pages}</span>`;
+  if (page < pages-1) h += `<button class="page-btn" data-page="${page+1}">下一頁 →</button>`;
+  return `<div class="pagination">${h}</div>`;
+}
+
+function renderContent() {
+  const { all, filtered, page, pageSize, maxScore, activeFilter, activeKeyword } = state;
+  const start = page * pageSize;
+  const slice = filtered.slice(start, start + pageSize);
+
+  const isDefaultView = activeFilter === 'all' && !activeKeyword;
+  const aowHTML = (page === 0 && isDefaultView && all.length > 0)
+    ? renderAOW(all[0], maxScore) : '';
+
+  const filters = ['all','tier1','guideline','meta-analysis','rct','review','original'];
+  const fLabels = { all:'全部', tier1:'Tier 1', guideline:'指引',
+    'meta-analysis':'統合分析', rct:'隨機試驗', review:'綜論', original:'原著' };
+  const filterBar = `
+    <div class="filter-bar fade-in">
+      ${filters.map(f => `
+        <button class="filter-btn${activeFilter===f&&!activeKeyword?' active':''}" data-filter="${f}">
+          ${fLabels[f]}
+        </button>`).join('')}
+      ${activeKeyword ? `<button class="filter-btn active" data-filter="all">「${activeKeyword}」✕</button>` : ''}
+    </div>`;
+
+  const listLabel = activeKeyword
+    ? `「${activeKeyword}」共 ${filtered.length} 筆結果`
+    : `${filtered.length} 篇文獻`;
+  const sectionHead = `
+    <div class="section-head fade-in">
+      <span class="section-label">${listLabel}</span>
+      <div class="section-rule"></div>
+    </div>`;
+
+  const listItems = (page === 0 && isDefaultView)
+    ? slice.filter(a => a.pmid !== all[0]?.pmid) : slice;
+
+  const listHTML = `
+    <div class="article-list">
+      ${listItems.map((a,i) => renderCard(a, start+i+1, maxScore)).join('')}
+    </div>`;
+
+  const sidebar = `
+    <aside class="sidebar fade-in">
+      <div class="sidebar-card">
+        <div class="sidebar-title">文獻類型</div>
+        ${renderTypeDist(all)}
+      </div>
+      <div class="sidebar-card">
+        <div class="sidebar-title">熱門主題</div>
+        <div class="keyword-list">${renderKeywords(all)}</div>
+      </div>
+      <div class="sidebar-card sidebar-about">
+        <div class="sidebar-title">運作原理</div>
+        <p class="about-text">每天清晨連線 PubMed，掃描近 7 天發表、與急診醫學及重症照護相關的文獻。每篇文獻依期刊影響力、文獻類型與發表日期計分。</p>
+        <p class="about-text" style="margin-top:.6rem">沒有任何人工挑選——完全自動產生。</p>
+      </div>
+    </aside>`;
+
+  document.getElementById('content').innerHTML = `
+    ${aowHTML}
+    ${filterBar}
+    ${sectionHead}
+    <div class="main-grid">
+      <div>
+        ${listHTML}
+        ${renderPagination(filtered, page, pageSize)}
+      </div>
+      ${sidebar}
+    </div>`;
+
+  document.querySelectorAll('.filter-btn[data-filter]').forEach(btn =>
+    btn.addEventListener('click', () => applyFilter(btn.dataset.filter)));
+  document.querySelectorAll('.page-btn[data-page]').forEach(btn =>
+    btn.addEventListener('click', () => {
+      state.page = parseInt(btn.dataset.page);
+      renderContent();
+      window.scrollTo({ top: 180, behavior: 'smooth' });
+    }));
+  document.querySelectorAll('.keyword-tag').forEach(tag =>
+    tag.addEventListener('click', () => applyKeyword(tag.dataset.kw)));
+}
+
+function applyFilter(type) {
+  state.activeFilter = type; state.activeKeyword = null; state.page = 0;
+  state.filtered = type === 'all' ? [...state.all]
+    : type === 'tier1' ? state.all.filter(a => a.journalTier === 1)
+    : state.all.filter(a => a.articleType === type);
+  renderContent();
+}
+
+function applyKeyword(kw) {
+  state.activeKeyword = kw; state.activeFilter = 'all'; state.page = 0;
+  const kl = kw.toLowerCase();
+  state.filtered = state.all.filter(a =>
+    (a.keywords||[]).some(k => k.toLowerCase().includes(kl)) ||
+    (a.meshTerms||[]).some(k => k.toLowerCase().includes(kl)) ||
+    a.title.toLowerCase().includes(kl));
+  renderContent();
+}
+
+async function loadData() {
+  try {
+    const res = await fetch(`data/pulse.json?t=${Date.now()}`);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const data = await res.json();
+    state.all = data.articles || [];
+    state.filtered = [...state.all];
+    state.maxScore = data.stats?.topScore || 100;
+    renderStats(data);
+    renderContent();
+  } catch(e) {
+    document.getElementById('content').innerHTML = `
+      <div class="status">
+        <p class="status-text" style="color:#c0392b">資料載入失敗 — ${e.message}</p>
+      </div>`;
+    document.getElementById('live-label').textContent = '錯誤';
+  }
+}
+
+loadData();
+</script>
+</body>
+</html>
