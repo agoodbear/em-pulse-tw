@@ -1,64 +1,109 @@
 {
-"generatedAt": "2026-06-21T23:10:34.000Z",
+"generatedAt": "2026-06-22T23:16:44.000Z",
 "daysBack": 7,
 "journalCount": 59,
 "stats": {
-"total": 171,
+"total": 198,
 "byType": {
-"review": 10,
+"review": 12,
 "systematic-review": 3,
+"editorial": 8,
 "rct": 1,
+"original": 159,
 "case-report": 4,
-"original": 138,
-"letter": 10,
-"editorial": 5
+"letter": 11
 },
 "byTier": {
-"1": 63,
-"2": 73,
-"3": 35
+"1": 75,
+"2": 86,
+"3": 37
 },
-"topScore": 56,
+"topScore": 59,
 "avgScore": 36
 },
 "articleOfWeek": {
-"pmid": "42315625",
-"title": "How to optimize brain perfusion and prevent cerebral complications during extracorporeal life support.",
+"pmid": "42329250",
+"title": "PEEP and alveolar recruitment after 60 years of acute respiratory distress syndrome.",
 "authors": [
-"Dauwe DF",
-"Cho SM",
-"Gijs J",
-"Burrell A",
-"Badulak J",
-"Vandenbriele C",
-"Levy B",
-"Brady K",
-"Combes A"
+"Grieco DL",
+"Coudroy R",
+"Jonkman AH",
+"Liu L",
+"Collino F",
+"Menga LS",
+"Rosà T",
+"Alcala G",
+"Vaporidi K",
+"Telias I",
+"Camporota L",
+"Ranieri VM",
+"Antonelli M",
+"Brochard L",
+"Maggiore SM"
 ],
 "journal": "Intensive care medicine",
 "journalTier": 1,
 "journalSJR": null,
 "articleType": "review",
-"pubDate": "2026-06-18",
-"abstract": "Extracorporeal life support (ECLS) is increasingly used to rescue patients with refractory respiratory failure, cardiogenic shock and/or cardiac arrest. Acute brain injury during ECLS is common and associated with a significant increase in mortality and long-term disability. Brain injury in ECLS patients can arise from either the underlying disease or pre-ECLS events, such as cardiac arrest, or from secondary mechanisms linked to ECLS-related complications, management strategies, and physiologic perturbations during support. In this review, we will focus on the modifiable factors and clinical management strategies to prevent or mitigate secondary brain injury during ECLS. Both veno-arterial membrane oxygenation (VA-ECMO) as well as veno-venous membrane oxygenation (VV-ECMO) will be discussed. First, we provide an overview of the interplay between patient and circuit related factors that determine brain perfusion and oxygen delivery in this critically ill patient population. Second, we highlight the importance of standardized multimodal neuromonitoring to detect evolving brain injury early and to guide individualized neurocritical care and ECLS management. Third, we identify modifiable ECLS factors and physiological targets which minimize secondary brain injury. We provide guidance on the titration of extracorporeal blood flow and blood pressure targets, the amount of sweep gas flow and oxygen fraction, temperature control and anticoagulation management. A comprehensive understanding of ECLS physiology and circuit-patient interactions, integrated with protocolized multimodal monitoring, enables individualized adjustment of modifiable ECLS settings to prevent or mitigate secondary brain injury.",
-"doi": "10.1371/journal.pone.0159973",
+"pubDate": "2026-06-22",
+"abstract": "Positive end-expiratory pressure (PEEP) remains a cornerstone of acute respiratory distress syndrome management. However, randomized trials of PEEP strategies have yielded conflicting results, reflecting inter-individual heterogeneity. PEEP-induced alveolar recruitment enhances lung protection by redistributing tidal volume over a larger functional lung and reducing atelectrauma and bronchiolotrauma. Conversely, in poorly recruitable lungs, PEEP predominantly increases stress in already aerated regions, potentially exacerbating ventilator-induced lung injury and cardiovascular compromise. The net effect of PEEP reflects a patient-specific balance between recruitment and overdistension, shaped by hemodynamic tolerance. Clinical markers traditionally used for assessing PEEP response (gas exchange, compliance, and driving pressure), while informative at a population level, remain unreliable for clinical decision-making at the individual level. With the exception of specific subgroups (e.g., obesity), patients with PaO2/FiO2 > 200 mmHg are unlikely to have substantial alveolar collapse amenable to recruitment and can be managed with lower PEEP (e.g., 5-8 cmH2O) facilitating transition to assisted ventilation. In contrast, higher PEEP is more likely to benefit patients with PaO2/FiO2 ≤ 200 mmHg, in whom a physiologically grounded framework should begin with assessment of lung recruitability (e.g., computed tomography, gas recruitment indices). This should account for airway closure, since PEEP below the airway opening pressure does not modify lung volume and may confound respiratory mechanics interpretation. In patients with significant recruitability, PEEP titration should integrate global measures (plateau pressure, stress index) with regional monitoring (electrical impedance tomography, transpulmonary pressure) when available. Conversely, poorly recruitable patients are unlikely to benefit from higher PEEP and can be managed with lower levels.",
+"doi": "10.1186/s13054-025-05437-0",
 "keywords": [
-"Brain injury",
-"Cerebral autoregulation",
-"Extracorporeal life support",
-"Extracorporeal membrane oxygenation",
-"Multimodal monitoring",
-"Personalized management"
+"ARDS",
+"Alveolar recruitment",
+"PEEP",
+"Respiratory mechanics"
 ],
 "meshTerms": [],
 "pubTypes": [
 "Journal Article",
 "Review"
 ],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42315625/",
-"impactScore": 56
+"url": "https://pubmed.ncbi.nlm.nih.gov/42329250/",
+"impactScore": 59
 },
 "articles": [
+{
+"pmid": "42329250",
+"title": "PEEP and alveolar recruitment after 60 years of acute respiratory distress syndrome.",
+"authors": [
+"Grieco DL",
+"Coudroy R",
+"Jonkman AH",
+"Liu L",
+"Collino F",
+"Menga LS",
+"Rosà T",
+"Alcala G",
+"Vaporidi K",
+"Telias I",
+"Camporota L",
+"Ranieri VM",
+"Antonelli M",
+"Brochard L",
+"Maggiore SM"
+],
+"journal": "Intensive care medicine",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "review",
+"pubDate": "2026-06-22",
+"abstract": "Positive end-expiratory pressure (PEEP) remains a cornerstone of acute respiratory distress syndrome management. However, randomized trials of PEEP strategies have yielded conflicting results, reflecting inter-individual heterogeneity. PEEP-induced alveolar recruitment enhances lung protection by redistributing tidal volume over a larger functional lung and reducing atelectrauma and bronchiolotrauma. Conversely, in poorly recruitable lungs, PEEP predominantly increases stress in already aerated regions, potentially exacerbating ventilator-induced lung injury and cardiovascular compromise. The net effect of PEEP reflects a patient-specific balance between recruitment and overdistension, shaped by hemodynamic tolerance. Clinical markers traditionally used for assessing PEEP response (gas exchange, compliance, and driving pressure), while informative at a population level, remain unreliable for clinical decision-making at the individual level. With the exception of specific subgroups (e.g., obesity), patients with PaO2/FiO2 > 200 mmHg are unlikely to have substantial alveolar collapse amenable to recruitment and can be managed with lower PEEP (e.g., 5-8 cmH2O) facilitating transition to assisted ventilation. In contrast, higher PEEP is more likely to benefit patients with PaO2/FiO2 ≤ 200 mmHg, in whom a physiologically grounded framework should begin with assessment of lung recruitability (e.g., computed tomography, gas recruitment indices). This should account for airway closure, since PEEP below the airway opening pressure does not modify lung volume and may confound respiratory mechanics interpretation. In patients with significant recruitability, PEEP titration should integrate global measures (plateau pressure, stress index) with regional monitoring (electrical impedance tomography, transpulmonary pressure) when available. Conversely, poorly recruitable patients are unlikely to benefit from higher PEEP and can be managed with lower levels.",
+"doi": "10.1186/s13054-025-05437-0",
+"keywords": [
+"ARDS",
+"Alveolar recruitment",
+"PEEP",
+"Respiratory mechanics"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article",
+"Review"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42329250/",
+"impactScore": 59
+},
 {
 "pmid": "42315625",
 "title": "How to optimize brain perfusion and prevent cerebral complications during extracorporeal life support.",
@@ -94,7 +139,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42315625/",
-"impactScore": 56
+"impactScore": 55
 },
 {
 "pmid": "42314936",
@@ -127,7 +172,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42314936/",
-"impactScore": 56
+"impactScore": 55
 },
 {
 "pmid": "42313144",
@@ -170,7 +215,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42313144/",
-"impactScore": 56
+"impactScore": 55
 },
 {
 "pmid": "42310686",
@@ -205,7 +250,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42310686/",
-"impactScore": 55
+"impactScore": 54
 },
 {
 "pmid": "42301312",
@@ -251,7 +296,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42301312/",
-"impactScore": 54
+"impactScore": 53
 },
 {
 "pmid": "42298434",
@@ -282,7 +327,7 @@
 "Systematic Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42298434/",
-"impactScore": 53
+"impactScore": 52
 },
 {
 "pmid": "42295404",
@@ -325,7 +370,76 @@
 "Systematic Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42295404/",
-"impactScore": 53
+"impactScore": 52
+},
+{
+"pmid": "42329251",
+"title": "Sudden hemodynamic collapse and biventricular dysfunction: What's your diagnosis?",
+"authors": [
+"Brouland M",
+"Röhm KD",
+"Kimmoun A"
+],
+"journal": "Intensive care medicine",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "editorial",
+"pubDate": "2026-06-22",
+"abstract": "",
+"doi": "10.1164/rccm.201512-2435CP",
+"keywords": [],
+"meshTerms": [],
+"pubTypes": [
+"Editorial"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42329251/",
+"impactScore": 51
+},
+{
+"pmid": "42329249",
+"title": "Balancing lung recruitment and venous congestion in ARDS: rethinking the systemic effects of PEEP.",
+"authors": [
+"Benites MH",
+"Papazian L",
+"Retamal J"
+],
+"journal": "Intensive care medicine",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "editorial",
+"pubDate": "2026-06-22",
+"abstract": "",
+"doi": "10.1007/s00134-025-08082-x",
+"keywords": [],
+"meshTerms": [],
+"pubTypes": [
+"Editorial"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42329249/",
+"impactScore": 51
+},
+{
+"pmid": "42329248",
+"title": "Negotiating complexity in spite of scarce evidence-how to care for older ICU patients?",
+"authors": [
+"Beil M",
+"Jung C",
+"Guidet B"
+],
+"journal": "Intensive care medicine",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "editorial",
+"pubDate": "2026-06-22",
+"abstract": "",
+"doi": "10.1007/s00134-025-08163-x",
+"keywords": [],
+"meshTerms": [],
+"pubTypes": [
+"Editorial"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42329248/",
+"impactScore": 51
 },
 {
 "pmid": "42295389",
@@ -353,23 +467,22 @@
 "Peripheral nerve block"
 ],
 "meshTerms": [
-"Humans",
-"Female",
-"Nerve Block",
-"Radius Fractures",
-"Male",
-"Prospective Studies",
-"Middle Aged",
-"Pain Measurement",
-"Aged",
 "Adult",
+"Aged",
+"Female",
+"Humans",
+"Male",
+"Middle Aged",
+"Analgesia",
+"Closed Fracture Reduction",
+"Hematoma",
+"Nerve Block",
+"Pain Management",
+"Pain Measurement",
+"Prospective Studies",
 "Radial Nerve",
 "Ultrasonography, Interventional",
-"Wrist Fractures",
-"Pain Management",
-"Hematoma",
-"Analgesia",
-"Closed Fracture Reduction"
+"Wrist Fractures"
 ],
 "pubTypes": [
 "Journal Article",
@@ -377,7 +490,223 @@
 "Multicenter Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42295389/",
-"impactScore": 51
+"impactScore": 50
+},
+{
+"pmid": "42320016",
+"title": "Targeting Cellular Senescence Enhances Post-Burn Wound Healing in Aged Mice.",
+"authors": [
+"Faour S",
+"Khalaf F",
+"Chen Y",
+"Bieerkehazhi S",
+"de Brito Monteiro L",
+"Aijaz A",
+"Abdulkareem N",
+"Matveev A",
+"Hinz B",
+"Jeschke MG"
+],
+"journal": "Shock (Augusta, Ga.)",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-06-22",
+"abstract": "Despite advancements in burn care, older burn patients continue to experience disproportionately high mortality. Impaired wound healing is a major prognostic indicator of burn patient survival, yet the mechanisms underlying delayed repair in older adults remain poorly understood. Cellular senescence, a hallmark of aging, contributes to tissue dysfunction and impaired regeneration, making it a potential mediator of age-associated deficits in burn wound healing. Here, we investigated the role of cellular senescence in post-burn wound repair using a validated adult and aged murine full-thickness scald burn model and evaluated whether senolytic treatment with Dasatinib and Quercetin improves healing outcomes in aged mice. Thermal injury increased senescence-associated features in burn wounds, including SA-β-Gal-positive skin cells, and was associated with reduced myofibroblast-associated marker expression, increased extracellular matrix-degrading components, and delayed wound healing in aged mice. In contrast, senolytic treatment in aged burn mice reduced cellular senescence, demonstrated by a 4.4-fold decrease in SA-β-Gal-positive skin cells to baseline levels, increased α-SMA and Col1a1 expression, and improved macroscopic burn wound healing. Together, these findings suggest that cellular senescence is associated with impaired skin repair after burn injury and that senescence-targeting therapies may represent a potential strategy to improve wound healing outcomes in older burn patients.",
+"doi": "10.1097/SHK.0000000000002898",
+"keywords": [
+"Aging",
+"Burns",
+"Cellular Senescence",
+"Senolytics",
+"Skin",
+"Wound Healing"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42320016/",
+"impactScore": 50
+},
+{
+"pmid": "42320014",
+"title": "PCT-Anchored Machine Learning for Pre-Culture Identification of Gram-Negative Sepsis in Children: A Four-Site Study.",
+"authors": [
+"Velez T",
+"Dewan M",
+"Badaki-Makun O",
+"Hirsch D",
+"Mercurio DC",
+"Depinet H",
+"Kamaleswaran R",
+"Grunwell J",
+"Triantafyllou M",
+"Wolff N",
+"Abdelrahman F",
+"Macias C",
+"Koutroulis I"
+],
+"journal": "Shock (Augusta, Ga.)",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-06-22",
+"abstract": "Procalcitonin (PCT) has moderate accuracy for bacteremia detection but is infrequently used in pediatric emergency departments, partly due to poor sensitivity when applied as a standalone threshold and guideline recommendations against its isolated use. We evaluated whether a machine learning (ML) approach that contextualizes PCT with additional clinical features has the potential to improve detection of gram-negative bacteremic organ dysfunction in children prior to culture results. We conducted a retrospective analysis of 431 pediatric encounters across four sites where blood culture and PCT were co-ordered. Blood culture results were classified as gram-negative bloodstream infection (BSI), gram-positive BSI, contaminant, or negative using a priority-based NLP algorithm applied to free-text result strings. The primary outcome was gram-negative BSI with concurrent organ dysfunction ascertained by Phoenix-8 criteria excluding the immunologic domain. We evaluated PCT alone, a four-feature adult sepsis-aligned benchmarking model, and candidate multi-feature combinations identified through systematic univariate screening, using Random Forest (RF) and penalized logistic regression (LASSO) as co-primary algorithms with nested repeated stratified cross-validation and permutation importance analysis. Model discrimination was compared using paired fold-level AUROC testing and calibration was assessed using Platt scaling. Among 431 encounters with a numeric PCT result, 20 (4.6%) met the primary outcome of gram-negative BSI with Phoenix-8 organ dysfunction. PCT alone achieved AUROC 0.762. A four-feature adult sepsis-aligned model achieved AUROC 0.862; respiratory rate and systolic blood pressure contributed negligibly. Systematic screening identified platelet count and creatinine as optimal co-features; the three-feature model (PCT, platelet count, creatinine) achieved AUROC 0.884 (BCa 95% CI 0.871-0.982), consistent across RF and LASSO (0.874), with Brier score 0.038 below the null model (0.044), and positive likelihood ratio 12.56 (number needed to assess of 2.6). PCT alone showed limited performance. Embedding PCT within a 3-feature ML model improved discrimination over PCT alone (delta AUROC 0.122, p<0.001), with consistent performance across RF and LASSO. Unlike adult models, pediatric prediction relied on renal dysfunction (creatinine) rather than hemodynamics. These findings are hypothesis-generating and require prospective validation in adequately powered cohorts before clinical implementation.",
+"doi": "10.1097/SHK.0000000000002895",
+"keywords": [
+"bacteremia",
+"machine learning",
+"organ dysfunction",
+"pediatric emergency",
+"platelet",
+"procalcitonin",
+"sepsis"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42320014/",
+"impactScore": 50
+},
+{
+"pmid": "42320005",
+"title": "Sarcopenia-associated traits and sepsis risk: a Mendelian Randomization and Prospective Observational Study.",
+"authors": [
+"Zhou Y",
+"Qin M",
+"Wang L",
+"Wan L",
+"Chen C",
+"Si X",
+"Wu J",
+"Chen R",
+"Pei F",
+"Gu B",
+"Guan X"
+],
+"journal": "Shock (Augusta, Ga.)",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-06-22",
+"abstract": "Sarcopenia is closely associated with increased mortality in sepsis patients. However, the relationship between sarcopenia and sepsis incidence remains unclear. This study employed Mendelian randomization (MR) and prospective observational analysis to investigates the potential causal links between sarcopenia and sepsis risk. MR analysis incorporated nine GWAS datasets of sarcopenia-associated traits (muscle strength, muscle quantity, and physical performance) and one sepsis GWAS dataset. A prospective observational study was conducted between June, 2024 and March, 2025. Five ultrasound-derived muscle quantity indices [ thickness of the rectus femoris (RF-TH), vastus intermedius (VI-TH) and quadriceps femoris (QF-TH), cross-sectional area of the rectus femoris (RF-CSA), thickness of the tibialis anterior (TA-TH)] and one muscle quality index (tibialis anterior pennation angle, TA-PA) were assessed on the first day after ICU admission. The outcome event was sepsis incidence during ICU stay. Patients were categorized into non-sepsis group (n=135), and sepsis group (n=37). Logistic regression was conducted to identify risk factors associated with sepsis incidence during ICU stay. MR analysis indicated that physical performance assessed by usual walking pace was significantly associated with a reduced risk of sepsis among three traits (OR: 0.29, 95% CI: 0.16-0.52, P < 0.001). Consistently, Observational results indicated that TA-PA, which is closely linked to usual walking pace, was independently associated with a reduced risk of sepsis during ICU stay (OR:0.76, 95%CI:0.67-0.95, P =0.026). Our study suggested that a potential genetic causal link between usual walking pace and reduced sepsis risk, and supported that lower TA-PA was more susceptible to sepsis. It may offer new insights to facilitate the early identification and risk stratification of sepsis.",
+"doi": "10.1097/SHK.0000000000002890",
+"keywords": [
+"Mendelian randomization",
+"Sarcopenia-associated traits",
+"low physical performance",
+"muscle ultrasound indices",
+"sepsis risk",
+"usual walking pace"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42320005/",
+"impactScore": 50
+},
+{
+"pmid": "42320004",
+"title": "ALTEPLASE AND METHYLPREDNISOLONE ASSOCIATED TREATMENT MODULATE MICROCIRCULATION AND INFLAMMATION ON BRAIN DEATH DONORS.",
+"authors": [
+"Ferreira da Anunciação L",
+"Vidal-Dos-Santos M",
+"Fernandes CM",
+"Ricardo-da-Silva FY",
+"de Assis Ramos MM",
+"Flora Agostinho BV",
+"Zonta de Freitas PL",
+"Breithaupt-Faloppa AC",
+"Correia CJ",
+"Moreira LFP"
+],
+"journal": "Shock (Augusta, Ga.)",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-06-22",
+"abstract": "Brain death (BD) triggers systemic inflammation, platelet aggregation, and thrombus formation, which compromise organ quality. This study evaluated the effects of the fibrinolytic alteplase alone and in combination with methylprednisolone, following BD induction. Wistar rats were randomized into four groups: sham (animals without BD), BD (animals subjected to BD), rTPA (animals with BD and alteplase treatment), and rTPA+P (animals with BD and alteplase and methylprednisolone treatment). The analyzed parameters included mesenteric microcirculation perfusion, inflammatory mediators, platelet aggregation, coagulation, and histology. Improvements in mesenteric microcirculatory flow following alteplase were observed. This effect is likely related to the modulatory action of alteplase on platelet aggregation, along with an increase in vascular density, which occurred in association with decrease of endothelin-1 levels. Combined therapy demonstrated an additional beneficial effect by modulating the inflammatory cascade, including significant reductions in IL-6, IL-10, and VEGF, as well as improving leukocyte-endothelial interactions in the mesentery. Importantly, alteplase did not cause detectable damage to any of the studied organs. Alteplase treatment prevented platelet aggregation and improved microcirculation. When combined with methylprednisolone, it also modulated the inflammatory response. These findings suggest that alteplase treatment has a potential benefit in maintaining the quality of brain-dead donors.",
+"doi": "10.1097/SHK.0000000000002896",
+"keywords": [
+"Alteplase",
+"Brain Death",
+"Coagulation",
+"Corticoid",
+"Inflammation",
+"Microcirculation"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42320004/",
+"impactScore": 50
+},
+{
+"pmid": "42318910",
+"title": "Extracorporeal membrane oxygenation in trauma patients with major pulmonary contusion.",
+"authors": [
+"Rafaqat W",
+"Simpson MK",
+"Lagazzi E",
+"Nzenwa IC",
+"Panossian VS",
+"Abiad M",
+"Arnold SC",
+"Velmahos GC",
+"DeWane MP",
+"Renne BC"
+],
+"journal": "The journal of trauma and acute care surgery",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-06-22",
+"abstract": "Patients with pulmonary contusion (PC) may require extracorporeal membrane oxygenation (ECMO) due to respiratory failure refractory to conventional management. We aimed to compare outcomes in patients with major PC who received ECMO with those who received conventional management. We performed a retrospective cohort study using the Trauma Quality Improvement Program Database (2017-2020). We identified adult patients with major PC who underwent veno-arterial or veno-venous ECMO or had respiratory failure and received mechanical ventilation. The primary outcome was survival to discharge. Secondary outcomes included the rate of pulmonary embolism, stroke, and ventilator-associated pneumonia. We used 1:1 propensity matching to adjust for patient and injury characteristics. We used stepwise logistic regression to identify predictors of survival among PC patients undergoing ECMO. We included 611 patients, of whom 106 (17%) underwent ECMO. Among 102 well-matched pairs, there was no difference in the rate of mortality (37% vs. 29%; p=0.23), pulmonary embolism (5% vs. 6%; p=0.76), or stroke (7% vs. 3%; p=0.19). The rate of ventilator-associated pneumonia was significantly lower in ECMO patients (14% vs. 36%; p<0.001). Among patients undergoing ECMO, 67 (63%) survived to discharge. In-hospital cardiac arrest, severe head injury, and age over 50 years were associated with lower survival, while anticoagulant use was associated with higher odds of survival. ECMO is safe in trauma patients with major PC and may be associated with lower morbidity. Young patients without severe head injuries, cardiac arrest, and contraindications to anticoagulation may benefit most from ECMO. (J Trauma Acute Care Surg. 2026;00: 00-00. Copyright © 2026 Wolters Kluwer Health, Inc. All rights reserved.). Therapeutic Study; Level IV.",
+"doi": "10.1097/TA.0000000000005026",
+"keywords": [
+"ECMO",
+"Pulmonary contusion",
+"extracorporeal membrane oxygenation",
+"trauma"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42318910/",
+"impactScore": 50
+},
+{
+"pmid": "42317059",
+"title": "Rethinking Intracranial Hypertension in Neurocritical Care: Are We Defining the Right Intracranial Pressure Events?",
+"authors": [
+"McCredie VA"
+],
+"journal": "Critical care medicine",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-06-22",
+"abstract": "",
+"doi": "10.1097/CCM.0000000000007253",
+"keywords": [
+"Intracranial hypertension",
+"electronic health data",
+"intracranial pressure",
+"neurocritical care",
+"physiologic monitoring",
+"traumatic brain injury"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42317059/",
+"impactScore": 50
 },
 {
 "pmid": "42320420",
@@ -406,7 +735,83 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42320420/",
-"impactScore": 49
+"impactScore": 48
+},
+{
+"pmid": "42323608",
+"title": "Comparative efficacy and safety of extended versus continuous infusion of beta-lactam antibiotics for severe infection: a network meta-analysis of randomized trials.",
+"authors": [
+"Zhou L",
+"Tang Q",
+"Zhu J",
+"Liang G",
+"Yang Y",
+"Zhao Y",
+"Yu Z"
+],
+"journal": "Critical care (London, England)",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-06-20",
+"abstract": "Prolonged infusion (extended [EI, 2-4 h] or continuous [CI, 24 h] extended) of beta-lactam antibiotics is considered to have advantages for patients with severe infection compared with intermittent bolus (IB). However, the choice of EI and CI is unclear due to the lack of direct comparison. We aimed to compare the EI and CI of beta-lactams in patients with severe infections using a network meta-analysis method. We systematically searched PubMed, Embase, Web of Science, Cochrane Library, CNKI, Wanfang Database, and Weipu Database for randomized controlled trials (RCTs) comparing EI, CI, or IB with beta-lactams in adults with severe infections. The primary outcome was all-cause mortality. A frequentist network meta-analysis with a random-effects model was performed. Risk of bias was assessed using the Cochrane RoB 2 tool. Thirty-five RCTs (10,627 patients) were included. Risk of bias was moderate to high in most studies. For mortality, EI ranked highest (SUCRA 74.20%) with numerically lower rates versus IB (EI: OR 0.80, 95% CI 0.55-1.17; CI: OR 0.86, 95% CI 0.62-1.02). Both EI and CI significantly improved clinical cure rates versus IB (EI: OR 1.58, 95% CI 1.13-2.23; CI: OR 1.35, 95% CI 1.05-1.85), and EI ranked first (SUCRA 87.72%). For microbiological success, CI ranked highest (SUCRA 83.03%), followed by EI (SUCRA 42.98%) and IB (SUCRA 23.99%), but no significant difference was found. For hospital stay, EI was associated with a reduction of borderline statistical significance (MD -3.49 days, 95% CI -6.79 - -0.08), whereas CI did not show a significant reduction (MD 1.11 days, 95% CI -1.24 - 3.63), and EI ranked best (SUCRA 98.09%). No significant adverse event differences were observed. Subgroup analyses showed variable treatment rankings across categories, with no statistically significant subgroup effects. In patients with severe infections, both EI and CI improved clinical cure versus IB, whereas mortality did not differ significantly. Indirect evidence suggests EI may be more effective than CI in most outcomes except microbiological response. EI trended to shorten hospital stay but the difference was of borderline significance. Considering its practical feasibility, EI appears to be a favorable option based on current evidence. However, this finding is based on indirect evidence and requires confirmation in head-to-head trials. PROSPERO CRD420251242437.",
+"doi": "10.1186/s13054-026-06142-2",
+"keywords": [
+"Beta-lactam antibiotics",
+"Continuous infusion",
+"Extended infusion",
+"Network meta-analysis",
+"Prolonged infusion"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42323608/",
+"impactScore": 48
+},
+{
+"pmid": "42323108",
+"title": "Phenotyping of pulmonary arterial hypertension associated with congenital heart disease using latent class analysis: insights from a national prospective registry.",
+"authors": [
+"Li Q",
+"Yu Q",
+"Zhang G",
+"Tian H",
+"Yu Z",
+"Zhang C",
+"Chen Y",
+"Liu Y",
+"Wu W",
+"Zhu X",
+"Zhu X",
+"Yang Z",
+"Xiong C",
+"Han H",
+"Wu Y",
+"Gu Q",
+"He J"
+],
+"journal": "Chest",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-06-20",
+"abstract": "Pulmonary arterial hypertension associated with congenital heart disease (PAH-CHD) is characterized by substantial prognostic and therapeutic heterogeneity. Conventional clinical and anatomic-pathophysiological classifications fail to fully capture these intricacies. Unsupervised clustering approaches such as latent class analysis (LCA) have been used to address this limitation. Can LCA-derived phenogroups refine risk stratification and predict PAH-targeted treatment responses in adult patients with PAH-CHD? Adult PAH-CHD patients (N=889) from a multicenter prospective registry were stratified into post- and pre-tricuspid shunt subsets. LCA was performed in each subset using 28 candidate clinical, laboratory, and hemodynamic variables. Ten-year survival and the effect of PAH-targeted therapy across phenogroups were evaluated. LCA identified four phenogroups in each subset with distinct phenotyping patterns. In post-tricuspid shunts, Group 1 (\"adaptation with open shunt\") exhibited preserved right ventricular function and the best survival despite high afterload. Groups 3 (\"maladaptation and failure\") and 4 (\"closed shunt and failure\") faced 2 to 3-fold higher mortality than Group 1. Notably, Group 2 (\"hyperkinetic state\") uniquely benefited from combination therapy (interaction P=0.026). In pre-tricuspid shunts, Groups 1 (\"high shunt and mild resistance\") and 3 (\"young female and low inflammation\") demonstrated preserved survival despite varying afterloads. However, Group 2 (\"old male and comorbidities\") had significantly higher mortality and an attenuated treatment response (interaction P=0.037) despite sharing mild hemodynamics with Group 1. Group 4 (\"high resistance and failure\") faced severe hypoxemia and the worst prognosis. LCA successfully stratified PAH-CHD patients into distinct phenogroups with varied clinical profiles, survival, and treatment responses. This data-driven phenotyping system provides a novel approach for risk stratification and may guide personalized clinical decision-making.",
+"doi": "10.1016/j.chest.2026.06.019",
+"keywords": [
+"congenital heart disease",
+"machine learning",
+"prognosis",
+"pulmonary arterial hypertension",
+"treatment"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42323108/",
+"impactScore": 48
 },
 {
 "pmid": "42320419",
@@ -434,7 +839,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42320419/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42320412",
@@ -462,7 +867,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42320412/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42321935",
@@ -504,12 +909,25 @@
 "KDIGO",
 "Kidney protection strategy"
 ],
-"meshTerms": [],
+"meshTerms": [
+"Humans",
+"Acute Kidney Injury",
+"Prospective Studies",
+"Critical Illness",
+"Female",
+"Male",
+"Middle Aged",
+"Aged",
+"Cohort Studies",
+"Intensive Care Units",
+"Europe"
+],
 "pubTypes": [
-"Journal Article"
+"Journal Article",
+"Multicenter Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42321935/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42321934",
@@ -535,7 +953,7 @@
 "Comment"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42321934/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42320693",
@@ -556,7 +974,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42320693/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42320668",
@@ -590,7 +1008,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42320668/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42319843",
@@ -620,7 +1038,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42319843/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42316265",
@@ -670,7 +1088,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42316265/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42312871",
@@ -706,7 +1124,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42312871/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42312687",
@@ -754,7 +1172,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42312687/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42307660",
@@ -777,7 +1195,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42307660/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42307659",
@@ -800,7 +1218,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42307659/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42307658",
@@ -823,7 +1241,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42307658/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42316318",
@@ -861,7 +1279,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42316318/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42316275",
@@ -892,7 +1310,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42316275/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42316218",
@@ -917,7 +1335,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42316218/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42315322",
@@ -943,7 +1361,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42315322/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42315321",
@@ -974,7 +1392,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42315321/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42315320",
@@ -1009,7 +1427,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42315320/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42314937",
@@ -1045,7 +1463,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42314937/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42314935",
@@ -1074,7 +1492,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42314935/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42314898",
@@ -1104,7 +1522,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42314898/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42314897",
@@ -1138,7 +1556,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42314897/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42314896",
@@ -1173,7 +1591,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42314896/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42313044",
@@ -1206,7 +1624,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42313044/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42313043",
@@ -1228,7 +1646,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42313043/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42313042",
@@ -1266,7 +1684,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42313042/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42307324",
@@ -1294,7 +1712,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42307324/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42307255",
@@ -1338,7 +1756,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42307255/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42302399",
@@ -1370,7 +1788,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42302399/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42309779",
@@ -1402,7 +1820,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42309779/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42307661",
@@ -1427,7 +1845,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42307661/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42306848",
@@ -1467,7 +1885,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42306848/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42302407",
@@ -1495,7 +1913,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42302407/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42302321",
@@ -1522,7 +1940,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42302321/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42299516",
@@ -1566,7 +1984,38 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42299516/",
-"impactScore": 46
+"impactScore": 45
+},
+{
+"pmid": "42329581",
+"title": "ARISE framework: a temporal, multi-organ view of perfusion in sepsis.",
+"authors": [
+"Liu J",
+"Zhao H",
+"Liu D",
+"Wang X"
+],
+"journal": "Internal and emergency medicine",
+"journalTier": 2,
+"journalSJR": null,
+"articleType": "review",
+"pubDate": "2026-06-22",
+"abstract": "Sepsis is a critical illness characterized by pronounced temporal dynamics and marked heterogeneity of organ perfusion. Current hemodynamic management relies largely on global macro-circulatory variables such as MAP and CO, but these measures provide limited insight into inter-organ blood-flow redistribution and often fail to detect occult hypoperfusion in vulnerable tissues. Consequently, organ dysfunction may continue to progress even when systemic targets appear to be achieved. The arterial resistance index (RI) can be repeatedly assessed in specific organs with relatively high temporal resolution, it provides a practical signal for tracking perfusion heterogeneity in sepsis. On this basis, this review reframes sepsis as a process dominated by dynamic blood-flow redistribution rather than a single, homogeneous state of circulatory failure and proposes the Arterial Resistance Index Series in Echography (ARISE) framework. ARISE focuses on four representative vascular beds that capture key dimensions of circulatory regulation-including central control, vulnerable organs, and peripheral perfusion: the cerebral, renal, and superior mesenteric arteries, as well as the anatomical snuffbox artery. The framework emphasizes RI trajectories over time, inter-organ flow distribution, and the structured integration of these patterns. Available evidence indicates that arterial RI in different organs exhibits pronounced temporal variation and inter-organ heterogeneity during sepsis. Distinct trajectories are observed across central, vulnerable, and peripheral vascular beds, reflecting ongoing redistribution of blood flow as the disease evolves. Multi-organ RI assessment can reveal pathophysiological phenomena not captured by conventional macro-circulatory indices, including occult hypoperfusion, macro-microcirculatory uncoupling, and \"sacrificial\" redistribution. Advances in critical care ultrasonography now enable bedside, real-time, quantitative monitoring of multi-organ RI, providing the technical foundation for dynamic perfusion assessment. Overall, ARISE shifts sepsis assessment from a static pressure-flow paradigm to a dynamic framework centered on organ blood-flow distribution and evolving perfusion patterns.",
+"doi": "10.1016/j.jacc.2025.03.009",
+"keywords": [
+"ARISE",
+"Arterial resistance index",
+"Redistribution of blood flow",
+"Sepsis",
+"Ultrasound"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article",
+"Review"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42329581/",
+"impactScore": 45
 },
 {
 "pmid": "42295382",
@@ -1589,7 +2038,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42295382/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42295380",
@@ -1612,7 +2061,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42295380/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42320418",
@@ -1648,7 +2097,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42320418/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42304498",
@@ -1682,7 +2131,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42304498/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42304479",
@@ -1713,7 +2162,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42304479/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42302985",
@@ -1753,7 +2202,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42302985/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42302984",
@@ -1788,7 +2237,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42302984/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42301311",
@@ -1832,7 +2281,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42301311/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42301242",
@@ -1855,7 +2304,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42301242/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42301229",
@@ -1894,7 +2343,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42301229/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42320413",
@@ -1922,7 +2371,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42320413/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42314343",
@@ -1956,7 +2405,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42314343/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42297235",
@@ -2001,7 +2450,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42297235/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42296494",
@@ -2028,7 +2477,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42296494/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42296493",
@@ -2051,7 +2500,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42296493/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42296330",
@@ -2085,7 +2534,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42296330/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42296258",
@@ -2115,7 +2564,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42296258/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42296209",
@@ -2147,7 +2596,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42296209/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42296084",
@@ -2168,7 +2617,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42296084/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42295381",
@@ -2192,7 +2641,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42295381/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42294977",
@@ -2220,7 +2669,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42294977/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42294965",
@@ -2264,7 +2713,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42294965/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42313337",
@@ -2297,7 +2746,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42313337/",
-"impactScore": 42
+"impactScore": 41
 },
 {
 "pmid": "42310284",
@@ -2331,41 +2780,535 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42310284/",
-"impactScore": 41
+"impactScore": 40
 },
 {
-"pmid": "42289704",
-"title": "Critical care delivery models in emergency departments: a systematic review of the literature and meta-analysis of related outcome effects.",
+"pmid": "42329582",
+"title": "Impact of hospital restructuring on emergency department quality: a natural experiment.",
 "authors": [
-"Noitz M",
-"Ilko SA",
-"Dünser MW",
-"Behringer W",
-"Wildner B",
-"Herkner H"
+"Wang JY",
+"Huang YN",
+"Chang YH",
+"Chen TL",
+"Liu LY",
+"Yeung CY",
+"Lin ES"
 ],
-"journal": "Scandinavian journal of trauma, resuscitation and emergency medicine",
+"journal": "Internal and emergency medicine",
 "journalTier": 2,
 "journalSJR": null,
-"articleType": "review",
-"pubDate": "2026-06-14",
-"abstract": "Critical care delivery in the emergency department (ED) may improve selected patient- and system-relevant outcomes. However, it remains unclear which organisational models to deliver critical care in the ED (CC-ED) have been implemented and what their outcome effects are. We conducted a systematic review and meta-analysis including studies describing organisational approaches to deliver CC-ED. Delivery models were categorised and described qualitatively. For studies reporting comparable outcomes, random-effects meta-analysis was performed to estimate pooled effects and 95% confidence intervals. Outcomes included mortality, intensive care unit (ICU) admission rates, ICU length of stay (LOS), hospital LOS, and cost of care. Of 4,967 records, 67 were included into the qualitative assessment and 11 studies into the quantitative analysis, respectively. We identified five models to deliver CC-ED. These consisted of dedicated critical care areas in the ED (n = 49/67, 73.1%), placement of critical care staff in the ED (n = 5/67, 7.5%), deployment of critical care teams to the ED (n = 5/67, 7.5%), telemedical support of ED staff by critical care teams (n = 5/67, 7.5%), and implementation of protocols to accelerate ICU admission (n = 3/67, 4.5%). Mortality was not different versus usual care in any of the CC-ED models. CC-ED models had variable effects on the ICU admission rate, hospital and ICU LOS. Dedicated critical care areas in the ED were associated with lower ICU admission rates [OR 0.83 (0.76-0.91), p < 0.001], and shorter hospital LOS [mean difference - 0.31 (-0.59 to -0.03) days, p = 0.03], but longer ICU LOS [mean difference 0.45 (0.31-0.6) days, p < 0.001]. Reported cost of care did not differ between CC-ED and usual care. We identified five different organisational model categories to deliver CC-ED. Dedicated critical care areas such as ED-ICUs was the model category most frequently published. Our quantitative meta-analysis suggests that compared with other CC-ED delivery models, dedicated critical care areas in the ED may reduce both ICU admission rates and hospital LOS of critically ill ED patients.",
-"doi": "10.1186/s13049-026-01647-9",
+"articleType": "original",
+"pubDate": "2026-06-22",
+"abstract": "Restructuring hospitals into specialized facilities is an emerging healthcare delivery model; however, evidence regarding the impact on emergency department (ED) quality remains limited. This study assesses the effects of dividing a regional hospital into two specialized hospitals on ED service quality indicators. A retrospective cohort study using difference-in-differences (DID) analysis analyzed 184,127 ED visits from November 2021 to October 2023 at Hsinchu Mackay Memorial Hospital (HMMH). The hospital was divided into specialized hospitals in November 2022. Three Taiwan Healthcare Indicator Series (THIS) metrics were evaluated: Door-to-Physician Time (DTP), Physician-to-Departure Time (PDT), and Decision-to-Departure Time (DDT). Pediatric services (treatment group) were compared with medicine, surgery, and other specialties (control group). Total ED visits increased by 8.3% after the conversion. Pediatric visits rose significantly by 74.3% (from 22,510 to 39,226), while visits for medicine decreased by 26.4%. Overall efficiency improved in control specialties: Door-to-Physician Time decreased by 8.97%, Physician-to-Departure Time by 17.92%, and Decision-to-Departure Time by 24.56% (all p < 0.001). However, pediatric services showed different effects, with increases in Door-to-Physician Time (+ 18.7 min), Physician-to-Departure Time (+ 14.6 min), and Decision-to-Departure Time (+ 4.9 min) compared to control specialties (all p < 0.001). Despite these longer times, pediatric indicators stayed within clinically acceptable ranges. Hospital specialization had mixed effects, boosting efficiency for general services but increasing capacity pressures in pediatric emergency care. The sharp rise in pediatric cases confirms the appeal of specialty hospitals but calls for adaptive resource-allocation strategies. These findings guide policy decisions on developing specialty hospitals and organizing emergency services.",
+"doi": "10.1016/j.annemergmed.2008.09.019",
 "keywords": [
-"Critical care delivery models",
-"Emergency critical care",
+"Emergency service",
+"Health care",
+"Hospital",
+"Hospital restructuring",
+"Natural experiment",
+"Quality indicators",
+"Taiwan"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42329582/",
+"impactScore": 36
+},
+{
+"pmid": "42329568",
+"title": "Barriers and facilitators to developing and implementing artificial intelligence-based clinical decision support in the emergency department: a qualitative study.",
+"authors": [
+"Kareemi H",
+"Colak A",
+"Yadav K",
+"Michalowski W",
+"Vaillancourt C"
+],
+"journal": "CJEM",
+"journalTier": 2,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-06-22",
+"abstract": "This study examined why artificial intelligence (AI)-based clinical decision support tools have had limited clinical translation in the emergency department (ED) and identified barriers and facilitators to their development and implementation. We conducted a qualitative study involving semi-structured interviews with researchers who have expertise developing and implementing AI clinical decision support tools for use in the ED. We used purposive and snowball sampling to identify participants. We used platform-based AI transcription and anonymized transcripts manually. Using grounded theory framework, two coders iteratively analyzed transcripts in three stages (initial, focused, and theoretical) to identify barriers, facilitators, and themes. We adhered to SRQR and COREQ guidelines. We achieved data saturation after ten interviews conducted between October 15, 2024 and March 22, 2025. Participants ranged across a variety of medical and academic professions. We identified eight themes pertaining to developing and implementing AI clinical decision support in the ED, in descending frequency: team capacity; data infrastructure; defining the clinical problem and solution; research, ethics, and regulatory approval; legal and liability; model building and performance; time; and cost. We identified \"engaging multiple healthcare end-users\" and \"sharing resources with other departments\" as the highest yield facilitators. Successful implementation of AI clinical decision support tools in the ED requires a clear clinician- and patient-defined problem, robust data infrastructure, and a diverse research team able to navigate challenges with regulatory, legal, and financial challenges over a long timeline. Anticipating barriers and leveraging facilitators early in the development process may increase the likelihood of successful implementation.",
+"doi": "10.1186/s13643-023-02408-w",
+"keywords": [
+"Artificial intelligence",
+"Health systems research",
+"Implementation science",
+"Machine learning"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42329568/",
+"impactScore": 36
+},
+{
+"pmid": "42329453",
+"title": "Mixed reality improves agreement on surgical approach selection and patient positioning in tibial plateau fracture planning compared to CT, 3DCT and 3D printing.",
+"authors": [
+"Dust T",
+"Henneberg JE",
+"Hartel M",
+"Reiter A",
+"Kylies J",
+"Korthaus A",
+"Streckenbach A",
+"Keller J",
+"Frosch KH",
+"Krause M"
+],
+"journal": "European journal of trauma and emergency surgery : official publication of the European Trauma Society",
+"journalTier": 2,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-06-22",
+"abstract": "Tibial plateau fractures require precise preoperative planning, particularly regarding treatment concept, patient positioning, and surgical approach. Mixed reality (MR) may enhance three-dimensional understanding of fracture morphology beyond conventional imaging and physical 3D models. This study investigated whether MR improves agreement on key preoperative planning decisions compared to computed tomography (CT), 3D computed tomography (3DCT), and 3D-printed fracture models. Twelve orthopaedic trauma surgeons (6 junior, 6 senior) evaluated 22 surgically treated tibial plateau fractures (AO/OTA type B or C). Each case was assessed in four steps using (1) CT, (2) 3DCT reconstructions, (3) physical 3D-printed models, and (4) MR visualization using Microsoft Hololens 2. Raters selected (i) treatment concept, (ii) patient positioning, and (iii) surgical approach. Interobserver agreement was analysed using Fleiss' kappa (κ) and percentage match (PM). Mixed Reality (MR) yielded the highest interobserver agreement for both surgical approach (PM 32%, κ = 0.30) and patient positioning (PM 57%, κ = 0.35), particularly among junior surgeons (approach PM 39%, κ = 0.28; positioning PM 57%, κ = 0.39). Compared to CT, 3DCT, and 3D printing, MR demonstrated consistent improvements, while agreement on treatment concepts remained high across all modalities (PM > 82%). Mixed Reality (MR) improved interobserver agreement in preoperative planning for tibial plateau fractures, particularly for surgical approach selection and patient positioning. These effects were most pronounced among less experienced raters, highlighting MR's role as a cognitive support tool and a promising instrument in surgical education. Compared to conventional imaging and 3D printing, MR provided dynamic interaction and greater planning flexibility. While further clinical validation is required, these findings support MR as a valuable adjunct in orthopaedic trauma planning. Level II.",
+"doi": "10.2307/2529310",
+"keywords": [
+"Interobserver agreement",
+"Mixed reality",
+"Patient positioning",
+"Preoperative planning",
+"Surgical approach",
+"Tibial plateau fracture"
+],
+"meshTerms": [
+"Humans",
+"Tibial Plateau Fractures",
+"Printing, Three-Dimensional",
+"Tomography, X-Ray Computed",
+"Patient Positioning",
+"Imaging, Three-Dimensional",
+"Female",
+"Male",
+"Augmented Reality",
+"Models, Anatomic",
+"Patient Care Planning",
+"Tibial Fractures",
+"Fracture Fixation, Internal"
+],
+"pubTypes": [
+"Journal Article",
+"Comparative Study"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42329453/",
+"impactScore": 36
+},
+{
+"pmid": "42329294",
+"title": "Timing of fracture fixation for femur and pelvis fractures in patients with severe traumatic brain injury - an analysis of the TraumaRegister DGU®.",
+"authors": [
+"Bayer TP",
+"Teuben MPJ",
+"Halvachizadeh S",
+"Shehu A",
+"Lefering R",
+"Pfeifer R",
+"Pape HC",
+"Jensen KO"
+],
+"journal": "European journal of trauma and emergency surgery : official publication of the European Trauma Society",
+"journalTier": 2,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-06-22",
+"abstract": "Fracture fixation timing and strategy in polytrauma patients with traumatic brain injury (TBI) remain controversial. This study investigates treatment patterns and outcomes for femoral and/or pelvic fractures stratified by TBI severity. Patients in the TraumaRegister DGU® (2016-2022) with pelvic and/or femoral fractures (AIS ≥3) and TBI (head AIS ≥3) were included. Strategies were non-operative management (NOM), early total care (ETC), and damage-control orthopedics (DCO). Outcomes included treatment allocation, fixation timing, and in-hospital mortality. 985 patients were included (mean age 52.5, SD 26.3 years; ISS 27.8, SD 8.1). Allocation was NOM in 320 (32.5%), ETC in 336 (34.1%), and DCO in 329 (33.4%) patients. Head AIS was 3 in 48.5%, 4 in 31.1%, and 5 in 20.3%. NOM patients were older, had the highest ISS and estimated mortality, and showed the largest proportion of critical TBI (AIS 5: NOM 30.9%, ETC 14.3%, DCO 16.1%). Femoral ETC was mainly performed within the first day (median 0, IQR 0-1 days), whereas pelvic ETC was delayed with increasing TBI severity (median 3, IQR 0-5 days for head AIS 3; 5, IQR 0-7 days for AIS 4). Observed mortality was 37.2% after NOM, 9.2% after ETC, and 10.3% after DCO. ETC in patients with moderate TBI (AIS 3) was associated with reduced observed mortality relative to NOM and matching DCO. Increasing TBI severity shifted practice patterns to DCO/NOM. These findings suggest that critical head injuries may prolong time to definitive fixation being associated with higher morbidity and mortality.",
+"doi": "10.1002/bjs.9866",
+"keywords": [
+"Damage control orthopedics",
+"Early total care",
+"Femur fracture",
+"Pelvic fracture",
+"Polytrauma",
+"Traumatic brain injury"
+],
+"meshTerms": [
+"Humans",
+"Female",
+"Male",
+"Pelvic Bones",
+"Brain Injuries, Traumatic",
+"Middle Aged",
+"Adult",
+"Femoral Fractures",
+"Injury Severity Score",
+"Multiple Trauma",
+"Fracture Fixation",
+"Registries",
+"Time-to-Treatment",
+"Fractures, Bone",
+"Hospital Mortality",
+"Aged",
+"Time Factors"
+],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42329294/",
+"impactScore": 36
+},
+{
+"pmid": "42318902",
+"title": "Hypodermoclysis for Fluid Administration in Hospitalized Pediatric Patients: A Scoping Review.",
+"authors": [
+"Silva MS",
+"Sarinho BB",
+"Feres TDS",
+"Teixeira YF",
+"Brassica SC",
+"Rotta I",
+"Visacri MB"
+],
+"journal": "Pediatric emergency care",
+"journalTier": 2,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-06-22",
+"abstract": "Hypodermoclysis is an alternative for hydrating children with difficult venous access. This study aimed to map the literature on its use for fluid administration in neonates, infants, and children up to 12 years old in hospital settings. A scoping review was conducted on December 4, 2024, and updated on July 25, 2025, in PubMed, Scopus, Web of Science, and CINAHL. Primary studies on hospitalized children (0 to 12 y) receiving fluids through hypodermoclysis were included. Two reviewers independently screened the articles. Ten studies, published between 1950 and 2025, were conducted in emergency, inpatient, and palliative care settings. The most used fluid was 0.9% sodium chloride; hyaluronidase was used in 8 studies. Outcomes most frequently assessed were safety (n=8), efficacy/effectiveness (n=4), and ease of use/comfort/satisfaction (n=3). The data demonstrate that hypodermoclysis is safe, with expected local adverse effects related to subcutaneous administration and rare severe local or systemic adverse effects. Moreover, dehydrated patients were successfully treated using this technique. The studies also indicate that hypodermoclysis is simple to perform, well accepted by health care professionals, facilitates parenteral rehydration with fewer needle insertions, and is satisfactory to caregivers. Hypodermoclysis appears to be a safe, effective, and well-accepted option for pediatric dehydration. Its incorporation into pediatric clinical protocols may reduce the need for repeated venipuncture and associated distress, thereby improving patient comfort and family satisfaction.",
+"doi": "10.1097/PEC.0000000000003646",
+"keywords": [
+"child",
+"dehydration",
+"emergency treatment",
+"hospitals",
+"hypodermoclysis",
+"neonate",
+"pediatrics",
+"solutions",
+"subcutaneous infusion"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42318902/",
+"impactScore": 36
+},
+{
+"pmid": "42324426",
+"title": "Just the facts: tumour lysis syndrome.",
+"authors": [
+"Long B",
+"McCurdy A",
+"Rosenberg H"
+],
+"journal": "CJEM",
+"journalTier": 2,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-06-21",
+"abstract": "",
+"doi": "10.1111/jcpt.12479",
+"keywords": [
+"Hemaetology",
+"Just the facts",
+"Oncology",
+"Tumour lysis syndrome"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42324426/",
+"impactScore": 35
+},
+{
+"pmid": "42323788",
+"title": "Emergency department discharge instructions sent by text message.",
+"authors": [
+"Renne B",
+"Van Dijk D",
+"Maqsood A",
+"Wilson TD",
+"Stempien J",
+"Kapur P"
+],
+"journal": "CJEM",
+"journalTier": 2,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-06-21",
+"abstract": "Discharged Emergency Department (ED) patients should receive instructions about their condition, including self-care and return-to-care guidance, while satisfying medicolegal requirements. Verbal instructions are forgotten or poorly understood. Written instructions are best practice, but usage barriers include multifactorial inefficiencies getting them to the patient and patient challenges finding them later when needed. In this feasibility and uptake study, we sought to address these barriers by developing a website that enables physicians to send condition-specific discharge instructions by text message. We recruited from the approximately 60 physicians working in the Saskatoon, Canada adult EDs, which serve > 140,000 patients/year. The physician visits our website, enters the patient's phone number, selects a condition, and taps \"send.\" The patient receives a text message with a link to condition-specific discharge instructions. We analyzed link access data and surveyed physician feedback. Over a 2-month study period, 115 discharge instructions were texted (< 1% of an estimated maximum 17,000 discharges). 83% were accessed, 43% repeatedly. Links were visited quickly: 57% within one minute, 81% within one hour, and 97% within 24 h. 36 conditions were selected, most commonly concussion (19%), abdominal pain (9%), laceration (7%), and renal colic (7%). Seventeen physicians (28%) responded to our survey. 47% indicated they do not typically provide written (paper-based) discharge instructions. 87% ranked our system ≥ 8/10 in ease of use (0 = very difficult, 10 = very easy), 73% ranked it ≥ 7/10 in efficiency compared to usual practice (0 = maximally inefficient, 10 = maximally efficient). 93% said they would use our system going forward. Our study is limited by low physician uptake. However, positive physician feedback and quick and repeated patient access to instructions together suggest our approach might be a feasible way to improve ED discharge practice.",
+"doi": "10.1111/acem.14080",
+"keywords": [
+"Discharge instructions",
+"Text messaging"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42323788/",
+"impactScore": 35
+},
+{
+"pmid": "42323787",
+"title": "Development and implementation of a severe accidental hypothermia resuscitation pathway in an urban Canadian emergency department: a quality improvement initiative.",
+"authors": [
+"Dell E",
+"Vaillancourt S",
+"Warsi F",
+"Sklar M",
+"Yanagawa B",
+"Alli A",
+"Mok G"
+],
+"journal": "CJEM",
+"journalTier": 2,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-06-21",
+"abstract": "Severe accidental hypothermia (core temperature < 28 °C) is an infrequent but resource‑intensive emergency department (ED) presentation that requires altered Advanced Cardiac Life Support (ACLS) management, aggressive rewarming, and timely consideration of veno-arterial extracorporeal membrane oxygenation (VA-ECMO). Prior to this project, our inner‑city academic ED lacked a standardized approach, contributing to variability in care. We designed, implemented, and achieved ≥ 95% real‑time utilization of a bedside pathway for patients with severe accidental hypothermia. In response to issues identified in the review of a case of severe hypothermia, a multidisciplinary team developed and revised a severe hypothermia pathway through eight Plan‑Do‑Study‑Act cycles. Implementation strategies included an in situ simulation, targeted nursing skills sessions, and interdepartmental case debriefings. From January 2025 to April 2025, cases of severe hypothermia were reviewed. Our primary outcome was pathway utilization; secondary outcomes were staff perceptions, including timely access to VA-ECMO. Our severe hypothermia pathway includes a flowchart alongside a set of cue cards. The flowchart prompts management in three key realms: modified ACLS, rewarming techniques, and prognostication/VA-ECMO. The cue cards guide step-by-step management, including how to access mechanical CPR and VA-ECMO. Key themes included: development of a streamlined pathway, clinical provider education, and improved interdepartmental communication. 100% (6/6) of cases utilized the pathway. Interdisciplinary feedback suggests providers find the pathway to be useful and that it facilitates timely access to consideration for VA-ECMO. A pragmatic hypothermia resuscitation pathway was successfully implemented in our ED, supporting access to VA-ECMO. Our work acknowledges these resuscitations are resource intensive and may disrupt care to other patients. Therefore, cases for VA-ECMO should be carefully selected. Future work includes exploring an ED Code ECMO at our site and a city-wide prehospital VA-ECMO referral pathway.",
+"doi": "10.1186/s12245-024-00652-y",
+"keywords": [
+"Cardiac arrest",
+"ECMO",
 "Emergency department",
-"Intensive care unit",
-"Intensive care unit admission",
-"Mortality"
+"Hypothermia",
+"Quality improvement"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42323787/",
+"impactScore": 35
+},
+{
+"pmid": "42324443",
+"title": "Hantavirus infection in emergency radiology: Imaging manifestations, pathophysiology, and infection control considerations.",
+"authors": [
+"Braun P",
+"Lee J",
+"Cyphers ED",
+"Gholamrezanezhad A"
+],
+"journal": "Emergency radiology",
+"journalTier": 3,
+"journalSJR": null,
+"articleType": "review",
+"pubDate": "2026-06-22",
+"abstract": "In April 2026, several cases of severe respiratory illnesses were reported aboard the cruise ship MV Hondius during its voyage from Argentina. Subsequent laboratory testing identified Andes virus (ANDV), a hantavirus subtype, with rare but documented human-to-human transmission. Although hantavirus infections are uncommon, both hantavirus pulmonary syndrome (HPS) and hemorrhagic fever with renal syndrome (HFRS) are associated with substantial morbidity and mortality. Their rapid progression and potential need for intensive respiratory support continue to pose important challenges for emergency departments, intensive care units, and radiology services. Because pulmonary imaging findings often evolve quickly, radiologists play a critical role in early recognition and triage. This review provides an overview of the pathophysiology, imaging manifestations, and operational considerations relevant to hantavirus infection in emergency radiology practice.",
+"doi": "10.1590/0100-3984.2016.0093",
+"keywords": [
+"Andes virus",
+"Emergency radiology",
+"Hantavirus",
+"Hantavirus pulmonary syndrome",
+"Hemorrhagic fever with renal syndrome",
+"Infection control"
 ],
 "meshTerms": [],
 "pubTypes": [
 "Journal Article",
 "Review"
 ],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42289704/",
-"impactScore": 38
+"url": "https://pubmed.ncbi.nlm.nih.gov/42324443/",
+"impactScore": 35
+},
+{
+"pmid": "42323689",
+"title": "Trends in urgency levels and risk of acute critical condition among prehospital patients. A seven-year observational historic register-based cohort study.",
+"authors": [
+"Sørensen K",
+"Kløjgård TA",
+"Christensen EF",
+"Lindskou TA",
+"Søvsø MB"
+],
+"journal": "Scandinavian journal of trauma, resuscitation and emergency medicine",
+"journalTier": 2,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-06-20",
+"abstract": "In our region, as in Western countries, the number of emergencies requesting an ambulance is increasing. Whether this may be due to increased disease burden and/or lower threshold for calling is not clear. This study aimed to examine the development over the years in the number and urgency levels of ambulances and the actual acute disease severity, as indicated by initial vital signs measured on scene, together with patient demographics, comorbidity, and mortality trends over time. We conducted a registry-based observational cohort study of patients aged ≥ 18 years assigned an ambulance in the North Denmark Region from 2017 to 2023. The primary outcomes were urgency level and acute critical severity, assessed by a modified National Early Warning Score. Linear regression was applied to examine for alignment between trends in urgency level over the years and critically versus non-critically severity in prehospital patients assigned to urgency level A (most urgent, potentially life-threatening) and B (less urgent), respectively. Among 202,746 prehospital patients, the proportion assessed as urgency level A decreased from 62% to 59%, while urgency level B increased from 38% to 41%. While the proportion of patients in acute critical condition was 16% vs. 8% among level of urgency A and B, and stable during the period, the number of patients in acute critical condition increased by 3.6 (95% confidence interval (CI) 0.7-6.6) and 6.1 (95% CI 4.4-7.8) per quarter. Across the total population, patient age increased from 64 to 66 years, and the proportion with severe comorbidity increased from 11% to 14%. From 2017 to 2023, the number of patients assigned with an ambulance through 1-1-2 increased, as did patient age and comorbidity. During the years were similar proportions of acute critical severity, but increasingly more among urgency level B. Thus, the acute severity among prehospital patients has not diminished. The lack of alignment between the level of urgencies and the acuity severity found on scene should be monitored carefully, together with mortality and clinical outcomes.",
+"doi": "10.1186/s13049-026-01646-w",
+"keywords": [
+"Decision support systems",
+"Early warning score",
+"Emergency medical dispatch",
+"Emergency medical services",
+"Patient acuity",
+"Triage"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42323689/",
+"impactScore": 34
+},
+{
+"pmid": "42323522",
+"title": "The inter-rater reliability of the TEDNQ for evaluating emergency department note quality.",
+"authors": [
+"Rajaram A",
+"Rosas KP",
+"Foster D",
+"Szulewski A",
+"Wolfrom B",
+"Douglas SL"
+],
+"journal": "CJEM",
+"journalTier": 2,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-06-20",
+"abstract": "Audits are a strategy for assessing and improving the quality of Emergency Department documentation. Based on expert input, the TEDNQ (Tool for Emergency Department Note Quality) was recently developed for this purpose. This study assessed the inter-rater reliability of the TEDNQ and its correlation with global impressions of Emergency Department note quality. Four emergency physicians received standardized training and then evaluated 100 notes from visits for patients with abdominal pain presenting to a Canadian academic Emergency Department. Raters provided TEDNQ and global impression scores. Inter-rater reliability was calculated using Fleiss' kappa for global scores and intraclass correlation coefficient (ICC) for TEDNQ scores. Point biserial correlations between TEDNQ and global impressions for the set of notes were calculated. Across all raters, the ICC for the total TEDNQ scores was 0.40 (95% CI 0.30-0.50), 0.40 (95% CI 0.30-0.51) for the universal component, and 0.23 (95% CI 0.13-0.34) for the conditional components. The Fleiss' kappa for global impressions across all pairs of reviewers was 0.18 (95% CI 0.10-0.26). The point biserial correlation between TEDNQ and global scores was 0.44 (p < 0.001). While validated tools to assess documentation quality are essential, the recently developed TEDNQ is not yet suitable for widespread use by emergency physicians. Global impressions of note quality also demonstrate limited usefulness due to poor inter-rater reliability. Further refinement and testing of the TEDNQ is warranted prior to prospective evaluation across diverse emergency department settings.",
+"doi": "10.1016/j.annemergmed.2023.10.001",
+"keywords": [
+"Documentation quality",
+"Electronic medical record",
+"Emergency medicine",
+"Physician documentation"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42323522/",
+"impactScore": 34
+},
+{
+"pmid": "42323521",
+"title": "Infective endocarditis in an HIV-positive patient without IV drug use: a case of multifocal septic complications.",
+"authors": [
+"Mathew T",
+"Altschuler Y",
+"Martinez-Ortiz E",
+"Dixon T",
+"Halperin M",
+"Gartenberg A"
+],
+"journal": "CJEM",
+"journalTier": 2,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-06-20",
+"abstract": "",
+"doi": "10.1177/014107680109400804",
+"keywords": [
+"Back pain",
+"Human immunodeficiency virus",
+"Infective endocarditis",
+"Septic emboli"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42323521/",
+"impactScore": 34
+},
+{
+"pmid": "42323520",
+"title": "Electrocardiogram competency of Canadian emergency medicine residents: curriculum gaps and opportunities for improvement.",
+"authors": [
+"Mastrangelo E",
+"El-Baba M",
+"Patocka C",
+"McLaren JTT"
+],
+"journal": "CJEM",
+"journalTier": 2,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-06-20",
+"abstract": "Electrocardiogram (ECG) interpretation is crucial for emergencies, alongside point-of-care ultrasound (PoCUS). A prior survey of Emergency Medicine program directors identified \"must know\" ECG diagnoses. But whether ECG interpretation is adequately promoted by the Royal College, included in structured curriculum, and learned by residents is unknown. We sought to identify curriculum gaps and opportunities for improvement. Using constructive alignment framework, we conducted a multi-modal evaluation of Canadian Emergency Medicine residency program ECG education. For intended learning outcomes, we reviewed the college's Entrustable Professional Activities, comparing ECG with PoCUS. For teaching and learning activities, we administered a national cross-sectional survey of program directors. For assessment, we surveyed residents on self-reported efficacy in interpreting \"must know\" ECG diagnoses. There is no Royal College Entrustable Professional Activities for ECGs, and only 1 milestone compared with 9 for PoCUS. A majority (60%) of program directors reported no structured ECG curriculum, and most (57.4%) residents reported < 1 h of ECG self-study per month. There were 60% of program directors and 92% of residents who agreed they would benefit from structured teaching. Self-reported efficacy increased through residency, from 60% for PGY-2 to 90% for PGY-5. But there were gaps with low efficacy (e.g., for bifascicular block, failure to capture, Brugada pattern, and myocardial infarction in the presence of bundle branch block). PGY-5 residents reported autonomy for ventricular tachycardia, hyperkalemia, and acute myocardial infarction, despite known limitations from the literature of Emergency physicians. ECG curriculum gaps include lower emphasis from Royal College Entrustable Professional Activities compared with PoCUS, limited structured ECG curriculum, and little self-study. While self-reported efficacy increases through residency, there are perceived gaps for many \"must know\" diagnoses, and unperceived gaps with confidence that exceeds known practice variation. The majority of survey responses agree they would benefit from structured training.",
+"doi": "10.1017/cem.2016.27",
+"keywords": [
+"Education",
+"Electrocardiogram",
+"Emergency medicine",
+"Resident"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42323520/",
+"impactScore": 34
+},
+{
+"pmid": "42322520",
+"title": "Case report: testicular compartment syndrome, a rare presentation of a hydrocele, diagnosed with point of care ultrasound (PoCUS).",
+"authors": [
+"Alshehri ROD",
+"Power RJ",
+"Paterson NR",
+"Cox CP"
+],
+"journal": "CJEM",
+"journalTier": 2,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-06-20",
+"abstract": "",
+"doi": "10.1136/emermed-2021-212281",
+"keywords": [
+"Emergency Medicine",
+"Point of Care Ultrasound (PoCUS)",
+"Testicular Compartment Syndrome"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42322520/",
+"impactScore": 34
+},
+{
+"pmid": "42322519",
+"title": "A scoping review of emergency department take-home naloxone on patient and health outcomes.",
+"authors": [
+"Arbour JA",
+"Ma JA",
+"Feder KA"
+],
+"journal": "CJEM",
+"journalTier": 2,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-06-20",
+"abstract": "The opioid crisis in North America continues to cause immense harm and loss of life. The distribution of naloxone has been recognized as an important tool to combat the opioid crisis. The emergency department (ED) setting provides an important opportunity to distribute naloxone to people that use opioids. The purpose of this scoping review was to summarize the literature surrounding ED-based take-home naloxone with a focus on key patient-centered health outcomes. We performed a scoping review of naloxone distribution from the ED utilizing PRISMA Extension for Scoping Reviews guidelines. The databases MEDLINE, Embase, Cochrane Central Register of Controlled Trials, and CINAHL were searched for keywords related to naloxone and the ED. Abstracts were screened for relevance and a full text review was undertaken applying inclusion and exclusion criteria. Data were extracted and summarized by outcome of interest. 3475 studies were identified and screened for relevance. 24 studies were included in the results and analysis. Seven studies reported health outcomes related to take-home naloxone. Nine studies reported patient perceptions of take-home naloxone, and eight studies reported provider perceptions of take-home naloxone. No studies were identified that reported cost-effectiveness data. We found that take-home naloxone distribution in the ED setting is supported by both patients and ED providers. Knowledge gaps exist as to whether these programs are effective to improve patient health outcomes, or whether they are cost-effective. Take-home naloxone distribution in the ED setting to combat the opioid overdose crisis is supported by patients and ED providers. Knowledge gaps exist as to whether these programs improve health outcomes for people who use opioids, or whether they are cost-effective. Take-home naloxone should be considered as part of a harm reduction strategy for patients presenting to the ED at risk for opioid overdose.",
+"doi": "10.1002/emp2.13180",
+"keywords": [
+"Harm reduction",
+"Opioid use disorder",
+"Take-home naloxone"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42322519/",
+"impactScore": 34
+},
+{
+"pmid": "42322518",
+"title": "Delayed ultrasound in ectopic pregnancy: clinical selection, time-dependent diagnosis, and the limits of reassurance.",
+"authors": [
+"Çelik A"
+],
+"journal": "CJEM",
+"journalTier": 2,
+"journalSJR": null,
+"articleType": "letter",
+"pubDate": "2026-06-20",
+"abstract": "",
+"doi": "10.1016/j.ajem.2022.08.045",
+"keywords": [],
+"meshTerms": [],
+"pubTypes": [
+"Letter"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42322518/",
+"impactScore": 34
 },
 {
 "pmid": "42319065",
@@ -2400,7 +3343,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42319065/",
-"impactScore": 34
+"impactScore": 33
 },
 {
 "pmid": "42319025",
@@ -2432,7 +3375,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42319025/",
-"impactScore": 34
+"impactScore": 33
 },
 {
 "pmid": "42313097",
@@ -2457,7 +3400,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42313097/",
-"impactScore": 34
+"impactScore": 33
 },
 {
 "pmid": "42321120",
@@ -2488,7 +3431,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42321120/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42321119",
@@ -2519,7 +3462,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42321119/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42316263",
@@ -2566,7 +3509,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42316263/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42316220",
@@ -2597,7 +3540,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42316220/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42314024",
@@ -2625,7 +3568,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42314024/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42313188",
@@ -2670,7 +3613,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42313188/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42313141",
@@ -2719,7 +3662,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42313141/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42313115",
@@ -2750,7 +3693,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42313115/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42310561",
@@ -2784,7 +3727,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42310561/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42257415",
@@ -2807,7 +3750,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42257415/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42240286",
@@ -2836,7 +3779,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42240286/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42314528",
@@ -2868,7 +3811,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42314528/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42314527",
@@ -2900,7 +3843,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42314527/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42310772",
@@ -2933,7 +3876,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42310772/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42310558",
@@ -2962,7 +3905,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42310558/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42310553",
@@ -2994,7 +3937,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42310553/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42310551",
@@ -3026,7 +3969,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42310551/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42310550",
@@ -3059,7 +4002,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42310550/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42308409",
@@ -3101,7 +4044,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42308409/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42308400",
@@ -3132,7 +4075,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42308400/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42308397",
@@ -3165,7 +4108,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42308397/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42307765",
@@ -3211,7 +4154,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42307765/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42307753",
@@ -3249,7 +4192,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42307753/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42307752",
@@ -3271,7 +4214,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42307752/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42307216",
@@ -3302,7 +4245,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42307216/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42314529",
@@ -3335,7 +4278,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42314529/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42304236",
@@ -3391,7 +4334,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42304236/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42304229",
@@ -3421,7 +4364,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42304229/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42303889",
@@ -3446,7 +4389,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42303889/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42303888",
@@ -3485,7 +4428,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42303888/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42301897",
@@ -3522,7 +4465,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42301897/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42301896",
@@ -3557,7 +4500,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42301896/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42301894",
@@ -3593,7 +4536,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42301894/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42301893",
@@ -3645,7 +4588,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42301893/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42301409",
@@ -3694,7 +4637,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42301409/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42301408",
@@ -3744,7 +4687,7 @@
 "Observational Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42301408/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42301359",
@@ -3782,7 +4725,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42301359/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42301358",
@@ -3810,7 +4753,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42301358/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42301328",
@@ -3854,7 +4797,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42301328/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42301298",
@@ -3900,7 +4843,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42301298/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42301294",
@@ -3949,7 +4892,7 @@
 "Comparative Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42301294/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42301141",
@@ -3993,7 +4936,7 @@
 "Observational Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42301141/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42300334",
@@ -4021,7 +4964,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42300334/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42299054",
@@ -4058,7 +5001,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42299054/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42299025",
@@ -4090,7 +5033,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42299025/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42298442",
@@ -4121,7 +5064,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42298442/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42298437",
@@ -4152,7 +5095,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42298437/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42298409",
@@ -4204,7 +5147,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42298409/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42298050",
@@ -4241,7 +5184,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42298050/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42308170",
@@ -4277,7 +5220,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42308170/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42303472",
@@ -4310,7 +5253,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42303472/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42296879",
@@ -4338,7 +5281,7 @@
 "Published Erratum"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42296879/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42296008",
@@ -4375,7 +5318,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42296008/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42296002",
@@ -4412,7 +5355,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42296002/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42295429",
@@ -4461,7 +5404,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42295429/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42295369",
@@ -4505,7 +5448,7 @@
 "Observational Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42295369/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42295368",
@@ -4558,7 +5501,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42295368/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42295341",
@@ -4607,7 +5550,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42295341/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42295320",
@@ -4636,7 +5579,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42295320/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42290282",
@@ -4672,7 +5615,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42290282/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42290206",
@@ -4712,61 +5655,6 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42290206/",
-"impactScore": 30
-},
-{
-"pmid": "42289624",
-"title": "Dwelling in the ward.",
-"authors": [
-"Cavallaro C",
-"Assanto E",
-"Talerico G"
-],
-"journal": "Internal and emergency medicine",
-"journalTier": 2,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-06-14",
-"abstract": "",
-"doi": "10.1007/s11739-026-04434-7",
-"keywords": [],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42289624/",
-"impactScore": 29
-},
-{
-"pmid": "42289027",
-"title": "Mortality prediction using a geriatric vulnerability scale in the emergency department of a private hospital in Mexico City.",
-"authors": [
-"Coránguez-Capistrán RB",
-"Guzmán-Herrera ARO",
-"Lerma A",
-"Torres-Munguía B",
-"Zertuche-Calvillo R",
-"Ceballos-Bocanegra A",
-"Lerma C"
-],
-"journal": "Internal and emergency medicine",
-"journalTier": 2,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-06-14",
-"abstract": "The aim of this study was to translate, culturally adapt, and validate the Acutely Presenting Older Patient (APOP) screener into Spanish for use among Mexican patients attending the emergency department, in order to predict the risk of 90-day mortality. Patients aged 70 years and older who received emergency care at a private hospital in Mexico City were included. The APOP scale underwent translation, cultural adaptation, and expert validation in accordance with standardized guidelines. For each patient, vulnerability risk was calculated, and a 90-day follow-up was conducted to assess mortality. A total of 317 patients were recruited, and 206 (65%) completed the 90-day follow-up. The culturally adapted Spanish version of the APOP scale was successfully validated by experts. A high-vulnerability score (≥ 46 points) predicted 90-day mortality with a sensitivity of 51.6% and a specificity of 85.1%, with an area under the curve of 0.74 (95% confidence interval: 0.71-0.77). The APOP scale effectively identifies vulnerable older adults in the emergency department. Its high specificity allows clinicians to recognize patients unlikely to require extensive evaluation, improving resource allocation and streamlining care in the time-sensitive emergency setting.",
-"doi": "10.3389/fpubh.2021.787935",
-"keywords": [
-"Emergency department",
-"Geriatric",
-"Mortality prediction",
-"Vulnerability"
-],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42289027/",
 "impactScore": 29
 },
 {
@@ -4807,7 +5695,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42295460/",
-"impactScore": 29
+"impactScore": 28
 },
 {
 "pmid": "42228977",
@@ -4848,7 +5736,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42228977/",
-"impactScore": 29
+"impactScore": 28
 },
 {
 "pmid": "42228970",
@@ -4894,7 +5782,41 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42228970/",
-"impactScore": 29
+"impactScore": 28
+},
+{
+"pmid": "42329033",
+"title": "The Association Between Systemic Inflammatory and Metabolic Indices and Early Adverse Clinical Outcomes in Adult Patients Admitted to the Post-anaesthesia Care Unit: A Retrospective Observational Study.",
+"authors": [
+"Günel B",
+"Şencan A",
+"Tavşanoğlu ZY",
+"Zeytun F",
+"Altıntaş C",
+"Kılıç ER",
+"Erdemir B",
+"Turan Cıvraz AZ"
+],
+"journal": "Turkish journal of anaesthesiology and reanimation",
+"journalTier": 3,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-06-22",
+"abstract": "This study aimed to investigate the association of systemic inflammatory and metabolic indices with short-term adverse clinical outcomes in adult patients admitted to the post-anaesthesia care unit (PACU). In this retrospective single-center observational study, adults admitted to the PACU following surgical procedures were analysed. The association between systemic inflammatory and metabolic indices, calculated from routine laboratory data, and short-term clinical outcomes was evaluated. Missing data were handled using multiple imputation. Associated risk factors were examined using multiple statistical analyses, and ridge regression was performed to assess model stability and potential multicollinearity. Receiver operating characteristic (ROC) analysis was performed to assess the discriminative ability of the investigated markers. A total of 860 patients were included in the analysis. In multiple analyses, use of inotropic agents on arrival at the PACU, higher monocyte-to-lymphocyte ratio (MLR), and higher blood urea nitrogen-to-albumin ratio were associated with poor short-term clinical outcomes. ROC analysis demonstrated limited discriminative performance, with area under the curve values of 0.545 for the MLR and 0.582 for the blood urea nitrogen-to-albumin ratio in predicting poor short-term clinical outcomes. Higher monocyte-to-lymphocyte and blood urea nitrogen-to-albumin ratios were associated with poor short-term clinical outcomes in adult patients admitted to the PACU. However, the low discriminative performance observed in ROC analyses suggests that these indices should not be interpreted as strong standalone predictors. Instead, they may provide supporting information within multiparametric clinical risk assessment models.",
+"doi": "10.4274/TJAR.2026.262462",
+"keywords": [
+"Blood urea nitrogen to albumin ratio",
+"inflammation",
+"monocyte to lymphocyte ratio",
+"post-anaesthesia care unit",
+"postoperative care"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42329033/",
+"impactScore": 26
 },
 {
 "pmid": "42321643",
@@ -4929,7 +5851,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42321643/",
-"impactScore": 24
+"impactScore": 23
 },
 {
 "pmid": "42319638",
@@ -4958,7 +5880,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42319638/",
-"impactScore": 24
+"impactScore": 23
 },
 {
 "pmid": "42319637",
@@ -4992,7 +5914,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42319637/",
-"impactScore": 24
+"impactScore": 23
 },
 {
 "pmid": "42319076",
@@ -5022,7 +5944,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42319076/",
-"impactScore": 24
+"impactScore": 23
 },
 {
 "pmid": "42318753",
@@ -5055,7 +5977,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42318753/",
-"impactScore": 24
+"impactScore": 23
 },
 {
 "pmid": "42318747",
@@ -5083,7 +6005,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42318747/",
-"impactScore": 24
+"impactScore": 23
 },
 {
 "pmid": "42318746",
@@ -5106,7 +6028,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42318746/",
-"impactScore": 24
+"impactScore": 23
 },
 {
 "pmid": "42318699",
@@ -5139,7 +6061,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42318699/",
-"impactScore": 24
+"impactScore": 23
 },
 {
 "pmid": "42311146",
@@ -5166,7 +6088,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42311146/",
-"impactScore": 23
+"impactScore": 22
 },
 {
 "pmid": "42311144",
@@ -5197,7 +6119,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42311144/",
-"impactScore": 23
+"impactScore": 22
 },
 {
 "pmid": "42310527",
@@ -5232,7 +6154,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42310527/",
-"impactScore": 23
+"impactScore": 22
 },
 {
 "pmid": "42310178",
@@ -5263,7 +6185,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42310178/",
-"impactScore": 23
+"impactScore": 22
 },
 {
 "pmid": "42310177",
@@ -5295,7 +6217,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42310177/",
-"impactScore": 23
+"impactScore": 22
 },
 {
 "pmid": "42310176",
@@ -5329,7 +6251,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42310176/",
-"impactScore": 23
+"impactScore": 22
 },
 {
 "pmid": "42228974",
@@ -5365,7 +6287,7 @@
 "Case Reports"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42228974/",
-"impactScore": 22
+"impactScore": 21
 },
 {
 "pmid": "42298257",
@@ -5396,7 +6318,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42298257/",
-"impactScore": 21
+"impactScore": 20
 },
 {
 "pmid": "42298733",
@@ -5426,7 +6348,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42298733/",
-"impactScore": 20
+"impactScore": 19
 },
 {
 "pmid": "42228976",
@@ -5449,7 +6371,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42228976/",
-"impactScore": 20
+"impactScore": 19
 },
 {
 "pmid": "42228975",
@@ -5494,7 +6416,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42228975/",
-"impactScore": 20
+"impactScore": 19
 },
 {
 "pmid": "42228973",
@@ -5533,7 +6455,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42228973/",
-"impactScore": 20
+"impactScore": 19
 },
 {
 "pmid": "42228972",
@@ -5557,7 +6479,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42228972/",
-"impactScore": 20
+"impactScore": 19
 },
 {
 "pmid": "42228971",
@@ -5579,7 +6501,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42228971/",
-"impactScore": 20
+"impactScore": 19
 },
 {
 "pmid": "42228969",
@@ -5601,7 +6523,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42228969/",
-"impactScore": 20
+"impactScore": 19
 },
 {
 "pmid": "42228968",
@@ -5622,7 +6544,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42228968/",
-"impactScore": 20
+"impactScore": 19
 },
 {
 "pmid": "42228967",
@@ -5665,7 +6587,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42228967/",
-"impactScore": 20
+"impactScore": 19
 },
 {
 "pmid": "42228966",
@@ -5687,7 +6609,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42228966/",
-"impactScore": 20
+"impactScore": 19
 },
 {
 "pmid": "42228965",
@@ -5726,7 +6648,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42228965/",
-"impactScore": 20
+"impactScore": 19
 },
 {
 "pmid": "42228964",
@@ -5761,7 +6683,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42228964/",
-"impactScore": 20
+"impactScore": 19
 },
 {
 "pmid": "41665632",
@@ -5782,7 +6704,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/41665632/",
-"impactScore": 20
+"impactScore": 19
 },
 {
 "pmid": "41665625",
@@ -5803,7 +6725,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/41665625/",
-"impactScore": 20
+"impactScore": 19
 },
 {
 "pmid": "42312226",
