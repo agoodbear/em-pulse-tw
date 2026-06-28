@@ -1,24 +1,24 @@
 {
-"generatedAt": "2026-06-27T22:59:50.000Z",
+"generatedAt": "2026-06-28T22:59:42.000Z",
 "daysBack": 7,
 "journalCount": 59,
 "stats": {
-"total": 150,
+"total": 144,
 "byType": {
 "systematic-review": 2,
+"review": 11,
 "rct": 1,
-"review": 10,
+"original": 106,
 "editorial": 8,
-"letter": 18,
-"original": 111
+"letter": 16
 },
 "byTier": {
-"2": 65,
+"2": 59,
 "1": 65,
 "3": 20
 },
 "topScore": 59,
-"avgScore": 39
+"avgScore": 38
 },
 "articleOfWeek": {
 "pmid": "42153748",
@@ -104,6 +104,43 @@
 "impactScore": 59
 },
 {
+"pmid": "42365349",
+"title": "Interpreting protein dose trials in critical illness: a guide for the bedside clinician.",
+"authors": [
+"Chapple LA",
+"Bels J",
+"Lee ZY",
+"Summers M",
+"Ferrie S",
+"Stoppe C",
+"Mesotten D",
+"Deane A",
+"van de Poll MCG",
+"Ridley E"
+],
+"journal": "Critical care (London, England)",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "review",
+"pubDate": "2026-06-27",
+"abstract": "Critical illness induces a catabolic state, associated with profound muscle wasting and functional disability in survivors. Based on evidence at the time of development, international critical care nutrition guidelines recommend providing higher protein doses than in healthy populations. Three recent international multi-centre randomised trials (total n = 5633 patients) have compared higher protein doses to usual protein doses in critically ill patients. Based on the primary outcomes, these trials concluded that higher protein doses did not improve time-to-discharge alive or number of days free of the index hospital and alive at day 90, with worse functional recovery using the EQ-5D- L health utility score over 180 days. Supported by evidence from recent trials, it appears preferable to commence protein delivery at low doses once patients are haemodynamically stable and increase progressively over the first 5 days to deliver a maximum of 1.2 g/kg/day. Based on current trial data, this upper limit may represent a safer alternative to doses >1.2 g/kg/day, acknowledging that the optimal dose may be lower. Subgroup analyses suggest that patients with an acute kidney injury may be particularly vulnerable to higher protein. There are no data to indicate the minimum protein dose that can be safely delivered to critically ill patients over their entire ICU stay. While existing trials included patients with a prolonged ICU stay, no trial identifying this cohort pre-randomisation has been conducted. It cannot be excluded that higher protein doses may provide benefit later in recovery, when the anabolic resistance to dietary protein observed early in the ICU admission has subsided. Evidence is also lacking on optimal protein targets for patients after ICU discharge. In critically ill adults, we suggest that protein doses be commenced at a low dose and increased progressively to a maximum of 1.2 g/kg/day based on recent randomised trials.",
+"doi": "10.1186/s13054-026-06116-4",
+"keywords": [
+"Critical care",
+"Enteral nutrition",
+"Intensive care",
+"Nutrition",
+"Protein"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article",
+"Review"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42365349/",
+"impactScore": 58
+},
+{
 "pmid": "42152760",
 "title": "Effect of a liquid crystal vein locator on intravenous catheterization in young children: a randomized trial.",
 "authors": [
@@ -178,7 +215,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42341978/",
-"impactScore": 56
+"impactScore": 55
 },
 {
 "pmid": "42341977",
@@ -209,7 +246,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42341977/",
-"impactScore": 56
+"impactScore": 55
 },
 {
 "pmid": "42337445",
@@ -240,7 +277,7 @@
 "Systematic Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42337445/",
-"impactScore": 55
+"impactScore": 54
 },
 {
 "pmid": "42329250",
@@ -281,7 +318,67 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42329250/",
-"impactScore": 54
+"impactScore": 53
+},
+{
+"pmid": "42365321",
+"title": "Decoding candidemia in critically ill patients: unsupervised clustering identifies three unique phenotypes.",
+"authors": [
+"Reizine F",
+"Henry J",
+"Desmedt L",
+"Camus C",
+"Coirier V",
+"Arrive F",
+"Burban E",
+"Eustache G",
+"Belleville T",
+"Marc A",
+"Malherbe J",
+"Bouju P",
+"Jaubert P",
+"Lesieur O",
+"Leclerc M",
+"Fillâtre P",
+"Frérou A",
+"Prével R",
+"Mainguy N",
+"Cady A",
+"Morio F",
+"Le Gal S",
+"Perraud E",
+"Delhaes L",
+"Imbert S",
+"Guegan H",
+"Bonhomme J",
+"Pihet M",
+"Dupin C",
+"Delbove A",
+"Du Cheyron D",
+"Launey Y",
+"Aubron C",
+"Gangneux JP"
+],
+"journal": "Critical care (London, England)",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-06-28",
+"abstract": "Candidemia displays significant clinical heterogeneity in critically ill patients. This study aimed to identify distinct clinical phenotypes and to assess their association with 90-day mortality. We conducted a multicenter retrospective cohort study of 492 intensive care unit (ICU) patients with candidemia from 16 French ICUs (2015-2023). We performed a factor analysis of mixed data (FAMD) incorporating both categorical and continuous baseline variables, followed by hierarchical clustering on principal components (HCPC). Survival analysis was performed with Kaplan-Meier curves and Cox proportional hazards models. Overall, 90-day mortality for the 492 patients (median age: 64 years, 69.1% male) with candidemia was 62.6%. Three different phenotypes emerged from FAMD followed by HCPC: Phenotype 1 (n = 70, 14.2%) comprised patients with severe immunosuppression, mostly due to hematological malignancies (82.9%), and high severity scores (SAPS II:70); Phenotype 2 (n = 223, 45.3%) corresponded to elderly cirrhotic patients (19.3%) with early-onset digestive candidemia; Phenotype 3 (n = 199, 40.5%) comprised younger patients with lower severity scores and catheter-related candidemia. Mortality differed significantly between phenotypes: 72.9% (Phenotype 1), 70.4% (Phenotype 2), and 50.3% (Phenotype 3) (p < 0.001). Independent predictors of mortality included age (aHR: 1.01, 95% CI: 1.00-1.02; p = 0.003), cirrhosis (aHR: 1.90, 95% CI: 1.39-2.60; p < 0.001), SAPS II (aHR: 1.01, 95% CI: 1.01-1.02; p < 0.001), echinocandin use (aHR = 0.49, 95% CI: 0.39-0.63; p < 0.001) and proven catheter-related candidemia (protective; aHR: 0.48, 95% CI: 0.33-0.69; p < 0.001). Immunodepression was not associated with mortality. Unsupervised clustering identified three clinically different candidemia phenotypes with different outcomes. Cirrhosis, higher age and illness severity were associated with mortality, whereas a catheter-related source of infection was protective.",
+"doi": "10.1186/s13054-026-05964-4",
+"keywords": [
+"Candidemia",
+"Clinical phenotypes",
+"Intensive care",
+"Sepsis",
+"Unsupervised clustering"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42365321/",
+"impactScore": 50
 },
 {
 "pmid": "42361895",
@@ -310,7 +407,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42361895/",
-"impactScore": 50
+"impactScore": 49
 },
 {
 "pmid": "42361893",
@@ -332,7 +429,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42361893/",
-"impactScore": 50
+"impactScore": 49
 },
 {
 "pmid": "42361886",
@@ -354,7 +451,118 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42361886/",
-"impactScore": 50
+"impactScore": 49
+},
+{
+"pmid": "42365378",
+"title": "Neutrophil EMR3 dynamics in critically ill patients with sepsis: an ICU experience.",
+"authors": [
+"Ma Y",
+"Yu P",
+"Wang X",
+"Chen R",
+"Ni W",
+"Liu H",
+"Fang X",
+"Zhao F",
+"Hu Q",
+"Qiao S",
+"Yang S",
+"Jin H",
+"Song J",
+"Zhao D",
+"Fang L",
+"Zhang J",
+"Zhou J"
+],
+"journal": "Critical care (London, England)",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "letter",
+"pubDate": "2026-06-27",
+"abstract": "",
+"doi": "10.1186/s13054-015-0972-z",
+"keywords": [],
+"meshTerms": [],
+"pubTypes": [
+"Letter"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42365378/",
+"impactScore": 49
+},
+{
+"pmid": "42365368",
+"title": "Association between red blood cell transfusion volume and infection risk: a dose-response analysis of a nationwide trauma registry.",
+"authors": [
+"Ogawa T",
+"Hongo T",
+"Yoshihiro S",
+"Nojima T",
+"Tokioka K",
+"Hiraoka T",
+"Ueda Y",
+"Matsuo I",
+"Obara T",
+"Naito H",
+"Nakao A",
+"Yumoto T"
+],
+"journal": "Critical care (London, England)",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-06-27",
+"abstract": "Infection is a major complication after trauma and is associated with worse clinical outcomes. Although red blood cell (RBC) transfusion is an essential component of resuscitation in trauma patients, its relationship with infection risk remains controversial. Furthermore, the dose-response relationship has not been fully elucidated. We conducted a retrospective observational study using a nationwide trauma registry in Japan. Trauma patients registered between 2019 and 2021 were included. Patients were categorized into four groups according to RBC transfusion volume within the first 24 h after admission: None (0 units), Low (1-4 units), Moderate (5-9 units), and High (≥ 10 units). The primary outcome was in-hospital infection. Multivariable modified Poisson regression analyses were performed to estimate adjusted risk ratios (RRs) with 95% confidence intervals (CIs). Furthermore, we performed multivariable-adjusted restricted cubic spline analyses with four knots to assess the adjusted dose-response relationship between RBC transfusion volume and the risk of in-hospital infection. A total of 55,807 patients were analyzed. The incidence of in-hospital infection increased across transfusion categories: 4,399/48,308 (9.1%) in the None group, 618/3,724 (16.6%) in the Low group, 396/1,733 (22.8%) in the Moderate group, and 548/2,042 (26.8%) in the High group. In multivariable analysis, compared with the None group, Low (adjusted RR 1.85, 95% CI 1.62-2.10), Moderate (adjusted RR 1.95, 95% CI 1.69-2.26) and High (adjusted RR 2.07, 95% CI 1.76-2.43) transfusion volumes were associated with significantly increased risks of infection, respectively. Restricted cubic spline analyses showed an increase in infection risk at lower transfusion volumes, followed by a plateau at higher transfusion volumes. RBC transfusion volume within the first 24 h after trauma was associated with in-hospital infection risk. The association was generally linear at lower transfusion volumes, whereas a plateau was observed at higher transfusion volumes. Given the observational nature of this study, these findings should be interpreted cautiously.",
+"doi": "10.1186/s13054-026-06170-y",
+"keywords": [
+"Infection",
+"Red blood cell",
+"Sepsis",
+"Transfusion"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42365368/",
+"impactScore": 49
+},
+{
+"pmid": "42365340",
+"title": "Multidisciplinary telemedicine intervention for ICU recovery: the TelePORT feasibility randomized trial.",
+"authors": [
+"Boehm LM",
+"You H",
+"Siao SF",
+"D LaNoue M",
+"Jones AC",
+"Piras SE",
+"Garrett A",
+"Dodson AB",
+"Stollings JL",
+"Jackson JC",
+"Sevin CM"
+],
+"journal": "Critical care (London, England)",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-06-27",
+"abstract": "Survivors of critical illness commonly experience post-intensive care syndrome (PICS), including cognitive, mental health, physical, quality-of-life, and social impairments after discharge. Telemedicine may improve access to post-ICU recovery clinic care, but its feasibility and effect on recovery outcomes remain unclear. We evaluated the feasibility of a multidisciplinary telemedicine post-ICU recovery clinic and collecting 6-month outcome data. We conducted a two-site pilot feasibility randomized controlled trial at an academic medical center and regional community medical center in the southeastern United States. Adults admitted to medical or surgical ICUs with sepsis and/or acute respiratory distress syndrome were randomized 1:1 to telemedicine ICU recovery clinic visits or standard care. The intervention included two multidisciplinary visits at 3 weeks and 3 months after hospital discharge; participants accessed visits via a secure web-based personal health portal, where they videoconferenced simultaneously with an ICU clinician, pharmacist, and psychologist. Participants in the standard of care group received usual post-discharge care. Feasibility outcomes included enrollment, retention, attendance, clinician fidelity, and participant ratings of acceptability, appropriateness, and feasibility. Exploratory outcomes included cognitive, mental health (i.e., depression, anxiety, PTSD), and physical health (i.e., activities of daily living, independent activities of daily living) composite scores measured at 1 week and 6 months after hospital discharge. Of 1,108 screened patients, 91 were randomized (telemedicine, n = 46; standard care, n = 45). Among 83 participants completing the 1-week assessment, median age was 56 years, 51% were male, and 91% were White. In the telemedicine arm, 23 participants (57.5%) attended at least one visit; attendance was 55% at 3 weeks and 42.5% at 3 months among eligible participants. Primary 6-month outcome assessment was completed by 31 participants in each group (67%). Clinician participation fidelity was high, and telemedicine attendees reported favorable acceptability, appropriateness, and feasibility ratings. Exploratory analyses of PICS composite outcomes did not differ significantly between groups. A multidisciplinary telemedicine post-ICU recovery clinic and associated trial procedures were feasible, with high clinician fidelity and favorable participant ratings. Larger trials are needed to explore engagement strategies and evaluate effectiveness on long-term recovery outcomes, prioritizing inclusion of more diverse and historically underrepresented populations. NCT03926533 (posted 4/24/2019).",
+"doi": "10.1186/s13054-026-06154-y",
+"keywords": [
+"Critical care",
+"Intensive care unit",
+"Post-intensive care syndrome",
+"Recovery",
+"Telemedicine"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42365340/",
+"impactScore": 49
 },
 {
 "pmid": "42363218",
@@ -383,7 +591,7 @@
 "Comment"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42363218/",
-"impactScore": 49
+"impactScore": 48
 },
 {
 "pmid": "42361894",
@@ -415,7 +623,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42361894/",
-"impactScore": 49
+"impactScore": 48
 },
 {
 "pmid": "42361892",
@@ -446,7 +654,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42361892/",
-"impactScore": 49
+"impactScore": 48
 },
 {
 "pmid": "42361891",
@@ -478,7 +686,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42361891/",
-"impactScore": 49
+"impactScore": 48
 },
 {
 "pmid": "42361890",
@@ -509,7 +717,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42361890/",
-"impactScore": 49
+"impactScore": 48
 },
 {
 "pmid": "42361889",
@@ -543,7 +751,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42361889/",
-"impactScore": 49
+"impactScore": 48
 },
 {
 "pmid": "42361888",
@@ -574,7 +782,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42361888/",
-"impactScore": 49
+"impactScore": 48
 },
 {
 "pmid": "42361887",
@@ -608,7 +816,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42361887/",
-"impactScore": 49
+"impactScore": 48
 },
 {
 "pmid": "42360887",
@@ -634,7 +842,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42360887/",
-"impactScore": 49
+"impactScore": 48
 },
 {
 "pmid": "42360868",
@@ -665,7 +873,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42360868/",
-"impactScore": 49
+"impactScore": 48
 },
 {
 "pmid": "42350908",
@@ -692,7 +900,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42350908/",
-"impactScore": 49
+"impactScore": 48
 },
 {
 "pmid": "42340419",
@@ -715,7 +923,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42340419/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42351275",
@@ -739,7 +947,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42351275/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42351245",
@@ -788,7 +996,7 @@
 "Multicenter Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42351245/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42351228",
@@ -812,7 +1020,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42351228/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42350913",
@@ -847,7 +1055,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42350913/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42348668",
@@ -878,7 +1086,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42348668/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42339875",
@@ -921,7 +1129,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42339875/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42339834",
@@ -948,7 +1156,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42339834/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42343428",
@@ -971,7 +1179,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42343428/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42343425",
@@ -992,7 +1200,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42343425/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42343410",
@@ -1018,7 +1226,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42343410/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42342439",
@@ -1041,7 +1249,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42342439/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42341173",
@@ -1072,7 +1280,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42341173/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42340420",
@@ -1095,7 +1303,7 @@
 "Published Erratum"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42340420/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42335315",
@@ -1116,7 +1324,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42335315/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42335301",
@@ -1146,7 +1354,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42335301/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42335298",
@@ -1177,7 +1385,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42335298/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42329251",
@@ -1200,7 +1408,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42329251/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42329249",
@@ -1223,7 +1431,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42329249/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42329248",
@@ -1246,7 +1454,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42329248/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42337809",
@@ -1286,7 +1494,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42337809/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42337653",
@@ -1307,7 +1515,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42337653/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42337632",
@@ -1330,7 +1538,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42337632/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42337386",
@@ -1357,7 +1565,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42337386/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42336614",
@@ -1383,7 +1591,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42336614/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42336613",
@@ -1411,7 +1619,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42336613/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42336612",
@@ -1439,7 +1647,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42336612/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42336183",
@@ -1475,7 +1683,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42336183/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42330061",
@@ -1511,7 +1719,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42330061/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42329101",
@@ -1543,7 +1751,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42329101/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42332834",
@@ -1566,7 +1774,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42332834/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42332804",
@@ -1603,7 +1811,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42332804/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42332775",
@@ -1632,7 +1840,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42332775/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42332764",
@@ -1660,7 +1868,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42332764/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42331277",
@@ -1693,7 +1901,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42331277/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42330360",
@@ -1730,7 +1938,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42330360/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42320016",
@@ -1767,7 +1975,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42320016/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42320014",
@@ -1808,7 +2016,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42320014/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42320005",
@@ -1846,7 +2054,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42320005/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42320004",
@@ -1883,7 +2091,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42320004/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42318910",
@@ -1918,7 +2126,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42318910/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42317059",
@@ -1946,7 +2154,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42317059/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42349235",
@@ -1987,167 +2195,6 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42349235/",
-"impactScore": 44
-},
-{
-"pmid": "42342520",
-"title": "Response to commentary on \"Association of four or more rib fractures with complications in isolated blunt chest trauma\".",
-"authors": [
-"Haberal MA",
-"Demirci H",
-"Çolak MA"
-],
-"journal": "The American journal of emergency medicine",
-"journalTier": 1,
-"journalSJR": null,
-"articleType": "letter",
-"pubDate": "2026-06-20",
-"abstract": "",
-"doi": "10.1016/j.ajem.2026.06.032",
-"keywords": [],
-"meshTerms": [],
-"pubTypes": [
-"Letter"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42342520/",
-"impactScore": 43
-},
-{
-"pmid": "42336756",
-"title": "Reader comment regarding \"Intravenous thrombolysis in acute mild non-disabling ischemic stroke: A retrospective cohort study\".",
-"authors": [
-"Tiryaki ENÖ"
-],
-"journal": "The American journal of emergency medicine",
-"journalTier": 1,
-"journalSJR": null,
-"articleType": "letter",
-"pubDate": "2026-06-20",
-"abstract": "",
-"doi": "10.1016/j.ajem.2026.06.035",
-"keywords": [],
-"meshTerms": [],
-"pubTypes": [
-"Letter"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42336756/",
-"impactScore": 43
-},
-{
-"pmid": "42335572",
-"title": "Status epilepticus in patients with known epilepsy presenting to the emergency department: Predictors and mortality risk.",
-"authors": [
-"Koh HP",
-"Chen MSY",
-"Tan S",
-"Abdul Ghani F",
-"Selvaratanam M",
-"Mah GY",
-"Ong AG",
-"Mustapa AH",
-"Hanan NA",
-"Abu Bakar UZ",
-"Lim TM",
-"Pan HC",
-"Tan SSA",
-"Chuah SM",
-"Mat Idris MAZ"
-],
-"journal": "The American journal of emergency medicine",
-"journalTier": 1,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-06-20",
-"abstract": "Status epilepticus (SE) is a time-critical neurological emergency associated with significant morbidity and mortality. Data on its burden and predictors among patients with established epilepsy presenting to the emergency department (ED) remain limited, particularly in Asian settings. This study aimed to determine the incidence of SE, its association with in-hospital mortality, and its predictors. This multicentre prospective observational study was conducted across 34 public hospitals in Malaysia. Epilepsy patients presenting to the ED with seizures were recruited using convenience sampling. The primary endpoints were SE and in-hospital mortality. Predictors were identified using logistic regression analysis. A total of 521 patients were included, of whom 119 (22.8%) had SE. In-hospital mortality rate was 3.5%. SE was independently associated with mortality (aOR 9.17, 95% CI 3.14-26.78; p < 0.01), along with prior ischaemic stroke (aOR 5.75, 95% CI 2.13-15.56; p = 0.01). Independent predictors of SE included age ≥ 60 years (aOR 1.79, 95% CI 1.03-3.11, p = 0.04), hyperglycaemia (aOR 2.08, 95% CI 1.10-3.91, p = 0.02), hypocalcaemia (aOR 2.50, 95% CI 1.06-5.90, p = 0.04), central nervous system infections (aOR 7.80, 95% CI 2.80-21.78, p < 0.01), and phenytoin use (aOR 1.98, 95% CI 1.16-3.37, p = 0.01). SE occurred in nearly one-quarter of epilepsy patients presenting to the ED and was strongly associated with increased in-hospital mortality. These findings may assist clinicians in identifying patients at increased risk of SE and support early risk stratification and appropriate monitoring, particularly among older patients and those presenting with metabolic abnormalities or suspected CNS infection.",
-"doi": "10.1016/j.ajem.2026.06.033",
-"keywords": [
-"Asian",
-"Emergency department",
-"Epilepsy",
-"Mortality",
-"Status epilepticus"
-],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42335572/",
-"impactScore": 43
-},
-{
-"pmid": "42323608",
-"title": "Comparative efficacy and safety of extended versus continuous infusion of beta-lactam antibiotics for severe infection: a network meta-analysis of randomized trials.",
-"authors": [
-"Zhou L",
-"Tang Q",
-"Zhu J",
-"Liang G",
-"Yang Y",
-"Zhao Y",
-"Yu Z"
-],
-"journal": "Critical care (London, England)",
-"journalTier": 1,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-06-20",
-"abstract": "Prolonged infusion (extended [EI, 2-4 h] or continuous [CI, 24 h] extended) of beta-lactam antibiotics is considered to have advantages for patients with severe infection compared with intermittent bolus (IB). However, the choice of EI and CI is unclear due to the lack of direct comparison. We aimed to compare the EI and CI of beta-lactams in patients with severe infections using a network meta-analysis method. We systematically searched PubMed, Embase, Web of Science, Cochrane Library, CNKI, Wanfang Database, and Weipu Database for randomized controlled trials (RCTs) comparing EI, CI, or IB with beta-lactams in adults with severe infections. The primary outcome was all-cause mortality. A frequentist network meta-analysis with a random-effects model was performed. Risk of bias was assessed using the Cochrane RoB 2 tool. Thirty-five RCTs (10,627 patients) were included. Risk of bias was moderate to high in most studies. For mortality, EI ranked highest (SUCRA 74.20%) with numerically lower rates versus IB (EI: OR 0.80, 95% CI 0.55-1.17; CI: OR 0.86, 95% CI 0.62-1.02). Both EI and CI significantly improved clinical cure rates versus IB (EI: OR 1.58, 95% CI 1.13-2.23; CI: OR 1.35, 95% CI 1.05-1.85), and EI ranked first (SUCRA 87.72%). For microbiological success, CI ranked highest (SUCRA 83.03%), followed by EI (SUCRA 42.98%) and IB (SUCRA 23.99%), but no significant difference was found. For hospital stay, EI was associated with a reduction of borderline statistical significance (MD -3.49 days, 95% CI -6.79 - -0.08), whereas CI did not show a significant reduction (MD 1.11 days, 95% CI -1.24 - 3.63), and EI ranked best (SUCRA 98.09%). No significant adverse event differences were observed. Subgroup analyses showed variable treatment rankings across categories, with no statistically significant subgroup effects. In patients with severe infections, both EI and CI improved clinical cure versus IB, whereas mortality did not differ significantly. Indirect evidence suggests EI may be more effective than CI in most outcomes except microbiological response. EI trended to shorten hospital stay but the difference was of borderline significance. Considering its practical feasibility, EI appears to be a favorable option based on current evidence. However, this finding is based on indirect evidence and requires confirmation in head-to-head trials. PROSPERO CRD420251242437.",
-"doi": "10.1186/s13054-026-06142-2",
-"keywords": [
-"Beta-lactam antibiotics",
-"Continuous infusion",
-"Extended infusion",
-"Network meta-analysis",
-"Prolonged infusion"
-],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42323608/",
-"impactScore": 43
-},
-{
-"pmid": "42323108",
-"title": "Phenotyping of pulmonary arterial hypertension associated with congenital heart disease using latent class analysis: insights from a national prospective registry.",
-"authors": [
-"Li Q",
-"Yu Q",
-"Zhang G",
-"Tian H",
-"Yu Z",
-"Zhang C",
-"Chen Y",
-"Liu Y",
-"Wu W",
-"Zhu X",
-"Zhu X",
-"Yang Z",
-"Xiong C",
-"Han H",
-"Wu Y",
-"Gu Q",
-"He J"
-],
-"journal": "Chest",
-"journalTier": 1,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-06-20",
-"abstract": "Pulmonary arterial hypertension associated with congenital heart disease (PAH-CHD) is characterized by substantial prognostic and therapeutic heterogeneity. Conventional clinical and anatomic-pathophysiological classifications fail to fully capture these intricacies. Unsupervised clustering approaches such as latent class analysis (LCA) have been used to address this limitation. Can LCA-derived phenogroups refine risk stratification and predict PAH-targeted treatment responses in adult patients with PAH-CHD? Adult PAH-CHD patients (N=889) from a multicenter prospective registry were stratified into post- and pre-tricuspid shunt subsets. LCA was performed in each subset using 28 candidate clinical, laboratory, and hemodynamic variables. Ten-year survival and the effect of PAH-targeted therapy across phenogroups were evaluated. LCA identified four phenogroups in each subset with distinct phenotyping patterns. In post-tricuspid shunts, Group 1 (\"adaptation with open shunt\") exhibited preserved right ventricular function and the best survival despite high afterload. Groups 3 (\"maladaptation and failure\") and 4 (\"closed shunt and failure\") faced 2 to 3-fold higher mortality than Group 1. Notably, Group 2 (\"hyperkinetic state\") uniquely benefited from combination therapy (interaction P=0.026). In pre-tricuspid shunts, Groups 1 (\"high shunt and mild resistance\") and 3 (\"young female and low inflammation\") demonstrated preserved survival despite varying afterloads. However, Group 2 (\"old male and comorbidities\") had significantly higher mortality and an attenuated treatment response (interaction P=0.037) despite sharing mild hemodynamics with Group 1. Group 4 (\"high resistance and failure\") faced severe hypoxemia and the worst prognosis. LCA successfully stratified PAH-CHD patients into distinct phenogroups with varied clinical profiles, survival, and treatment responses. This data-driven phenotyping system provides a novel approach for risk stratification and may guide personalized clinical decision-making.",
-"doi": "10.1016/j.chest.2026.06.019",
-"keywords": [
-"congenital heart disease",
-"machine learning",
-"prognosis",
-"pulmonary arterial hypertension",
-"treatment"
-],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42323108/",
 "impactScore": 43
 },
 {
@@ -2183,7 +2230,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42343669/",
-"impactScore": 43
+"impactScore": 42
 },
 {
 "pmid": "42340446",
@@ -2221,7 +2268,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42340446/",
-"impactScore": 42
+"impactScore": 41
 },
 {
 "pmid": "42329581",
@@ -2252,37 +2299,36 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42329581/",
-"impactScore": 40
+"impactScore": 39
 },
 {
-"pmid": "42364174",
-"title": "Identifying Risk Factors for Readmission amongst Unhoused Burn Patients.",
+"pmid": "42365556",
+"title": "Public awareness and satisfaction with the centre antipoison du quebec (CAPQ): a population-based survey.",
 "authors": [
-"Hammond VR",
-"Yerramreddy S",
-"Egger ME",
-"Smith JW",
-"Bozeman MC"
+"St-Onge M",
+"Elliott A",
+"Vong WS",
+"Bergeron M"
 ],
-"journal": "Journal of burn care & research : official publication of the American Burn Association",
+"journal": "CJEM",
 "journalTier": 2,
 "journalSJR": null,
 "articleType": "original",
-"pubDate": "2026-06-27",
-"abstract": "Previous studies have used national data to assess readmission risk factors for patients with burn injury. This study sought to identify risk factors for readmission amongst unhoused burn patients. The 2022 Nationwide Readmissions Database, Healthcare Cost and Utilization Project, Agency for Healthcare Research and Quality, was used for this study. Patients with International Classification of Diseases Version 10 codes for burn or corrosive injury between January 1, 2022, to November 30, 2022, were included in analysis. Readmission was defined as a subsequent encounter within 30 days with a diagnosis of burn. 18,607 encounters were identified as index admissions, 1,130 (6.1%) were unhoused. 8.6% of unhoused patients (n=97) were readmitted with a diagnosis of burn injury compared to 5.2% (n=908) of housed patients (p<0.001). Risk factors for readmission for unhoused patients included a third-degree burn (OR 2.4, [1.4-4.2], p<0.001), leaving against medical advice (OR 4.1, [2.6-6.6], p<0.001), burn of the trunk (OR 1.9, [1.2-3.0], p<0.001), burn of the upper extremity (OR 1.9, [1.2-3.0], p<0.001), and burn of the lower extremity (OR 1.6, [1.0-2.6], p=0.004). Despite higher rates of diagnoses such as schizophrenia, bipolar disorder, alcohol abuse, and/or substance abuse in the unhoused population, these factors did not increase risk for readmission. Unhoused burn patients were at higher risk of readmission than housed patients, even when adjusting for other risk factors for readmission. Severity of injury, location of injury, and leaving against medical advice were associated with readmission amongst unhoused patients. Leaving against medical advice was a potentially modifiable risk factor identified for readmission risk mitigation in this study.",
-"doi": "10.1093/jbcr/irag108",
+"pubDate": "2026-06-28",
+"abstract": "To describe public awareness of the Centre antipoison du Québec (CAPQ), expectations regarding acute poisoning management and service delivery, and satisfaction among prior users. We conducted a cross-sectional, bilingual online survey of Quebec residents aged ≥ 14 years between April 13, 2024, and June 27, 2025. The questionnaire collected demographic data, assessed awareness and prior use of the CAPQ, explored past poisoning events and expectations for acute poisoning management, and measured satisfaction among previous users using a 5-point Likert scale, with open-ended questions for qualitative input. Participants were recruited through convenience and snowball sampling via public settings, social media, and CIUSSS newsletters. Descriptive statistics summarized responses and explored trends. A total of 611 respondents were included; 541 (88.5%) were aware of the CAPQ, including 152 prior users, while 70 (11.5%) were unaware. Unawareness was more common among females (60.0%), non-healthcare workers (91.4%), respondents with a non-North American ethnic background (34.2% vs. 10.1%), and those not primarily French-speaking (12.9% vs. 3.0%). Regional variation was observed, with Capitale-Nationale contributing the largest number of unaware respondents (35/70) and Laurentides showing the highest proportion (26.7%). Among respondents without prior CAPQ use who reported a poisoning event, most contacted emergency services or presented to the emergency department. Expectations were similar among aware and unaware respondents, particularly for acute poisoning management, with nurses expected to respond within five minutes. Among prior users, overall satisfaction was high across all domains, though communication and outreach were identified as areas for improvement. Key service expectations included rapid 24/7 access (76.9%), responder expertise (69.9%), and clear, adapted recommendations (56.1%). Most respondents preferred French (84.9%), telephone communication (94.1%), and follow-up calls (81.7%). User satisfaction with the CAPQ was high, but gaps in public awareness and service expectations remain. These findings highlight opportunities to improve accessibility, communication and outreach strategies.",
+"doi": "10.1016/j.tox.2004.01.033",
 "keywords": [
-"burn",
-"homeless",
-"homelessness",
-"readmission",
-"unhoused"
+"Awareness",
+"Poison control centers",
+"Quality improvement",
+"Surveys and Questionnaires",
+"User satisfaction"
 ],
 "meshTerms": [],
 "pubTypes": [
 "Journal Article"
 ],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42364174/",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42365556/",
 "impactScore": 36
 },
 {
@@ -2403,6 +2449,37 @@
 "impactScore": 36
 },
 {
+"pmid": "42364174",
+"title": "Identifying Risk Factors for Readmission amongst Unhoused Burn Patients.",
+"authors": [
+"Hammond VR",
+"Yerramreddy S",
+"Egger ME",
+"Smith JW",
+"Bozeman MC"
+],
+"journal": "Journal of burn care & research : official publication of the American Burn Association",
+"journalTier": 2,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-06-27",
+"abstract": "Previous studies have used national data to assess readmission risk factors for patients with burn injury. This study sought to identify risk factors for readmission amongst unhoused burn patients. The 2022 Nationwide Readmissions Database, Healthcare Cost and Utilization Project, Agency for Healthcare Research and Quality, was used for this study. Patients with International Classification of Diseases Version 10 codes for burn or corrosive injury between January 1, 2022, to November 30, 2022, were included in analysis. Readmission was defined as a subsequent encounter within 30 days with a diagnosis of burn. 18,607 encounters were identified as index admissions, 1,130 (6.1%) were unhoused. 8.6% of unhoused patients (n=97) were readmitted with a diagnosis of burn injury compared to 5.2% (n=908) of housed patients (p<0.001). Risk factors for readmission for unhoused patients included a third-degree burn (OR 2.4, [1.4-4.2], p<0.001), leaving against medical advice (OR 4.1, [2.6-6.6], p<0.001), burn of the trunk (OR 1.9, [1.2-3.0], p<0.001), burn of the upper extremity (OR 1.9, [1.2-3.0], p<0.001), and burn of the lower extremity (OR 1.6, [1.0-2.6], p=0.004). Despite higher rates of diagnoses such as schizophrenia, bipolar disorder, alcohol abuse, and/or substance abuse in the unhoused population, these factors did not increase risk for readmission. Unhoused burn patients were at higher risk of readmission than housed patients, even when adjusting for other risk factors for readmission. Severity of injury, location of injury, and leaving against medical advice were associated with readmission amongst unhoused patients. Leaving against medical advice was a potentially modifiable risk factor identified for readmission risk mitigation in this study.",
+"doi": "10.1093/jbcr/irag108",
+"keywords": [
+"burn",
+"homeless",
+"homelessness",
+"readmission",
+"unhoused"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42364174/",
+"impactScore": 35
+},
+{
 "pmid": "42363248",
 "title": "Management and outcome of patients with traumatic brain injury treated in three major Nordic intensive care units: a comparative cohort study.",
 "authors": [
@@ -2439,12 +2516,29 @@
 "Trauma center",
 "Traumatic brain injury"
 ],
-"meshTerms": [],
+"meshTerms": [
+"Humans",
+"Brain Injuries, Traumatic",
+"Female",
+"Male",
+"Retrospective Studies",
+"Intensive Care Units",
+"Middle Aged",
+"Registries",
+"Scandinavian and Nordic Countries",
+"Glasgow Coma Scale",
+"Finland",
+"Adult",
+"Norway"
+],
 "pubTypes": [
-"Journal Article"
+"Journal Article",
+"Multicenter Study",
+"Observational Study",
+"Comparative Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42363248/",
-"impactScore": 35
+"impactScore": 34
 },
 {
 "pmid": "42362963",
@@ -2463,7 +2557,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42362963/",
-"impactScore": 35
+"impactScore": 34
 },
 {
 "pmid": "42362410",
@@ -2500,7 +2594,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42362410/",
-"impactScore": 35
+"impactScore": 34
 },
 {
 "pmid": "42360608",
@@ -2530,7 +2624,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42360608/",
-"impactScore": 35
+"impactScore": 34
 },
 {
 "pmid": "42359817",
@@ -2566,7 +2660,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42359817/",
-"impactScore": 35
+"impactScore": 34
 },
 {
 "pmid": "42357805",
@@ -2598,7 +2692,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42357805/",
-"impactScore": 35
+"impactScore": 34
 },
 {
 "pmid": "42351216",
@@ -2632,7 +2726,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42351216/",
-"impactScore": 34
+"impactScore": 33
 },
 {
 "pmid": "42350756",
@@ -2676,7 +2770,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42350756/",
-"impactScore": 34
+"impactScore": 33
 },
 {
 "pmid": "42348733",
@@ -2708,7 +2802,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42348733/",
-"impactScore": 34
+"impactScore": 33
 },
 {
 "pmid": "42348721",
@@ -2743,7 +2837,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42348721/",
-"impactScore": 34
+"impactScore": 33
 },
 {
 "pmid": "42348664",
@@ -2779,7 +2873,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42348664/",
-"impactScore": 34
+"impactScore": 33
 },
 {
 "pmid": "42347904",
@@ -2804,7 +2898,48 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42347904/",
-"impactScore": 34
+"impactScore": 33
+},
+{
+"pmid": "42364528",
+"title": "The impact of duration of infection on outcome of debridement, antimicrobial treatment and implant retention in fracture-related infections of the lower leg: A multicentre retrospective cohort study.",
+"authors": [
+"Sliepen J",
+"Buijs MAS",
+"Wouthuyzen-Bakker M",
+"Depypere M",
+"Rentenaar RJ",
+"De Vries JPPM",
+"Onsea J",
+"Morgenstern M",
+"Muri T",
+"Metsemakers WJ",
+"Govaert GAM",
+"IJpma FFA"
+],
+"journal": "Injury",
+"journalTier": 2,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-06-24",
+"abstract": "This study aimed to assess the association between the interval from initial fracture fixation to debridement, antibiotics and implant retention (DAIR) for fracture-related infection (FRI) (referred to as the FF-FRI interval) and treatment outcome in patients with FRI of the lower leg. This multinational retrospective cohort study included patients over 18-years of age who were diagnosed with an FRI of the lower leg, who underwent FRI surgery within 12 weeks after initial fracture fixation, between January 1st 2015 and July 1st 2020. All patients had a minimum follow-up of 12 months after cessation of therapy. Treatment success was defined as a combination of implant retention, eradication of infection, fracture healing and preservation of the affected limb. Both univariate and multivariable models were employed to ascertain factors associated with treatment outcome following DAIR. A total of 100 patients were treated with DAIR. The median FF-FRI interval was 17 days (range: 1-63). A total of 57/100 patients (57%) had a successful treatment outcome after a median follow-up of 33.6 (P25-P75: 18.4-50.7) months. In 11 out of 22 patients (50%) identical pathogens were cultured at time of recurrent infection. The multivariable analysis demonstrated no statistically significant effect of the FF-FRI interval (HR: 1.01; 95%CI: [1.00-1.03]; p: 0.059). This study found no association between time to DAIR surgery and treatment outcome of DAIR procedures up to nine weeks, in patients with an FRI of the lower leg, however the success rate, when applying strict definition of treatment success, of 57% rate is limited. In clinical practice, this indicates that attempts to retain an implant can be considered at least up to nine weeks after initial fracture fixation, provided that other surgical decision-making factors (e.g. implant stability, adequate debridement, and soft tissue coverage) permit it.",
+"doi": "10.1016/j.injury.2026.113467",
+"keywords": [
+"Antibiotics",
+"DAIR",
+"Debridement",
+"Fracture",
+"Fracture-related infection",
+"Implant retention",
+"Infection",
+"Lower leg, Tibia"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42364528/",
+"impactScore": 32
 },
 {
 "pmid": "42343227",
@@ -2835,7 +2970,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42343227/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42343206",
@@ -2863,7 +2998,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42343206/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42343202",
@@ -2898,7 +3033,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42343202/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42340459",
@@ -2948,7 +3083,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42340459/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42340407",
@@ -3001,7 +3136,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42340407/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42340395",
@@ -3050,7 +3185,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42340395/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42340341",
@@ -3085,7 +3220,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42340341/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42340329",
@@ -3118,7 +3253,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42340329/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42314024",
@@ -3141,7 +3276,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42314024/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42348107",
@@ -3171,7 +3306,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42348107/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42348105",
@@ -3208,7 +3343,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42348105/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42361788",
@@ -3240,7 +3375,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42361788/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42341351",
@@ -3275,7 +3410,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42341351/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42337794",
@@ -3302,7 +3437,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42337794/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42337701",
@@ -3334,7 +3469,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42337701/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42337426",
@@ -3367,7 +3502,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42337426/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42337423",
@@ -3397,7 +3532,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42337423/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42337200",
@@ -3435,7 +3570,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42337200/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42334765",
@@ -3466,7 +3601,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42334765/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42334764",
@@ -3502,7 +3637,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42334764/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42334763",
@@ -3531,7 +3666,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42334763/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42334575",
@@ -3562,7 +3697,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42334575/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42334346",
@@ -3595,7 +3730,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42334346/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42340531",
@@ -3647,7 +3782,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42340531/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42341352",
@@ -3679,7 +3814,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42341352/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42332581",
@@ -3714,7 +3849,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42332581/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42330187",
@@ -3738,7 +3873,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42330187/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42329582",
@@ -3773,7 +3908,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42329582/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42329568",
@@ -3803,7 +3938,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42329568/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42329453",
@@ -3855,7 +3990,7 @@
 "Comparative Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42329453/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42329294",
@@ -3908,7 +4043,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42329294/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42318902",
@@ -3945,7 +4080,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42318902/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42202141",
@@ -3972,7 +4107,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42202141/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42324426",
@@ -4000,7 +4135,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42324426/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42323788",
@@ -4029,7 +4164,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42323788/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42323787",
@@ -4062,7 +4197,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42323787/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42324443",
@@ -4094,241 +4229,6 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42324443/",
-"impactScore": 30
-},
-{
-"pmid": "42336741",
-"title": "Comparable outcomes for non-operative intracranial hemorrhage at Level III vs Level I/II trauma centers.",
-"authors": [
-"Lord S",
-"Arda Y",
-"Karikis I",
-"DeWane MP",
-"Paranjape CN",
-"Ng-Kamstra JS",
-"Maurer L",
-"Kaafarani HMA",
-"Velmahos GC",
-"Hwabejire JO",
-"Lee J"
-],
-"journal": "Injury",
-"journalTier": 2,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-06-20",
-"abstract": "Most patients with isolated, closed blunt intracranial hemorrhage (ICH) do not require neurosurgical intervention. However, outcome data for those managed entirely at Level III trauma centers remain incompletely characterized. Using the 2017-2020 Trauma Quality Improvement Program (TQIP), we compared clinical outcomes for non-operative ICH patients treated at Level I/II versus Level III trauma centers. The primary endpoint was composite in-hospital adverse event counts per patient, modeled using negative binomial regression and reported as adjusted incidence rate ratios (aIRRs). Secondary analyses included patients with ISS > 15, ICU admission by trauma center level, predictors of ICU admission, and unplanned ICU transfers. To address triage selection bias, we also compared time to ED discharge in a cohort of patients who met the same inclusion and exclusion criteria and were transferred from a Level III trauma center. A total of 24,132 patients were included after complete-case exclusion (Level I/II: 22,846; Level III: 1286). Composite adverse event counts were 0.067 events per patient at Level I/II centers and 0.042 at Level III centers. After adjustment, there was no statistically significant difference in composite adverse event counts between groups (aIRR 0.82, 95% CI 0.56-1.18). Mortality was lower at Level III centers (aOR 0.12, 95% CI 0.04-0.35). Composite adverse event count outcomes were similar in the ISS > 15 subgroup (aIRR 0.65, 95% CI 0.35-1.11). Among ICU admissions, the association between ICU admission and composite adverse event counts differed by trauma center level, with a lower relative effect of ICU admission at Level III centers compared to Level I/II centers (interaction aIRR 0.54, 95% CI 0.32-0.92). Exploratory analysis showed, after adjustment, significant factors associated with ICU admission were midline shift < 5 mm (aOR 1.44, 95% CI 1.29-1.61), lower GCS (aOR 0.84, 95% CI 0.82-0.86), alcohol use disorder (aOR 1.40, 95% CI 1.22-1.62), and anticoagulant use (aOR 1.41, 95% CI 1.27-1.59). Significant unplanned ICU admission included alcohol use disorder (aOR 5.04, 95% CI 2.74-8.90) and anticoagulation use (aOR 3.38, 95% CI 1.94-5.72). Following ED arrival, 94.2% of patients at Level III centers were admitted within 6 h, and 97.9% of transferred patients were transferred within 6 h (aOR 2.21, 95% CI 1.30-3.90). Selected patients with non-operative ICH can be managed at Level III trauma centers without increased complications or the need for neurosurgical intervention.",
-"doi": "10.1016/j.injury.2026.113462",
-"keywords": [
-"Hospital designation",
-"Intracranial hemorrhage",
-"Outcomes",
-"Trauma"
-],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42336741/",
-"impactScore": 29
-},
-{
-"pmid": "42323689",
-"title": "Trends in urgency levels and risk of acute critical condition among prehospital patients. A seven-year observational historic register-based cohort study.",
-"authors": [
-"Sørensen K",
-"Kløjgård TA",
-"Christensen EF",
-"Lindskou TA",
-"Søvsø MB"
-],
-"journal": "Scandinavian journal of trauma, resuscitation and emergency medicine",
-"journalTier": 2,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-06-20",
-"abstract": "In our region, as in Western countries, the number of emergencies requesting an ambulance is increasing. Whether this may be due to increased disease burden and/or lower threshold for calling is not clear. This study aimed to examine the development over the years in the number and urgency levels of ambulances and the actual acute disease severity, as indicated by initial vital signs measured on scene, together with patient demographics, comorbidity, and mortality trends over time. We conducted a registry-based observational cohort study of patients aged ≥ 18 years assigned an ambulance in the North Denmark Region from 2017 to 2023. The primary outcomes were urgency level and acute critical severity, assessed by a modified National Early Warning Score. Linear regression was applied to examine for alignment between trends in urgency level over the years and critically versus non-critically severity in prehospital patients assigned to urgency level A (most urgent, potentially life-threatening) and B (less urgent), respectively. Among 202,746 prehospital patients, the proportion assessed as urgency level A decreased from 62% to 59%, while urgency level B increased from 38% to 41%. While the proportion of patients in acute critical condition was 16% vs. 8% among level of urgency A and B, and stable during the period, the number of patients in acute critical condition increased by 3.6 (95% confidence interval (CI) 0.7-6.6) and 6.1 (95% CI 4.4-7.8) per quarter. Across the total population, patient age increased from 64 to 66 years, and the proportion with severe comorbidity increased from 11% to 14%. From 2017 to 2023, the number of patients assigned with an ambulance through 1-1-2 increased, as did patient age and comorbidity. During the years were similar proportions of acute critical severity, but increasingly more among urgency level B. Thus, the acute severity among prehospital patients has not diminished. The lack of alignment between the level of urgencies and the acuity severity found on scene should be monitored carefully, together with mortality and clinical outcomes.",
-"doi": "10.1186/s13049-026-01646-w",
-"keywords": [
-"Decision support systems",
-"Early warning score",
-"Emergency medical dispatch",
-"Emergency medical services",
-"Patient acuity",
-"Triage"
-],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42323689/",
-"impactScore": 29
-},
-{
-"pmid": "42323522",
-"title": "The inter-rater reliability of the TEDNQ for evaluating emergency department note quality.",
-"authors": [
-"Rajaram A",
-"Rosas KP",
-"Foster D",
-"Szulewski A",
-"Wolfrom B",
-"Douglas SL"
-],
-"journal": "CJEM",
-"journalTier": 2,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-06-20",
-"abstract": "Audits are a strategy for assessing and improving the quality of Emergency Department documentation. Based on expert input, the TEDNQ (Tool for Emergency Department Note Quality) was recently developed for this purpose. This study assessed the inter-rater reliability of the TEDNQ and its correlation with global impressions of Emergency Department note quality. Four emergency physicians received standardized training and then evaluated 100 notes from visits for patients with abdominal pain presenting to a Canadian academic Emergency Department. Raters provided TEDNQ and global impression scores. Inter-rater reliability was calculated using Fleiss' kappa for global scores and intraclass correlation coefficient (ICC) for TEDNQ scores. Point biserial correlations between TEDNQ and global impressions for the set of notes were calculated. Across all raters, the ICC for the total TEDNQ scores was 0.40 (95% CI 0.30-0.50), 0.40 (95% CI 0.30-0.51) for the universal component, and 0.23 (95% CI 0.13-0.34) for the conditional components. The Fleiss' kappa for global impressions across all pairs of reviewers was 0.18 (95% CI 0.10-0.26). The point biserial correlation between TEDNQ and global scores was 0.44 (p < 0.001). While validated tools to assess documentation quality are essential, the recently developed TEDNQ is not yet suitable for widespread use by emergency physicians. Global impressions of note quality also demonstrate limited usefulness due to poor inter-rater reliability. Further refinement and testing of the TEDNQ is warranted prior to prospective evaluation across diverse emergency department settings.",
-"doi": "10.1016/j.annemergmed.2023.10.001",
-"keywords": [
-"Documentation quality",
-"Electronic medical record",
-"Emergency medicine",
-"Physician documentation"
-],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42323522/",
-"impactScore": 29
-},
-{
-"pmid": "42323521",
-"title": "Infective endocarditis in an HIV-positive patient without IV drug use: a case of multifocal septic complications.",
-"authors": [
-"Mathew T",
-"Altschuler Y",
-"Martinez-Ortiz E",
-"Dixon T",
-"Halperin M",
-"Gartenberg A"
-],
-"journal": "CJEM",
-"journalTier": 2,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-06-20",
-"abstract": "",
-"doi": "10.1177/014107680109400804",
-"keywords": [
-"Back pain",
-"Human immunodeficiency virus",
-"Infective endocarditis",
-"Septic emboli"
-],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42323521/",
-"impactScore": 29
-},
-{
-"pmid": "42323520",
-"title": "Electrocardiogram competency of Canadian emergency medicine residents: curriculum gaps and opportunities for improvement.",
-"authors": [
-"Mastrangelo E",
-"El-Baba M",
-"Patocka C",
-"McLaren JTT"
-],
-"journal": "CJEM",
-"journalTier": 2,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-06-20",
-"abstract": "Electrocardiogram (ECG) interpretation is crucial for emergencies, alongside point-of-care ultrasound (PoCUS). A prior survey of Emergency Medicine program directors identified \"must know\" ECG diagnoses. But whether ECG interpretation is adequately promoted by the Royal College, included in structured curriculum, and learned by residents is unknown. We sought to identify curriculum gaps and opportunities for improvement. Using constructive alignment framework, we conducted a multi-modal evaluation of Canadian Emergency Medicine residency program ECG education. For intended learning outcomes, we reviewed the college's Entrustable Professional Activities, comparing ECG with PoCUS. For teaching and learning activities, we administered a national cross-sectional survey of program directors. For assessment, we surveyed residents on self-reported efficacy in interpreting \"must know\" ECG diagnoses. There is no Royal College Entrustable Professional Activities for ECGs, and only 1 milestone compared with 9 for PoCUS. A majority (60%) of program directors reported no structured ECG curriculum, and most (57.4%) residents reported < 1 h of ECG self-study per month. There were 60% of program directors and 92% of residents who agreed they would benefit from structured teaching. Self-reported efficacy increased through residency, from 60% for PGY-2 to 90% for PGY-5. But there were gaps with low efficacy (e.g., for bifascicular block, failure to capture, Brugada pattern, and myocardial infarction in the presence of bundle branch block). PGY-5 residents reported autonomy for ventricular tachycardia, hyperkalemia, and acute myocardial infarction, despite known limitations from the literature of Emergency physicians. ECG curriculum gaps include lower emphasis from Royal College Entrustable Professional Activities compared with PoCUS, limited structured ECG curriculum, and little self-study. While self-reported efficacy increases through residency, there are perceived gaps for many \"must know\" diagnoses, and unperceived gaps with confidence that exceeds known practice variation. The majority of survey responses agree they would benefit from structured training.",
-"doi": "10.1017/cem.2016.27",
-"keywords": [
-"Education",
-"Electrocardiogram",
-"Emergency medicine",
-"Resident"
-],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42323520/",
-"impactScore": 29
-},
-{
-"pmid": "42322520",
-"title": "Case report: testicular compartment syndrome, a rare presentation of a hydrocele, diagnosed with point of care ultrasound (PoCUS).",
-"authors": [
-"Alshehri ROD",
-"Power RJ",
-"Paterson NR",
-"Cox CP"
-],
-"journal": "CJEM",
-"journalTier": 2,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-06-20",
-"abstract": "",
-"doi": "10.1136/emermed-2021-212281",
-"keywords": [
-"Emergency Medicine",
-"Point of Care Ultrasound (PoCUS)",
-"Testicular Compartment Syndrome"
-],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42322520/",
-"impactScore": 29
-},
-{
-"pmid": "42322519",
-"title": "A scoping review of emergency department take-home naloxone on patient and health outcomes.",
-"authors": [
-"Arbour JA",
-"Ma JA",
-"Feder KA"
-],
-"journal": "CJEM",
-"journalTier": 2,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-06-20",
-"abstract": "The opioid crisis in North America continues to cause immense harm and loss of life. The distribution of naloxone has been recognized as an important tool to combat the opioid crisis. The emergency department (ED) setting provides an important opportunity to distribute naloxone to people that use opioids. The purpose of this scoping review was to summarize the literature surrounding ED-based take-home naloxone with a focus on key patient-centered health outcomes. We performed a scoping review of naloxone distribution from the ED utilizing PRISMA Extension for Scoping Reviews guidelines. The databases MEDLINE, Embase, Cochrane Central Register of Controlled Trials, and CINAHL were searched for keywords related to naloxone and the ED. Abstracts were screened for relevance and a full text review was undertaken applying inclusion and exclusion criteria. Data were extracted and summarized by outcome of interest. 3475 studies were identified and screened for relevance. 24 studies were included in the results and analysis. Seven studies reported health outcomes related to take-home naloxone. Nine studies reported patient perceptions of take-home naloxone, and eight studies reported provider perceptions of take-home naloxone. No studies were identified that reported cost-effectiveness data. We found that take-home naloxone distribution in the ED setting is supported by both patients and ED providers. Knowledge gaps exist as to whether these programs are effective to improve patient health outcomes, or whether they are cost-effective. Take-home naloxone distribution in the ED setting to combat the opioid overdose crisis is supported by patients and ED providers. Knowledge gaps exist as to whether these programs improve health outcomes for people who use opioids, or whether they are cost-effective. Take-home naloxone should be considered as part of a harm reduction strategy for patients presenting to the ED at risk for opioid overdose.",
-"doi": "10.1002/emp2.13180",
-"keywords": [
-"Harm reduction",
-"Opioid use disorder",
-"Take-home naloxone"
-],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42322519/",
-"impactScore": 29
-},
-{
-"pmid": "42322518",
-"title": "Delayed ultrasound in ectopic pregnancy: clinical selection, time-dependent diagnosis, and the limits of reassurance.",
-"authors": [
-"Çelik A"
-],
-"journal": "CJEM",
-"journalTier": 2,
-"journalSJR": null,
-"articleType": "letter",
-"pubDate": "2026-06-20",
-"abstract": "",
-"doi": "10.1016/j.ajem.2022.08.045",
-"keywords": [],
-"meshTerms": [],
-"pubTypes": [
-"Letter"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42322518/",
 "impactScore": 29
 },
 {
@@ -4363,7 +4263,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42364073/",
-"impactScore": 26
+"impactScore": 25
 },
 {
 "pmid": "42360077",
@@ -4379,7 +4279,7 @@
 "articleType": "original",
 "pubDate": "2026-06-26",
 "abstract": "The objective of this study was to find the relationship between Patient State Index (PSI) and Richmond Agitation Sedation Scale (RASS) for sedation in critically ill patients. This was a prospective, observational study. Thirty-five patients were recruited to assess the correlation between PSI and RASS scores of 0 to -3 for sedation in mechanically ventilated, critically ill patients. Paired observations (RASS and PSI) were made for each patient every 4 hours for at least 72 hours or until discontinuation of monitoring, whichever occurred earlier. Appropriate statistical analyses were applied; a P < 0.05 was considered significant. Out of the expected 665 pairs of observations, only 608 pairs were observed. The median PSI value with all sedation regimen was 72 with an interquartile range of 60 and 86 (1st and 3rd quartile) respectively. There was significant and strong correlation between PSI and RASS 0 to -3 with Spearman correlation coefficient of 0.822; R2=0.675 (P < 0.001) which dropped to 0.786 with repeated measures correlation. The sensitivity and specificity were 88.66% and 88.57%, respectively, with an area under the receiver operating characteristic curve of 0.947; these improved to 100% and an area under the curve of 1 when analysed per patient. To maintain RASS between 0 and -3, the PSI cutoff was found to be 50-52. PSI correlates well with RASS across sedation regimens in critically ill patients and assists in monitoring of sedation. Adequate sedation to reach an RASS of 0 to -3 may be achieved at a PSI of 50-52. However, these findings are preliminary and require validation in larger cohorts.",
-"doi": "10.4274/TJAR.2026.262486",
+"doi": "10.1016/j.hrtlng.2008.10.010",
 "keywords": [
 "Deep sedation",
 "fentanyl",
@@ -4393,7 +4293,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42360077/",
-"impactScore": 25
+"impactScore": 24
 },
 {
 "pmid": "42332931",
@@ -4421,7 +4321,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42332931/",
-"impactScore": 25
+"impactScore": 24
 },
 {
 "pmid": "42332901",
@@ -4450,7 +4350,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42332901/",
-"impactScore": 25
+"impactScore": 24
 },
 {
 "pmid": "42332900",
@@ -4467,7 +4367,7 @@
 "articleType": "original",
 "pubDate": "2026-06-26",
 "abstract": "",
-"doi": "10.4274/TJAR.2026.252497",
+"doi": "10.1093/bja/aeq041",
 "keywords": [
 "Analgesia",
 "epidural morphine",
@@ -4480,7 +4380,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42332900/",
-"impactScore": 25
+"impactScore": 24
 },
 {
 "pmid": "42329033",
@@ -4514,7 +4414,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42329033/",
-"impactScore": 25
+"impactScore": 24
 },
 {
 "pmid": "42319076",
@@ -4544,7 +4444,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42319076/",
-"impactScore": 25
+"impactScore": 24
 },
 {
 "pmid": "42318753",
@@ -4577,7 +4477,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42318753/",
-"impactScore": 25
+"impactScore": 24
 },
 {
 "pmid": "42318747",
@@ -4605,7 +4505,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42318747/",
-"impactScore": 25
+"impactScore": 24
 },
 {
 "pmid": "42318746",
@@ -4621,14 +4521,14 @@
 "articleType": "original",
 "pubDate": "2026-06-26",
 "abstract": "",
-"doi": "10.4274/TJAR.2026.252367",
+"doi": "10.4103/ija.ija_1077_24",
 "keywords": [],
 "meshTerms": [],
 "pubTypes": [
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42318746/",
-"impactScore": 25
+"impactScore": 24
 },
 {
 "pmid": "42318699",
@@ -4661,7 +4561,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42318699/",
-"impactScore": 25
+"impactScore": 24
 },
 {
 "pmid": "41568921",
@@ -4678,7 +4578,7 @@
 "articleType": "original",
 "pubDate": "2026-06-26",
 "abstract": "",
-"doi": "10.4274/TJAR.2026.252377",
+"doi": "10.3344/kjp.2017.30.1.3",
 "keywords": [
 "Dorsal root ganglion",
 "pain",
@@ -4690,7 +4590,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/41568921/",
-"impactScore": 25
+"impactScore": 24
 },
 {
 "pmid": "41540852",
@@ -4724,7 +4624,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/41540852/",
-"impactScore": 25
+"impactScore": 24
 },
 {
 "pmid": "42348106",
@@ -4758,7 +4658,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42348106/",
-"impactScore": 24
+"impactScore": 23
 },
 {
 "pmid": "42332556",
@@ -4784,7 +4684,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42332556/",
-"impactScore": 22
+"impactScore": 21
 },
 {
 "pmid": "42337427",
@@ -4818,7 +4718,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42337427/",
-"impactScore": 22
+"impactScore": 21
 }
 ]
 }
