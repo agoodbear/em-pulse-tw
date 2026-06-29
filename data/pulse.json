@@ -1,67 +1,113 @@
 {
-"generatedAt": "2026-06-28T22:59:42.000Z",
+"generatedAt": "2026-06-29T22:54:25.000Z",
 "daysBack": 7,
 "journalCount": 59,
 "stats": {
-"total": 144,
+"total": 154,
 "byType": {
+"review": 12,
 "systematic-review": 2,
-"review": 11,
 "rct": 1,
-"original": 106,
+"original": 114,
 "editorial": 8,
-"letter": 16
+"letter": 16,
+"case-report": 1
 },
 "byTier": {
+"1": 71,
 "2": 59,
-"1": 65,
-"3": 20
+"3": 24
 },
 "topScore": 59,
 "avgScore": 38
 },
 "articleOfWeek": {
-"pmid": "42153748",
-"title": "Association between patient-to-nurse ratios in emergency departments and patient, staff, and organizational outcomes: a systematic review.",
+"pmid": "42371000",
+"title": "ECMO for patients with obesity: evidence and practice.",
 "authors": [
-"Rivet C",
-"Amazouz H",
-"Gratacap M",
-"Delannoy Q",
-"Yordanov Y",
-"Leblanc J",
-"URGE collaborators"
+"Moyon Q",
+"Hermans G",
+"Abrams D",
+"Agerstrand C",
+"Anderson MR",
+"De Jong A",
+"Fan E",
+"Ferguson ND",
+"Grasselli G",
+"Jaber S",
+"Ng PY",
+"Pham T",
+"Rudym D",
+"Schmidt M",
+"Combes A",
+"Brodie D"
 ],
-"journal": "European journal of emergency medicine : official journal of the European Society for Emergency Medicine",
-"journalTier": 2,
+"journal": "Intensive care medicine",
+"journalTier": 1,
 "journalSJR": null,
-"articleType": "systematic-review",
-"pubDate": "2026-08-01",
-"abstract": "Background In many settings, studies have shown that establishing patient-to-nurse ratios has benefits for both patients and staff. Whether this is transposable to emergency department (ED) is unclear. Objective The primary objective was to assess the association between patient-to-nurse ratios in EDs and mortality. Design In this systematic review, a search strategy identified studies published in 2004-2025 in MEDLINE, Cochrane, and CINAHL. Two independent reviewers performed selection and data extraction, followed by a narrative synthesis. Outcomes The primary outcome was in-hospital mortality. Secondary outcomes were other patient outcomes, staff, and organizational outcomes. Results Of 2214 identified references, 17 studies were included and all of which were observational. The primary outcome was assessed in only one cohort study ( n  = 73 EDs), where an increase in the number of nurses per patient was associated with a reduction in ED mortality (adjusted odds ratio = 0.68; 95% confidence interval: 0.49; 0.94). An increase in the number of nurses per patient was also associated with a reduction in cardiac arrests (one study: relative risk = 1.33, 95% confidence interval: 1.05, 1.67 for ≥8.5 patients/nurse vs. <8.5) and medication errors (one of two studies), and an improvement in patient experience (two studies) and nurse satisfaction (one study). Mixed results were observed with regard to reducing length of stay (one of two studies), administration time (three of four studies) and the number of patients who left without being seen (three of four studies), while waiting time before diagnosis or treatment improved (three studies). Conclusion Although evidence is limited, several observational studies suggest that a higher nurse-to-patient ratio is associated with better patient, nurse, and ED organizational outcomes.",
-"doi": "10.1097/MEJ.0000000000001350",
+"articleType": "review",
+"pubDate": "2026-06-29",
+"abstract": "Obesity is increasingly encountered among patients requiring extracorporeal membrane oxygenation (ECMO) for severe respiratory or cardiac failure. It alters respiratory and cardiovascular physiology and drug pharmacokinetics and introduces technical and logistical challenges that may complicate patient selection, ECMO initiation, cannulation, anticoagulation, and monitoring. This review summarizes current evidence regarding the epidemiology, physiological implications, outcomes, and management of obesity in patients supported with veno-venous (VV) or veno-arterial (VA) ECMO. Available evidence, largely retrospective and based on body mass index classifications, suggests that obesity should not be considered a contraindication to VV-ECMO, with outcomes comparable to or potentially better than those of patients without obesity. However, obesity-related respiratory mechanics may exaggerate the apparent severity of lung injury, emphasizing the need for optimized conventional ARDS management, including appropriate ventilatory strategies and prone positioning, before ECMO initiation. In contrast, outcomes during VA-ECMO are more heterogeneous, particularly in extracorporeal cardiopulmonary resuscitation (ECPR), and may be influenced by patient selection, comorbidities, and timing of support. Obesity also creates important technical challenges requiring individualized cannulation, anticoagulation, and perfusion strategies. Obesity alone should not preclude access to ECMO, particularly VV-ECMO. Successful management requires anticipation of obesity-related challenges, appropriate infrastructure, and structured multidisciplinary protocols. Further prospective studies are needed to clarify obesity-specific risks, optimize management strategies, and evaluate long-term outcomes.",
+"doi": "10.1161/JAHA.119.013948",
 "keywords": [
-"emergency medical services",
-"emergency service",
-"hospital",
-"nurse",
-"personnel staffing",
-"staffing"
+"Acute respiratory distress syndrome",
+"Cardiogenic shock",
+"Extracorporeal cardiopulmonary resuscitation",
+"Extracorporeal life support",
+"Obesity"
 ],
-"meshTerms": [
-"Humans",
-"Emergency Service, Hospital",
-"Hospital Mortality",
-"Nursing Staff, Hospital",
-"Personnel Staffing and Scheduling"
-],
+"meshTerms": [],
 "pubTypes": [
 "Journal Article",
-"Systematic Review"
+"Review"
 ],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42153748/",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42371000/",
 "impactScore": 59
 },
 "articles": [
+{
+"pmid": "42371000",
+"title": "ECMO for patients with obesity: evidence and practice.",
+"authors": [
+"Moyon Q",
+"Hermans G",
+"Abrams D",
+"Agerstrand C",
+"Anderson MR",
+"De Jong A",
+"Fan E",
+"Ferguson ND",
+"Grasselli G",
+"Jaber S",
+"Ng PY",
+"Pham T",
+"Rudym D",
+"Schmidt M",
+"Combes A",
+"Brodie D"
+],
+"journal": "Intensive care medicine",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "review",
+"pubDate": "2026-06-29",
+"abstract": "Obesity is increasingly encountered among patients requiring extracorporeal membrane oxygenation (ECMO) for severe respiratory or cardiac failure. It alters respiratory and cardiovascular physiology and drug pharmacokinetics and introduces technical and logistical challenges that may complicate patient selection, ECMO initiation, cannulation, anticoagulation, and monitoring. This review summarizes current evidence regarding the epidemiology, physiological implications, outcomes, and management of obesity in patients supported with veno-venous (VV) or veno-arterial (VA) ECMO. Available evidence, largely retrospective and based on body mass index classifications, suggests that obesity should not be considered a contraindication to VV-ECMO, with outcomes comparable to or potentially better than those of patients without obesity. However, obesity-related respiratory mechanics may exaggerate the apparent severity of lung injury, emphasizing the need for optimized conventional ARDS management, including appropriate ventilatory strategies and prone positioning, before ECMO initiation. In contrast, outcomes during VA-ECMO are more heterogeneous, particularly in extracorporeal cardiopulmonary resuscitation (ECPR), and may be influenced by patient selection, comorbidities, and timing of support. Obesity also creates important technical challenges requiring individualized cannulation, anticoagulation, and perfusion strategies. Obesity alone should not preclude access to ECMO, particularly VV-ECMO. Successful management requires anticipation of obesity-related challenges, appropriate infrastructure, and structured multidisciplinary protocols. Further prospective studies are needed to clarify obesity-specific risks, optimize management strategies, and evaluate long-term outcomes.",
+"doi": "10.1161/JAHA.119.013948",
+"keywords": [
+"Acute respiratory distress syndrome",
+"Cardiogenic shock",
+"Extracorporeal cardiopulmonary resuscitation",
+"Extracorporeal life support",
+"Obesity"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article",
+"Review"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42371000/",
+"impactScore": 59
+},
 {
 "pmid": "42153748",
 "title": "Association between patient-to-nurse ratios in emergency departments and patient, staff, and organizational outcomes: a systematic review.",
@@ -138,7 +184,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42365349/",
-"impactScore": 58
+"impactScore": 57
 },
 {
 "pmid": "42152760",
@@ -215,7 +261,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42341978/",
-"impactScore": 55
+"impactScore": 54
 },
 {
 "pmid": "42341977",
@@ -246,7 +292,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42341977/",
-"impactScore": 55
+"impactScore": 54
 },
 {
 "pmid": "42337445",
@@ -277,7 +323,7 @@
 "Systematic Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42337445/",
-"impactScore": 54
+"impactScore": 53
 },
 {
 "pmid": "42329250",
@@ -318,7 +364,225 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42329250/",
-"impactScore": 53
+"impactScore": 52
+},
+{
+"pmid": "42371736",
+"title": "Authors' reply to the Letter to the Editor on \"Use of extracorporeal membrane oxygenation in traumatic injuries with acute respiratory distress syndrome: A systematic review and meta-analysis\".",
+"authors": [
+"Akbarpoor F",
+"da Nobrega Oliveira REN"
+],
+"journal": "The journal of trauma and acute care surgery",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-06-29",
+"abstract": "",
+"doi": "10.1097/TA.0000000000004826",
+"keywords": [],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42371736/",
+"impactScore": 50
+},
+{
+"pmid": "42371732",
+"title": "Characteristics and time course of postconcussive symptoms in children and adolescents with moderate to severe extracranial trauma with and without mild traumatic brain injury.",
+"authors": [
+"Biffl SE",
+"Biffl WL",
+"Ignacio RC",
+"Castelo MR",
+"Burch A",
+"Gorra A",
+"Schoonover B",
+"Cohen P",
+"Rivera N",
+"Hightower T",
+"Wattsman TA",
+"Wilkes W",
+"Fox N",
+"Goldsmith A",
+"Askegard J"
+],
+"journal": "The journal of trauma and acute care surgery",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-06-29",
+"abstract": "Mild traumatic brain injury (mTBI), including concussion, is common and has received a great deal of attention, but terminology and diagnosis can be confusing. Postconcussive symptoms (PCS) are well-described in the setting of concussion and isolated mTBI, but the individual symptoms are nonspecific and may be present in patients with extracranial injuries without TBI. The time course of PCS has not been well-characterized in patients with extracranial trauma, either with or without concomitant mTBI. We hypothesized that patients with mTBI with moderate/severe extracranial trauma would experience a unique, more severe and longer-lasting pattern of PCS with more negative impact on quality of life (QOL) when compared with similar trauma patients without mTBI. Prospective multicenter study (2018-2024) of patients aged 5 to 17 with extracranial Injury Severity Score >8, excluding moderate/severe TBI. Patients with and without mTBI (GCS 13-15, alteration of mental status or other signs/symptoms of TBI) were included. Patients were assessed at 1 week, 3 weeks, and 3 months with the Rivermead PCS Inventory and PedsQL QOL assessments. One hundred thirty-four patients were included: 53 (40%) had mTBI. Adolescent mTBI patients had significantly higher PCS Inventory scores than non-mTBI adolescents at T1 and T2. Symptoms persisted in >25% of both groups at T3. The QOL was impacted by the PCS burden. Although attrition compromised the statistical power of the study, many patients with moderate/severe extracranial trauma have a significant PCS burden at 3 months postinjury. Those with mTBI have a greater symptom burden and unique symptomatology compared with those without mTBI. Attention to diagnosis and treatment of mTBI and support and anticipatory guidance for all pediatric moderate/severe trauma patients is warranted. (J Trauma Acute Care Surg 2026;00:000-000. Copyright © 2026 Wolters Kluwer Health, Inc. All rights reserved.). Therapeutic/Care Management; Level IV.",
+"doi": "10.1097/TA.0000000000005104",
+"keywords": [
+"Pediatric trauma",
+"concussion",
+"pediatric rehabilitation",
+"postconcussive symptoms",
+"quality of life"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42371732/",
+"impactScore": 50
+},
+{
+"pmid": "42371668",
+"title": "CONVERT: Civilian outcomes of emergency department tourniquet conversion.",
+"authors": [
+"Fox AL",
+"Stuart M",
+"Clemens M",
+"Callaway DW"
+],
+"journal": "The journal of trauma and acute care surgery",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-06-29",
+"abstract": "Tourniquet conversion (TC) involves the removal of a tourniquet with the achievement of hemostasis using wound packing, hemostatic dressings, and/or pressure bandages as a less invasive method of hemorrhage control. TC is routinely performed in emergency departments to reduce ischemic complications associated with prolonged tourniquet use. Despite increasing civilian prehospital tourniquet application, empirical data guiding TC remain limited, and existing protocols rely largely on expert opinion. We conducted a retrospective cohort study of trauma patients presenting with prehospital-applied extremity tourniquets to a Level I trauma center between March 2021 and December 2024. TC was defined as the removal of a tourniquet with replacement by wound packing, hemostatic dressings, and/or pressure bandages. Outcomes were categorized as successful conversion, procedural intervention, or operative intervention. Secondary outcomes included injury-related complications, attribution of complications to tourniquet use, and factors associated with delayed or failed conversion. Multivariable logistic regression was used to identify predictors of successful conversion. Among 647 patients, 543 (83.9%) underwent successful TC in the emergency department without procedural or operative intervention. Median tourniquet duration was 40 minutes (interquartile range, 30-59). Sixty patients (9.3%) experienced injury-related complications, with none attributed to tourniquet use. Complications were more common in patients requiring operative intervention compared with those successfully converted (44.4% vs. 4.6%). Increasing tourniquet duration was independently associated with decreased odds of successful conversion per 30-minute interval [odds ratio (OR), 0.41; 95% CI, 0.32-0.53]. Upper extremity tourniquets were less likely to be successfully converted than lower extremity tourniquets (OR, 0.61; 95% CI, 0.38-0.97). TC in the emergency department is successful for most patients with prehospital-applied tourniquets. Complications appear primarily related to the inciting injury rather than tourniquet use, particularly when the duration is under 2 hours. These findings support existing conversion protocols and highlight the importance of timely reassessment to minimize duration-associated complications. (J Trauma Acute Care Surg 2026;00:000-000 Copyright © 2026 Wolters Kluwer Health, Inc. All rights reserved.). Prognostic/Epidemiological; Level III.",
+"doi": "10.1097/TA.0000000000005106",
+"keywords": [
+"Tourniquet",
+"hemorrhage control",
+"mass casualty",
+"tourniquet conversion"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42371668/",
+"impactScore": 50
+},
+{
+"pmid": "42371409",
+"title": "Relative Superiority: A framework for military and civilian trauma care based on special operations warfare.",
+"authors": [
+"Singh K",
+"Dion PM",
+"Tulloch V",
+"Beckett A"
+],
+"journal": "The journal of trauma and acute care surgery",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-06-29",
+"abstract": "The foundational principles in trauma care align with the operational strategies of Special Forces. Here we present a novel perspective on trauma care drawn from the book \"Spec Ops-Case Studies in Special Operations Warfare: Theory and Practice\" (1995) by Admiral (Ret'd) William H. McRaven. The book introduces the concept of Relative Superiority (RS), defined as a point in time when a smaller, well-trained, and well-prepared force gains a decisive advantage over a larger adversary. Achieving and maintaining RS requires precise timing and coordinated action. As time progresses, the opportunity to gain or retain this advantage diminishes. In trauma care, RS can be compared with the critical window for achieving hemorrhage control, timely resuscitation, and rapid transition to damage control surgery. Delays in these interventions decrease survival probability. If hemorrhage control is achieved but not sustained, re-establishing it becomes increasingly difficult and often fatal. This framework is illustrated through two trauma case studies. In Case Study I, timely interventions result in sustained control and survival. In Case Study II, delays led to only temporary control, which is subsequently lost, contributing to patient death. Within the RS framework, rapid surgical access can shift the advantage by attenuating hemorrhage and mitigating shock; however, speed alone does not guarantee survival. Achieving and maintaining RS requires sustained hemostasis, access to resources, and delivery of high-quality care. Applying the RS framework to trauma care offers a structured approach to evaluating the timing and effectiveness of interventions during critical phases of care. Its integration into Morbidity and Mortality discussions may help identify missed opportunities, guide performance improvement, and inform system-level changes. This conceptual model may support trauma teams in understanding how small gains at key moments influence overall outcomes in high-acuity clinical scenarios.",
+"doi": "10.1097/TA.0000000000004994",
+"keywords": [
+"Trauma",
+"combat casualty care",
+"damage control surgery",
+"hemorrhage",
+"special forces"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42371409/",
+"impactScore": 50
+},
+{
+"pmid": "42370999",
+"title": "HIgh versus STAndard blood Pressure target in hypertensive high-risk patients undergoing elective major abdominal surgery: the HISTAP multicenter randomized clinical trial.",
+"authors": [
+"Cecconi M",
+"Cortegiani A",
+"Noto A",
+"Sotgiu G",
+"Antonelli M",
+"Anderloni M",
+"Barbaresco I",
+"Bizzarri F",
+"Brunati A",
+"Cappellini I",
+"Cammarota G",
+"Caporale M",
+"Collino F",
+"Cuschera M",
+"Coloretti I",
+"Donadello K",
+"Foti L",
+"Frassanito L",
+"Fiume D",
+"Girardis M",
+"L'Acqua C",
+"Lauro G",
+"Maggiore SM",
+"Magnoni S",
+"Mirabella L",
+"Misseri G",
+"Miori S",
+"Matronola GM",
+"Pavan G",
+"Pellis T",
+"Piccioni F",
+"Puci MV",
+"Pugliese S",
+"Romanò B",
+"Russo A",
+"Samuelli N",
+"Torrano V",
+"Viani A",
+"Jaber S",
+"Azoulay E",
+"Romagnoli S",
+"Messina A",
+"SIAARTI Study Group"
+],
+"journal": "Intensive care medicine",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-06-29",
+"abstract": "The optimal mean arterial pressure (MAP) target in high-risk hypertensive patients undergoing major abdominal surgery remains unclear. The HISTAP trial evaluated whether targeting an intraoperative MAP ≥ 80 compared with ≥ 65 mmHg reduces postoperative organ dysfunction and 30-day mortality, in this population. HISTAP was a multicenter, randomized trial conducted at 18 Italian centers between March 2023 and April 2025. The study included patients aged ≥ 60 years with chronic hypertension requiring home therapy, undergoing elective major abdominal surgery and having at least one additional high-risk criterion. The intraoperative MAP was targeted to ≥ 80 mmHg (Treatment group) or ≥ 65 mmHg (Control group). The primary outcome was a composite endpoint including postoperative mortality and at least one major organ dysfunction. Of 636 randomized patients, 6 were excluded since surgery was canceled after randomization, 630 completed the trial and were included in the intention-to-treat analysis (median age, 74 years [IQR, 69-79]). Mean intraoperative MAP was 77 ± 7 mmHg in the Control group and 88 ± 9 mmHg in the Treatment group. The primary composite outcome occurred in 48.9% of patients in the Control group versus 38.1% of patients in the Treatment group (relative risk, 0.78; 95% CI 0.65-0.93; P = 0.006). Acute kidney injury was significantly less frequent in the Treatment group (23.5 vs. 33.7%; P = 0.005). Among hypertensive patients receiving continuous hemodynamic monitoring and protocolized fluid therapy at increased postoperative risk undergoing major abdominal surgery, targeting an intraoperative MAP ≥ 80 mmHg, compared with ≥ 65 mmHg, reduced major organ dysfunction, primarily due to fewer mild-to-moderate acute kidney injuries. The HISTAP trial has been registered at ClinicalTrials.gov, NCT05637606 (Date of registration: 24 November 2022).",
+"doi": "10.1161/01.cir.100.10.1043",
+"keywords": [
+"Fluid therapy",
+"Hemodynamic monitoring",
+"Intraoperative blood pressure",
+"Intraoperative hypotension",
+"Postoperative organ dysfunction"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42370999/",
+"impactScore": 50
+},
+{
+"pmid": "42370756",
+"title": "When Lungs Fail and the Heart Follows: Understanding Venovenous Extracorporeal Membrane Oxygenation Escalation in Acute Respiratory Distress Syndrome.",
+"authors": [
+"Lee RT",
+"Fan E"
+],
+"journal": "Critical care medicine",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-06-29",
+"abstract": "",
+"doi": "10.1097/CCM.0000000000007251",
+"keywords": [
+"acute respiratory distress syndrome",
+"cardiogenic shock",
+"extracorporeal memberane oxygenation",
+"treatment escalation"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42370756/",
+"impactScore": 50
 },
 {
 "pmid": "42365321",
@@ -378,7 +642,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42365321/",
-"impactScore": 50
+"impactScore": 49
 },
 {
 "pmid": "42361895",
@@ -407,7 +671,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42361895/",
-"impactScore": 49
+"impactScore": 48
 },
 {
 "pmid": "42361893",
@@ -429,7 +693,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42361893/",
-"impactScore": 49
+"impactScore": 48
 },
 {
 "pmid": "42361886",
@@ -451,7 +715,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42361886/",
-"impactScore": 49
+"impactScore": 48
 },
 {
 "pmid": "42365378",
@@ -488,7 +752,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42365378/",
-"impactScore": 49
+"impactScore": 48
 },
 {
 "pmid": "42365368",
@@ -525,7 +789,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42365368/",
-"impactScore": 49
+"impactScore": 48
 },
 {
 "pmid": "42365340",
@@ -562,7 +826,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42365340/",
-"impactScore": 49
+"impactScore": 48
 },
 {
 "pmid": "42363218",
@@ -591,7 +855,7 @@
 "Comment"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42363218/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42361894",
@@ -623,7 +887,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42361894/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42361892",
@@ -654,7 +918,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42361892/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42361891",
@@ -686,7 +950,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42361891/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42361890",
@@ -717,7 +981,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42361890/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42361889",
@@ -751,7 +1015,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42361889/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42361888",
@@ -782,7 +1046,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42361888/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42361887",
@@ -816,7 +1080,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42361887/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42360887",
@@ -842,7 +1106,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42360887/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42360868",
@@ -873,7 +1137,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42360868/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42350908",
@@ -900,7 +1164,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42350908/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42340419",
@@ -923,7 +1187,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42340419/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42351275",
@@ -947,7 +1211,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42351275/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42351245",
@@ -996,7 +1260,7 @@
 "Multicenter Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42351245/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42351228",
@@ -1020,7 +1284,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42351228/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42350913",
@@ -1055,7 +1319,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42350913/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42348668",
@@ -1086,7 +1350,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42348668/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42339875",
@@ -1129,7 +1393,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42339875/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42339834",
@@ -1156,7 +1420,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42339834/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42343428",
@@ -1179,7 +1443,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42343428/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42343425",
@@ -1200,7 +1464,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42343425/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42343410",
@@ -1226,7 +1490,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42343410/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42342439",
@@ -1249,7 +1513,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42342439/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42341173",
@@ -1280,7 +1544,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42341173/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42340420",
@@ -1303,7 +1567,7 @@
 "Published Erratum"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42340420/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42335315",
@@ -1324,7 +1588,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42335315/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42335301",
@@ -1354,7 +1618,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42335301/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42335298",
@@ -1385,7 +1649,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42335298/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42329251",
@@ -1408,7 +1672,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42329251/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42329249",
@@ -1431,7 +1695,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42329249/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42329248",
@@ -1454,7 +1718,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42329248/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42337809",
@@ -1494,7 +1758,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42337809/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42337653",
@@ -1515,7 +1779,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42337653/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42337632",
@@ -1538,7 +1802,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42337632/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42337386",
@@ -1565,7 +1829,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42337386/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42336614",
@@ -1591,7 +1855,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42336614/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42336613",
@@ -1619,7 +1883,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42336613/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42336612",
@@ -1647,7 +1911,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42336612/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42336183",
@@ -1683,7 +1947,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42336183/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42330061",
@@ -1719,7 +1983,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42330061/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42329101",
@@ -1751,7 +2015,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42329101/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42332834",
@@ -1774,7 +2038,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42332834/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42332804",
@@ -1811,7 +2075,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42332804/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42332775",
@@ -1840,7 +2104,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42332775/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42332764",
@@ -1868,7 +2132,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42332764/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42331277",
@@ -1885,7 +2149,7 @@
 "journalSJR": null,
 "articleType": "original",
 "pubDate": "2026-06-22",
-"abstract": "To evaluate the association of intra-arrest diastolic blood pressure and end-tidal carbon dioxide with return of spontaneous circulation in adult ICU cardiac arrest. This prospective observational study was conducted in an adult medical-surgical ICU over 9 months. Adult patients with an indwelling arterial catheter and mainstream capnography at the time of cardiac arrest were included. Diastolic blood pressure (DBP) and end-tidal carbon dioxide (EtCO2) were recorded at the end of each 2-minute CPR cycle. The primary analysis used mean DBP and mean EtCO2 across the CPR episode. Last recorded pre-outcome values were analyzed separately as secondary peri-outcome measures. The primary outcome was ROSC. Associations were assessed using logistic regression, and discrimination was evaluated using receiver operating characteristic curve analysis. A total of 68 cardiac arrest events from 63 patients were analyzed; ROSC was achieved in 29 events (42.6%). Mean DBP across the CPR episode was higher in events achieving ROSC than in those without ROSC (39 ± 18 vs 24 ± 10 mmHg; mean difference 15 mmHg, 95% CI 8-23; p < 0.001). Mean EtCO2 was also higher in events achieving ROSC (19 ± 5 vs 15 ± 6 mmHg; mean difference 4 mmHg, 95% CI 1-6; p = 0.010). For mean values, DBP showed numerically higher discrimination than EtCO2, but the difference was not statistically significant (AUC 0.78 vs 0.69; DeLong p = 0.30). In secondary peri-outcome analysis, last recorded pre-outcome values had higher AUCs, particularly for DBP (0.96 vs 0.85; DeLong p = 0.04), although this time point was identifiable only after ROSC or termination of resuscitation. In adult ICU cardiac arrest events with simultaneous arterial pressure and capnographic monitoring, both DBP and EtCO2 were associated with ROSC. DBP showed numerically higher discrimination than EtCO2, although this was not statistically significant for mean values across the CPR episode. Last recorded pre-outcome values should be interpreted only as peri-outcome associations and not as real-time predictors or treatment targets. DBP and EtCO2 should be viewed as complementary physiologic markers during CPR.",
+"abstract": "To evaluate the association of intra-arrest diastolic blood pressure and end-tidal carbon dioxide with return of spontaneous circulation in adult ICU cardiac arrest. This prospective observational study was conducted in an adult medical-surgical ICU over 9 months. Adult patients with an indwelling arterial catheter and mainstream capnography at the time of cardiac arrest were included. Diastolic blood pressure (DBP) and end-tidal carbon dioxide (EtCO2) were recorded at the end of each 2-min CPR cycle. The primary analysis used mean DBP and mean EtCO2 across the CPR episode. Last recorded pre-outcome values were analyzed separately as secondary peri-outcome measures. The primary outcome was ROSC. Associations were assessed using logistic regression, and discrimination was evaluated using receiver operating characteristic curve analysis. A total of 68 cardiac arrest events from 63 patients were analyzed; ROSC was achieved in 29 events (42.6%). Mean DBP across the CPR episode was higher in events achieving ROSC than in those without ROSC (39 ± 18 vs 24 ± 10 mmHg; mean difference 15 mmHg, 95% CI 8-23; p < 0.001). Mean EtCO2 was also higher in events achieving ROSC (19 ± 5 vs 15 ± 6 mmHg; mean difference 4 mmHg, 95% CI 1-6; p = 0.010). For mean values, DBP showed numerically higher discrimination than EtCO2, but the difference was not statistically significant (AUC 0.78 vs 0.69; DeLong p = 0.30). In secondary peri-outcome analysis, last recorded pre-outcome values had higher AUCs, particularly for DBP (0.96 vs 0.85; DeLong p = 0.04), although this time point was identifiable only after ROSC or termination of resuscitation. In adult ICU cardiac arrest events with simultaneous arterial pressure and capnographic monitoring, both DBP and EtCO2 were associated with ROSC. DBP showed numerically higher discrimination than EtCO2, although this was not statistically significant for mean values across the CPR episode. Last recorded pre-outcome values should be interpreted only as peri-outcome associations and not as real-time predictors or treatment targets. DBP and EtCO2 should be viewed as complementary physiologic markers during CPR.",
 "doi": "10.1016/j.resuscitation.2026.111177",
 "keywords": [
 "Cardiopulmonary resuscitation",
@@ -1901,7 +2165,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42331277/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42330360",
@@ -1938,7 +2202,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42330360/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42320016",
@@ -1975,7 +2239,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42320016/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42320014",
@@ -2016,7 +2280,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42320014/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42320005",
@@ -2054,7 +2318,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42320005/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42320004",
@@ -2091,7 +2355,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42320004/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42318910",
@@ -2126,7 +2390,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42318910/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42317059",
@@ -2154,47 +2418,6 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42317059/",
-"impactScore": 44
-},
-{
-"pmid": "42349235",
-"title": "A multi-center retrospective cohort study of SUGAmmadex for neuromuscular blockade reversal in the emergency department: SUGARED study - on behalf of EMPHARM-NET Investigators.",
-"authors": [
-"Lawson C",
-"Rech MA",
-"Sun J",
-"Celmins L",
-"Sindelar M",
-"Van Wert E",
-"Fletcher AA",
-"Coralic Z",
-"Zimmerman DE",
-"Howington GT",
-"Woolum JA",
-"Krenz J",
-"Mattson AE",
-"Brown CS",
-"Zepeski A",
-"Faine B"
-],
-"journal": "The American journal of emergency medicine",
-"journalTier": 1,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-06-21",
-"abstract": "The objective of this study was to describe the proportion of emergency department (ED) patients with traumatic brain injury (TBI) or spontaneous intracranial hemorrhage (sICH) who demonstrated a positive neurologic response to sugammadex-mediated reversal of rocuronium, and to compare outcomes between responders and non-responders. This was a multicenter, retrospective, observational cohort study of 11 US Emergency Departments. Adult patients, aged ≥18 years, who were intubated using rocuronium and subsequently received sugammadex and had a primary diagnosis of TBI or sICH between December 15, 2015, to June 30, 2024 were screened for inclusion. The primary outcome of this study was the proportion of patients who had a positive response (defined as an increase in GCS of ≥1 point) within 30 min of sugammadex administration. The secondary outcomes included change in analgosedation requirements during the first 30 min post-sugammadex administration, and the rate of neurosurgical procedures. The primary outcome analysis included 362 patients. An increase in GCS within 30 min post-sugammadex administration occurred in 54% (n = 196), with a median GCS change of 3 (IQR: 2-4, range 1-9). A positive response was associated with the addition of a new analgesic agent (30.6% 13.9%, difference = 16.8%, 95% confidence interval 8.4 to 25.1), sedation agent (33.7% vs. 14.5%, difference = 19.2%, 95% confidence interval 10.7 to 27.7), and a non-significant increase in neurosurgical procedures (43.4 vs. 33.7%, difference = 9.6%, 95% confidence interval -0.4 to 19.7). Sugammadex administration to reverse rocuronium in the ED was associated with a significant change in GCS and analgosedation requirements.",
-"doi": "10.1016/j.ajem.2026.06.021",
-"keywords": [
-"Rocuronium",
-"Spontaneous intracranial hemorrhage",
-"Sugammadex",
-"Traumatic brain injury"
-],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42349235/",
 "impactScore": 43
 },
 {
@@ -2230,7 +2453,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42343669/",
-"impactScore": 42
+"impactScore": 41
 },
 {
 "pmid": "42340446",
@@ -2268,7 +2491,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42340446/",
-"impactScore": 41
+"impactScore": 40
 },
 {
 "pmid": "42329581",
@@ -2299,36 +2522,71 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42329581/",
-"impactScore": 39
+"impactScore": 38
 },
 {
-"pmid": "42365556",
-"title": "Public awareness and satisfaction with the centre antipoison du quebec (CAPQ): a population-based survey.",
+"pmid": "42371401",
+"title": "Asynchronous simulation-based training of resuscitative transesophageal echocardiography in emergency physicians.",
 "authors": [
-"St-Onge M",
-"Elliott A",
-"Vong WS",
-"Bergeron M"
+"Chandra K",
+"Makhdom R",
+"Dolan K",
+"McDougall P",
+"Atkinson P",
+"Thavanathan R",
+"Lewis D"
 ],
 "journal": "CJEM",
 "journalTier": 2,
 "journalSJR": null,
 "articleType": "original",
-"pubDate": "2026-06-28",
-"abstract": "To describe public awareness of the Centre antipoison du Québec (CAPQ), expectations regarding acute poisoning management and service delivery, and satisfaction among prior users. We conducted a cross-sectional, bilingual online survey of Quebec residents aged ≥ 14 years between April 13, 2024, and June 27, 2025. The questionnaire collected demographic data, assessed awareness and prior use of the CAPQ, explored past poisoning events and expectations for acute poisoning management, and measured satisfaction among previous users using a 5-point Likert scale, with open-ended questions for qualitative input. Participants were recruited through convenience and snowball sampling via public settings, social media, and CIUSSS newsletters. Descriptive statistics summarized responses and explored trends. A total of 611 respondents were included; 541 (88.5%) were aware of the CAPQ, including 152 prior users, while 70 (11.5%) were unaware. Unawareness was more common among females (60.0%), non-healthcare workers (91.4%), respondents with a non-North American ethnic background (34.2% vs. 10.1%), and those not primarily French-speaking (12.9% vs. 3.0%). Regional variation was observed, with Capitale-Nationale contributing the largest number of unaware respondents (35/70) and Laurentides showing the highest proportion (26.7%). Among respondents without prior CAPQ use who reported a poisoning event, most contacted emergency services or presented to the emergency department. Expectations were similar among aware and unaware respondents, particularly for acute poisoning management, with nurses expected to respond within five minutes. Among prior users, overall satisfaction was high across all domains, though communication and outreach were identified as areas for improvement. Key service expectations included rapid 24/7 access (76.9%), responder expertise (69.9%), and clear, adapted recommendations (56.1%). Most respondents preferred French (84.9%), telephone communication (94.1%), and follow-up calls (81.7%). User satisfaction with the CAPQ was high, but gaps in public awareness and service expectations remain. These findings highlight opportunities to improve accessibility, communication and outreach strategies.",
-"doi": "10.1016/j.tox.2004.01.033",
+"pubDate": "2026-06-29",
+"abstract": "Emergency physicians are increasingly utilizing transesophageal echocardiography in the emergency department (ED) when caring for critically ill patients. Simulation-based transesophageal echocardiography training has been shown to be an effective learning tool. This study evaluated whether a brief asynchronous learning module combined with simulation-based practice is effective for emergency physicians who are already experienced in point-of-care ultrasound (PoCUS). We conducted a prospective study of emergency physicians with PoCUS experience at a single ED. Participants viewed a 30-min asynchronous module on transesophageal echocardiography in the ED and reviewed a four-view resuscitative protocol. They then completed a baseline simulation assessment, a brief guided practice session, and a post-intervention assessment. All views were recorded. The primary outcome was the proportion of successful transesophageal echocardiography views, scored by two blinded reviewers. Twenty emergency physicians completed the study. The mean age was 39 years, 6 participants (30%) were female, the median clinical experience was 5.5 years, and all participants had PoCUS experience. The percentage of total successful views increased from 63% (95% CI 52-72%) at baseline to 93% (84-97%; p < 0.001) after guided practice. A brief 30-min asynchronous module combined with focused simulation-based training was effective in immediately improving the acquisition of core resuscitative transesophageal echocardiography views among emergency physicians with PoCUS experience. Future studies are needed to determine whether this approach leads to sustained skill retention and improved integration of resuscitative transesophageal echocardiography into clinical practice.",
+"doi": "10.1016/j.annemergmed.2017.09.003",
 "keywords": [
-"Awareness",
-"Poison control centers",
-"Quality improvement",
-"Surveys and Questionnaires",
-"User satisfaction"
+"Echocardiography",
+"Emergency medicine",
+"PoCUS",
+"Resuscitation"
 ],
 "meshTerms": [],
 "pubTypes": [
 "Journal Article"
 ],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42365556/",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42371401/",
+"impactScore": 36
+},
+{
+"pmid": "42366752",
+"title": "Evaluating the Accuracy of Chest Tube Thoracostomy Site Selection by Pediatric Emergency Medicine Physicians Using Point-of-Care Ultrasound.",
+"authors": [
+"Biela CM",
+"Ruthford MR",
+"Shah A",
+"Wolf BJ",
+"Kane ID",
+"Borg K",
+"Moake MM"
+],
+"journal": "Pediatric emergency care",
+"journalTier": 2,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-06-29",
+"abstract": "Chest tube thoracostomy is a core skillset within pediatric emergency medicine (PEM); however, few PEM physicians perform this procedure regularly. Site selection is typically performed through landmark identification of the fifth intercostal space (ICS), and incorrect placement can result in serious morbidity. The aims of this study were to evaluate the accuracy of safe thoracostomy site selection among PEM providers, and to identify relationships between provider demographics and experience with performance in this selection process. This was a single-center observational study using a convenience sample of pediatric emergency department (PED) patients. Providers marked the fifth ICS bilaterally using the landmark technique, and the ICS and diaphragm levels were subsequently confirmed using point-of-care ultrasound (POCUS). Descriptive statistics were calculated for patient and provider characteristics. Associations between provider characteristics with location of the ICS mark were evaluated using a generalized estimating equation approach. Fifteen participating PEM providers performed 120 bilateral landmark-based ICS identifications. Among all identified sites (n=240), only 37.1% (n=89) were accurately confirmed as the fifth ICS, with 12.9% (n=31) being below the fifth ICS. Furthermore, 9.2% (n=22) of all sites were located below the diaphragm during resting breathing. Providers with longer tenure, more PED experience, greater number of chest tubes placed, and greater comfort with identifying the fifth ICS were more likely to mark below the fifth ICS (P=0.004, 0.026, <0.001, <0.001, respectively). This study demonstrates a considerable gap in thoracostomy site selection accuracy among PEM physicians. A significant number of chosen sites were found to be below the fifth ICS, and there was a surprising discordance between provider experience and accuracy. These findings highlight a critical gap in performance and the need for ongoing training. Incorporating POCUS into standard practice may improve site selection accuracy and patient outcomes in the PED setting.",
+"doi": "10.1097/PEC.0000000000003645",
+"keywords": [
+"accuracy",
+"chest tube",
+"point-of-care ultrasound",
+"thoracostomy",
+"training"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42366752/",
 "impactScore": 36
 },
 {
@@ -2449,6 +2707,70 @@
 "impactScore": 36
 },
 {
+"pmid": "42366354",
+"title": "Time-dependent predictive value of the HACOR score for non-invasive ventilation failure in the emergency department: a prospective cohort study.",
+"authors": [
+"Doğan B",
+"Yazla M",
+"Kaya B",
+"Çelikel E",
+"Kablan A",
+"Erdem AB"
+],
+"journal": "BMC emergency medicine",
+"journalTier": 2,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-06-28",
+"abstract": "Early recognition of non-invasive ventilation failure in patients with acute respiratory failure in the emergency department is essential to prevent delayed intubation and its associated adverse outcomes. The HACOR score is a pragmatic bedside tool developed to predict non-invasive ventilation failure, most prior investigations have been conducted in intensive care settings and have predominantly relied on single time-point measurements or simple change analyses. In this study, we aimed to evaluate predictive value of early change in the HACOR score for non-invasive ventilation failure in emergency department patients with acute respiratory failure and to examine the temporal nature of this association using Generalized Estimating Equations models. This prospective observational cohort study included 106 adult patients. HACOR, National Early Warning Score, National Early Warning Score 2, and Modified Early Warning Score were calculated immediately before and at 1 h after non-invasive ventilation initiation. ΔHACOR was defined as the difference between 1-hour and baseline HACOR scores. The primary outcome was non-invasive ventilation failure. Discriminative performance was assessed using ROC analysis. Logistic regression was used to evaluate the independent association between ΔHACOR and non-invasive ventilation failure. Generalized estimating equations models were constructed to analyze the time-dependent relationship between HACOR and non-invasive ventilation failure. Non-invasive ventilation failure occurred in 50.9% of patients. Baseline clinical variables and scores did not significantly discriminate between success and failure groups. In contrast, 1-hour HACOR (AUC = 0.760, 95% CI 0.667-0.854) and ΔHACOR (AUC = 0.798, 95% CI 0.711-0.885) demonstrated significant predictive performance. Patients with ΔHACOR ≥ 0 exhibited a substantially higher failure rate (74.4%) compared to those with ΔHACOR < 0 (34.9%). Each one-point increase in ΔHACOR was independently associated with failure (OR 1.63, 95% CI 1.31-2.03; p < 0.001). In Generalized Estimating Equations analysis, the HACOR × time interaction remained statistically significant across adjusted models, supporting the prognostic value of serial HACOR assessment. In emergency department patients receiving non-invasive ventilation, early dynamic changes in HACOR provide superior prognostic information compared with baseline measurements alone. Serial HACOR assessment demonstrated through Generalized Estimating Equations modeling supports potential value of response-guided risk stratification and highlights importance of early reassessment in emergency non-invasive ventilation management.",
+"doi": "10.1186/s12873-026-01665-x",
+"keywords": [
+"Emergency service",
+"Generalized estimating equations",
+"HACOR score",
+"Hospital",
+"Noninvasive ventilation",
+"Respiratory insufficiency",
+"Risk assessment"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42366354/",
+"impactScore": 35
+},
+{
+"pmid": "42365556",
+"title": "Public awareness and satisfaction with the centre antipoison du quebec (CAPQ): a population-based survey.",
+"authors": [
+"St-Onge M",
+"Elliott A",
+"Vong WS",
+"Bergeron M"
+],
+"journal": "CJEM",
+"journalTier": 2,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-06-28",
+"abstract": "To describe public awareness of the Centre antipoison du Québec (CAPQ), expectations regarding acute poisoning management and service delivery, and satisfaction among prior users. We conducted a cross-sectional, bilingual online survey of Quebec residents aged ≥ 14 years between April 13, 2024, and June 27, 2025. The questionnaire collected demographic data, assessed awareness and prior use of the CAPQ, explored past poisoning events and expectations for acute poisoning management, and measured satisfaction among previous users using a 5-point Likert scale, with open-ended questions for qualitative input. Participants were recruited through convenience and snowball sampling via public settings, social media, and CIUSSS newsletters. Descriptive statistics summarized responses and explored trends. A total of 611 respondents were included; 541 (88.5%) were aware of the CAPQ, including 152 prior users, while 70 (11.5%) were unaware. Unawareness was more common among females (60.0%), non-healthcare workers (91.4%), respondents with a non-North American ethnic background (34.2% vs. 10.1%), and those not primarily French-speaking (12.9% vs. 3.0%). Regional variation was observed, with Capitale-Nationale contributing the largest number of unaware respondents (35/70) and Laurentides showing the highest proportion (26.7%). Among respondents without prior CAPQ use who reported a poisoning event, most contacted emergency services or presented to the emergency department. Expectations were similar among aware and unaware respondents, particularly for acute poisoning management, with nurses expected to respond within five minutes. Among prior users, overall satisfaction was high across all domains, though communication and outreach were identified as areas for improvement. Key service expectations included rapid 24/7 access (76.9%), responder expertise (69.9%), and clear, adapted recommendations (56.1%). Most respondents preferred French (84.9%), telephone communication (94.1%), and follow-up calls (81.7%). User satisfaction with the CAPQ was high, but gaps in public awareness and service expectations remain. These findings highlight opportunities to improve accessibility, communication and outreach strategies.",
+"doi": "10.1016/j.tox.2004.01.033",
+"keywords": [
+"Awareness",
+"Poison control centers",
+"Quality improvement",
+"Surveys and Questionnaires",
+"User satisfaction"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42365556/",
+"impactScore": 35
+},
+{
 "pmid": "42364174",
 "title": "Identifying Risk Factors for Readmission amongst Unhoused Burn Patients.",
 "authors": [
@@ -2477,7 +2799,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42364174/",
-"impactScore": 35
+"impactScore": 34
 },
 {
 "pmid": "42363248",
@@ -2538,7 +2860,7 @@
 "Comparative Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42363248/",
-"impactScore": 34
+"impactScore": 33
 },
 {
 "pmid": "42362963",
@@ -2557,7 +2879,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42362963/",
-"impactScore": 34
+"impactScore": 33
 },
 {
 "pmid": "42362410",
@@ -2594,7 +2916,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42362410/",
-"impactScore": 34
+"impactScore": 33
 },
 {
 "pmid": "42360608",
@@ -2624,7 +2946,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42360608/",
-"impactScore": 34
+"impactScore": 33
 },
 {
 "pmid": "42359817",
@@ -2660,7 +2982,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42359817/",
-"impactScore": 34
+"impactScore": 33
 },
 {
 "pmid": "42357805",
@@ -2692,7 +3014,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42357805/",
-"impactScore": 34
+"impactScore": 33
 },
 {
 "pmid": "42351216",
@@ -2726,7 +3048,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42351216/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42350756",
@@ -2770,7 +3092,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42350756/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42348733",
@@ -2802,7 +3124,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42348733/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42348721",
@@ -2837,7 +3159,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42348721/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42348664",
@@ -2873,7 +3195,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42348664/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42347904",
@@ -2898,7 +3220,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42347904/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42364528",
@@ -2939,7 +3261,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42364528/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42343227",
@@ -2970,7 +3292,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42343227/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42343206",
@@ -2998,7 +3320,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42343206/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42343202",
@@ -3033,7 +3355,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42343202/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42340459",
@@ -3083,7 +3405,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42340459/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42340407",
@@ -3136,7 +3458,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42340407/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42340395",
@@ -3185,7 +3507,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42340395/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42340341",
@@ -3220,7 +3542,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42340341/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42340329",
@@ -3253,7 +3575,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42340329/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42314024",
@@ -3276,7 +3598,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42314024/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42348107",
@@ -3306,7 +3628,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42348107/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42348105",
@@ -3343,7 +3665,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42348105/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42361788",
@@ -3375,7 +3697,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42361788/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42341351",
@@ -3410,7 +3732,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42341351/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42337794",
@@ -3437,7 +3759,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42337794/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42337701",
@@ -3469,7 +3791,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42337701/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42337426",
@@ -3502,7 +3824,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42337426/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42337423",
@@ -3532,7 +3854,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42337423/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42337200",
@@ -3570,7 +3892,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42337200/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42334765",
@@ -3601,7 +3923,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42334765/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42334764",
@@ -3637,7 +3959,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42334764/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42334763",
@@ -3666,7 +3988,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42334763/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42334575",
@@ -3697,7 +4019,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42334575/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42334346",
@@ -3730,7 +4052,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42334346/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42340531",
@@ -3782,7 +4104,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42340531/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42341352",
@@ -3814,7 +4136,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42341352/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42332581",
@@ -3849,7 +4171,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42332581/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42330187",
@@ -3873,7 +4195,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42330187/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42329582",
@@ -3908,7 +4230,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42329582/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42329568",
@@ -3938,7 +4260,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42329568/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42329453",
@@ -3971,26 +4293,25 @@
 "Tibial plateau fracture"
 ],
 "meshTerms": [
-"Humans",
-"Tibial Plateau Fractures",
-"Printing, Three-Dimensional",
-"Tomography, X-Ray Computed",
-"Patient Positioning",
-"Imaging, Three-Dimensional",
 "Female",
+"Humans",
 "Male",
 "Augmented Reality",
+"Fracture Fixation, Internal",
+"Imaging, Three-Dimensional",
 "Models, Anatomic",
 "Patient Care Planning",
-"Tibial Fractures",
-"Fracture Fixation, Internal"
+"Patient Positioning",
+"Printing, Three-Dimensional",
+"Tomography, X-Ray Computed",
+"Tibial Plateau Fractures"
 ],
 "pubTypes": [
 "Journal Article",
 "Comparative Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42329453/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42329294",
@@ -4043,7 +4364,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42329294/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42318902",
@@ -4080,7 +4401,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42318902/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42202141",
@@ -4107,96 +4428,6 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42202141/",
-"impactScore": 30
-},
-{
-"pmid": "42324426",
-"title": "Just the facts: tumour lysis syndrome.",
-"authors": [
-"Long B",
-"McCurdy A",
-"Rosenberg H"
-],
-"journal": "CJEM",
-"journalTier": 2,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-06-21",
-"abstract": "",
-"doi": "10.1111/jcpt.12479",
-"keywords": [
-"Hemaetology",
-"Just the facts",
-"Oncology",
-"Tumour lysis syndrome"
-],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42324426/",
-"impactScore": 29
-},
-{
-"pmid": "42323788",
-"title": "Emergency department discharge instructions sent by text message.",
-"authors": [
-"Renne B",
-"Van Dijk D",
-"Maqsood A",
-"Wilson TD",
-"Stempien J",
-"Kapur P"
-],
-"journal": "CJEM",
-"journalTier": 2,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-06-21",
-"abstract": "Discharged Emergency Department (ED) patients should receive instructions about their condition, including self-care and return-to-care guidance, while satisfying medicolegal requirements. Verbal instructions are forgotten or poorly understood. Written instructions are best practice, but usage barriers include multifactorial inefficiencies getting them to the patient and patient challenges finding them later when needed. In this feasibility and uptake study, we sought to address these barriers by developing a website that enables physicians to send condition-specific discharge instructions by text message. We recruited from the approximately 60 physicians working in the Saskatoon, Canada adult EDs, which serve > 140,000 patients/year. The physician visits our website, enters the patient's phone number, selects a condition, and taps \"send.\" The patient receives a text message with a link to condition-specific discharge instructions. We analyzed link access data and surveyed physician feedback. Over a 2-month study period, 115 discharge instructions were texted (< 1% of an estimated maximum 17,000 discharges). 83% were accessed, 43% repeatedly. Links were visited quickly: 57% within one minute, 81% within one hour, and 97% within 24 h. 36 conditions were selected, most commonly concussion (19%), abdominal pain (9%), laceration (7%), and renal colic (7%). Seventeen physicians (28%) responded to our survey. 47% indicated they do not typically provide written (paper-based) discharge instructions. 87% ranked our system ≥ 8/10 in ease of use (0 = very difficult, 10 = very easy), 73% ranked it ≥ 7/10 in efficiency compared to usual practice (0 = maximally inefficient, 10 = maximally efficient). 93% said they would use our system going forward. Our study is limited by low physician uptake. However, positive physician feedback and quick and repeated patient access to instructions together suggest our approach might be a feasible way to improve ED discharge practice.",
-"doi": "10.1111/acem.14080",
-"keywords": [
-"Discharge instructions",
-"Text messaging"
-],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42323788/",
-"impactScore": 29
-},
-{
-"pmid": "42323787",
-"title": "Development and implementation of a severe accidental hypothermia resuscitation pathway in an urban Canadian emergency department: a quality improvement initiative.",
-"authors": [
-"Dell E",
-"Vaillancourt S",
-"Warsi F",
-"Sklar M",
-"Yanagawa B",
-"Alli A",
-"Mok G"
-],
-"journal": "CJEM",
-"journalTier": 2,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-06-21",
-"abstract": "Severe accidental hypothermia (core temperature < 28 °C) is an infrequent but resource‑intensive emergency department (ED) presentation that requires altered Advanced Cardiac Life Support (ACLS) management, aggressive rewarming, and timely consideration of veno-arterial extracorporeal membrane oxygenation (VA-ECMO). Prior to this project, our inner‑city academic ED lacked a standardized approach, contributing to variability in care. We designed, implemented, and achieved ≥ 95% real‑time utilization of a bedside pathway for patients with severe accidental hypothermia. In response to issues identified in the review of a case of severe hypothermia, a multidisciplinary team developed and revised a severe hypothermia pathway through eight Plan‑Do‑Study‑Act cycles. Implementation strategies included an in situ simulation, targeted nursing skills sessions, and interdepartmental case debriefings. From January 2025 to April 2025, cases of severe hypothermia were reviewed. Our primary outcome was pathway utilization; secondary outcomes were staff perceptions, including timely access to VA-ECMO. Our severe hypothermia pathway includes a flowchart alongside a set of cue cards. The flowchart prompts management in three key realms: modified ACLS, rewarming techniques, and prognostication/VA-ECMO. The cue cards guide step-by-step management, including how to access mechanical CPR and VA-ECMO. Key themes included: development of a streamlined pathway, clinical provider education, and improved interdepartmental communication. 100% (6/6) of cases utilized the pathway. Interdisciplinary feedback suggests providers find the pathway to be useful and that it facilitates timely access to consideration for VA-ECMO. A pragmatic hypothermia resuscitation pathway was successfully implemented in our ED, supporting access to VA-ECMO. Our work acknowledges these resuscitations are resource intensive and may disrupt care to other patients. Therefore, cases for VA-ECMO should be carefully selected. Future work includes exploring an ED Code ECMO at our site and a city-wide prehospital VA-ECMO referral pathway.",
-"doi": "10.1186/s12245-024-00652-y",
-"keywords": [
-"Cardiac arrest",
-"ECMO",
-"Emergency department",
-"Hypothermia",
-"Quality improvement"
-],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42323787/",
 "impactScore": 29
 },
 {
@@ -4229,7 +4460,101 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42324443/",
-"impactScore": 29
+"impactScore": 28
+},
+{
+"pmid": "42366320",
+"title": "Imaging of non-iatrogenic intramural esophageal dissection in the Emergency Department: Case report and literature review.",
+"authors": [
+"Schoijet IM",
+"Ramírez OC",
+"Plaza FA",
+"Frings CG",
+"Alcalde SM",
+"Faundes GS"
+],
+"journal": "Emergency radiology",
+"journalTier": 3,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-06-29",
+"abstract": "Non-iatrogenic intramural esophageal dissection is a rare condition caused by the transverse and longitudinal separation of the mucosal and submucosal layers of the esophageal wall, with or without perforation, which leads to the separation of the submucosal and muscular layers and forms a false submucosal lumen. It can occur spontaneously or be related to iatrogenic causes or trauma, with the latter often associated with the ingestion of certain foods or medical pills. We present three cases of non-iatrogenic intramural esophageal dissection and review relevant literature. We discuss the causes, symptoms, prognosis, and, primarily, the radiologist's role in promptly diagnosing this condition, especially in the Emergency Department (ER).",
+"doi": "10.1148/rg.286085520",
+"keywords": [
+"Case report",
+"Computed Tomography (CT)",
+"Endoscopy",
+"Esophageal dissection",
+"Esophagogram"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42366320/",
+"impactScore": 26
+},
+{
+"pmid": "42366319",
+"title": "Bibliometric productivity of academic emergency radiology faculty in the United States: Current status.",
+"authors": [
+"Kazazi R",
+"Yousem DM",
+"Adin ME"
+],
+"journal": "Emergency radiology",
+"journalTier": 3,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-06-29",
+"abstract": "Bibliometric benchmarks for academic emergency radiology faculty are not well established. We assessed the bibliometric profiles of U.S. academic emergency radiology faculty and determined the independent contributions of academic rank, faculty track, sex, and fellowship institution affiliation to scholarly productivity. A secondary aim was to compare bibliometric productivity of emergency radiology faculty against four other radiology subspecialties using rank-adjusted cross-subspecialty models. This cross-sectional bibliometric analysis included 518 emergency radiology faculty from 67 U.S. institutions, with data collected from Scopus between September and December 2025. For cross-subspecialty comparisons, linear mixed-effects models adjusting for rank and institutional clustering were applied. No significant sex differences were found at any rank after Bonferroni correction. Research/tenure-track faculty were significantly more productive than clinical-track faculty at the associate and full professor levels, but not at the assistant professor level. The productivity advantage of ASER-recognized fellowship institutions was entirely explained by their higher proportion of research/tenure-track faculty. After rank adjustment, emergency radiology faculty had significantly lower bibliometric output than neuroradiology and cardiothoracic imaging faculty (all p < 0.001). Interventional radiology was the most comparable subspecialty, with no significant differences in citations or h-index. Academic rank is the primary driver of bibliometric productivity in emergency radiology. Based on the findings of this study, faculty track independently influences output at mid- and senior career stages. No significant sex differences were identified. The fellowship institution productivity advantage reflects track composition rather than program presence. Emergency radiology faculty demonstrate lower rank-adjusted output than neuroradiology and cardiothoracic imaging, while remaining most comparable to interventional radiology.",
+"doi": "10.1007/s10140-025-02401-x",
+"keywords": [
+"Bibliometrics",
+"Citation",
+"Emergency radiology; promotion; publication",
+"H-index"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42366319/",
+"impactScore": 26
+},
+{
+"pmid": "42366537",
+"title": "A Metagenomic Biosurveillance Network for Emerging Infectious Diseases: A Simulation-Based Model.",
+"authors": [
+"Meusel I",
+"Manheim D",
+"Delaney O",
+"Greene D",
+"Tobolsky R",
+"Palya H",
+"Shapiro N",
+"Sharma S"
+],
+"journal": "Health security",
+"journalTier": 3,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-06-28",
+"abstract": "In this article, we propose a metagenomic next-generation sequencing (mNGS) system for symptomatic clinical respiratory disease samples in Israel to enable detection early enough to contain novel pathogen outbreaks, limit international spread and expedite countermeasure development. We built an open-source, interactive SEIR (susceptible, exposed, infectious, recovered)-based model extending the work of Sharma et al (2023) for 7 representative known respiratory pathogens with pandemic potential, aiming to estimate costs and detection time for the identification of a novel respiratory pathogen in Israel through a network of mNGS monitoring in hospitals. We find that a novel pathogen with SARS-CoV-2-like characteristics could be detected within 68 days (interquartile range [IQR]: 53 to 80) after the first 2 emergency department presentations and 213 (IQR: 94 to 429) total infections across Israel. This surveillance system would cost US$24 million annually over 10 years when implemented in Israel's 6 largest hospitals, covering 37% of the population. Our open-source interactive model allows policymakers and experts to explore different system configurations and their associated tradeoffs between cost, detection speed, and population coverage.",
+"doi": "10.1177/23265094261453732",
+"keywords": [
+"Early warning systems",
+"Infectious diseases",
+"Metagenomics",
+"Pandemic preparedness/response",
+"Pathogen detection"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42366537/",
+"impactScore": 25
 },
 {
 "pmid": "42364073",
@@ -4263,7 +4588,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42364073/",
-"impactScore": 25
+"impactScore": 24
 },
 {
 "pmid": "42360077",
@@ -4293,7 +4618,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42360077/",
-"impactScore": 24
+"impactScore": 23
 },
 {
 "pmid": "42332931",
@@ -4321,7 +4646,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42332931/",
-"impactScore": 24
+"impactScore": 23
 },
 {
 "pmid": "42332901",
@@ -4350,7 +4675,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42332901/",
-"impactScore": 24
+"impactScore": 23
 },
 {
 "pmid": "42332900",
@@ -4380,7 +4705,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42332900/",
-"impactScore": 24
+"impactScore": 23
 },
 {
 "pmid": "42329033",
@@ -4414,7 +4739,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42329033/",
-"impactScore": 24
+"impactScore": 23
 },
 {
 "pmid": "42319076",
@@ -4444,7 +4769,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42319076/",
-"impactScore": 24
+"impactScore": 23
 },
 {
 "pmid": "42318753",
@@ -4477,7 +4802,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42318753/",
-"impactScore": 24
+"impactScore": 23
 },
 {
 "pmid": "42318747",
@@ -4505,7 +4830,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42318747/",
-"impactScore": 24
+"impactScore": 23
 },
 {
 "pmid": "42318746",
@@ -4528,7 +4853,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42318746/",
-"impactScore": 24
+"impactScore": 23
 },
 {
 "pmid": "42318699",
@@ -4561,7 +4886,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42318699/",
-"impactScore": 24
+"impactScore": 23
 },
 {
 "pmid": "41568921",
@@ -4590,7 +4915,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/41568921/",
-"impactScore": 24
+"impactScore": 23
 },
 {
 "pmid": "41540852",
@@ -4624,7 +4949,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/41540852/",
-"impactScore": 24
+"impactScore": 23
 },
 {
 "pmid": "42348106",
@@ -4658,7 +4983,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42348106/",
-"impactScore": 23
+"impactScore": 22
 },
 {
 "pmid": "42332556",
@@ -4684,7 +5009,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42332556/",
-"impactScore": 21
+"impactScore": 20
 },
 {
 "pmid": "42337427",
@@ -4718,7 +5043,43 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42337427/",
-"impactScore": 21
+"impactScore": 20
+},
+{
+"pmid": "42369075",
+"title": "Small Bowel Adenocarcinoma Presenting as a Chronic Pelvic Mass Mimicking Gynecologic Malignancy: A Case Report and Focused Narrative Review.",
+"authors": [
+"Sbitan L",
+"Qandeel H",
+"Imhaisen M",
+"Hasan HA",
+"Abohijleh Y",
+"Nabhan AI",
+"Bani-Hani K"
+],
+"journal": "Open access emergency medicine : OAEM",
+"journalTier": 3,
+"journalSJR": null,
+"articleType": "case-report",
+"pubDate": "2026-01-01",
+"abstract": "Small bowel adenocarcinoma (SBA) is considered an unusual malignancy with vague presentations thus risk of delayed diagnosis. Despite being rarely reported in the literature, SBA can present with gynecological manifestations, especially adnexal mass, misleading surgeons in dealing with it as a primary gynecological malignancy. We report a case of a 60 year old female patient who had SBA with pelvic mass as initial presentation. Identification of intestinal origin was done intraoperatively. Surgical resection of tumor and adnexal involvement with referral for oncological chemotherapy was done. Through this case we highlight the challenges experienced by surgeons in diagnosing SBA with gynecological disease, as well the clinical implications of atypical SBA presentations. Reported following CARE guidelines. In addition to the case reported, a focused narrative review of literature was performed. Searching Pubmed database from inception to December 2025 using related keywords, identification of case reports reporting SBA presentation with gynecological disease was done. Data related to patient demographics, clinical manifestations, diagnostic, treatment strategies, and oncological outcomes, were extracted and pattern identification was conducted. A diagnostic algorithm was developed and presented to improve diagnostic delay in approaching adnexal masses with \"Red Flags\" suspicious of SBA. Fourteen cases describing small bowel adenocarcinoma (SBA) presenting with gynecologic manifestations were identified - published between the years (1995-2024). Approximately the age range of patients was between 12 and 65 years with most patients presenting in the fifth and sixth decades. The jejunum was the most common primary tumor site (10/14 cases, 71%), followed by the ileum (4/14 cases, 29%). The most common initial presentation reported across the studies was ovarian/adnexal mass. Diagnostic delay was common, ranging from several weeks to over 12 months, with SBA rarely suspected preoperatively. Recurrent red flags included iron-deficiency anemia, chronic gastrointestinal symptoms, unintentional weight loss, obstructive symptoms, disproportionate ovarian tumor size, and discordance between clinical presentation and gynecologic findings. Ovarian metastases were present in all reported cases (14/14 cases, 100%), while peritoneal, mesenteric, nodal, hepatic, and uterine involvement occurred less frequently. The definitive diagnosis was established following surgical exploration through histopathological and immunohistochemistry evaluation. Surgical management was dependent on timely diagnosis, with both bowel and gynecological resections required, followed by postoperative chemotherapy. Outcomes were also dependent on disease stage at the time of diagnosis. Atypical adnexal masses in association with gastrointestinal or systemic red flags should raise the possibility of SBA. We propose a clinical diagnostic framework to help general surgeons and gynecologists with early identification of SBA presenting as pelvic mass, thus providing appropriate management of this rare clinical entity.",
+"doi": "10.1155/2024/8551816",
+"keywords": [
+"diagnostic delay",
+"gynecologic malignancy mimic",
+"ileum",
+"jejunum",
+"ovarian metastasis",
+"pelvic mass",
+"small bowel adenocarcinoma"
+],
+"meshTerms": [],
+"pubTypes": [
+"Case Reports",
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42369075/",
+"impactScore": 18
 }
 ]
 }
