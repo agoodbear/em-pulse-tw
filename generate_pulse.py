@@ -12,14 +12,17 @@ schema 與原站 derinsoluk.com/pulse 對齊，前端 index.html 可直接吃。
 逆向自 İbrahim Sarbay, MD 的 EM Pulse / EM Popular；繁中版 by 曹建雄。
 """
 
+import http.client
 import json
 import os
+import socket
 import sys
 import time
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone, date
+from urllib.error import HTTPError, URLError
 
 # ── 設定 ──────────────────────────────────────────────
 HERE        = os.path.dirname(os.path.abspath(__file__))
@@ -58,6 +61,14 @@ PT_MAP = {
     "Comment": "comment",
 }
 
+# NCBI eutils 重試設定：尖峰常見 429/5xx、連線重置、timeout，甚至回 HTML 錯誤頁。
+RETRY_MAX     = 4          # 總嘗試次數
+RETRY_BACKOFF = 2          # 遞增退避基數（秒）：2, 4, 6 …
+RETRY_STATUS  = {429, 500, 502, 503, 504}
+
+# 對不到分級的期刊縮寫 → 全名，跑完在 stderr 列出，供維護者補進 journals.json。
+UNMATCHED_JOURNALS = {}
+
 # 計分權重（可自由調整）
 TIER_BASE = {1: 40, 2: 26, 3: 16}
 TYPE_BONUS = {
@@ -67,10 +78,33 @@ TYPE_BONUS = {
 }
 
 
-def http_get(url):
-    req = urllib.request.Request(url, headers={"User-Agent": f"{TOOL} ({EMAIL})"})
-    with urllib.request.urlopen(req, timeout=60) as r:
-        return r.read()
+def http_get(url, parse=None):
+    """
+    抓 url 回傳 bytes；給 parse（如 json.loads / ET.fromstring）時回傳解析後物件。
+    對暫時性失敗重試 + 遞增退避：可重試 HTTP 狀態(429/5xx)、連線重置、timeout，
+    以及 parse 失敗（NCBI 尖峰偶爾回 HTML 錯誤頁而非 JSON/XML）。非可重試的
+    HTTP 錯誤直接拋出；重試耗盡則拋最後一次的例外。
+    """
+    last_err = None
+    for attempt in range(RETRY_MAX):
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": f"{TOOL} ({EMAIL})"})
+            with urllib.request.urlopen(req, timeout=60) as r:
+                raw = r.read()
+            return parse(raw) if parse else raw
+        except HTTPError as e:
+            last_err = e
+            if e.code not in RETRY_STATUS:
+                raise
+        except (URLError, socket.timeout, ConnectionError,
+                http.client.IncompleteRead, ET.ParseError, json.JSONDecodeError) as e:
+            last_err = e
+        if attempt < RETRY_MAX - 1:
+            wait = RETRY_BACKOFF * (attempt + 1)
+            print(f"      eutils 連線/解析失敗（{type(last_err).__name__}），"
+                  f"{wait}s 後重試（{attempt + 2}/{RETRY_MAX}）…", file=sys.stderr)
+            time.sleep(wait)
+    raise last_err
 
 
 def eutils_params(extra):
@@ -95,7 +129,7 @@ def esearch(journals):
         "db": "pubmed", "retmode": "json", "retmax": RETMAX,
         "datetype": "pdat", "reldate": DAYS_BACK, "term": term, "sort": "pub_date",
     })
-    data = json.loads(http_get(f"{EUTILS}/esearch.fcgi?{q}"))
+    data = http_get(f"{EUTILS}/esearch.fcgi?{q}", parse=json.loads)
     return data.get("esearchresult", {}).get("idlist", [])
 
 
@@ -105,8 +139,7 @@ def efetch(pmids):
     for i in range(0, len(pmids), 200):
         chunk = pmids[i:i + 200]
         q = eutils_params({"db": "pubmed", "retmode": "xml", "id": ",".join(chunk)})
-        xml = http_get(f"{EUTILS}/efetch.fcgi?{q}")
-        root = ET.fromstring(xml)
+        root = http_get(f"{EUTILS}/efetch.fcgi?{q}", parse=ET.fromstring)
         arts.extend(root.findall(".//PubmedArticle"))
         time.sleep(0.4 if not API_KEY else 0.12)
     return arts
@@ -177,9 +210,13 @@ def parse_one(art, journals):
     if tier is None:
         # 比對 MedlineTA（有時 ISOAbbreviation 與表內 key 大小寫/標點略異）
         ta = text(art.find(".//MedlineJournalInfo/MedlineTA"))
-        tier = journals.get(ta, 3)
+        tier = journals.get(ta)
         if ta:
             journal_abbr = ta
+        if tier is None:
+            # ISOAbbreviation 與 MedlineTA 都對不到 → 暫記 tier 3，並收錄縮寫供補表
+            UNMATCHED_JOURNALS.setdefault(journal_abbr or "?", journal_full)
+            tier = 3
     abstract = " ".join(text(t) for t in art.findall(".//Abstract/AbstractText")).strip()
     doi = ""
     for idn in art.findall(".//ArticleIdList/ArticleId"):
@@ -244,9 +281,15 @@ def main():
             continue
         a["impactScore"] = impact_score(a, today)
         arts.append(a)
-    arts.sort(key=lambda x: (-x["impactScore"], x["pubDate"]), reverse=False)
-    # 上面排序：impactScore 由高到低（-score 升序），分數同則日期較早在前 → 反轉日期讓新的在前
-    arts.sort(key=lambda x: x["impactScore"], reverse=True)
+
+    if UNMATCHED_JOURNALS:
+        print(f"      ⚠ {len(UNMATCHED_JOURNALS)} 本期刊對不到分級，暫記 tier 3"
+              f"（建議補進 journals.json）：", file=sys.stderr)
+        for abbr, full in sorted(UNMATCHED_JOURNALS.items()):
+            print(f"        - {abbr}" + (f"  （{full}）" if full else ""), file=sys.stderr)
+
+    # impactScore 由高到低；同分則發表日期由新到舊（pubDate 為 ISO 'YYYY-MM-DD' 字串，可直接比較）
+    arts.sort(key=lambda x: (x["impactScore"], x["pubDate"]), reverse=True)
 
     by_type, by_tier = {}, {}
     for a in arts:
