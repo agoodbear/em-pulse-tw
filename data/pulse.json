@@ -1,65 +1,88 @@
 {
-"generatedAt": "2026-07-19T22:48:21.000Z",
+"generatedAt": "2026-07-20T22:57:06.000Z",
 "daysBack": 7,
 "journalCount": 59,
 "stats": {
-"total": 114,
+"total": 129,
 "byType": {
-"review": 11,
+"review": 12,
 "systematic-review": 2,
 "rct": 1,
-"original": 88,
-"letter": 8,
-"editorial": 4
+"editorial": 5,
+"original": 100,
+"letter": 9
 },
 "byTier": {
-"1": 47,
-"2": 61,
-"3": 6
+"1": 58,
+"2": 60,
+"3": 11
 },
-"topScore": 57,
+"topScore": 59,
 "avgScore": 39
 },
 "articleOfWeek": {
-"pmid": "42469837",
-"title": "The usual suspects: a pragmatic framework to identify and address reversible contributors in apparent refractory septic shock.",
+"pmid": "42474726",
+"title": "Prone positioning in ARDS.",
 "authors": [
-"Melo P",
-"Wendel-Garcia PD",
-"Leone M",
-"Khanna AK",
-"Morales S",
-"Ospina-Tascón GA",
-"Castro R",
-"Hernández G",
-"Kattan E"
+"Ehrmann S",
+"Li J",
+"Liu L",
+"Guérin C"
 ],
-"journal": "Critical care (London, England)",
+"journal": "Intensive care medicine",
 "journalTier": 1,
 "journalSJR": null,
 "articleType": "review",
-"pubDate": "2026-07-17",
-"abstract": "A subset of patients with septic shock remains hypoperfused or requires escalating vasopressor support despite initial resuscitation. Although this pattern may suggest progression toward refractory septic shock, early high vasopressor requirements or persistent hypoperfusion may still reflect potentially modifiable contributors, including unresolved infection, inadequate fluid administration, metabolic derangements, iatrogenic factors, or cardiac dysfunction. The recent SCCM/ESICM consensus provides expert-derived criteria for refractory septic shock, but the preceding bedside process of reassessing potentially reversible contributors remains less explicitly operationalized. This Perspective proposes a pragmatic framework for structured reassessment in apparent refractory septic shock. Refractoriness is approached as a multidimensional construct shaped by severity, time in shock, and prior optimization, in line with current consensus criteria. To operationalize the optimization dimension, we present the \"usual suspects\": a parallel, hypothesis-driven bedside reassessment of potentially reversible contributors during an apparent-refractory trajectory. Antimicrobial adequacy and source-control status provide the foundational substrate. In parallel, clinicians may reassess fluid responsiveness, tolerance, and efficiency; endocrine, metabolic, and iatrogenic contributors to vasoplegia, such as acidemia and sedation burden; and cardiac mechanisms, including ventricular performance, ventriculo-arterial coupling, and dynamic left ventricular outflow tract obstruction. The relative contribution of each domain is expected to vary across patients and over time, requiring reassessment guided by the dominant physiology rather than by a fixed sequence. This framework is intended as an operational companion to current consensus definitions of refractory septic shock. By organizing the bedside evaluation of potentially reversible contributors, it may help clinicians interpret persistent hypoperfusion and vasopressor escalation during the transition from apparent to established refractoriness.",
-"doi": "10.1186/s13054-026-06197-1",
+"pubDate": "2026-07-20",
+"abstract": "Over the past five decades, prone positioning has evolved from single case reports to an evidence-based intervention. Initially used as a rescue therapy, it is now recognized as an integral component of lung-protective mechanical ventilation strategies, applied early in intubated patients with acute respiratory distress syndrome (ARDS) with a PaO2/FIO2 ratio < 150 mmHg. The COVID-19 pandemic further expanded its use to non-intubated patients, the so-called awake prone position (APP), with promising results. APP requires confirmation in non-COVID patients and in a more routine ICU practice. Improved oxygenation is a consistent and well-recognized effect of prone positioning in both intubated and non-intubated patients with ARDS. Beyond its effects on gas exchange, prone positioning mitigates ventilator-induced lung injury by reducing lung stress and strain and may also confer favorable hemodynamic effects. This article reviews the physiologic rationale for prone positioning, evidence from randomized controlled trials, current guideline recommendations, practical aspects of implementation, and ongoing questions in both intubated and non-intubated patients.",
+"doi": "10.1016/j.jclinane.2025.111786",
 "keywords": [
-"Catecholamine resistance",
-"Fluid responsiveness",
-"Hemodynamic optimization",
-"Refractory septic shock",
-"Sepsis-induced myocardial dysfunction",
-"Septic shock",
-"Tissue hypoperfusion",
-"Vasopressor therapy"
+"Acute hypoxemic respiratory failure",
+"Acute respiratory distress syndrome",
+"Hypoxemia",
+"Prone positioning",
+"Ventilator-induced lung injury"
 ],
 "meshTerms": [],
 "pubTypes": [
 "Journal Article",
 "Review"
 ],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42469837/",
-"impactScore": 57
+"url": "https://pubmed.ncbi.nlm.nih.gov/42474726/",
+"impactScore": 59
 },
 "articles": [
+{
+"pmid": "42474726",
+"title": "Prone positioning in ARDS.",
+"authors": [
+"Ehrmann S",
+"Li J",
+"Liu L",
+"Guérin C"
+],
+"journal": "Intensive care medicine",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "review",
+"pubDate": "2026-07-20",
+"abstract": "Over the past five decades, prone positioning has evolved from single case reports to an evidence-based intervention. Initially used as a rescue therapy, it is now recognized as an integral component of lung-protective mechanical ventilation strategies, applied early in intubated patients with acute respiratory distress syndrome (ARDS) with a PaO2/FIO2 ratio < 150 mmHg. The COVID-19 pandemic further expanded its use to non-intubated patients, the so-called awake prone position (APP), with promising results. APP requires confirmation in non-COVID patients and in a more routine ICU practice. Improved oxygenation is a consistent and well-recognized effect of prone positioning in both intubated and non-intubated patients with ARDS. Beyond its effects on gas exchange, prone positioning mitigates ventilator-induced lung injury by reducing lung stress and strain and may also confer favorable hemodynamic effects. This article reviews the physiologic rationale for prone positioning, evidence from randomized controlled trials, current guideline recommendations, practical aspects of implementation, and ongoing questions in both intubated and non-intubated patients.",
+"doi": "10.1016/j.jclinane.2025.111786",
+"keywords": [
+"Acute hypoxemic respiratory failure",
+"Acute respiratory distress syndrome",
+"Hypoxemia",
+"Prone positioning",
+"Ventilator-induced lung injury"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article",
+"Review"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42474726/",
+"impactScore": 59
+},
 {
 "pmid": "42469837",
 "title": "The usual suspects: a pragmatic framework to identify and address reversible contributors in apparent refractory septic shock.",
@@ -97,7 +120,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42469837/",
-"impactScore": 57
+"impactScore": 56
 },
 {
 "pmid": "42468849",
@@ -129,7 +152,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42468849/",
-"impactScore": 57
+"impactScore": 56
 },
 {
 "pmid": "42467246",
@@ -169,7 +192,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42467246/",
-"impactScore": 57
+"impactScore": 56
 },
 {
 "pmid": "42464145",
@@ -202,7 +225,7 @@
 "Systematic Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42464145/",
-"impactScore": 57
+"impactScore": 56
 },
 {
 "pmid": "42463006",
@@ -249,7 +272,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42463006/",
-"impactScore": 56
+"impactScore": 55
 },
 {
 "pmid": "42461313",
@@ -291,7 +314,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42461313/",
-"impactScore": 56
+"impactScore": 55
 },
 {
 "pmid": "42466954",
@@ -336,7 +359,7 @@
 "Randomized Controlled Trial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42466954/",
-"impactScore": 55
+"impactScore": 54
 },
 {
 "pmid": "42455344",
@@ -370,7 +393,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42455344/",
-"impactScore": 55
+"impactScore": 54
 },
 {
 "pmid": "42448027",
@@ -398,7 +421,313 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42448027/",
-"impactScore": 54
+"impactScore": 53
+},
+{
+"pmid": "42474724",
+"title": "Resolution of drug-induced acute kidney injury: mechanistic assessment to guide patient care.",
+"authors": [
+"Kane-Gill SL",
+"Ostermann M",
+"Kellum JA"
+],
+"journal": "Intensive care medicine",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "editorial",
+"pubDate": "2026-07-20",
+"abstract": "",
+"doi": "10.1038/s41598-021-00710-y",
+"keywords": [],
+"meshTerms": [],
+"pubTypes": [
+"Editorial"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42474724/",
+"impactScore": 51
+},
+{
+"pmid": "42475022",
+"title": "Synopsis Shock August 2026.",
+"authors": [],
+"journal": "Shock (Augusta, Ga.)",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-08-01",
+"abstract": "",
+"doi": "10.1097/SHK.0000000000002897",
+"keywords": [],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42475022/",
+"impactScore": 50
+},
+{
+"pmid": "42475217",
+"title": "MiR-340-5p acts as a lung protective factor in sepsis-induced acute lung injury by inhibiting ROCK1.",
+"authors": [
+"Zhang Y",
+"Liu F"
+],
+"journal": "Shock (Augusta, Ga.)",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-07-20",
+"abstract": "This study aims to explore the role of miR-340-5p in sepsis-related acute lung injury (ALI). Firstly, ROC curve and binary logistic regression were employed to assess the correlation between the level of miR-340-5p in patients with sepsis and the risk of ARDS. ALI was induced in mice through cecal ligation and puncture (CLP), and then the number of neutrophils and inflammatory factors and pulmonary edema were observed. Furthermore, the effects of miR-340-5p on the cell viability, apoptosis and inflammatory factors of lung epithelial cells induced by LPS were observed through CCK-8, flow cytometry and ELISA. Moreover, the binding relationship between miR-340-5p and ROCK1 was verified through dual luciferase reporter assay. miR-340-5p is an important risk factor affecting ARDS. After overexpression of miR-340-5p, the lung injury in CLP mice was significantly alleviated, as evidenced by the inhibition of inflammatory factors and pulmonary edema. miR-340-5p also has a significant protective effect on lung epithelial cells, manifested as reduced cell apoptosis and decreased inflammatory factors. Moreover, overexpression of ROCK1 weakened the protective effect of miR-340-5p on alveolar epithelial cells. Patients with sepsis who have low expression of miR-340-5p are associated with a higher risk of developing ARDS. During ALI, miR-340-5p exerts a protective effect by inhibiting ROCK1.",
+"doi": "10.1097/SHK.0000000000002911",
+"keywords": [
+"ALI",
+"ARDS",
+"ROCK1",
+"inflammation",
+"miR-340-5p",
+"pulmonary edema",
+"sepsis"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42475217/",
+"impactScore": 50
+},
+{
+"pmid": "42474727",
+"title": "Publisher Correction: Lung- and diaphragm-protective mechanical ventilation in acute respiratory distress syndrome.",
+"authors": [
+"Plens GM",
+"Morris IS",
+"Greendyk R",
+"Castellví-Font A",
+"Jonkman AH",
+"Grieco DL",
+"Alcala GC",
+"Dianti J",
+"Amato MBP",
+"Dres M",
+"Bihari S",
+"Khemani RG",
+"Brochard L",
+"Itagaki T",
+"Goligher EC"
+],
+"journal": "Intensive care medicine",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-07-20",
+"abstract": "",
+"doi": "10.1007/s00134-026-08557-5",
+"keywords": [],
+"meshTerms": [],
+"pubTypes": [
+"Published Erratum"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42474727/",
+"impactScore": 50
+},
+{
+"pmid": "42474725",
+"title": "Electrical impedance tomography in ARDS: from improved ventilator settings to uncovering a pressure paradigm?",
+"authors": [
+"Mulier JP",
+"van Egmond J",
+"Schepens T"
+],
+"journal": "Intensive care medicine",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "letter",
+"pubDate": "2026-07-20",
+"abstract": "",
+"doi": "10.1164/rccm.202204-0629OC",
+"keywords": [],
+"meshTerms": [],
+"pubTypes": [
+"Letter"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42474725/",
+"impactScore": 50
+},
+{
+"pmid": "42474243",
+"title": "Metabolic Syndrome and In-Hospital Mortality in Sepsis: A Multicenter Cohort Study Revealing a Severity-Dependent Survival Advantage Driven by Overweight and Hyperlipidemia.",
+"authors": [
+"Zhang Y",
+"Liu G",
+"Yu X",
+"Shang Z",
+"Liu H",
+"Shang H",
+"Sun W",
+"Li C",
+"Cui X",
+"Chen J",
+"Qian J",
+"Zhou W",
+"Mao E",
+"Chen M",
+"Gao C"
+],
+"journal": "Shock (Augusta, Ga.)",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-07-20",
+"abstract": "To evaluate the association between metabolic syndrome (MetS) and in-hospital mortality in sepsis patients and to determine whether this association varies according to disease severity and individual MetS-related components. Multicenter retrospective cohort study. Three tertiary hospitals in China. A total of 2,973 adult patients with sepsis admitted between September 2015 and May 2023. None. MetS was defined according to the criteria of the Chinese Diabetes Society. The primary outcome was in-hospital mortality. Multivariable Cox regression, subgroup analyses, interaction analyses, and Kaplan-Meier survival analyses were performed. MetS was present in 1,309 patients (44.0%). Patients with MetS had a higher in-hospital survival rate than those without MetS (78.4% vs. 72.8%, p = 0.001). After adjustment for potential confounders, MetS remained independently associated with lower in-hospital mortality. A significant interaction was observed between MetS and SOFA-defined severity strata, indicating a severity-dependent association. The survival advantage of MetS was mainly confined to patients with mild-to-moderate sepsis and was primarily driven by overweight and hyperlipidemia. In addition, these 2 metabolic features were associated with more favorable physiologic profiles, including lower inflammatory burden and better preservation of nutritional and cardiometabolic indices. MetS was associated with lower in-hospital mortality in sepsis, particularly in patients with mild-to-moderate disease severity. This association appeared to be largely driven by overweight and hyperlipidemia, supporting a stage-specific prognostic role of metabolic phenotypes in sepsis.",
+"doi": "10.1097/SHK.0000000000002910",
+"keywords": [
+"Hyperlipidemia",
+"Metabolic syndrome",
+"Overweight",
+"Prognosis",
+"Sepsis"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42474243/",
+"impactScore": 50
+},
+{
+"pmid": "42474234",
+"title": "EFFECTS OF THE UROTENSIN-II RECEPTOR ANTAGONIST SB-710411 ON REMOTE ISCHEMIC PRECONDITIONING IN A RAT MODEL OF LPS-INDUCED ENDOTOXIC SHOCK: CARDIOVASCULAR RESPONSE, INFLAMMATORY INJURY, AND SURVIVAL.",
+"authors": [
+"Amini Didani P",
+"Ahmed-Reda Elosman M",
+"Senol SP",
+"Ikiz E",
+"Kara T",
+"Kara L",
+"Tunctan B"
+],
+"journal": "Shock (Augusta, Ga.)",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-07-20",
+"abstract": "Blockade of the urotensin II receptor (UT; G protein-coupled receptor [GPR]14) has been reported to confer protective effects against impaired cardiovascular response, inflammatory tissue injury, and mortality induced by lipopolysaccharide (LPS)-induced endotoxic shock or remote ischemic preconditioning (RIPC). This study aimed to test the hypothesis that SB-710411, a selective UT antagonist, has a protective effect on RIPC in a rat model of LPS-induced endotoxic shock. The endotoxic shock model was established by injecting LPS into rats. RIPC was induced with three 10-minute ischemia/10-minute reperfusion cycles of both hind limbs of rats using tourniquets before saline or LPS injection. The rats were treated with SB-710411 (0.01 mg/kg) 1 hour after saline or LPS injection. The mean arterial pressure and heart rate values ​​of the rats were measured during the experiments. SB-710411 prevented hypotensive and tachycardic responses to LPS or RIPC, but not to the RIPC/LPS. While RIPC ameliorated LPS-induced hypotension, but not tachycardia, it also caused a 33% mortality rate. The increase in the expression/activity of U-II, GPR14, nuclear factor-κB, inducible nitric oxide (NO) synthase, vasodilator-stimulated phosphoprotein, gp91 phox, p47 phox, 3-nitrotyrosine, and IL-1β as well as the decrease in endothelial NO synthase expression/activity in the arterial, cardiac, renal, pulmonary, and/or cerebral tissues of endotoxemic rats was prevented by SB-710411. SB-710411 also attenuated the elevation in scores for histopathological changes induced by LPS or RIPC/LPS in the heart, as well as LPS in the lung and brain. Our findings revealed that SB-710411 prevents deterioration of cardiovascular response and inflammatory tissue injury in rat models of LPS-induced endotoxic shock or RIPC, but not that of RIPC/LPS. It also seems that RIPC does not confer protection against LPS-induced endotoxic shock.",
+"doi": "10.1097/SHK.0000000000002908",
+"keywords": [
+"Endotoxic shock",
+"SB-710411",
+"U-II receptor",
+"nitrosative/oxidative stress",
+"remote ischemic preconditioning"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42474234/",
+"impactScore": 50
+},
+{
+"pmid": "42474225",
+"title": "Association between Milrinone Use and Mortality Risk in Sepsis: Insights from the MIMIC-IV Database.",
+"authors": [
+"Wu J",
+"Liu C",
+"Ji X",
+"Li B",
+"Li X",
+"Zhu J"
+],
+"journal": "Shock (Augusta, Ga.)",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-07-20",
+"abstract": "Milrinone is established in the management of heart failure. However, its therapeutic role in patients with sepsis remains uncertain and warrants further investigation. Objective: To examine the association between milrinone administration and mortality in patients diagnosed with sepsis. This retrospective cohort study utilized data from the MIMIC-IV database. The primary exposure of interest was milrinone use. Propensity score matching (PSM) and inverse probability of treatment weighting (IPTW) were employed to balance baseline characteristics. The association between milrinone use and 7-，14-，and 28-day mortality in sepsis patients was assessed using multivariate Cox proportional hazards models, restricted cubic spline (RCS) curves, and longitudinal targeted maximum likelihood estimation (TMLE). Among 27,070 sepsis patients, 523 received milrinone at a median interval of 5.24 hours after ICU admission. In the unadjusted Cox model, milrinone use was associated with significantly lower mortality at 7 days (HR = 0.53, 95% CI: 0.33-0.85), 14 days (HR = 0.54, 95% CI: 0.38-0.78), and 28 days (HR = 0.60, 95% CI: 0.45-0.82). This association remained consistent after adjusting for multiple confounders. In the IPTW-adjusted cohort, Cox regression showed no significant association between milrinone use and mortality at day 7 or day 14; however, a statistically significant association was observed at day 28. Longitudinal TMLE analyses further indicated a protective effect for both 14-day (RR = 0.65, 95% CI: 0.48-0.88; P = 0.01) and 28-day mortality (RR = 0.58, 95% CI: 0.45-0.74; P < 0.001). RCS analysis demonstrated a linear inverse relationship between cumulative milrinone dosage and 7-day mortality risk, while a non-linear association was observed with 14-day and 28-day mortality. Subgroup analysis revealed a significant interaction between milrinone use and heart failure status, with reduced mortality associated with milrinone use only in patients with heart failure. Milrinone use appeared to be associated with reduced mortality risk at 7, 14, and 28 days in sepsis patients. This association was linear for 7‑day mortality, but nonlinear and potentially indicative of a threshold effect for 14‑and 28‑day mortality.",
+"doi": "10.1097/SHK.0000000000002907",
+"keywords": [
+"Critically ill patients",
+"MIMIC-IV",
+"Milrinone",
+"Sepsis",
+"Sepsis-induced cardiomyopathy"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42474225/",
+"impactScore": 50
+},
+{
+"pmid": "42472846",
+"title": "Hemoperfusion during extracorporeal membrane oxygenation: an updated systematic review and meta-analysis of 8,151 patients.",
+"authors": [
+"Xie T",
+"Yang C",
+"Tao H",
+"Yang X",
+"Deng L",
+"Zeng J",
+"Jiang H",
+"Zhou P"
+],
+"journal": "Critical care (London, England)",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-07-19",
+"abstract": "This systematic review and meta-analysis evaluated the clinical efficacy and safety of hemoperfusion in adults receiving extracorporeal membrane oxygenation (ECMO). We systematically searched PubMed, Embase, the Cochrane Library, CNKI, and CBM for studies comparing ECMO plus hemoperfusion (ECMO + HP) with ECMO alone in adult patients. The primary outcome was all-cause mortality. Prespecified subgroup analyses were conducted according to study design (RCT vs non-RCT), ECMO type (VA vs VV), and etiology (cardiogenic shock vs cardiac arrest). Risk of bias was assessed using RoB 2.0 and ROBINS-I, and Trial Sequential Analysis (TSA) was performed. The systematic review was registered with PROSPERO (CRD42025643149) and conducted in accordance with PRISMA guidelines. Thirteen studies involving 8,151 patients were included, comprising three RCTs and ten non-RCTs. Overall, ECMO + HP did not significantly reduce all-cause mortality compared with ECMO alone (OR 0.98, 95% CI 0.49-1.94; P = 0.95; I2 = 76%). However, mortality was higher with ECMO + HP in RCTs (OR 4.96, 95% CI 1.67-14.77; P = 0.004; I2 = 34%), whereas no significant difference was observed in non-RCTs (OR 0.58, 95% CI 0.25-1.33; P = 0.20; I2 = 79%). Subgroup analyses by ECMO type showed no survival benefit with either VA-ECMO (OR 0.80, 95% CI 0.41-1.58; P = 0.53; I2 = 47%) or VV-ECMO (OR 1.23, 95% CI 0.30-4.99; P = 0.77; I2 = 77%). Among VA-ECMO patients, etiology-based analyses showed no mortality benefit in cardiogenic shock (OR 0.58, 95% CI 0.31-1.09; P = 0.09; I2 = 22%) or cardiac arrest (OR 2.42, 95% CI 0.71-8.25; P = 0.16; I2 = 26%). No significant differences were identified in other clinical outcomes or complications, and TSA indicated that the evidence remains insufficient to confirm a mortality benefit. Most studies were at moderate to serious risk of bias. In patients receiving extracorporeal membrane oxygenation, hemoperfusion did not reduce mortality and may be associated with increased mortality in randomized controlled trials. Current evidence does not support routine use of ECMO + HP in ICU condition.",
+"doi": "10.1186/s13054-026-06203-6",
+"keywords": [
+"Critical illness",
+"Cytokine adsorption",
+"Extracorporeal membrane oxygenation",
+"Hemoperfusion",
+"Inflammatory biomarkers"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42472846/",
+"impactScore": 49
+},
+{
+"pmid": "42472834",
+"title": "Sodium bicarbonate therapy in severe metabolic acidemia: an individual patient data meta-analysis of the BICAR-ICU and BICAR-ICU2 trials.",
+"authors": [
+"Fosset M",
+"Pensier J",
+"Jabaudon M",
+"Bitker L",
+"De Jong A",
+"Chanques G",
+"Huguet H",
+"Molinari N",
+"Jaber S",
+"Jung B"
+],
+"journal": "Critical care (London, England)",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-07-19",
+"abstract": "Two randomized trials (BICAR-ICU and BICAR-ICU2) evaluated intravenous sodium bicarbonate therapy in patients with severe metabolic acidemia but yielded inconclusive results. We performed an individual patient data meta-analysis to assess its effects on 90-day mortality and renal replacement therapy (RRT) use, and search for heterogeneity of treatment effects across prespecified subgroups. We performed an individual patient data meta-analysis of the BICAR-ICU and BICAR-ICU2 trials, including adults with severe metabolic acidemia (pH ≤ 7.20). Patients were randomized to receive intravenous sodium bicarbonate titrated to a pH ≥ 7.30 or no sodium bicarbonate. The primary outcome was 90-day mortality. Secondary outcomes included RRT initiation and dialysis-free days. Prespecified subgroup analyses explored treatment-effect heterogeneity by acidemia depth (pH ≤ 7.10 vs. > 7.10), severe acute kidney injury (AKI) status, and serum lactate (< 2mmol/L vs. ≥2mmol/L). A total of 1,016 patients was included (509 sodium bicarbonate, 507 control). Sodium bicarbonate therapy did not significantly reduce 90-day mortality compared to control (58.3% vs. 60.6%; risk ratio [RR], 0.96; 95%CI, 0.86-1.07; p = 0.51). However, it significantly reduced RRT initiation (34.8% vs. 50.7%; RR, 0.69; 95%CI, 0.60-0.79; p < 0.001, number needed to treat: 6.3) and increased dialysis-free days (incidence rate ratio, 1.10; 95%CI, 1.06-1.14; p < 0.001). A significant interaction was observed with acidemia depth (p-for-interaction = 0.006): in patients with pH ≤ 7.10, sodium bicarbonate reduced 90-day mortality (RR, 0.80; 95%CI, 0.68-0.93; p = 0.004); no benefit was seen with pH > 7.10 (RR, 1.05; 95%CI, 0.92-1.21; p = 0.47). No significant interactions were observed for severe AKI status (p-for-interaction = 0.11) nor serum lactate (p-for-interaction = 0.22). Sodium bicarbonate therapy did not reduce overall 90-day mortality but decreased RRT use and suggested a mortality benefit in patients with the most profound acidemia (pH ≤ 7.10). These findings invite a reconsideration of current paradigms, suggesting timely correction of severe metabolic acidemia to avoid RRT in some patients.",
+"doi": "10.1186/s13054-026-06206-3",
+"keywords": [
+"Acidemia",
+"Heterogeneity of treatment effect",
+"ICU",
+"Meta-analysis",
+"Sodium bicarbonate"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42472834/",
+"impactScore": 49
 },
 {
 "pmid": "42469923",
@@ -431,7 +760,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42469923/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42469893",
@@ -454,7 +783,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42469893/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42469875",
@@ -491,7 +820,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42469875/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42469838",
@@ -544,7 +873,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42469838/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42469022",
@@ -572,7 +901,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42469022/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42469021",
@@ -597,7 +926,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42469021/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42468510",
@@ -628,7 +957,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42468510/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42468021",
@@ -750,7 +1079,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42468021/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42467907",
@@ -789,7 +1118,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42467907/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42467568",
@@ -818,7 +1147,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42467568/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42468511",
@@ -852,7 +1181,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42468511/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42468150",
@@ -874,7 +1203,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42468150/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42468042",
@@ -907,7 +1236,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42468042/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42463007",
@@ -945,7 +1274,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42463007/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42462957",
@@ -970,7 +1299,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42462957/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42315320",
@@ -1005,7 +1334,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42315320/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42270318",
@@ -1041,7 +1370,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42270318/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42455343",
@@ -1064,7 +1393,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42455343/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42468033",
@@ -1098,7 +1427,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42468033/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42467247",
@@ -1150,7 +1479,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42467247/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42457022",
@@ -1190,7 +1519,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42457022/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42456111",
@@ -1231,7 +1560,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42456111/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42456091",
@@ -1265,7 +1594,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42456091/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42449432",
@@ -1290,7 +1619,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42449432/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42449426",
@@ -1337,7 +1666,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42449426/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42449390",
@@ -1369,7 +1698,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42449390/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42448221",
@@ -1409,7 +1738,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42448221/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42447460",
@@ -1430,7 +1759,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42447460/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42447442",
@@ -1462,7 +1791,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42447442/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42440111",
@@ -1485,7 +1814,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42440111/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42440110",
@@ -1509,7 +1838,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42440110/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42440108",
@@ -1532,7 +1861,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42440108/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42444010",
@@ -1556,7 +1885,7 @@
 "Comment"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42444010/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42442598",
@@ -1590,7 +1919,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42442598/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42442528",
@@ -1701,7 +2030,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42442528/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42441934",
@@ -1735,7 +2064,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42441934/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42441923",
@@ -1765,7 +2094,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42441923/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42441910",
@@ -1796,7 +2125,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42441910/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42441866",
@@ -1841,7 +2170,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42441866/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42440109",
@@ -1896,7 +2225,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42440109/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42439600",
@@ -1922,7 +2251,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42439600/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42461393",
@@ -1951,7 +2280,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42461393/",
-"impactScore": 42
+"impactScore": 41
 },
 {
 "pmid": "42458004",
@@ -1981,7 +2310,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42458004/",
-"impactScore": 41
+"impactScore": 40
 },
 {
 "pmid": "42441900",
@@ -2023,44 +2352,87 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42441900/",
-"impactScore": 39
+"impactScore": 38
 },
 {
-"pmid": "42437839",
-"title": "Emergency department overcrowding: a CAEP position statement.",
+"pmid": "42473853",
+"title": "A Scalable Feedback-Enabled Cardiopulmonary Resuscitation Training Model and Early Attainment of Guideline-Consistent Compression Skills: A Quasi-Experimental Study.",
 "authors": [
-"Li MK",
-"McLeod SL",
-"Affleck A",
-"Bhate T",
-"Innes G",
-"Parks P",
-"Petrie DA",
-"Rowe BH",
-"Snider C",
-"Worrall JC",
-"Mackay F",
-"Ovens HJ"
+"Nachi S",
+"Suzuki K",
+"Hayashi K",
+"Suzuki A",
+"Tetsuka N",
+"Kasahara S",
+"Yoshimura T",
+"Okada H"
 ],
-"journal": "CJEM",
+"journal": "Prehospital and disaster medicine",
 "journalTier": 2,
 "journalSJR": null,
-"articleType": "review",
-"pubDate": "2026-07-12",
-"abstract": "",
-"doi": "10.1136/emermed-2021-211572",
+"articleType": "original",
+"pubDate": "2026-07-20",
+"abstract": "Survival after out-of-hospital cardiac arrest (OHCA) depends on the immediate provision of high-quality bystander cardiopulmonary resuscitation (CPR) during the prehospital phase. In many community settings, repeated training opportunities are not guaranteed, making early attainment of guideline-consistent CPR skills during a single training exposure particularly important. This study evaluated whether a scalable, feedback-enabled CPR training model was associated with earlier attainment of guideline-recommended chest compression metrics compared with conventional instruction. A quasi-experimental study was conducted among medical students who received CPR instruction during two consecutive teaching periods (2014-2015, conventional instruction [CONV]; 2016-2017, simplified feedback-enabled kit [SIM]). Overall CPR performance was assessed at three pre-defined time points: pre-Basic Life Support (BLS), immediate post-BLS, and delayed follow-up (two-to-twelve months post-BLS). The primary outcome was attainment of the target compression rate (100-120 compressions/minute). Mixed-effects regression models were used to account for repeated measurements and to evaluate group × assessment interactions. A total of 334 students were included: 171 in the CONV group and 163 in the SIM group. At the pre-BLS assessment, students in the SIM group demonstrated higher odds of achieving the target compression rate (odds ratio [OR], 3.49; 95% confidence interval [CI], 2.13-5.71), target compression depth (OR, 2.65; 95% CI, 1.24-5.64), and complete chest recoil (OR, 1.71; 95% CI, 1.05-2.78). Mixed-effects modeling demonstrated that the between-group difference in target compression rate changed over time, with convergence observed at delayed follow-up. A scalable, feedback-enabled CPR training model was associated with earlier attainment of guideline-consistent chest compression performance. These findings may support further evaluation of scalable feedback-enabled approaches in community-based or resource-limited training environments where repeated CPR instruction may not be feasible.",
+"doi": "10.1017/S1049023X26108991",
 "keywords": [
-"Access block",
-"Emergency medicine",
-"Overcrowding"
+"Basic Life Support",
+"cardiopulmonary resuscitation",
+"feedback devices",
+"medical education",
+"prehospital care"
+],
+"meshTerms": [
+"Humans",
+"Cardiopulmonary Resuscitation",
+"Male",
+"Female",
+"Out-of-Hospital Cardiac Arrest",
+"Students, Medical",
+"Clinical Competence",
+"Adult",
+"Feedback",
+"Emergency Medical Services"
+],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42473853/",
+"impactScore": 36
+},
+{
+"pmid": "42472769",
+"title": "Imaging suspected posterior circulation stroke in the emergency department: a practical modality-based review.",
+"authors": [
+"Peng A",
+"Mayeli M",
+"Sison J",
+"Wira C",
+"Navaratnam D",
+"Johnson J",
+"Tu LH"
+],
+"journal": "Emergency radiology",
+"journalTier": 3,
+"journalSJR": null,
+"articleType": "review",
+"pubDate": "2026-07-20",
+"abstract": "Posterior circulation stroke (PCS) accounts for 20-25% of ischemic strokes and is disproportionately missed at first presentation. This review summarizes brain parenchymal and neurovascular imaging modalities for the evaluation of suspected PCS in the emergency department (ED). We conducted a structured narrative review of established and emerging modalities, describing each modality's technical principles, clinical roles, performance estimates, evidence base, limitations, and real-world application. Searches emphasized ED populations and posterior fossa infarction; society guidelines and meta-analyses were prioritized. Non-contrast CT is insensitive for acute PCS (reported 16-44%) but remains essential for excluding hemorrhage. CT angiography is roughly 80% sensitive for vertebrobasilar occlusion in selected cohorts and ~ 44% sensitive for PCS overall. CT perfusion adds incremental sensitivity (around 70-75%). MRI with diffusion-weighted imaging is ~ 80% sensitive in pooled estimates; high-resolution DWI may approach 90-95% in single-center series. Emerging modalities - dual-energy CT (41-88% sensitive), portable low-field MRI (estimated 69% sensitive), and accelerated or abbreviated MRI (likely 80-95% sensitive) - are at varying stages of adoption. Performance metrics of emerging modalities derive from small, single-center cohorts with probable spectrum bias. Evaluation of the brain parenchyma and vasculature represent distinct clinical questions, for which dedicated imaging may be required. Accurate diagnosis of PCS requires careful selection and, often, a combination of imaging modalities tailored to the clinical question and local resources.",
+"doi": "10.1161/STROKEAHA.120.028992",
+"keywords": [
+"Computed tomography angiography",
+"Diffusion-weighted imaging",
+"Emergency department",
+"Neuroimaging",
+"Posterior circulation stroke",
+"Vertebrobasilar"
 ],
 "meshTerms": [],
 "pubTypes": [
 "Journal Article",
 "Review"
 ],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42437839/",
-"impactScore": 38
+"url": "https://pubmed.ncbi.nlm.nih.gov/42472769/",
+"impactScore": 35
 },
 {
 "pmid": "42472401",
@@ -2092,7 +2464,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42472401/",
-"impactScore": 36
+"impactScore": 35
 },
 {
 "pmid": "42472400",
@@ -2114,7 +2486,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42472400/",
-"impactScore": 36
+"impactScore": 35
 },
 {
 "pmid": "42471554",
@@ -2152,7 +2524,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42471554/",
-"impactScore": 35
+"impactScore": 34
 },
 {
 "pmid": "42470613",
@@ -2184,7 +2556,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42470613/",
-"impactScore": 35
+"impactScore": 34
 },
 {
 "pmid": "42469660",
@@ -2216,7 +2588,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42469660/",
-"impactScore": 34
+"impactScore": 33
 },
 {
 "pmid": "42469640",
@@ -2249,7 +2621,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42469640/",
-"impactScore": 34
+"impactScore": 33
 },
 {
 "pmid": "42467420",
@@ -2284,7 +2656,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42467420/",
-"impactScore": 34
+"impactScore": 33
 },
 {
 "pmid": "42467413",
@@ -2312,7 +2684,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42467413/",
-"impactScore": 34
+"impactScore": 33
 },
 {
 "pmid": "42467410",
@@ -2342,7 +2714,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42467410/",
-"impactScore": 34
+"impactScore": 33
 },
 {
 "pmid": "42467160",
@@ -2377,7 +2749,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42467160/",
-"impactScore": 34
+"impactScore": 33
 },
 {
 "pmid": "42391298",
@@ -2399,7 +2771,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42391298/",
-"impactScore": 34
+"impactScore": 33
 },
 {
 "pmid": "42385018",
@@ -2425,7 +2797,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42385018/",
-"impactScore": 34
+"impactScore": 33
 },
 {
 "pmid": "42470918",
@@ -2462,7 +2834,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42470918/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42470917",
@@ -2498,7 +2870,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42470917/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42470916",
@@ -2537,7 +2909,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42470916/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42470915",
@@ -2572,7 +2944,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42470915/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42468083",
@@ -2605,7 +2977,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42468083/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42464301",
@@ -2630,7 +3002,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42464301/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42464163",
@@ -2661,7 +3033,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42464163/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42464131",
@@ -2700,7 +3072,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42464131/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42461581",
@@ -2724,7 +3096,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42461581/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42461370",
@@ -2759,7 +3131,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42461370/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42461297",
@@ -2814,7 +3186,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42461297/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42461284",
@@ -2862,7 +3234,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42461284/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42460987",
@@ -2895,7 +3267,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42460987/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42458871",
@@ -2925,7 +3297,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42458871/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42458858",
@@ -2954,7 +3326,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42458858/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42458820",
@@ -2993,7 +3365,7 @@
 "Comparative Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42458820/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42458005",
@@ -3028,7 +3400,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42458005/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42458552",
@@ -3071,7 +3443,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42458552/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42458291",
@@ -3105,7 +3477,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42458291/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42458290",
@@ -3158,7 +3530,7 @@
 "Observational Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42458290/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42458281",
@@ -3189,7 +3561,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42458281/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42456096",
@@ -3223,7 +3595,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42456096/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42456095",
@@ -3250,7 +3622,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42456095/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42455479",
@@ -3283,7 +3655,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42455479/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42453029",
@@ -3310,7 +3682,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42453029/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42417487",
@@ -3335,7 +3707,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42417487/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42384975",
@@ -3360,7 +3732,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42384975/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42307216",
@@ -3385,7 +3757,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42307216/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42449247",
@@ -3421,7 +3793,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42449247/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42449056",
@@ -3448,7 +3820,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42449056/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42446640",
@@ -3496,7 +3868,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42446640/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42444575",
@@ -3534,7 +3906,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42444575/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42444168",
@@ -3569,7 +3941,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42444168/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42444052",
@@ -3599,7 +3971,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42444052/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42462552",
@@ -3622,7 +3994,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42462552/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42459162",
@@ -3646,7 +4018,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42459162/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42444126",
@@ -3682,7 +4054,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42444126/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42444118",
@@ -3711,7 +4083,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42444118/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42443769",
@@ -3768,7 +4140,7 @@
 "Multicenter Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42443769/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42443761",
@@ -3800,7 +4172,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42443761/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42440209",
@@ -3821,7 +4193,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42440209/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42443737",
@@ -3860,34 +4232,98 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42443737/",
-"impactScore": 29
+"impactScore": 28
 },
 {
-"pmid": "42437840",
-"title": "Just the facts: cluster headache and other side-locked headaches in the emergency department.",
+"pmid": "42474692",
+"title": "Incidental findings identified by universal screening for BCVI using CT angiography.",
 "authors": [
-"Mattice AMS",
-"Cortel-LeBlanc A",
-"Cortel-LeBlanc MA"
+"Manka M",
+"Kelleran K",
+"Manka M",
+"Drumsta D"
 ],
-"journal": "CJEM",
-"journalTier": 2,
+"journal": "Emergency radiology",
+"journalTier": 3,
 "journalSJR": null,
 "articleType": "original",
-"pubDate": "2026-07-12",
-"abstract": "",
-"doi": "10.1001/jamaneurol.2022.4804",
+"pubDate": "2026-07-20",
+"abstract": "Blunt cerebrovascular injuries (BCVIs) are injuries to the carotid or vertebral arteries resulting from blunt trauma. Screening for BCVI is done using neck computed tomographic angiography (CTA). Although several screening protocols have been developed, many institutions, including our regional Level 1 trauma center, have implemented universal screening protocols to ensure no injuries are missed. When screening for acute injuries, incidental findings (IFs) may be discovered as a result. The aim of this study is to determine the incidence of IFs discovered with universal screening for BCVI. Priority 1 and 2 adult (≥ 18) blunt trauma patients presenting between April 2023 and April 2024 were identified from our trauma registry. Medical records were retrospectively reviewed to identify the incidence of IFs in patients screened for BCVI. A total of 1,832 eligible blunt trauma patients were evaluated, of whom 1,554 (84.83%) underwent screening with neck CTA. Of these, 58 patients (3.73%) had CTA evidence of BCVI, 20 (34.48%) of whom had no risk factors based on the expanded Denver criteria. A total of 265 IFs were discovered in 224 patients (14.55%). Included in these IFs were chronic arterial occlusions (n = 27), aneurysms (n = 9), moderate-severe stenoses (n = 139), and significant thyroid nodules (n = 26). Eighty-one patients (36.16%) were discharged yet had no evidence in their records that they were informed of these incidental findings. IFs are identified in a significant percentage of blunt trauma patients with universal screening for BCVI. Trauma centers using universal screening for BCVI must have protocols in place for informing patients of IFs to ensure proper follow-up care is obtained for these patients.",
+"doi": "10.1177/1971400918800468",
 "keywords": [
-"Cluster headache",
-"Headache",
-"Trigeminal autonomic cephalalgia"
+"BCVI",
+"CT angiography",
+"Incidental findings"
 ],
 "meshTerms": [],
 "pubTypes": [
 "Journal Article"
 ],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42437840/",
-"impactScore": 29
+"url": "https://pubmed.ncbi.nlm.nih.gov/42474692/",
+"impactScore": 26
+},
+{
+"pmid": "42473423",
+"title": "A Scoping Review of \"Wet Markets\" and Their Risks to Public Health.",
+"authors": [
+"Willoughby EL",
+"Maeng MH",
+"Greer SL"
+],
+"journal": "Health security",
+"journalTier": 3,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-07-20",
+"abstract": "Places widely known as \"wet markets\" have been identified as posing a risk to human health, since these food retail spaces are broadly considered to have unhygienic conditions and support the wild animal trade. While costly regulatory interventions into these markets have been proposed, there is little scientific consensus about responsibility for developing evidence about the risks of such markets or conducting surveillance of markets. The aim of this scoping review was to assess the empirical research that has been done using this term, \"wet markets,\" in order to better understand the kinds of knowledge generated about places referred to as \"wet markets\" and to identify relevant policy recommendations related to these spaces. We conducted a scoping review searching PubMed, Web of Science, and Scopus databases in March 2024 and identified 335 unique articles, 144 of which met inclusion criteria for final review. The majority of studies focused on the prevalence of pathogens in meat from domesticated sources and vegetables. Studies were predominantly conducted in Asia. Notably, this scoping review did not find any empirical studies on the wild animal trade alongside food trade at \"wet markets.\" We did find distinct differences between narratives among Western public health institutions and empirical evidence on food safety and foodborne illness in Asia. Institutions concerned with health security and One Health should consider research designed to improve the evidence base for targeted interventions and strengthen surveillance in order to better respond to risks as well as better grasp their measurable magnitude.",
+"doi": "10.1177/23265094261461837",
+"keywords": [
+"Food safety",
+"Infectious diseases",
+"One Health",
+"Public health preparedness/response",
+"Surveillance",
+"Zoonotic spillover"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42473423/",
+"impactScore": 26
+},
+{
+"pmid": "42472770",
+"title": "Agreement between emergency medicine residents and a radiologist in ultrasonographic detection and grading of hydronephrosis in patients with suspected renal colic: a prospective study.",
+"authors": [
+"Yıldırım A",
+"Ardic S",
+"Cicek M",
+"Kadıoğlu ME",
+"Cekic OG",
+"Akyuz S",
+"Turedi S"
+],
+"journal": "Emergency radiology",
+"journalTier": 3,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-07-20",
+"abstract": "Suspected renal colic is a frequent emergency department presentation. Bedside hydronephrosis assessment may support early triage, consultation, and disposition decisions. This study evaluated whether emergency medicine residents can reliably detect hydronephrosis and classify its severity using bedside urinary ultrasonography in adults with suspected renal colic. This prospective observational agreement study included 272 adults with suspected renal colic. Bedside urinary ultrasonography was performed by 16 emergency medicine residents with at least two years of residency training and structured ultrasonography education. Before enrollment, residents completed standardized theoretical, hands-on, and supervised radiologist-guided renal ultrasonography training focused on hydronephrosis assessment. Radiologist-performed ultrasonography was completed within 2 h of emergency department admission by an experienced radiologist blinded to residents' findings. Both groups used the same severity categories: absent, mild, moderate, and severe. Diagnostic performance, agreement, and severity-level concordance were analyzed at the patient level. Computed tomography (CT)-based analyses were exploratory and evaluated CT-detected hydronephrosis rather than stone detection. Hydronephrosis was detected in 81 patients by both residents and the radiologist. Overall agreement was 91.18%, with a Cohen's kappa of 0.789. Sensitivity, specificity, positive predictive value, negative predictive value, and accuracy were 85.19%, 93.72%, 85.19%, 93.72%, and 91.18%, respectively. Exact severity-level agreement was 87.87%, with a linear weighted kappa of 0.813. In the CT subgroup, residents' ultrasonography for CT-detected hydronephrosis showed 81.63% sensitivity, 86.05% specificity, and 83.70% accuracy. Emergency medicine residents with structured ultrasonography training demonstrated substantial agreement with radiologist-performed ultrasonography for detecting hydronephrosis and strong agreement for severity classification. These findings apply to trained residents and may not be generalizable to clinicians without similar training or supervision.",
+"doi": "10.1016/j.urology.2009.12.015",
+"keywords": [
+"Emergency medicine",
+"Hydronephrosis",
+"Interobserver agreement",
+"Renal Colic",
+"Ultrasonography"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42472770/",
+"impactScore": 26
 },
 {
 "pmid": "42464097",
@@ -3918,7 +4354,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42464097/",
-"impactScore": 23
+"impactScore": 22
 },
 {
 "pmid": "42458635",
@@ -3951,7 +4387,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42458635/",
-"impactScore": 23
+"impactScore": 22
 },
 {
 "pmid": "42455474",
@@ -3982,7 +4418,39 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42455474/",
-"impactScore": 22
+"impactScore": 21
+},
+{
+"pmid": "42473466",
+"title": "Emergency Department Clinician Perspectives on an EMR-Adjacent Microsoft Teams Consultation Workflow.",
+"authors": [
+"Rosen C",
+"Ng N",
+"Shawl A",
+"Mathews K",
+"Armanious A",
+"Khodorkovsky B",
+"Mohamadi A",
+"Hahn B"
+],
+"journal": "Open access emergency medicine : OAEM",
+"journalTier": 3,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-01-01",
+"abstract": "Communication failures in the emergency department (ED) can delay consultations and worsen crowding. Hospitals now use phone-based systems, EMR-integrated secure chat, and EMR-adjacent messaging platforms for consultant communication, but few studies describe ED clinician experience with these workflows. To describe ED clinicians' perceived acceptability of, and experience with, an EMR-adjacent Microsoft Teams-based consultation workflow used alongside a telephone-based consultation pathway. We conducted a single-center post-implementation survey of clinicians who used a Microsoft Teams consultation workflow in an academic ED. The primary analysis focused on ED clinician responses; consulting clinician responses were reported descriptively because of the low estimated non-ED response rate. Of 121 respondents, 82 were ED clinicians, and 39 were consulting clinicians. Among ED clinicians, 78.0% reported high acceptability of the Teams consultation workflow, 85.4% perceived improvements in the workflow, and 89.0% perceived a positive impact on patient care. Delays remained common, with 24.4% of ED clinicians reporting that responses were often delayed. Consulting clinician responses are reported descriptively only because of the low estimated non-ED response rate. ED clinicians reported high perceived acceptability of an EMR-adjacent Microsoft Teams consultation workflow used alongside a telephone-based consultation pathway. These results reflect post-implementation clinician perceptions and do not establish improved consultation timeliness, patient flow, or clinical outcomes.",
+"doi": "10.1001/jamanetworkopen.2024.17781",
+"keywords": [
+"communications",
+"consultations",
+"emergency service"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42473466/",
+"impactScore": 16
 },
 {
 "pmid": "42471985",
