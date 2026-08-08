@@ -1,15 +1,15 @@
 {
-"generatedAt": "2026-08-07T22:31:17.000Z",
+"generatedAt": "2026-08-08T22:24:36.000Z",
 "daysBack": 7,
 "journalCount": 59,
 "stats": {
 "total": 600,
 "byType": {
+"rct": 14,
 "meta-analysis": 12,
 "systematic-review": 10,
-"rct": 14,
-"clinical-trial": 1,
 "review": 32,
+"clinical-trial": 1,
 "original": 395,
 "guideline": 1,
 "letter": 37,
@@ -17,57 +17,110 @@
 "editorial": 39
 },
 "byTier": {
-"1": 266,
-"2": 229,
+"1": 267,
+"2": 228,
 "3": 105
 },
 "topScore": 70,
-"avgScore": 37
+"avgScore": 36
 },
 "articleOfWeek": {
-"pmid": "42274294",
-"title": "Clinical Prediction Models for Prognostication After Out-of-Hospital Cardiac Arrest: A Systematic Review and Meta-Analysis.",
+"pmid": "42568095",
+"title": "The impact of an intensive care telemedicine program on weaning from invasive ventilation: a secondary analysis of the ERIC trial.",
 "authors": [
-"Niznick N",
-"Sadeghirad B",
-"Rochwerg B",
-"Tran A",
-"Jung RG",
-"Fantaneanu TA",
-"Boyd JG",
-"Sekhon MS",
-"Hirsch KG",
-"Nolan JP",
-"Sandroni C",
-"Fernando SM"
+"Adam MF",
+"Grunow JJ",
+"Edel A",
+"Steinecke K",
+"Schuster FS",
+"Spies CD",
+"Weiss B",
+"Paul N"
 ],
-"journal": "Critical care medicine",
+"journal": "Critical care (London, England)",
 "journalTier": 1,
 "journalSJR": null,
-"articleType": "meta-analysis",
-"pubDate": "2026-08-01",
-"abstract": "Summarize the prognostic performance of existing clinical prediction models (CPMs) for neuroprognostication after out-of-hospital cardiac arrest (OHCA). We searched Medline and Embase databases from inception to June 1, 2025. We selected English-language studies that included adults with OHCA and evaluated a CPM for the prediction of poor functional outcome. We excluded derivation cohorts for prognostic scores and excluded models without at least two external validation cohorts. Two authors performed citation screening and data extraction. Where possible, we pooled the sensitivity and specificity of poor functional outcome, and the area under the receiver operating characteristic curve (AUROC) values for each CPM. We assessed risk of bias using the Prediction model study Risk of Bias Assessment Tool, and rated the certainty of evidence using the Grading of Recommendations, Assessment, Development, and Evaluation. We included 39 observational cohorts (95,037 patients) evaluating 11 different CPMs, with the two most common scores being the OHCA and Cardiac Arrest Hospital Prognosis (CAHP) scores. An OHCA score greater than or equal to 17 had a pooled sensitivity of 81.8% (95% CI, 65.8-91.4%) and specificity of 74.2% (95% CI, 58.8-85.3%), while a score of greater than or equal to 32 had a pooled sensitivity of 64.9% (95% CI, 44.0-81.3%) and specificity of 89.5% (95% CI, 75.9-95.8%) for poor functional outcome (low certainty). A CAHP score greater than or equal to 150 had a pooled sensitivity of 81.3% (95% CI, 77.7-84.4%) and specificity of 77.0% (95% CI, 70.6-82.4%) for poor functional outcome (moderate certainty). Pooled AUROCs across the 11 CPMs varied from 0.75 to 0.88, with substantial heterogeneity. CPMs for neuroprognostication after OHCA demonstrate only moderate accuracy, with substantial heterogeneity across validation cohorts. These limitations restrict their clinical utility, particularly for irreversible decisions such as withdrawal of life-sustaining therapy.",
-"doi": "10.1097/CCM.0000000000007206",
+"articleType": "rct",
+"pubDate": "2026-08-07",
+"abstract": "ICU patients commonly require invasive mechanical ventilation. Although weaning from ventilation is crucial for patient outcomes, it is commonly not performed according to guideline recommendations. We investigated if a complex telemedicine intervention improves the weaning process and outcomes. This is a secondary analysis of the stepped-wedge cluster-randomized controlled Enhanced Recovery after Intensive Care (ERIC) trial, which was conducted among ten clusters of ICUs in the metropolitan area of Berlin, Germany. ERIC examined the impact of a complex telemedicine intervention, which included daily telemedicine rounding by an intensivist and ICU nurse, on the adherence to eight quality indicators of ICU care. We analyzed patients who received invasive mechanical ventilation for at least two consecutive days and at least one spontaneous breathing trial (SBT). We investigated the impact of the intervention on the weaning process and weaning outcomes using descriptive statistics and mixed-effects regressions. Of 1,463 patients enrolled in the trial, 308 patients were analyzed (control condition: 55; intervention condition: 253). Patients in the intervention group received significantly more SBTs than patients in the control group (51% vs 27% of the patient days; p < 0.001). There was no difference between the groups with respect to the weaning classification (p = 0.21), weaning success rate (28% vs 36%; p = 0.32), and time from the first SBT to successful weaning (2 [IQR 1, 5] vs 4 [IQR 1, 13] days; p = 0.12). The median time of invasive mechanical ventilation of successfully weaned patients was significantly shorter in the intervention than in the control group (7 [IQR 4, 10] vs 9 [IQR 6, 20] days; p = 0.031). In our multivariable regressions, the intervention was not associated with weaning success (OR for weaning failure: 1.45 [95%-CI 0.71-2.95]; p = 0.302), but with a shorter time between the first SBT and successful weaning (β = 0.56 [0.32-0.98]; p = 0.042). Although ICU telemedicine did not improve the weaning success rate, our findings indicate that it facilitates the exploitation of existing weaning potential by ensuring more frequent SBTs and thereby shortening ventilation duration of successfully weaned patients. The study is the first to highlight the potential of telemedicine to enhance ICU weaning practices. www. gov (Identifier: NCT03671447; first submitted on August 22, 2018).",
+"doi": "10.1007/s12028-022-01584-2",
 "keywords": [
-"hypoxemic-ischemic brain injury",
-"out-of-hospital cardiac arrest",
-"prediction scores",
-"prognosis"
+"Critical care",
+"ICU",
+"Mechanical ventilation",
+"Respiratory care",
+"Telemedicine",
+"Weaning"
 ],
 "meshTerms": [
-"Out-of-Hospital Cardiac Arrest",
 "Humans",
-"Prognosis"
+"Ventilator Weaning",
+"Telemedicine",
+"Intensive Care Units",
+"Female",
+"Male",
+"Germany",
+"Aged",
+"Middle Aged",
+"Respiration, Artificial",
+"Critical Care"
 ],
 "pubTypes": [
 "Journal Article",
-"Systematic Review",
-"Meta-Analysis"
+"Randomized Controlled Trial"
 ],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42274294/",
+"url": "https://pubmed.ncbi.nlm.nih.gov/42568095/",
 "impactScore": 70
 },
 "articles": [
+{
+"pmid": "42568095",
+"title": "The impact of an intensive care telemedicine program on weaning from invasive ventilation: a secondary analysis of the ERIC trial.",
+"authors": [
+"Adam MF",
+"Grunow JJ",
+"Edel A",
+"Steinecke K",
+"Schuster FS",
+"Spies CD",
+"Weiss B",
+"Paul N"
+],
+"journal": "Critical care (London, England)",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "rct",
+"pubDate": "2026-08-07",
+"abstract": "ICU patients commonly require invasive mechanical ventilation. Although weaning from ventilation is crucial for patient outcomes, it is commonly not performed according to guideline recommendations. We investigated if a complex telemedicine intervention improves the weaning process and outcomes. This is a secondary analysis of the stepped-wedge cluster-randomized controlled Enhanced Recovery after Intensive Care (ERIC) trial, which was conducted among ten clusters of ICUs in the metropolitan area of Berlin, Germany. ERIC examined the impact of a complex telemedicine intervention, which included daily telemedicine rounding by an intensivist and ICU nurse, on the adherence to eight quality indicators of ICU care. We analyzed patients who received invasive mechanical ventilation for at least two consecutive days and at least one spontaneous breathing trial (SBT). We investigated the impact of the intervention on the weaning process and weaning outcomes using descriptive statistics and mixed-effects regressions. Of 1,463 patients enrolled in the trial, 308 patients were analyzed (control condition: 55; intervention condition: 253). Patients in the intervention group received significantly more SBTs than patients in the control group (51% vs 27% of the patient days; p < 0.001). There was no difference between the groups with respect to the weaning classification (p = 0.21), weaning success rate (28% vs 36%; p = 0.32), and time from the first SBT to successful weaning (2 [IQR 1, 5] vs 4 [IQR 1, 13] days; p = 0.12). The median time of invasive mechanical ventilation of successfully weaned patients was significantly shorter in the intervention than in the control group (7 [IQR 4, 10] vs 9 [IQR 6, 20] days; p = 0.031). In our multivariable regressions, the intervention was not associated with weaning success (OR for weaning failure: 1.45 [95%-CI 0.71-2.95]; p = 0.302), but with a shorter time between the first SBT and successful weaning (β = 0.56 [0.32-0.98]; p = 0.042). Although ICU telemedicine did not improve the weaning success rate, our findings indicate that it facilitates the exploitation of existing weaning potential by ensuring more frequent SBTs and thereby shortening ventilation duration of successfully weaned patients. The study is the first to highlight the potential of telemedicine to enhance ICU weaning practices. www. gov (Identifier: NCT03671447; first submitted on August 22, 2018).",
+"doi": "10.1007/s12028-022-01584-2",
+"keywords": [
+"Critical care",
+"ICU",
+"Mechanical ventilation",
+"Respiratory care",
+"Telemedicine",
+"Weaning"
+],
+"meshTerms": [
+"Humans",
+"Ventilator Weaning",
+"Telemedicine",
+"Intensive Care Units",
+"Female",
+"Male",
+"Germany",
+"Aged",
+"Middle Aged",
+"Respiration, Artificial",
+"Critical Care"
+],
+"pubTypes": [
+"Journal Article",
+"Randomized Controlled Trial"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42568095/",
+"impactScore": 70
+},
 {
 "pmid": "42274294",
 "title": "Clinical Prediction Models for Prognostication After Out-of-Hospital Cardiac Arrest: A Systematic Review and Meta-Analysis.",
@@ -109,7 +162,7 @@
 "Meta-Analysis"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42274294/",
-"impactScore": 70
+"impactScore": 69
 },
 {
 "pmid": "42262517",
@@ -174,7 +227,7 @@
 "Comparative Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42262517/",
-"impactScore": 70
+"impactScore": 69
 },
 {
 "pmid": "42258324",
@@ -214,7 +267,7 @@
 "Meta-Analysis"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42258324/",
-"impactScore": 70
+"impactScore": 69
 },
 {
 "pmid": "42223318",
@@ -255,7 +308,7 @@
 "Meta-Analysis"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42223318/",
-"impactScore": 70
+"impactScore": 69
 },
 {
 "pmid": "42171427",
@@ -294,7 +347,7 @@
 "Meta-Analysis"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42171427/",
-"impactScore": 70
+"impactScore": 69
 },
 {
 "pmid": "42517928",
@@ -346,7 +399,7 @@
 "Systematic Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42517928/",
-"impactScore": 67
+"impactScore": 66
 },
 {
 "pmid": "42069040",
@@ -388,7 +441,7 @@
 "Systematic Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42069040/",
-"impactScore": 67
+"impactScore": 66
 },
 {
 "pmid": "42066650",
@@ -426,7 +479,7 @@
 "Systematic Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42066650/",
-"impactScore": 67
+"impactScore": 66
 },
 {
 "pmid": "42377463",
@@ -496,7 +549,7 @@
 "Multicenter Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42377463/",
-"impactScore": 65
+"impactScore": 64
 },
 {
 "pmid": "42370999",
@@ -580,7 +633,7 @@
 "Multicenter Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42370999/",
-"impactScore": 65
+"impactScore": 64
 },
 {
 "pmid": "42223327",
@@ -634,7 +687,7 @@
 "Comparative Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42223327/",
-"impactScore": 65
+"impactScore": 64
 },
 {
 "pmid": "42206929",
@@ -696,7 +749,7 @@
 "Clinical Trial, Phase II"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42206929/",
-"impactScore": 65
+"impactScore": 64
 },
 {
 "pmid": "42138675",
@@ -745,7 +798,7 @@
 "Randomized Controlled Trial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42138675/",
-"impactScore": 65
+"impactScore": 64
 },
 {
 "pmid": "42102507",
@@ -792,7 +845,7 @@
 "Randomized Controlled Trial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42102507/",
-"impactScore": 65
+"impactScore": 64
 },
 {
 "pmid": "42066651",
@@ -848,56 +901,38 @@
 "Comparative Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42066651/",
-"impactScore": 65
+"impactScore": 64
 },
 {
-"pmid": "41759812",
-"title": "Baseline measurements of cellular respiration affect the response to thiamine treatment in post-arrest patients.",
+"pmid": "42567478",
+"title": "Optimizing mask selection for obstructive sleep apnea treatment with CPAP.",
 "authors": [
-"Vine J",
-"Lee JH",
-"Simpson MD",
-"Grossestreuer AV",
-"Sorour K",
-"Zubair MM",
-"Moskowitz A",
-"Berg KM",
-"Liu X",
-"Donnino MW"
+"Rosanelli I",
+"Hirata RP",
+"Lorenzi-Filho G",
+"Genta PR"
 ],
-"journal": "Resuscitation",
+"journal": "Chest",
 "journalTier": 1,
 "journalSJR": null,
-"articleType": "rct",
-"pubDate": "2026-08-01",
-"abstract": "Thiamine (vitamin B1) is an essential cofactor in mitochondrial oxidative metabolism. Recent trials evaluating thiamine as a metabolic resuscitator in post-cardiac arrest patients have shown variable results, possibly due to differences in baseline mitochondrial function. We hypothesized that baseline mitochondrial respiration predicts a greater response to thiamine supplementation. This is a post hoc analysis of two randomized trials of thiamine administration in cardiac arrest patients (THICA, THACA). Mitochondrial function was assessed in peripheral blood mononuclear cells (PBMCs) using the Seahorse XF Analyzer to measure oxygen consumption rates (OCRs). Patients were stratified above or below the cohort median for each OCR variable. The primary outcome was change in lactate over 24 h. Seventy-four patients (40 thiamine vs. 34 placebo) had baseline OCR measurements and were included in the analysis. In the overall cohort, thiamine did not significantly reduce lactate compared to placebo (geometric mean ratio [GMR] = 0.83; 95% CI 0.64-1.09; p = 0.19). However, among patients with maximal or spare respiration above the median, thiamine treatment was associated with significantly lower lactate levels at 24 h (GMR = 0.61; 95% CI 0.44-0.83; p = 0.003 and GMR = 0.53; 95% CI 0.38-0.75; p < 0.001, respectively). Thiamine supplementation was associated with reduced lactate in patients with preserved mitochondrial functional reserve. Baseline mitochondrial respiration may serve as a biomarker to identify critically ill patients most likely to benefit from metabolic resuscitation therapies.",
-"doi": "10.1016/j.resuscitation.2026.111029",
+"articleType": "review",
+"pubDate": "2026-08-07",
+"abstract": "Selecting an appropriate mask is crucial for the success of continuous positive airway pressure (CPAP). Using a patient-centered approach, the purpose of this narrative review is to provide the clinician with the rationale to support the choice of the most suitable mask for the obstructive sleep apnea (OSA) patient that requires CPAP treatment. Despite the larger studies comparing nasal and oronasal masks being observational and potentially selection-biased, they suggest that nasal masks are associated with better objective and patient-reported outcomes. New technologies that use 3-D facial scanning and artificial intelligence have been developed to improve mask selection. Close follow-up combining in-person and telehealth-based models can detect mask-related adverse effects. Excessive leak is a common challenge during CPAP follow-up and may impair treatment adherence. The distinction between mouth and mask leak allows the use of adequate corrective strategies to control leak that may improve CPAP adherence and avoid unnecessary mask changes.",
+"doi": "10.1016/j.chest.2026.07.5235",
 "keywords": [
-"Cardiac arrest",
-"Cellular respiration",
-"Mitochondrial respiration",
-"Thiamine"
+"CPAP",
+"mouth leak",
+"nasal masks",
+"obstructive sleep apnea",
+"oronasal masks"
 ],
-"meshTerms": [
-"Humans",
-"Thiamine",
-"Male",
-"Female",
-"Oxygen Consumption",
-"Lactic Acid",
-"Heart Arrest",
-"Middle Aged",
-"Cell Respiration",
-"Mitochondria",
-"Aged",
-"Cardiopulmonary Resuscitation"
-],
+"meshTerms": [],
 "pubTypes": [
 "Journal Article",
-"Randomized Controlled Trial"
+"Review"
 ],
-"url": "https://pubmed.ncbi.nlm.nih.gov/41759812/",
-"impactScore": 65
+"url": "https://pubmed.ncbi.nlm.nih.gov/42567478/",
+"impactScore": 58
 },
 {
 "pmid": "42001985",
@@ -951,7 +986,7 @@
 "Controlled Clinical Trial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42001985/",
-"impactScore": 57
+"impactScore": 56
 },
 {
 "pmid": "42401171",
@@ -992,7 +1027,7 @@
 "Meta-Analysis"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42401171/",
-"impactScore": 56
+"impactScore": 55
 },
 {
 "pmid": "42398230",
@@ -1036,7 +1071,7 @@
 "Systematic Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42398230/",
-"impactScore": 56
+"impactScore": 55
 },
 {
 "pmid": "42378951",
@@ -1079,7 +1114,7 @@
 "Meta-Analysis"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42378951/",
-"impactScore": 56
+"impactScore": 55
 },
 {
 "pmid": "42378950",
@@ -1126,7 +1161,7 @@
 "Meta-Analysis"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42378950/",
-"impactScore": 56
+"impactScore": 55
 },
 {
 "pmid": "42259040",
@@ -1179,7 +1214,7 @@
 "Meta-Analysis"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42259040/",
-"impactScore": 56
+"impactScore": 55
 },
 {
 "pmid": "42543734",
@@ -1213,7 +1248,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42543734/",
-"impactScore": 53
+"impactScore": 52
 },
 {
 "pmid": "42407213",
@@ -1251,7 +1286,7 @@
 "Systematic Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42407213/",
-"impactScore": 53
+"impactScore": 52
 },
 {
 "pmid": "42377460",
@@ -1302,7 +1337,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42377460/",
-"impactScore": 53
+"impactScore": 52
 },
 {
 "pmid": "42372550",
@@ -1341,7 +1376,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42372550/",
-"impactScore": 53
+"impactScore": 52
 },
 {
 "pmid": "42371000",
@@ -1392,7 +1427,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42371000/",
-"impactScore": 53
+"impactScore": 52
 },
 {
 "pmid": "42301312",
@@ -1444,7 +1479,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42301312/",
-"impactScore": 53
+"impactScore": 52
 },
 {
 "pmid": "42284689",
@@ -1485,7 +1520,7 @@
 "Systematic Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42284689/",
-"impactScore": 53
+"impactScore": 52
 },
 {
 "pmid": "42242034",
@@ -1525,7 +1560,7 @@
 "Systematic Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42242034/",
-"impactScore": 53
+"impactScore": 52
 },
 {
 "pmid": "42222899",
@@ -1565,7 +1600,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42222899/",
-"impactScore": 53
+"impactScore": 52
 },
 {
 "pmid": "42153748",
@@ -1606,7 +1641,7 @@
 "Systematic Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42153748/",
-"impactScore": 53
+"impactScore": 52
 },
 {
 "pmid": "42127697",
@@ -1647,7 +1682,7 @@
 "Systematic Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42127697/",
-"impactScore": 53
+"impactScore": 52
 },
 {
 "pmid": "42055827",
@@ -1680,7 +1715,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42055827/",
-"impactScore": 53
+"impactScore": 52
 },
 {
 "pmid": "41995323",
@@ -1719,7 +1754,7 @@
 "Systematic Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/41995323/",
-"impactScore": 53
+"impactScore": 52
 },
 {
 "pmid": "41945125",
@@ -1761,46 +1796,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/41945125/",
-"impactScore": 53
-},
-{
-"pmid": "41805912",
-"title": "Artificial intelligence for battlefield triage in large-scale combat operations: Opportunities, limits, and ethical considerations.",
-"authors": [
-"Mathais Q",
-"Cungi PJ",
-"Lamblin A",
-"Dubourg O",
-"Bordes J",
-"Boussen S"
-],
-"journal": "The journal of trauma and acute care surgery",
-"journalTier": 1,
-"journalSJR": null,
-"articleType": "review",
-"pubDate": "2026-08-01",
-"abstract": "Large-scale combat operations (LSCOs) impose major constraints on battlefield medical systems, combining sustained casualty inflow, degraded communications, prolonged evacuation timelines, and limited opportunities for repeated clinical reassessment. Under such conditions, conventional triage frameworks-designed for episodic assessment and rapid evacuation-become insufficient. This narrative review examines how artificial intelligence (AI) could support battlefield triage in LSCO, not as a replacement for clinical judgement, but to preserve situational awareness and prioritization over time when human vigilance alone is insufficient. Based on military medical, technological, and doctrinal literature, we analyze AI through three operational functions: extending caregiver perception, sustaining cognition under pressure, and enabling anticipatory and personalized decision-making. Near-term deployable capabilities include wearable physiological sensors, early warning systems, digital casualty documentation, and unmanned platforms supporting remote assessment, resupply, and evacuation coordination. Mid-term developments may integrate multimodal data fusion, predictive decision support, augmented reality-assisted guidance, and partial automation of prioritization. Longer-term conceptual frameworks, such as digital twins, envision fully predictive and individualized triage and resource allocation but remain at the research stage. We further examine the engineering, human, doctrinal, ethical and strategic constraints that govern AI deployment in LSCO, including DDIL environments, data quality, cognitive and ergonomic risks, automation bias, survivability concerns in a transparent battlefield and requirements for robust governance. Overall, the value of AI for triage in LSCO lies in human-machine teaming that sustains vigilance, coordination, and anticipation under extreme operational constraints, provided deployment remains disciplined, ethically governed, and operationally grounded. ( J Trauma Acute Care Surg . 2026;101: S177-S187. Copyright © 2026 The Author(s). Published by Wolters Kluwer Health, Inc. on behalf of the American Association for the Surgery of Trauma.).",
-"doi": "10.3768/rtipress.2024.op.0090.2402",
-"keywords": [
-"Triage",
-"artificial intelligence",
-"early warning systems",
-"large-scale combat operations (LSCO)",
-"military trauma care"
-],
-"meshTerms": [
-"Humans",
-"Triage",
-"Artificial Intelligence",
-"Military Medicine",
-"Wounds and Injuries"
-],
-"pubTypes": [
-"Journal Article",
-"Review"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/41805912/",
-"impactScore": 53
+"impactScore": 52
 },
 {
 "pmid": "42418849",
@@ -1851,7 +1847,7 @@
 "Randomized Controlled Trial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42418849/",
-"impactScore": 51
+"impactScore": 50
 },
 {
 "pmid": "42296627",
@@ -1898,7 +1894,7 @@
 "Randomized Controlled Trial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42296627/",
-"impactScore": 51
+"impactScore": 50
 },
 {
 "pmid": "42263379",
@@ -1946,7 +1942,7 @@
 "Randomized Controlled Trial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42263379/",
-"impactScore": 51
+"impactScore": 50
 },
 {
 "pmid": "42152760",
@@ -1990,7 +1986,7 @@
 "Randomized Controlled Trial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42152760/",
-"impactScore": 51
+"impactScore": 50
 },
 {
 "pmid": "41972889",
@@ -2041,7 +2037,7 @@
 "Comparative Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/41972889/",
-"impactScore": 51
+"impactScore": 50
 },
 {
 "pmid": "41870288",
@@ -2088,7 +2084,40 @@
 "Multicenter Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/41870288/",
-"impactScore": 51
+"impactScore": 50
+},
+{
+"pmid": "42566422",
+"title": "Association Between the Sequential Organ Failure Assessment-2 (SOFA-2) Score and 90-Day and 365-Day Mortality in Patients With Sepsis: A Retrospective Cohort Study Based on the MIMIC-IV Database.",
+"authors": [
+"Li Z",
+"Wang Y",
+"Gao Y",
+"Tian Y",
+"Zhou F",
+"Cheng X",
+"Gong B",
+"Yang D"
+],
+"journal": "Shock (Augusta, Ga.)",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-08-07",
+"abstract": "The Sequential Organ Failure Assessment-2 (SOFA-2) score is a recently developed update of the conventional SOFA score that incorporates contemporary patterns of organ support in the intensive care unit (ICU). However, the association between SOFA-2 and long-term mortality in patients with sepsis has not been well characterized. This retrospective cohort study extracted adult sepsis ICU data from MIMIC-IV v3.1. ICU admission SOFA-2 scores (0-24) were calculated. Boruta algorithm selected confounders; binary logistic regression and restricted cubic splines (RCS) analyzed linear association between SOFA-2 and 90-/365-day all-cause mortality. Random forest (RF) combined key predictors, SHAP interpreted feature importance, and AUC evaluated discriminative performance. 8,779 patients were enrolled. Fully adjusted regression showed SOFA-2 independently elevated 90-day mortality (OR=1.17, 95%CI 1.15-1.18) and 365-day mortality (OR=1.16, 95%CI 1.14-1.18). RCS confirmed an approximately linear correlation (all nonlinearity p>0.05). Single SOFA-2 yielded modest AUCs: 0.65 (90-day) and 0.64 (365-day). The RF model improved prediction (validation AUC: 0.68 for 90-day, 0.67 for 365-day). SHAP analysis identified SOFA-2 as the most influential predictor. SOFA-2 provides moderate, stable long-term mortality discrimination for sepsis patients. Further external validation and optimization are required to improve its risk stratification utility.",
+"doi": "10.1097/SHK.0000000000002918",
+"keywords": [
+"Long term prognosis",
+"MIMIC-IV",
+"SOFA-2",
+"Sepsis"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42566422/",
+"impactScore": 49
 },
 {
 "pmid": "42565664",
@@ -2123,7 +2152,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42565664/",
-"impactScore": 50
+"impactScore": 49
 },
 {
 "pmid": "42565658",
@@ -2164,7 +2193,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42565658/",
-"impactScore": 50
+"impactScore": 49
 },
 {
 "pmid": "42565652",
@@ -2201,7 +2230,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42565652/",
-"impactScore": 50
+"impactScore": 49
 },
 {
 "pmid": "42522393",
@@ -2260,7 +2289,7 @@
 "Practice Guideline"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42522393/",
-"impactScore": 50
+"impactScore": 49
 },
 {
 "pmid": "42563164",
@@ -2290,7 +2319,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42563164/",
-"impactScore": 49
+"impactScore": 48
 },
 {
 "pmid": "42560998",
@@ -2328,7 +2357,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42560998/",
-"impactScore": 49
+"impactScore": 48
 },
 {
 "pmid": "42560974",
@@ -2361,7 +2390,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42560974/",
-"impactScore": 49
+"impactScore": 48
 },
 {
 "pmid": "42560803",
@@ -2395,7 +2424,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42560803/",
-"impactScore": 49
+"impactScore": 48
 },
 {
 "pmid": "42560540",
@@ -2419,7 +2448,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42560540/",
-"impactScore": 49
+"impactScore": 48
 },
 {
 "pmid": "42560539",
@@ -2442,7 +2471,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42560539/",
-"impactScore": 49
+"impactScore": 48
 },
 {
 "pmid": "42560137",
@@ -2487,7 +2516,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42560137/",
-"impactScore": 49
+"impactScore": 48
 },
 {
 "pmid": "42560130",
@@ -2537,7 +2566,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42560130/",
-"impactScore": 49
+"impactScore": 48
 },
 {
 "pmid": "42556561",
@@ -2571,7 +2600,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42556561/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42556560",
@@ -2602,7 +2631,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42556560/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42554625",
@@ -2629,7 +2658,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42554625/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42554605",
@@ -2662,7 +2691,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42554605/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42551514",
@@ -2707,7 +2736,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42551514/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42551513",
@@ -2742,7 +2771,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42551513/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42551445",
@@ -2772,7 +2801,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42551445/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42551418",
@@ -2804,7 +2833,45 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42551418/",
-"impactScore": 47
+"impactScore": 46
+},
+{
+"pmid": "42567025",
+"title": "When dyspnea replaces chest pain: Age-dependent symptom profiles in ACS and non-ACS patients undergoing coronary angiography.",
+"authors": [
+"Bruoha S",
+"Abu-Arar T",
+"Yassin R",
+"Chitoroga V",
+"Bruoha M",
+"Adler L",
+"Yosefy C",
+"Shlyakhover VE",
+"Rozenbaum Z"
+],
+"journal": "The American journal of emergency medicine",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-08-03",
+"abstract": "Advancing age fundamentally alters the clinical presentation of suspected coronary artery disease. Although chest pain remains the hallmark symptom of acute coronary syndrome (ACS), older adults increasingly present with dyspnea or heart failure (HF)-related symptoms, creating substantial diagnostic uncertainty during emergency department (ED) evaluation. Whether this age-dependent shift is specific to ACS or represents a broader change in the clinical phenotype of patients undergoing coronary angiography remains incompletely understood. We therefore investigated age-related changes in symptom presentation and determined whether these patterns differed between patients with and without ACS. We performed a retrospective patient-level analysis of a single-center coronary angiography registry comprising 3198 procedures consolidated into 2560 unique patients. Patients aged ≥50 years presenting with documented chest pain and/or dyspnea/HF symptoms were stratified into four age groups (50-59, 60-69, 70-79, and ≥ 80 years). Presentations were categorized as isolated chest pain, isolated dyspnea/HF, or combined symptoms. ACS status was determined using clinical presentation and biomarker data. Multivariable logistic regression identified independent predictors of dyspnea-containing presentations after adjustment for demographic and cardiovascular comorbidities, and interaction analyses assessed whether the association between age and symptom presentation differed by ACS status. Among 1530 eligible patients, isolated chest pain declined progressively with age, whereas dyspnea-containing presentations more than doubled, increasing from 18.8% in patients aged 50-59 years to 47.2% in those aged ≥80 years (P < 0.001). This transition occurred in both ACS (n = 602) and non-ACS (n = 928) patients. After adjustment, patients aged ≥80 years had more than twofold higher odds of dyspnea presentation than those aged 50-59 years (adjusted OR 2.64, 95% CI 1.64-4.29; P < 0.001). Despite the age-related transition toward dyspnea, both significant and multivessel coronary artery disease increased progressively with advancing age. No significant age-by-ACS interaction was observed (Pinteraction = 0.993). Advancing age is associated with a marked and independent transition from isolated chest pain toward dyspnea-containing presentations regardless of ACS status, suggesting that older patients with suspected coronary disease increasingly present with dyspnea rather than isolated chest pain. These findings support considering dyspnea a high-risk presenting symptom that should prompt careful evaluation for ACS and other cardiovascular disorders in older adults. Equivalent rather than merely an atypical symptom in older adults, even in the absence of typical chest pain.",
+"doi": "10.1016/j.ajem.2026.08.001",
+"keywords": [
+"Acute coronary syndrome",
+"Aging",
+"Chest pain",
+"Coronary angiography",
+"Coronary artery disease",
+"Dyspnea",
+"Emergency medicine",
+"Heart failure"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42567025/",
+"impactScore": 45
 },
 {
 "pmid": "42547408",
@@ -2836,7 +2903,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42547408/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42545857",
@@ -2864,7 +2931,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42545857/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42545742",
@@ -2900,7 +2967,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42545742/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42545729",
@@ -2929,7 +2996,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42545729/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42545722",
@@ -2966,7 +3033,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42545722/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42545469",
@@ -2991,7 +3058,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42545469/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42545101",
@@ -3029,7 +3096,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42545101/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42545097",
@@ -3067,7 +3134,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42545097/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42204078",
@@ -3108,7 +3175,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42204078/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42119226",
@@ -3141,7 +3208,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42119226/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42119225",
@@ -3181,7 +3248,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42119225/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42096946",
@@ -3227,7 +3294,7 @@
 "Case Reports"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42096946/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42067706",
@@ -3271,7 +3338,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42067706/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42565966",
@@ -3302,7 +3369,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42565966/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42561719",
@@ -3333,7 +3400,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42561719/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42476706",
@@ -3352,7 +3419,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42476706/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42476695",
@@ -3373,7 +3440,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42476695/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42440111",
@@ -3396,7 +3463,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42440111/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42377464",
@@ -3418,7 +3485,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42377464/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42377462",
@@ -3440,7 +3507,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42377462/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42377459",
@@ -3463,7 +3530,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42377459/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42329248",
@@ -3486,7 +3553,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42329248/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42307660",
@@ -3509,7 +3576,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42307660/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42307659",
@@ -3532,7 +3599,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42307659/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42307658",
@@ -3555,7 +3622,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42307658/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42295382",
@@ -3578,7 +3645,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42295382/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42295380",
@@ -3601,7 +3668,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42295380/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42274760",
@@ -3624,7 +3691,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42274760/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42268372",
@@ -3647,7 +3714,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42268372/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42268371",
@@ -3670,7 +3737,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42268371/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42268370",
@@ -3693,7 +3760,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42268370/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42262502",
@@ -3714,7 +3781,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42262502/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42257885",
@@ -3737,7 +3804,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42257885/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42257883",
@@ -3758,7 +3825,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42257883/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42242458",
@@ -3780,7 +3847,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42242458/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42203139",
@@ -3802,7 +3869,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42203139/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42173428",
@@ -3824,7 +3891,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42173428/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42162831",
@@ -3845,7 +3912,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42162831/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42162830",
@@ -3866,7 +3933,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42162830/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42084582",
@@ -3888,7 +3955,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42084582/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42081105",
@@ -3911,7 +3978,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42081105/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42061495",
@@ -3932,7 +3999,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42061495/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42007985",
@@ -3955,7 +4022,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42007985/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42561722",
@@ -3986,7 +4053,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42561722/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42560800",
@@ -4008,7 +4075,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42560800/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42560799",
@@ -4035,7 +4102,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42560799/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42560798",
@@ -4058,7 +4125,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42560798/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42560797",
@@ -4083,7 +4150,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42560797/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42560796",
@@ -4105,7 +4172,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42560796/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42560795",
@@ -4132,7 +4199,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42560795/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42560794",
@@ -4160,7 +4227,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42560794/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42560793",
@@ -4184,7 +4251,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42560793/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42560792",
@@ -4207,7 +4274,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42560792/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42560791",
@@ -4230,7 +4297,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42560791/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42560790",
@@ -4253,7 +4320,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42560790/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42560789",
@@ -4276,7 +4343,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42560789/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42560788",
@@ -4298,7 +4365,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42560788/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42552619",
@@ -4352,7 +4419,7 @@
 "Observational Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42552619/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42543717",
@@ -4404,7 +4471,7 @@
 "Research Support, Non-U.S. Gov't"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42543717/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42517927",
@@ -4427,7 +4494,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42517927/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42507993",
@@ -4446,7 +4513,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42507993/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42476705",
@@ -4468,7 +4535,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42476705/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42476704",
@@ -4491,7 +4558,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42476704/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42476703",
@@ -4515,7 +4582,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42476703/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42476702",
@@ -4536,7 +4603,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42476702/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42476701",
@@ -4558,7 +4625,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42476701/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42476700",
@@ -4581,7 +4648,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42476700/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42476699",
@@ -4603,7 +4670,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42476699/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42476698",
@@ -4628,7 +4695,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42476698/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42476697",
@@ -4651,7 +4718,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42476697/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42476696",
@@ -4674,7 +4741,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42476696/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42476694",
@@ -4697,7 +4764,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42476694/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42476693",
@@ -4718,7 +4785,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42476693/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42476692",
@@ -4741,7 +4808,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42476692/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42476691",
@@ -4766,7 +4833,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42476691/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42476690",
@@ -4788,7 +4855,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42476690/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42476689",
@@ -4811,7 +4878,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42476689/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42476688",
@@ -4834,7 +4901,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42476688/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42476687",
@@ -4856,7 +4923,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42476687/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42476686",
@@ -4898,7 +4965,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42476686/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42476685",
@@ -4924,7 +4991,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42476685/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42476684",
@@ -4947,7 +5014,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42476684/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42476683",
@@ -4969,7 +5036,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42476683/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42440109",
@@ -5036,7 +5103,7 @@
 "Multicenter Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42440109/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42423704",
@@ -5061,7 +5128,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42423704/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42412221",
@@ -5082,7 +5149,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42412221/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42412220",
@@ -5107,7 +5174,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42412220/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42393491",
@@ -5150,7 +5217,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42393491/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42390594",
@@ -5188,7 +5255,7 @@
 "Published Erratum"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42390594/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42390557",
@@ -5219,7 +5286,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42390557/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42371736",
@@ -5241,7 +5308,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42371736/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42371409",
@@ -5279,7 +5346,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42371409/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42370756",
@@ -5306,7 +5373,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42370756/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42360887",
@@ -5344,7 +5411,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42360887/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42350908",
@@ -5387,7 +5454,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42350908/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42340420",
@@ -5410,7 +5477,7 @@
 "Published Erratum"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42340420/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42330061",
@@ -5457,7 +5524,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42330061/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42319843",
@@ -5487,7 +5554,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42319843/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42302321",
@@ -5514,7 +5581,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42302321/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42294977",
@@ -5542,7 +5609,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42294977/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42294965",
@@ -5603,7 +5670,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42294965/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42283458",
@@ -5658,7 +5725,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42283458/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42283455",
@@ -5706,7 +5773,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42283455/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42283418",
@@ -5746,7 +5813,7 @@
 "Historical Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42283418/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42274761",
@@ -5772,7 +5839,7 @@
 "Published Erratum"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42274761/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42264172",
@@ -5819,7 +5886,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42264172/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42257294",
@@ -5861,7 +5928,7 @@
 "Validation Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42257294/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42241471",
@@ -5914,7 +5981,7 @@
 "Observational Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42241471/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42241413",
@@ -5964,7 +6031,7 @@
 "Comparative Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42241413/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42241407",
@@ -6013,7 +6080,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42241407/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42240281",
@@ -6063,7 +6130,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42240281/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42240268",
@@ -6105,7 +6172,7 @@
 "Observational Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42240268/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42233863",
@@ -6139,7 +6206,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42233863/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42233741",
@@ -6185,7 +6252,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42233741/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42233740",
@@ -6241,7 +6308,7 @@
 "Observational Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42233740/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42233727",
@@ -6288,7 +6355,7 @@
 "Validation Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42233727/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42233709",
@@ -6337,7 +6404,7 @@
 "Observational Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42233709/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42228006",
@@ -6361,7 +6428,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42228006/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42224833",
@@ -6405,7 +6472,7 @@
 "Comparative Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42224833/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42224632",
@@ -6446,7 +6513,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42224632/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42223319",
@@ -6494,7 +6561,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42223319/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42223312",
@@ -6543,7 +6610,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42223312/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42223307",
@@ -6613,7 +6680,7 @@
 "Multicenter Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42223307/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42208887",
@@ -6640,7 +6707,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42208887/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42207655",
@@ -6667,7 +6734,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42207655/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42206939",
@@ -6740,7 +6807,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42206939/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42206918",
@@ -6793,7 +6860,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42206918/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42201357",
@@ -6817,7 +6884,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42201357/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42189003",
@@ -6874,7 +6941,7 @@
 "Multicenter Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42189003/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42187543",
@@ -6953,7 +7020,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42187543/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42184917",
@@ -7005,7 +7072,7 @@
 "Multicenter Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42184917/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42184915",
@@ -7053,7 +7120,7 @@
 "Observational Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42184915/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42176972",
@@ -7099,7 +7166,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42176972/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42173429",
@@ -7150,7 +7217,7 @@
 "Observational Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42173429/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42171421",
@@ -7199,7 +7266,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42171421/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42171413",
@@ -7250,7 +7317,7 @@
 "Comparative Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42171413/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42171409",
@@ -7304,7 +7371,7 @@
 "Multicenter Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42171409/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42167972",
@@ -7327,7 +7394,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42167972/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42167583",
@@ -7374,7 +7441,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42167583/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42167582",
@@ -7415,7 +7482,7 @@
 "Scoping Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42167582/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42167581",
@@ -7463,7 +7530,7 @@
 "Validation Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42167581/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42165648",
@@ -7523,7 +7590,7 @@
 "Multicenter Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42165648/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42160869",
@@ -7573,7 +7640,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42160869/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42153779",
@@ -7623,7 +7690,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42153779/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42153383",
@@ -7673,7 +7740,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42153383/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42149249",
@@ -7698,7 +7765,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42149249/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42140779",
@@ -7723,7 +7790,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42140779/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42138677",
@@ -7754,7 +7821,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42138677/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42138510",
@@ -7802,7 +7869,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42138510/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42138372",
@@ -7861,7 +7928,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42138372/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42138302",
@@ -7892,7 +7959,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42138302/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42135144",
@@ -7915,7 +7982,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42135144/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42132715",
@@ -7939,7 +8006,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42132715/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42130329",
@@ -7994,7 +8061,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42130329/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42114386",
@@ -8049,7 +8116,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42114386/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42114385",
@@ -8093,7 +8160,7 @@
 "Observational Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42114385/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42114384",
@@ -8145,7 +8212,7 @@
 "Multicenter Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42114384/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42114383",
@@ -8190,7 +8257,7 @@
 "Multicenter Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42114383/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42114382",
@@ -8246,7 +8313,7 @@
 "Observational Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42114382/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42112953",
@@ -8294,7 +8361,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42112953/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42112946",
@@ -8338,7 +8405,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42112946/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42112940",
@@ -8395,7 +8462,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42112940/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42105435",
@@ -8446,7 +8513,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42105435/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42104970",
@@ -8499,7 +8566,7 @@
 "Observational Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42104970/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42095786",
@@ -8530,7 +8597,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42095786/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42091021",
@@ -8572,7 +8639,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42091021/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42087010",
@@ -8596,7 +8663,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42087010/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42085947",
@@ -8646,7 +8713,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42085947/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42085537",
@@ -8696,7 +8763,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42085537/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42084586",
@@ -8724,7 +8791,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42084586/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42084583",
@@ -8776,7 +8843,7 @@
 "Multicenter Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42084583/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42080778",
@@ -8818,7 +8885,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42080778/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42069041",
@@ -8869,7 +8936,7 @@
 "Multicenter Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42069041/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42069039",
@@ -8920,7 +8987,7 @@
 "Validation Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42069039/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42067435",
@@ -8946,7 +9013,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42067435/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42066652",
@@ -8998,7 +9065,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42066652/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42066649",
@@ -9035,7 +9102,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42066649/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42065643",
@@ -9082,7 +9149,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42065643/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42065641",
@@ -9125,7 +9192,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42065641/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42061203",
@@ -9173,7 +9240,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42061203/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42061202",
@@ -9215,7 +9282,7 @@
 "Observational Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42061202/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42061201",
@@ -9254,7 +9321,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42061201/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42054773",
@@ -9303,7 +9370,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42054773/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42054772",
@@ -9349,7 +9416,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42054772/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42054771",
@@ -9392,7 +9459,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42054771/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42047641",
@@ -9425,7 +9492,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42047641/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42047632",
@@ -9452,7 +9519,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42047632/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42035506",
@@ -9502,7 +9569,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42035506/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42034036",
@@ -9555,7 +9622,7 @@
 "Multicenter Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42034036/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42023953",
@@ -9600,7 +9667,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42023953/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42023952",
@@ -9637,7 +9704,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42023952/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42023940",
@@ -9673,7 +9740,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42023940/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42023932",
@@ -9725,7 +9792,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42023932/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42018719",
@@ -9748,7 +9815,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42018719/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42018713",
@@ -9778,7 +9845,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42018713/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42017782",
@@ -9825,7 +9892,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42017782/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42008765",
@@ -9867,7 +9934,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42008765/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "41995203",
@@ -9889,7 +9956,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/41995203/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "41989358",
@@ -9941,7 +10008,7 @@
 "Multicenter Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/41989358/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "41989256",
@@ -9970,7 +10037,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/41989256/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "41972863",
@@ -10014,7 +10081,7 @@
 "Multicenter Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/41972863/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "41956342",
@@ -10039,7 +10106,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/41956342/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "41954279",
@@ -10068,7 +10135,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/41954279/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "41949808",
@@ -10114,7 +10181,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/41949808/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "41949581",
@@ -10155,7 +10222,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/41949581/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "41949492",
@@ -10206,7 +10273,7 @@
 "Observational Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/41949492/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "41945332",
@@ -10241,7 +10308,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/41945332/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "41944821",
@@ -10275,7 +10342,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/41944821/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "41941383",
@@ -10305,7 +10372,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/41941383/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "41941334",
@@ -10360,7 +10427,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/41941334/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "41932674",
@@ -10408,7 +10475,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/41932674/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "41925620",
@@ -10440,7 +10507,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/41925620/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "41914820",
@@ -10495,7 +10562,7 @@
 "Observational Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/41914820/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "41894635",
@@ -10538,7 +10605,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/41894635/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "41879864",
@@ -10583,7 +10650,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/41879864/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "41879772",
@@ -10617,7 +10684,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/41879772/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "41879740",
@@ -10640,7 +10707,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/41879740/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "41870350",
@@ -10675,7 +10742,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/41870350/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "41860508",
@@ -10727,7 +10794,7 @@
 "Multicenter Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/41860508/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "41860430",
@@ -10763,7 +10830,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/41860430/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "41860429",
@@ -10818,7 +10885,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/41860429/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "41854578",
@@ -10862,7 +10929,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/41854578/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "41849445",
@@ -10902,7 +10969,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/41849445/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "41819340",
@@ -10953,54 +11020,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/41819340/",
-"impactScore": 44
-},
-{
-"pmid": "41745139",
-"title": "Assessing readiness for large-scale combat operations across the full spectrum of medical and surgical capabilities.",
-"authors": [
-"Johan S",
-"Cyril P",
-"Quentin M",
-"Luc A",
-"Julien B",
-"Catherine A",
-"Paul B",
-"Pierre P",
-"Eric M",
-"Toulon, France"
-],
-"journal": "The journal of trauma and acute care surgery",
-"journalTier": 1,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-08-01",
-"abstract": "Readiness for large-scale combat operations (LSCOs) remains a persistent challenge for military and civilian medical providers. This study assessed physicians' self-reported confidence in delivering damage-control resuscitation and damage-control surgery in LSCOs scenarios and identified opportunities for improvement (OFIs). A 40-item survey was distributed to all deployable Armed Forces' physicians (active duty, residents, reservists, contractors, and civilians) with military medical training. The survey explored confidence in performing lifesaving interventions across 15 tactical and medical scenarios and collected suggested OFIs. Of 2,145 eligible physicians, 474 (22%) responded: 51% active duty, 21.5% residents, and 18% reservists. The median time since graduation was 7 years (interquartile range, 1-13). Among respondents, 11% reported high confidence, 18% moderate, and 71% low. Compared with the low-confidence group, high-confidence physicians were older (median age, 40.0 vs. 34.0 years; p  < 0.001), more often male (86.0% vs. 51.5%, p  < 0.001), and more frequently reservists (30.0% vs. 15.5%, p  = 0.005). Surgeons and anesthesiologists/intensivists were overrepresented in the high-confidence group ( p  < 0.001). Daily clinical activity in trauma center level 1 facilities was more common among high-confidence physicians (62.7% vs. 27.5%, p  < 0.001). Multivariate analysis identified significant associations between high confidence and performing lifesaving procedures both domestically and overseas (odds ratio [OR], 1.13; p  < 0.001), being an anesthesiologist (OR, 9.56; p  = 0.002), and the number of years after graduation (OR, 1.05; p  = 0.044). Simulation-based training was the most frequently cited OFI, followed by regular clinical exposure in trauma centers and online interprofessional knowledge exchange. Key training needs identified included crew resource management, prolonged casualty care, and multiple-organ failure management. Confidence in damage-control resuscitation and damage-control surgery delivery during LSCOs remains limited. Structured, experiential, and specialty-specific training is essential to improve preparedness in deployed medical teams. ( J Trauma Acute Care Surg . 2026;101: S7-S16. Copyright © 2026 The Author(s). Published by Wolters Kluwer Health, Inc. on behalf of the American Association for the Surgery of Trauma.). Prognostic and Epidemiological; Level IV.",
-"doi": "10.1136/military-2025-002988",
-"keywords": [
-"Combat casualty care",
-"damage control",
-"large-scale combat operations",
-"physician",
-"readiness"
-],
-"meshTerms": [
-"Humans",
-"Military Medicine",
-"Male",
-"Adult",
-"Clinical Competence",
-"Female",
-"Military Personnel",
-"Surveys and Questionnaires",
-"United States",
-"Resuscitation"
-],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/41745139/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42535436",
@@ -11040,7 +11060,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42535436/",
-"impactScore": 39
+"impactScore": 38
 },
 {
 "pmid": "42385565",
@@ -11083,7 +11103,7 @@
 "Comparative Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42385565/",
-"impactScore": 39
+"impactScore": 38
 },
 {
 "pmid": "42342311",
@@ -11119,7 +11139,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42342311/",
-"impactScore": 39
+"impactScore": 38
 },
 {
 "pmid": "42342310",
@@ -11152,7 +11172,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42342310/",
-"impactScore": 39
+"impactScore": 38
 },
 {
 "pmid": "42342309",
@@ -11188,7 +11208,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42342309/",
-"impactScore": 39
+"impactScore": 38
 },
 {
 "pmid": "42342308",
@@ -11225,7 +11245,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42342308/",
-"impactScore": 39
+"impactScore": 38
 },
 {
 "pmid": "42342307",
@@ -11264,7 +11284,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42342307/",
-"impactScore": 39
+"impactScore": 38
 },
 {
 "pmid": "42342306",
@@ -11299,7 +11319,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42342306/",
-"impactScore": 39
+"impactScore": 38
 },
 {
 "pmid": "42342305",
@@ -11343,7 +11363,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42342305/",
-"impactScore": 39
+"impactScore": 38
 },
 {
 "pmid": "42342304",
@@ -11380,7 +11400,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42342304/",
-"impactScore": 39
+"impactScore": 38
 },
 {
 "pmid": "42342303",
@@ -11420,7 +11440,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42342303/",
-"impactScore": 39
+"impactScore": 38
 },
 {
 "pmid": "42342302",
@@ -11455,7 +11475,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42342302/",
-"impactScore": 39
+"impactScore": 38
 },
 {
 "pmid": "42342301",
@@ -11491,7 +11511,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42342301/",
-"impactScore": 39
+"impactScore": 38
 },
 {
 "pmid": "42341352",
@@ -11532,7 +11552,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42341352/",
-"impactScore": 39
+"impactScore": 38
 },
 {
 "pmid": "42296624",
@@ -11573,7 +11593,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42296624/",
-"impactScore": 39
+"impactScore": 38
 },
 {
 "pmid": "42263516",
@@ -11619,7 +11639,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42263516/",
-"impactScore": 39
+"impactScore": 38
 },
 {
 "pmid": "42224783",
@@ -11669,7 +11689,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42224783/",
-"impactScore": 39
+"impactScore": 38
 },
 {
 "pmid": "42134105",
@@ -11709,7 +11729,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42134105/",
-"impactScore": 39
+"impactScore": 38
 },
 {
 "pmid": "42566011",
@@ -11758,7 +11778,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42566011/",
-"impactScore": 36
+"impactScore": 35
 },
 {
 "pmid": "42565997",
@@ -11806,7 +11826,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42565997/",
-"impactScore": 36
+"impactScore": 35
 },
 {
 "pmid": "42565965",
@@ -11843,7 +11863,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42565965/",
-"impactScore": 36
+"impactScore": 35
 },
 {
 "pmid": "42565964",
@@ -11880,7 +11900,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42565964/",
-"impactScore": 36
+"impactScore": 35
 },
 {
 "pmid": "42565894",
@@ -11930,7 +11950,7 @@
 "Observational Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42565894/",
-"impactScore": 36
+"impactScore": 35
 },
 {
 "pmid": "42565843",
@@ -11982,7 +12002,7 @@
 "Observational Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42565843/",
-"impactScore": 36
+"impactScore": 35
 },
 {
 "pmid": "42563146",
@@ -12027,7 +12047,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42563146/",
-"impactScore": 35
+"impactScore": 34
 },
 {
 "pmid": "42563063",
@@ -12061,7 +12081,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42563063/",
-"impactScore": 35
+"impactScore": 34
 },
 {
 "pmid": "42560651",
@@ -12090,7 +12110,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42560651/",
-"impactScore": 35
+"impactScore": 34
 },
 {
 "pmid": "42560494",
@@ -12119,7 +12139,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42560494/",
-"impactScore": 35
+"impactScore": 34
 },
 {
 "pmid": "42560472",
@@ -12148,7 +12168,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42560472/",
-"impactScore": 35
+"impactScore": 34
 },
 {
 "pmid": "42560471",
@@ -12173,7 +12193,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42560471/",
-"impactScore": 35
+"impactScore": 34
 },
 {
 "pmid": "42561707",
@@ -12204,7 +12224,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42561707/",
-"impactScore": 34
+"impactScore": 33
 },
 {
 "pmid": "42555096",
@@ -12233,7 +12253,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42555096/",
-"impactScore": 34
+"impactScore": 33
 },
 {
 "pmid": "42552999",
@@ -12264,7 +12284,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42552999/",
-"impactScore": 34
+"impactScore": 33
 },
 {
 "pmid": "42467410",
@@ -12288,7 +12308,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42467410/",
-"impactScore": 34
+"impactScore": 33
 },
 {
 "pmid": "42550782",
@@ -12322,7 +12342,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42550782/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42550498",
@@ -12355,7 +12375,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42550498/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42550487",
@@ -12385,7 +12405,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42550487/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42550341",
@@ -12410,7 +12430,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42550341/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42550258",
@@ -12461,7 +12481,7 @@
 "Comparative Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42550258/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42549823",
@@ -12483,7 +12503,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42549823/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42524832",
@@ -12510,7 +12530,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42524832/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42480096",
@@ -12537,7 +12557,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42480096/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42562704",
@@ -12569,7 +12589,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42562704/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42557553",
@@ -12615,7 +12635,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42557553/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42549819",
@@ -12636,7 +12656,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42549819/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42547732",
@@ -12674,7 +12694,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42547732/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42546174",
@@ -12708,7 +12728,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42546174/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42543896",
@@ -12741,7 +12761,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42543896/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42543869",
@@ -12775,7 +12795,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42543869/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42413347",
@@ -12814,7 +12834,7 @@
 "Case Reports"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42413347/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42391822",
@@ -12856,7 +12876,7 @@
 "Case Reports"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42391822/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42287883",
@@ -12894,7 +12914,7 @@
 "Case Reports"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42287883/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42275899",
@@ -12934,7 +12954,7 @@
 "Case Reports"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42275899/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42269257",
@@ -12972,7 +12992,7 @@
 "Case Reports"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42269257/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42269256",
@@ -13013,7 +13033,7 @@
 "Case Reports"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42269256/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42247208",
@@ -13048,7 +13068,7 @@
 "Case Reports"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42247208/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42547862",
@@ -13075,7 +13095,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42547862/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42538133",
@@ -13105,7 +13125,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42538133/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42398435",
@@ -13127,7 +13147,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42398435/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42342313",
@@ -13149,7 +13169,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42342313/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42342312",
@@ -13170,7 +13190,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42342312/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42557918",
@@ -13214,7 +13234,7 @@
 "Multicenter Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42557918/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42557904",
@@ -13249,7 +13269,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42557904/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42552990",
@@ -13297,7 +13317,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42552990/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42552954",
@@ -13348,7 +13368,7 @@
 "Observational Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42552954/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42544016",
@@ -13367,7 +13387,7 @@
 "Published Erratum"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42544016/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42542509",
@@ -13395,7 +13415,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42542509/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42541692",
@@ -13421,7 +13441,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42541692/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42538126",
@@ -13472,7 +13492,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42538126/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42538121",
@@ -13520,7 +13540,7 @@
 "Multicenter Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42538121/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42522206",
@@ -13547,7 +13567,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42522206/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42522152",
@@ -13588,7 +13608,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42522152/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42515926",
@@ -13630,7 +13650,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42515926/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42493416",
@@ -13657,7 +13677,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42493416/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42489016",
@@ -13686,7 +13706,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42489016/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42476606",
@@ -13729,7 +13749,7 @@
 "Observational Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42476606/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42463417",
@@ -13774,7 +13794,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42463417/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42457220",
@@ -13811,7 +13831,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42457220/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42442869",
@@ -13834,7 +13854,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42442869/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42442868",
@@ -13864,7 +13884,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42442868/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42442867",
@@ -13885,7 +13905,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42442867/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42442415",
@@ -13946,7 +13966,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42442415/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42437660",
@@ -13994,7 +14014,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42437660/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42392905",
@@ -14016,7 +14036,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42392905/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42391823",
@@ -14065,7 +14085,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42391823/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42391665",
@@ -14118,7 +14138,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42391665/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42391664",
@@ -14144,7 +14164,7 @@
 "Published Erratum"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42391664/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42385566",
@@ -14191,7 +14211,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42385566/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42385564",
@@ -14237,7 +14257,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42385564/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42385350",
@@ -14282,7 +14302,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42385350/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42379131",
@@ -14325,7 +14345,7 @@
 "Comparative Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42379131/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42379130",
@@ -14374,7 +14394,7 @@
 "Observational Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42379130/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42378949",
@@ -14423,7 +14443,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42378949/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42372549",
@@ -14479,7 +14499,7 @@
 "Comparative Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42372549/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42372418",
@@ -14528,7 +14548,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42372418/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42366324",
@@ -14573,7 +14593,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42366324/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42364528",
@@ -14630,7 +14650,7 @@
 "Multicenter Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42364528/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42361789",
@@ -14678,7 +14698,7 @@
 "Comparative Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42361789/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42361788",
@@ -14725,7 +14745,7 @@
 "Multicenter Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42361788/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42361787",
@@ -14763,7 +14783,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42361787/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42348932",
@@ -14817,7 +14837,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42348932/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42348931",
@@ -14869,7 +14889,7 @@
 "Observational Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42348931/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42348930",
@@ -14896,7 +14916,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42348930/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42341539",
@@ -14925,7 +14945,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42341539/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42341351",
@@ -14971,7 +14991,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42341351/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42330693",
@@ -15024,7 +15044,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42330693/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42330692",
@@ -15064,7 +15084,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42330692/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42330691",
@@ -15112,7 +15132,7 @@
 "Comparative Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42330691/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42329818",
@@ -15138,7 +15158,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42329818/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42329817",
@@ -15160,7 +15180,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42329817/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42329816",
@@ -15184,7 +15204,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42329816/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42329815",
@@ -15208,7 +15228,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42329815/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42329814",
@@ -15229,7 +15249,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42329814/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42320432",
@@ -15276,7 +15296,7 @@
 "Scoping Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42320432/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42314529",
@@ -15324,7 +15344,7 @@
 "Multicenter Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42314529/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42314528",
@@ -15372,7 +15392,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42314528/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42314527",
@@ -15419,7 +15439,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42314527/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42308567",
@@ -15460,7 +15480,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42308567/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42296645",
@@ -15516,7 +15536,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42296645/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42296644",
@@ -15560,7 +15580,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42296644/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42296626",
@@ -15610,7 +15630,7 @@
 "Evaluation Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42296626/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42296625",
@@ -15658,7 +15678,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42296625/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42284799",
@@ -15715,7 +15735,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42284799/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42284798",
@@ -15763,7 +15783,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42284798/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42275900",
@@ -15815,7 +15835,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42275900/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42275819",
@@ -15859,7 +15879,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42275819/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42275818",
@@ -15908,7 +15928,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42275818/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42275817",
@@ -15961,7 +15981,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42275817/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42269563",
@@ -16008,7 +16028,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42269563/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42269562",
@@ -16050,7 +16070,7 @@
 "Comparative Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42269562/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42269561",
@@ -16100,7 +16120,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42269561/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42269255",
@@ -16148,7 +16168,7 @@
 "Observational Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42269255/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42265001",
@@ -16182,7 +16202,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42265001/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42265000",
@@ -16213,7 +16233,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42265000/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42263520",
@@ -16265,7 +16285,7 @@
 "Comparative Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42263520/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42263519",
@@ -16314,7 +16334,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42263519/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42263518",
@@ -16361,7 +16381,7 @@
 "Multicenter Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42263518/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42263517",
@@ -16411,7 +16431,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42263517/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42263515",
@@ -16456,7 +16476,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42263515/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42263514",
@@ -16510,7 +16530,7 @@
 "Comparative Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42263514/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42259042",
@@ -16559,7 +16579,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42259042/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42259041",
@@ -16604,7 +16624,7 @@
 "Comparative Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42259041/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42259039",
@@ -16655,7 +16675,7 @@
 "Comparative Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42259039/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42258974",
@@ -16678,7 +16698,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42258974/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42250466",
@@ -16718,7 +16738,7 @@
 "Scoping Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42250466/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42250406",
@@ -16764,7 +16784,7 @@
 "Observational Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42250406/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42248062",
@@ -16816,7 +16836,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42248062/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42248061",
@@ -16859,7 +16879,7 @@
 "Scoping Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42248061/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42248060",
@@ -16904,7 +16924,7 @@
 "Validation Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42248060/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42242047",
@@ -16951,7 +16971,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42242047/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42235087",
@@ -17011,7 +17031,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42235087/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42235086",
@@ -17032,7 +17052,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42235086/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42229028",
@@ -17080,7 +17100,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42229028/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42229027",
@@ -17107,7 +17127,7 @@
 "Published Erratum"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42229027/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42229026",
@@ -17143,7 +17163,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42229026/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42229025",
@@ -17186,7 +17206,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42229025/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42227175",
@@ -17228,7 +17248,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42227175/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42224864",
@@ -17278,7 +17298,7 @@
 "Multicenter Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42224864/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42224863",
@@ -17299,7 +17319,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42224863/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42224787",
@@ -17349,7 +17369,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42224787/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42224786",
@@ -17393,7 +17413,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42224786/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42224785",
@@ -17437,7 +17457,7 @@
 "Validation Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42224785/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42224784",
@@ -17479,7 +17499,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42224784/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42217456",
@@ -17529,7 +17549,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42217456/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42217455",
@@ -17575,7 +17595,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42217455/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42214829",
@@ -17615,7 +17635,7 @@
 "Scoping Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42214829/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42214828",
@@ -17660,7 +17680,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42214828/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42214827",
@@ -17710,7 +17730,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42214827/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42208193",
@@ -17759,7 +17779,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42208193/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42203572",
@@ -17781,7 +17801,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42203572/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42177101",
@@ -17804,7 +17824,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42177101/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42168032",
@@ -17827,7 +17847,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42168032/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42156277",
@@ -17849,7 +17869,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42156277/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42155413",
@@ -17894,7 +17914,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42155413/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42140174",
@@ -17943,7 +17963,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42140174/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42133565",
@@ -17968,7 +17988,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42133565/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42127696",
@@ -18018,7 +18038,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42127696/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42127695",
@@ -18076,7 +18096,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42127695/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42119497",
@@ -18136,7 +18156,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42119497/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42119496",
@@ -18184,7 +18204,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42119496/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42119495",
@@ -18236,7 +18256,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42119495/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42119494",
@@ -18281,7 +18301,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42119494/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42119493",
@@ -18325,7 +18345,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42119493/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42119492",
@@ -18373,7 +18393,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42119492/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42119491",
@@ -18426,7 +18446,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42119491/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42119490",
@@ -18487,7 +18507,7 @@
 "Validation Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42119490/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42115031",
@@ -18512,7 +18532,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42115031/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42114464",
@@ -18557,7 +18577,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42114464/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42114463",
@@ -18616,7 +18636,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42114463/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42114462",
@@ -18669,7 +18689,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42114462/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42114461",
@@ -18711,7 +18731,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42114461/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42114460",
@@ -18761,7 +18781,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42114460/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42114459",
@@ -18790,7 +18810,7 @@
 "Published Erratum"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42114459/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42114458",
@@ -18839,7 +18859,7 @@
 "Observational Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42114458/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42112818",
@@ -18864,7 +18884,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42112818/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42112805",
@@ -18907,7 +18927,7 @@
 "Scoping Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42112805/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42108974",
@@ -18952,7 +18972,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42108974/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42067436",
@@ -18981,7 +19001,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42067436/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42062183",
@@ -19009,7 +19029,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42062183/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42047498",
@@ -19062,7 +19082,7 @@
 "Observational Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42047498/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42021582",
@@ -19103,7 +19123,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42021582/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42007732",
@@ -19148,7 +19168,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42007732/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42003250",
@@ -19190,7 +19210,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42003250/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "41992793",
@@ -19244,7 +19264,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/41992793/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "41992780",
@@ -19286,7 +19306,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/41992780/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "41978453",
@@ -19332,7 +19352,7 @@
 "Observational Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/41978453/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "41958188",
@@ -19387,7 +19407,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/41958188/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "41947570",
@@ -19445,7 +19465,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/41947570/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "41925007",
@@ -19484,7 +19504,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/41925007/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "41891312",
@@ -19531,30 +19551,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/41891312/",
-"impactScore": 30
-},
-{
-"pmid": "41810946",
-"title": "Quality improvement in emergency medicine: a structured approach.",
-"authors": [
-"Banerjee J",
-"McNamara R",
-"Geary U"
-],
-"journal": "European journal of emergency medicine : official journal of the European Society for Emergency Medicine",
-"journalTier": 2,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-08-01",
-"abstract": "",
-"doi": "10.1097/MEJ.0000000000001327",
-"keywords": [],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/41810946/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42129007",
@@ -19598,7 +19595,7 @@
 "Case Reports"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42129007/",
-"impactScore": 29
+"impactScore": 28
 },
 {
 "pmid": "42067705",
@@ -19637,7 +19634,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42067705/",
-"impactScore": 29
+"impactScore": 28
 },
 {
 "pmid": "42067704",
@@ -19678,7 +19675,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42067704/",
-"impactScore": 29
+"impactScore": 28
 },
 {
 "pmid": "42060003",
@@ -19712,7 +19709,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42060003/",
-"impactScore": 29
+"impactScore": 28
 },
 {
 "pmid": "42565890",
@@ -19749,7 +19746,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42565890/",
-"impactScore": 26
+"impactScore": 25
 },
 {
 "pmid": "42565889",
@@ -19784,7 +19781,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42565889/",
-"impactScore": 26
+"impactScore": 25
 },
 {
 "pmid": "42563149",
@@ -19819,7 +19816,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42563149/",
-"impactScore": 25
+"impactScore": 24
 },
 {
 "pmid": "42557530",
@@ -19856,7 +19853,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42557530/",
-"impactScore": 25
+"impactScore": 24
 },
 {
 "pmid": "42557551",
@@ -19884,7 +19881,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42557551/",
-"impactScore": 24
+"impactScore": 23
 },
 {
 "pmid": "42552492",
@@ -19916,7 +19913,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42552492/",
-"impactScore": 24
+"impactScore": 23
 },
 {
 "pmid": "42552491",
@@ -19951,7 +19948,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42552491/",
-"impactScore": 24
+"impactScore": 23
 },
 {
 "pmid": "42552520",
@@ -19991,7 +19988,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42552520/",
-"impactScore": 23
+"impactScore": 22
 },
 {
 "pmid": "42552518",
@@ -20027,7 +20024,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42552518/",
-"impactScore": 23
+"impactScore": 22
 },
 {
 "pmid": "42404848",
@@ -20057,7 +20054,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42404848/",
-"impactScore": 22
+"impactScore": 21
 },
 {
 "pmid": "42396259",
@@ -20095,7 +20092,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42396259/",
-"impactScore": 22
+"impactScore": 21
 },
 {
 "pmid": "42396258",
@@ -20124,7 +20121,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42396258/",
-"impactScore": 22
+"impactScore": 21
 },
 {
 "pmid": "42389553",
@@ -20153,7 +20150,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42389553/",
-"impactScore": 22
+"impactScore": 21
 },
 {
 "pmid": "42389552",
@@ -20187,7 +20184,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42389552/",
-"impactScore": 22
+"impactScore": 21
 },
 {
 "pmid": "42389551",
@@ -20219,7 +20216,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42389551/",
-"impactScore": 22
+"impactScore": 21
 },
 {
 "pmid": "42382196",
@@ -20251,7 +20248,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42382196/",
-"impactScore": 22
+"impactScore": 21
 },
 {
 "pmid": "42382195",
@@ -20283,7 +20280,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42382195/",
-"impactScore": 22
+"impactScore": 21
 },
 {
 "pmid": "42375560",
@@ -20312,7 +20309,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42375560/",
-"impactScore": 22
+"impactScore": 21
 },
 {
 "pmid": "42318074",
@@ -20345,7 +20342,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42318074/",
-"impactScore": 22
+"impactScore": 21
 },
 {
 "pmid": "42293055",
@@ -20374,7 +20371,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42293055/",
-"impactScore": 22
+"impactScore": 21
 },
 {
 "pmid": "42293054",
@@ -20406,7 +20403,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42293054/",
-"impactScore": 22
+"impactScore": 21
 },
 {
 "pmid": "42283054",
@@ -20442,7 +20439,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42283054/",
-"impactScore": 22
+"impactScore": 21
 },
 {
 "pmid": "42283053",
@@ -20473,7 +20470,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42283053/",
-"impactScore": 22
+"impactScore": 21
 },
 {
 "pmid": "42255015",
@@ -20511,7 +20508,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42255015/",
-"impactScore": 22
+"impactScore": 21
 },
 {
 "pmid": "42255014",
@@ -20545,7 +20542,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42255014/",
-"impactScore": 22
+"impactScore": 21
 },
 {
 "pmid": "42255013",
@@ -20576,7 +20573,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42255013/",
-"impactScore": 22
+"impactScore": 21
 },
 {
 "pmid": "42255012",
@@ -20608,7 +20605,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42255012/",
-"impactScore": 22
+"impactScore": 21
 },
 {
 "pmid": "42255011",
@@ -20638,7 +20635,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42255011/",
-"impactScore": 22
+"impactScore": 21
 },
 {
 "pmid": "42255010",
@@ -20665,7 +20662,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42255010/",
-"impactScore": 22
+"impactScore": 21
 },
 {
 "pmid": "42255009",
@@ -20698,7 +20695,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42255009/",
-"impactScore": 22
+"impactScore": 21
 },
 {
 "pmid": "42255008",
@@ -20730,7 +20727,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42255008/",
-"impactScore": 22
+"impactScore": 21
 },
 {
 "pmid": "42255007",
@@ -20762,7 +20759,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42255007/",
-"impactScore": 22
+"impactScore": 21
 },
 {
 "pmid": "42255006",
@@ -20796,7 +20793,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42255006/",
-"impactScore": 22
+"impactScore": 21
 },
 {
 "pmid": "42255005",
@@ -20826,7 +20823,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42255005/",
-"impactScore": 22
+"impactScore": 21
 },
 {
 "pmid": "42255004",
@@ -20858,7 +20855,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42255004/",
-"impactScore": 22
+"impactScore": 21
 },
 {
 "pmid": "42255003",
@@ -20888,7 +20885,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42255003/",
-"impactScore": 22
+"impactScore": 21
 },
 {
 "pmid": "42255002",
@@ -20915,7 +20912,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42255002/",
-"impactScore": 22
+"impactScore": 21
 },
 {
 "pmid": "42255001",
@@ -20947,7 +20944,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42255001/",
-"impactScore": 22
+"impactScore": 21
 },
 {
 "pmid": "42239654",
@@ -20976,7 +20973,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42239654/",
-"impactScore": 22
+"impactScore": 21
 },
 {
 "pmid": "42239653",
@@ -21010,7 +21007,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42239653/",
-"impactScore": 22
+"impactScore": 21
 },
 {
 "pmid": "42239652",
@@ -21043,7 +21040,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42239652/",
-"impactScore": 22
+"impactScore": 21
 },
 {
 "pmid": "42239651",
@@ -21075,7 +21072,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42239651/",
-"impactScore": 22
+"impactScore": 21
 },
 {
 "pmid": "42239650",
@@ -21111,7 +21108,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42239650/",
-"impactScore": 22
+"impactScore": 21
 },
 {
 "pmid": "42239649",
@@ -21140,7 +21137,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42239649/",
-"impactScore": 22
+"impactScore": 21
 },
 {
 "pmid": "42232477",
@@ -21171,7 +21168,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42232477/",
-"impactScore": 22
+"impactScore": 21
 },
 {
 "pmid": "42232476",
@@ -21201,7 +21198,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42232476/",
-"impactScore": 22
+"impactScore": 21
 },
 {
 "pmid": "42232475",
@@ -21234,7 +21231,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42232475/",
-"impactScore": 22
+"impactScore": 21
 },
 {
 "pmid": "42232474",
@@ -21268,7 +21265,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42232474/",
-"impactScore": 22
+"impactScore": 21
 },
 {
 "pmid": "42232473",
@@ -21298,7 +21295,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42232473/",
-"impactScore": 22
+"impactScore": 21
 },
 {
 "pmid": "42232472",
@@ -21329,7 +21326,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42232472/",
-"impactScore": 22
+"impactScore": 21
 },
 {
 "pmid": "42232471",
@@ -21367,7 +21364,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42232471/",
-"impactScore": 22
+"impactScore": 21
 },
 {
 "pmid": "42221141",
@@ -21400,7 +21397,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42221141/",
-"impactScore": 22
+"impactScore": 21
 },
 {
 "pmid": "42221140",
@@ -21431,7 +21428,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42221140/",
-"impactScore": 22
+"impactScore": 21
 },
 {
 "pmid": "42221139",
@@ -21459,7 +21456,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42221139/",
-"impactScore": 22
+"impactScore": 21
 },
 {
 "pmid": "42221138",
@@ -21491,7 +21488,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42221138/",
-"impactScore": 22
+"impactScore": 21
 },
 {
 "pmid": "42221137",
@@ -21523,7 +21520,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42221137/",
-"impactScore": 22
+"impactScore": 21
 },
 {
 "pmid": "42221136",
@@ -21554,7 +21551,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42221136/",
-"impactScore": 22
+"impactScore": 21
 },
 {
 "pmid": "41951929",
@@ -21601,7 +21598,7 @@
 "Case Reports"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/41951929/",
-"impactScore": 22
+"impactScore": 21
 },
 {
 "pmid": "42522389",
@@ -21622,7 +21619,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42522389/",
-"impactScore": 21
+"impactScore": 20
 },
 {
 "pmid": "42522388",
@@ -21645,7 +21642,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42522388/",
-"impactScore": 21
+"impactScore": 20
 },
 {
 "pmid": "42522387",
@@ -21666,7 +21663,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42522387/",
-"impactScore": 21
+"impactScore": 20
 },
 {
 "pmid": "42522386",
@@ -21687,7 +21684,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42522386/",
-"impactScore": 21
+"impactScore": 20
 },
 {
 "pmid": "42522385",
@@ -21708,7 +21705,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42522385/",
-"impactScore": 21
+"impactScore": 20
 },
 {
 "pmid": "42522384",
@@ -21729,7 +21726,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42522384/",
-"impactScore": 21
+"impactScore": 20
 },
 {
 "pmid": "42522383",
@@ -21750,7 +21747,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42522383/",
-"impactScore": 21
+"impactScore": 20
 },
 {
 "pmid": "42522400",
@@ -21771,7 +21768,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42522400/",
-"impactScore": 20
+"impactScore": 19
 },
 {
 "pmid": "42522399",
@@ -21794,7 +21791,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42522399/",
-"impactScore": 20
+"impactScore": 19
 },
 {
 "pmid": "42522398",
@@ -21817,7 +21814,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42522398/",
-"impactScore": 20
+"impactScore": 19
 },
 {
 "pmid": "42522397",
@@ -21843,7 +21840,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42522397/",
-"impactScore": 20
+"impactScore": 19
 },
 {
 "pmid": "42522396",
@@ -21870,7 +21867,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42522396/",
-"impactScore": 20
+"impactScore": 19
 },
 {
 "pmid": "42522395",
@@ -21896,7 +21893,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42522395/",
-"impactScore": 20
+"impactScore": 19
 },
 {
 "pmid": "42522394",
@@ -21917,7 +21914,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42522394/",
-"impactScore": 20
+"impactScore": 19
 },
 {
 "pmid": "42522392",
@@ -21973,7 +21970,7 @@
 "Multicenter Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42522392/",
-"impactScore": 20
+"impactScore": 19
 },
 {
 "pmid": "42522391",
@@ -22033,7 +22030,7 @@
 "Observational Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42522391/",
-"impactScore": 20
+"impactScore": 19
 },
 {
 "pmid": "42522390",
@@ -22097,7 +22094,7 @@
 "Observational Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42522390/",
-"impactScore": 20
+"impactScore": 19
 },
 {
 "pmid": "42215800",
@@ -22148,7 +22145,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42215800/",
-"impactScore": 20
+"impactScore": 19
 },
 {
 "pmid": "42156668",
@@ -22193,7 +22190,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42156668/",
-"impactScore": 20
+"impactScore": 19
 },
 {
 "pmid": "42129008",
@@ -22238,7 +22235,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42129008/",
-"impactScore": 20
+"impactScore": 19
 },
 {
 "pmid": "42120805",
@@ -22292,7 +22289,7 @@
 "Comparative Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42120805/",
-"impactScore": 20
+"impactScore": 19
 },
 {
 "pmid": "42118420",
@@ -22342,7 +22339,7 @@
 "Observational Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42118420/",
-"impactScore": 20
+"impactScore": 19
 },
 {
 "pmid": "42108327",
@@ -22387,7 +22384,7 @@
 "Multicenter Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42108327/",
-"impactScore": 20
+"impactScore": 19
 },
 {
 "pmid": "42108326",
@@ -22435,7 +22432,7 @@
 "Observational Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42108326/",
-"impactScore": 20
+"impactScore": 19
 },
 {
 "pmid": "42098387",
@@ -22484,7 +22481,7 @@
 "Comparative Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42098387/",
-"impactScore": 20
+"impactScore": 19
 },
 {
 "pmid": "42071163",
@@ -22534,7 +22531,7 @@
 "Observational Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42071163/",
-"impactScore": 20
+"impactScore": 19
 },
 {
 "pmid": "42068446",
@@ -22587,7 +22584,7 @@
 "Comparative Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42068446/",
-"impactScore": 20
+"impactScore": 19
 },
 {
 "pmid": "42050038",
@@ -22615,7 +22612,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42050038/",
-"impactScore": 20
+"impactScore": 19
 },
 {
 "pmid": "42047731",
@@ -22646,7 +22643,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42047731/",
-"impactScore": 20
+"impactScore": 19
 },
 {
 "pmid": "42032430",
@@ -22680,7 +22677,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42032430/",
-"impactScore": 20
+"impactScore": 19
 },
 {
 "pmid": "42026272",
@@ -22722,7 +22719,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42026272/",
-"impactScore": 20
+"impactScore": 19
 },
 {
 "pmid": "42014578",
@@ -22752,7 +22749,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42014578/",
-"impactScore": 20
+"impactScore": 19
 },
 {
 "pmid": "42002703",
@@ -22785,7 +22782,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42002703/",
-"impactScore": 20
+"impactScore": 19
 },
 {
 "pmid": "42002702",
@@ -22828,7 +22825,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42002702/",
-"impactScore": 20
+"impactScore": 19
 },
 {
 "pmid": "41991758",
@@ -22860,7 +22857,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/41991758/",
-"impactScore": 20
+"impactScore": 19
 },
 {
 "pmid": "41991757",
@@ -22899,7 +22896,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/41991757/",
-"impactScore": 20
+"impactScore": 19
 },
 {
 "pmid": "41991756",
@@ -22932,7 +22929,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/41991756/",
-"impactScore": 20
+"impactScore": 19
 },
 {
 "pmid": "41957341",
@@ -22960,7 +22957,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/41957341/",
-"impactScore": 20
+"impactScore": 19
 },
 {
 "pmid": "41951928",
@@ -22995,7 +22992,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/41951928/",
-"impactScore": 20
+"impactScore": 19
 }
 ]
 }
