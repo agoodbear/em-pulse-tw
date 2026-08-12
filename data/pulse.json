@@ -1,24 +1,25 @@
 {
-"generatedAt": "2026-08-11T22:37:44.000Z",
+"generatedAt": "2026-08-12T22:36:29.000Z",
 "daysBack": 7,
 "journalCount": 59,
 "stats": {
-"total": 102,
+"total": 121,
 "byType": {
-"meta-analysis": 1,
-"rct": 1,
-"review": 5,
-"editorial": 8,
-"original": 80,
-"letter": 7
+"meta-analysis": 2,
+"rct": 2,
+"review": 8,
+"editorial": 10,
+"original": 92,
+"letter": 6,
+"case-report": 1
 },
 "byTier": {
-"1": 41,
-"2": 48,
-"3": 13
+"1": 56,
+"2": 53,
+"3": 12
 },
-"topScore": 73,
-"avgScore": 38
+"topScore": 72,
+"avgScore": 40
 },
 "articleOfWeek": {
 "pmid": "42576250",
@@ -64,7 +65,7 @@
 "Systematic Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42576250/",
-"impactScore": 73
+"impactScore": 72
 },
 "articles": [
 {
@@ -111,7 +112,7 @@
 "Systematic Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42576250/",
-"impactScore": 73
+"impactScore": 72
 },
 {
 "pmid": "42568095",
@@ -159,7 +160,133 @@
 "Randomized Controlled Trial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42568095/",
-"impactScore": 67
+"impactScore": 66
+},
+{
+"pmid": "42584695",
+"title": "Impacts of intracranial pressure monitoring on mortality and length of stay in severe traumatic brain injury: a systematic review and meta-analysis.",
+"authors": [
+"Merakis M",
+"Kim N",
+"Velli G",
+"Balogh ZJ"
+],
+"journal": "European journal of trauma and emergency surgery : official publication of the European Trauma Society",
+"journalTier": 2,
+"journalSJR": null,
+"articleType": "meta-analysis",
+"pubDate": "2026-08-12",
+"abstract": "This systematic review and meta-analysis examined the association between intracranial pressure monitoring (ICPm) and mortality in patients with severe traumatic brain injury (sTBI), with additional focus on functional neurological outcomes and intensive care unit (ICU) and hospital length of stay (LOS). This review followed Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guidelines and was registered with PROSPERO (CRD42025643607). MEDLINE, Embase, and the Cochrane Central Register of Controlled Trials were searched through August 1, 2025, for studies comparing ICP-monitored and non-ICP-monitored patients with traumatic brain injury. Eligible study designs included randomized controlled trials, prospective observational cohort studies, retrospective observational cohort studies, registry-based cohort studies, and case-control studies. Study quality was assessed using the Strengthening the Reporting of Observational Studies in Epidemiology checklist, Risk of Bias 2.0 for randomized trials, and the Oxford Centre for Evidence-Based Medicine Levels of Evidence framework. Thirty-one studies met inclusion criteria. The mortality meta-analysis included 121,799 patients. Pooled crude analysis showed lower mortality in ICP-monitored patients than in non-monitored patients (OR 0.79, 95% CI 0.68-0.91, p = 0.002), with high heterogeneity (I²=92%). Across studies with extractable group-level mortality percentages, median mortality was 28.6% in ICP-monitored patients and 33.2% in non-monitored patients. Functional neurological outcomes were inconsistently reported and did not show a consistent benefit with ICPm. ICU and hospital LOS were generally longer in ICP-monitored patients. Ten studies reported complication data, most commonly infection, hemorrhagic events, and mechanical or device-related complications; reporting was heterogeneous and precluded pooled analysis. ICPm was associated with lower crude mortality in sTBI; however, substantial heterogeneity and residual confounding limit causal interpretation. Functional outcomes did not show consistent benefit. Complication reporting was inconsistent, but reported events included infection, hemorrhage, and device-related complications. Future studies should standardize functional outcome reporting and adjust for key confounders. Systematic review and meta-analysis; Level III.",
+"doi": "10.1371/journal.pone.0168901",
+"keywords": [
+"Intracranial pressure monitoring",
+"Mortality",
+"Outcome",
+"Systematic review",
+"Traumatic brain injury"
+],
+"meshTerms": [
+"Humans",
+"Brain Injuries, Traumatic",
+"Intracranial Pressure",
+"Length of Stay",
+"Monitoring, Physiologic",
+"Intensive Care Units"
+],
+"pubTypes": [
+"Journal Article",
+"Systematic Review",
+"Meta-Analysis"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42584695/",
+"impactScore": 62
+},
+{
+"pmid": "42580515",
+"title": "Hallmarks of Weaning from Mechanical Ventilation: A 3S Framework for Ventilator Liberation - A Narrative Review.",
+"authors": [
+"Baptistella AR",
+"Burns KEA",
+"Miranda Rocha ÂR",
+"Ouellette DR",
+"Bernardes Neto SC",
+"Demoule A",
+"Doorduin J",
+"Dres M"
+],
+"journal": "Chest",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "review",
+"pubDate": "2026-08-11",
+"abstract": "Safe and long-lasting separation from invasive mechanical ventilation (MV) is a critical aspect of care provision in the intensive care unit (ICU), yet it remains a complex and heterogeneously applied process. Current weaning strategies often rely on fragmented assessments, personal judgment, and poorly integrated decision milestones that individually and collectively may contribute to delayed attempts, weaning and extubation failure. In this How I Do It article, we propose a comprehensive framework based on seven hallmarks, organized into three sequential and interrelated phases (3S framework): screening, separating, and securing. The screening phase includes sedation management, the facilitation phase (maintaining limb and respiratory muscles strength and functionality, as well as cardiac function) and the transition phase (which involves switching from controlled to partial support mode and the stepwise reduction of ventilatory support). The separating phase includes the assessment of readiness for spontaneous breathing trial (SBT), SBT conduct, and extubation risk assessment and decision-making. The securing phase focuses on post-extubation management and includes strategies to prevent respiratory failure. Rather than focusing on isolated physiological parameters or scores, this framework highlights the dynamic, staged, and integrative nature of the weaning process. By structuring current evidence around these hallmarks, we aim to provide both a patient-centered approach to ventilator liberation and a conceptual foundation for future research, protocol development, and clinical decision-making.",
+"doi": "10.1016/j.chest.2026.08.001",
+"keywords": [
+"Mechanical ventilation",
+"extubation",
+"hallmarks",
+"mechanical ventilation discontinuation",
+"weaning"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article",
+"Review"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42580515/",
+"impactScore": 58
+},
+{
+"pmid": "42584703",
+"title": "Non-tourniquet strategy with high-position low-perfusion in distal humeral fracture surgery: reduces swelling without increasing blood loss.",
+"authors": [
+"Wang Z",
+"Ai X",
+"Ren T",
+"Wu B",
+"Zhang K",
+"Li Z",
+"Xue H",
+"Li M",
+"Wang Q"
+],
+"journal": "European journal of trauma and emergency surgery : official publication of the European Trauma Society",
+"journalTier": 2,
+"journalSJR": null,
+"articleType": "rct",
+"pubDate": "2026-08-12",
+"abstract": "To evaluate the feasibility of non-tourniquet strategy combined with \"High-position Low-Perfusion\" positioning in distal humeral fractures ORIF (DHF-ORIF), and to investigate its effects on perioperative blood loss, postoperative rehabilitation, and functional outcomes. Prospective inclusion of patients aged 18-45 with distal humeral fractures, randomly divided into an experimental group without tourniquets (Group A) and a control group with traditional tourniquets (Group B). The Group A adopted a lateral position with high and low perfusion of the affected limb, and received intravenous injection of TXA (15 mg/kg) combined with continuous flushing with 4 ℃ physiological saline during the operation; The control group received routine use of tourniquets. perioperative blood loss, elbow ROM and degree of limb swelling. Postoperative VAS score, Mayo elbow joint score and DASH score, and incidence of complications. No significant difference was observed in total perioperative blood loss between the Group A and the Group B (240.78 mL vs. 228.53 mL, p > 0.05). However, the Group A demonstrated significantly reduced postoperative drainage volume and hidden blood loss (p < 0.05). The Group A exhibited significantly superior outcomes in terms of VAS scores and limb swelling, compared with the control group. Additionally, elbow ROM improvement was more significant at 2-4 weeks and 2 months postoperatively in the Group A. At the 6-month follow-up, the Group A showed significantly higher Mayo scores (89.78 ± 11.89 vs. 83.55 ± 16.29) compared with the control group (p = 0.036). Furthermore, the Group A had significantly lower wound complication rates and shorter hospital stays (7.25 ± 1.53 vs. 8.11 ± 2.34 days, p = 0.037). The non-tourniquet strategy combined with \"High-position Low-Perfusion\" positioning is safe and effective for DHF-ORIF. It effectively controls postoperative swelling and pain without increasing perioperative blood loss, leading to improved clinical outcomes and quality of life.",
+"doi": "10.1016/j.jhsa.2017.11.007",
+"keywords": [
+"Humeral fractures",
+"Intra-articular fractures",
+"Rehabilitation",
+"Surgery",
+"Tourniquet"
+],
+"meshTerms": [
+"Humans",
+"Blood Loss, Surgical",
+"Female",
+"Tourniquets",
+"Adult",
+"Prospective Studies",
+"Male",
+"Humeral Fractures, Distal",
+"Middle Aged",
+"Fracture Fixation, Internal",
+"Edema",
+"Patient Positioning",
+"Range of Motion, Articular",
+"Young Adult",
+"Adolescent"
+],
+"pubTypes": [
+"Journal Article",
+"Randomized Controlled Trial"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42584703/",
+"impactScore": 57
 },
 {
 "pmid": "42567478",
@@ -190,7 +317,284 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42567478/",
-"impactScore": 55
+"impactScore": 54
+},
+{
+"pmid": "42584666",
+"title": "Diagnostic errors in critically ill patients: challenges, contributing factors, and improvement strategies through the SEIPS framework.",
+"authors": [
+"Martín Delgado MC",
+"Guidet B",
+"Topeli A"
+],
+"journal": "Intensive care medicine",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "editorial",
+"pubDate": "2026-08-12",
+"abstract": "",
+"doi": "10.1016/j.medine.2024.04.012",
+"keywords": [],
+"meshTerms": [],
+"pubTypes": [
+"Editorial"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42584666/",
+"impactScore": 51
+},
+{
+"pmid": "42584665",
+"title": "From preparedness to resilience: rethinking critical care strategies for future pandemics.",
+"authors": [
+"Ruiz-Bailén M",
+"Ruiz-Iniesta MDC"
+],
+"journal": "Intensive care medicine",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "editorial",
+"pubDate": "2026-08-12",
+"abstract": "",
+"doi": "10.1007/s00134-026-08405-6",
+"keywords": [],
+"meshTerms": [],
+"pubTypes": [
+"Editorial"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42584665/",
+"impactScore": 51
+},
+{
+"pmid": "42584981",
+"title": "Haemophilus-Informed Genetic and Transcriptomic Analyses Identify IL-7 and Vegfa as Drivers of Immunosuppressive Sepsis Endotypes.",
+"authors": [
+"Dai J",
+"Sun N",
+"Zhang L",
+"Qian Z",
+"Zuo Z"
+],
+"journal": "Shock (Augusta, Ga.)",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-09-01",
+"abstract": "Sepsis exhibits marked biological heterogeneity, yet the causal pathways linking host immune mediators to clinically relevant endotypes remain poorly defined, particularly in pathogen-specific contexts. We applied Mendelian randomization (MR) to investigate the causal effects of circulating immune mediators on the risk of Haemophilus septicemia, identifying interleukin-7 (IL-7) and vascular endothelial growth factor A (VEGFA) as putative causal factors. To elucidate the biological context underlying these genetic associations, we integrated pathogen-informed gene sets with bulk blood transcriptomic data from a large sepsis cohort (GSE185263). Single-sample gene set enrichment analysis and Pathway responsive genes (PROGENy) were used to infer pathway activities, which were subsequently aligned with previously reported sepsis endotypes. A Haemophilus-informed transcriptional score captured a distinct signaling hierarchy dominated by TGFβ, TNFα/NFκB, hypoxia, and cell death pathways, accompanied by suppression of regenerative signaling. These pathway activities aligned most closely with the neutrophil-dominated, immunosuppressive (NeutroSupp) endotype described in the original cohort. While VEGFA expression showed strong coupling with VEGF and hypoxia signaling, IL-7-related immune maintenance pathways, inferred through Janus Kinase-signal transducer and activator of transcription activity, were only modestly engaged, consistent with impaired adaptive immune recovery. By integrating genetic causality with transcriptomic and endotype-level analyses, our findings suggest that IL-7 and VEGFA contribute to sepsis risk through distinct immune-endothelial axes that converge on an immunosuppressive sepsis endotype. This work provides a pathogen-informed framework for interpreting genetic associations within clinically relevant sepsis phenotypes.",
+"doi": "10.1021/acs.analchem.6c01427",
+"keywords": [
+"Mendelian randomization",
+"interleukin-7",
+"septicemia",
+"vascular endothelial growth factor A"
+],
+"meshTerms": [
+"Interleukin-7",
+"Sepsis",
+"Vascular Endothelial Growth Factor A",
+"Humans",
+"Gene Expression Profiling",
+"Transcriptome",
+"Haemophilus Infections"
+],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42584981/",
+"impactScore": 50
+},
+{
+"pmid": "42584978",
+"title": "Synopsis Shock September 2026.",
+"authors": [],
+"journal": "Shock (Augusta, Ga.)",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-09-01",
+"abstract": "",
+"doi": "10.1097/SHK.0000000000002903",
+"keywords": [],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42584978/",
+"impactScore": 50
+},
+{
+"pmid": "42584203",
+"title": "Net Ultrafiltration Rate and Mortality in Critically Ill Patients: A Multicenter Cohort Study With Analysis of Fluid Balance Changes.",
+"authors": [
+"Monai NC",
+"Pfortmueller CA",
+"Schefold JC",
+"Cioccari L",
+"Faltys M"
+],
+"journal": "Critical care medicine",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-08-12",
+"abstract": "To investigate the association between net ultrafiltration (NUF) rate and fluid balance changes with 28-day mortality in critically ill patients receiving continuous renal replacement therapy (CRRT). Multicenter retrospective observational study. Data from two European mixed medical-surgical ICUs: University Hospital Bern, Switzerland, and Amsterdam University Medical Center, the Netherlands. Adult critically ill patients receiving CRRT for at least 24 hours. None. We studied 973 critically ill adults undergoing a total of 6914 days of CRRT. NUF rates and fluid balance changes were calculated from hourly data and categorized into four predefined groups. NUF rates were classified as no NUF, low (< 1.01 mL/kg/h), moderate (1.01-1.75 mL/kg/h), or high (> 1.75 mL/kg/h). Fluid balance change was stratified as negative (< -1.5 L/day), moderate negative (-1.5 to -0.5 L/day), neutral (-0.5 to 0.5 L/day), or positive (> 0.5 L/day). Using multivariable regression, random forest modeling, and mediation analysis, we observed no independent association between NUF rate and 28-day mortality after accounting for fluid balance. Mediation analysis suggested that the apparent survival advantage observed among patients with higher NUF rates was largely mediated through achievement of a more negative fluid balance, rather than a direct effect of NUF rate itself. In contrast, more positive fluid balance changes were linked to adverse clinical outcomes including 28-day mortality. In this two-center cohort of CRRT patients, NUF rate was not independently associated with mortality. Instead, the key determinant of outcome was fluid balance change. These findings suggest clinicians should not make NUF decisions in isolation, but rather should be using NUF as a means to achieve patient-specific fluid balance targets.",
+"doi": "10.1097/CCM.0000000000007289",
+"keywords": [
+"continuous renal replacement therapy",
+"critical care",
+"critical illness/mortality",
+"ultrafiltration",
+"water-electrolyte balance"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42584203/",
+"impactScore": 50
+},
+{
+"pmid": "42584202",
+"title": "Mechanistic Specificity of Capillary Leak Indices: Validation in Heart Failure as a Negative Control.",
+"authors": [
+"Popham J",
+"Yasmin F",
+"Ramani N",
+"Okifo K",
+"Rao V",
+"Testani J",
+"Wilson FP",
+"Koutroulis I",
+"Pierce RW"
+],
+"journal": "Critical care medicine",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-08-12",
+"abstract": "To evaluate the mechanistic specificity of capillary leak clinical indices by testing their performance in a heart failure population as a negative control. Retrospective observational study. Tertiary-care academic medical center. Adults with chronic heart failure (both stable outpatients and those with acute decompensation) undergoing clinically indicated blood volume analysis. None. Clinical capillary leak indices, Sequential Organ Failure Assessment score, Capillary Leak Index, Vascular Leak Index, and Hematocrit-Albumin Difference, were calculated and compared with the transcapillary escape rate of albumin (TERalb) by Spearman correlation. Across analyses, indices showed weak or absent correlation with TERalb, indicating a lack of mechanistic specificity outside acute inflammatory illness. Clinical capillary leak indices do not accurately reflect true capillary permeability in a cohort of patients with chronic and acute-on-chronic heart failure, suggesting that they should be interpreted as context-dependent markers rather than as general measures of endothelial permeability.",
+"doi": "10.1097/CCM.0000000000007313",
+"keywords": [
+"capillary leak syndrome",
+"critical illness",
+"endothelium",
+"heart failure",
+"vascular"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42584202/",
+"impactScore": 50
+},
+{
+"pmid": "42584189",
+"title": "Fostering Resilience: The Role of Team Dynamics in Mitigating Burnout and Enhancing Well-Being in the Neurocritical Care Unit.",
+"authors": [
+"Shah VA",
+"Ansari J",
+"Quinlan M",
+"Dushel KL",
+"Zink E",
+"Jenkins J",
+"Anderson S",
+"Farrokh S",
+"Hering D",
+"Trautman S",
+"Bartock R",
+"Lefebvre A",
+"Cho SM",
+"Muehlschlegel S",
+"Bienstock J",
+"Suarez JI"
+],
+"journal": "Critical care medicine",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-08-12",
+"abstract": "Staff in neurocritical care units (NCCUs) are particularly vulnerable to burnout, negatively affecting team dynamics and education. We evaluated the impact of several stakeholder-led, resilience-building interventions on staff burnout and team dynamics in the NCCU. Participatory, stakeholder-led, quality improvement intervention-based project with serial cross-sectional surveys. NCCUs at the Johns Hopkins Hospital and Johns Hopkins Bayview Medical Center, within the Johns Hopkins Medicine NCCU Division. Multidisciplinary NCCU members, including fellows, attending physicians, advanced practice providers (APPs), pharmacists, nurses, and ancillary staff, were eligible. Participation was voluntary and anonymous. Between October 2023 and September 2024, a multidisciplinary working group identified key drivers of burnout and impaired team dynamics and implemented interventions targeting individual and organizational resilience. Strategies included a shared vision statement, a zero-tolerance pledge for unprofessional behavior, enhanced leadership communication, recognition mechanisms, team-building professional development sessions, social events, workflow revisions, and restructuring of educational programs. Surveys were conducted at baseline, 6 months, 1 year, and 2 years, using the Maslach Burnout Inventory and Team Dynamics Surveys. The average response rate was 68% (53% nurses, 20% faculty, 9% fellows, and 18% APPs/pharmacists/ancillary staff). Over 2 years, the median (interquartile range) total emotional exhaustion score improved from 25 (19-30) to 9 (9-18), depersonalization score from 9 (7-13) to 5 (5-10), and the personal accomplishment score from 29 (26-32) to 40 (32-40; all p < 0.001). Sustained improvement was also noted in all domains of the Team Dynamics Survey (all p < 0.001). During this timeframe, the mean fellow in-service examination score also increased between April 2024 (pre-intervention) and April 2025 (+14%; p < 0.001), 1-year post-intervention. A participatory, stakeholder-driven quality improvement initiative with multipronged interventions targeting resilience and team dynamics reduced burnout, improved team well-being, and was temporally associated with improved trainee educational performance in high-acuity NCCUs. This framework is feasible, sustainable, and adaptable to other ICU environments.",
+"doi": "10.1097/CCM.0000000000007281",
+"keywords": [
+"burnout",
+"neurocritical care",
+"resilience",
+"team building",
+"wellness"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42584189/",
+"impactScore": 50
+},
+{
+"pmid": "42584186",
+"title": "Postintensive Care Frailty of Older Patients With Septic Shock: A Post Hoc Analysis of a Multicenter Randomized Controlled Trial.",
+"authors": [
+"Yamamoto R",
+"Yamanaka T",
+"Kaito D",
+"Endo A",
+"Yamakawa K",
+"Tagami T",
+"Umemura Y",
+"Sasaki J"
+],
+"journal": "Critical care medicine",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-08-12",
+"abstract": "Postintensive care frailty impairs quality of life in survivors of severe illness. While anabolic hormone deficiency and prolonged inflammation are considered key physiologic mechanisms, specific features associated with frailty progression remain unclear. This study aimed to elucidate clinical characteristics associated with frailty deterioration following recovery from septic shock in older adults. Post hoc analysis of a randomized controlled trial. ICUs in Japan. Adults of 65 years or older with septic shock. Data were analyzed from a randomized controlled trial investigating optimal blood pressure targets in patients of 65 years or older with septic shock. Frailty at 90 days after intensive care was classified as no-to-mild, moderate, and severe based on the Clinical Frailty Scale (CFS) scores of less than or equal to 4, 5-6, and greater than or equal to 7, respectively. Baseline characteristics, treatments, and outcomes were compared across these frailty categories. Factors associated with postintensive care frailty were identified using ordinal logistic regression fitted with a generalized estimating equation model. Among 513 eligible patients, 339 patients survived to 90 days; 103 patients (30.4%) had no-to-mild frailty, 114 patients (33.6%) had moderate frailty, and 122 patients (36.0%) had severe frailty, respectively. Higher presepsis CFS scores (adjusted odds ratio [aOR], 2.03 [1.72-2.40] per 1-point increase; p < 0.001), higher sequential organ failure assessment (SOFA) scores (aOR, 1.16 [1.06-1.26] per 1-point increase; p < 0.001), and corticosteroid use (aOR, 1.72 [1.14-2.61]; p < 0.001) were independently associated with frailty. Subgroup analyses revealed that corticosteroid use was associated with frailty deterioration in patients with baseline frailty (CFS ≥ 5), whereas SOFA scores were associated with frailty in patients with tissue hypoperfusion (lactate, ≥ 2 mmol/L). Baseline frailty before sepsis, organ dysfunction severity, and corticosteroid therapy independently predict severe postintensive care frailty in older adults with septic shock.",
+"doi": "10.1097/CCM.0000000000007304",
+"keywords": [
+"cognition",
+"critical care",
+"phenotype",
+"survivors",
+"treatment outcome"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42584186/",
+"impactScore": 50
+},
+{
+"pmid": "42584185",
+"title": "Epidemiology, Ventilatory Patterns, and Outcomes in Acute Hypoxemic Respiratory Failure Among ICU Patients Requiring Respiratory Support: A Registry-Based Cohort Study.",
+"authors": [
+"von Düring S",
+"Goligher E",
+"Amaral ACK",
+"Rubenfeld GD",
+"Ferguson ND",
+"Urner M",
+"Fan E"
+],
+"journal": "Critical care medicine",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-08-12",
+"abstract": "Acute hypoxemic respiratory failure (AHRF) is a leading cause of ICU admission and is associated with significant morbidity and mortality. Yet, epidemiological data on AHRF remain limited, and current management strategies largely derive from studies on acute respiratory distress syndrome (ARDS). We examined the prevalence of AHRF among ICU patients receiving supplemental oxygen or respiratory support for at least 4 hours, as well as initial respiratory support strategies and associated outcomes. Multicenter registry-based cohort study, 2014-2023. Nine university of Toronto affiliated ICUs. Adult ICU patients receiving supplemental oxygen or respiratory support who met AHRF criteria, defined as Pao2/Fio2 less than or equal to 300 mm Hg or, if Pao2 was not available, peripheral oxygen saturation (SpO2)/Fio2 less than or equal to 315, within the first 24 hours of ICU admission. None. The primary outcome was AHRF prevalence. Secondary outcomes included ICU length of stay, invasive mechanical ventilation (IMV) duration, ventilator-free days, and ICU mortality, stratified by AHRF severity. Of 21,714 patients recorded in the registry, 10,832 (50%) met AHRF criteria, of whom 76% required IMV. Most received lung-protective ventilation. With increasing AHRF severity, ICU length of stay and IMV duration increased, while ventilator-free days and probability of ICU discharge at 30 days decreased. ICU mortality was 23% overall and 47% among patients on IMV with severe AHRF. AHRF is common early after ICU admission among patients requiring supplemental oxygen or respiratory support and is frequently managed using ARDS-based strategies. A pragmatic, standardized, and operationally feasible definition of AHRF may improve patient recognition, enable comparisons across studies, and guide future research.",
+"doi": "10.1097/CCM.0000000000007284",
+"keywords": [
+"artificial respiration",
+"hypoxemia",
+"intensive care units",
+"respiratory distress syndrome",
+"respiratory insufficiency"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42584185/",
+"impactScore": 50
 },
 {
 "pmid": "42579000",
@@ -213,7 +617,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42579000/",
-"impactScore": 51
+"impactScore": 50
 },
 {
 "pmid": "42578999",
@@ -236,7 +640,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42578999/",
-"impactScore": 51
+"impactScore": 50
 },
 {
 "pmid": "42578997",
@@ -259,7 +663,221 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42578997/",
-"impactScore": 51
+"impactScore": 50
+},
+{
+"pmid": "42580879",
+"title": "Paediatric electric-scooter injuries: an emerging public health crisis?",
+"authors": [
+"Sabir L",
+"Waheed S",
+"Rushmer C",
+"Helliwell H",
+"Scott A",
+"Tricks R",
+"Durand C"
+],
+"journal": "Emergency medicine journal : EMJ",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-08-11",
+"abstract": "Electric-scooters (e-scooters) are popular worldwide although there are concerns about their regulation and safety. Since 2019, 59 deaths have been reported in the UK involving e-scooters; 10 under 18 years old. In the UK riding privately owned e-scooters is illegal unless on private land. We reviewed e-scooter injuries in patients presenting to Emergency Departments of three UK Paediatric Major Trauma Centres. This was a retrospective observational study of e-scooter-related injuries in patients under 16 years-old from January 2019 to December 2024 at Alder Hey Children's Hospital (AH), Sheffield Children's Hospital (SCH) and Royal Manchester Children's Hospital (RMCH). Patients were identified via electronic triage records and cross-referenced with trauma lists. At RMCH, a change in software limited data collection to 2023-2024. Descriptive statistics were used with 95% CIs for key proportions. 477 patients presented with increasing incidence over the 6 year period. Median age was 12 years (IQR 10-13), with a male predominance (64.4%). Most injuries occurred to the rider (94.8%) and ≥80% were private e-scooters. 2.5% occurred on private land.Most common injuries were limb (40.6% lower, 36.2% upper), head (24.1%), and facial (18.4%) injuries. 10.4% of head injuries had an Abbreviated Injury Scale (AIS) score of 3 or 4, indicating major trauma necessitating imaging, hospital admission, and surgical intervention. Of the most seriously injured (AIS 3 or 4), 48% were from a collision with a motor vehicle or stationary object. Only 1.8% were wearing a helmet; 13.4% were admitted and 6.9% required surgery. Most injured children (74%) lived in the most deprived areas (Index of Multiple Deprivation (IMD) 1/2). E-scooter related injuries are rising. Limb, head and facial injuries were most common, with head injuries being most severe, this has serious life-changing implications for families and significant impact on healthcare resources. There is a need for greater public awareness, clear public health messaging and review of government legislation to prevent further injuries and deaths.",
+"doi": "10.1136/emermed-2026-215992",
+"keywords": [
+"pediatric emergency medicine",
+"pediatric injury",
+"trauma"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42580879/",
+"impactScore": 49
+},
+{
+"pmid": "42580878",
+"title": "Why AI struggles with rare catastrophic disease: lessons from the AORTA-AI study of acute aortic syndrome.",
+"authors": [
+"Zhong J",
+"Bath PA",
+"Reed MJ",
+"Wilson S",
+"Vigneswaran G"
+],
+"journal": "Emergency medicine journal : EMJ",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-08-11",
+"abstract": "",
+"doi": "10.1136/emermed-2026-216369",
+"keywords": [
+"Artificial Intelligence",
+"arterial",
+"vascular"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42580878/",
+"impactScore": 49
+},
+{
+"pmid": "42580877",
+"title": "Ambulance clinicians' perceptions and experiences of managing risk during decision-making in care homes.",
+"authors": [
+"Harrad-Hyde F",
+"Harrad-Hyde K",
+"Muzembe T",
+"Mackintosh N"
+],
+"journal": "Emergency medicine journal : EMJ",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-08-11",
+"abstract": "Ambulance clinicians play a key role in decision-making when care home residents experience deteriorations in their health. An emerging evidence base suggests ambulance clinicians weigh up risk during decision-making but provides limited insights into how they do so. Therefore, this study aimed to explore ambulance clinicians' experiences of balancing and managing risk(s) when attending calls to care homes. Online semistructured interviews were conducted with 22 ambulance clinicians working in a variety of roles across seven NHS Ambulance Trusts in the UK. Data were analysed thematically using a constructivist approach. Three themes describe the ways ambulance clinicians manage risk when attending calls to care homes. The first theme outlines five forms of risk that ambulance clinicians weigh up, including risks to residents, themselves as decision-makers, their interpersonal relationships, their employing organisation and wider healthcare services. The second theme outlines the actions ambulance clinicians undertake to manage risk. Involving others in decision-making is a key action through which ambulance clinicians manage risk but doing so introduces the need to negotiate with others. Therefore, the third theme explores the multiple factors that shape ambulance clinicians' experiences of weighing up risks and negotiating with others. These factors align with the forms of risks ambulance clinicians manage during decision-making and include resident, decision-maker, interpersonal, organisational and systemic factors. This study highlights the complexity involved in ambulance clinicians' decision-making in care homes. The findings identify a number of important implications for research, policy and practice. This includes the need for further work to develop cross-sector practices and policies of accountability, to improve the number and quality of advance care plans and to ensure the current and future ambulance workforce are equipped to undertake the complex negotiation work involved in managing risks during decision-making in care homes.",
+"doi": "10.1136/emermed-2025-215827",
+"keywords": [
+"Clinical Decision-Making",
+"admission avoidance",
+"basic ambulance care",
+"pre-hospital care",
+"risk management"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42580877/",
+"impactScore": 49
+},
+{
+"pmid": "42580876",
+"title": "Journal update monthly top five.",
+"authors": [
+"Iuliucci K",
+"Moujaes L",
+"Bou Saba G",
+"Johnson EL",
+"Prager G"
+],
+"journal": "Emergency medicine journal : EMJ",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-08-11",
+"abstract": "",
+"doi": "10.1136/emermed-2026-216286",
+"keywords": [
+"analgesia",
+"heart failure",
+"resuscitation",
+"trauma"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42580876/",
+"impactScore": 49
+},
+{
+"pmid": "42580875",
+"title": "In children requiring emergency vascular access, are intraosseous lines associated with significant long-term complications?",
+"authors": [
+"Carley ELJ",
+"Yates GP"
+],
+"journal": "Emergency medicine journal : EMJ",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-08-11",
+"abstract": "Intraosseous (IO) access is a technique increasingly used within trauma and emergency settings where immediate vascular access is required. It provides an effective alternative to intravenous access, particularly in paediatric patients where intravenous access is difficult, or where previous attempts have been unsuccessful. However, concerns remain regarding potential complications associated with IO use, including potential long-term adverse outcomes.A short cut review of the literature was carried out to determine long-term outcomes of IO access in paediatric patients requiring emergency vascular access. A total of 282 unique papers were found, of which 11 observational studies (three prospective, eight retrospective) included data on patients relevant to the clinical question; these are discussed in the paper. Across these studies, severe long-term complications following paediatric IO access were rare. Only one study reported a single case of osteomyelitis following IO access. No evidence of growth disturbance, venous thrombosis or fat embolism was identified, while isolated cases of compartment syndrome, fracture and extravasation were reported at low frequency. The author, date and country of publication, patient group studied, study type, relevant outcomes, results and study weaknesses of the best papers are tabulated.The clinical bottom line is that severe complications are rarely reported with paediatric IO lines. Emergency clinicians should not be deterred from inserting or retaining IO lines when definitive intravenous access has yet to be established.",
+"doi": "10.1136/emermed-2026-216214",
+"keywords": [
+"Emergency Medicine",
+"clinical management",
+"emergency care systems",
+"pediatric emergency medicine",
+"pediatrics"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42580875/",
+"impactScore": 49
+},
+{
+"pmid": "42580516",
+"title": "Effectiveness of beta-blockers in COPD and CVD: Real-world effects on mortality.",
+"authors": [
+"Suissa S",
+"Dell'Aniello S",
+"Renoux C",
+"Ernst P"
+],
+"journal": "Chest",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-08-11",
+"abstract": "While beta-blockers are effective at reducing mortality in certain cardiovascular diseases (CVD), their effectiveness in patients with chronic obstructive pulmonary disease (COPD) and CVD is uncertain, particularly with the concurrent use of long-acting β2-agonist bronchodilators (LABA). Is the initiation of beta-blockers in patients with COPD and CVD associated with reduced mortality, and is this effect influenced by concurrent use of LABAs? We used the United Kingdom's Clinical Practice Research Datalink (CPRD) to form a cohort of patients with COPD and CVD from January 2002 to March 2021, 40 years of age or older. We employed a prevalent new-user design, conceived to emulate a trial, matching initiators of beta-blockers with non-users on time and propensity score, as well as CVD indication, namely heart failure (HF), ischemic heart disease (IHD), atrial fibrillation (AF), and hypertension. Hazard ratios (HR) and 95% confidence intervals (CI) of all-cause mortality were estimated using an as-treated approach. The study cohort included 11, 594 beta-blocker initiators and 11, 594 matched non-users. The HR of death with beta-blocker use relative to non-use was 0.88 (95% CI: 0.81-0.95). This HR was 0.95 (95% CI: 0.85-1.05) among concurrent LABA users and 0.80 (95% CI: 0.71-0.91) among LABA non-users (P-value for interaction 0.04), an effect driven by IHD patients (P-value for interaction 0.01). The HR was 0.77 (95% CI: 0.66-0.89) among patients with HF, 0.84 (95% CI: 0.73-0.98) for IHD, 0.96 (95% CI: 0.83-1.11) for AF and 1.10 (95% CI: 0.87-1.38) for hypertension. This large population-based study, designed to emulate a trial, suggests that beta-blocker use is effective at reducing all-cause mortality in patients with COPD and CVD, but only those with heart failure or ischemic heart disease, not those with atrial fibrillation or hypertension. The concurrent use of long-acting beta-agonists could mitigate the effectiveness of beta-blockers at reducing mortality. Not applicable.",
+"doi": "10.1016/j.chest.2026.06.074",
+"keywords": [
+"Clinical Practice Research Datalink",
+"Cohort study",
+"Drug-drug interaction",
+"Mortality",
+"Pharmacoepidemiology",
+"Prevalent new-user design",
+"Propensity score"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42580516/",
+"impactScore": 49
+},
+{
+"pmid": "42580331",
+"title": "IL1R2⁺ Inflammatory Monocytes Contribute to Immune Dysregulation and Predict Mortality in COVID-19.",
+"authors": [
+"Yang Y",
+"Yu F",
+"Li M",
+"Ma H",
+"Zhang H",
+"Xiao X",
+"Cheng L"
+],
+"journal": "Shock (Augusta, Ga.)",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-08-11",
+"abstract": "Coronavirus disease 2019 (COVID-19) is characterized by dysregulated immune responses and excessive inflammation, contributing to severe disease and mortality. Interleukin-1 receptor type 2 (IL1R2), a decoy receptor for interleukin-1 (IL-1), regulates inflammatory responses; however, its cellular distribution and clinical significance in COVID-19 remain unclear. Publicly available single-cell RNA sequencing (scRNA-seq) dataset (GSE149689) of peripheral blood mononuclear cells (PBMCs) from COVID-19 patients were analyzed. An independent monocyte transcriptomic dataset (GSE198256) was analyzed to evaluate IL1R2 dynamics during COVID-19 and recovery. Differential expression, functional enrichment, regulon activity, and CellChat analyses were performed to characterize IL1R2⁺ monocytes. Serum IL1R2 levels were measured in COVID-19 patients and healthy controls (HCs), and their associations with disease severity and mortality were evaluated. Single-cell analysis revealed that IL1R2 was predominantly expressed in monocytes from COVID-19 patients. IL1R2 expression was increased during active COVID-19 and decreased after recovery. IL1R2⁺ monocytes exhibited enhanced inflammatory transcriptional programs, increased activity of inflammation-associated regulons, and activation of TNFα/NF-κB, interferon, and IL6-JAK-STAT3 pathways. Cell-cell communication analysis identified IL1R2⁺ monocytes as active mediators of CCL, CXCL, IL1, and TNF signaling networks. Serum IL1R2 levels were elevated in COVID-19 patients, further increased in non-survivors, and correlated with inflammatory markers, tissue injury indicators, and coagulation abnormalities. IL1R2 showed predictive performance for mortality comparable to procalcitonin and D-dimer. IL1R2 identifies a highly inflammatory monocyte state associated with COVID-19 immune dysregulation. Elevated IL1R2 levels reflect disease activity and poor outcomes, supporting its potential role as a complementary prognostic biomarker and therapeutic target.",
+"doi": "10.1097/SHK.0000000000002919",
+"keywords": [
+"COVID-19",
+"IL1R2",
+"biomarker",
+"monocytes",
+"severity",
+"single-cell RNA sequencing"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42580331/",
+"impactScore": 49
 },
 {
 "pmid": "42579001",
@@ -293,7 +911,7 @@
 "Published Erratum"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42579001/",
-"impactScore": 50
+"impactScore": 49
 },
 {
 "pmid": "42578998",
@@ -316,7 +934,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42578998/",
-"impactScore": 50
+"impactScore": 49
 },
 {
 "pmid": "42578996",
@@ -351,7 +969,41 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42578996/",
-"impactScore": 50
+"impactScore": 49
+},
+{
+"pmid": "42521477",
+"title": "Socioeconomic equity measured by Indices of Multiple Deprivation for HEMS-attended major trauma in South East England: heterogenous effects in severe traumatic brain injury.",
+"authors": [
+"Griggs J",
+"Harris J",
+"Barrett J",
+"Curtis L",
+"de Coverly R",
+"Clarke S",
+"Bootland D",
+"Ream E",
+"Lyon R"
+],
+"journal": "Emergency medicine journal : EMJ",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-08-11",
+"abstract": "Healthcare inequalities persist across socioeconomic gradients with deprived populations experiencing higher trauma mortality. This study aimed to determine whether 30-day mortality differs across socioeconomic deprivation quintiles in Helicopter Emergency Medical Service (HEMS) attended major trauma and to assess equity of intervention delivery and operational response. Retrospective service evaluation cohort study of consecutive HEMS-attended major trauma patients (Injury Severity Score (ISS)>15) by Air Ambulance Charity Kent Surrey and Sussex (July 2013-February 2022). Indices of Multiple Deprivation quintiles derived from preassigned Lower Layer Super Output Area (LSOA) at incident location rather than patient residential address were examined alongside mortality outcomes. The primary outcome was 30-day mortality across socioeconomic quintiles (Q), with prespecified subgroups including traumatic haemorrhage and traumatic brain injury (TBI). Geospatial analysis and multivariable logistic regression were performed. Among 1752 major trauma patients (median ISS 27, IQR 21-36) geospatial analysis identified missions in 1190 LSOA codes (10.5% of region), with clustering in areas of moderate deprivation. 30-day mortality showed no socioeconomic gradient: 17% (95% CI 12% to 25%) in Q1 vs 21% (95% CI 17% to 25%) in Q5, p=0.861. Multivariable logistic regression confirmed no independent association between deprivation and mortality (adjusted OR per quintile increase 1.01, 95% CI 0.92 to 1.11, p=0.800). Secondary outcomes demonstrated equitable service provision with prehospital emergency anaesthesia 37-43% (p=0.667), blood transfusion 8-13% (p=0.321) and night operations 28-41% (p=0.124). Exploratory subgroup analysis identified a significant Glasgow Coma Scale×deprivation interaction in TBI (p=0.003), with possible age-dependent variations warranting further investigation. Equitable 30-day mortality outcomes were achieved across socioeconomic quintiles within the operational region examined. A regional HEMS may mitigate health inequalities in major trauma, though complete equity requires addressing broader social determinants of health.",
+"doi": "10.1136/emermed-2025-215619",
+"keywords": [
+"Mortality",
+"emergency care systems",
+"major trauma management",
+"pre-hospital care"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42521477/",
+"impactScore": 49
 },
 {
 "pmid": "42573743",
@@ -383,7 +1035,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42573743/",
-"impactScore": 50
+"impactScore": 49
 },
 {
 "pmid": "42573742",
@@ -406,7 +1058,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42573742/",
-"impactScore": 50
+"impactScore": 49
 },
 {
 "pmid": "42573740",
@@ -429,7 +1081,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42573740/",
-"impactScore": 50
+"impactScore": 49
 },
 {
 "pmid": "42576243",
@@ -457,7 +1109,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42576243/",
-"impactScore": 49
+"impactScore": 48
 },
 {
 "pmid": "42574291",
@@ -479,7 +1131,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42574291/",
-"impactScore": 49
+"impactScore": 48
 },
 {
 "pmid": "42574289",
@@ -511,7 +1163,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42574289/",
-"impactScore": 49
+"impactScore": 48
 },
 {
 "pmid": "42573741",
@@ -533,7 +1185,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42573741/",
-"impactScore": 49
+"impactScore": 48
 },
 {
 "pmid": "42573415",
@@ -566,7 +1218,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42573415/",
-"impactScore": 49
+"impactScore": 48
 },
 {
 "pmid": "42573413",
@@ -597,7 +1249,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42573413/",
-"impactScore": 49
+"impactScore": 48
 },
 {
 "pmid": "42573409",
@@ -627,7 +1279,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42573409/",
-"impactScore": 49
+"impactScore": 48
 },
 {
 "pmid": "42570352",
@@ -659,7 +1311,7 @@
 "Published Erratum"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42570352/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42566422",
@@ -692,7 +1344,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42566422/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42565664",
@@ -727,7 +1379,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42565664/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42565658",
@@ -768,7 +1420,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42565658/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42565652",
@@ -805,7 +1457,36 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42565652/",
-"impactScore": 46
+"impactScore": 45
+},
+{
+"pmid": "42580001",
+"title": "Chronic pruritus as the presenting symptom of Hodgkin lymphoma: A case report.",
+"authors": [
+"Shrestha A",
+"Martin J",
+"Perdue M"
+],
+"journal": "The American journal of emergency medicine",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "case-report",
+"pubDate": "2026-08-05",
+"abstract": "A 25-year-old woman presented to the emergency department (ED) with acute chest tightness and dyspnea superimposed on a one-year history of diffuse, treatment-refractory pruritus that had been managed as eczema at two prior visits. She also reported night sweats and unintentional weight loss. Laboratory studies showed marked leukocytosis, transaminitis, critical hypokalemia and hypomagnesemia, and an elevated lactate dehydrogenase. No lymphadenopathy was palpable on examination. Chest radiography and computed tomography revealed a large, locally invasive right upper lobe mass with mediastinal, hilar, and cervical lymphadenopathy. The patient was transferred for tissue diagnosis, which confirmed nodular sclerosis classical Hodgkin lymphoma. Pruritus is a common ED complaint that typically reflects benign dermatologic disease; however, paraneoplastic pruritus can be the earliest sign of classical Hodgkin lymphoma and is frequently mistaken for eczema, potentially delaying diagnosis. Chronic, refractory pruritus accompanied by systemic symptoms or unexplained laboratory abnormalities warrants chest imaging, even without palpable lymphadenopathy, as it may represent an early, treatable presentation of Hodgkin lymphoma.",
+"doi": "10.1016/j.ajem.2026.08.006",
+"keywords": [
+"Hodgkin lymphoma",
+"Mediastinal mass",
+"Paraneoplastic syndrome",
+"Pruritus"
+],
+"meshTerms": [],
+"pubTypes": [
+"Case Reports",
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42580001/",
+"impactScore": 45
 },
 {
 "pmid": "42563164",
@@ -831,11 +1512,10 @@
 "Anti-Infective Agents, Local"
 ],
 "pubTypes": [
-"Journal Article",
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42563164/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42560998",
@@ -873,7 +1553,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42560998/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42560974",
@@ -906,7 +1586,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42560974/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42560803",
@@ -940,7 +1620,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42560803/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42560540",
@@ -964,7 +1644,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42560540/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42560539",
@@ -987,7 +1667,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42560539/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42560137",
@@ -1032,7 +1712,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42560137/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42560130",
@@ -1082,7 +1762,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42560130/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42573900",
@@ -1121,7 +1801,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42573900/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42530919",
@@ -1150,7 +1830,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42530919/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42570523",
@@ -1184,7 +1864,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42570523/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42556561",
@@ -1218,7 +1898,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42556561/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42556560",
@@ -1249,7 +1929,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42556560/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42554625",
@@ -1276,7 +1956,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42554625/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42554605",
@@ -1309,148 +1989,6 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42554605/",
-"impactScore": 44
-},
-{
-"pmid": "42551514",
-"title": "Surface Topographic Assessment of Forced Pulmonary Maneuvers: Reliability and Agreement with Spirometry in Healthy Participants.",
-"authors": [
-"Groisser BN",
-"Thakur A",
-"Hillstrom HJ",
-"Marsh IG",
-"Williams CJ",
-"Senthilnathan IS",
-"Wisch JL",
-"Zucker CP",
-"Cunningham ME",
-"Hresko MT",
-"Haddas R",
-"Blanco JS",
-"DiMaio MF",
-"Widmann RF",
-"Heyer JH"
-],
-"journal": "Chest",
-"journalTier": 1,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-08-04",
-"abstract": "Spirometry remains the clinical gold-standard for measuring pulmonary function such as forced expiratory indices, yet reliance on a mouthpiece seal, quality assurance, and infection-control procedures limit feasibility and degrade data quality. Markerless optical approaches (depth cameras, surface topography) show promise in monitoring quiet breathing but often require subject-specific calibration, with limited validation of forced expiratory indices and formal reliability testing. Can markerless surface topography (ST) provide reliable estimates of forced expiratory volume in 1 second (FEV1), forced vital capacity (FVC), and FEV1/FVC comparable to spirometry? Twenty healthy volunteers underwent prospective simultaneous STand handheld spirometry during standardized forced expiratory maneuvers. Two raters administered multiple trials per subject. Body volume was computed per frame from reconstructed surface meshes. Intra- and inter-rater reliability were assessed using intraclass correlation coefficients (ICC(2,1)) with paired permutation testing for differences. ST-spirometry agreement was evaluated by Pearson correlations and Bland-Altman analysis. Leave-one-out cross-validation tested generalizability of a universal linear correction mapping ST volumes to spirometry. ST and spirometry demonstrated similar reliability for FEV1(ICC > 0.97), FVC (ICC > 0.96) and FEV1/FVC ratio (ICC > 0.89), with no significant ICC differences between modalities or raters (all P > 0.1). ST correlated strongly with spirometry (R = 0.95 FEV1; 0.94 FVC; 0.93 FEV1/FVC). Bland-Altman analysis showed stable negative bias for absolute volumes (-0.52 L FEV1; -0.66 L FVC) and negligible bias for FEV1/FVC. Cross-validation yielded low Root-Mean-Squared errors (0.24 liters FEV1; 0.34 liters FVC; 0.025 ratio). ST provides contact-free forced expiratory estimates that correlate strongly with spirometry, with comparable reliability. This may benefit populations for whom the spirometer interface is a barrier, including young children and those with bulbar dysfunction or craniofacial abnormalities.",
-"doi": "10.1016/j.chest.2026.05.054",
-"keywords": [
-"forced expiratory volume",
-"forced vital capacity",
-"markerless imaging",
-"optical plethysmography",
-"pulmonary function testing",
-"reliability",
-"spirometry",
-"surface topography",
-"validation"
-],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42551514/",
-"impactScore": 43
-},
-{
-"pmid": "42551513",
-"title": "Brain Structural Remodeling and Longitudinal Grey Matter Changes in Adults with Chronic Cough: Evidence from A Large-Scale Longitudinal Population-Based Study.",
-"authors": [
-"Xie S",
-"Zhong M",
-"Lin Z",
-"He L",
-"Chen G",
-"Zhan C",
-"Zhang Q",
-"Song WJ",
-"Li J",
-"Chen R"
-],
-"journal": "Chest",
-"journalTier": 1,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-08-04",
-"abstract": "Chronic cough (CC) is increasingly recognized as a hypersensitivity syndrome involving maladaptive neuroregulatory changes, yet large-scale evidence regarding macro-scale structural brain alterations and their longitudinal trajectory remains scarce. Is chronic cough associated with specific regional grey matter volume alterations and an accelerated rate of brain atrophy over time? This retrospective longitudinal cohort study utilized individual-level data from the UK Biobank, involving 38,638 participants with baseline brain MRI (4,676 with CC) and a subset of 2,798 participants who underwent repeated imaging. Regional grey matter volume (GMV) across 139 areas was quantified from T1-weighted structural images. Cross-sectional associations were assessed using multivariable logistic regression with three prespecified sensitivity analyses evaluating cough duration, medication-related cough, and major comorbid conditions. Longitudinal changes were evaluated using 1:3 propensity score matching and linear mixed-effects models. Chronic cough was associated with significantly reduced GMV in 63 brain regions, with the strongest associations observed in the right ventral striatum (OR: 0.44 [0.32-0.59]). Sex-stratified analysis revealed more extensive, left-lateralized structural remodeling in females (P-interaction < 0.05). Chronic dry cough was specifically associated with reduced grey matter volume in the bilateral postcentral gyrus (both OR < 1). Furthermore, longitudinal analysis suggested that chronic cough may be associated with a faster rate of GMV decline in seven regions, particularly within the cerebellum. Chronic cough is associated with significant widespread structural brain alterations and accelerated atrophy within brain regions, supporting the possibility that chronic cough may be associated with dynamic neurostructural change potentially related to altered central neural processing.",
-"doi": "10.1016/j.chest.2026.07.5229",
-"keywords": [
-"brain MRI",
-"chronic cough",
-"cough hypersensitivity",
-"population-based study"
-],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42551513/",
-"impactScore": 43
-},
-{
-"pmid": "42551445",
-"title": "Sex-Based Differences in Severe Trauma and Hemorrhagic Shock: A Systematic Review of Pre-Clinical and Veterinary Animal Studies.",
-"authors": [
-"Saiko G",
-"Kibria F",
-"Bragin D"
-],
-"journal": "Shock (Augusta, Ga.)",
-"journalTier": 1,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-08-04",
-"abstract": "To systematically review preclinical studies to determine whether biological sex alters outcomes after severe trauma with hemorrhagic shock (T/HS), identify the mechanistic drivers of any sex dimorphism, and define key gaps that limit translation to critical care. Following PRISMA guidance, we searched PubMed and Google Scholar through December 2025 for original animal or veterinary T/HS studies, comparing biological sexes or manipulating sex hormones. Exclusions included non-hemorrhagic shock, traumatic brain injury, and reviews. Two reviewers independently screened 1,450 records and assessed risk of bias via SYRCLE. Data were extracted on species, hormonal status, survival, organ function, and mechanisms. A structured narrative synthesis was performed as study heterogeneity precluded quantitative meta-analysis. Of the 1,450 records, 66 met the inclusion criteria. In rodents, females, particularly during proestrus, exhibited superior survival, preserved organ function, and reduced inflammation. These advantages were typically reversed by ovariectomy and mimicked by estrogen or ER-β agonists. Conversely, male vulnerability was linked to androgen-driven immune dysfunction and mitigated by castration or flutamide. Age and sepsis often reverse female benefits. Emerging research highlighted non-classical pathways, such as autophagy and pyroptosis. High model heterogeneity and reporting gaps precluded meta-analysis. Preclinical evidence confirms sex-dependent resilience in T/HS, primarily driven by sex steroids and immune-vascular modulation. To bridge the translational gap, clinical studies should adopt sex-stratified analyses and prospectively record hormonal status. Future preclinical research must prioritize standardized reporting and the use of large-animal or uncontrolled hemorrhage models to validate these findings for critical care.",
-"doi": "10.1097/SHK.0000000000002920",
-"keywords": [
-"Hemorrhagic Shock",
-"Preclinical Models",
-"Sexual Dimorphism",
-"Systematic Review",
-"Translational Medical Research",
-"Trauma"
-],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42551445/",
-"impactScore": 43
-},
-{
-"pmid": "42551418",
-"title": "Phenotyping Sepsis at Emergency Department Presentation Using Early Clinical Data: A Multicenter Cohort Study.",
-"authors": [
-"Seo J",
-"Oh N",
-"Suh GY",
-"Lim CM",
-"Cha WC",
-"Ko RE"
-],
-"journal": "Shock (Augusta, Ga.)",
-"journalTier": 1,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-08-04",
-"abstract": "Sepsis is heterogeneous, and early emergency department (ED) management is constrained by limited information and dynamic clinical trajectories. Using the nationwide Korean Sepsis Alliance (KSA) registry, we applied k-means clustering to nine routine ED variables (demographics, vital signs, Clinical Frailty Scale, mental status, lactate). The model was developed in KSA 3 (2019-2021) and tested for temporal reproducibility in the independent KSA 5 cohort (2022-2023). Phenotypes were compared on 7-day mortality, early sepsis-bundle compliance, and SOFA trajectories; stability was assessed by bootstrap resampling and alternative clustering. One-hour vasopressor non-compliance was decomposed into criterion-not-met versus delivered-with-delay. Six phenotypes were identified in 9,430 patients and reproduced in 7,184 (mortality-rank ρ = 1.00; calibration drift, O/E 0.83-1.32). Seven-day mortality ranged 6.7%-31.8%. Extreme-severity phenotypes (A, F, E) were bootstrap-robust (Jaccard 0.65-0.91), whereas intermediate phenotypes (B, D) were less stable (0.21-0.47), consistent with a continuous severity spectrum. Non-compliance composition separated phenotypes that severity scores rank together: predominantly criterion-not-met (appropriate withholding) in low-acuity phenotype C versus delivered-with-delay in high-acuity phenotype E. Phenotypes B and F, matched on presenting physiology and mortality but differing in frailty and mental status, still differed in composition (criterion-not-met 49.6% vs 28.3%; p < 0.001). SOFA trajectories were highest in phenotype E. ED-presentation phenotyping using routine variables identifies six cross-sectional signatures along the sepsis severity spectrum rather than definitive subtypes. Decomposing bundle non-compliance shows that it combines appropriate withholding and urgency-associated delay in phenotype-dependent proportions, a distinction one-dimensional severity scores cannot make, relevant to phenotype-stratified resuscitation warranting prospective evaluation.",
-"doi": "10.1097/SHK.0000000000002921",
-"keywords": [
-"clustering analysis",
-"early resuscitation",
-"emergency department",
-"phenotyping",
-"sepsis"
-],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42551418/",
 "impactScore": 43
 },
 {
@@ -1482,7 +2020,36 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42565966/",
-"impactScore": 41
+"impactScore": 40
+},
+{
+"pmid": "42579960",
+"title": "The evolution of primary subtalar arthrodesis for displaced intra-articular calcaneal fractures: A historical review.",
+"authors": [
+"Schepers T"
+],
+"journal": "Injury",
+"journalTier": 2,
+"journalSJR": null,
+"articleType": "review",
+"pubDate": "2026-08-06",
+"abstract": "Primary subtalar arthrodesis has been advocated for the treatment of severe displaced intra-articular calcaneal fractures for more than a century. Although the procedure remains a valuable option in carefully selected patients, its historical evolution has never been comprehensively reviewed. This study aimed to describe the development of primary subtalar arthrodesis from its introduction in 1911 to contemporary practice and to evaluate how indications, surgical techniques, and reported outcomes have evolved over time. A comprehensive search of PubMed and Embase was performed without date restrictions, supplemented by backward and forward citation tracking. Publications describing acute primary subtalar or triple arthrodesis for calcaneal fractures were included. Studies were grouped into four historical eras based on publication volume, treatment philosophy, and technical developments. Data regarding indications, operative techniques, timing, and clinical outcomes were extracted descriptively. The concept of primary subtalar arthrodesis was first introduced by Van Stockum in 1911, who recognized the subtalar joint as the principal source of persistent pain after severe calcaneal fractures. Early reports regarded arthrodesis primarily as a salvage procedure when anatomical reconstruction was considered impossible. During the 1950s-1970s, the concept evolved into reconstructive primary arthrodesis, emphasizing restoration of calcaneal morphology before fusion. Following the introduction of computed tomography and modern open reduction techniques, publications on primary arthrodesis virtually disappeared between 1980 and 1994, reflecting renewed confidence in joint-preserving reconstruction. Since the mid-1990s, primary arthrodesis has re-emerged as a selective treatment for irreparable posterior facet injuries. Although most studies reported favorable union rates and functional outcomes, comparative studies have demonstrated little difference in patient-reported outcomes between reconstruction alone and reconstructive primary arthrodesis, highlighting the importance of appropriate patient selection rather than routine use. Over more than a century, primary subtalar arthrodesis has evolved from a salvage procedure into a reconstructive strategy reserved for carefully selected patients with irreparable subtalar joint injury. Contemporary evidence suggests that the success of primary arthrodesis depends less on the procedure itself than on identifying the patients most likely to benefit. Future research should focus on validating objective fracture- and patient-related selection criteria.",
+"doi": "10.1016/j.injury.2026.113549",
+"keywords": [
+"Calcaneal fracture",
+"Historical review",
+"Post-traumatic arthritis",
+"Primary subtalar arthrodesis",
+"Reconstructive arthrodesis",
+"Subtalar joint"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article",
+"Review"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42579960/",
+"impactScore": 39
 },
 {
 "pmid": "42573530",
@@ -1506,6 +2073,377 @@
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42573530/",
 "impactScore": 37
+},
+{
+"pmid": "42584805",
+"title": "Planning the development of an AI-driven decision support architecture for the recognition of sudden cardiac arrest by 9-1-1 telecommunicators: report of a community engagement and brainstorming meeting.",
+"authors": [
+"Vaillancourt C",
+"Leduc S",
+"Naidoo S",
+"Charette M",
+"Phillip Nicholson J",
+"Church M",
+"Michalowshi W",
+"Viktor H",
+"Khodaee P",
+"Thiruganasambandamoorthy V",
+"Moore S",
+"Cheskes S",
+"Furlong G",
+"Power R",
+"Giffen R",
+"Pierce D",
+"Feldman M",
+"Dainty KN"
+],
+"journal": "CJEM",
+"journalTier": 2,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-08-12",
+"abstract": "Sudden cardiac arrest is a leading cause of mortality in Canada (40,000 treatable deaths annually). Despite the benefits of 9-1-1 telecommunicator-assisted CPR, agonal (reflexive/ineffective) breathing often leads to misdiagnosis and delayed intervention. Artificial intelligence (AI), particularly large language models, may improve cardiac arrest recognition during 9-1-1 calls. This study aimed to identify community-informed requirements for integrating AI models into 9-1-1 ambulance communications centers to enhance rapid cardiac arrest recognition and timely response. We hosted a CIHR-funded planning and dissemination meeting at the Ottawa Paramedic Service. The qualitatively driven study involved diverse community members including emergency physicians, telecommunicators, paramedics, cardiac arrest survivors, AI model developers, and policymakers. We used a structured Miro board exercise before, during, and after the meeting to facilitate participant input. Five pre-identified themes guided the exercise: (1) essential must-haves in a useful AI application, (2) considerations for integration with 9-1-1 system, (3) policy/ethical considerations, (4) burning questions, and (5) missing community members. Participants emphasized the need for high cardiac arrest interpretation accuracy, low false activation rates, multilingual capabilities, and explainable AI model outputs. Integration concerns included compatibility with computer-assisted dispatch systems, platform independence, and redundancy during outages. Ethical considerations focused on privacy, data sovereignty, liability, and bias mitigation. Participants raised questions about AI model's ability to interpret voice cues, background audio, and caller distress. Gaps in community representation were identified, including accessibility experts and Ministry information technology specialists. This planning exercise identified critical technical, ethical, and operational requirements for AI model integration into 9-1-1 ambulance communications centers. Community member insights will inform future development and validation of an AI-driven decision support architecture aimed at improving cardiac arrest recognition, reducing time to CPR initiation, and enhancing equity in emergency response. The findings support a patient/telecommunicator-centered, responsible approach to AI model deployment in prehospital care.",
+"doi": "10.1136/bmj-2022-070904",
+"keywords": [
+"9-1-1 telecommunicators",
+"Artificial intelligence",
+"Cardiac arrest",
+"Community engagement meeting"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42584805/",
+"impactScore": 36
+},
+{
+"pmid": "42584804",
+"title": "The role of the emergency department in cancer diagnosis: comparing diagnostic and treatment intervals.",
+"authors": [
+"Wilkinson AN",
+"Jany K",
+"Magsi M",
+"Nemnom MJ",
+"Perry JJ",
+"Pageau P"
+],
+"journal": "CJEM",
+"journalTier": 2,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-08-12",
+"abstract": "Cancers diagnosed through the emergency department (ED) were identified, and their characteristics, and diagnostic and treatment intervals were compared to community-diagnosed cases. A medical records review was conducted for new cancer cases seen by medical oncology at The Ottawa Hospital from January 1 to March 31, 2024. Enrolled cases were assessed for ED visits in the preceding 3 months and classified as ED diagnosed if the cancer was diagnosed as a result of the ED visit. An equal number of cases without a preceding ED visit were randomly selected as community-diagnosed comparators. Patient characteristics, Ontario Marginalization Index scores, cancer type and stage, screen detection, diagnostic assessment pathway eligibility and referral, diagnostic timelines, treatment, and mortality were abstracted. Among 1011 new cancer cases, 241 (23.8%) had an ED visit within 3 months and 129 (12.8%) were ED diagnosed. ED-diagnosed patients were more comorbid, from more racially diverse/immigrant dense areas and were less often female. Lung, brain, and colorectal cancers predominated ED-diagnosed cases, while screen-detected breast cancer was most common in community-diagnosed cases. ED-diagnosed cases were more frequently stage IV (65.1% versus 17.3%; p < 0.001) with higher one-year mortality (38.8% versus 7.0%; p < 0.001). Over 80% of all individuals were attached to a primary care provider, more so in community-diagnosed cases (82.2% versus 95.3%; p = 0.001). ED diagnosis was associated with acute symptoms (89.9%) and acceleration of workup (40.3%). ED-diagnosed cases had shorter diagnostic intervals (19 versus 84 days, p < 0.001), largely due to imaging and biopsy timelines, as well as shorter treatment intervals (21 versus 55 days, p < 0.001). Community-diagnosed cancers took about four times longer than ED cases to be diagnosed, primarily related to imaging and biopsy timelines, with high levels of primary care attachment noted for all patients. Acute symptoms and acceleration of diagnosis were the most common reasons for ED diagnosis. These findings suggest that dedicated diagnostic pathways for suspected cancers could enable timely diagnosis and improve outcomes.",
+"doi": "10.1371/journal.pone.0281461",
+"keywords": [
+"Cancer diagnosis",
+"Diagnostic interval",
+"Emergency department"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42584804/",
+"impactScore": 36
+},
+{
+"pmid": "42584706",
+"title": "The road to the Pearl-String Technique: lessons learned from early IMT modifications using RIA autograft and cancellous allograft granules.",
+"authors": [
+"Hückstädt M",
+"Scholl C",
+"Langwald S",
+"Klauke F",
+"Mendel T",
+"Kobbe P",
+"Fischer C"
+],
+"journal": "European journal of trauma and emergency surgery : official publication of the European Trauma Society",
+"journalTier": 2,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-08-12",
+"abstract": "The induced membrane technique (IMT) is widely used for reconstruction of large bone defects; however, reported outcomes vary considerably among technical modifications. One potential mechanism impairing consolidation is graft sedimentation, particularly when low-density cancellous autograft harvested using the reamer-irrigator-aspirator (RIA) is applied. This study evaluates a standardized modification of the IMT and explores mechanical factors potentially affecting graft consolidation. In this retrospective single-center study, 28 patients were treated following eradication of osteomyelitis using a defined modification of the IMT. Mean follow-up was 7.4 years. Defect length ranged from 3.2 to 15.7 cm. During the second stage, RIA-harvested autologous cancellous bone was combined with lyophilized cancellous bone allograft granules. Definitive fixation was achieved using intramedullary nailing or locking plate fixation; one patient was treated with a ring fixator. Primary consolidation was achieved in 57.1% of cases. Aseptic nonunion occurred in 10.7%, with secondary consolidation achieved after revision in all affected patients. Recurrent infection was observed in 35.7%; infection control was achieved in 90% of these cases following additional procedures, and reconstruction was ultimately completed using alternative strategies. Median time to full weight bearing was 35 weeks. Graft sedimentation occurred in 42.9% of cases and was predominantly observed in patients who failed to achieve primary consolidation. This modification of the IMT allowed bone union in a substantial proportion of patients but was associated with high rates of complications, particularly infection recurrence and nonunion. The findings indicate that insufficient mechanical stability of cancellous composite grafts may promote graft sedimentation and impair consolidation, particularly when extensive allograft expansion and compromised host biology coexist. While the combination of autologous and allogenic cancellous bone within an induced membrane remains conceptually attractive, ensuring adequate mechanical stability of the graft construct appears essential when treating large bone defects.",
+"doi": "10.1302/0301-620X.106B6.BJJ-2023-1443.R1",
+"keywords": [
+"Cancellous bone allograft granules",
+"Graft sedimentation",
+"Induced membrane technique",
+"Infection recurrence",
+"Large bone defects",
+"Mechanical stability",
+"Nonunion",
+"RIA autograft"
+],
+"meshTerms": [
+"Humans",
+"Retrospective Studies",
+"Bone Transplantation",
+"Female",
+"Cancellous Bone",
+"Osteomyelitis",
+"Male",
+"Autografts",
+"Transplantation, Autologous",
+"Adult",
+"Allografts",
+"Tissue and Organ Harvesting",
+"Fracture Fixation, Intramedullary",
+"Therapeutic Irrigation"
+],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42584706/",
+"impactScore": 36
+},
+{
+"pmid": "42584683",
+"title": "Prehospital point-of-care lactate for identification of severe injury in trauma team-activated patients: a prospective multicenter cohort study.",
+"authors": [
+"Faul P",
+"Hagebusch P",
+"Bertram E",
+"Naujoks F",
+"Störmann P",
+"Schweigkofler U",
+"Koch D"
+],
+"journal": "European journal of trauma and emergency surgery : official publication of the European Trauma Society",
+"journalTier": 2,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-08-12",
+"abstract": "Accurate prehospital trauma triage remains challenging despite structured activation criteria, particularly in patients without overt physiologic instability. Prehospital point-of-care lactate has been proposed as a physiologic adjunct to support early identification of severely injured patients. This prospective multicenter cohort study evaluated the association between prehospital lactate and injury severity in trauma team-activated patients within a structured guideline-based trauma system. This prospective observational multicenter cohort study included adult trauma patients transported by emergency medical services to three Level I trauma centers and managed in the trauma room following trauma team activation (TTA). Prehospital lactate was measured by capillary earlobe sampling before or during transport and was not used for clinical decision-making. The primary outcome was severe injury, defined as Injury Severity Score (ISS) ≥16. Secondary outcomes were Abbreviated Injury Scale (AIS) ≥4 in at least one body region and intensive care unit (ICU) admission > 24 hours. Diagnostic performance was assessed using receiver operating characteristic (ROC) analysis and predefined lactate thresholds of ≥2 mmol/L and ≥4 mmol/L. A total of 108 patients were included, of whom 26 (24.1%) had ISS ≥ 16. Prehospital lactate levels were higher in severely injured than in non-severely injured patients. For prediction of ISS ≥ 16, prehospital lactate yielded an area under the curve (AUC) of 0.636 (95% CI 0.509-0.763). At a threshold of ≥2 mmol/L, sensitivity was 80.7%, whereas specificity was limited. Higher thresholds increased specificity at the expense of sensitivity. Similarly limited discriminatory performance was observed for AIS ≥ 4 and ICU admission > 24 hours. In trauma team-activated patients within a structured guideline-based trauma system, prehospital lactate was associated with severe injury but showed limited discriminatory performance for ISS-defined severe injury. Based on these findings, prehospital lactate does not appear suitable as a stand-alone trauma triage parameter in this setting but may provide complementary physiologic information when integrated into multimodal prehospital assessment strategies alongside established trauma team activation criteria. Future adequately powered prospective studies should evaluate its incremental value in combination with established physiologic parameters and focus on clinically proximal outcomes such as trauma team activation, hemorrhage control procedures, transfusion requirements, or other early life-saving interventions.",
+"doi": "10.1007/s00068-021-01811-z",
+"keywords": [
+"Emergency medical services",
+"Injury severity score",
+"Lactate",
+"Prehospital care",
+"Trauma triage"
+],
+"meshTerms": [
+"Humans",
+"Female",
+"Prospective Studies",
+"Male",
+"Middle Aged",
+"Injury Severity Score",
+"Triage",
+"Emergency Medical Services",
+"Adult",
+"Wounds and Injuries",
+"Lactic Acid",
+"Point-of-Care Systems",
+"Trauma Centers",
+"Aged",
+"ROC Curve",
+"Biomarkers"
+],
+"pubTypes": [
+"Journal Article",
+"Multicenter Study",
+"Observational Study"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42584683/",
+"impactScore": 36
+},
+{
+"pmid": "42584679",
+"title": "Surgical timing and mortality in acute traumatic subdural hematoma: is the four-hour threshold confounded by injury severity?",
+"authors": [
+"Rakip U",
+"Yıldızhan S",
+"Canbek İ",
+"Boyacı MG",
+"Korkmaz S",
+"Öztürk KH",
+"Aslan MZ",
+"Aslan A"
+],
+"journal": "European journal of trauma and emergency surgery : official publication of the European Trauma Society",
+"journalTier": 2,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-08-12",
+"abstract": "Early surgical evacuation within four hours has long been advocated for acute traumatic subdural hematoma (ASDH), yet the supporting evidence is largely observational and unadjusted for injury severity. We examined whether surgical timing is independently associated with in-hospital mortality after accounting for baseline severity. We retrospectively analyzed 91 consecutive patients who underwent surgical evacuation for ASDH between January 2014 and December 2024. The primary outcome was in-hospital mortality; the secondary outcome was functional status at discharge measured by the Glasgow Outcome Scale (GOS). Surgical timing (≤ 4 vs. >4 h) was assessed through unadjusted comparison, stratification by Glasgow Coma Scale (GCS) score, multivariable Firth penalized logistic regression with 1000-iteration bootstrap internal validation, and sensitivity analyses including alternative timing thresholds (1-12 h), restricted cubic spline modeling, and timing-by-severity interaction testing. In-hospital mortality was 33.0% (30/91; 95% Wilson CI 24.2-43.1%). Crude analysis showed higher mortality with early surgery (50.0% vs. 15.6%, p = 0.001), but these patients had lower admission GCS and higher rates of CT-defined traumatic axonal injury (TAI) and cerebral contusion. After stratification, no statistically detectable mortality difference was observed within the severe traumatic brain injury (TBI) subgroup (GCS ≤ 8: 69.6% vs. 66.7%, p = 1.000), although the late-surgery stratum contained only six patients. On multivariable Firth penalized analysis adjusting for the four-hour threshold, admission GCS, traumatic axonal injury (TAI), and age, the four-hour threshold was not independently associated with mortality (adjusted OR 1.46, 95% CI 0.41-5.04); admission GCS (OR 0.75 per point, 95% CI 0.63-0.87) and TAI (OR 7.56, 95% CI 1.81-38.04) were the only independent predictors. The model demonstrated strong discrimination (apparent AUC 0.920; bootstrap 95% CI 0.856-0.974; optimism-corrected AUC 0.902). Calibration was also satisfactory (Brier score 0.112). Threshold sensitivity analyses (1, 2, 3, 6, 8, and 12 h) yielded no threshold with an independent association after severity adjustment. Good functional outcome (GOS 4-5) was achieved by 56 patients (61.5%); the parallel timing distribution (early 41.3% vs. late 82.2%) reflected the same severity-driven pattern observed for mortality. In surgically treated ASDH, no statistically significant independent association between the four-hour threshold and in-hospital mortality was identified after adjustment for available severity markers. These findings should not be interpreted as support for delaying surgery in clinically indicated ASDH: ASDH with progressive neurological deterioration and significant intracranial mass effect remains a true neurosurgical emergency requiring prompt surgical evacuation. The four-hour benchmark should be applied in conjunction with severity-stratified prognostication rather than as a standalone criterion, with admission GCS and TAI as the principal determinants of outcome.",
+"doi": "10.1089/neu.2022.0052",
+"keywords": [
+"Acute traumatic subdural hematoma",
+"Confounding by indication",
+"Glasgow Coma Scale",
+"Mortality",
+"Surgical timing",
+"Traumatic axonal injury"
+],
+"meshTerms": [
+"Humans",
+"Female",
+"Hospital Mortality",
+"Retrospective Studies",
+"Male",
+"Glasgow Coma Scale",
+"Hematoma, Subdural, Acute",
+"Injury Severity Score",
+"Aged",
+"Middle Aged",
+"Time-to-Treatment",
+"Time Factors",
+"Glasgow Outcome Scale",
+"Aged, 80 and over"
+],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42584679/",
+"impactScore": 36
+},
+{
+"pmid": "42584678",
+"title": "Association between time to transfusion and outcomes in patients with traumatic haemorrhagic shock: an analysis of a nationwide trauma registry in Japan.",
+"authors": [
+"Shibahashi K",
+"Inoue K",
+"Kato T",
+"Sugiyama K"
+],
+"journal": "European journal of trauma and emergency surgery : official publication of the European Trauma Society",
+"journalTier": 2,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-08-12",
+"abstract": "To investigate the association of in-hospital time to transfusion on outcomes of patients with traumatic haemorrhagic shock. Using data from the Japan Trauma Data Bank (January 2019-December 2023), we identified adult patients (aged ≥ 18 years) with haemorrhagic shock following trauma (systolic blood pressure < 90 mmHg; shock index ≥ 1.0 upon hospital arrival) and received ≥ 10 units red blood cells within 24 h of injury. We excluded patients transferred from or to other hospitals after emergency treatment, with burn injuries or cardiac arrest, without transfusion time records, and with first transfusion > 60 min after hospital arrival. Mixed-effect multivariable logistic regression estimated the association between time to transfusion for in-hospital mortality, adjusting for patient characteristics, comorbidities, and injury severity. Heterogeneity in the association between transfusion timing and mortality was assessed through nine subgroup analyses. Overall, 698 patients (median age 59 years, 66.2% male) from 132 hospitals were analysed, of whom 265 (38.0%) died during hospitalisation. Mean time to transfusion varied from 4 to 58 min across hospitals. A positive association was observed between time to transfusion and in-hospital mortality. Each 1-min delay in transfusion initiation was associated with higher in-hospital mortality (adjusted odds ratio 1.015, 95% confidence interval 1.002-1.028). Subgroup analyses did not show statistically significant evidence of interaction between transfusion timing and subgroup variables. Delayed transfusion initiation was significantly associated with higher in-hospital mortality in patients with traumatic haemorrhagic shock. Reducing in-hospital delays to transfusion may represent an important target for trauma care quality improvement.",
+"doi": "10.1111/trf.14443",
+"keywords": [
+"Damage control resuscitation",
+"Massive transfusion",
+"Mortality",
+"Transfusion",
+"Trauma"
+],
+"meshTerms": [
+"Humans",
+"Male",
+"Shock, Hemorrhagic",
+"Japan",
+"Female",
+"Middle Aged",
+"Registries",
+"Hospital Mortality",
+"Blood Transfusion",
+"Adult",
+"Time-to-Treatment",
+"Injury Severity Score",
+"Aged",
+"Shock, Traumatic",
+"Wounds and Injuries",
+"Time Factors"
+],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42584678/",
+"impactScore": 36
+},
+{
+"pmid": "42584667",
+"title": "Neutrophil phenotyping reflects injury severity when base excess and lactate remain normal.",
+"authors": [
+"van Eerten FJC",
+"Duebel LV",
+"de Fraiture EJ",
+"Brands SR",
+"van Wessem KJP",
+"Vrisekoop N",
+"Venhuizen JH",
+"de Groot MCH",
+"Haitjema S",
+"Koenderman L",
+"Hietbrink F"
+],
+"journal": "European journal of trauma and emergency surgery : official publication of the European Trauma Society",
+"journalTier": 2,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-08-12",
+"abstract": "Accurate assessment of injury severity is essential for optimal trauma care, as it dictates timing and intensity of interventional strategy. Conventional markers, such as base excess and lactate levels are usually borderline deranged in patients with midrange injury severity. This study explored whether determining circulating neutrophil phenotypes in these patients (ISS 9-35) might aid in the assessment of injury severity. A descriptive single-center cohort study of trauma patients ≥ 16 years between 2013 and 2023 was conducted. Data was collected from the Dutch National Trauma Registry and the Utrecht Patient-Oriented Database (< 10% missing values). Base excess, lactate levels and neutrophil phenotypes were routinely measured in emergency department blood samples. The dynamics of these parameters was analyzed in the context of increasing Injury Severity Scores (ISS). 807 patients were included, of whom 591 were classified as midrange severely injured. In these patients, banded neutrophils showed a greater fold increase between ISS 9 and 35 compared with base excess and lactate (6.7, 2.7, and 1.5, respectively). Furthermore, the number of banded neutrophils exceeded the upper interquartile range of controls at lower trauma severities compared to base excess or lactate (ISS 17 vs. 30 and 39, respectively). Although base excess and lactate perform well as indicators of physiological derangement in severe trauma (ISS > 35), increased numbers of banded neutrophils are detectable at lower ISS levels and rise more rapidly than conventional chemistry markers in midrange severely injured patients. As such, neutrophil phenotyping can complement traditional physiological markers in injury burden assessment in midrange severely injured patients.",
+"doi": "10.1016/j.heliyon.2024.e28883",
+"keywords": [
+"Inflammation",
+"Injury severity",
+"Neutrophil",
+"Physiology",
+"Trauma"
+],
+"meshTerms": [
+"Humans",
+"Neutrophils",
+"Female",
+"Lactic Acid",
+"Wounds and Injuries",
+"Injury Severity Score",
+"Male",
+"Adult",
+"Phenotype",
+"Middle Aged",
+"Biomarkers",
+"Registries",
+"Netherlands"
+],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42584667/",
+"impactScore": 36
+},
+{
+"pmid": "42584664",
+"title": "Limb occlusion pressure-based individualized tourniquet pressure management in patients undergoing internal fixation for extremity fractures: a prospective comparative feasibility study.",
+"authors": [
+"Yang J",
+"Hu P",
+"Wang L"
+],
+"journal": "European journal of trauma and emergency surgery : official publication of the European Trauma Society",
+"journalTier": 2,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-08-12",
+"abstract": "This study aimed to evaluate the feasibility of limb occlusion pressure (LOP)-based individualized tourniquet pressure management and to quantify the reduction in applied tourniquet pressure compared with a traditional fixed-pressure protocol in patients undergoing internal fixation for extremity fractures. A prospective comparative study was conducted at Civil Aviation Shanghai Hospital from January to September 2025. Patients undergoing internal fixation for extremity fractures were enrolled and allocated to either the LOP-based group (n = 171) or the traditional fixed-pressure group (n = 235) according to the attending surgical team and operative scheduling, without randomization. The LOP-based group received individualized tourniquet pressure based on preoperative LOP measurement plus a safety margin, while the control group received standardized pressures (40-50 kPa; 300-375 mmHg). The primary outcome was applied tourniquet inflation pressure. Secondary outcomes included demographic characteristics, extremity location, operative duration, and subgroup analyses stratified by extremity location, age, and sex; multivariable linear regression was performed to adjust for potential confounders. The LOP-based group demonstrated significantly lower mean tourniquet pressure compared with the traditional group (32.82 +/- 3.63 kPa [246 +/- 27 mmHg] versus 48.21 +/- 3.84 kPa [362 +/- 29 mmHg]; mean difference: 15.39 kPa; 95% CI: 14.66-16.12; P < 0.001), representing a 31.93% reduction; the difference remained significant after adjustment for extremity location, age, and sex (adjusted mean difference: 15.71 kPa; 95% CI: 15.36-16.06; P < 0.001). Baseline characteristics including age (46.09 +/- 15.20 versus 47.51 +/- 15.66 years; P = 0.361), sex distribution (P = 0.809), extremity location (P = 0.457), and operative duration (82.80 +/- 46.64 versus 80.55 +/- 43.50 min; P = 0.618) were comparable between groups. Within the LOP-based group, applied pressure was lower for upper than for lower extremity procedures (26.24 +/- 4.21 versus 34.16 +/- 1.30 kPa; P < 0.001), while exploratory analyses revealed no significant pressure variations across sex (male: 32.97 +/- 3.52 kPa; female: 32.53 +/- 3.85 kPa; P = 0.445) or age categories (< 40, 40-59, >=60 years; P = 0.807). All procedures achieved adequate intraoperative hemostasis without pressure escalation. LOP-based individualized tourniquet pressure management was feasible and achieved a substantial reduction in applied tourniquet pressure while maintaining adequate intraoperative surgical field visualization in extremity fracture internal fixation. Applied pressure varied with extremity location but was independent of patient age and sex. Because patient-centered clinical outcomes were not assessed, these findings demonstrate the feasibility and pressure-reducing effect of LOP-based protocols rather than proven clinical superiority; randomized trials with clinical endpoints are warranted.",
+"doi": "10.1002/aorn.14425",
+"keywords": [
+"Extremity fractures",
+"Feasibility study",
+"Individualized pressure",
+"Internal fixation",
+"Limb occlusion pressure",
+"Orthopedic surgery",
+"Tourniquet"
+],
+"meshTerms": [
+"Humans",
+"Tourniquets",
+"Female",
+"Male",
+"Prospective Studies",
+"Feasibility Studies",
+"Middle Aged",
+"Pressure",
+"Fracture Fixation, Internal",
+"Adult",
+"Fractures, Bone",
+"Blood Loss, Surgical",
+"China",
+"Aged"
+],
+"pubTypes": [
+"Journal Article",
+"Comparative Study"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42584664/",
+"impactScore": 36
 },
 {
 "pmid": "42579063",
@@ -1533,7 +2471,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42579063/",
-"impactScore": 36
+"impactScore": 35
 },
 {
 "pmid": "42579062",
@@ -1570,7 +2508,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42579062/",
-"impactScore": 36
+"impactScore": 35
 },
 {
 "pmid": "42579061",
@@ -1596,7 +2534,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42579061/",
-"impactScore": 36
+"impactScore": 35
 },
 {
 "pmid": "42573949",
@@ -1624,7 +2562,38 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42573949/",
-"impactScore": 36
+"impactScore": 35
+},
+{
+"pmid": "42581343",
+"title": "Key components for responding to burn mass casualty incidents: a comprehensive systematic literature review.",
+"authors": [
+"Mohammadi MMD",
+"Fallah S",
+"Khajehaminian MR",
+"Farahmandnia H"
+],
+"journal": "International journal of emergency medicine",
+"journalTier": 3,
+"journalSJR": null,
+"articleType": "review",
+"pubDate": "2026-08-11",
+"abstract": "Effective management of burn mass casualty incidents (BMCIs) requires coordinated systems that include early stabilization, definitive burn care, surge capacity, and rehabilitation, supported by adequate infrastructure and workforce capacity. Although different countries have national guidelines, the full synthesis of the components of the health system needed by BMCIs response remains limited. This study aimed to systematically identify and classify the key components of the response to BMCIs. A systematic literature review was conducted to identify and synthesize the key components required for effective response to BMCIs. A systematic review was conducted in accordance with PRISMA guidelines and registered in PROSPERO (CRD42024625737). This research was conducted through a systematic review and searches of the databases PubMed, Scopus, Web of Science, and Google Scholar. A Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) was used for systematic search, and a Mixed Methods Appraisal Tool (MMAT) was used for quality assessment of final extracted articles. From an initial set of 7,975 articles, 27 studies were included for analysis. The key components for responding to BMCIs were analyzed in 5 categories and 36 subcategories. The primary themes and related main categories included: (1) Preparedness and Prevention; (2) Command, Control, Coordination, and Communication; (3) Prehospital and Transport Management; (4) Hospital and Surge Capacity Management; and (5) Clinical and Supportive Care. This review provides a comprehensive, evidence-informed framework outlining essential health system components for effective BMCIs response. The identified domains may guide the development of national and regional response models, strengthen disaster preparedness, and enhance health system resilience to BMCIs scenarios.",
+"doi": "10.1016/j.suc.2014.05.011",
+"keywords": [
+"BMCI",
+"Burn disaster",
+"Burns",
+"Health system",
+"Mass casualty incidents"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article",
+"Review"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42581343/",
+"impactScore": 34
 },
 {
 "pmid": "42574977",
@@ -1651,7 +2620,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42574977/",
-"impactScore": 35
+"impactScore": 34
 },
 {
 "pmid": "42574268",
@@ -1684,7 +2653,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42574268/",
-"impactScore": 35
+"impactScore": 34
 },
 {
 "pmid": "42574025",
@@ -1710,7 +2679,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42574025/",
-"impactScore": 35
+"impactScore": 34
 },
 {
 "pmid": "42573948",
@@ -1744,7 +2713,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42573948/",
-"impactScore": 35
+"impactScore": 34
 },
 {
 "pmid": "42573947",
@@ -1773,7 +2742,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42573947/",
-"impactScore": 35
+"impactScore": 34
 },
 {
 "pmid": "42573946",
@@ -1806,7 +2775,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42573946/",
-"impactScore": 35
+"impactScore": 34
 },
 {
 "pmid": "42573901",
@@ -1838,7 +2807,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42573901/",
-"impactScore": 35
+"impactScore": 34
 },
 {
 "pmid": "42572819",
@@ -1884,7 +2853,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42572819/",
-"impactScore": 35
+"impactScore": 34
 },
 {
 "pmid": "42572816",
@@ -1923,7 +2892,7 @@
 "Observational Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42572816/",
-"impactScore": 35
+"impactScore": 34
 },
 {
 "pmid": "42572806",
@@ -1962,7 +2931,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42572806/",
-"impactScore": 35
+"impactScore": 34
 },
 {
 "pmid": "42546174",
@@ -1989,7 +2958,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42546174/",
-"impactScore": 35
+"impactScore": 34
 },
 {
 "pmid": "42572043",
@@ -2026,7 +2995,38 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42572043/",
-"impactScore": 34
+"impactScore": 33
+},
+{
+"pmid": "42580979",
+"title": "Age-stratified outcomes after small-volume isolated blunt traumatic brain injury: A national ACS-TQIP analysis.",
+"authors": [
+"Rhodes-Lyons H",
+"McClure DL",
+"Locklear T",
+"Martinek L",
+"Pepe A"
+],
+"journal": "Injury",
+"journalTier": 2,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-08-08",
+"abstract": "Small-volume traumatic brain injuries (TBIs) are often considered low risk clinically, but older adults may face disproportionate adverse outcomes. Evidence outlining age-specific risks related to limited subdural hematomas (SDH), epidural hematomas (EDH), and cerebral contusions remains limited. We performed a retrospective cohort study using data from the American College of Surgeons Trauma Quality Programs Participant Use File (ACS-TQIP-PUF), 2017-2022. Adults aged 40 years and older with isolated blunt TBI were included, excluding skull fractures and multisystem trauma (AIS >1 in non-head regions). Injuries were classified as SDH ≤ 8 mm, EDH ≤ 8 mm, or contusions ≤ 2 cm. Patients were stratified by age (40-64 vs. ≥65 years). Subtype-stratified multivariable logistic regression examined associations between age group and (1) in-hospital mortality and (2) emergency department (ED) disposition to the intensive care unit (ICU), adjusting for demographics, comorbidities, injury severity, trauma center level, neurosurgical procedures, anticoagulation, and venous thromboembolism prophylaxis. The cohort included 135,343 patients, with SDH accounting for 93.2% of cases. Unadjusted in-hospital mortality was higher in elderly patients (≥65 years) than middle-aged adults (40-64 years) across all subtypes: SDH (2.5% vs. 1.5%), EDH (2.1% vs. 1.3%), and contusion (2.0% vs. 0.9%). Unadjusted ICU admission rates were comparable across age groups (SDH: 45.0% vs. 44.7%; EDH: 46.1% vs. 47.3%; contusion: 44.2% vs. 44.2%). On multivariable analysis, elderly patients had significantly higher adjusted odds of in-hospital mortality across all subtypes: SDH (OR 1.774, 95% CI 1.542-2.043), EDH (OR 1.589, 95% CI 1.053-2.397), and contusion (OR 1.591, 95% CI 1.169-2.165). Elderly patients with EDH were more likely to be admitted to the ICU from the ED (OR 1.144, 95% CI 1.020-1.283). Other factors independently associated with mortality included male sex, pre-injury anticoagulation, neurosurgical intervention, renal failure, and functional dependence. Among adults with radiographically small-volume isolated TBIs, advanced age is independently linked to increased in-hospital mortality and higher likelihood of ICU admission, especially in EDH. These findings challenge the notion that limited intracranial hemorrhage is clinically harmless in older adults and support age-specific risk assessment in ED triage and critical care decisions.",
+"doi": "10.1016/j.injury.2026.113595",
+"keywords": [
+"Elderly",
+"Epidural hematoma",
+"ICU admission",
+"Subdural hematoma",
+"Traumatic brain injury"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42580979/",
+"impactScore": 32
 },
 {
 "pmid": "42570974",
@@ -2052,7 +3052,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42570974/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42570322",
@@ -2084,7 +3084,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42570322/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42570315",
@@ -2114,7 +3114,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42570315/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42570311",
@@ -2150,7 +3150,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42570311/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42566011",
@@ -2199,7 +3199,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42566011/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42565997",
@@ -2247,7 +3247,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42565997/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42565965",
@@ -2284,7 +3284,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42565965/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42565964",
@@ -2321,7 +3321,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42565964/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42565894",
@@ -2371,7 +3371,7 @@
 "Observational Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42565894/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42565843",
@@ -2423,7 +3423,30 @@
 "Observational Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42565843/",
-"impactScore": 32
+"impactScore": 31
+},
+{
+"pmid": "42579958",
+"title": "Do all Gartland type II supracondylar distal humeral fractures need surgery and pinning?",
+"authors": [
+"Qiu R",
+"Ferrie L",
+"Buckley R"
+],
+"journal": "Injury",
+"journalTier": 2,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-08-06",
+"abstract": "",
+"doi": "10.1016/j.injury.2026.113589",
+"keywords": [],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42579958/",
+"impactScore": 30
 },
 {
 "pmid": "42563146",
@@ -2468,7 +3491,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42563146/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42563063",
@@ -2502,7 +3525,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42563063/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42560651",
@@ -2531,7 +3554,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42560651/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42560494",
@@ -2560,7 +3583,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42560494/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42560472",
@@ -2589,7 +3612,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42560472/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42560471",
@@ -2614,7 +3637,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42560471/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42570453",
@@ -2644,7 +3667,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42570453/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42561707",
@@ -2675,7 +3698,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42561707/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42555096",
@@ -2704,7 +3727,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42555096/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42552999",
@@ -2735,7 +3758,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42552999/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42467410",
@@ -2759,255 +3782,6 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42467410/",
-"impactScore": 30
-},
-{
-"pmid": "42550782",
-"title": "Limited Degradation of Active Pharmaceutical Ingredient After Spaceflight on the International Space Station.",
-"authors": [
-"Nowadly C",
-"Lovett D",
-"Brawley H",
-"Babcock L",
-"Shennara K",
-"Rezentes C",
-"Lehnhardt K",
-"Reichard JF"
-],
-"journal": "Wilderness & environmental medicine",
-"journalTier": 2,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-08-04",
-"abstract": "IntroductionSpaceflight may accelerate degradation of active pharmaceutical ingredients, raising concerns about medication stability during long-duration missions. This study assessed the potency of active pharmaceutical ingredients in a convenience sample of medications flown to the International Space Station alongside lot-matched terrestrial control samples.MethodsSpaceflight-exposed samples and terrestrial control samples were analyzed using ultra-high-performance liquid chromatography with tandem mass spectrometry. At the time of analysis, all medications were beyond their labeled expiration dates following prolonged storage and delayed laboratory testing. Medications included caffeine, diazepam, diphenhydramine, epinephrine, ketamine, lidocaine, naloxone, and promethazine in solid and liquid formulations. Percent difference between exposed and control samples was calculated, and absolute potency was evaluated relative to 95 to 105% and 80 to 120% ranges. Regression analyses examined associations of changes in the potency of active pharmaceutical ingredients with days in space and days expired.ResultsMost samples from both groups fell outside the 95 to 105% range. However, >90% remained within the broader 80 to 120% range. Average percent differences between spaceflight-exposed and ground control samples were generally within ±5% for most medications, suggesting limited relative potency differences despite prolonged spaceflight exposure. Epinephrine exhibited the most consistent reductions, averaging 10% lower potency than control samples. Regression analyses identified medication-specific associations with days expired and days in space but did not show a consistent pattern of spaceflight-associated potency loss.ConclusionWithin the limitations of this lot-matched, post-storage comparison, International Space Station exposure was not associated with large relative potency changes for most medications studied. Epinephrine represented the clearest exception and may require medication-specific stabilization strategies for long-duration space exploration missions.",
-"doi": "10.1177/10806032261466966",
-"keywords": [
-"aerospace medicine",
-"medication",
-"pharmaceutical",
-"spaceflight",
-"stability"
-],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42550782/",
-"impactScore": 29
-},
-{
-"pmid": "42550498",
-"title": "Effect of a Preoperative Communication Checklist on Operative Efficiency in Burn Surgery: A Quality Improvement Analysis.",
-"authors": [
-"Orson R",
-"Douglas B",
-"Vishal B",
-"Khaja S",
-"Maysa S",
-"Eric W",
-"Chip S",
-"John G",
-"Alan P"
-],
-"journal": "Journal of burn care & research : official publication of the American Burn Association",
-"journalTier": 2,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-08-04",
-"abstract": "Preoperative communication checklists are used to improve surgical safety and team coordination. We evaluated whether introduction of a preoperative communication checklist was associated with reduced operative duration in a burn operating room. We conducted a quality improvement study comparing operative outcomes before and after introduction of a preoperative communication checklist in a burn unit. Cases from August 19, 2020, to August 20, 2022, were included, with checklist introduction occurring in August 20, 2021. Adult patients undergoing excisional debridement procedures were analyzed. The primary outcome was operative duration. Mixed-effects models were used to assess the association between checklist use and operative duration while adjusting for surgeon, procedure type, and square area excised. A total of 139 patients undergoing 281 operations were included (143 pre-checklist, 138 post-checklist). Mean operative duration decreased from 107.8 minutes pre-checklist to 96.0 minutes post-checklist. In adjusted analysis, checklist use was associated with a 17.99-minute reduction in operative duration (p<0.001). Procedures involving autograft, ReCell, and biodegradable temporizing matrix were associated with increased operative time, as was greater square area excised. In interaction models, the overall reduction was not statistically significant; however, ReCell procedures demonstrated a significant reduction of 30.49 minutes (p=0.003) following checklist introduction. Introduction of a preoperative communication checklist was associated with decreased operative duration. The greatest effect was observed in ReCell procedures, suggesting that improved preoperative coordination may enhance efficiency in complex workflows. Preoperative checklists represent a scalable quality improvement strategy to optimize operative efficiency and resource utilization in burn care.",
-"doi": "10.1093/jbcr/irag130",
-"keywords": [
-"Operation Room Time",
-"Surgical Efficiency",
-"Surgical Safety Checklist"
-],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42550498/",
-"impactScore": 29
-},
-{
-"pmid": "42550487",
-"title": "Inpatient Complications and Outcomes for Burn Patients Admitted with Opioid-Positive Drug Screens.",
-"authors": [
-"Swafford EP",
-"Fijany AJ",
-"Murphy TJ",
-"Vyas P",
-"Garcia JT",
-"Ballou J",
-"Beyene RT",
-"Gondek S",
-"Wagner A",
-"Slater ED"
-],
-"journal": "Journal of burn care & research : official publication of the American Burn Association",
-"journalTier": 2,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-08-04",
-"abstract": "Opioid use disorder complicates the management of burn injuries, particularly in achieving adequate pain control. While prior single-institution studies have evaluated associations between opioid use and burn outcomes, multi-institutional analyses of inpatient complications remain limited. Using the American Burn Association Noncommercial Burn Research Dataset, this study compares inpatient outcomes among patients with prehospital opioid-positive screening versus those with negative screening. Among 32 052 patients included, 50.5% screened positive for opioids at the time of presentation. These patients were more likely to be female (p < .0001), more likely to possess scald injuries (p < .0001), and less likely to be experiencing homelessness (p < .0001) or to be diagnosed with inhalation injury (p < .005). Opioid positivity was associated with increased odds of infectious complications, such as cellulitis (OR = 2.7, p < .0001) and sepsis (OR = 1.41, p < .001). Opioid negativity, conversely, had a higher prevalence of acute respiratory distress syndrome (p < .0001), acute kidney injury (p < .0001), respiratory failure (p < .05), and cardiac arrest (p < .05). The opioid-negative population also necessitated more frequent admission to the critical care unit (p < .05) and demonstrated higher overall mortality (p < .0001). These findings highlight the vulnerability of opioid-negative patients who may have delayed presentation and more severe injuries than originally anticipated. This work underscores the need for heightened vigilance and equitable, early care for these patients to mitigate risk in this group.",
-"doi": "10.1093/jbcr/irag126",
-"keywords": [],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42550487/",
-"impactScore": 29
-},
-{
-"pmid": "42550341",
-"title": "Vaccination practices and perceptions among physicians treating autoimmune rheumatic diseases in Italy: a cross-sectional survey.",
-"authors": [
-"Murdaca G",
-"Arengi M",
-"Vacca A",
-"Moroncini G",
-"Del Giacco S"
-],
-"journal": "Internal and emergency medicine",
-"journalTier": 2,
-"journalSJR": null,
-"articleType": "letter",
-"pubDate": "2026-08-04",
-"abstract": "",
-"doi": "10.3390/vaccines9111330",
-"keywords": [],
-"meshTerms": [],
-"pubTypes": [
-"Letter"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42550341/",
-"impactScore": 29
-},
-{
-"pmid": "42550258",
-"title": "Comparison of fluoroscopic versus electromagnetic distal locking in humeral shaft osteosynthesis using intramedullary nail: a retrospective study.",
-"authors": [
-"Madeja R",
-"Szeliga J",
-"Voves J",
-"Pometlova J",
-"Konde A",
-"Janosek J",
-"Dousa P"
-],
-"journal": "European journal of trauma and emergency surgery : official publication of the European Trauma Society",
-"journalTier": 2,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-08-04",
-"abstract": "Intramedullary nailing is a standard method for osteosynthesis of diaphyseal humeral fractures. Distal locking, however, typically requires fluoroscopic guidance, which increases radiation exposure. This study aimed to compare standard fluoroscopy-guided distal locking with the Ezy-Aim system (Austofix, Australia) based on electromagnetic pulse detection from the perspectives of surgical times, radiation exposure, and complications. A retrospective study included 58 patients treated for diaphyseal humeral fractures (AO/OTA 12A, 12B) between 2019 and 2023. Group A (n = 28) received osteosynthesis using the Ezy-Aim system; Group B (n = 30) underwent fluoroscopy-guided distal locking. Data on operative time, fluoroscopy time, radiation dose, and complications were analysed. In all, distal locking was not successful at the first attempt in 14.3% (4/28) of screws placed with Ezy-Aim and 20.0% (6/30) when fluoroscopy was used. Time and dose analyses were performed on the remaining 48 patients. The total surgical time was significantly longer with the Ezy-Aim system (median 58 min) compared to fluoroscopy (median 52 min, p = 0.034), primarily due to the time required for the device assembly. However, distal screw placement was faster with Ezy-Aim (median 12 min vs. 14 min, p = 0.019). Radiation exposure was significantly lower in the Ezy-Aim group (median total dose 418 cGy/cm2 vs. 582 cGy/cm2, p = 0.003). No complications were observed in either group. The Ezy-Aim system reduces radiation exposure and speeds up distal screw placement, though it prolongs total operative time due to assembly requirements. This method offers a safe and effective alternative to fluoroscopic guidance for distal locking in humeral shaft fractures.",
-"doi": "10.1016/j.otsr.2020.102785",
-"keywords": [
-"Fracture fixation",
-"Humeral fractures",
-"Intramedullary",
-"Operative time",
-"Radiation dosage",
-"Screw placement"
-],
-"meshTerms": [
-"Humans",
-"Retrospective Studies",
-"Fluoroscopy",
-"Fracture Fixation, Intramedullary",
-"Humeral Fractures",
-"Female",
-"Operative Time",
-"Male",
-"Middle Aged",
-"Bone Nails",
-"Aged",
-"Adult",
-"Radiation Exposure",
-"Bone Screws",
-"Radiation Dosage"
-],
-"pubTypes": [
-"Journal Article",
-"Comparative Study"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42550258/",
-"impactScore": 29
-},
-{
-"pmid": "42549823",
-"title": "Expected benefits from artificial intelligence in out-of-hospital cardiac arrest.",
-"authors": [
-"Lazzeri C",
-"Peris A"
-],
-"journal": "European journal of emergency medicine : official journal of the European Society for Emergency Medicine",
-"journalTier": 2,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-08-04",
-"abstract": "",
-"doi": "10.1097/CCM.0000000000007206",
-"keywords": [],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42549823/",
-"impactScore": 29
-},
-{
-"pmid": "42524832",
-"title": "Determinants of Timely Prehospital Thrombolysis Administration Within a Pharmacoinvasive STEMI Network in Victoria, Australia.",
-"authors": [
-"Bishop A",
-"Nehme Z",
-"Stub D",
-"Murdoch K",
-"Dantanarayana A",
-"Wijaya J",
-"Meadley B"
-],
-"journal": "Prehospital emergency care",
-"journalTier": 2,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-08-04",
-"abstract": "We aimed to describe the proportion of patients receiving prehospital thrombolysis (PHT) within 30 min of first medical contact (FMC) and identify factors associated with timely administration within a statewide pharmacoinvasive network. We conducted a retrospective observational cohort study of consecutive adults (≥18 years) treated with paramedic-administered thrombolysis for suspected ST-segment elevation myocardial infarction (STEMI) between January 2018 and December 2023 using data obtained from the Victorian Ambulance STEMI Quality Initiative registry. Patients presenting in cardiac arrest were excluded. Multivariable logistic regression was used to identify system- and patient-level factors independently associated with FMC-to-PHT time, with delayed PHT defined as FMC-to-PHT greater than 30 min, and findings validated against a 60-minute threshold. Log-linear regression was used to estimate the percentage change in FMC-to-PHT time for each variable. A total of 1440 patients were analyzed (median age, 65 years; 71.0% male). Overall, 32.5% of patients received PHT within 30 min of FMC (median 37 min [IQR 28-48]). Patients with delayed treatment (>30 min) were older and more likely to report mild pain severity (0-3/10), present after-hours, and have paramedics utilize clinical consultation prior to PHT administration. In the multivariable analysis, electrocardiogram (ECG) acquisition within 10 min of FMC was associated with reduced odds of delay (aOR 0.40, 95%CI 0.27-0.59), while mild pain severity was the strongest predictor of delayed PHT administration (aOR 2.08, 95% CI 1.44-3.01). Clinical consultation and after-hours presentations were also independently associated with increased odds of delay. In the log-linear analysis, mild pain severity (+14.8%), clinical consultation (+11.1%), and after-hours presentation (+9.2%) were associated with longer FMC-to-PHT times, whereas early ECG acquisition was associated with a 20% reduction. The findings were broadly consistent in the >60-minute model, with stronger associations for mild pain severity and after-hours presentation. Treatment times improved incrementally over the study period (aOR 0.83 per year, 95% CI 0.76-0.89). Achieving FMC-to-PHT ≤30 min was challenging, and delays were associated with both patient presentation and system- and process-related factors. These findings suggest that opportunities exist to improve the timeliness of thrombolysis administration in pharmacoinvasive settings.",
-"doi": "10.1080/10903127.2026.2711274",
-"keywords": [],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42524832/",
-"impactScore": 29
-},
-{
-"pmid": "42480096",
-"title": "Signs of Life During Out-of-Hospital Cardiac Arrest: A Retrospective Cohort Study.",
-"authors": [
-"Counts CR",
-"Sweeney K",
-"Kniest LJ",
-"Wender ER",
-"Maynard C",
-"Johnson NJ",
-"Sayre MR"
-],
-"journal": "Prehospital emergency care",
-"journalTier": 2,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-08-04",
-"abstract": "Signs of life are observed during out-of-hospital cardiac arrest (OHCA) resuscitation, but their frequency, timing relative to return of spontaneous circulation (ROSC), and prognostic significance remain incompletely described. We evaluated the prevalence of signs of life during resuscitation and their association with survival. We performed a retrospective observational cohort study of all OHCAs treated by a single urban emergency medical services system from January 1 through December 31, 2022. Data were abstracted from prospectively maintained OHCA and airway management registries. Signs of life include respiratory effort, eye opening or tracking, body movement, and verbal response. Each sign was classified as occurring before or after initial ROSC. We used descriptive statistics, binomial confidence intervals, and unadjusted and adjusted logistic regression to evaluate associations between signs of life, OHCA etiology, and survival. Among 617 treated OHCAs, 156 patients (25.3%) had at least one sign of life. Respiratory effort was most common (148 patients, 24.0%), followed by any body movement (69, 11.2%), eye opening (55, 8.9%), and any verbal response (43, 7.0%). Most documented signs occurred after ROSC, although 44 patients (7.1%) had at least one pre-ROSC sign of life. Patients with signs of life were more likely to have witnessed arrest and initial shockable rhythm and were less likely to receive intra-arrest epinephrine or prehospital advanced airway management. Survival occurred in 91 of 156 patients (58.3%) with signs of life compared with 25 of 461 patients (5.4%) without signs of life. In adjusted analysis, any sign of life was associated with survival (adjusted odds ratio [aOR] 10.3, 95% confidence interval [CI] 5.4-19.9); this relationship held when restricted to signs of life after ROSC (aOR 6.7, 95% CI 3.4-13.3). Among overdose-related OHCA, any body movement (aOR 2.44, 95% CI 1.05-5.67) and any verbal response (aOR 8.06, 95% CI 2.71-24.01) were more frequent than in the non-overdose OHCA cohort. One in four treated OHCA patients displayed at least one sign of life during resuscitation. Signs of life, particularly those after ROSC, were strongly associated with survival and may provide clinically useful information during prehospital resuscitation.",
-"doi": "10.1080/10903127.2026.2706747",
-"keywords": [],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42480096/",
 "impactScore": 29
 },
 {
@@ -3045,7 +3819,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42576194/",
-"impactScore": 22
+"impactScore": 21
 },
 {
 "pmid": "42565890",
@@ -3082,7 +3856,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42565890/",
-"impactScore": 22
+"impactScore": 21
 },
 {
 "pmid": "42565889",
@@ -3117,7 +3891,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42565889/",
-"impactScore": 22
+"impactScore": 21
 },
 {
 "pmid": "42563149",
@@ -3152,7 +3926,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42563149/",
-"impactScore": 21
+"impactScore": 20
 },
 {
 "pmid": "42557530",
@@ -3189,7 +3963,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42557530/",
-"impactScore": 21
+"impactScore": 20
 },
 {
 "pmid": "42557551",
@@ -3217,7 +3991,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42557551/",
-"impactScore": 20
+"impactScore": 19
 },
 {
 "pmid": "42552492",
@@ -3249,7 +4023,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42552492/",
-"impactScore": 20
+"impactScore": 19
 },
 {
 "pmid": "42552491",
@@ -3284,82 +4058,6 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42552491/",
-"impactScore": 20
-},
-{
-"pmid": "42552520",
-"title": "Explainable artificial intelligence in ICU admission prediction for methanol poisoning patients: a comparative study of deep and machine learning models.",
-"authors": [
-"Afrash MR",
-"Rahimi M",
-"Moulaei K",
-"Mostafazadeh B",
-"Rafsanjani H",
-"Erfan Talab Evini P",
-"Parvin M",
-"Sharifi M",
-"Salehi S",
-"Daeechini AH",
-"Baharestani M",
-"Shadnia S"
-],
-"journal": "International journal of emergency medicine",
-"journalTier": 3,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-08-04",
-"abstract": "Methanol poisoning poses significant challenges due to its rapid progression and high mortality rate, necessitating timely and accurate ICU admission decisions. Explainable artificial intelligence (XAI) offers transparent insights into these decisions, enhancing trust and interpretability in predictive models. This study aims was to compare the effectiveness of deep learning and machine learning models in predicting ICU admissions for methanol poisoning patients using explainable AI techniques. This study analyzed a dataset of 897 patient records collected from Loghman Hakim Hospital in Tehran, Iran, involving confirmed cases of methanol poisoning. Among these patients, 202 required ICU admission, whereas 695 did not. To develop predictive models, eight established approaches were implemented, including machine learning methods (Support Vector Machine (SVM), Extreme Gradient Boosting (XGBoost), Decision Tree (DT), and Random Forest (RF)) as well as deep learning architectures (Deep Neural Network (DNN), Feedforward Neural Network (FNN), Long Short-Term Memory (LSTM), and Convolutional Neural Network (CNN)). To reduce the risk of overfitting, 10-fold cross-validation and systematic hyperparameter tuning were applied. Model interpretability was ensured using Shapley Additive Explanations (SHAP) and Local Interpretable Model-agnostic Explanations (LIME). The performance of all models was evaluated through multiple metrics, including accuracy, sensitivity, specificity, F1-score, and the area under the ROC curve (AUC). Among all DL and ML models, the XGBoost ML model outperformed the others, achieving an accuracy of 92.0%, a precision of 92.0%, a recall of 97.0%, an F1-score of 95.0%, and a AUROC of 92.0%. Among DL models, the FNN emerged as the top performer with an accuracy of 91.0%, precision of 92.0%, recall of 96.0%, F1-score of 94.0%, and AUROC of 90.0%. Generally, ML models exhibited higher accuracy (87% - 92%) than DL models (89% - 91%), with similar precision (75% - 92% for ML, 91% - 92% for DL), recall (90% - 97% for ML, 94% - 96% for DL), F1-scores (82% - 95% for ML, 93% - 94% for DL), and AUROC scores (84% - 92% for ML, 89% - 90% for DL). While both ML and DL models demonstrated strong performance, ML models, especially XGBoost, proved to be more effective in predicting ICU admissions for methanol poisoning patients. The proposed model is intended to support early ICU admission risk stratification during the initial emergency department assessment and should be used as a decision-support tool rather than a replacement for clinical judgment.",
-"doi": "10.21608/esctj.2023.255311.1046",
-"keywords": [
-"Deep learning",
-"Explainable AI",
-"ICU",
-"Machine learning",
-"Methanol",
-"Poisoning",
-"Prediction"
-],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42552520/",
-"impactScore": 19
-},
-{
-"pmid": "42552518",
-"title": "Daily, weekly, and monthly dynamics of crowding in emergency department of university clinical centre Serbia: a one-year analysis of NEDOCS score.",
-"authors": [
-"Dzelebdzic S",
-"Djikanovic B",
-"Bukumiric Z",
-"Maksimovic N",
-"Micic D",
-"Rakočević ZA",
-"Curcin V",
-"Medarevic A"
-],
-"journal": "International journal of emergency medicine",
-"journalTier": 3,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-08-04",
-"abstract": "Emergency department (ED) crowding is increasingly recognized as a global public health issue, while evidences from South-East Europe remain limited. The aim of this study was to characterize daily, annual, weekly, and monthly patterns of ED crowding in a high-volume tertiary hospital. We conducted a retrospective observational study of ED crowding in the largest ED in Serbia over 360 consecutive days (8,640 one-hour intervals). Crowding was measured hourly using the National Emergency Department Overcrowding Score (NEDOCS), derived from routinely collected data from health information system and expressed on a 0-200 scale, later grouped into six standard categories. Descriptive analyses assessed annual distribution, circadian and weekly variation, seasonal trends, and patient age structure. Between-group differences in NEDOCS scores were assessed using the Kruskal-Wallis test. Effect sizes were estimated using eta-squared (η²). The majority of patients in ED (43.14%) were older than 60. Almost 90% of patients (89.5%) waited up to 4 h for the first check up by doctor. The median annual NEDOCS score was 43.87 (IQR 51.92 ), corresponding to a \"busy\" operational state. Level 2 (\"busy\") occurred in 39.4% of hourly intervals and level 1 (\"not busy\") in 29.5%, while overcrowding (levels 4-6) was observed in 5.6% of intervals. Crowding was significantly higher during daytime than nighttime hours (p < 0.001), with a pronounced morning peak. Weekday crowding exceeded weekend levels, peaking on Tuesdays. Seasonal variation showed higher crowding during winter and transitional months. ED crowding demonstrates predictable temporal patterns that mirror broader population health dynamics. Routine high-frequency monitoring may inform strategic staffing, adaptive capacity planning, and governance mechanisms aimed at strengthening emergency care performance and system resilience.",
-"doi": "10.1111/1742-6723.13777",
-"keywords": [
-"Crowding",
-"Emergency department",
-"Health information systems",
-"Health services research",
-"NEDOCS",
-"Operational management",
-"Temporal patterns"
-],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42552518/",
 "impactScore": 19
 },
 {
