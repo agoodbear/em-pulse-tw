@@ -1,117 +1,99 @@
 {
-"generatedAt": "2026-08-15T22:17:14.000Z",
+"generatedAt": "2026-08-16T22:17:05.000Z",
 "daysBack": 7,
 "journalCount": 59,
 "stats": {
-"total": 134,
+"total": 132,
 "byType": {
-"meta-analysis": 2,
-"review": 12,
+"review": 13,
+"meta-analysis": 1,
 "rct": 2,
+"original": 83,
 "editorial": 13,
-"letter": 19,
-"original": 86
+"letter": 20
 },
 "byTier": {
-"1": 68,
-"2": 57,
+"1": 70,
+"2": 53,
 "3": 9
 },
-"topScore": 69,
-"avgScore": 41
+"topScore": 58,
+"avgScore": 40
 },
 "articleOfWeek": {
-"pmid": "42576250",
-"title": "Predictive value of diaphragmatic ultrasound for weaning outcomes in mechanically ventilated patients with acute exacerbation of chronic obstructive pulmonary disease: a systematic review and meta-analysis.",
+"pmid": "42603603",
+"title": "Transoesophageal echocardiography during cardiopulmonary resuscitation for cardiac arrest: A scoping review.",
 "authors": [
-"Zhou X",
-"Xu Y",
-"Yan Q",
-"Chen R",
-"Lv X",
-"Wang Z"
+"Scquizzato T",
+"Zelop CM",
+"Purkarthofer D",
+"Scandroglio AM",
+"Kruit N",
+"McGowan R",
+"Teran F",
+"Berg K",
+"Moskowitz A",
+"Drennan IR",
+"International Liaison Committee on Resuscitation Advanced Life Support Task Force"
 ],
-"journal": "Critical care (London, England)",
+"journal": "Resuscitation",
 "journalTier": 1,
 "journalSJR": null,
-"articleType": "meta-analysis",
-"pubDate": "2026-08-08",
-"abstract": "Weaning failure in mechanically ventilated patients with acute exacerbation of chronic obstructive pulmonary disease (AECOPD) remains a critical ICU challenge that substantially increases mortality. Although point-of-care diaphragmatic ultrasound is widely proposed to guide weaning decisions, its diagnostic accuracy remains uncertain, and the optimal parameter for this high-risk population has yet to be established. We systematically searched eight databases through April 5, 2026, for studies evaluating diaphragmatic ultrasound for predicting weaning outcomes in AECOPD. After methodological quality was appraised with the QUADAS-2 tool. Pooled sensitivity, specificity, positive and negative likelihood ratios (LR + and LR-), and diagnostic odds ratios were estimated using bivariate random-effects models, and overall diagnostic performance was summarized by the area under the summary receiver operating characteristic curve. Fagan nomograms were constructed to illustrate changes from pre-test to post-test probability. Threshold effects and heterogeneity were assessed using Spearman correlation and the Q test with the I² statistic, respectively. Exploratory meta-regression, leave-one-out sensitivity analyses, and Deeks' test were used to investigate sources of heterogeneity, assess result stability, and evaluate funnel-plot asymmetry. Twenty-three studies comprising 2,000 patients (1,310 successes, 690 failures) were included. Of 14 distinct ultrasound parameters identified, four provided sufficient data for quantitative synthesis. Diaphragmatic excursion (DE, n = 16) showed the most robust and balanced performance, with a pooled sensitivity of 0.85, specificity of 0.85, and an AUC of 0.92. Diaphragm thickening fraction (DTF, n = 13) also showed good accuracy (sensitivity 0.84, specificity 0.77, AUC 0.88). The diaphragmatic rapid shallow breathing index (D-RSBI, n = 8) showed high specificity (0.88) but moderate sensitivity (0.74; AUC 0.85), whereas diaphragmatic contraction velocity (DCV, n = 4) showed only moderate accuracy (AUC 0.70). Substantial heterogeneity was observed for DE, DTF, and D-RSBI. Diaphragm ultrasound, particularly DE, may provide useful prognostic information for weaning outcomes in mechanically ventilated patients with AECOPD, while D-RSBI may help identify patients at high risk of weaning failure. However, given the small, predominantly single-centre studies, post hoc study-specific thresholds, substantial heterogeneity, and geographical concentration of the evidence, these findings represent apparent prognostic performance rather than externally validated diagnostic accuracy. Diaphragm ultrasound should therefore be used as an adjunct rather than the sole basis for weaning decisions, pending multicentre external validation and interventional trials demonstrating improved patient-important outcomes.",
-"doi": "10.1186/s13054-022-03975-5",
+"articleType": "review",
+"pubDate": "2026-08-15",
+"abstract": "Transoesophageal echocardiography (TEE) enables continuous cardiac imaging during cardiopulmonary resuscitation (CPR) without interrupting chest compressions, but its impact on patients' outcomes remains uncertain. We performed a scoping review to comprehensively map the evidence on intra-arrest TEE in cardiac arrest. We searched PubMed, Embase, CENTRAL, ClinicalTrials.gov, and grey literature from inception to March 2026. Studies evaluating TEE during CPR in adults with in- or out-of-hospital cardiac arrest were included. Outcomes comprised survival, neurological status, return of spontaneous circulation, CPR quality metrics, diagnostic findings, impact on management, feasibility, and safety. Twenty-two studies including 1,254 patients (84% out-of-hospital cardiac arrest) were identified; most were single-centre observational studies without comparators. Two randomized trials reported no difference between TEE-guided and conventional CPR in return of spontaneous circulation, survival, or favourable neurological outcome. Observational data suggested associations between TEE-defined compression location and outcomes, with compressions over the left ventricular outflow tract or aortic valve associated with less frequent return of spontaneous circulation and short-term survival. TEE-guided modification of chest compression position occurred in 19-76% of cases. TEE influenced management in 31-48% of patients and identified potential arrest aetiology in 20-86%. TEE was associated with shorter pauses compared with transthoracic echocardiography. Feasibility was high (successful insertion 80-100%), with few reported complications. Knowledge gaps include lack of long-term outcomes, standardized protocols, and evidence on safety and effectiveness across different clinical settings. Intra-arrest TEE appears feasible and frequently alters resuscitation management, but current evidence does not demonstrate improved patient-centred outcomes. Further studies are required to inform appropriate integration into resuscitation practice.",
+"doi": "10.1016/j.resuscitation.2026.111261",
 "keywords": [
-"Acute exacerbation of chronic obstructive pulmonary disease",
-"Diaphragmatic excursion",
-"Diaphragmatic ultrasound",
-"Intensive care units",
-"Meta-analysis",
-"Ventilator weaning",
-"Weaning failure"
+"cardiac arrest",
+"out-of-hospital cardiac arrest",
+"transoesophageal echocardiography",
+"ultrasound"
 ],
-"meshTerms": [
-"Humans",
-"Pulmonary Disease, Chronic Obstructive",
-"Ultrasonography",
-"Ventilator Weaning",
-"Diaphragm",
-"Respiration, Artificial",
-"Predictive Value of Tests",
-"ROC Curve",
-"Sensitivity and Specificity"
-],
+"meshTerms": [],
 "pubTypes": [
 "Journal Article",
-"Meta-Analysis",
-"Systematic Review"
+"Review"
 ],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42576250/",
-"impactScore": 69
+"url": "https://pubmed.ncbi.nlm.nih.gov/42603603/",
+"impactScore": 58
 },
 "articles": [
 {
-"pmid": "42576250",
-"title": "Predictive value of diaphragmatic ultrasound for weaning outcomes in mechanically ventilated patients with acute exacerbation of chronic obstructive pulmonary disease: a systematic review and meta-analysis.",
+"pmid": "42603603",
+"title": "Transoesophageal echocardiography during cardiopulmonary resuscitation for cardiac arrest: A scoping review.",
 "authors": [
-"Zhou X",
-"Xu Y",
-"Yan Q",
-"Chen R",
-"Lv X",
-"Wang Z"
+"Scquizzato T",
+"Zelop CM",
+"Purkarthofer D",
+"Scandroglio AM",
+"Kruit N",
+"McGowan R",
+"Teran F",
+"Berg K",
+"Moskowitz A",
+"Drennan IR",
+"International Liaison Committee on Resuscitation Advanced Life Support Task Force"
 ],
-"journal": "Critical care (London, England)",
+"journal": "Resuscitation",
 "journalTier": 1,
 "journalSJR": null,
-"articleType": "meta-analysis",
-"pubDate": "2026-08-08",
-"abstract": "Weaning failure in mechanically ventilated patients with acute exacerbation of chronic obstructive pulmonary disease (AECOPD) remains a critical ICU challenge that substantially increases mortality. Although point-of-care diaphragmatic ultrasound is widely proposed to guide weaning decisions, its diagnostic accuracy remains uncertain, and the optimal parameter for this high-risk population has yet to be established. We systematically searched eight databases through April 5, 2026, for studies evaluating diaphragmatic ultrasound for predicting weaning outcomes in AECOPD. After methodological quality was appraised with the QUADAS-2 tool. Pooled sensitivity, specificity, positive and negative likelihood ratios (LR + and LR-), and diagnostic odds ratios were estimated using bivariate random-effects models, and overall diagnostic performance was summarized by the area under the summary receiver operating characteristic curve. Fagan nomograms were constructed to illustrate changes from pre-test to post-test probability. Threshold effects and heterogeneity were assessed using Spearman correlation and the Q test with the I² statistic, respectively. Exploratory meta-regression, leave-one-out sensitivity analyses, and Deeks' test were used to investigate sources of heterogeneity, assess result stability, and evaluate funnel-plot asymmetry. Twenty-three studies comprising 2,000 patients (1,310 successes, 690 failures) were included. Of 14 distinct ultrasound parameters identified, four provided sufficient data for quantitative synthesis. Diaphragmatic excursion (DE, n = 16) showed the most robust and balanced performance, with a pooled sensitivity of 0.85, specificity of 0.85, and an AUC of 0.92. Diaphragm thickening fraction (DTF, n = 13) also showed good accuracy (sensitivity 0.84, specificity 0.77, AUC 0.88). The diaphragmatic rapid shallow breathing index (D-RSBI, n = 8) showed high specificity (0.88) but moderate sensitivity (0.74; AUC 0.85), whereas diaphragmatic contraction velocity (DCV, n = 4) showed only moderate accuracy (AUC 0.70). Substantial heterogeneity was observed for DE, DTF, and D-RSBI. Diaphragm ultrasound, particularly DE, may provide useful prognostic information for weaning outcomes in mechanically ventilated patients with AECOPD, while D-RSBI may help identify patients at high risk of weaning failure. However, given the small, predominantly single-centre studies, post hoc study-specific thresholds, substantial heterogeneity, and geographical concentration of the evidence, these findings represent apparent prognostic performance rather than externally validated diagnostic accuracy. Diaphragm ultrasound should therefore be used as an adjunct rather than the sole basis for weaning decisions, pending multicentre external validation and interventional trials demonstrating improved patient-important outcomes.",
-"doi": "10.1186/s13054-022-03975-5",
+"articleType": "review",
+"pubDate": "2026-08-15",
+"abstract": "Transoesophageal echocardiography (TEE) enables continuous cardiac imaging during cardiopulmonary resuscitation (CPR) without interrupting chest compressions, but its impact on patients' outcomes remains uncertain. We performed a scoping review to comprehensively map the evidence on intra-arrest TEE in cardiac arrest. We searched PubMed, Embase, CENTRAL, ClinicalTrials.gov, and grey literature from inception to March 2026. Studies evaluating TEE during CPR in adults with in- or out-of-hospital cardiac arrest were included. Outcomes comprised survival, neurological status, return of spontaneous circulation, CPR quality metrics, diagnostic findings, impact on management, feasibility, and safety. Twenty-two studies including 1,254 patients (84% out-of-hospital cardiac arrest) were identified; most were single-centre observational studies without comparators. Two randomized trials reported no difference between TEE-guided and conventional CPR in return of spontaneous circulation, survival, or favourable neurological outcome. Observational data suggested associations between TEE-defined compression location and outcomes, with compressions over the left ventricular outflow tract or aortic valve associated with less frequent return of spontaneous circulation and short-term survival. TEE-guided modification of chest compression position occurred in 19-76% of cases. TEE influenced management in 31-48% of patients and identified potential arrest aetiology in 20-86%. TEE was associated with shorter pauses compared with transthoracic echocardiography. Feasibility was high (successful insertion 80-100%), with few reported complications. Knowledge gaps include lack of long-term outcomes, standardized protocols, and evidence on safety and effectiveness across different clinical settings. Intra-arrest TEE appears feasible and frequently alters resuscitation management, but current evidence does not demonstrate improved patient-centred outcomes. Further studies are required to inform appropriate integration into resuscitation practice.",
+"doi": "10.1016/j.resuscitation.2026.111261",
 "keywords": [
-"Acute exacerbation of chronic obstructive pulmonary disease",
-"Diaphragmatic excursion",
-"Diaphragmatic ultrasound",
-"Intensive care units",
-"Meta-analysis",
-"Ventilator weaning",
-"Weaning failure"
+"cardiac arrest",
+"out-of-hospital cardiac arrest",
+"transoesophageal echocardiography",
+"ultrasound"
 ],
-"meshTerms": [
-"Humans",
-"Pulmonary Disease, Chronic Obstructive",
-"Ultrasonography",
-"Ventilator Weaning",
-"Diaphragm",
-"Respiration, Artificial",
-"Predictive Value of Tests",
-"ROC Curve",
-"Sensitivity and Specificity"
-],
+"meshTerms": [],
 "pubTypes": [
 "Journal Article",
-"Meta-Analysis",
-"Systematic Review"
+"Review"
 ],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42576250/",
-"impactScore": 69
+"url": "https://pubmed.ncbi.nlm.nih.gov/42603603/",
+"impactScore": 58
 },
 {
 "pmid": "42584695",
@@ -150,7 +132,7 @@
 "Meta-Analysis"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42584695/",
-"impactScore": 59
+"impactScore": 58
 },
 {
 "pmid": "42593538",
@@ -181,7 +163,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42593538/",
-"impactScore": 57
+"impactScore": 56
 },
 {
 "pmid": "42593537",
@@ -216,7 +198,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42593537/",
-"impactScore": 57
+"impactScore": 56
 },
 {
 "pmid": "42587308",
@@ -245,7 +227,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42587308/",
-"impactScore": 56
+"impactScore": 55
 },
 {
 "pmid": "42580515",
@@ -280,7 +262,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42580515/",
-"impactScore": 55
+"impactScore": 54
 },
 {
 "pmid": "42596010",
@@ -325,7 +307,7 @@
 "Randomized Controlled Trial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42596010/",
-"impactScore": 54
+"impactScore": 53
 },
 {
 "pmid": "42584703",
@@ -377,7 +359,126 @@
 "Randomized Controlled Trial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42584703/",
-"impactScore": 54
+"impactScore": 53
+},
+{
+"pmid": "42603604",
+"title": "Evaluating the Effect of a Regional Training Initiative on Bystander Cardiopulmonary Resuscitation Rates after Out-of-Hospital Cardiac Arrest.",
+"authors": [
+"Toy J",
+"Tolles J",
+"Dillon DG",
+"Breyre A",
+"Cloud J",
+"Montoy JC",
+"Aragon L",
+"Mercer M",
+"Shetgiri R",
+"Fogleman S",
+"Gausche-Hill M",
+"Bosson N"
+],
+"journal": "Resuscitation",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-08-15",
+"abstract": "We evaluated the impact of a regional, year-long bystander hands-only cardiopulmonary resuscitation (CPR) education and training initiative conducted at the community level on bystander CPR rates after out-of-hospital cardiac arrest (OHCA). We used a difference-in-differences framework to estimate the association between the intervention and bystander CPR rates in a single large county compared with two other counties as controls. We used data from January 2022 to December 2024 from Cardiac Arrest Registry to Enhance Survival (CARES). We excluded OHCA events at health care facilities. Our primary outcome was the change in bystander CPR rates associated with the intervention; this analysis was stratified by home and public locations. Additionally, we evaluated the secondary outcomes of survival to hospital discharge and neurologically intact survival. We fit logistic regression models for each of these outcomes with fixed effects for each county. Of 20,414 included patients; 15,417 were from the intervention region. Overall, bystander CPR rates increased from 37.4% to 42.5% in the intervention region between the pre- and post-intervention periods; however, our adjusted model did not identify a significant intervention effect (2.94 percentage-points; 95% CI -0.95 to 6.83). In public locations, our adjusted model identified a significant 8.59 percentage-point increase in bystander CPR rates associated with the intervention (95% CI 0.22 to 16.96), and no significant effect in home locations. We did not find a significant intervention effect on survival to hospital discharge and neurologically intact survival between the pre- and post-intervention periods. While we observed an increasing trend in bystander CPR rates in all regions, this change was not associated with the intervention. However, we found that the intervention was associated with a significant increase in bystander CPR rates for public OHCAs.",
+"doi": "10.1016/j.resuscitation.2026.111262",
+"keywords": [
+"cardiopulmonary resuscitation",
+"community interventions",
+"heart arrest",
+"out-of-hospital cardiac arrest"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42603604/",
+"impactScore": 49
+},
+{
+"pmid": "42603602",
+"title": "Paediatric out-of-hospital cardiac arrest occurring before and after emergency medical service arrival: a retrospective study.",
+"authors": [
+"Kennedy C",
+"Nehme E",
+"McManamny T",
+"Anderson D",
+"Dantanarayana A",
+"Nehme Z"
+],
+"journal": "Resuscitation",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-08-15",
+"abstract": "To examine the association between witness status and the incidence, characteristics, and survival outcomes of paediatric out-of-hospital cardiac arrest (OHCA) attended by emergency medical services (EMS). We conducted a retrospective cohort study of paediatric (<18 years) OHCA cases attended by EMS between 1 January 2000 and 31 December 2024. Cases were identified from the Victorian Ambulance Cardiac Arrest Registry (VACAR). Witness status was categorised as unwitnessed, bystander witnessed, or EMS witnessed. Multivariable logistic regression was used to evaluate the association between witness status and outcomes, adjusting for age, sex, arrest location, region, aetiology, initial rhythm and year. A total of 2,645 paediatric OHCAs were attended by EMS, of which 1,891 (71.5%) received a resuscitation attempt. Among EMS-treated cases, 59.8% were unwitnessed, 32.0% were bystander witnessed, and 8.1% were EMS witnessed. The incidence of unwitnessed and bystander witnessed OHCA declined over the 25-year period (p<0.001), whereas EMS witnessed incidence remained stable. After adjustment, EMS witnessed arrests were associated with significantly higher odds of survival to hospital discharge (AOR 1.91, 95% CI 1.04-3.52) and prehospital ROSC (AOR 1.83, 95% CI 1.20-2.77) compared with bystander witnessed arrests, while unwitnessed arrests had substantially lower survival across all outcomes. Paediatric OHCA witnessed by EMS is associated with significantly higher adjusted odds of survival compared with bystander witnessed events. These findings highlight the importance of early professional intervention and support the need for paediatric-specific strategies to improve recognition and response to these events.",
+"doi": "10.1016/j.resuscitation.2026.111267",
+"keywords": [
+"Paediatric",
+"emergency medical services",
+"epidemiology",
+"out–of–hospital cardiac arrest",
+"resuscitation"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42603602/",
+"impactScore": 49
+},
+{
+"pmid": "42603601",
+"title": "Pediatric extracorporeal cardiopulmonary resuscitation for out-of-hospital cardiac arrest: outcomes and clinical trajectories.",
+"authors": [
+"Veronese G",
+"Grazioli L",
+"Meani P",
+"Fochi O",
+"Fazzi F",
+"Bronco A",
+"Colombo G",
+"Serafini M",
+"Salurso A",
+"Pellicioli I",
+"Ferrari F",
+"Vedovati S",
+"Valoti OF",
+"Ghitti D",
+"Viscardi S",
+"Ammirati E",
+"Seddio F",
+"Uricchio N",
+"Bonacina D",
+"Volpi C",
+"Raimondi F",
+"Bonanomi E",
+"Lorusso R",
+"Lorini FL"
+],
+"journal": "Resuscitation",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-08-15",
+"abstract": "To characterize management, outcomes, and donation trajectories of pediatric extracorporeal cardiopulmonary resuscitation (ECPR) for out-of-hospital cardiac arrest (OHCA), and to describe early features observed among survivors and non-survivors. We conducted a retrospective single-centre observational cohort study including all consecutive children (<18 years) treated with ECPR for OHCA at a tertiary pediatric ECMO referral centre between 1 January 2013 and 31 December 2025. Survivors were compared with non-survivors, and among non-survivors, patients with brain death diagnosis were compared with those without brain death diagnosis. Among 155 pediatric OHCA patients managed at our institution during the study period, 42 (27.1%) underwent ECPR and were included in the present analysis. Median age was 9 years, median low-flow time 85 min, and median ECMO duration 55 h. Survival to hospital discharge was 19.0% (8/42). In exploratory comparisons, survivors more often received bystander CPR (100.0% vs 52.9%, p=0.016), had more frequent transient pre-hospital ROSC (62.5% vs 20.6%, p=0.031), and shorter low-flow duration (53 vs 90 min, p=0.006) than non-survivors. Survivors also had lower initial lactate (11.18 vs 18.00 mmol/L, p=0.003), lower 24-h vasoactive-inotropic score (5 vs 18, p=0.0053), and lower 24-h transfusion burden (12 vs 40 mL/kg, p=0.029). Non-survivors had more severe and persistent early organ injury. Of 34 deaths, 12 had a brain death diagnosis (35.3% of non-survivors; 28.6% of the total cohort), and 4 became effective organ donors. At last follow-up (median, 412 days), 7 of 8 hospital survivors were alive, and 6 of 7 had PCPC ≤2. Pediatric OHCA-ECPR yielded limited but meaningful survival. Measures of early resuscitation quality, low-flow duration, and early metabolic and organ-injury profiles may help distinguish different clinical trajectories after pediatric OHCA-ECPR.",
+"doi": "10.1016/j.resuscitation.2026.111263",
+"keywords": [
+"extracorporeal cardiopulmonary resuscitation",
+"extracorporeal membrane oxygenation",
+"organ donation",
+"out-of-hospital cardiac arrest",
+"pediatrics"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42603601/",
+"impactScore": 49
 },
 {
 "pmid": "42600768",
@@ -406,7 +507,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42600768/",
-"impactScore": 50
+"impactScore": 49
 },
 {
 "pmid": "42601631",
@@ -435,7 +536,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42601631/",
-"impactScore": 49
+"impactScore": 48
 },
 {
 "pmid": "42600771",
@@ -474,7 +575,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42600771/",
-"impactScore": 49
+"impactScore": 48
 },
 {
 "pmid": "42600769",
@@ -503,7 +604,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42600769/",
-"impactScore": 49
+"impactScore": 48
 },
 {
 "pmid": "42600767",
@@ -540,7 +641,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42600767/",
-"impactScore": 49
+"impactScore": 48
 },
 {
 "pmid": "42600766",
@@ -575,7 +676,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42600766/",
-"impactScore": 49
+"impactScore": 48
 },
 {
 "pmid": "42599766",
@@ -610,7 +711,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42599766/",
-"impactScore": 49
+"impactScore": 48
 },
 {
 "pmid": "42596019",
@@ -632,7 +733,7 @@
 "Comment"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42596019/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42596017",
@@ -657,7 +758,7 @@
 "Comment"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42596017/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42596015",
@@ -682,7 +783,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42596015/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42596012",
@@ -707,7 +808,7 @@
 "Comment"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42596012/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42593254",
@@ -729,7 +830,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42593254/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42593167",
@@ -763,7 +864,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42593167/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42586303",
@@ -786,7 +887,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42586303/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42586302",
@@ -809,7 +910,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42586302/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42584666",
@@ -832,7 +933,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42584666/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42584665",
@@ -854,7 +955,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42584665/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42601278",
@@ -876,7 +977,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42601278/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42600262",
@@ -911,7 +1012,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42600262/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42587314",
@@ -934,7 +1035,7 @@
 "Comment"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42587314/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42587309",
@@ -957,7 +1058,7 @@
 "Comment"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42587309/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42587304",
@@ -980,7 +1081,7 @@
 "Comment"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42587304/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42587297",
@@ -1003,7 +1104,7 @@
 "Comment"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42587297/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42586496",
@@ -1043,7 +1144,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42586496/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42586304",
@@ -1072,7 +1173,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42586304/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42586301",
@@ -1097,7 +1198,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42586301/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42586300",
@@ -1119,7 +1220,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42586300/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42586299",
@@ -1152,7 +1253,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42586299/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42586298",
@@ -1184,7 +1285,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42586298/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42584203",
@@ -1215,7 +1316,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42584203/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42584202",
@@ -1250,7 +1351,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42584202/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42584189",
@@ -1292,7 +1393,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42584189/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42584186",
@@ -1326,7 +1427,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42584186/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42584185",
@@ -1359,7 +1460,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42584185/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42579000",
@@ -1382,7 +1483,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42579000/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42578999",
@@ -1405,7 +1506,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42578999/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42578997",
@@ -1428,7 +1529,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42578997/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42601277",
@@ -1455,7 +1556,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42601277/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42600264",
@@ -1488,7 +1589,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42600264/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42580879",
@@ -1519,7 +1620,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42580879/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42580878",
@@ -1548,7 +1649,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42580878/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42580877",
@@ -1578,7 +1679,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42580877/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42580876",
@@ -1608,7 +1709,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42580876/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42580875",
@@ -1636,7 +1737,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42580875/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42580516",
@@ -1668,7 +1769,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42580516/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42580331",
@@ -1702,7 +1803,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42580331/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42579001",
@@ -1736,7 +1837,7 @@
 "Published Erratum"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42579001/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42578998",
@@ -1759,7 +1860,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42578998/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42578996",
@@ -1794,7 +1895,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42578996/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42521477",
@@ -1828,7 +1929,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42521477/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42573743",
@@ -1860,7 +1961,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42573743/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42573742",
@@ -1883,7 +1984,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42573742/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42573740",
@@ -1906,7 +2007,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42573740/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42600263",
@@ -1939,7 +2040,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42600263/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42594675",
@@ -1966,7 +2067,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42594675/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42576243",
@@ -1994,7 +2095,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42576243/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42574291",
@@ -2016,7 +2117,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42574291/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42574289",
@@ -2048,7 +2149,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42574289/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42573741",
@@ -2070,7 +2171,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42573741/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42573415",
@@ -2103,7 +2204,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42573415/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42573413",
@@ -2134,7 +2235,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42573413/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42573409",
@@ -2164,39 +2265,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42573409/",
-"impactScore": 45
-},
-{
-"pmid": "42570352",
-"title": "Corrigendum to \"The association between early arterial oxygen and carbon dioxide with neurologic outcomes after pediatric ECPR in children with cardiac disease\" [Resuscitation 222 (2026) 111007].",
-"authors": [
-"Yu P",
-"Foster S",
-"Haar LZ",
-"Li X",
-"Bhaskar P",
-"Morriss M",
-"Singh S",
-"Burr T",
-"Sirsi D",
-"Raman L",
-"Reeder R",
-"Lasa JJ"
-],
-"journal": "Resuscitation",
-"journalTier": 1,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-08-08",
-"abstract": "",
-"doi": "10.1016/j.resuscitation.2026.111228",
-"keywords": [],
-"meshTerms": [],
-"pubTypes": [
-"Published Erratum"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42570352/",
-"impactScore": 43
+"impactScore": 44
 },
 {
 "pmid": "42600367",
@@ -2229,7 +2298,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42600367/",
-"impactScore": 42
+"impactScore": 41
 },
 {
 "pmid": "42594691",
@@ -2268,7 +2337,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42594691/",
-"impactScore": 41
+"impactScore": 40
 },
 {
 "pmid": "42573900",
@@ -2307,7 +2376,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42573900/",
-"impactScore": 40
+"impactScore": 39
 },
 {
 "pmid": "42530919",
@@ -2336,7 +2405,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42530919/",
-"impactScore": 40
+"impactScore": 39
 },
 {
 "pmid": "42573530",
@@ -2360,6 +2429,36 @@
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42573530/",
 "impactScore": 37
+},
+{
+"pmid": "42603837",
+"title": "Emergency medicine triage practices across Canadian hospitals: a national survey.",
+"authors": [
+"Toarta C",
+"Hall JN",
+"McCarron J",
+"McLeod SL",
+"CTAS National Advisory Committee"
+],
+"journal": "CJEM",
+"journalTier": 2,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-08-15",
+"abstract": "Triage in emergency departments (EDs) prioritizes patient care when demand exceeds resources. In Canada, the Canadian Triage and Acuity Scale (CTAS) is the nationally endorsed system used to guide triage decisions. Despite longstanding advocacy for standardized practices, implementation and training requirements vary across hospitals, and electronic decision-support tools have been increasingly integrated to support triage. This study aimed to describe current triage practices, staffing, and training across Canadian EDs. We conducted a national, bilingual cross-sectional survey of ED staff across 10 provinces and three territories. A 21-item electronic questionnaire, developed by a multidisciplinary team, captured data on triage roles, training, tools, and protocols. Surveys were distributed via provincial and local ED leads, with follow-up reminders to maximize participation. Responses were summarized using descriptive statistics and reported as counts and percentages. The survey was conducted in accordance with the Kelley checklist. A total of 1169 surveys were completed, mostly in English, from ten provinces and two territories with Ontario and Alberta being overrepresented. Respondents were predominantly registered nurses (79.1%) responsible for triage (99.1%), with most having more than 2 years of triage experience in addition to prior nursing experience (86.1%). The majority reported using the 2016 CTAS guidelines (54.8%) and electronic CTAS (53.9%). Most sites had minimum training requirements for triage staff (74.7%), with 91.4% of respondents having completed the NENA/CAEP CTAS participant course. Considerable variability existed in guideline awareness, training requirements, and triage practices. Triage in Canadian EDs is predominantly performed by registered nurses with more than two years of triage experience, most of whom have completed formal CTAS training. Despite widespread guideline use and decision-support tools, practices remain inconsistent, underscoring the need for standardized training and implementation strategies to ensure safe, effective, and reliable triage across the country.",
+"doi": "10.1016/j.annemergmed.2023.11.018",
+"keywords": [
+"Canadian Triage and Acuity Scale (CTAS)",
+"Emergency medicine",
+"Nursing",
+"Triage"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42603837/",
+"impactScore": 35
 },
 {
 "pmid": "42599720",
@@ -2387,7 +2486,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42599720/",
-"impactScore": 35
+"impactScore": 34
 },
 {
 "pmid": "42599452",
@@ -2434,7 +2533,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42599452/",
-"impactScore": 35
+"impactScore": 34
 },
 {
 "pmid": "42599451",
@@ -2483,7 +2582,7 @@
 "Comparative Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42599451/",
-"impactScore": 35
+"impactScore": 34
 },
 {
 "pmid": "42599404",
@@ -2533,7 +2632,7 @@
 "Comparative Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42599404/",
-"impactScore": 35
+"impactScore": 34
 },
 {
 "pmid": "42596525",
@@ -2566,7 +2665,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42596525/",
-"impactScore": 35
+"impactScore": 34
 },
 {
 "pmid": "42599618",
@@ -2603,7 +2702,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42599618/",
-"impactScore": 34
+"impactScore": 33
 },
 {
 "pmid": "42601261",
@@ -2646,7 +2745,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42601261/",
-"impactScore": 34
+"impactScore": 33
 },
 {
 "pmid": "42593749",
@@ -2674,7 +2773,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42593749/",
-"impactScore": 34
+"impactScore": 33
 },
 {
 "pmid": "42593748",
@@ -2709,7 +2808,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42593748/",
-"impactScore": 34
+"impactScore": 33
 },
 {
 "pmid": "42593746",
@@ -2742,7 +2841,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42593746/",
-"impactScore": 34
+"impactScore": 33
 },
 {
 "pmid": "42593742",
@@ -2772,7 +2871,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42593742/",
-"impactScore": 34
+"impactScore": 33
 },
 {
 "pmid": "42593741",
@@ -2800,7 +2899,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42593741/",
-"impactScore": 34
+"impactScore": 33
 },
 {
 "pmid": "42593740",
@@ -2836,7 +2935,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42593740/",
-"impactScore": 34
+"impactScore": 33
 },
 {
 "pmid": "42593736",
@@ -2868,7 +2967,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42593736/",
-"impactScore": 34
+"impactScore": 33
 },
 {
 "pmid": "42593728",
@@ -2899,7 +2998,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42593728/",
-"impactScore": 34
+"impactScore": 33
 },
 {
 "pmid": "42593726",
@@ -2929,7 +3028,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42593726/",
-"impactScore": 34
+"impactScore": 33
 },
 {
 "pmid": "42593625",
@@ -2955,7 +3054,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42593625/",
-"impactScore": 34
+"impactScore": 33
 },
 {
 "pmid": "42593523",
@@ -2979,7 +3078,7 @@
 "Published Erratum"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42593523/",
-"impactScore": 34
+"impactScore": 33
 },
 {
 "pmid": "42593585",
@@ -3020,7 +3119,32 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42593585/",
-"impactScore": 33
+"impactScore": 32
+},
+{
+"pmid": "42603731",
+"title": "Beyond the null result: Unpacking the clinical nuance of concomitant carpal tunnel release with distal radius fracture fixation.",
+"authors": [
+"Sima J",
+"Jiang M",
+"Chen X",
+"Wang J",
+"Gao M"
+],
+"journal": "Injury",
+"journalTier": 2,
+"journalSJR": null,
+"articleType": "letter",
+"pubDate": "2026-08-12",
+"abstract": "",
+"doi": "10.1016/j.injury.2026.113590",
+"keywords": [],
+"meshTerms": [],
+"pubTypes": [
+"Letter"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42603731/",
+"impactScore": 32
 },
 {
 "pmid": "42584805",
@@ -3063,7 +3187,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42584805/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42584804",
@@ -3093,7 +3217,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42584804/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42584706",
@@ -3144,7 +3268,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42584706/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42584683",
@@ -3196,7 +3320,7 @@
 "Observational Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42584683/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42584679",
@@ -3246,7 +3370,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42584679/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42584678",
@@ -3293,7 +3417,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42584678/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42584667",
@@ -3344,7 +3468,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42584667/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42584664",
@@ -3391,7 +3515,7 @@
 "Comparative Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42584664/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42596016",
@@ -3431,7 +3555,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42596016/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42579063",
@@ -3459,7 +3583,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42579063/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42579062",
@@ -3496,7 +3620,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42579062/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42579061",
@@ -3522,7 +3646,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42579061/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42573949",
@@ -3550,7 +3674,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42573949/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42581343",
@@ -3581,7 +3705,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42581343/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42587273",
@@ -3622,7 +3746,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42587273/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42574977",
@@ -3649,7 +3773,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42574977/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42574268",
@@ -3682,7 +3806,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42574268/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42574025",
@@ -3708,7 +3832,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42574025/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42573948",
@@ -3742,7 +3866,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42573948/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42573947",
@@ -3771,7 +3895,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42573947/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42573946",
@@ -3804,7 +3928,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42573946/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42573901",
@@ -3836,7 +3960,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42573901/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42572819",
@@ -3882,7 +4006,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42572819/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42572816",
@@ -3921,7 +4045,7 @@
 "Observational Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42572816/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42572806",
@@ -3960,7 +4084,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42572806/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42546174",
@@ -3987,7 +4111,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42546174/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42572043",
@@ -4024,7 +4148,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42572043/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42585795",
@@ -4056,194 +4180,6 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42585795/",
-"impactScore": 30
-},
-{
-"pmid": "42585796",
-"title": "The penetrating injury risk of non-home discharge (PIRD) score: Development and validation of a predictive tool using the National Trauma Data Bank.",
-"authors": [
-"Phadke R",
-"Salman S",
-"Ilyas MH",
-"Sontam T",
-"Rana A",
-"Leucht P"
-],
-"journal": "Injury",
-"journalTier": 2,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-08-08",
-"abstract": "Penetrating trauma disproportionately affects young patients, yet many survivors cannot be discharged directly home and instead require post-acute care. Identifying these patients early could expedite rehabilitation referral and discharge planning, but no validated tool predicts non-home discharge in penetrating trauma. We developed and internally validated the Penetrating Injury Risk of Non-home Discharge (PIRD) score. Using the National Trauma Data Bank (NTDB) Trauma Quality Improvement Program Participant Use Files (2019-2024), we selected adult patients (≥18 years) with penetrating trauma who survived to discharge. The outcome was non-home discharge to post-acute care (e.g., skilled nursing or inpatient rehabilitation) versus home. The cohort was split 2:1 into derivation and validation sets, stratified by outcome. Candidate predictors available early in the hospital course (demographics, insurance, mechanism, emergency-department physiology, the Injury Severity Score [ISS], body-region injury, transport, and comorbidities) underwent univariate screening, collinearity assessment, and backward-stepwise multivariable logistic regression. Unlike the orthopedic FORD score, ISS was retained because penetrating trauma is a high-severity, mortality-driven population. Coefficients were converted to integer points, scaled 0-10. Among 302,399 patients, 21,186 (7.0%) had non-home discharge. The 40-predictor model was led by spinal-cord injury, critical injury severity (ISS ≥25), advanced age, and severe traumatic brain injury, whereas stab mechanism and private-vehicle arrival lowered the odds. Validation discrimination was strong (area under the receiver operating characteristic curve [AUROC] 0.866, 95% confidence interval 0.861-0.871) with excellent calibration (Brier 0.046, calibration slope 1.00), exceeding the GTOS-II, TRIAGES, FORD, and DEPARTS scores (all p < 0.001). Non-home discharge rose from 0.7% (low risk) to 37.5% (high risk); at a score ≥4, sensitivity was 86.0% and negative predictive value 98.5%. Derived from variables available early in care, the PIRD score accurately predicts post-acute care discharge in adult penetrating trauma and outperforms existing severity scores, supporting timely discharge planning and resource allocation.",
-"doi": "10.1016/j.injury.2026.113594",
-"keywords": [
-"Clinical prediction model",
-"Discharge disposition",
-"Injury Severity Score",
-"National Trauma Data Bank",
-"Penetrating trauma",
-"Post-acute care"
-],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42585796/",
-"impactScore": 29
-},
-{
-"pmid": "42580979",
-"title": "Age-stratified outcomes after small-volume isolated blunt traumatic brain injury: A national ACS-TQIP analysis.",
-"authors": [
-"Rhodes-Lyons H",
-"McClure DL",
-"Locklear T",
-"Martinek L",
-"Pepe A"
-],
-"journal": "Injury",
-"journalTier": 2,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-08-08",
-"abstract": "Small-volume traumatic brain injuries (TBIs) are often considered low risk clinically, but older adults may face disproportionate adverse outcomes. Evidence outlining age-specific risks related to limited subdural hematomas (SDH), epidural hematomas (EDH), and cerebral contusions remains limited. We performed a retrospective cohort study using data from the American College of Surgeons Trauma Quality Programs Participant Use File (ACS-TQIP-PUF), 2017-2022. Adults aged 40 years and older with isolated blunt TBI were included, excluding skull fractures and multisystem trauma (AIS >1 in non-head regions). Injuries were classified as SDH ≤ 8 mm, EDH ≤ 8 mm, or contusions ≤ 2 cm. Patients were stratified by age (40-64 vs. ≥65 years). Subtype-stratified multivariable logistic regression examined associations between age group and (1) in-hospital mortality and (2) emergency department (ED) disposition to the intensive care unit (ICU), adjusting for demographics, comorbidities, injury severity, trauma center level, neurosurgical procedures, anticoagulation, and venous thromboembolism prophylaxis. The cohort included 135,343 patients, with SDH accounting for 93.2% of cases. Unadjusted in-hospital mortality was higher in elderly patients (≥65 years) than middle-aged adults (40-64 years) across all subtypes: SDH (2.5% vs. 1.5%), EDH (2.1% vs. 1.3%), and contusion (2.0% vs. 0.9%). Unadjusted ICU admission rates were comparable across age groups (SDH: 45.0% vs. 44.7%; EDH: 46.1% vs. 47.3%; contusion: 44.2% vs. 44.2%). On multivariable analysis, elderly patients had significantly higher adjusted odds of in-hospital mortality across all subtypes: SDH (OR 1.774, 95% CI 1.542-2.043), EDH (OR 1.589, 95% CI 1.053-2.397), and contusion (OR 1.591, 95% CI 1.169-2.165). Elderly patients with EDH were more likely to be admitted to the ICU from the ED (OR 1.144, 95% CI 1.020-1.283). Other factors independently associated with mortality included male sex, pre-injury anticoagulation, neurosurgical intervention, renal failure, and functional dependence. Among adults with radiographically small-volume isolated TBIs, advanced age is independently linked to increased in-hospital mortality and higher likelihood of ICU admission, especially in EDH. These findings challenge the notion that limited intracranial hemorrhage is clinically harmless in older adults and support age-specific risk assessment in ED triage and critical care decisions.",
-"doi": "10.1016/j.injury.2026.113595",
-"keywords": [
-"Elderly",
-"Epidural hematoma",
-"ICU admission",
-"Subdural hematoma",
-"Traumatic brain injury"
-],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42580979/",
-"impactScore": 29
-},
-{
-"pmid": "42570974",
-"title": "Diagnostic contribution of contrast-enhanced ultrasound in a small pancreatic neuroendocrine tumor: a case report.",
-"authors": [
-"Noto A",
-"Paradiso S",
-"Curci MA",
-"Khalil M",
-"Portincasa P",
-"MurriMedInt Study Group"
-],
-"journal": "Internal and emergency medicine",
-"journalTier": 2,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-08-08",
-"abstract": "",
-"doi": "10.3390/cancers17111879",
-"keywords": [],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42570974/",
-"impactScore": 29
-},
-{
-"pmid": "42570322",
-"title": "miR-542-3p targets ATG7 to regulate viability and profibrotic marker expression in human keloid fibroblasts.",
-"authors": [
-"Zhang R",
-"Feng J",
-"Zhang Q",
-"Zhao J",
-"Liu J",
-"Guo Y"
-],
-"journal": "Journal of burn care & research : official publication of the American Burn Association",
-"journalTier": 2,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-08-08",
-"abstract": "Keloids are characterized by persistent fibroblast activation and excessive extracellular matrix (ECM) accumulation. This study aimed to clarify the role of miR-542-3p in keloid fibroblasts and to determine whether ATG7 functions as a direct downstream mediator regulating fibroblast viability/apoptosis and profibrotic protein expression. Human keloid fibroblasts (HKFs) and human skin fibroblasts (HSFs) were used. miR-542-3p expression was quantified by RT-qPCR. HKFs were transfected with miR-542-3p mimic/inhibitor and corresponding negative controls. Cell viability was assessed using CCK-8, and apoptosis was evaluated by Annexin V-FITC/PI flow cytometry. Protein levels of collagen I, collagen III and α-SMA were examined by western blotting. Direct targeting of ATG7 by miR-542-3p was tested using wild-type/mutant ATG7 3'-UTR dual-luciferase reporter assays. ATG7 knockdown (si-ATG7) and epistasis (miR-542-3p inhibitor ± si-ATG7) experiments were performed to assess functional dependency. miR-542-3p was significantly upregulated in HKFs compared with HSFs. miR-542-3p inhibition reduced HKF viability and increased apoptosis, whereas miR-542-3p overexpression showed the opposite trend. miR-542-3p positively regulated collagen I, collagen III and α-SMA protein levels. Dual-luciferase assays confirmed that miR-542-3p directly binds the ATG7 3'-UTR, and ATG7 protein abundance was inversely regulated by miR-542-3p. Functionally, ATG7 knockdown increased HKF viability and elevated profibrotic marker expression, and it attenuated the anti-fibrotic effects induced by miR-542-3p inhibition. miR-542-3p promotes a pro-survival, profibrotic phenotype in keloid fibroblasts by directly targeting ATG7. The miR-542-3p/ATG7 axis may represent a mechanistically supported candidate pathway for further investigation in keloid fibrosis.",
-"doi": "10.1093/jbcr/irag129",
-"keywords": [
-"ATG7",
-"extracellular matrix",
-"keloid",
-"keloid fibroblasts",
-"miR-542-3p"
-],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42570322/",
-"impactScore": 29
-},
-{
-"pmid": "42570315",
-"title": "The Impact of Dyschromic Burn Scar on Satisfaction with Appearance: A Burn Model System Study.",
-"authors": [
-"Potluri T",
-"Chung SW",
-"Carney BC",
-"Argirion I"
-],
-"journal": "Journal of burn care & research : official publication of the American Burn Association",
-"journalTier": 2,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-08-08",
-"abstract": "Advances in acute burn care have substantially improved survival, shifting focus towards long-term complications of burn injury that affect quality of life. Hypertrophic scarring is common after burn injury and is often accompanied by dyschromia, a change in scar pigmentation relative to uninjured skin. Despite its visibility, the psychosocial impact of post-burn dyschromia remains poorly characterized. This study examined the relationship between dyschromia, scar thickness, and satisfaction with appearance in burn survivors using longitudinal data from a large, multi-center cohort. Data were obtained from participants enrolled in a national longitudinal burn outcomes database (Burn Model System) with follow-up through 24-months after hospital discharge. Dyschromia and the presence of raised or thick scar were assessed by patient self-report, and satisfaction with appearance was measured using a validated self-report scale. Multivariable logistic regression, survival analyses, and mixed-effects models were used to evaluate cross-sectional and longitudinal associations. Dyschromia was highly prevalent at discharge and strongly associated with raised or thick scar. Female sex and scar thickness were independently associated with reporting dyschromia. Among participants who identified as Black, raised or thick scar predicted both the presence of dyschromia and delayed resolution over time. Persistent dyschromia was associated with sustained dissatisfaction with appearance, while resolution of dyschromia coincided with improvements in satisfaction with appearance. Across models, scar thickness emerged as a consistent determinant of poor psychosocial outcomes. These findings highlight dyschromia as a clinically meaningful sequela of burn injury that is closely linked to fibrotic scar pathology and long-term satisfaction with appearance.",
-"doi": "10.1093/jbcr/irag134",
-"keywords": [
-"Post-burn dyschromia",
-"burn injury recovery",
-"hypertrophic scarring",
-"psychosocial outcomes",
-"satisfaction with appearance"
-],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42570315/",
-"impactScore": 29
-},
-{
-"pmid": "42570311",
-"title": "Staged Biodegradable Temporizing Matrix and Meek Micrografting as a Donor-Sparing Strategy for Extensive Burn Injuries.",
-"authors": [
-"Wise J",
-"Wallace DL",
-"Mason SA",
-"Rogers AD"
-],
-"journal": "Journal of burn care & research : official publication of the American Burn Association",
-"journalTier": 2,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-08-08",
-"abstract": "Definitive closure of extensive burns remains constrained by donor-site availability, particularly in patients with burns of 50% total body surface area (TBSA) or greater. Biodegradable Temporizing Matrix (BTM) can stabilize excised wounds while donor sites recover, whereas Meek micrografting permits controlled expansion of limited autologous skin. We retrospectively reviewed adult patients admitted between May 2022 and May 2025 with burns of 50% TBSA or greater who underwent BTM application followed by Meek micrografting as part of definitive wound-closure management. Demographic, injury, operative, and outcome variables were collected from electronic medical records, operative reports, anesthesia records, wound-care documentation, and clinical photography when available. Twelve patients were included. Mean age was 41.5 years, mean burn size was 63.1% TBSA, and mean Baux score was 104.6. All patients had inhalation injury and required tracheostomy. BTM was applied at a mean of 13.3 days after admission, and Meek micrografting was performed at a mean of 42.2 days. Mean TBSA covered by Meek micrografting was 32.5%, representing 50.6% of the burn surface. Operative efficiency improved from 15.2 to approximately 10.8 minutes per 1% TBSA covered over the study period. Clinically documented Meek graft take exceeded 90% in evaluable cases, no patient required secondary autografting of Meek-grafted BTM areas, and 11 of 12 survived to discharge or inpatient rehabilitation. Staged BTM followed by Meek micrografting is a feasible donor-sparing strategy for extensive burn closure that permits special-area prioritization, donor-site recovery, and efficient definitive coverage of large prepared wound surfaces.",
-"doi": "10.1093/jbcr/irag128",
-"keywords": [
-"BTM",
-"Meek micrografting",
-"autograft expansion",
-"biodegradable temporizing matrix",
-"burn reconstruction",
-"burns",
-"definitive wound closure",
-"dermal scaffold",
-"donor-site management",
-"extensive burns",
-"massive burns"
-],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42570311/",
 "impactScore": 29
 },
 {
@@ -4273,7 +4209,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42601518/",
-"impactScore": 26
+"impactScore": 25
 },
 {
 "pmid": "42601623",
@@ -4307,7 +4243,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42601623/",
-"impactScore": 25
+"impactScore": 24
 },
 {
 "pmid": "42599365",
@@ -4336,7 +4272,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42599365/",
-"impactScore": 25
+"impactScore": 24
 },
 {
 "pmid": "42601605",
@@ -4364,7 +4300,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42601605/",
-"impactScore": 24
+"impactScore": 23
 },
 {
 "pmid": "42587274",
@@ -4397,7 +4333,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42587274/",
-"impactScore": 22
+"impactScore": 21
 }
 ]
 }
