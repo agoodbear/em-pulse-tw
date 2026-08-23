@@ -1,24 +1,25 @@
 {
-"generatedAt": "2026-08-22T22:18:04.000Z",
+"generatedAt": "2026-08-23T22:17:38.000Z",
 "daysBack": 7,
 "journalCount": 59,
 "stats": {
-"total": 135,
+"total": 134,
 "byType": {
 "systematic-review": 2,
 "rct": 2,
 "review": 12,
 "letter": 10,
-"original": 103,
-"editorial": 6
+"original": 101,
+"editorial": 6,
+"case-report": 1
 },
 "byTier": {
-"1": 75,
-"2": 49,
-"3": 11
+"1": 72,
+"2": 52,
+"3": 10
 },
-"topScore": 72,
-"avgScore": 41
+"topScore": 71,
+"avgScore": 40
 },
 "articleOfWeek": {
 "pmid": "42629591",
@@ -66,7 +67,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42629591/",
-"impactScore": 72
+"impactScore": 71
 },
 "articles": [
 {
@@ -115,7 +116,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42629591/",
-"impactScore": 72
+"impactScore": 71
 },
 {
 "pmid": "41916681",
@@ -156,7 +157,7 @@
 "Systematic Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/41916681/",
-"impactScore": 71
+"impactScore": 70
 },
 {
 "pmid": "41856550",
@@ -204,7 +205,7 @@
 "Randomized Controlled Trial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/41856550/",
-"impactScore": 69
+"impactScore": 68
 },
 {
 "pmid": "42618951",
@@ -252,7 +253,47 @@
 "Randomized Controlled Trial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42618951/",
-"impactScore": 67
+"impactScore": 66
+},
+{
+"pmid": "42632888",
+"title": "AKI as a systemic syndrome and its impact on other organ systems.",
+"authors": [
+"Manca B",
+"Forni L",
+"Booke H",
+"Meuth S",
+"Koyner J",
+"La A",
+"Zarbock A"
+],
+"journal": "Critical care (London, England)",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "review",
+"pubDate": "2026-08-22",
+"abstract": "Acute kidney injury (AKI) affects approximately 15% of all hospitalized individuals and nearly half of those admitted to intensive care units and is increasingly recognized as a systemic syndrome whose consequences extend well beyond structural and functional changes confined to the kidney. Experimental studies highlight the role of inflammation and accumulation of metabolites as pivotal drivers in the cross-talk between the kidneys and distant organ systems during AKI. Whereas clinical data reveals an association between AKI and non-renal organ dysfunctions and complications. This review outlines the pathophysiological mechanisms underlying AKI-associated remote organ dysfunction, focusing on five key organ systems: the lungs, the brain, the heart, the liver and the immune system. We discuss the direct consequences of reduced kidney function alongside the repercussions of the inflammatory cascade triggered by kidney cell injury and the resulting clinical implications. Recognizing that multi-organ failure significantly influences patients' morbidity and mortality, identifying specific pathways of organ cross-talk is essential to optimize clinical management. Finally, we evaluate novel endpoints for future AKI trials. Given that traditional long-term metrics, such as Major Adverse Kidney Events (MAKE), present significant design challenges in non-enriched populations, we analyze alternative and surrogate outcomes, including those directly related to the remote organ complications of AKI.",
+"doi": "10.1159/000511058",
+"keywords": [
+"Acute kidney injury",
+"Cross-talk",
+"Distant organ injury",
+"Inflammation"
+],
+"meshTerms": [
+"Humans",
+"Acute Kidney Injury",
+"Multiple Organ Failure",
+"Inflammation",
+"Kidney",
+"Liver"
+],
+"pubTypes": [
+"Journal Article",
+"Review"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42632888/",
+"impactScore": 58
 },
 {
 "pmid": "42225397",
@@ -289,7 +330,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42225397/",
-"impactScore": 57
+"impactScore": 56
 },
 {
 "pmid": "42020199",
@@ -325,7 +366,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42020199/",
-"impactScore": 57
+"impactScore": 56
 },
 {
 "pmid": "41161703",
@@ -368,7 +409,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/41161703/",
-"impactScore": 57
+"impactScore": 56
 },
 {
 "pmid": "42612902",
@@ -403,7 +444,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42612902/",
-"impactScore": 55
+"impactScore": 54
 },
 {
 "pmid": "42611192",
@@ -445,44 +486,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42611192/",
-"impactScore": 55
-},
-{
-"pmid": "42603603",
-"title": "Transoesophageal echocardiography during cardiopulmonary resuscitation for cardiac arrest: A scoping review.",
-"authors": [
-"Scquizzato T",
-"Zelop CM",
-"Purkarthofer D",
-"Scandroglio AM",
-"Kruit N",
-"McGowan R",
-"Teran F",
-"Berg K",
-"Moskowitz A",
-"Drennan IR",
-"International Liaison Committee on Resuscitation Advanced Life Support Task Force"
-],
-"journal": "Resuscitation",
-"journalTier": 1,
-"journalSJR": null,
-"articleType": "review",
-"pubDate": "2026-08-15",
-"abstract": "Transoesophageal echocardiography (TEE) enables continuous cardiac imaging during cardiopulmonary resuscitation (CPR) without interrupting chest compressions, but its impact on patients' outcomes remains uncertain. We performed a scoping review to comprehensively map the evidence on intra-arrest TEE in cardiac arrest. We searched PubMed, Embase, CENTRAL, ClinicalTrials.gov, and grey literature from inception to March 2026. Studies evaluating TEE during CPR in adults with in- or out-of-hospital cardiac arrest were included. Outcomes comprised survival, neurological status, return of spontaneous circulation, CPR quality metrics, diagnostic findings, impact on management, feasibility, and safety. Twenty-two studies including 1,254 patients (84% out-of-hospital cardiac arrest) were identified; most were single-centre observational studies without comparators. Two randomized trials reported no difference between TEE-guided and conventional CPR in return of spontaneous circulation, survival, or favourable neurological outcome. Observational data suggested associations between TEE-defined compression location and outcomes, with compressions over the left ventricular outflow tract or aortic valve associated with less frequent return of spontaneous circulation and short-term survival. TEE-guided modification of chest compression position occurred in 19-76% of cases. TEE influenced management in 31-48% of patients and identified potential arrest aetiology in 20-86%. TEE was associated with shorter pauses compared with transthoracic echocardiography. Feasibility was high (successful insertion 80-100%), with few reported complications. Knowledge gaps include lack of long-term outcomes, standardized protocols, and evidence on safety and effectiveness across different clinical settings. Intra-arrest TEE appears feasible and frequently alters resuscitation management, but current evidence does not demonstrate improved patient-centred outcomes. Further studies are required to inform appropriate integration into resuscitation practice.",
-"doi": "10.1016/j.resuscitation.2026.111261",
-"keywords": [
-"cardiac arrest",
-"out-of-hospital cardiac arrest",
-"transoesophageal echocardiography",
-"ultrasound"
-],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article",
-"Review"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42603603/",
-"impactScore": 52
+"impactScore": 54
 },
 {
 "pmid": "42629564",
@@ -504,7 +508,7 @@
 "Comment"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42629564/",
-"impactScore": 49
+"impactScore": 48
 },
 {
 "pmid": "42627204",
@@ -535,7 +539,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42627204/",
-"impactScore": 49
+"impactScore": 48
 },
 {
 "pmid": "42627201",
@@ -572,7 +576,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42627201/",
-"impactScore": 49
+"impactScore": 48
 },
 {
 "pmid": "42627200",
@@ -639,7 +643,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42627200/",
-"impactScore": 49
+"impactScore": 48
 },
 {
 "pmid": "42625553",
@@ -680,7 +684,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42625553/",
-"impactScore": 49
+"impactScore": 48
 },
 {
 "pmid": "41748141",
@@ -707,7 +711,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/41748141/",
-"impactScore": 49
+"impactScore": 48
 },
 {
 "pmid": "42625215",
@@ -729,7 +733,7 @@
 "Comment"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42625215/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42625211",
@@ -752,7 +756,7 @@
 "Comment"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42625211/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42625192",
@@ -776,7 +780,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42625192/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42625177",
@@ -800,7 +804,7 @@
 "Comment"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42625177/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42624509",
@@ -827,7 +831,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42624509/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42624508",
@@ -855,7 +859,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42624508/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42624246",
@@ -885,7 +889,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42624246/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42624197",
@@ -906,7 +910,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42624197/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42624196",
@@ -946,7 +950,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42624196/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42624195",
@@ -982,7 +986,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42624195/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42624194",
@@ -1012,7 +1016,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42624194/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42623715",
@@ -1043,7 +1047,7 @@
 "Published Erratum"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42623715/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42623366",
@@ -1080,7 +1084,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42623366/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42623355",
@@ -1112,7 +1116,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42623355/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42623289",
@@ -1147,7 +1151,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42623289/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42623141",
@@ -1175,7 +1179,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42623141/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42622675",
@@ -1214,7 +1218,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42622675/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42622496",
@@ -1240,7 +1244,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42622496/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42619455",
@@ -1274,7 +1278,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42619455/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42264915",
@@ -1313,7 +1317,7 @@
 "Multicenter Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42264915/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42225396",
@@ -1357,7 +1361,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42225396/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42167903",
@@ -1386,7 +1390,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42167903/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "41813084",
@@ -1430,7 +1434,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/41813084/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "41558743",
@@ -1476,7 +1480,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/41558743/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "41545176",
@@ -1519,7 +1523,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/41545176/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "41545175",
@@ -1542,7 +1546,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/41545175/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42618771",
@@ -1572,7 +1576,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42618771/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42616081",
@@ -1594,7 +1598,40 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42616081/",
-"impactScore": 48
+"impactScore": 47
+},
+{
+"pmid": "42632220",
+"title": "Symptomatic cyanogenic glycoside exposure following consumption of cassava leaves purchased at a U.S. farmers market.",
+"authors": [
+"Krishna V",
+"Adan MA",
+"Solomon G",
+"LeSaint KT"
+],
+"journal": "The American journal of emergency medicine",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "case-report",
+"pubDate": "2026-08-18",
+"abstract": "The cyanogenic potential of the cassava plant is well documented in both its roots and leaves. Unlike cassava root, fresh cassava leaves are unfamiliar to many United States (US) consumers and may be mistaken for edible leafy greens, creating a risk for inadvertent cyanide poisoning when sold without preparation guidance. We report two otherwise healthy adults who purchased unlabeled fresh greens described as cassava leaves (Manihot esculenta Crantz) at a San Francisco farmers market. The leaves, which contain cyanogenic glycosides, were consumed nearly raw. While chewing, the male developed oral numbness, prompting cessation of ingestion and online research of the plant. After contacting their regional poison control center, they were advised to seek emergency department evaluation and treatment. The patients presented with nausea, fatigue, malaise, and lightheadedness, and were treated with oral activated charcoal and fluids. Laboratory studies showed mild lactic acidosis (2.9 mmol/L and 2.7 mmol/L in the female and male, respectively), which resolved after crystalloid hydration. The case was reported to city public health authorities, who referred the case to county and state agricultural authorities. This resulted in vendor education and mandatory point-of-sale labeling with preparation guidance. This case demonstrates that cassava-related cyanide toxicity can occur in the US, as fresh products enter markets through informal channels without guidance. It underscores the need for vendor education and labeling, regulatory oversight, emergency department clinician awareness, and the importance of clinician reporting to help prevent future exposures.",
+"doi": "10.1016/j.ajem.2026.08.030",
+"keywords": [
+"Accidental ingestion",
+"Cassava",
+"Cyanide",
+"Food safety",
+"Health reporting",
+"Poisoning",
+"Toxicology"
+],
+"meshTerms": [],
+"pubTypes": [
+"Case Reports",
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42632220/",
+"impactScore": 47
 },
 {
 "pmid": "42618770",
@@ -1636,7 +1673,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42618770/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42617837",
@@ -1671,7 +1708,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42617837/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42617836",
@@ -1704,7 +1741,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42617836/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42616082",
@@ -1759,7 +1796,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42616082/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42612865",
@@ -1786,7 +1823,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42612865/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42628316",
@@ -1817,7 +1854,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42628316/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42613623",
@@ -1849,7 +1886,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42613623/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42613617",
@@ -1906,7 +1943,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42613617/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42612903",
@@ -1935,7 +1972,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42612903/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42612901",
@@ -1975,7 +2012,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42612901/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42611686",
@@ -2010,7 +2047,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42611686/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42611642",
@@ -2043,7 +2080,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42611642/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42611634",
@@ -2067,7 +2104,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42611634/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42611626",
@@ -2100,7 +2137,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42611626/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42611595",
@@ -2127,7 +2164,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42611595/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42607925",
@@ -2149,7 +2186,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42607925/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42606540",
@@ -2179,7 +2216,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42606540/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42611682",
@@ -2232,7 +2269,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42611682/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42608714",
@@ -2287,7 +2324,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42608714/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42608698",
@@ -2316,7 +2353,7 @@
 "Comment"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42608698/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42608696",
@@ -2339,7 +2376,7 @@
 "Comment"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42608696/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42606951",
@@ -2372,7 +2409,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42606951/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42606299",
@@ -2411,7 +2448,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42606299/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42629535",
@@ -2442,7 +2479,44 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42629535/",
-"impactScore": 44
+"impactScore": 43
+},
+{
+"pmid": "42632219",
+"title": "Comparison of pre-endoscopic risk scores for identifying high-risk Forrest lesions in emergency department patients with suspected upper gastrointestinal bleeding.",
+"authors": [
+"Önür A",
+"Ahmed SA",
+"Toker İ",
+"Şanci E",
+"Altinsoy KE",
+"Bozkurt M",
+"Özerol H"
+],
+"journal": "The American journal of emergency medicine",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-08-16",
+"abstract": "Early risk stratification in suspected upper gastrointestinal bleeding may help guide admission decisions, monitoring, and timing of endoscopy in the emergency department. Although several pre-endoscopic scores are widely used, their ability to predict high-risk endoscopic findings remains incompletely defined. This study aimed to compare the performance of established pre-endoscopic upper gastrointestinal bleeding scores and anticoagulation-related bleeding risk scores for predicting high-risk Forrest findings. This prospective multicentre cohort study included adult patients who underwent upper gastrointestinal endoscopy for suspected upper gastrointestinal bleeding. The primary outcome was high-risk endoscopic findings, defined as Forrest Ia-IIb. Low-risk findings were defined as Forrest IIc-III. We compared the performance of CHAMPS, Glasgow-Blatchford score, AIMS65, pre-endoscopic Rockall, HAS-BLED, ATRIA, ORBIT, VTE-BLEED, and HEMORR₂HAGES using receiver operating characteristic analysis. Multivariable logistic regression, calibration assessment, 10-fold cross-validated modelling, and Brier score were used to evaluate incremental discriminatory contribution beyond a baseline clinical model. A total of 571 patients were included, of whom 199 patients (34.9%) had high-risk Forrest findings. Patients with high-risk findings were older and had greater haemodynamic instability, lower haemoglobin, higher blood urea nitrogen, greater transfusion requirement, higher intensive care unit admission, and higher mortality than those with low-risk findings. Among all evaluated scores, CHAMPS had the best overall performance for predicting high-risk endoscopic findings, with an AUC of 0.889 (95% CI: 0.860-0.916). At the optimal cut-off of ≥2, CHAMPS achieved 72.9% sensitivity, 94.9% specificity, 88.4% positive predictive value, and 86.7% negative predictive value. CHAMPS significantly outperformed the Glasgow-Blatchford score (AUC 0.831; p = 0.001). In multivariable analysis, lower haemoglobin, higher blood urea nitrogen, lower systolic blood pressure, higher heart rate, and older age were independently associated with high-risk Forrest findings. Adding CHAMPS to the baseline clinical model produced the greatest incremental improvement, increasing the cross-validated AUC from 0.804 to 0.898 and reducing the Brier score from 0.165 to 0.109. CHAMPS remained the best-performing score in both anticoagulated and non-anticoagulated patients. In patients undergoing endoscopy for suspected upper gastrointestinal bleeding, CHAMPS showed stronger discrimination for high-risk Forrest findings than the other evaluated scores. Prediction of high-risk endoscopic stigmata should be considered complementary to existing pre-endoscopic UGIB risk stratification rather than a replacement for established risk scores. Conventional upper gastrointestinal bleeding scores remained clinically useful, whereas anticoagulation-related bleeding risk scores showed more limited value for acute endoscopic risk prediction. Additional validation in different emergency department settings is needed before broader clinical use.",
+"doi": "10.1016/j.ajem.2026.08.008",
+"keywords": [
+"Anticoagulation",
+"CHAMPS score",
+"Comparative performance",
+"Emergency medicine",
+"Endoscopy",
+"Forrest classification",
+"Glasgow-Blatchford score",
+"Risk stratification",
+"Upper gastrointestinal bleeding"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42632219/",
+"impactScore": 43
 },
 {
 "pmid": "42628315",
@@ -2476,7 +2550,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42628315/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42624047",
@@ -2506,7 +2580,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42624047/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42604667",
@@ -2541,7 +2615,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42604667/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42625066",
@@ -2578,205 +2652,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42625066/",
-"impactScore": 43
-},
-{
-"pmid": "42624046",
-"title": "Clinical severity of immersion pulmonary edema: A 14-year cohort study.",
-"authors": [
-"Kociuba M",
-"Morin J",
-"Marchi J",
-"Amara J",
-"Wolff D",
-"Texier G",
-"Gempp E",
-"Blatteau JE"
-],
-"journal": "The American journal of emergency medicine",
-"journalTier": 1,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-08-15",
-"abstract": "Immersion pulmonary edema (IPE) is an increasingly recognized cause of acute hypoxemic respiratory failure associated with aquatic activities. Although determinants of IPE occurrence have been described, factors associated with severe initial clinical presentation remain poorly understood. What proportion of patients with IPE present with severe manifestations, and what clinical or exposure-related factors are associated with severity? We conducted a retrospective cohort study of all consecutive IPE cases managed at a French national hyperbaric referral center between 2010 and 2023. Severe IPE was defined as the occurrence of acute respiratory distress requiring immediate advanced medical management, loss of consciousness, or cardiac arrest. Clinical characteristics, cardiovascular risk factors, and diving-related variables were analyzed using univariate and multivariable logistic regression models. Among 288 patients with IPE, 90 (31.3%) presented with severe manifestations. Severe presentations included acute respiratory distress (63.4%), loss of consciousness (32.2%), and cardiac arrest (4.4%). Scuba diving accounted for 79.9% of cases, breath-hold diving for 11.8%, and surface swimming for 8.3%. In univariate analysis, active smoking was associated with severe IPE (P = 0.048). Among scuba divers, shorter dive duration (P = 0.001) and incomplete decompression (P < 0.001) were associated with severity. In multivariable analysis, active smoking showed a borderline association with severe presentation (adjusted OR 2.77; 95% CI 0.99-8.07; P = 0.053). No other evaluated variables independently predicted severity. Nearly one-third of patients with IPE present with severe clinical manifestations, highlighting that this condition is frequently life-threatening. The absence of strong independent predictors of severity underscores the difficulty in anticipating severe presentations and supports a high index of suspicion and early recognition of IPE in all patients developing respiratory symptoms after aquatic exposure.",
-"doi": "10.1016/j.ajem.2026.08.017",
-"keywords": [
-"Acute respiratory distress",
-"Breath-hold diving",
-"Cardiac arrest",
-"Decompression",
-"Immersion pulmonary edema",
-"Loss of consciousness",
-"Scuba diving",
-"Smoking",
-"Surface swimming"
-],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42624046/",
-"impactScore": 43
-},
-{
-"pmid": "42618391",
-"title": "Risky business on TikTok: Content analysis of hazardous challenges among youth.",
-"authors": [
-"Shah A",
-"Khan A",
-"Schafer A",
-"Reister A",
-"Bengston J",
-"Rammal N",
-"Mulder N",
-"Fan C",
-"Jones JS"
-],
-"journal": "The American journal of emergency medicine",
-"journalTier": 1,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-08-15",
-"abstract": "TikTok is a major platform for hazardous user-generated content involving adolescents and young adults. Hazardous videos extend beyond named challenges to include stunts, dares, and copycat behaviors that may encourage imitation through algorithmic promotion and peer engagement. This study characterized hazardous TikTok videos, identified their mechanisms and clinical consequences, explored why adolescents and young adults engage with them, and examined the social network and algorithmic features that accelerate their spread. This descriptive qualitative content analysis examined public TikTok videos depicting potentially hazardous behaviors among adolescents and young adults. Videos were identified through direct TikTok searches and supplemented by media, regulatory, and toxicology sources. They were then archived, transcribed, and coded using a standardized abstraction form. Qualitative thematic analysis examined motives for participation and dissemination mechanisms, while physician review assessed medical risk and misinformation or disinformation. Sixty-nine videos met inclusion criteria; 55 (79.7%) addressed highly prevalent youth challenges and had more than 30,000 views. Twenty-eight videos (40.6%) were associated with challenge types with documented fatalities, and all identified behaviors were deemed medically dangerous. Medical misinformation or disinformation was present in 62 of 69 videos (90.0%). Dissemination was facilitated by recommendation-feed amplification, shared audiovisual templates, hashtag aggregation, social proof, behavioral reinforcement, and moderation evasion through re-uploads, altered hashtags, or coded language. Interrater reliability was substantial (Kappa = 0.80). Hazardous TikTok videos are widely disseminated, medically serious, and shaped by misinformation, peer influence, and algorithmic amplification. These findings are relevant to clinicians and public health professionals seeking to recognize, document, and prevent social media-related injuries.",
-"doi": "10.1016/j.ajem.2026.08.012",
-"keywords": [
-"Adolescent health",
-"Emergency medicine",
-"Health misinformation;",
-"Over-the-counter medication misuse",
-"Platform moderation",
-"Public health",
-"Qualitative content analysis",
-"Social media challenges",
-"Substance misuse",
-"Viral challenges",
-"Youth toxicology"
-],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42618391/",
-"impactScore": 43
-},
-{
-"pmid": "42603604",
-"title": "Evaluating the Effect of a Regional Training Initiative on Bystander Cardiopulmonary Resuscitation Rates after Out-of-Hospital Cardiac Arrest.",
-"authors": [
-"Toy J",
-"Tolles J",
-"Dillon DG",
-"Breyre A",
-"Cloud J",
-"Montoy JC",
-"Aragon L",
-"Mercer M",
-"Shetgiri R",
-"Fogleman S",
-"Gausche-Hill M",
-"Bosson N"
-],
-"journal": "Resuscitation",
-"journalTier": 1,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-08-15",
-"abstract": "We evaluated the impact of a regional, year-long bystander hands-only cardiopulmonary resuscitation (CPR) education and training initiative conducted at the community level on bystander CPR rates after out-of-hospital cardiac arrest (OHCA). We used a difference-in-differences framework to estimate the association between the intervention and bystander CPR rates in a single large county compared with two other counties as controls. We used data from January 2022 to December 2024 from Cardiac Arrest Registry to Enhance Survival (CARES). We excluded OHCA events at health care facilities. Our primary outcome was the change in bystander CPR rates associated with the intervention; this analysis was stratified by home and public locations. Additionally, we evaluated the secondary outcomes of survival to hospital discharge and neurologically intact survival. We fit logistic regression models for each of these outcomes with fixed effects for each county. Of 20,414 included patients; 15,417 were from the intervention region. Overall, bystander CPR rates increased from 37.4% to 42.5% in the intervention region between the pre- and post-intervention periods; however, our adjusted model did not identify a significant intervention effect (2.94 percentage-points; 95% CI -0.95 to 6.83). In public locations, our adjusted model identified a significant 8.59 percentage-point increase in bystander CPR rates associated with the intervention (95% CI 0.22 to 16.96), and no significant effect in home locations. We did not find a significant intervention effect on survival to hospital discharge and neurologically intact survival between the pre- and post-intervention periods. While we observed an increasing trend in bystander CPR rates in all regions, this change was not associated with the intervention. However, we found that the intervention was associated with a significant increase in bystander CPR rates for public OHCAs.",
-"doi": "10.1016/j.resuscitation.2026.111262",
-"keywords": [
-"cardiopulmonary resuscitation",
-"community interventions",
-"heart arrest",
-"out-of-hospital cardiac arrest"
-],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42603604/",
-"impactScore": 43
-},
-{
-"pmid": "42603602",
-"title": "Paediatric out-of-hospital cardiac arrest occurring before and after emergency medical service arrival: a retrospective study.",
-"authors": [
-"Kennedy C",
-"Nehme E",
-"McManamny T",
-"Anderson D",
-"Dantanarayana A",
-"Nehme Z"
-],
-"journal": "Resuscitation",
-"journalTier": 1,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-08-15",
-"abstract": "To examine the association between witness status and the incidence, characteristics, and survival outcomes of paediatric out-of-hospital cardiac arrest (OHCA) attended by emergency medical services (EMS). We conducted a retrospective cohort study of paediatric (<18 years) OHCA cases attended by EMS between 1 January 2000 and 31 December 2024. Cases were identified from the Victorian Ambulance Cardiac Arrest Registry (VACAR). Witness status was categorised as unwitnessed, bystander witnessed, or EMS witnessed. Multivariable logistic regression was used to evaluate the association between witness status and outcomes, adjusting for age, sex, arrest location, region, aetiology, initial rhythm and year. A total of 2,645 paediatric OHCAs were attended by EMS, of which 1,891 (71.5%) received a resuscitation attempt. Among EMS-treated cases, 59.8% were unwitnessed, 32.0% were bystander witnessed, and 8.1% were EMS witnessed. The incidence of unwitnessed and bystander witnessed OHCA declined over the 25-year period (p<0.001), whereas EMS witnessed incidence remained stable. After adjustment, EMS witnessed arrests were associated with significantly higher odds of survival to hospital discharge (AOR 1.91, 95% CI 1.04-3.52) and prehospital ROSC (AOR 1.83, 95% CI 1.20-2.77) compared with bystander witnessed arrests, while unwitnessed arrests had substantially lower survival across all outcomes. Paediatric OHCA witnessed by EMS is associated with significantly higher adjusted odds of survival compared with bystander witnessed events. These findings highlight the importance of early professional intervention and support the need for paediatric-specific strategies to improve recognition and response to these events.",
-"doi": "10.1016/j.resuscitation.2026.111267",
-"keywords": [
-"Paediatric",
-"emergency medical services",
-"epidemiology",
-"out–of–hospital cardiac arrest",
-"resuscitation"
-],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42603602/",
-"impactScore": 43
-},
-{
-"pmid": "42603601",
-"title": "Pediatric extracorporeal cardiopulmonary resuscitation for out-of-hospital cardiac arrest: outcomes and clinical trajectories.",
-"authors": [
-"Veronese G",
-"Grazioli L",
-"Meani P",
-"Fochi O",
-"Fazzi F",
-"Bronco A",
-"Colombo G",
-"Serafini M",
-"Salurso A",
-"Pellicioli I",
-"Ferrari F",
-"Vedovati S",
-"Valoti OF",
-"Ghitti D",
-"Viscardi S",
-"Ammirati E",
-"Seddio F",
-"Uricchio N",
-"Bonacina D",
-"Volpi C",
-"Raimondi F",
-"Bonanomi E",
-"Lorusso R",
-"Lorini FL"
-],
-"journal": "Resuscitation",
-"journalTier": 1,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-08-15",
-"abstract": "To characterize management, outcomes, and donation trajectories of pediatric extracorporeal cardiopulmonary resuscitation (ECPR) for out-of-hospital cardiac arrest (OHCA), and to describe early features observed among survivors and non-survivors. We conducted a retrospective single-centre observational cohort study including all consecutive children (<18 years) treated with ECPR for OHCA at a tertiary pediatric ECMO referral centre between 1 January 2013 and 31 December 2025. Survivors were compared with non-survivors, and among non-survivors, patients with brain death diagnosis were compared with those without brain death diagnosis. Among 155 pediatric OHCA patients managed at our institution during the study period, 42 (27.1%) underwent ECPR and were included in the present analysis. Median age was 9 years, median low-flow time 85 min, and median ECMO duration 55 h. Survival to hospital discharge was 19.0% (8/42). In exploratory comparisons, survivors more often received bystander CPR (100.0% vs 52.9%, p=0.016), had more frequent transient pre-hospital ROSC (62.5% vs 20.6%, p=0.031), and shorter low-flow duration (53 vs 90 min, p=0.006) than non-survivors. Survivors also had lower initial lactate (11.18 vs 18.00 mmol/L, p=0.003), lower 24-h vasoactive-inotropic score (5 vs 18, p=0.0053), and lower 24-h transfusion burden (12 vs 40 mL/kg, p=0.029). Non-survivors had more severe and persistent early organ injury. Of 34 deaths, 12 had a brain death diagnosis (35.3% of non-survivors; 28.6% of the total cohort), and 4 became effective organ donors. At last follow-up (median, 412 days), 7 of 8 hospital survivors were alive, and 6 of 7 had PCPC ≤2. Pediatric OHCA-ECPR yielded limited but meaningful survival. Measures of early resuscitation quality, low-flow duration, and early metabolic and organ-injury profiles may help distinguish different clinical trajectories after pediatric OHCA-ECPR.",
-"doi": "10.1016/j.resuscitation.2026.111263",
-"keywords": [
-"extracorporeal cardiopulmonary resuscitation",
-"extracorporeal membrane oxygenation",
-"organ donation",
-"out-of-hospital cardiac arrest",
-"pediatrics"
-],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42603601/",
-"impactScore": 43
+"impactScore": 42
 },
 {
 "pmid": "42616367",
@@ -2809,7 +2685,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42616367/",
-"impactScore": 42
+"impactScore": 41
 },
 {
 "pmid": "42611385",
@@ -2846,7 +2722,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42611385/",
-"impactScore": 41
+"impactScore": 40
 },
 {
 "pmid": "42625212",
@@ -2884,7 +2760,82 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42625212/",
-"impactScore": 40
+"impactScore": 39
+},
+{
+"pmid": "42632870",
+"title": "Evaluating pediatric emergency knowledge mobilization resources for Canadian healthcare providers: a concurrent triangulation mixed-methods usability study.",
+"authors": [
+"Lai VKW",
+"Knisley L",
+"Hartling L",
+"Elliott SA",
+"Freedman S",
+"Bale-Nick M",
+"Scott S",
+"Reid S",
+"Lang E",
+"MacPhee S",
+"Jabbour M",
+"Aregbesola A",
+"Sinclair D",
+"Klassen TP"
+],
+"journal": "CJEM",
+"journalTier": 2,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-08-22",
+"abstract": "In Canada, approximately 85% of pediatric emergency visits occur in general emergency departments lacking specialized pediatric resources. Through a national co-developed knowledge mobilization strategy, the Translating Emergency Knowledge for Kids (TREKK) network creates evidence-based resources to bridge this gap. This study evaluated the usability of TREKK resources as perceived by healthcare providers. Between February 2023 and February 2024, a concurrent triangulation mixed-methods design was used to evaluate eight pediatric clinical resources across seven topics (diabetic ketoacidosis (DKA), bronchiolitis, aerosol-generating medical procedures, pneumonia, respiratory distress, eating disorders, and anxiety). Four iterative survey rounds each assessed two resources on nine usability dimensions (e.g., usefulness, simplicity, and clinical confidence) using an eleven-point Likert scale (0 = strongly disagree; 10 = strongly agree). Survey respondents were invited to semi-structured interviews on three resources (DKA and bronchiolitis Bottom Line Recommendations and the DKA algorithm); purposive sampling ensured diverse professional roles across urban, rural, and remote settings. Interviews were analyzed using reflexive thematic analysis. The survey sample comprised 432 respondents across four rounds. Mean usability scores across nine dimensions ranged from 7.81 to 9.61 (out of 10). The DKA algorithm was rated most positively on clinical usefulness (mean = 9.61), while the aerosol-generating medical procedures Fact Sheet was rated least positively on intention-to-use (mean = 7.2) and provider confidence (mean = 7.0). Thematic analysis of 21 interviews generated four themes: trusted resources, diverse utilization patterns, effective design, and organizational awareness gaps. Triangulation indicated that, although providers rated the resources as highly usable, limited organizational awareness was the primary barrier to uptake in practice. TREKK resources are valued for evidence-based credibility and bedside usability, yet limited organizational awareness impedes their uptake in practice. Ongoing, active strategies to increase uptake, such as knowledge brokering and curricular integration, are essential to bridge the knowledge-to-practice gap.",
+"doi": "10.1186/1748-5908-7-50",
+"keywords": [
+"Emergency department resources",
+"Knowledge mobilization",
+"Pediatric emergency care",
+"Usability evaluation"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42632870/",
+"impactScore": 35
+},
+{
+"pmid": "42631702",
+"title": "A Novel Spray-on Dressing is Comparable to Silver Impregnated Foam Dressing in Controlling MRSA Infection and Promoting Healing.",
+"authors": [
+"Manalo LDN",
+"Bruhm A",
+"Myree Lindsey KV",
+"Ziedins EE",
+"Chow ASP",
+"Meretta C",
+"Shupp J",
+"Moffatt LT",
+"Carney BC"
+],
+"journal": "Journal of burn care & research : official publication of the American Burn Association",
+"journalTier": 2,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-08-22",
+"abstract": "Burn injuries disrupt the skin barrier, increasing susceptibility to infection, delaying healing, and can potentially becoming life-threatening. Wound dressings mitigate this risk by protecting the wound from environmental pathogens. This study evaluated a novel antimicrobial spray-on dressing designed to conform to irregular skin surfaces for its ability to control burn wound infection and promote wound healing. Evaluation was conducted in two stages. Experiment 1 used a rat scald model (n=19) inoculated with MRSA to compare the spray-on dressing's antimicrobial efficacy against silver-impregnated foam and control groups over 8 days. Experiment 2 used a porcine burn model to assess healing kinetics, skin biomechanics (elasticity, hardness), and histoarchitecture (rete ridge ratio, epidermal thickness) through Day 13.In the rat model, the spray-on dressing achieved bacterial control comparable to silver-impregnated foam; both groups demonstrated significantly lower MRSA burden compared to positive controls on Day 5 (p < 0.01), with no evidence of systemic dissemination. In the porcine model, the spray-on dressing supported timely wound closure with re-epithelialization rates comparable to the foam dressing (97.7% vs. 92.1%, p = 0.3). Skin biomechanic measurements, including tissue elasticity and stiffness, were indistinguishable from uninjured skin. Histoarchitecture analysis confirmed that the spray-on dressing facilitated a high-quality dermal-epidermal interface equivalent to the clinical standard. Overall, the novel spray-on dressing is comparable to the standard silver-impregnated foam dressing in both antimicrobial efficacy and tissue regeneration. Its superior conformability and simplified application make it a viable, efficient alternative for managing complex burn wounds in both routine and high-demand clinical settings.",
+"doi": "10.1093/jbcr/irag151",
+"keywords": [
+"Bacterial Burden",
+"Epithelial Thickness",
+"MRSA",
+"Porcine Burn",
+"Rat Burn",
+"Wound Dressing"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42631702/",
+"impactScore": 35
 },
 {
 "pmid": "42629536",
@@ -2930,7 +2881,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42629536/",
-"impactScore": 35
+"impactScore": 34
 },
 {
 "pmid": "42629534",
@@ -2968,7 +2919,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42629534/",
-"impactScore": 35
+"impactScore": 34
 },
 {
 "pmid": "42625419",
@@ -3000,7 +2951,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42625419/",
-"impactScore": 35
+"impactScore": 34
 },
 {
 "pmid": "42628230",
@@ -3037,7 +2988,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42628230/",
-"impactScore": 34
+"impactScore": 33
 },
 {
 "pmid": "42623276",
@@ -3069,7 +3020,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42623276/",
-"impactScore": 34
+"impactScore": 33
 },
 {
 "pmid": "42622881",
@@ -3115,7 +3066,7 @@
 "Observational Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42622881/",
-"impactScore": 34
+"impactScore": 33
 },
 {
 "pmid": "42622752",
@@ -3155,7 +3106,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42622752/",
-"impactScore": 34
+"impactScore": 33
 },
 {
 "pmid": "42622543",
@@ -3177,7 +3128,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42622543/",
-"impactScore": 34
+"impactScore": 33
 },
 {
 "pmid": "42619046",
@@ -3207,7 +3158,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42619046/",
-"impactScore": 34
+"impactScore": 33
 },
 {
 "pmid": "42629568",
@@ -3233,7 +3184,69 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42629568/",
-"impactScore": 33
+"impactScore": 32
+},
+{
+"pmid": "42632351",
+"title": "Evaluating the efficacy of disinfecting agents against Staphylococcus aureus on external fixator devices.",
+"authors": [
+"Horowitz ME",
+"Talsania A",
+"Grando K",
+"Walters T",
+"Albicoro FJ",
+"Tükel Ç",
+"Rehman S"
+],
+"journal": "Injury",
+"journalTier": 2,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-08-19",
+"abstract": "The objective of this study was to evaluate and compare the efficacy of multiple disinfectant agents commonly used to remove bacteria from external fixators infected with Staphylococcus aureus. A sterile external fixator was colonized with Staphylococcus aureus for 48 h to allow biofilm formation on the device. Following incubation, the device was treated with one of the following: Isopropyl Alcohol (IPA), Chlorhexidine Gluconate Scrub (CHG) + IPA, Betadine (PI) + IPA, or ChloraPrep (2% CHG and 70% IPA). Swabs were taken from locations on each device and plated on Tryptic Soy Agar (TSA) plates. Colony forming units (CFUs) were counted and analyzed using Kruskal-Wallis tests along with Dunn's multiple comparisons. The frequency of zero vs. detectable (non-zero) CFU data was also recorded. The median in the control group was 7.8 × 103 CFUs (interquartile range (IQR): 1.5 × 103-2.2 × 104 CFUs), compared to a median of 0 CFUs in each treatment group (IPA IQR: 0-0; CHG+IPA IQR: 0-0; ChloraPrep IQR: 0-7.5; Betadine+IPA IQR: 0-3.8 × 102). Three non-zero data were recorded in the IPA group (n = 16), two non-zero data were recorded in the CHG + IPA group (n = 16), four non-zero data were recorded in the ChloraPrep group (n = 16), and seven non-zero data were recorded in the Betadine + IPA group (n = 16). Kruskal-Wallis analysis indicated that all disinfectant groups had significantly fewer bacteria compared to controls (P < 0.05). There was no significant difference between any of the disinfectant groups. All disinfectants significantly reduced the bacterial load on the external fixators, supporting their safety in the sterile field. While there was no statistically significant difference in CFUs between disinfectants, the CHG + IPA group had the highest frequency of zero CFU data. In contrast, the Betadine + IPA group had the highest frequency of non-zero CFUs and the widest IQR of 0-3.8 × 102 CFUs. IV.",
+"doi": "10.1016/j.injury.2026.113606",
+"keywords": [
+"Disinfection",
+"External fixator",
+"Orthopedic trauma"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42632351/",
+"impactScore": 32
+},
+{
+"pmid": "42632350",
+"title": "Validity of the non-union scoring system in management of long bone fracture non-union. A prospective study.",
+"authors": [
+"Wafa TA",
+"Al Kersh MA",
+"Ghaly NAM",
+"Ahmed AR",
+"Rizk MH",
+"Mahran MA"
+],
+"journal": "Injury",
+"journalTier": 2,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-08-19",
+"abstract": "To validate the Non-union Scoring System by applying the score, prospectively, on long bone non-union cases and evaluate the results of the treatment according to the score. In order to assess treatment efficacy on non-union treatment, the NUSS was used in a series of patients diagnosed with femoral and tibial non-union. We included both septic and aseptic non-union and excluded skeletally immature patients, patients with autoimmune diseases, neoplasia and patients under immunosuppressive therapy. The patients were followed up for maximum of 30 months. The NUSS was applied prospectively to 60 cases of fracture non-union. The outcomes demonstrated that most patients across different NUSS treatment groups achieved successful healing, with group 1 reporting 88.9%, group 2 achieving 80%, and group 3 achieving 81.5% union rates. The mean time for clinical and radiographic healing varied by group, with longer recovery times seen in more severe cases. Three patients who underwent amputation were not included in the final union assessment. Six patients were excluded from the study due to what was termed a \"score-clinical mismatch,\" where intraoperative findings indicated a need for more aggressive treatment than the NUSS had suggested. The NUSS is a reliable tool for managing fracture non-union, but it may underestimate treatment needs in some cases. Incorporating intraoperative assessment into the protocol can help prevent undertreatment, and improve the accuracy of the NUSS in guiding treatment decisions. Retrospectively registered under Trial Registration Number NCT07207447 on 3/10/2025.",
+"doi": "10.1016/j.injury.2026.113610",
+"keywords": [
+"Bone defect",
+"Fracture non-union",
+"NUSS",
+"Non-union scoring system"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42632350/",
+"impactScore": 32
 },
 {
 "pmid": "42629302",
@@ -3265,7 +3278,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42629302/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42628231",
@@ -3301,7 +3314,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42628231/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42628229",
@@ -3332,7 +3345,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42628229/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42628228",
@@ -3364,7 +3377,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42628228/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42628226",
@@ -3400,7 +3413,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42628226/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42628225",
@@ -3435,7 +3448,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42628225/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42620906",
@@ -3468,7 +3481,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42620906/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42616404",
@@ -3500,7 +3513,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42616404/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42616134",
@@ -3545,7 +3558,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42616134/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42616069",
@@ -3575,7 +3588,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42616069/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42616058",
@@ -3608,7 +3621,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42616058/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42616057",
@@ -3641,7 +3654,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42616057/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42616049",
@@ -3675,7 +3688,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42616049/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42615870",
@@ -3709,7 +3722,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42615870/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42615855",
@@ -3739,7 +3752,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42615855/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42612190",
@@ -3770,7 +3783,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42612190/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42612188",
@@ -3804,7 +3817,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42612188/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42611387",
@@ -3836,7 +3849,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42611387/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42611386",
@@ -3895,7 +3908,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42611386/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42611384",
@@ -3918,7 +3931,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42611384/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42611077",
@@ -3967,7 +3980,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42611077/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42611065",
@@ -4018,7 +4031,7 @@
 "Observational Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42611065/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42610987",
@@ -4049,7 +4062,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42610987/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42610983",
@@ -4082,7 +4095,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42610983/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42609052",
@@ -4119,7 +4132,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42609052/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42524825",
@@ -4145,7 +4158,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42524825/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42456096",
@@ -4175,7 +4188,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42456096/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42629558",
@@ -4218,7 +4231,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42629558/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42625180",
@@ -4272,7 +4285,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42625180/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42613598",
@@ -4316,7 +4329,7 @@
 "Multicenter Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42613598/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42607511",
@@ -4348,7 +4361,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42607511/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42606717",
@@ -4397,7 +4410,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42606717/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42605833",
@@ -4428,7 +4441,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42605833/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42605237",
@@ -4460,37 +4473,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42605237/",
-"impactScore": 31
-},
-{
-"pmid": "42603837",
-"title": "Emergency medicine triage practices across Canadian hospitals: a national survey.",
-"authors": [
-"Toarta C",
-"Hall JN",
-"McCarron J",
-"McLeod SL",
-"CTAS National Advisory Committee"
-],
-"journal": "CJEM",
-"journalTier": 2,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-08-15",
-"abstract": "Triage in emergency departments (EDs) prioritizes patient care when demand exceeds resources. In Canada, the Canadian Triage and Acuity Scale (CTAS) is the nationally endorsed system used to guide triage decisions. Despite longstanding advocacy for standardized practices, implementation and training requirements vary across hospitals, and electronic decision-support tools have been increasingly integrated to support triage. This study aimed to describe current triage practices, staffing, and training across Canadian EDs. We conducted a national, bilingual cross-sectional survey of ED staff across 10 provinces and three territories. A 21-item electronic questionnaire, developed by a multidisciplinary team, captured data on triage roles, training, tools, and protocols. Surveys were distributed via provincial and local ED leads, with follow-up reminders to maximize participation. Responses were summarized using descriptive statistics and reported as counts and percentages. The survey was conducted in accordance with the Kelley checklist. A total of 1169 surveys were completed, mostly in English, from ten provinces and two territories with Ontario and Alberta being overrepresented. Respondents were predominantly registered nurses (79.1%) responsible for triage (99.1%), with most having more than 2 years of triage experience in addition to prior nursing experience (86.1%). The majority reported using the 2016 CTAS guidelines (54.8%) and electronic CTAS (53.9%). Most sites had minimum training requirements for triage staff (74.7%), with 91.4% of respondents having completed the NENA/CAEP CTAS participant course. Considerable variability existed in guideline awareness, training requirements, and triage practices. Triage in Canadian EDs is predominantly performed by registered nurses with more than two years of triage experience, most of whom have completed formal CTAS training. Despite widespread guideline use and decision-support tools, practices remain inconsistent, underscoring the need for standardized training and implementation strategies to ensure safe, effective, and reliable triage across the country.",
-"doi": "10.1016/j.annemergmed.2023.11.018",
-"keywords": [
-"Canadian Triage and Acuity Scale (CTAS)",
-"Emergency medicine",
-"Nursing",
-"Triage"
-],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42603837/",
-"impactScore": 29
+"impactScore": 30
 },
 {
 "pmid": "42625150",
@@ -4528,7 +4511,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42625150/",
-"impactScore": 24
+"impactScore": 23
 },
 {
 "pmid": "42625147",
@@ -4560,7 +4543,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42625147/",
-"impactScore": 24
+"impactScore": 23
 },
 {
 "pmid": "42618684",
@@ -4595,7 +4578,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42618684/",
-"impactScore": 24
+"impactScore": 23
 },
 {
 "pmid": "42618904",
@@ -4624,7 +4607,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42618904/",
-"impactScore": 22
+"impactScore": 21
 },
 {
 "pmid": "42608720",
@@ -4656,7 +4639,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42608720/",
-"impactScore": 21
+"impactScore": 20
 },
 {
 "pmid": "42608669",
@@ -4688,36 +4671,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42608669/",
-"impactScore": 21
-},
-{
-"pmid": "42601518",
-"title": "Diagnostic yield and clinical predictors of blunt cerebrovascular injury: A CTA utilization review at a level I trauma center.",
-"authors": [
-"Sasa PB",
-"Rizvi TZ",
-"Mackey S",
-"Cuttita N",
-"Mahoney E"
-],
-"journal": "Emergency radiology",
-"journalTier": 3,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-08-15",
-"abstract": "Blunt cerebrovascular injury (BCVI) is a potentially devastating complication of high-energy trauma that can lead to ischemic stroke if undetected. Computed tomography angiography (CTA) is the primary screening modality, though optimal patient selection criteria remain debated. Rising CTA utilization at our institution prompted a quality improvement review to evaluate the diagnostic yield and identify clinical predictors of BCVI. A retrospective review was conducted of trauma patients who underwent CTA of the head and neck at a Level I trauma center between January and December 2023.Clinical variables were compared between patients with and without BCVI on univariate analysis, and independent predictors were identified using multivariate logistic regression. Among 305 patients screened, BCVI was identified in 40 patients (13.1%), with a total of 44 injuries due to multivessel involvement in 4 patients. Vertebral artery injuries predominated (34/44,77.3%), with Grade 1 being most common (18/44,40.9%). Loss of consciousness (OR 2.96; 95% CI 1.43-6.29; p = 0.003) and cervical spine fracture (OR 8.06; 95% CI 3.86-17.9; p < 0.001) were independent predictors of BCVI on multivariate analysis. The multivariate model demonstrated good discriminatory performance (AUROC = 0.788; 95% CI 0.707-0.868). In a screened trauma cohort, LOC at the scene was a strong independent predictor of BCVI, a relationship not previously incorporated into formal screening criteria. These findings support prospective evaluation of LOC as a clinically accessible adjunct to existing risk-stratification tools.",
-"doi": "10.1016/j.csm.2010.08.009",
-"keywords": [
-"Blunt cerebrovascular injury",
-"CT angiography",
-"Trauma screening"
-],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42601518/",
-"impactScore": 19
+"impactScore": 20
 },
 {
 "pmid": "42625839",
