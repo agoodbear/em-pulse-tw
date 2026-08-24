@@ -1,25 +1,25 @@
 {
-"generatedAt": "2026-08-23T22:17:38.000Z",
+"generatedAt": "2026-08-24T22:21:41.000Z",
 "daysBack": 7,
 "journalCount": 59,
 "stats": {
-"total": 134,
+"total": 138,
 "byType": {
 "systematic-review": 2,
 "rct": 2,
 "review": 12,
+"original": 105,
 "letter": 10,
-"original": 101,
 "editorial": 6,
 "case-report": 1
 },
 "byTier": {
 "1": 72,
-"2": 52,
-"3": 10
+"2": 54,
+"3": 12
 },
-"topScore": 71,
-"avgScore": 40
+"topScore": 70,
+"avgScore": 39
 },
 "articleOfWeek": {
 "pmid": "42629591",
@@ -67,7 +67,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42629591/",
-"impactScore": 71
+"impactScore": 70
 },
 "articles": [
 {
@@ -116,7 +116,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42629591/",
-"impactScore": 71
+"impactScore": 70
 },
 {
 "pmid": "41916681",
@@ -157,7 +157,7 @@
 "Systematic Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/41916681/",
-"impactScore": 70
+"impactScore": 69
 },
 {
 "pmid": "41856550",
@@ -205,7 +205,7 @@
 "Randomized Controlled Trial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/41856550/",
-"impactScore": 68
+"impactScore": 67
 },
 {
 "pmid": "42618951",
@@ -253,7 +253,7 @@
 "Randomized Controlled Trial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42618951/",
-"impactScore": 66
+"impactScore": 65
 },
 {
 "pmid": "42632888",
@@ -293,7 +293,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42632888/",
-"impactScore": 58
+"impactScore": 57
 },
 {
 "pmid": "42225397",
@@ -330,7 +330,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42225397/",
-"impactScore": 56
+"impactScore": 55
 },
 {
 "pmid": "42020199",
@@ -366,7 +366,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42020199/",
-"impactScore": 56
+"impactScore": 55
 },
 {
 "pmid": "41161703",
@@ -409,7 +409,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/41161703/",
-"impactScore": 56
+"impactScore": 55
 },
 {
 "pmid": "42612902",
@@ -444,7 +444,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42612902/",
-"impactScore": 54
+"impactScore": 53
 },
 {
 "pmid": "42611192",
@@ -486,7 +486,131 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42611192/",
-"impactScore": 54
+"impactScore": 53
+},
+{
+"pmid": "42635479",
+"title": "ICU Open-Access Databases for Artificial Intelligence in Sepsis: Balancing Innovation With Data Quality Challenges.",
+"authors": [
+"Jegou J",
+"Manolescu I",
+"Ruckly S",
+"Timsit JF",
+"Thy M"
+],
+"journal": "Critical care medicine",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-08-24",
+"abstract": "To evaluate the suitability of three major open-access ICU databases (Medical Information Mart for Intensive Care IV [MIMIC-IV], eICU Collaborative Research Database [eICU-CRD], and Amsterdam University Medical Center Database [AmsterdamUMCdb]) for artificial intelligence (AI)-based sepsis research, with a focus on data completeness, internal consistency, terminological standardization, and structural redundancy affecting clinical interpretability and reproducibility. A descriptive comparative design was employed to evaluate data completeness, terminological consistency, structural integrity, and clinical usability, with emphasis on sepsis-related variables such as antimicrobial administration, hemodynamic support, and mortality indicators. Open-access ICU electronic health record databases including MIMIC-IV (2008-2019), eICU-CRD (2014-2015), and AmsterdamUMCdb (2003-2016), accessed under credentialed use agreements. Documentation, schema, and metadata were reviewed in parallel to primary datasets. Structured queries and descriptive analyses were performed to quantify missing values, distinct diagnosis strings, medication administration completeness, and redundancy of mortality markers. Manual semantic inspection of terminology, units, and coding (International Classification of Diseases, 9th revision/10th revision) was applied to evaluate inconsistency and typographical variability. Comparisons were made across key clinical dimensions including diagnosis, mortality, microbiology, and antibiotic administration. Marked heterogeneity and data quality limitations were identified. MIMIC-IV demonstrated extensive missingness in medication route (49%) and dose (58%), 99.9% missing fields in microbiology quantity, and diagnosis redundancy with 17,557 unique strings and 174 near-duplicate variants. eICU-CRD exhibited 1.9% admissions lacking diagnosis and discordance between ICU and hospital mortality in 7,319 stays. AmsterdamUMCdb showed fewer structural inconsistencies but limited demographics and the highest proportion of admissions without diagnosis (61.4%), complicated by mixed English-Dutch terminology. All three databases lacked reliable sepsis diagnosis timestamps, constraining analysis of early intervention. Although widely used and valuable for sepsis research, open-access ICU databases exhibit substantial missingness, redundancy, semantic variability, and demographic imbalance. These limitations require rigorous preprocessing and highlight the need for standardized data collection to improve the validity and generalizability of AI-driven sepsis studies.",
+"doi": "10.1097/CCM.0000000000007319",
+"keywords": [
+"artificial intelligence",
+"big data",
+"database",
+"intensive care",
+"sepsis"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42635479/",
+"impactScore": 50
+},
+{
+"pmid": "42635477",
+"title": "Family Support Interventions in the ICU: Reckoning With the Past and Planning for the Future.",
+"authors": [
+"Aslakson RA",
+"Cox CE",
+"White DB"
+],
+"journal": "Critical care medicine",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-08-24",
+"abstract": "",
+"doi": "10.1097/CCM.0000000000007322",
+"keywords": [
+"communication",
+"communication facilitators",
+"family member depression",
+"family support",
+"family-centered intensive care unit care",
+"palliative care"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42635477/",
+"impactScore": 50
+},
+{
+"pmid": "42635140",
+"title": "Mesenchymal Stem Cell Secretome Mitigates Inflammatory Endothelial Dysfunction.",
+"authors": [
+"Pokharel MD",
+"Osborn BK",
+"Saviola AJ",
+"Maroney SP",
+"Caldwell-McGee A",
+"Richter JR",
+"Getz T",
+"Cohen MJ",
+"Cardenas JC"
+],
+"journal": "Shock (Augusta, Ga.)",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-08-24",
+"abstract": "Endothelial cells (EC) dysfunction and barrier disruption are central drivers of inflammatory lung injury and adverse outcomes, yet targeted therapies remain lacking. We tested the hypothesis that a mesenchymal stem cell (MSC)-derived secretome can directly preserve EC function under inflammatory stress. We evaluated AlloEx (Vitro Biopharma), a Wharton's Jelly MSC-derived secretome enriched in bioactive RNAs, proteins, lipids, and extracellular vesicles with pro-reparative and immunomodulatory activity. Human lung microvascular endothelial cells (HLMVEC) were exposed to TNFα (4 h) with AlloEx administered 30 min before or after TNFα stimulation. EC thromboinflammatory gene expression was quantified by qPCR. Barrier integrity was assessed by transendothelial resistance (TEER) and VE-cadherin immunofluorescence. Mitochondrial function was evaluated using MitoSOX, TMRM, and mitochondrial fission imaging. Proteomic profiling was performed using trauma patient plasma as a clinically relevant inflammatory stimulus. AlloEx potently suppressed TNFα-induced EC activation, markedly reducing ICAM1, SELE, IL6, NOS3, ANG2, TEK, VEGFA, and F3 expression. Functionally, AlloEx rescued EC barrier integrity, preserving VE-cadherin localization at endothelial junctions and restoring TEER by 79% with pretreatment and 65% with post-treatment. Mechanistically, AlloEx prevented mitochondrial dysfunction, limiting reactive oxygen species generation, preserving membrane potential, and reducing fission. Proteomic profiling demonstrated that AlloEx induced coordinated remodeling of metabolic, vesicular, and inflammatory signaling pathways while suppressing cellular stress and pro-inflammatory signaling. These findings identify MSC-derived secretome therapy as a potent modulator of EC thromboinflammatory activation, barrier integrity, and mitochondrial function. AlloEx represents a promising, clinically translatable strategy to target EC dysfunction in inflammatory lung injury and trauma-associated endotheliopathy.",
+"doi": "10.1097/SHK.0000000000002928",
+"keywords": [],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42635140/",
+"impactScore": 50
+},
+{
+"pmid": "42468511",
+"title": "A multicenter retrospective evaluation of treatment variation in patients with a blunt traumatic pneumothorax; noninvasive treatment versus tube thoracostomy (CONSTRAIN-Retro).",
+"authors": [
+"Hartman A",
+"Vellekoop L",
+"Van Delft CH",
+"Verhofstad MHJ",
+"Ayez N",
+"Van Lieshout EMM",
+"Wijffels MME",
+"CONSTRAIN study group,"
+],
+"journal": "The journal of trauma and acute care surgery",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-08-24",
+"abstract": "There is no clear consensus to which extent noninvasive treatment can be used with regard to posttraumatic pneumothorax size. This results in treatment variation among physicians. This study primarily aimed to examine the current treatment variation in the management of unilateral pneumothorax after blunt trauma, varying in size. Secondarily, clinical outcomes were evaluated in patients with the greatest treatment variation. This multicenter retrospective cohort study included adult patients admitted with unilateral pneumothorax following blunt trauma between January 1, 2021, and December 31, 2022. The primary outcome measure was the type of index treatment, and secondary outcome measures were secondary tube thoracostomy (TT), adverse events, and hospital length of stay. Of 275 eligible patients in the overall study population, 126 (45.8%) patients received noninvasive treatment, and 149 (54.2%) underwent TT. Treatment variation was greatest for pneumothorax sizes of 15% to 50%, defined as medium-sized pneumothorax (36.6% noninvasive and 63.4% TT). Secondary TT was performed in 14 (29.2%) patients with medium-sized pneumothorax. Hospital length of stay was shorter for the noninvasive group with medium-sized pneumothorax compared with the TT group, although this finding did not reach statistical significance after IPTW analysis (4 d vs. 5 d; p =0.313). No statistical difference was found for overall complications (32.8% vs. 30.2%; OR: 1.14 (95% CI: 0.40-3.28); p =0.811). In this study, noninvasive treatment was used in 45.8% of patients for managing pneumothorax after blunt trauma. Treatment variation was mainly seen for patients with pneumothorax sizes of 15% to 50%. Noninvasive treatment in patients with such medium-sized pneumothorax was associated with similar hospital length of stay and complication rates compared with TT, and deemed a safe treatment strategy. ( J Trauma Acute Care Surg . 2026;100: 863-870. Copyright © 2025 The Author(s). Published by Wolters Kluwer Health, LLC. on behalf of the American Association for the Surgery of Trauma.). Therapeutic/Care Management; Level IV.",
+"doi": "10.1097/TA.0000000000005113",
+"keywords": [
+"Traumatic pneumothorax",
+"blunt trauma",
+"noninvasive treatment",
+"observation",
+"tube thoracostomy"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42468511/",
+"impactScore": 50
 },
 {
 "pmid": "42629564",
@@ -508,7 +632,7 @@
 "Comment"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42629564/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42627204",
@@ -539,7 +663,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42627204/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42627201",
@@ -576,7 +700,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42627201/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42627200",
@@ -643,7 +767,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42627200/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42625553",
@@ -684,7 +808,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42625553/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "41748141",
@@ -711,7 +835,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/41748141/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42625215",
@@ -733,7 +857,7 @@
 "Comment"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42625215/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42625211",
@@ -756,7 +880,7 @@
 "Comment"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42625211/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42625192",
@@ -780,7 +904,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42625192/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42625177",
@@ -804,7 +928,7 @@
 "Comment"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42625177/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42624509",
@@ -831,7 +955,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42624509/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42624508",
@@ -859,7 +983,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42624508/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42624246",
@@ -889,7 +1013,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42624246/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42624197",
@@ -910,7 +1034,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42624197/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42624196",
@@ -950,7 +1074,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42624196/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42624195",
@@ -986,7 +1110,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42624195/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42624194",
@@ -1016,7 +1140,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42624194/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42623715",
@@ -1047,7 +1171,7 @@
 "Published Erratum"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42623715/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42623366",
@@ -1084,7 +1208,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42623366/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42623355",
@@ -1116,7 +1240,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42623355/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42623289",
@@ -1151,7 +1275,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42623289/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42623141",
@@ -1179,7 +1303,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42623141/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42622675",
@@ -1218,7 +1342,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42622675/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42622496",
@@ -1244,7 +1368,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42622496/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42619455",
@@ -1278,7 +1402,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42619455/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42264915",
@@ -1317,7 +1441,7 @@
 "Multicenter Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42264915/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42225396",
@@ -1361,7 +1485,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42225396/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42167903",
@@ -1390,7 +1514,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42167903/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "41813084",
@@ -1434,7 +1558,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/41813084/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "41558743",
@@ -1480,7 +1604,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/41558743/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "41545176",
@@ -1523,7 +1647,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/41545176/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "41545175",
@@ -1546,7 +1670,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/41545175/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42618771",
@@ -1576,7 +1700,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42618771/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42616081",
@@ -1598,7 +1722,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42616081/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42632220",
@@ -1631,7 +1755,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42632220/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42618770",
@@ -1673,7 +1797,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42618770/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42617837",
@@ -1708,7 +1832,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42617837/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42617836",
@@ -1741,7 +1865,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42617836/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42616082",
@@ -1796,7 +1920,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42616082/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42612865",
@@ -1823,7 +1947,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42612865/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42628316",
@@ -1854,7 +1978,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42628316/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42613623",
@@ -1886,7 +2010,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42613623/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42613617",
@@ -1943,7 +2067,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42613617/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42612903",
@@ -1972,7 +2096,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42612903/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42612901",
@@ -2012,7 +2136,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42612901/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42611686",
@@ -2047,7 +2171,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42611686/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42611642",
@@ -2080,7 +2204,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42611642/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42611634",
@@ -2104,7 +2228,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42611634/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42611626",
@@ -2137,7 +2261,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42611626/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42611595",
@@ -2164,7 +2288,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42611595/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42607925",
@@ -2186,7 +2310,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42607925/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42606540",
@@ -2216,7 +2340,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42606540/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42611682",
@@ -2269,7 +2393,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42611682/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42608714",
@@ -2324,7 +2448,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42608714/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42608698",
@@ -2353,7 +2477,7 @@
 "Comment"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42608698/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42608696",
@@ -2376,7 +2500,7 @@
 "Comment"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42608696/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42606951",
@@ -2409,7 +2533,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42606951/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42606299",
@@ -2448,7 +2572,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42606299/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42629535",
@@ -2479,143 +2603,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42629535/",
-"impactScore": 43
-},
-{
-"pmid": "42632219",
-"title": "Comparison of pre-endoscopic risk scores for identifying high-risk Forrest lesions in emergency department patients with suspected upper gastrointestinal bleeding.",
-"authors": [
-"Önür A",
-"Ahmed SA",
-"Toker İ",
-"Şanci E",
-"Altinsoy KE",
-"Bozkurt M",
-"Özerol H"
-],
-"journal": "The American journal of emergency medicine",
-"journalTier": 1,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-08-16",
-"abstract": "Early risk stratification in suspected upper gastrointestinal bleeding may help guide admission decisions, monitoring, and timing of endoscopy in the emergency department. Although several pre-endoscopic scores are widely used, their ability to predict high-risk endoscopic findings remains incompletely defined. This study aimed to compare the performance of established pre-endoscopic upper gastrointestinal bleeding scores and anticoagulation-related bleeding risk scores for predicting high-risk Forrest findings. This prospective multicentre cohort study included adult patients who underwent upper gastrointestinal endoscopy for suspected upper gastrointestinal bleeding. The primary outcome was high-risk endoscopic findings, defined as Forrest Ia-IIb. Low-risk findings were defined as Forrest IIc-III. We compared the performance of CHAMPS, Glasgow-Blatchford score, AIMS65, pre-endoscopic Rockall, HAS-BLED, ATRIA, ORBIT, VTE-BLEED, and HEMORR₂HAGES using receiver operating characteristic analysis. Multivariable logistic regression, calibration assessment, 10-fold cross-validated modelling, and Brier score were used to evaluate incremental discriminatory contribution beyond a baseline clinical model. A total of 571 patients were included, of whom 199 patients (34.9%) had high-risk Forrest findings. Patients with high-risk findings were older and had greater haemodynamic instability, lower haemoglobin, higher blood urea nitrogen, greater transfusion requirement, higher intensive care unit admission, and higher mortality than those with low-risk findings. Among all evaluated scores, CHAMPS had the best overall performance for predicting high-risk endoscopic findings, with an AUC of 0.889 (95% CI: 0.860-0.916). At the optimal cut-off of ≥2, CHAMPS achieved 72.9% sensitivity, 94.9% specificity, 88.4% positive predictive value, and 86.7% negative predictive value. CHAMPS significantly outperformed the Glasgow-Blatchford score (AUC 0.831; p = 0.001). In multivariable analysis, lower haemoglobin, higher blood urea nitrogen, lower systolic blood pressure, higher heart rate, and older age were independently associated with high-risk Forrest findings. Adding CHAMPS to the baseline clinical model produced the greatest incremental improvement, increasing the cross-validated AUC from 0.804 to 0.898 and reducing the Brier score from 0.165 to 0.109. CHAMPS remained the best-performing score in both anticoagulated and non-anticoagulated patients. In patients undergoing endoscopy for suspected upper gastrointestinal bleeding, CHAMPS showed stronger discrimination for high-risk Forrest findings than the other evaluated scores. Prediction of high-risk endoscopic stigmata should be considered complementary to existing pre-endoscopic UGIB risk stratification rather than a replacement for established risk scores. Conventional upper gastrointestinal bleeding scores remained clinically useful, whereas anticoagulation-related bleeding risk scores showed more limited value for acute endoscopic risk prediction. Additional validation in different emergency department settings is needed before broader clinical use.",
-"doi": "10.1016/j.ajem.2026.08.008",
-"keywords": [
-"Anticoagulation",
-"CHAMPS score",
-"Comparative performance",
-"Emergency medicine",
-"Endoscopy",
-"Forrest classification",
-"Glasgow-Blatchford score",
-"Risk stratification",
-"Upper gastrointestinal bleeding"
-],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42632219/",
-"impactScore": 43
-},
-{
-"pmid": "42628315",
-"title": "Clinical outcomes following changes to a nurse-driven diabetic ketoacidosis intravenous insulin protocol.",
-"authors": [
-"Savidge M",
-"Martinelli A",
-"Chea T",
-"Munir K",
-"Oliver W",
-"Yeung SY",
-"Tran Q",
-"Myers BA",
-"Seung H",
-"Gatz JD"
-],
-"journal": "The American journal of emergency medicine",
-"journalTier": 1,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-08-16",
-"abstract": "Limited literature exists to support the safety and efficacy of a nurse-driven protocol for the management of diabetic ketoacidosis (DKA). Our institution's nurse-driven protocol was updated in 2022 to improve outcomes and safety by adding standing rate calculations between lab assessments. To compare patient outcomes following changes made to a nurse-driven DKA protocol at an academic medical center. This was a retrospective, single-center, pre-post cohort study that included adult DKA patients receiving the nurse-driven protocol. The primary outcome was time from DKA diagnosis to resolution. Secondary outcomes included frequency of hypoglycemic events, insulin infusion duration, patient disposition, and hospital length of stay. Comparisons between protocols were made using the Wilcoxon rank-sum test for continuous variables and the chi-square test for categorical variables. 250 patients were included, with 125 patients in the pre- and 125 patients in the post-implementation group. There was no statistically significant difference in the time to DKA resolution between groups (pre- 15 h [IQR 10.5-21.5] versus post- 16.5 h [IQR 11-21], p = 0.92). The proportion of patients experiencing at least one hypoglycemic event was lower in the post-implementation group (8.0% vs 15.2%), although this difference was not significant (p = 0.076). Insulin infusion duration and hospital length of stay were significantly longer in the post-implementation group. Our current nurse-driven protocol is both safe and as equally effective as our previous institutional protocol.",
-"doi": "10.1016/j.ajem.2026.08.020",
-"keywords": [
-"Diabetic ketoacidosis",
-"Intravenous insulin",
-"Nurse-driven protocol"
-],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42628315/",
-"impactScore": 43
-},
-{
-"pmid": "42624047",
-"title": "Early effects of bolus versus continuous infusion furosemide in acute decompensated heart failure: a randomized double-blind study.",
-"authors": [
-"Korkmaz HK",
-"Güngör AC",
-"Çevik E"
-],
-"journal": "The American journal of emergency medicine",
-"journalTier": 1,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-08-16",
-"abstract": "Acute decompensated heart failure (ADHF) is a clinical syndrome associated with high morbidity and mortality. Current guidelines emphasize the importance of oxygenation and diuresis; however, there is no clear recommendation regarding whether loop diuretics should be administered as bolus or continuous infusion. This study aimed to compare the early effectiveness of bolus versus continuous infusion diuretic therapy in the emergency department (ED). This was a single-center, prospective, randomized, double-blind, parallel-group clinical trial. Patients aged ≥18 years with ADHF and no known chronic kidney disease were included. They were randomized in a 1:1 ratio to receive intravenous furosemide as either a bolus or continuous infusion. Allocation concealment was achieved using opaque envelopes. Double-blinding was maintained by applying placebo-mimicking interventions in both groups. The primary outcome was cumulative urine output at 2 and 4 h. Secondary outcomes were changes in the internal jugular vein collapsibility index (JVCI) at 2 and 4 h. The tertiary outcome was spot urinary sodium levels measured at 2 and 4 h. A total of 136 patients were screened, 56 were randomized, and 50 were included in the final analysis. The median cumulative urine output at 0-4 h was 2150 mL (IQR 800-4200) in the bolus group and 2400 mL (IQR 900-6250) in the infusion group, with no significant difference between groups (p = 0.60). No significant differences were observed in JVCI changes at 2 and 4 h (p = 0.138 and p = 0.892, respectively). However, JVCI increased significantly over time across the entire cohort (p < 0.001). Median spot urinary sodium levels were 117 (IQR 74-132) in the bolus group and 107 (IQR 70-141) in the infusion group, without a significant difference (p = 0.273). In ED patients with ADHF, bolus and continuous infusion diuretic therapies showed no significant difference in early diuresis or urinary sodium excretion. The observed dynamic changes in JVCI suggest that congestion may be monitored in the early phase. These findings indicate that patient hemodynamics and objective congestion assessment may be more clinically relevant than the method of diuretic administration. The study was registered at ClinicalTrials.gov (NCT07464249).",
-"doi": "10.1016/j.ajem.2026.08.009",
-"keywords": [
-"Acute heart failure",
-"Diuretics",
-"Emergency department",
-"Furosemide",
-"Jugular vein collapsibility",
-"Natriuresis"
-],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42624047/",
-"impactScore": 43
-},
-{
-"pmid": "42604667",
-"title": "Effect of early versus delayed or no insulin therapy for moderate hyperglycemia in ICU patients: A target trial emulation.",
-"authors": [
-"Gantzel CL",
-"Yazdanfard PDW",
-"Sørensen KK",
-"Helleberg J",
-"Soltani N",
-"Torp Pedersen C",
-"Pedersen-Bjergaard U",
-"Bestle MH",
-"Mårtensson J"
-],
-"journal": "Chest",
-"journalTier": 1,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-08-16",
-"abstract": "Hyperglycemia is common in intensive care unit (ICU) patients and associated with increased mortality. Despite several randomized clinical trials within glucose management in critical illness, the effects of insulin treatment, and its timing, in patients with moderate hyperglycemia remain uncertain. In acutely admitted ICU patients with moderate hyperglycemia, does insulin treatment improve clinical outcomes and does timing of insulin initiation matter? We performed a multicenter target trial emulation using targeted minimum loss-based estimation. We included patients from four ICUs at Karolinska University Hospitals, Solna, Huddinge, from 2010 to 2021. We assessed the effect of early insulin treatment compared with delayed or no insulin treatment on 30-day all-cause mortality in acutely admitted adult ICU patients with moderate hyperglycemia (10 - 13.9 mmol/L). We included 5,755 patients with moderate hyperglycemia; 3,149 (54.7%) received early insulin therapy (intervention group) and 2,606 (45.3%) received delayed or no insulin therapy (control group). The adjusted 30-day mortality was 22.1% (95% CI 21.1 - 23.1) for patients receiving insulin within 6 hours and 24.4% (95% CI 23.5 - 25.4) for patients with later or no insulin treatment, corresponding to an absolute risk reduction of 2.3% (95% CI 1.1 - 3.6). Absolute risk was reduced by 7.7%-points (CI 95% 6.5 - 8.9) when insulin was initiated within 1 hour of the first episode of moderate hyperglycemia and by 6.6%-points (CI 95% 5.4 - 7.8) with initiation within 2 hours. This effect was modified in several subgroups. In this target trial emulation, early insulin treatment of moderate hyperglycemia showed reduced mortality in acutely admitted adult ICU patients - particularly when insulin was initiated within 2 hours following hyperglycemia. These findings support further investigation in timing of insulin initiation.",
-"doi": "10.1016/j.chest.2026.08.007",
-"keywords": [
-"Hyperglycemia",
-"early intervention",
-"insulin therapy",
-"intensive care unit",
-"target trial emulation"
-],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42604667/",
-"impactScore": 43
+"impactScore": 42
 },
 {
 "pmid": "42625066",
@@ -2652,7 +2640,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42625066/",
-"impactScore": 42
+"impactScore": 41
 },
 {
 "pmid": "42616367",
@@ -2685,7 +2673,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42616367/",
-"impactScore": 41
+"impactScore": 40
 },
 {
 "pmid": "42611385",
@@ -2722,7 +2710,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42611385/",
-"impactScore": 40
+"impactScore": 39
 },
 {
 "pmid": "42625212",
@@ -2760,7 +2748,79 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42625212/",
-"impactScore": 39
+"impactScore": 38
+},
+{
+"pmid": "42635032",
+"title": "Videographic Assessment of Preintubation Checklist Use in Pediatric Emergency Departments: A NEAR4PEM Checklist Feasibility Study.",
+"authors": [
+"Wing R",
+"Prieto MM",
+"Todd E",
+"Thomas A",
+"Albanese AM",
+"Lin T",
+"Van Housen K",
+"Nishisaki A",
+"Kerrey B"
+],
+"journal": "Pediatric emergency care",
+"journalTier": 2,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-08-24",
+"abstract": "Cognitive aids are widely used in pediatric emergency departments (PEDs), yet real-world use is difficult to assess via self-report or the medical record. We used video review to assess whether (adoption) and how (fidelity) the NEAR4PEM Preintubation Checklist was used during tracheal intubations (TIs) in PEDs. Prospective observational study at 2 tertiary PEDs with continuous multivideo camera recording in resuscitative areas. Four independent reviewers used a standardized video abstraction tool to evaluate checklist use in checklist item verbalization, completion, timing, and efficiency (time spent on the checklist). Among 47 TIs, the checklist was used in 34 (72%). Thirty (88%) cases (22 medical, 8 trauma) were available for video review. Inter-reviewer concordance on all data elements was 96%. Verbalization of all 26 checklist items occurred in only 10% of cases. For most items, verbalization occurred in >80% of TIs and completion in ≥70%. Lower rates were observed for \"limit on attempts/duration discussed\" (verbalized in 33%, completed in 23%) and for \"rescue devices identified/prepared\" (verbalized in 63%, completed in 47%). Several preparation and equipment tasks were typically completed before checklist verbalization, whereas anticipatory-planning elements-such as difficult airway considerations, limits on attempts, and postintubation planning-were more often addressed after checklist prompting. Median checklist completion time was 2 minutes (IQR: 1 to 3min). Reviewers reported that the checklist was used effectively for patient preparation and enhanced team communication in 28 cases (93%). While checklist adoption was high, checklist item completion varied widely, potentially highlighting which elements function as true cognitive aids versus those reflecting routine practice. Video review provides a feasible and uniquely informative method to measure real-world implementation and identify opportunities to improve ED cognitive aid use.",
+"doi": "10.1097/PEC.0000000000003683",
+"keywords": [
+"checklist",
+"intubation",
+"video review"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42635032/",
+"impactScore": 36
+},
+{
+"pmid": "42634958",
+"title": "Retrospective Analysis of Genitourinary Complaints in Pediatric Males Presenting to the Emergency Department: Exploring the Relationship Between Gross Hematuria and Urinary Tract Infections.",
+"authors": [
+"Lovell RC",
+"Puri R",
+"Shelton SK",
+"Bacon K",
+"Boswell TC",
+"Heyming T",
+"Davis-Dao CA",
+"Assaf RR"
+],
+"journal": "Pediatric emergency care",
+"journalTier": 2,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-08-24",
+"abstract": "Hemorrhagic urinary tract infections (UTIs) are rare among healthy young males, and these infections lack epidemiological data as well as a standardized approach in the emergency department (ED). The purpose of this study was to investigate the presentation of healthy pediatric males presenting to the ED with features associated with hematuria and UTIs. We performed a retrospective chart review of male patients aged 1 to 8 years presenting to a single pediatric ED from January 2016 to December 2022 with ICD-10 codes related to UTI and hematuria. Demographic and clinical data were collected, and multivariable regressions were performed with subgroup comparisons by gross hematuria and age. Of 634 included male patients, 213 (34%) had gross hematuria. These children were older (P < 0.0001) and had lower rates of confirmed UTI (P = 0.002). Urine cultures most commonly grew Escherichia coli and Proteus mirabilis, with age-specific differences in isolated organisms. Gross hematuria was independently associated with lower odds of UTI after adjustment for age, circumcision status, and presenting symptoms (OR: 0.49, CI: 0.29-0.82; P = 0.007). In a subgroup analysis of children with gross hematuria, older age (5 to 8 y) was associated with decreased odds of UTI (OR: 0.77, CI: 0.61-0.97; P = 0.02). Within this ICD-defined cohort, gross hematuria was associated with lower odds of confirmed UTI, with odds decreasing with increasing age. These findings suggest that gross hematuria alone may be a poor predictor of UTI and should be interpreted with caution when considering empiric antibiotic treatment, highlighting the importance of antibiotic stewardship in the ED.",
+"doi": "10.1097/PEC.0000000000003675",
+"keywords": [
+"antibiotic stewardship",
+"antimicrobial resistance",
+"clinical predictors",
+"gross hematuria",
+"pediatric emergency department",
+"pediatric males",
+"retrospective cohort",
+"urinalysis",
+"urinary tract infection",
+"urine culture"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42634958/",
+"impactScore": 36
 },
 {
 "pmid": "42632870",
@@ -2799,7 +2859,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42632870/",
-"impactScore": 35
+"impactScore": 34
 },
 {
 "pmid": "42631702",
@@ -2835,7 +2895,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42631702/",
-"impactScore": 35
+"impactScore": 34
 },
 {
 "pmid": "42629536",
@@ -2881,7 +2941,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42629536/",
-"impactScore": 34
+"impactScore": 33
 },
 {
 "pmid": "42629534",
@@ -2919,7 +2979,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42629534/",
-"impactScore": 34
+"impactScore": 33
 },
 {
 "pmid": "42625419",
@@ -2951,7 +3011,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42625419/",
-"impactScore": 34
+"impactScore": 33
 },
 {
 "pmid": "42628230",
@@ -2988,7 +3048,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42628230/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42623276",
@@ -3020,7 +3080,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42623276/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42622881",
@@ -3066,7 +3126,7 @@
 "Observational Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42622881/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42622752",
@@ -3106,7 +3166,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42622752/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42622543",
@@ -3128,7 +3188,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42622543/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42619046",
@@ -3158,7 +3218,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42619046/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42629568",
@@ -3184,7 +3244,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42629568/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42632351",
@@ -3215,7 +3275,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42632351/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42632350",
@@ -3246,7 +3306,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42632350/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42629302",
@@ -3278,7 +3338,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42629302/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42628231",
@@ -3314,7 +3374,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42628231/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42628229",
@@ -3345,7 +3405,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42628229/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42628228",
@@ -3377,7 +3437,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42628228/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42628226",
@@ -3413,7 +3473,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42628226/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42628225",
@@ -3448,7 +3508,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42628225/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42620906",
@@ -3481,7 +3541,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42620906/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42616404",
@@ -3513,7 +3573,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42616404/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42616134",
@@ -3558,7 +3618,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42616134/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42616069",
@@ -3588,7 +3648,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42616069/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42616058",
@@ -3621,7 +3681,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42616058/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42616057",
@@ -3654,7 +3714,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42616057/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42616049",
@@ -3688,7 +3748,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42616049/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42615870",
@@ -3722,7 +3782,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42615870/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42615855",
@@ -3752,7 +3812,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42615855/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42612190",
@@ -3783,7 +3843,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42612190/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42612188",
@@ -3817,7 +3877,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42612188/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42611387",
@@ -3849,7 +3909,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42611387/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42611386",
@@ -3908,7 +3968,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42611386/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42611384",
@@ -3931,7 +3991,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42611384/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42611077",
@@ -3980,7 +4040,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42611077/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42611065",
@@ -4031,7 +4091,7 @@
 "Observational Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42611065/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42610987",
@@ -4062,7 +4122,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42610987/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42610983",
@@ -4095,7 +4155,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42610983/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42609052",
@@ -4132,7 +4192,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42609052/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42524825",
@@ -4158,7 +4218,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42524825/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42456096",
@@ -4188,7 +4248,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42456096/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42629558",
@@ -4231,7 +4291,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42629558/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42625180",
@@ -4285,7 +4345,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42625180/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42613598",
@@ -4329,7 +4389,7 @@
 "Multicenter Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42613598/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42607511",
@@ -4361,7 +4421,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42607511/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42606717",
@@ -4410,7 +4470,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42606717/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42605833",
@@ -4441,7 +4501,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42605833/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42605237",
@@ -4473,7 +4533,72 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42605237/",
-"impactScore": 30
+"impactScore": 29
+},
+{
+"pmid": "42634052",
+"title": "A rare and underrecognized complication of sickle cell disease in a pediatric patient: acute soft head syndrome.",
+"authors": [
+"Gupta A",
+"Jones B",
+"Pham D",
+"Niss O",
+"Caré M"
+],
+"journal": "Emergency radiology",
+"journalTier": 3,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-08-24",
+"abstract": "Acute soft head syndrome (ASHS) is an extremely rare and underrecognized complication of Sickle Cell Disease (SCD), and limited awareness can lead to misdiagnosis as infection or trauma. We report the case of a 16-year-old male with hemoglobin SS (HbSS) SCD who presented to the emergency department with headache and progressive periorbital swelling during a vaso-occlusive crisis. MRI demonstrated multifocal calvarial infarctions with overlying hemorrhagic subperiosteal collections and subgaleal edema without evidence of osteomyelitis or orbital cellulitis. Symptoms improved with conservative therapy, including analgesia and packed red blood cell transfusion (pRBC). This report emphasizes the need for a high index of suspicion and familiarity with characteristic MRI findings of calvarial bone infarcts and ASHS, as early recognition can prevent misdiagnosis and support timely optimization of sickle cell care.",
+"doi": "10.1148/rg.304095171",
+"keywords": [
+"Acute soft head syndrome",
+"Calvarial infarction",
+"Craniofacial swelling",
+"Sickle cell disease",
+"Subperiosteal collection"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42634052/",
+"impactScore": 26
+},
+{
+"pmid": "42634264",
+"title": "A Revised Public Health Emergency Preparedness Logic Model Reflecting the European Experience in the COVID-19 Pandemic.",
+"authors": [
+"Guicciardi S",
+"Stoto MA",
+"Toth F",
+"Savoia E",
+"Piltch-Loeb R",
+"Reno C",
+"Fantini MP"
+],
+"journal": "Health security",
+"journalTier": 3,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-08-23",
+"abstract": "In 2017, the European Centre for Disease Prevention and Control developed a public health emergency preparedness logic model for European Union, differentiating between capacities (resources and infrastructure) and response capabilities (actions during emergencies). Analysis of the COVID-19 experience suggests that the main features of this logic model, including the 5 high-level categories of capabilities, remain valid. Some changes are needed, however, in 3 areas. In the detection and assessment area, \"laboratory analysis\" was integrated with \"testing\" to better represent their combined role; additionally, \"incident recognition,\" \"epidemiological investigation,\" and \"risk characterization\" were included under the wider definition of \"public health intelligence.\" In the health services area, \"preventive medicine\" was replaced with the more specific capability of \"coordination of preventive, primary care and other outpatient services (population-based medicine).\" In the emergency risk communication area, several capabilities were further clarified such as the use of infodemic management. In addition, the analyses identified 4 overarching issues that must also be consider in preparedness assessments: (1) the need to develop new strategies, approaches, and policies under pressure and to review and revise them as the pandemic evolved; (2) the challenges of implementing an emergency response in the context of a country's internal hierarchical structure of public health, healthcare, and related entities; (3) the need for coordination among the different sections of the healthcare system, particularly hospital and community-based levels; and (4) the challenges of scaling up a country's pandemic response.",
+"doi": "10.1177/23265094261472997",
+"keywords": [
+"COVID-19",
+"Epidemic management/response",
+"Hospital preparedness/response",
+"Incident characterization",
+"Public health preparedness/response",
+"Risk communication"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42634264/",
+"impactScore": 25
 },
 {
 "pmid": "42625150",
@@ -4511,7 +4636,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42625150/",
-"impactScore": 23
+"impactScore": 22
 },
 {
 "pmid": "42625147",
@@ -4543,7 +4668,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42625147/",
-"impactScore": 23
+"impactScore": 22
 },
 {
 "pmid": "42618684",
@@ -4578,7 +4703,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42618684/",
-"impactScore": 23
+"impactScore": 22
 },
 {
 "pmid": "42618904",
@@ -4607,7 +4732,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42618904/",
-"impactScore": 21
+"impactScore": 20
 },
 {
 "pmid": "42608720",
@@ -4639,7 +4764,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42608720/",
-"impactScore": 20
+"impactScore": 19
 },
 {
 "pmid": "42608669",
@@ -4671,7 +4796,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42608669/",
-"impactScore": 20
+"impactScore": 19
 },
 {
 "pmid": "42625839",
