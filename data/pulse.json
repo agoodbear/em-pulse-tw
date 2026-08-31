@@ -1,24 +1,24 @@
 {
-"generatedAt": "2026-08-29T23:51:46.000Z",
+"generatedAt": "2026-08-31T00:10:50.000Z",
 "daysBack": 7,
 "journalCount": 59,
 "stats": {
-"total": 163,
+"total": 159,
 "byType": {
 "meta-analysis": 1,
 "systematic-review": 3,
-"review": 17,
-"original": 125,
+"review": 15,
+"original": 124,
 "editorial": 4,
-"letter": 13
+"letter": 12
 },
 "byTier": {
-"2": 81,
-"1": 50,
+"2": 79,
+"1": 48,
 "3": 32
 },
 "topScore": 62,
-"avgScore": 37
+"avgScore": 35
 },
 "articleOfWeek": {
 "pmid": "41955334",
@@ -182,7 +182,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42660638/",
-"impactScore": 57
+"impactScore": 55
 },
 {
 "pmid": "42658259",
@@ -223,7 +223,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42658259/",
-"impactScore": 57
+"impactScore": 55
 },
 {
 "pmid": "42645559",
@@ -259,7 +259,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42645559/",
-"impactScore": 56
+"impactScore": 54
 },
 {
 "pmid": "42645558",
@@ -302,7 +302,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42645558/",
-"impactScore": 56
+"impactScore": 54
 },
 {
 "pmid": "42637522",
@@ -335,7 +335,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42637522/",
-"impactScore": 54
+"impactScore": 52
 },
 {
 "pmid": "42635809",
@@ -374,7 +374,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42635809/",
-"impactScore": 54
+"impactScore": 52
 },
 {
 "pmid": "42635672",
@@ -419,83 +419,6 @@
 "Systematic Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42635672/",
-"impactScore": 54
-},
-{
-"pmid": "42642764",
-"title": "Assessment of the effectiveness of protein in critical illness: the role of statistical shortcomings in explaining discrepancies between observational studies and randomized controlled trials.",
-"authors": [
-"Neuberger M",
-"Hartl WH"
-],
-"journal": "Critical care (London, England)",
-"journalTier": 1,
-"journalSJR": null,
-"articleType": "review",
-"pubDate": "2026-08-22",
-"abstract": "Until 2023, recommendations for prescribing protein to critically ill patients were largely based on observational studies and non-randomized interventions. Several large, multicentre non-randomized studies of intervention conducted between 2009 and 2017 consistently reported that higher protein intake during the acute phase of critical illness was associated with lower mortality. However, major randomized controlled trials published in recent years (the EFFORT Protein trial in 2023, the PRECISe trial in 2024, and the TARGET Protein trial in 2025) have found no clinical benefit of increased protein administration. The reasons for these conflicting results are unclear, but they may be related to statistical shortcomings in observational studies. The authors identified numerous types of statistical bias in observational nutrition research. These include violations of the time axis, confounding by indication, failure to account for a wash-in period, inappropriate methods for variable selection and modelling of numerical confounder variables, transfer bias, sample-size bias, competing-risk bias, bias by data not missing at random, immortal time bias, and collider bias. To improve reliability, modern observational studies should emulate the design of randomized controlled trials. Advanced statistical approaches, including competing-risk models, time-varying analyses, nonlinear modelling and lag-time adjustments, can better account for the complexity of nutrition therapy in critical illness. Numerous types of bias may have exaggerated the apparent benefits of higher protein intake in older observational studies possibly explaining discrepancies to newer randomized trials. Rigorous statistical planning, transparent analysis protocols, use of advanced statistical approaches and expert statistical review are required to ensure that observational nutrition research produces valid, clinically meaningful evidence.",
-"doi": "10.1097/CCM.0000000000006155",
-"keywords": [
-"Bias",
-"Critical care",
-"Nutrition",
-"Observational studies",
-"Protein supply",
-"Statistics"
-],
-"meshTerms": [
-"Critical Illness",
-"Humans",
-"Observational Studies as Topic",
-"Randomized Controlled Trials as Topic",
-"Dietary Proteins",
-"Bias"
-],
-"pubTypes": [
-"Journal Article",
-"Review"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42642764/",
-"impactScore": 52
-},
-{
-"pmid": "42632888",
-"title": "AKI as a systemic syndrome and its impact on other organ systems.",
-"authors": [
-"Manca B",
-"Forni L",
-"Booke H",
-"Meuth S",
-"Koyner J",
-"La A",
-"Zarbock A"
-],
-"journal": "Critical care (London, England)",
-"journalTier": 1,
-"journalSJR": null,
-"articleType": "review",
-"pubDate": "2026-08-22",
-"abstract": "Acute kidney injury (AKI) affects approximately 15% of all hospitalized individuals and nearly half of those admitted to intensive care units and is increasingly recognized as a systemic syndrome whose consequences extend well beyond structural and functional changes confined to the kidney. Experimental studies highlight the role of inflammation and accumulation of metabolites as pivotal drivers in the cross-talk between the kidneys and distant organ systems during AKI. Whereas clinical data reveals an association between AKI and non-renal organ dysfunctions and complications. This review outlines the pathophysiological mechanisms underlying AKI-associated remote organ dysfunction, focusing on five key organ systems: the lungs, the brain, the heart, the liver and the immune system. We discuss the direct consequences of reduced kidney function alongside the repercussions of the inflammatory cascade triggered by kidney cell injury and the resulting clinical implications. Recognizing that multi-organ failure significantly influences patients' morbidity and mortality, identifying specific pathways of organ cross-talk is essential to optimize clinical management. Finally, we evaluate novel endpoints for future AKI trials. Given that traditional long-term metrics, such as Major Adverse Kidney Events (MAKE), present significant design challenges in non-enriched populations, we analyze alternative and surrogate outcomes, including those directly related to the remote organ complications of AKI.",
-"doi": "10.1159/000511058",
-"keywords": [
-"Acute kidney injury",
-"Cross-talk",
-"Distant organ injury",
-"Inflammation"
-],
-"meshTerms": [
-"Humans",
-"Acute Kidney Injury",
-"Multiple Organ Failure",
-"Inflammation",
-"Kidney",
-"Liver"
-],
-"pubTypes": [
-"Journal Article",
-"Review"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42632888/",
 "impactScore": 52
 },
 {
@@ -518,6 +441,122 @@
 "impactScore": 50
 },
 {
+"pmid": "42668063",
+"title": "The impact of national health systems on lung cancer mortality.",
+"authors": [
+"Gorantla N",
+"Dee EC",
+"Willmann J",
+"Jay G Feliciano E",
+"Wu JF",
+"Ang CDU",
+"Moraes FY",
+"Gomez DR",
+"Faivre-Finn C",
+"Lee NY",
+"Guckenberger M",
+"Iyengar P"
+],
+"journal": "Chest",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-08-29",
+"abstract": "Cancers of the trachea, bronchus, and lung represent the leading cause of cancer death globally; therefore, understanding the levers that are associated with outcomes of patients with lung cancer may inform health system planning and investment. We used global health system data from the World Health Organization (WHO), the World Bank, the Directory of Radiotherapy Centres (DIRAC), the United Nations Development Programme (UNDP), and the International Agency for Research on Cancer (IARC) to evaluate predictors of improved global outcomes for cancers of the trachea, bronchus, and lung. In a multivariable model, health spending, nurse/midwife density, universal health coverage index, and radiotherapy center density were independently associated with lower mortality-to-incidence ratio for cancers of the trachea, bronchus, and lung, whereas physician density had a small positive adjusted association. These findings may be of particular utility for countries facing a high or increasing burden of lung cancer.",
+"doi": "10.1016/j.chest.2026.08.021",
+"keywords": [
+"cancer disparities",
+"cancer system strengthening",
+"global oncology",
+"health systems",
+"lung cancer"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42668063/",
+"impactScore": 48
+},
+{
+"pmid": "42668062",
+"title": "Efficacy and safety of gabapentin for treatment of cough in idiopathic pulmonary fibrosis: a randomized, double-blinded, placebo-controlled clinical trial.",
+"authors": [
+"Zhou Y",
+"Ju X",
+"Zhang Y",
+"Wang S",
+"Zhang T",
+"Gao R",
+"Li Y",
+"Wang X",
+"Yu L",
+"Xu X"
+],
+"journal": "Chest",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-08-29",
+"abstract": "Cough is common in idiopathic pulmonary fibrosis (IPF) and substantially impairs quality of life, but effective treatment options are limited. Gabapentin reduces cough in refractory chronic cough, but its efficacy and safety in IPF-related cough are uncertain. Does gabapentin improve cough in patients with IPF? This study was a randomized, double-blind, placebo-controlled clinical trial conducted at Tongji Hospital, Tongji University. Patients diagnosed with IPF according to the ATS/ERS/JRS/ALAT guidelines, with chronic cough lasting for more than 8 weeks and a cough visual analog scale (VAS) score ≥40 mm, were included. Participants were randomly assigned in a 1:1 ratio to receive either gabapentin or placebo. Gabapentin was titrated to a maximum of 900 mg/d during 12 weeks of treatment, followed by a 4-week post-treatment follow-up. The primary endpoint was the cough relief rate at T4 (end of treatment), defined as the proportion of participants achieving a reduction of at least 50% in total Cough Symptom Score (CSS) from baseline. Safety was assessed in all participants who received at least one dose of study treatment. Between May 1, 2021, and December 31, 2024, 72 participants were screened, of whom 68 were randomized to gabapentin or placebo. Five participants withdrew prior to study completion. At T4, the cough relief rate was higher with gabapentin than with placebo (73.5% vs 26.5%), with a placebo-adjusted absolute difference of 47.1 percentage points (95% CI, 26.1-68.0; P < 0.001). During treatment, adverse events occurred in 32.4% of participants receiving gabapentin and 8.8% receiving placebo. The most common adverse events in the gabapentin group were drowsiness, fatigue, and dizziness. Gabapentin demonstrated significant efficacy with an acceptable safety profile in treating cough in IPF. These findings support gabapentin as a potential treatment option for IPF-related cough. The study was registered with the Chinese Clinical Trial Registry (ChiCTR2100045202).",
+"doi": "10.1016/j.chest.2026.08.030",
+"keywords": [
+"chronic cough",
+"gabapentin",
+"idiopathic pulmonary fibrosis",
+"treatment<abstractend>"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42668062/",
+"impactScore": 48
+},
+{
+"pmid": "42668061",
+"title": "Multicenter invasive validation of the Venous Excess Ultrasound Score (VExUS) in patients referred for pulmonary hypertension.",
+"authors": [
+"D'Alto M",
+"Cangiano N",
+"Orlando A",
+"Argiento P",
+"Badagliacca R",
+"Bossone E",
+"Caiazza S",
+"Cameli M",
+"De Ferrari GM",
+"Guarnaccia A",
+"Ghio S",
+"Marra WG",
+"Papa S",
+"Raineri C",
+"Rea G",
+"Renon F",
+"Romeo E",
+"Scelsi L",
+"Vizza CD",
+"Naeije R"
+],
+"journal": "Chest",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-08-29",
+"abstract": "The Venous Excess Ultrasound (VExUS) score is increasingly used to assess systemic venous congestion, yet direct validation against invasively measured right atrial pressure (RAP) in pulmonary hypertension (PH) remains limited. How accurate is the VExUS score to predict RAP in patients with established or suspected PH? We conducted a multicenter observational study across 7 Italian reference centers including patients referred for PH and undergoing a VExUS assessment and right heart catheterization within 1 hour. A VExUS score was calculated with a 0 to 3 grading based on inferior vena cava (IVC) diameter and collapsibility, and Doppler assessment of hepatic, portal, and intrarenal venous flow patterns. The diagnostic performance of VExUS for identifying elevated RAP thresholds was compared with echocardiographic estimates based on IVC diameter and inspiratory collapse and RA surface areas using a multivariable analysis followed by receiver operator curves (ROC) calculations. Subgroup analyses were performed across pulmonary hemodynamic phenotypes (normal hemodynamics vs pre- vs postcapillary PH). The study included 145 patients with pre-capillary PH, most of whom with pulmonary arterial hypertension (PAH), 21 with post-capillary PH, and 21 with no PH. The VExUS score showed a strong graded association with RAP, with mean RAP increasing across VExUS grades (0: 3.9 mmHg; 1: 8.4 mmHg; 2: 13.5 mmHg; 3: 15.8 mmHg; p<0.001). The VExUS score demonstrated excellent discrimination for elevated RAP >12 mmHg (AUC 0.97, 95% CI 0.94-0.99), with higher diagnostic performance than isolated echocardiographic markers and performance comparable to echocardiographic RAP estimation. These findings were consistent across hemodynamic phenotypes.",
+"doi": "10.1016/j.chest.2026.08.031",
+"keywords": [
+"echocardiography",
+"pulmonary hypertension"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42668061/",
+"impactScore": 48
+},
+{
 "pmid": "42665089",
 "title": "Beyond Witness Status: Implications for Resuscitation Pathways in Paediatric Out-of-Hospital Cardiac Arrest.",
 "authors": [
@@ -537,7 +576,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42665089/",
-"impactScore": 50
+"impactScore": 48
 },
 {
 "pmid": "42665838",
@@ -566,7 +605,7 @@
 "Comment"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42665838/",
-"impactScore": 49
+"impactScore": 47
 },
 {
 "pmid": "42665433",
@@ -593,7 +632,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42665433/",
-"impactScore": 49
+"impactScore": 47
 },
 {
 "pmid": "42665126",
@@ -641,7 +680,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42665126/",
-"impactScore": 49
+"impactScore": 47
 },
 {
 "pmid": "42665088",
@@ -668,7 +707,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42665088/",
-"impactScore": 49
+"impactScore": 47
 },
 {
 "pmid": "42665087",
@@ -695,7 +734,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42665087/",
-"impactScore": 49
+"impactScore": 47
 },
 {
 "pmid": "42664475",
@@ -728,7 +767,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42664475/",
-"impactScore": 49
+"impactScore": 47
 },
 {
 "pmid": "42664047",
@@ -763,7 +802,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42664047/",
-"impactScore": 49
+"impactScore": 47
 },
 {
 "pmid": "42661221",
@@ -820,7 +859,7 @@
 "Multicenter Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42661221/",
-"impactScore": 48
+"impactScore": 46
 },
 {
 "pmid": "42661203",
@@ -845,7 +884,7 @@
 "Comment"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42661203/",
-"impactScore": 48
+"impactScore": 46
 },
 {
 "pmid": "42661200",
@@ -866,7 +905,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42661200/",
-"impactScore": 48
+"impactScore": 46
 },
 {
 "pmid": "42468150",
@@ -888,7 +927,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42468150/",
-"impactScore": 48
+"impactScore": 46
 },
 {
 "pmid": "42648394",
@@ -914,7 +953,79 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42648394/",
-"impactScore": 48
+"impactScore": 46
+},
+{
+"pmid": "42661262",
+"title": "The Emergency Medical Treatment and Active Labor Act: Clinical Practice and Ethical Considerations.",
+"authors": [
+"Sakhuja M",
+"Ward C",
+"Madrigal V",
+"Shapiro J"
+],
+"journal": "Pediatric emergency care",
+"journalTier": 2,
+"journalSJR": null,
+"articleType": "review",
+"pubDate": "2026-09-01",
+"abstract": "The Emergency Medical Treatment and Active Labor Act (EMTALA), enacted in 1986, established the legal foundation for access to emergency medical care in the United States. This review examines EMTALA's historical origins, core requirements, and implications for pediatric emergency practice. The law emerged in response to widespread patient dumping practices in the 1980s, when hospitals routinely transferred or refused care to uninsured patients. In the 4 decades since, amendments and regulatory clarifications have expanded the law's scope and strengthened enforcement mechanisms. The modern iteration of EMTALA imposes 3 fundamental obligations on Medicare-participating hospitals with dedicated emergency departments: providing an appropriate medical screening examination, stabilizing emergency medical conditions, and facilitating appropriate transfers when necessary. Pediatric-specific considerations include the \"reverse dumping\" provision, which requires hospitals with specialized pediatric capabilities to accept appropriate transfers when capacity exists, and standards for pediatric transport during interfacility transfers. While EMTALA provides critical protections, its narrow focus on emergency care raises ethical questions about whether this minimal standard adequately meets broader child health needs. Understanding EMTALA's requirements and limitations is essential for pediatric emergency providers navigating both clinical and legal obligations in contemporary practice.",
+"doi": "10.1097/PEC.0000000000003591",
+"keywords": [
+"Emergency Medical Treatment and Labor Act (EMTALA)",
+"ethical dimensions of EMTALA",
+"pediatric emergency care and transfer obligations"
+],
+"meshTerms": [
+"Humans",
+"United States",
+"Patient Transfer",
+"Emergency Medical Services",
+"Emergency Service, Hospital",
+"Child",
+"Health Services Accessibility"
+],
+"pubTypes": [
+"Journal Article",
+"Review"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42661262/",
+"impactScore": 45
+},
+{
+"pmid": "42667748",
+"title": "Salary, protected time, and operational trends among emergency ultrasound programs: Results from the Society of Clinical Ultrasound Fellowships benchmark surveys.",
+"authors": [
+"Gottlieb M",
+"Driver L",
+"Arthur J",
+"Gaspari R",
+"Leo MM",
+"Pierre V",
+"Secko M",
+"Schaeffer W"
+],
+"journal": "The American journal of emergency medicine",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-08-26",
+"abstract": "Many emergency ultrasound (EUS) physicians and leaders depend on benchmarking data to gauge compensation, protected time, and operational metrics, yet available data are limited. We summarize four cycles of a national EUS benchmarking survey to characterize trends in salary, non-clinical protected time, demographics, operations, and billing for academic EUS divisions. We performed a repeated cross-sectional analysis of Society of Clinical Ultrasound Fellowships surveys fielded in 2017, 2019, 2021, and 2023, reported in accordance with STROBE. Continuous variables are presented as medians with interquartile ranges. Director total salary was normalized to March 2026 dollars, and a multivariable linear regression was performed to identify factors associated with director buydown hours. Between 65 and 105 programs responded per cycle, with an average response rate of 65%. Median director total salary rose from $290,000 in 2017 to $340,000 in 2023, but inflation-adjusted buying power fell from roughly $394,000 to $375,000. EUS director protected time declined from 29.8% in 2019 to 21.4% in 2023. Western programs and larger departments had fewer director buydown hours, whereas director hours spent on EUS activities predicted more buydown (p < 0.001). EUS directors were predominantly male and white; fellowship directors were more junior and more often female than EUS directors. Billing rose from 88.6% to 94.9% of programs, with a widening range of billed examinations. While nominal compensation rose, inflation-adjusted compensation and protected time for EUS leaders declined even as programs and billing expanded. This provides important data for individual and program benchmarking.",
+"doi": "10.1016/j.ajem.2026.08.040",
+"keywords": [
+"Administration",
+"Benchmarking",
+"Compensation",
+"Fellowship",
+"POCUS",
+"Point-of-care ultrasound"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42667748/",
+"impactScore": 45
 },
 {
 "pmid": "42649508",
@@ -938,7 +1049,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42649508/",
-"impactScore": 47
+"impactScore": 45
 },
 {
 "pmid": "42648467",
@@ -1019,7 +1130,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42648467/",
-"impactScore": 47
+"impactScore": 45
 },
 {
 "pmid": "42647750",
@@ -1057,7 +1168,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42647750/",
-"impactScore": 47
+"impactScore": 45
 },
 {
 "pmid": "42645557",
@@ -1100,7 +1211,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42645557/",
-"impactScore": 47
+"impactScore": 45
 },
 {
 "pmid": "42644690",
@@ -1138,7 +1249,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42644690/",
-"impactScore": 47
+"impactScore": 45
 },
 {
 "pmid": "42642771",
@@ -1160,7 +1271,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42642771/",
-"impactScore": 46
+"impactScore": 44
 },
 {
 "pmid": "42642301",
@@ -1182,7 +1293,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42642301/",
-"impactScore": 46
+"impactScore": 44
 },
 {
 "pmid": "42641059",
@@ -1212,7 +1323,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42641059/",
-"impactScore": 46
+"impactScore": 44
 },
 {
 "pmid": "42425696",
@@ -1248,7 +1359,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42425696/",
-"impactScore": 46
+"impactScore": 44
 },
 {
 "pmid": "42637213",
@@ -1275,7 +1386,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42637213/",
-"impactScore": 46
+"impactScore": 44
 },
 {
 "pmid": "42635756",
@@ -1298,44 +1409,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42635756/",
-"impactScore": 46
-},
-{
-"pmid": "42661262",
-"title": "The Emergency Medical Treatment and Active Labor Act: Clinical Practice and Ethical Considerations.",
-"authors": [
-"Sakhuja M",
-"Ward C",
-"Madrigal V",
-"Shapiro J"
-],
-"journal": "Pediatric emergency care",
-"journalTier": 2,
-"journalSJR": null,
-"articleType": "review",
-"pubDate": "2026-09-01",
-"abstract": "The Emergency Medical Treatment and Active Labor Act (EMTALA), enacted in 1986, established the legal foundation for access to emergency medical care in the United States. This review examines EMTALA's historical origins, core requirements, and implications for pediatric emergency practice. The law emerged in response to widespread patient dumping practices in the 1980s, when hospitals routinely transferred or refused care to uninsured patients. In the 4 decades since, amendments and regulatory clarifications have expanded the law's scope and strengthened enforcement mechanisms. The modern iteration of EMTALA imposes 3 fundamental obligations on Medicare-participating hospitals with dedicated emergency departments: providing an appropriate medical screening examination, stabilizing emergency medical conditions, and facilitating appropriate transfers when necessary. Pediatric-specific considerations include the \"reverse dumping\" provision, which requires hospitals with specialized pediatric capabilities to accept appropriate transfers when capacity exists, and standards for pediatric transport during interfacility transfers. While EMTALA provides critical protections, its narrow focus on emergency care raises ethical questions about whether this minimal standard adequately meets broader child health needs. Understanding EMTALA's requirements and limitations is essential for pediatric emergency providers navigating both clinical and legal obligations in contemporary practice.",
-"doi": "10.1097/PEC.0000000000003591",
-"keywords": [
-"Emergency Medical Treatment and Labor Act (EMTALA)",
-"ethical dimensions of EMTALA",
-"pediatric emergency care and transfer obligations"
-],
-"meshTerms": [
-"Humans",
-"United States",
-"Patient Transfer",
-"Emergency Medical Services",
-"Emergency Service, Hospital",
-"Child",
-"Health Services Accessibility"
-],
-"pubTypes": [
-"Journal Article",
-"Review"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42661262/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42667518",
@@ -1366,7 +1440,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42667518/",
-"impactScore": 45
+"impactScore": 43
 },
 {
 "pmid": "42637521",
@@ -1394,7 +1468,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42637521/",
-"impactScore": 45
+"impactScore": 43
 },
 {
 "pmid": "42637520",
@@ -1420,7 +1494,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42637520/",
-"impactScore": 45
+"impactScore": 43
 },
 {
 "pmid": "42637519",
@@ -1447,7 +1521,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42637519/",
-"impactScore": 45
+"impactScore": 43
 },
 {
 "pmid": "42637215",
@@ -1478,7 +1552,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42637215/",
-"impactScore": 45
+"impactScore": 43
 },
 {
 "pmid": "42637214",
@@ -1521,7 +1595,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42637214/",
-"impactScore": 45
+"impactScore": 43
 },
 {
 "pmid": "42637212",
@@ -1556,7 +1630,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42637212/",
-"impactScore": 45
+"impactScore": 43
 },
 {
 "pmid": "42636090",
@@ -1581,7 +1655,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42636090/",
-"impactScore": 45
+"impactScore": 43
 },
 {
 "pmid": "42636070",
@@ -1619,7 +1693,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42636070/",
-"impactScore": 45
+"impactScore": 43
 },
 {
 "pmid": "42636005",
@@ -1654,7 +1728,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42636005/",
-"impactScore": 45
+"impactScore": 43
 },
 {
 "pmid": "42635972",
@@ -1684,7 +1758,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42635972/",
-"impactScore": 45
+"impactScore": 43
 },
 {
 "pmid": "42635479",
@@ -1715,7 +1789,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42635479/",
-"impactScore": 45
+"impactScore": 43
 },
 {
 "pmid": "42635477",
@@ -1745,7 +1819,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42635477/",
-"impactScore": 45
+"impactScore": 43
 },
 {
 "pmid": "42635140",
@@ -1774,7 +1848,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42635140/",
-"impactScore": 45
+"impactScore": 43
 },
 {
 "pmid": "42468511",
@@ -1808,7 +1882,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42468511/",
-"impactScore": 45
+"impactScore": 43
 },
 {
 "pmid": "42665772",
@@ -1844,7 +1918,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42665772/",
-"impactScore": 44
+"impactScore": 42
 },
 {
 "pmid": "42658392",
@@ -1879,141 +1953,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42658392/",
-"impactScore": 43
-},
-{
-"pmid": "42665532",
-"title": "Reducing monetary and environmental cost with a trimmed suture removal kit in the emergency department.",
-"authors": [
-"Tsai SL",
-"Mills AM",
-"Steinmetz-Silber S",
-"McCormack R"
-],
-"journal": "The American journal of emergency medicine",
-"journalTier": 1,
-"journalSJR": null,
-"articleType": "letter",
-"pubDate": "2026-08-22",
-"abstract": "",
-"doi": "10.1016/j.ajem.2026.08.029",
-"keywords": [],
-"meshTerms": [],
-"pubTypes": [
-"Letter"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42665532/",
-"impactScore": 43
-},
-{
-"pmid": "42664740",
-"title": "Intentional substance exposures at school reported to United States poison centers, 2000-2024.",
-"authors": [
-"Bienfang A",
-"Hays HL",
-"Badeti J",
-"Rine NI",
-"Zhu M",
-"Yang J",
-"Smith GA"
-],
-"journal": "The American journal of emergency medicine",
-"journalTier": 1,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-08-22",
-"abstract": "The objective of this study was to investigate the characteristics and trends of intentional substance exposures at school among children 6-18 years old reported to United States (US) poison centers. Using a retrospective cohort study design, National Poison Data System data from 2000 to 2024 were analyzed. National population estimates from the US Census Bureau were used to calculate population-based rates, including age- and sex-specific rates, of exposure per 100,000 US population. Analyses included descriptive statistics and calculation of risk ratios (RRs) with 95% confidence intervals (CIs). From 2000 to 2024, US poison centers received reports of 122,700 intentional exposures that occurred at school among children 6-18 years old. Exposures most commonly involved high school-aged children (45.9%), males (56.7%), or a single substance (91.3%). Although most intentional exposures did not receive treatment at a healthcare facility (64.2%), 23.2% were treated/evaluated and released, and 5.3% resulted in admission to a non-critical care or critical care unit. Almost half (48.2%) of intentional substance exposures were not followed (judged to be a non-toxic exposure or to have minimal clinical effects possible), while 21.8% were associated with a minor effect and 20.0% with no effect. However, 10.0% had a serious medical outcome, including 0.7% (n = 741) with a major effect; there were two deaths. More than half of the intentional exposures occurring at school were attributable to intentional misuse (62.2%), followed by abuse (23.6%) and suspected self-harm or suicidal intent (14.2%). Exposures among high school-aged children were more likely to be associated with a serious medical outcome (RR: 5.00, 95% CI: 4.78-5.22), abuse (RR: 2.99, 95% CI: 2.92-3.06), or suspected self-harm or suicidal intent (RR: 3.28, 95% CI: 3.17-3.39) than those among elementary school- and middle school-aged children. Abuse was more likely to be associated with a serious medical outcome (RR: 4.51, 95% CI: 4.35-4.68) than non-abuse-related intentional exposures. Likewise, suspected self-harm or suicidal intent-related exposures were more likely to be associated with a serious medical outcome (RR: 2.33, 95% CI: 2.24-2.43) than exposures not related to suspected self-harm or suicidal intent. The rate of intentional exposures at school per 100,000 US children 6-18 years old fluctuated over time and increased overall by 77.5% from 7.5 in 2000 to 13.3 in 2024, including a transient sharp decline in 2020 and 2021 coinciding with the COVID-19 pandemic. The rate increased by 287.4% from 3.1 in 2000 to 11.9 in 2024 among elementary school-aged children, 111.9% from 10.0 in 2000 to 21.3 in 2024 among middle school-aged children, but decreased by 4.2% from 10.1 in 2000 to 9.7 in 2024 among high school-aged children. The exposure rate of middle school-aged children surpassed that of high school-aged children in about 2015. The increasing rate of reported intentional substance exposures at school among elementary school- and middle school-aged children, combined with the greater severity observed among high school-aged children, underscores the need for targeted and coordinated prevention and early identification strategies that integrate substance use education and mental health screening and intervention.",
-"doi": "10.1016/j.ajem.2026.08.031",
-"keywords": [
-"Pediatric",
-"Poisoning",
-"Self-harm",
-"Substance abuse",
-"Substance intentional misuse",
-"Suicide"
-],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42664740/",
-"impactScore": 43
-},
-{
-"pmid": "42660713",
-"title": "Comparison of acute stroke care pathways and door-to-needle times in Belgian and Turkish university hospitals: A four-center retrospective study.",
-"authors": [
-"Beşer MF",
-"Pasli S",
-"Çiçek M",
-"Göksu E",
-"Lemoyne S",
-"Meert P",
-"Monsieurs KG",
-"Oktay C",
-"Peeters A",
-"Yperzeele L",
-"Gündüz A"
-],
-"journal": "The American journal of emergency medicine",
-"journalTier": 1,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-08-22",
-"abstract": "Timely intravenous thrombolysis (IVT) is essential for improving clinical outcomes in acute ischemic stroke. This study compared stroke management protocols in two Belgian and two Turkish university hospitals, focusing on the impact of different emergency care models and in-hospital pathways on door-to-needle (DTN) time. A retrospective observational study was conducted across four centres (two in Belgium, two in Türkiye) between January 2016 and December 2017. Eligible adults (≥18 years) presented to the Emergency Department (ED) within 6 h of stroke onset or were referred for endovascular therapy. Demographics, National Institutes of Health Stroke Scale scores, prehospital transport type, Computer Tomography scanner (CT) location, and treatment details were collected. The primary outcome was DTN time. Secondary outcomes included door-to-CT time, IVT utilization, and 3-month functional status (mRS). 1034 patients with confirmed acute ischemic stroke were included. Median door-to-CT time was shortest in the Turkish centre with a CT scanner within the ED (17 vs 22-25 min, p < 0.001). However, Belgian hospitals achieved significantly shorter DTN times (median 33-41 vs 57-101 min in Turkish centres, p < 0.001). IVT and/or EVT usage was higher in Belgian (75.9%) than Turkish hospitals (45.9%). Three-month functional outcome (mRS 0-2) was slightly better in centres with lower baseline NIHSS scores; overall mortality rates were comparable (p > 0.05). Significant differences in DTN times were observed between EDs employing different models of care. In addition to physician-staffed prehospital care and direct IVT administration in the CT suite, locating the CT scanner within the ED was associated with shorter door-to-CT times. These findings can guide policymakers and clinicians to optimize stroke protocols.",
-"doi": "10.1016/j.ajem.2026.08.028",
-"keywords": [
-"Acute ischemic stroke",
-"Belgium",
-"Door-to-needle time",
-"Emergency care models",
-"Stoke care pathways",
-"Thrombolysis",
-"Türkiye"
-],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42660713/",
-"impactScore": 43
-},
-{
-"pmid": "42659770",
-"title": "Prospective validation of HACOR score for HFNO failure in emergency department patients with acute respiratory failure.",
-"authors": [
-"Unal E",
-"Altunbas E",
-"Karavin EO",
-"Altun M",
-"Kudu E",
-"Ozpolat C",
-"Karacabey S",
-"Akoglu H",
-"Onur O",
-"Denizbasi A"
-],
-"journal": "The American journal of emergency medicine",
-"journalTier": 1,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-08-22",
-"abstract": "High-flow nasal oxygen (HFNO) failure occurs in 30-42% of emergency department (ED) patients with acute respiratory failure (ARF). The HACOR score was derived in intensive care patients on mask-based noninvasive ventilation; its performance during HFNO in unselected ED patients has not been prospectively validated. Adults started on HFNO for ARF with arterial blood gas data at HFNO initiation (T0) and at 60 min (T60) were prospectively enrolled at a single tertiary academic ED. The primary outcome was HFNO failure (intubation or death from any cause within 48 h). We assessed discrimination (AUC, DeLong method), calibration (cross-validated slope) and clinical utility (decision curve analysis); the Youden-optimal T60 threshold was derived, bootstrap-corrected for optimism, and compared with the original cutoff (HACOR >5). Of 332 patients (median age 71 years; 47.0% male), 117 (35.2%) failed HFNO, of whom 115 (98.3%) were intubated. T60 HACOR outperformed T0 (AUC 0.890 [95% CI 0.853-0.927] vs. 0.701 [0.645-0.757]; ΔAUC +0.189; p < 0.001), showed no evidence of miscalibration (slope 0.98; calibration-in-the-large -0.001), and showed positive net benefit at threshold probabilities of 10-60%. HACOR ≥8 at T60 gave sensitivity 86.3% and specificity 76.7% (bootstrap-corrected 85.5% and 76.3%; selected in 75.5% of resamples); HACOR >5 gave sensitivity 94.9%, specificity 42.3% and NPV 93.8%. Subgroup AUCs ranged 0.856-0.912. The 60-min HACOR score discriminates HFNO failure well, with no evidence of miscalibration, in an unselected ED cohort, substantially outperforming the admission score. The >5 threshold remains the reference for ruling out failure; the ≥8 threshold derived here is exploratory and requires prospective validation.",
-"doi": "10.1016/j.ajem.2026.08.038",
-"keywords": [
-"Acute respiratory failure",
-"Emergency department",
-"HACOR score",
-"HFNO failure",
-"High-flow nasal oxygen",
-"Prediction score"
-],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42659770/",
-"impactScore": 43
+"impactScore": 41
 },
 {
 "pmid": "42645730",
@@ -2044,7 +1984,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42645730/",
-"impactScore": 42
+"impactScore": 40
 },
 {
 "pmid": "42645729",
@@ -2078,7 +2018,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42645729/",
-"impactScore": 42
+"impactScore": 40
 },
 {
 "pmid": "42635921",
@@ -2109,7 +2049,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42635921/",
-"impactScore": 40
+"impactScore": 38
 },
 {
 "pmid": "42659639",
@@ -2418,7 +2358,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42667656/",
-"impactScore": 36
+"impactScore": 34
 },
 {
 "pmid": "42667519",
@@ -2443,7 +2383,34 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42667519/",
-"impactScore": 36
+"impactScore": 34
+},
+{
+"pmid": "42612188",
+"title": "Trends in CAPCE-Accredited Emergency Medical Services Continuing Education Over the Past Decade.",
+"authors": [
+"Taylor SE",
+"Camarillo NF",
+"Scott J",
+"Holley J",
+"Barnhart BJ",
+"Terry M",
+"March JA"
+],
+"journal": "Prehospital emergency care",
+"journalTier": 2,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-08-29",
+"abstract": "The COVID-19 pandemic disrupted traditional continuing education (CE) delivery methods, necessitating rapid adaptation to alternative educational formats. The pandemic led the National Registry of Emergency Medical Technicians (NREMT) to waive limitations on asynchronous online distributive learning (ADL) for emergency medical services (EMS) recertification. The Commission on Accreditation for Prehospital Continuing Education (CAPCE) maintains one of the largest EMS CE databases in the United States. The goal of this study was to examine trends in CAPCE-accredited EMS CE course formats over the past decade. Five education formats were analyzed: live in-person, card-bearing courses, asynchronous online distributive learning, interactive gaming-style courses, and virtual instructor-led training. An observational retrospective interrupted time-series analysis was conducted using 19,289,785 EMS continuing education completions from the CAPCE database, from July 2014 through June 2024 (120 months). The COVID-19 intervention period was August 2020 through September 2022. Negative binomial regression and interrupted time-series models were used to estimate changes in course completions by CE format. Comparing mean monthly course completions between the pre-pandemic and post-pandemic periods, course format use shifted significantly. Live in-person courses decreased by 8.1%, from 3,324 to 3,053, while card-bearing courses increased by 15.1%, from 7,469 to 8,598. In contrast, online formats all saw large increases: asynchronous online distributive learning courses increased by 209.4%, from 86,242 to 266,842, interactive gaming-style courses increased by 914.6%, from 98 to 992, and virtual instructor-led training increased by 218.9%, from 2,096 to 8,151. In the post-pandemic period, NREMT's decision to permanently remove ADL restrictions, coupled with pandemic-related operational changes, was associated with significant, persistent shifts in CAPCE-accredited EMS CE format completions. This has resulted in sustained increases in completions of CAPCE-accredited online learning formats, including ADL, interactive gaming-style courses, and virtual instructor-led training, that persist well beyond the effects of the initial pandemic.",
+"doi": "10.1080/10903127.2026.2719010",
+"keywords": [],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42612188/",
+"impactScore": 34
 },
 {
 "pmid": "42665814",
@@ -2470,7 +2437,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42665814/",
-"impactScore": 35
+"impactScore": 33
 },
 {
 "pmid": "42664376",
@@ -2495,7 +2462,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42664376/",
-"impactScore": 35
+"impactScore": 33
 },
 {
 "pmid": "42664371",
@@ -2526,7 +2493,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42664371/",
-"impactScore": 35
+"impactScore": 33
 },
 {
 "pmid": "42664369",
@@ -2555,7 +2522,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42664369/",
-"impactScore": 35
+"impactScore": 33
 },
 {
 "pmid": "42664368",
@@ -2590,7 +2557,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42664368/",
-"impactScore": 35
+"impactScore": 33
 },
 {
 "pmid": "42664190",
@@ -2617,7 +2584,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42664190/",
-"impactScore": 35
+"impactScore": 33
 },
 {
 "pmid": "42664187",
@@ -2640,7 +2607,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42664187/",
-"impactScore": 35
+"impactScore": 33
 },
 {
 "pmid": "42663928",
@@ -2670,7 +2637,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42663928/",
-"impactScore": 35
+"impactScore": 33
 },
 {
 "pmid": "42663671",
@@ -2719,7 +2686,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42663671/",
-"impactScore": 35
+"impactScore": 33
 },
 {
 "pmid": "42663123",
@@ -2754,7 +2721,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42663123/",
-"impactScore": 35
+"impactScore": 33
 },
 {
 "pmid": "42663116",
@@ -2790,7 +2757,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42663116/",
-"impactScore": 35
+"impactScore": 33
 },
 {
 "pmid": "42663113",
@@ -2820,7 +2787,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42663113/",
-"impactScore": 35
+"impactScore": 33
 },
 {
 "pmid": "42574268",
@@ -2846,7 +2813,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42574268/",
-"impactScore": 35
+"impactScore": 33
 },
 {
 "pmid": "42384761",
@@ -2872,7 +2839,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42384761/",
-"impactScore": 35
+"impactScore": 33
 },
 {
 "pmid": "42257458",
@@ -2903,7 +2870,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42257458/",
-"impactScore": 35
+"impactScore": 33
 },
 {
 "pmid": "42661034",
@@ -2934,7 +2901,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42661034/",
-"impactScore": 34
+"impactScore": 32
 },
 {
 "pmid": "42664758",
@@ -2967,7 +2934,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42664758/",
-"impactScore": 34
+"impactScore": 32
 },
 {
 "pmid": "42658474",
@@ -2991,7 +2958,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42658474/",
-"impactScore": 34
+"impactScore": 32
 },
 {
 "pmid": "42658391",
@@ -3014,7 +2981,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42658391/",
-"impactScore": 34
+"impactScore": 32
 },
 {
 "pmid": "42658290",
@@ -3068,7 +3035,7 @@
 "Comparative Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42658290/",
-"impactScore": 34
+"impactScore": 32
 },
 {
 "pmid": "42658233",
@@ -3115,7 +3082,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42658233/",
-"impactScore": 34
+"impactScore": 32
 },
 {
 "pmid": "42658232",
@@ -3157,7 +3124,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42658232/",
-"impactScore": 34
+"impactScore": 32
 },
 {
 "pmid": "42658339",
@@ -3195,7 +3162,35 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42658339/",
-"impactScore": 33
+"impactScore": 31
+},
+{
+"pmid": "42667922",
+"title": "Expanding the indications of horizontal plate fixation to the proximal humerus: Technical note and clinical series.",
+"authors": [
+"Machado JKS",
+"da Silva Cordeiro R",
+"Dos Santos DR"
+],
+"journal": "Injury",
+"journalTier": 2,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-08-26",
+"abstract": "Isolated greater tuberosity fractures of the proximal humerus are relatively uncommon injuries, and there is no consensus regarding the optimal fixation method for displaced fractures. This study aimed to describe a horizontal plate fixation technique and to demonstrate its clinical applicability and feasibility in the treatment of isolated greater tuberosity fractures. This study consists of a technical description of the horizontal plate fixation technique, followed by its retrospective clinical application. A series of 11 patients with isolated greater tuberosity fractures treated with this method between 2009 and 2021 was included. All patients had a minimum follow-up of 24 months. Functional outcomes were assessed using the University of California at Los Angeles (UCLA) Shoulder Rating Scale. All patients achieved fracture union. The mean UCLA score was 30, with predominantly good functional outcomes. Most patients reported mild or occasional pain and minimal functional limitation. Horizontal plate osteosynthesis is a reproducible and accessible technique that demonstrated satisfactory clinical applicability in this series of patients with isolated greater tuberosity fractures. Further studies are needed to confirm its effectiveness.",
+"doi": "10.1016/j.injury.2026.113624",
+"keywords": [
+"Fracture osteosynthesis",
+"Greater tuberosity fracture",
+"Humeral fractures",
+"Shoulder fractures"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42667922/",
+"impactScore": 31
 },
 {
 "pmid": "42659875",
@@ -3234,7 +3229,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42659875/",
-"impactScore": 33
+"impactScore": 31
 },
 {
 "pmid": "42649480",
@@ -3285,7 +3280,7 @@
 "Validation Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42649480/",
-"impactScore": 33
+"impactScore": 31
 },
 {
 "pmid": "42647092",
@@ -3314,7 +3309,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42647092/",
-"impactScore": 33
+"impactScore": 31
 },
 {
 "pmid": "42646255",
@@ -3342,7 +3337,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42646255/",
-"impactScore": 33
+"impactScore": 31
 },
 {
 "pmid": "42645783",
@@ -3376,7 +3371,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42645783/",
-"impactScore": 33
+"impactScore": 31
 },
 {
 "pmid": "42645731",
@@ -3408,7 +3403,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42645731/",
-"impactScore": 33
+"impactScore": 31
 },
 {
 "pmid": "42644457",
@@ -3437,7 +3432,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42644457/",
-"impactScore": 33
+"impactScore": 31
 },
 {
 "pmid": "42642609",
@@ -3475,7 +3470,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42642609/",
-"impactScore": 32
+"impactScore": 30
 },
 {
 "pmid": "42640545",
@@ -3510,7 +3505,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42640545/",
-"impactScore": 32
+"impactScore": 30
 },
 {
 "pmid": "42640204",
@@ -3535,7 +3530,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42640204/",
-"impactScore": 32
+"impactScore": 30
 },
 {
 "pmid": "42615855",
@@ -3560,7 +3555,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42615855/",
-"impactScore": 32
+"impactScore": 30
 },
 {
 "pmid": "42642284",
@@ -3598,7 +3593,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42642284/",
-"impactScore": 31
+"impactScore": 29
 },
 {
 "pmid": "42636409",
@@ -3632,7 +3627,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42636409/",
-"impactScore": 31
+"impactScore": 29
 },
 {
 "pmid": "42636407",
@@ -3667,7 +3662,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42636407/",
-"impactScore": 31
+"impactScore": 29
 },
 {
 "pmid": "42635955",
@@ -3700,7 +3695,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42635955/",
-"impactScore": 31
+"impactScore": 29
 },
 {
 "pmid": "42635954",
@@ -3739,7 +3734,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42635954/",
-"impactScore": 31
+"impactScore": 29
 },
 {
 "pmid": "42635922",
@@ -3776,7 +3771,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42635922/",
-"impactScore": 31
+"impactScore": 29
 },
 {
 "pmid": "42635830",
@@ -3822,7 +3817,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42635830/",
-"impactScore": 31
+"impactScore": 29
 },
 {
 "pmid": "42635825",
@@ -3868,7 +3863,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42635825/",
-"impactScore": 31
+"impactScore": 29
 },
 {
 "pmid": "42635818",
@@ -3910,7 +3905,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42635818/",
-"impactScore": 31
+"impactScore": 29
 },
 {
 "pmid": "42635817",
@@ -3956,7 +3951,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42635817/",
-"impactScore": 31
+"impactScore": 29
 },
 {
 "pmid": "42635810",
@@ -4005,7 +4000,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42635810/",
-"impactScore": 31
+"impactScore": 29
 },
 {
 "pmid": "42635808",
@@ -4057,7 +4052,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42635808/",
-"impactScore": 31
+"impactScore": 29
 },
 {
 "pmid": "42635804",
@@ -4112,7 +4107,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42635804/",
-"impactScore": 31
+"impactScore": 29
 },
 {
 "pmid": "42635803",
@@ -4160,7 +4155,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42635803/",
-"impactScore": 31
+"impactScore": 29
 },
 {
 "pmid": "42635767",
@@ -4212,7 +4207,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42635767/",
-"impactScore": 31
+"impactScore": 29
 },
 {
 "pmid": "42635032",
@@ -4245,7 +4240,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42635032/",
-"impactScore": 31
+"impactScore": 29
 },
 {
 "pmid": "42634958",
@@ -4284,7 +4279,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42634958/",
-"impactScore": 31
+"impactScore": 29
 },
 {
 "pmid": "42635874",
@@ -4332,7 +4327,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42635874/",
-"impactScore": 30
+"impactScore": 28
 },
 {
 "pmid": "42660688",
@@ -4369,7 +4364,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42660688/",
-"impactScore": 30
+"impactScore": 28
 },
 {
 "pmid": "42648017",
@@ -4400,7 +4395,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42648017/",
-"impactScore": 30
+"impactScore": 28
 },
 {
 "pmid": "42641232",
@@ -4433,154 +4428,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42641232/",
-"impactScore": 30
-},
-{
-"pmid": "42648018",
-"title": "Association of CT-derived adipose measurements with prolonged intensive care unit stay in moderate and severe trauma patients.",
-"authors": [
-"Zander C",
-"Mühlenfeld N",
-"Erdle B",
-"Scheef T",
-"Rau A",
-"Reisert M",
-"Kalbhenn J",
-"Klingler F",
-"Schmal H",
-"Weiß J",
-"Bamberg F",
-"Diallo TD"
-],
-"journal": "Injury",
-"journalTier": 2,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-08-22",
-"abstract": "Obesity as measured by body mass index (BMI) has been associated with worse clinical outcomes in moderate and severe trauma patients. However, while BMI does not differentiate between different fat compartments, routine CT-derived body composition provides detailed assessment and may thus provide more accurate risk assessment. 200 eligible patients with moderate or severe trauma (injury severity score (ISS)≥ 9 from a level-1 trauma center were retrospectively identified and assembled into a 1:1 matched cohort (obese, BMI ≥ 30 kg/m vs. non-obese, BMI < 30 kg/m²), with exact matching on sex and close balancing on age and ISS. Patients with low quality CT imaging (n = 10), without intensive care unit (ICU) stay (n = 27) and death while hospital stay (n = 21) were excluded. CT-derived body composition measures including visceral adipose tissue (VAT), subcutaneous adipose tissue (SAT), their respective indices (VATI, SATI) and a combined abdominal fat tissue index (AATI) were assessed from a single axial slice at the L3 vertebral level using a previously developed and validated deep learning segmentation model. A total of 142 ICU survivors formed the final study cohort (median age: 56 years (IQR 47-65), 16% female, 52% obese). VATI (ρ = 0.25 and 0.27, p = 0.003 and 0.001) and SATI (ρ = 0.19 and 0.24, p = 0.024 and 0.003) were significantly correlated with ICU length of stay (LOS) and ventilation duration, while BMI did not show a significant correlation. In a combined model with the BMI, AATI remained significant while BMI did not (+15.5% per SD; 95% CI 2.7-29.9%; p = 0.016 for ICU LOS; +30.8% per SD; 95% CI 12.4-52.3%; p < 0.001 for ventilation duration). CT-derived abdominal adiposity measurements from routine scans were more strongly and consistently associated with ICU LOS and ventilation duration than BMI. Thus, CT-based body composition analysis may improve individual risk assessment and management on ICU patients.",
-"doi": "10.1016/j.injury.2026.113625",
-"keywords": [
-"BMI",
-"Body composition",
-"Deep learning",
-"Quantitative CT",
-"Severe trauma",
-"Trauma"
-],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42648018/",
-"impactScore": 29
-},
-{
-"pmid": "42641230",
-"title": "Chloral hydrate outperforms oral midazolam in facilitating venipuncture in children: A double-blind randomized trial.",
-"authors": [
-"Khakshour A",
-"Akhondian J",
-"Saeidinia A",
-"Nirooman S"
-],
-"journal": "Injury",
-"journalTier": 2,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-08-22",
-"abstract": "Venipuncture for intravenous access is a frequent and distressing procedure in pediatric hospitals and trauma centers. Achieving immobility in young, anxious children is essential yet difficult. A direct comparison of commonly used sedatives for this purpose was lacking. To directly compare the efficacy and safety of oral chloral hydrate versus midazolam for facilitating successful venipuncture in hospitalized children aged 1-5 years in emergency and trauma care. Prospective, double-blind, randomized trial in a tertiary hospital emergency department. One hundred children received either oral chloral hydrate (50 mg/kg) or oral midazolam (0.3 mg/kg) 30 min before venipuncture. number of attempts for successful venipuncture. Secondary outcomes included sedation time, venipuncture duration, total procedural time, recovery time, satisfaction, and adverse events. Analyses were adjusted for baseline age and weight differences. Chloral hydrate significantly reduced the number of venipuncture attempts (1.30 vs. 1.96; mean difference -0.66, 95% CI: -0.92 to -0.40, p < 0.001). Time to adequate sedation (16.30 vs. 25.54 min), IV access time (6.80 vs. 16.74 min), and total procedural time (42.12 vs. 67.06 min) were all significantly shorter with chloral hydrate (all p < 0.001). Recovery time did not differ (p = 0.819). After adjustment for age and weight, all efficacy outcomes remained superior for chloral hydrate. Parent and nurse satisfaction were significantly higher with chloral hydrate. Safety profiles were comparable, with stable vital signs and low, similar rates of minor adverse events. Oral chloral hydrate is significantly more effective than oral midazolam for sedating children during venipuncture in emergency and trauma settings, without compromising safety. Chloral hydrate should be considered a preferred agent for this indication.",
-"doi": "10.1016/j.injury.2026.113609",
-"keywords": [
-"Chloral Hydrate",
-"Hospitalized Child",
-"Midazolam",
-"Pediatric Sedation",
-"Procedural Sedation",
-"Randomized Controlled Trial",
-"Trauma Care",
-"Venipuncture"
-],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42641230/",
-"impactScore": 29
-},
-{
-"pmid": "42632870",
-"title": "Evaluating pediatric emergency knowledge mobilization resources for Canadian healthcare providers: a concurrent triangulation mixed-methods usability study.",
-"authors": [
-"Lai VKW",
-"Knisley L",
-"Hartling L",
-"Elliott SA",
-"Freedman S",
-"Bale-Nick M",
-"Scott S",
-"Reid S",
-"Lang E",
-"MacPhee S",
-"Jabbour M",
-"Aregbesola A",
-"Sinclair D",
-"Klassen TP"
-],
-"journal": "CJEM",
-"journalTier": 2,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-08-22",
-"abstract": "In Canada, approximately 85% of pediatric emergency visits occur in general emergency departments lacking specialized pediatric resources. Through a national co-developed knowledge mobilization strategy, the Translating Emergency Knowledge for Kids (TREKK) network creates evidence-based resources to bridge this gap. This study evaluated the usability of TREKK resources as perceived by healthcare providers. Between February 2023 and February 2024, a concurrent triangulation mixed-methods design was used to evaluate eight pediatric clinical resources across seven topics (diabetic ketoacidosis (DKA), bronchiolitis, aerosol-generating medical procedures, pneumonia, respiratory distress, eating disorders, and anxiety). Four iterative survey rounds each assessed two resources on nine usability dimensions (e.g., usefulness, simplicity, and clinical confidence) using an eleven-point Likert scale (0 = strongly disagree; 10 = strongly agree). Survey respondents were invited to semi-structured interviews on three resources (DKA and bronchiolitis Bottom Line Recommendations and the DKA algorithm); purposive sampling ensured diverse professional roles across urban, rural, and remote settings. Interviews were analyzed using reflexive thematic analysis. The survey sample comprised 432 respondents across four rounds. Mean usability scores across nine dimensions ranged from 7.81 to 9.61 (out of 10). The DKA algorithm was rated most positively on clinical usefulness (mean = 9.61), while the aerosol-generating medical procedures Fact Sheet was rated least positively on intention-to-use (mean = 7.2) and provider confidence (mean = 7.0). Thematic analysis of 21 interviews generated four themes: trusted resources, diverse utilization patterns, effective design, and organizational awareness gaps. Triangulation indicated that, although providers rated the resources as highly usable, limited organizational awareness was the primary barrier to uptake in practice. TREKK resources are valued for evidence-based credibility and bedside usability, yet limited organizational awareness impedes their uptake in practice. Ongoing, active strategies to increase uptake, such as knowledge brokering and curricular integration, are essential to bridge the knowledge-to-practice gap.",
-"doi": "10.1186/1748-5908-7-50",
-"keywords": [
-"Emergency department resources",
-"Knowledge mobilization",
-"Pediatric emergency care",
-"Usability evaluation"
-],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42632870/",
-"impactScore": 29
-},
-{
-"pmid": "42631702",
-"title": "A Novel Spray-on Dressing is Comparable to Silver Impregnated Foam Dressing in Controlling MRSA Infection and Promoting Healing.",
-"authors": [
-"Manalo LDN",
-"Bruhm A",
-"Myree Lindsey KV",
-"Ziedins EE",
-"Chow ASP",
-"Meretta C",
-"Shupp J",
-"Moffatt LT",
-"Carney BC"
-],
-"journal": "Journal of burn care & research : official publication of the American Burn Association",
-"journalTier": 2,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-08-22",
-"abstract": "Burn injuries disrupt the skin barrier, increasing susceptibility to infection, delaying healing, and can potentially becoming life-threatening. Wound dressings mitigate this risk by protecting the wound from environmental pathogens. This study evaluated a novel antimicrobial spray-on dressing designed to conform to irregular skin surfaces for its ability to control burn wound infection and promote wound healing. Evaluation was conducted in two stages. Experiment 1 used a rat scald model (n=19) inoculated with MRSA to compare the spray-on dressing's antimicrobial efficacy against silver-impregnated foam and control groups over 8 days. Experiment 2 used a porcine burn model to assess healing kinetics, skin biomechanics (elasticity, hardness), and histoarchitecture (rete ridge ratio, epidermal thickness) through Day 13.In the rat model, the spray-on dressing achieved bacterial control comparable to silver-impregnated foam; both groups demonstrated significantly lower MRSA burden compared to positive controls on Day 5 (p < 0.01), with no evidence of systemic dissemination. In the porcine model, the spray-on dressing supported timely wound closure with re-epithelialization rates comparable to the foam dressing (97.7% vs. 92.1%, p = 0.3). Skin biomechanic measurements, including tissue elasticity and stiffness, were indistinguishable from uninjured skin. Histoarchitecture analysis confirmed that the spray-on dressing facilitated a high-quality dermal-epidermal interface equivalent to the clinical standard. Overall, the novel spray-on dressing is comparable to the standard silver-impregnated foam dressing in both antimicrobial efficacy and tissue regeneration. Its superior conformability and simplified application make it a viable, efficient alternative for managing complex burn wounds in both routine and high-demand clinical settings.",
-"doi": "10.1093/jbcr/irag151",
-"keywords": [
-"Bacterial Burden",
-"Epithelial Thickness",
-"MRSA",
-"Porcine Burn",
-"Rat Burn",
-"Wound Dressing"
-],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42631702/",
-"impactScore": 29
+"impactScore": 28
 },
 {
 "pmid": "42664445",
@@ -4612,7 +4460,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42664445/",
-"impactScore": 25
+"impactScore": 23
 },
 {
 "pmid": "42664444",
@@ -4642,7 +4490,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42664444/",
-"impactScore": 25
+"impactScore": 23
 },
 {
 "pmid": "42664443",
@@ -4669,7 +4517,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42664443/",
-"impactScore": 25
+"impactScore": 23
 },
 {
 "pmid": "42664442",
@@ -4699,7 +4547,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42664442/",
-"impactScore": 25
+"impactScore": 23
 },
 {
 "pmid": "42664438",
@@ -4735,7 +4583,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42664438/",
-"impactScore": 25
+"impactScore": 23
 },
 {
 "pmid": "42664437",
@@ -4767,7 +4615,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42664437/",
-"impactScore": 25
+"impactScore": 23
 },
 {
 "pmid": "42664432",
@@ -4800,7 +4648,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42664432/",
-"impactScore": 25
+"impactScore": 23
 },
 {
 "pmid": "42664431",
@@ -4833,7 +4681,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42664431/",
-"impactScore": 25
+"impactScore": 23
 },
 {
 "pmid": "42664424",
@@ -4861,7 +4709,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42664424/",
-"impactScore": 25
+"impactScore": 23
 },
 {
 "pmid": "42664420",
@@ -4888,7 +4736,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42664420/",
-"impactScore": 25
+"impactScore": 23
 },
 {
 "pmid": "42664419",
@@ -4926,7 +4774,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42664419/",
-"impactScore": 25
+"impactScore": 23
 },
 {
 "pmid": "42664389",
@@ -4964,7 +4812,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42664389/",
-"impactScore": 25
+"impactScore": 23
 },
 {
 "pmid": "42664388",
@@ -4996,7 +4844,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42664388/",
-"impactScore": 25
+"impactScore": 23
 },
 {
 "pmid": "42664381",
@@ -5019,7 +4867,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42664381/",
-"impactScore": 25
+"impactScore": 23
 },
 {
 "pmid": "42664380",
@@ -5043,7 +4891,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42664380/",
-"impactScore": 25
+"impactScore": 23
 },
 {
 "pmid": "41489394",
@@ -5077,7 +4925,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/41489394/",
-"impactScore": 25
+"impactScore": 23
 },
 {
 "pmid": "42661172",
@@ -5100,7 +4948,7 @@
 "Published Erratum"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42661172/",
-"impactScore": 24
+"impactScore": 22
 },
 {
 "pmid": "42643102",
@@ -5129,7 +4977,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42643102/",
-"impactScore": 23
+"impactScore": 21
 },
 {
 "pmid": "42643057",
@@ -5161,7 +5009,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42643057/",
-"impactScore": 23
+"impactScore": 21
 },
 {
 "pmid": "42642699",
@@ -5192,7 +5040,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42642699/",
-"impactScore": 23
+"impactScore": 21
 },
 {
 "pmid": "42642926",
@@ -5219,7 +5067,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42642926/",
-"impactScore": 22
+"impactScore": 20
 },
 {
 "pmid": "42642727",
@@ -5252,7 +5100,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42642727/",
-"impactScore": 22
+"impactScore": 20
 },
 {
 "pmid": "42642726",
@@ -5282,7 +5130,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42642726/",
-"impactScore": 22
+"impactScore": 20
 },
 {
 "pmid": "42634052",
@@ -5313,7 +5161,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42634052/",
-"impactScore": 21
+"impactScore": 19
 },
 {
 "pmid": "42634264",
@@ -5347,7 +5195,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42634264/",
-"impactScore": 20
+"impactScore": 18
 },
 {
 "pmid": "42662507",
