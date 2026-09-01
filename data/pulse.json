@@ -1,21 +1,22 @@
 {
-"generatedAt": "2026-08-31T00:10:50.000Z",
+"generatedAt": "2026-09-01T00:58:02.000Z",
 "daysBack": 7,
 "journalCount": 59,
 "stats": {
-"total": 159,
+"total": 173,
 "byType": {
 "meta-analysis": 1,
 "systematic-review": 3,
+"rct": 1,
 "review": 15,
-"original": 124,
-"editorial": 4,
-"letter": 12
+"original": 132,
+"editorial": 7,
+"letter": 14
 },
 "byTier": {
-"2": 79,
-"1": 48,
-"3": 32
+"2": 87,
+"1": 53,
+"3": 33
 },
 "topScore": 62,
 "avgScore": 35
@@ -143,6 +144,50 @@
 "impactScore": 59
 },
 {
+"pmid": "42671473",
+"title": "Thoracoscopic internal fixation, open surgical internal fixation, and conservative treatment of rib fractures: differences in postoperative rehabilitation and chest volume (a randomized controlled trial).",
+"authors": [
+"Li T",
+"Zhao P",
+"Li W",
+"Liu B"
+],
+"journal": "European journal of trauma and emergency surgery : official publication of the European Trauma Society",
+"journalTier": 2,
+"journalSJR": null,
+"articleType": "rct",
+"pubDate": "2026-08-31",
+"abstract": "Currently, the standard treatment for multiple rib fractures is still under debate. This study explores the efficacy of three treatments (thoracoscopic internal fixation, open surgical internal fixation and conservative treatment) for multiple rib fractures and their influence on thoracic cavity volume and postoperative rehabilitation. Patients with multiple rib fractures admitted to Weifang People's Hospital of Shandong Province from March 2019 to March 2021 were enrolled in this study. The thoracic volume changes before and after treatment were measured by three-dimensional computed tomography (CT) reconstruction. Twenty-seven patients in the open operation group underwent internal fixation with the rib cage, and 24 patients in the non-internal fixation group underwent external fixation with the chest band. The recovery of multiple rib fractures was evaluated by comparing the difference in thoracic volume before and after treatment, the incidence of related complications and the Comprehensive Assessment of Generic Quality of Life Inventory-74 (GQOLI-74) score one month after the operation. After 12 months of follow-up, thoracic volume was significantly different between the thoracoscopic and open fixation groups (P < 0.001). One month after the thoracoscopic internal fixation of rib fractures, the scores of physical function, psychological function and social function were better than those in the open operation internal fixation group and the chest band external fixation group and the differences were statistically significant (P < 0.001). Compared with conservative treatment, both surgeries restore thoracic volume and improve early quality of life. Thoracoscopic fixation causes less trauma and better short-term rehabilitation than open surgery, with equivalent thoracic recovery and complication rates.",
+"doi": "10.1186/s13017-025-00581-y",
+"keywords": [
+"Conservative treatment",
+"Multiple rib fractures",
+"Open internal fixation",
+"Thoracic volume",
+"Thoracoscopic internal fixation"
+],
+"meshTerms": [
+"Humans",
+"Rib Fractures",
+"Fracture Fixation, Internal",
+"Female",
+"Conservative Treatment",
+"Male",
+"Middle Aged",
+"Thoracoscopy",
+"Adult",
+"Tomography, X-Ray Computed",
+"Fractures, Multiple",
+"Quality of Life"
+],
+"pubTypes": [
+"Journal Article",
+"Randomized Controlled Trial"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42671473/",
+"impactScore": 56
+},
+{
 "pmid": "42660638",
 "title": "Early management of crush injury and crush syndrome: a Faculty of Pre-Hospital Care consensus statement.",
 "authors": [
@@ -182,7 +227,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42660638/",
-"impactScore": 55
+"impactScore": 54
 },
 {
 "pmid": "42658259",
@@ -223,7 +268,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42658259/",
-"impactScore": 55
+"impactScore": 54
 },
 {
 "pmid": "42645559",
@@ -259,7 +304,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42645559/",
-"impactScore": 54
+"impactScore": 53
 },
 {
 "pmid": "42645558",
@@ -302,7 +347,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42645558/",
-"impactScore": 54
+"impactScore": 53
 },
 {
 "pmid": "42637522",
@@ -335,7 +380,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42637522/",
-"impactScore": 52
+"impactScore": 51
 },
 {
 "pmid": "42635809",
@@ -374,7 +419,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42635809/",
-"impactScore": 52
+"impactScore": 51
 },
 {
 "pmid": "42635672",
@@ -419,7 +464,7 @@
 "Systematic Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42635672/",
-"impactScore": 52
+"impactScore": 51
 },
 {
 "pmid": "42636182",
@@ -439,6 +484,154 @@
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42636182/",
 "impactScore": 50
+},
+{
+"pmid": "42671611",
+"title": "Surviving Sepsis Campaign beyond survival: aligning sepsis care with patient goals.",
+"authors": [
+"Kesecioglu J",
+"Metaxa V",
+"Azoulay E"
+],
+"journal": "Intensive care medicine",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "editorial",
+"pubDate": "2026-08-31",
+"abstract": "",
+"doi": "10.1513/AnnalsATS.201903-248OC",
+"keywords": [],
+"meshTerms": [],
+"pubTypes": [
+"Editorial"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42671611/",
+"impactScore": 50
+},
+{
+"pmid": "42671610",
+"title": "Sepsis-associated liver injury: from liver-test risk signals to immunobiology-guided precision medicine.",
+"authors": [
+"Katsounas A",
+"Tsochatzis E",
+"Rello J"
+],
+"journal": "Intensive care medicine",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "editorial",
+"pubDate": "2026-08-31",
+"abstract": "",
+"doi": "10.1016/j.eclinm.2025.103173",
+"keywords": [],
+"meshTerms": [],
+"pubTypes": [
+"Editorial"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42671610/",
+"impactScore": 50
+},
+{
+"pmid": "42671609",
+"title": "Hypernatremia in the critically Ill: beyond free water replacement.",
+"authors": [
+"Paraskevas T",
+"Ostermann M",
+"Joannidis M"
+],
+"journal": "Intensive care medicine",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "editorial",
+"pubDate": "2026-08-31",
+"abstract": "",
+"doi": "10.1186/s40635-025-00800-5",
+"keywords": [
+"Antidiuretic hormone",
+"Hypernatremia",
+"ICU-acquired hypernatremia",
+"Osmoreceptors",
+"Sodium regulation"
+],
+"meshTerms": [],
+"pubTypes": [
+"Editorial"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42671609/",
+"impactScore": 50
+},
+{
+"pmid": "42671386",
+"title": "Multi-omics biomarkers in post cardiac arrest syndrome: From pathophysiological mechanisms to the potential prognostication.",
+"authors": [
+"Yao J",
+"Niu M",
+"Wang Z",
+"Wang Y",
+"Zhu F"
+],
+"journal": "Shock (Augusta, Ga.)",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-08-31",
+"abstract": "Post cardiac arrest Syndrome (PCAS) is a systemic ischemia-reperfusion injury (IRI) that occurs after the return of spontaneous circulation (ROSC), characterized by endothelial dysfunction, systemic inflammatory response syndrome (SIRS), and multiple organ failure (MOF). This review focuses on the pathophysiological mechanisms, dynamic change patterns, and prognostic predictive value of three key categories of biomarkers in PCAS: inflammatory factors, endothelial injury biomarkers, and neuronal injury biomarkers. It covers the dual roles of inflammatory mediators such as Interleukin-6 (IL-6), Interleukin-10 (IL-10), tumor necrosis factor-alpha (TNF-α), and procalcitonin (PCT); the early warning value of syndecan-1 (SDC-1), hyaluronic acid (HA), heparan sulfate (HS) and other endothelial injury markers; as well as the prognostic characteristics of neuronal biomarkers including neuron-specific enolase (NSE), s100 calcium binding protein beta subunit (S100-B), Tau proteins, neurofilament light chain (NFL), ubiquitin carboxyl-terminal hydrolase-L1 (UCH-L1), and glial fibrillary acidic protein (GFAP). The review proposes that an integrated strategy of multi-omics and multimodal biomarkers can significantly improve the accuracy of prognostic assessment, thereby providing a new theoretical basis and development direction for the early intervention and individualized treatment of PCAS.",
+"doi": "10.1097/SHK.0000000000002933",
+"keywords": [
+"Cardiac arrest (CA)",
+"Post cardiac arrest syndrome (PCAS)",
+"biomarkers",
+"endothelial glycocalyx",
+"inflammatory factors",
+"multi-omics",
+"neuronal injury",
+"prognosis"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42671386/",
+"impactScore": 49
+},
+{
+"pmid": "42671261",
+"title": "Long-Term Mortality and Functional Outcomes After Extracorporeal Membrane Oxygenation in Critically Ill Adults: A Systematic Review and Meta-Analysis.",
+"authors": [
+"Stebbins KT",
+"Yap CY",
+"Segun-Beloved L",
+"Hodgson AM",
+"Charles-Nelson A",
+"Serpa Neto A",
+"Banerjee J",
+"Meredith L",
+"Romero L",
+"Papanikolaou V",
+"Orman Z",
+"Hodgson CL",
+"Higgins AM"
+],
+"journal": "Critical care medicine",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-08-31",
+"abstract": "To evaluate long-term all-cause mortality and functional outcomes among critically ill adults treated with extracorporeal membrane oxygenation (ECMO), including differences by ECMO modality and clinical indication. Ovid MEDLINE, Embase, Emcare, Central Register of Controlled Trials, and Scopus were searched to March 2025. Randomized controlled trials and observational studies reporting mortality or functional outcomes at or beyond 6 months in adults receiving ECMO were eligible for inclusion. A systematic review and meta-analysis were conducted in accordance with Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) 2020 guidelines and prospectively registered with PROSPERO (CRD420251002639). Two reviewers independently extracted data. Mortality was pooled using random-effects meta-analysis with 95% CIs. Prespecified subgroup analyses examined ECMO modality and clinical indication. Sensitivity analyses assessed the impact of missing outcome data. Functional outcomes were narratively synthesized due to heterogeneity. A total of 163 studies including 78,053 adults met inclusion criteria, with 59,454 adults in 156 of 163 studies (95.7%) contributing to mortality meta-analyses. At 1 year, pooled mortality was 37.2% (95% CI, 30.0-45.1%) in 13 of 33 venovenous ECMO studies (39.4%), 55.2% (95% CI, 50.2-60.1%) in 42 of 55 venoarterial ECMO studies (76.4%), and 74.4% (95% CI, 71.4-77.2%) in 14 of 24 (58.3%) extracorporeal cardiopulmonary resuscitation (ECPR) studies. Functional outcomes were reported in 38 of 163 studies (23.3%) in 7,876 survivors and were assessed using various instruments, most commonly the Cerebral Performance Category in 20 of 38 studies (52.6%), the World Health Organization Disability Assessment Schedule 2.0 in five of 38 studies (13.2%), and the modified Rankin Scale in five of 38 studies (13.2%). Long-term mortality following ECMO differed substantially by ECMO modality, ranging from 37.2% among adults receiving venovenous ECMO to 74.4% among adults receiving ECPR. Functional outcomes were inconsistently reported, limiting the understanding of functional recovery among survivors. Standardized reporting and benchmarking are required to better inform long-term prognosis, patient selection, and factors that may improve functional recovery after ECMO.",
+"doi": "10.1097/CCM.0000000000007318",
+"keywords": [
+"critical illness",
+"extracorporeal membrane oxygenation",
+"long-term care",
+"mortality",
+"treatment outcome"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42671261/",
+"impactScore": 49
 },
 {
 "pmid": "42668063",
@@ -476,7 +669,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42668063/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42668062",
@@ -511,7 +704,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42668062/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42668061",
@@ -554,7 +747,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42668061/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42665089",
@@ -576,7 +769,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42665089/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42665838",
@@ -605,7 +798,7 @@
 "Comment"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42665838/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42665433",
@@ -632,7 +825,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42665433/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42665126",
@@ -680,7 +873,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42665126/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42665088",
@@ -707,7 +900,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42665088/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42665087",
@@ -734,7 +927,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42665087/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42664475",
@@ -767,7 +960,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42664475/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42664047",
@@ -802,7 +995,44 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42664047/",
-"impactScore": 47
+"impactScore": 46
+},
+{
+"pmid": "42661262",
+"title": "The Emergency Medical Treatment and Active Labor Act: Clinical Practice and Ethical Considerations.",
+"authors": [
+"Sakhuja M",
+"Ward C",
+"Madrigal V",
+"Shapiro J"
+],
+"journal": "Pediatric emergency care",
+"journalTier": 2,
+"journalSJR": null,
+"articleType": "review",
+"pubDate": "2026-09-01",
+"abstract": "The Emergency Medical Treatment and Active Labor Act (EMTALA), enacted in 1986, established the legal foundation for access to emergency medical care in the United States. This review examines EMTALA's historical origins, core requirements, and implications for pediatric emergency practice. The law emerged in response to widespread patient dumping practices in the 1980s, when hospitals routinely transferred or refused care to uninsured patients. In the 4 decades since, amendments and regulatory clarifications have expanded the law's scope and strengthened enforcement mechanisms. The modern iteration of EMTALA imposes 3 fundamental obligations on Medicare-participating hospitals with dedicated emergency departments: providing an appropriate medical screening examination, stabilizing emergency medical conditions, and facilitating appropriate transfers when necessary. Pediatric-specific considerations include the \"reverse dumping\" provision, which requires hospitals with specialized pediatric capabilities to accept appropriate transfers when capacity exists, and standards for pediatric transport during interfacility transfers. While EMTALA provides critical protections, its narrow focus on emergency care raises ethical questions about whether this minimal standard adequately meets broader child health needs. Understanding EMTALA's requirements and limitations is essential for pediatric emergency providers navigating both clinical and legal obligations in contemporary practice.",
+"doi": "10.1097/PEC.0000000000003591",
+"keywords": [
+"Emergency Medical Treatment and Labor Act (EMTALA)",
+"ethical dimensions of EMTALA",
+"pediatric emergency care and transfer obligations"
+],
+"meshTerms": [
+"Humans",
+"United States",
+"Patient Transfer",
+"Emergency Medical Services",
+"Emergency Service, Hospital",
+"Child",
+"Health Services Accessibility"
+],
+"pubTypes": [
+"Journal Article",
+"Review"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42661262/",
+"impactScore": 45
 },
 {
 "pmid": "42661221",
@@ -859,7 +1089,7 @@
 "Multicenter Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42661221/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42661203",
@@ -884,7 +1114,7 @@
 "Comment"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42661203/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42661200",
@@ -905,7 +1135,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42661200/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42468150",
@@ -927,7 +1157,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42468150/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42648394",
@@ -953,43 +1183,6 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42648394/",
-"impactScore": 46
-},
-{
-"pmid": "42661262",
-"title": "The Emergency Medical Treatment and Active Labor Act: Clinical Practice and Ethical Considerations.",
-"authors": [
-"Sakhuja M",
-"Ward C",
-"Madrigal V",
-"Shapiro J"
-],
-"journal": "Pediatric emergency care",
-"journalTier": 2,
-"journalSJR": null,
-"articleType": "review",
-"pubDate": "2026-09-01",
-"abstract": "The Emergency Medical Treatment and Active Labor Act (EMTALA), enacted in 1986, established the legal foundation for access to emergency medical care in the United States. This review examines EMTALA's historical origins, core requirements, and implications for pediatric emergency practice. The law emerged in response to widespread patient dumping practices in the 1980s, when hospitals routinely transferred or refused care to uninsured patients. In the 4 decades since, amendments and regulatory clarifications have expanded the law's scope and strengthened enforcement mechanisms. The modern iteration of EMTALA imposes 3 fundamental obligations on Medicare-participating hospitals with dedicated emergency departments: providing an appropriate medical screening examination, stabilizing emergency medical conditions, and facilitating appropriate transfers when necessary. Pediatric-specific considerations include the \"reverse dumping\" provision, which requires hospitals with specialized pediatric capabilities to accept appropriate transfers when capacity exists, and standards for pediatric transport during interfacility transfers. While EMTALA provides critical protections, its narrow focus on emergency care raises ethical questions about whether this minimal standard adequately meets broader child health needs. Understanding EMTALA's requirements and limitations is essential for pediatric emergency providers navigating both clinical and legal obligations in contemporary practice.",
-"doi": "10.1097/PEC.0000000000003591",
-"keywords": [
-"Emergency Medical Treatment and Labor Act (EMTALA)",
-"ethical dimensions of EMTALA",
-"pediatric emergency care and transfer obligations"
-],
-"meshTerms": [
-"Humans",
-"United States",
-"Patient Transfer",
-"Emergency Medical Services",
-"Emergency Service, Hospital",
-"Child",
-"Health Services Accessibility"
-],
-"pubTypes": [
-"Journal Article",
-"Review"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42661262/",
 "impactScore": 45
 },
 {
@@ -1025,7 +1218,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42667748/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42649508",
@@ -1049,7 +1242,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42649508/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42648467",
@@ -1130,7 +1323,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42648467/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42647750",
@@ -1168,7 +1361,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42647750/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42645557",
@@ -1211,7 +1404,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42645557/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42644690",
@@ -1249,7 +1442,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42644690/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42642771",
@@ -1271,7 +1464,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42642771/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42642301",
@@ -1293,7 +1486,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42642301/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42641059",
@@ -1323,7 +1516,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42641059/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42425696",
@@ -1359,7 +1552,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42425696/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42637213",
@@ -1386,7 +1579,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42637213/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42635756",
@@ -1409,7 +1602,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42635756/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42667518",
@@ -1440,7 +1633,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42667518/",
-"impactScore": 43
+"impactScore": 42
 },
 {
 "pmid": "42637521",
@@ -1468,7 +1661,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42637521/",
-"impactScore": 43
+"impactScore": 42
 },
 {
 "pmid": "42637520",
@@ -1494,7 +1687,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42637520/",
-"impactScore": 43
+"impactScore": 42
 },
 {
 "pmid": "42637519",
@@ -1521,7 +1714,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42637519/",
-"impactScore": 43
+"impactScore": 42
 },
 {
 "pmid": "42637215",
@@ -1552,7 +1745,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42637215/",
-"impactScore": 43
+"impactScore": 42
 },
 {
 "pmid": "42637214",
@@ -1595,7 +1788,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42637214/",
-"impactScore": 43
+"impactScore": 42
 },
 {
 "pmid": "42637212",
@@ -1630,7 +1823,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42637212/",
-"impactScore": 43
+"impactScore": 42
 },
 {
 "pmid": "42636090",
@@ -1655,7 +1848,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42636090/",
-"impactScore": 43
+"impactScore": 42
 },
 {
 "pmid": "42636070",
@@ -1693,7 +1886,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42636070/",
-"impactScore": 43
+"impactScore": 42
 },
 {
 "pmid": "42636005",
@@ -1728,7 +1921,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42636005/",
-"impactScore": 43
+"impactScore": 42
 },
 {
 "pmid": "42635972",
@@ -1758,7 +1951,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42635972/",
-"impactScore": 43
+"impactScore": 42
 },
 {
 "pmid": "42635479",
@@ -1789,7 +1982,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42635479/",
-"impactScore": 43
+"impactScore": 42
 },
 {
 "pmid": "42635477",
@@ -1819,7 +2012,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42635477/",
-"impactScore": 43
+"impactScore": 42
 },
 {
 "pmid": "42635140",
@@ -1848,7 +2041,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42635140/",
-"impactScore": 43
+"impactScore": 42
 },
 {
 "pmid": "42468511",
@@ -1882,7 +2075,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42468511/",
-"impactScore": 43
+"impactScore": 42
 },
 {
 "pmid": "42665772",
@@ -1918,7 +2111,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42665772/",
-"impactScore": 42
+"impactScore": 41
 },
 {
 "pmid": "42658392",
@@ -1953,7 +2146,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42658392/",
-"impactScore": 41
+"impactScore": 40
 },
 {
 "pmid": "42645730",
@@ -1984,7 +2177,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42645730/",
-"impactScore": 40
+"impactScore": 39
 },
 {
 "pmid": "42645729",
@@ -2018,7 +2211,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42645729/",
-"impactScore": 40
+"impactScore": 39
 },
 {
 "pmid": "42635921",
@@ -2049,7 +2242,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42635921/",
-"impactScore": 38
+"impactScore": 37
 },
 {
 "pmid": "42659639",
@@ -2328,6 +2521,330 @@
 "impactScore": 36
 },
 {
+"pmid": "42671770",
+"title": "Just the facts: what emergency physicians should know about catheter ablations for atrial fibrillation.",
+"authors": [
+"Costello LL",
+"Singh SM"
+],
+"journal": "CJEM",
+"journalTier": 2,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-08-31",
+"abstract": "",
+"doi": "10.1161/CIRCULATIONAHA.125.077983",
+"keywords": [],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42671770/",
+"impactScore": 35
+},
+{
+"pmid": "42671591",
+"title": "Long-term radiological and clinical outcomes after surgical treatment of non-union: a ten-year follow-up study.",
+"authors": [
+"Böpple JC",
+"Berger J",
+"Ferbert T",
+"Bewersdorf TN",
+"Schmidmaier G",
+"Findeisen S"
+],
+"journal": "European journal of trauma and emergency surgery : official publication of the European Trauma Society",
+"journalTier": 2,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-08-31",
+"abstract": "Non-unions are a major challenge in trauma surgery. They are known to affect patients' lives for years after the initial trauma. Nevertheless, most studies only examine the first two years after treatment. The question what the long-term results look like ten years after surgery was posed in light of observations made in everyday clinical practice. To answer this, our study was designed to examine all patients who underwent non-union surgery in our department ten years ago. All patients who underwent surgery between July 2014 and October 2015 were invited to participate in the study. During a one-site appointment, an X-ray image was taken, which was then used to assess consolidation. The patients underwent a physical examination and answered a questionnaire, covering topics such as pain on a visual analogue scale (VAS) and overall quality of life with the short-form 12 (SF-12). A total of 54 patients were included in the study. The median follow-up period was 122 months (IQR: 118-124). After 10 years 88.9% patients showed osseus consolidation with a median Lane-Sandhu-Score (LSS) of 4 (IQR: 3-4). The Wilcoxon signed-rank test revealed a significant difference compared to 24 months postoperatively (Z = 4.716, p < 0.001). The difference in the consolidation showed a marginally significant result in the McNemar test with p = 0.063. A total of 51 patients (94.4%) reported being satisfied with the overall treatment. Patients had an average SF-12 mental score of 53.14 ± 10.13 and an SF-12 physical score of 38.93 ± 12.71 after ten years. Compared to the values after 12 months postoperatively, stable values without significant changes were observed. The study showed that bone remodeling can still be observed many years after surgical treatment of non-union. Furthermore, it was shown that the clinical results remain stable even after ten years. DRKS00037034, registered 12.06.2025.",
+"doi": "10.1302/2046-3758.86.BJR-2018-0344.R1",
+"keywords": [
+"Non-union, Long-term outcome, Bone remodelling, Lane-Sandhu-Score, SF-12"
+],
+"meshTerms": [
+"Humans",
+"Follow-Up Studies",
+"Female",
+"Fractures, Ununited",
+"Male",
+"Quality of Life",
+"Middle Aged",
+"Fracture Healing",
+"Treatment Outcome",
+"Radiography",
+"Fracture Fixation, Internal",
+"Adult",
+"Pain Measurement",
+"Femoral Fractures",
+"Tibial Fractures",
+"Surveys and Questionnaires",
+"Aged"
+],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42671591/",
+"impactScore": 35
+},
+{
+"pmid": "42671572",
+"title": "Artificial intelligence for predicting 30-day mortality after emergency laparotomy.",
+"authors": [
+"Bedrikovetski S",
+"Murshed I",
+"Seow W",
+"Bunjo Z",
+"De Fontgalland JS",
+"Traeger L",
+"Vather R"
+],
+"journal": "European journal of trauma and emergency surgery : official publication of the European Trauma Society",
+"journalTier": 2,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-08-31",
+"abstract": "Accurate pre-operative risk prediction in emergency laparotomy (EL) is essential for appropriate resource allocation and improve patient outcomes. This study aimed to establish the accuracy of an artificial intelligence (AI) model in predicting 30-day mortality after EL using a national dataset. Data was extracted from the Australian and New Zealand Emergency Laparotomy Audit-Quality Improvement (ANZELA-QI) database from 1 July 2018 to 24 July 2023. AI models were created employing multilayer perceptron (MLP) and radial basis function (RBF) architectures. Extended AI models were developed using all available pre-operative variables and simplified AI models were developed using statistically significant variables identified through univariate analysis. We assessed the performance of AI models with that of a multivariate logistic regression (LR) and the UK-based National Emergency Laparotomy Audit (NELA) models using the area under the receiver operator characteristic curve (AUROC). Data from 8293 ELs were included in the model and were randomly divided into a training dataset of 6619 (80%) and a testing dataset of 1674 (20%). There were 537 (6.5%) deaths 30 days after EL. In the testing dataset, the NELA model performed the best (AUROC 0.836), followed by the multivariate LR model (0.824), MLP simplified (0.817). MLP extended (0.802), RBF extended (0.719), and RBF simplified (0.672). Pairwise comparisons showed no significant difference in discrimination among the NELA, multivariate LR and MLP models. Pre-operative MLP and multivariate LR models demonstrated comparable performance to the NELA model in predicting 30-day mortality after EL.",
+"doi": "10.1016/j.sipas.2023.100225",
+"keywords": [
+"Artificial intelligence",
+"Emergency laparotomy",
+"Mortality",
+"National emergency laparotomy audit"
+],
+"meshTerms": [
+"Humans",
+"Laparotomy",
+"Artificial Intelligence",
+"Australia",
+"New Zealand",
+"Risk Assessment",
+"Prediction Algorithms",
+"Male",
+"Female",
+"Predictive Learning Models",
+"Emergencies",
+"ROC Curve",
+"Logistic Models",
+"Multilayer Perceptrons"
+],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42671572/",
+"impactScore": 35
+},
+{
+"pmid": "42671542",
+"title": "Predicting postoperative course in Fournier's gangrene surgery: evaluation of the E-PASS score in a single-center retrospective study.",
+"authors": [
+"Gercek O",
+"Senkol M",
+"Ulucak MA",
+"Yazar VM"
+],
+"journal": "European journal of trauma and emergency surgery : official publication of the European Trauma Society",
+"journalTier": 2,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-08-31",
+"abstract": "The E-PASS scoring system, which incorporates preoperative data and surgical stress factors, may provide a reliable risk classification for predicting mortality risk in patients with Fournier's gangrene. This study aimed to investigate the value of the E-PASS score in predicting mortality in patients with Fournier's gangrene. The study included 41 patients who were diagnosed with FG clinically and underwent surgery. Preoperative demographic and clinical data, laboratory values, FGSI, and E-PASS scores were recorded. The patients were divided into two groups: 8 (19.5%) patients who developed mortality and 33 (80.5%) patients who were discharged without mortality. Demographic, clinical, and laboratory data, as well as FGSI and E-PASS scores, were compared between the groups. In the mortality group, CRP, serum creatinine levels, FGSI, E-PASS PRS, and E-PASS CRS scores were observed to be significantly higher, while serum albumin and hematocrit levels were lower compared to the other group (respectively, p = 0.020, p = 0.001, p < 0.001, p < 0.001, p < 0.001, p = 0.001, p < 0.001). FGSI, E-PASS CRS, CRP, and serum albumin values were found to have diagnostic value in predicting mortality. The cut-off values were determined as 7.5 for FGSI, 0.55 for E-PASS CRS, 186.25 for CRP, and 2.92 for albumin. Our findings show that E-PASS can provide additional value to existing prognostic assessment methods in Fournier's gangrene. The preoperative E-PASS PRS component, used alongside FGSI, may contribute to early identification of high-risk patients, while the postoperative CRS may assist in risk-adjusted postoperative management planning.",
+"doi": "10.1007/s13304-025-02145-w",
+"keywords": [
+"Debridement",
+"Fournier gangrene",
+"Mortality",
+"Necrotizing fasciitis"
+],
+"meshTerms": [
+"Humans",
+"Fournier Gangrene",
+"Retrospective Studies",
+"Female",
+"Male",
+"Risk Assessment",
+"Middle Aged",
+"Aged",
+"Serum Albumin",
+"Predictive Value of Tests",
+"Creatinine",
+"Prognosis",
+"Debridement",
+"C-Reactive Protein"
+],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42671542/",
+"impactScore": 35
+},
+{
+"pmid": "42670195",
+"title": "Emergency Preparedness for Technology-Dependent Children Must Begin Before the 911 Call.",
+"authors": [
+"Lilitwat W"
+],
+"journal": "Pediatric emergency care",
+"journalTier": 2,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-08-31",
+"abstract": "",
+"doi": "10.1097/PEC.0000000000003689",
+"keywords": [],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42670195/",
+"impactScore": 35
+},
+{
+"pmid": "42670186",
+"title": "Factors Associated With Emergency Department Length of Stay for Pediatric Patients Evaluated by an Academic Telepsychiatry Consultation Service.",
+"authors": [
+"Bollapragrada A",
+"Olegario N",
+"Jaiswal S",
+"Zeng X",
+"Sowa NA"
+],
+"journal": "Pediatric emergency care",
+"journalTier": 2,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-08-31",
+"abstract": "Emergency department (ED) boarding for youth in mental health crisis has increased nationally, straining capacity and delaying definitive care. Telepsychiatry may reduce ED length of stay (LOS), but limited data exist to describe factors associated with ED LOS for pediatric populations receiving telepsychiatry consultation. This retrospective study analyzed telepsychiatry consultations on patients aged below 18 years across 11 hospitals in an academic health system (July 2022 to July 2024). Demographic, clinical, and encounter-level variables were extracted from the electronic health record. ED LOS was defined as the time from ED arrival to ED discharge. Linear regression was used to evaluate independent predictors of ED LOS. A subanalysis compared the 50 longest LOS encounters with 50 controls randomly selected from the lowest 2 quartiles. Among 1187 consultations, median ED LOS was 34.9 hours (IQR=14.8 to 68.5). Older age (P=0.003) and public insurance (P=0.01) were associated with longer LOS, while female sex was associated with shorter LOS (P=0.007). Regression analyses identified diagnosis category as the strongest independent predictor of LOS. Extreme outlier cases (median LOS=666.5 h) differed significantly from controls in age, diagnosis, disposition, violence history, legal barriers, and antipsychotic use. Pediatric patients evaluated by telepsychiatry experienced prolonged ED LOS, with demographic, diagnostic, and social factors contributing to delays. Extreme outlier cases highlight the multifactorial drivers of extreme boarding, including aggression, legal constraints, and custodial issues. Early identification of high-risk patients may support targeted intensive case management and interagency coordination to reduce ED LOS.",
+"doi": "10.1097/PEC.0000000000003687",
+"keywords": [
+"emergency",
+"length of stay",
+"mental health services",
+"pediatrics",
+"telepsychiatry"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42670186/",
+"impactScore": 35
+},
+{
+"pmid": "42669796",
+"title": "In Reply to Dr Billin.",
+"authors": [
+"Helland AM"
+],
+"journal": "Wilderness & environmental medicine",
+"journalTier": 2,
+"journalSJR": null,
+"articleType": "letter",
+"pubDate": "2026-08-30",
+"abstract": "",
+"doi": "10.1177/10806032261481497",
+"keywords": [],
+"meshTerms": [],
+"pubTypes": [
+"Letter"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42669796/",
+"impactScore": 34
+},
+{
+"pmid": "42669790",
+"title": "Epinephrine Autoinjectors as an Improvised Treatment for Severe Asthma in Austere Settings.",
+"authors": [
+"Iserson KV"
+],
+"journal": "Wilderness & environmental medicine",
+"journalTier": 2,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-08-30",
+"abstract": "Severe asthma exacerbations may rapidly become fatal when bronchodilator therapy is unavailable. In wilderness and disaster environments, inhaled β2-agonists-the standard treatment-may be lost, depleted, or otherwise inaccessible. Epinephrine has been used for more than a century as a bronchodilator and was historically administered subcutaneously or intramuscularly for acute asthma before selective β2-agonists became widely available. In emergency medicine, parenteral epinephrine remains an accepted rescue therapy for severe asthma exacerbations, particularly when inhaled bronchodilators cannot be administered-for example, because the patient is apneic or no functioning inhaler is available. Epinephrine autoinjectors (eg, EpiPen, Adrenaclick, Auvi-Q, authorized generics, or prefilled syringes such as Symjepi) are commonly carried for anaphylaxis and therefore may represent a practical field improvisation for severe asthma in austere settings. Although reported cardiovascular adverse events have predominantly involved intravenous administration, dosing errors, or patients with preexisting cardiac disease, intramuscular epinephrine at standard autoinjector doses has a well-documented safety profile. This article reviews the physiologic rationale, historical precedent, potential field use, and austere-environment techniques-including retrieval of additional medication from autoinjectors-supporting this approach when standard therapies are unavailable.",
+"doi": "10.1177/10806032261481498",
+"keywords": [
+"asthma",
+"austere environment",
+"autoinjector",
+"bronchodilator",
+"disaster medicine",
+"epinephrine",
+"wilderness medicine"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42669790/",
+"impactScore": 34
+},
+{
+"pmid": "42669781",
+"title": "Read It and Weep: An Evaluation of People Involved in Avalanches and Their Forecast Reading Habits.",
+"authors": [
+"Petelinsek S",
+"Kelner R",
+"Jones J",
+"Champion N",
+"Morgan M",
+"Hughes PG"
+],
+"journal": "Wilderness & environmental medicine",
+"journalTier": 2,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-08-30",
+"abstract": "IntroductionThe aim of this investigation is to gain insight into how humans interact with the avalanche forecast and better understand the role that the avalanche forecast plays in prevention of human-triggered avalanche incidents.MethodsUsing a 5-y cross-sectional study of self-reported survey data of participants involved in avalanches, we performed a secondary analysis to identify trends and patterns in avalanche forecast reading habits. The study assessed avalanche forecast reading habits, perceptions, and retention of information as well as demographic information on participants.ResultsA total of 489 participants were included in the final analysis. Of all the respondents, 12% of people who report normally reading the avalanche forecast report not reading the forecast on the day of their avalanche involvement. The plurality of expert and authority users and people between the ages of 41 and 60 y skipped reading the avalanche forecast the day of their reported avalanche incident. Females were more likely than males to have not read the avalanche forecast the day of their avalanche involvement.ConclusionsAlthough avalanche forecasts are widely used as a component of avalanche risk management, a meaningful proportion of individuals involved in avalanches reported not reading the forecast on the day of their incident. By understanding the forecast reading behavior of the people involved in avalanches, we can begin to design targeted efforts within the forecast aimed to decrease avalanche involvement, injury, and death.",
+"doi": "10.1177/10806032261481064",
+"keywords": [
+"avalanche forecast",
+"avalanche incident",
+"backcountry behavior",
+"reading habits",
+"wilderness medicine"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42669781/",
+"impactScore": 34
+},
+{
+"pmid": "42669579",
+"title": "Comment on: Shock wave therapy versus conventional physical therapy for partial-thickness forearm burn scars: A randomized controlled trial.",
+"authors": [
+"Zhao FY",
+"Fu QQ",
+"Chen Z",
+"Luo S"
+],
+"journal": "Burns : journal of the International Society for Burn Injuries",
+"journalTier": 2,
+"journalSJR": null,
+"articleType": "letter",
+"pubDate": "2026-08-30",
+"abstract": "",
+"doi": "10.1016/j.burns.2026.108167",
+"keywords": [
+"Burn Rehabilitation",
+"Extracorporeal Shock Wave Therapy",
+"Hypertrophic Scar",
+"Neuropathic Pain",
+"Scar Rehabilitation",
+"Upper Extremity Function"
+],
+"meshTerms": [],
+"pubTypes": [
+"Letter"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42669579/",
+"impactScore": 34
+},
+{
 "pmid": "42667656",
 "title": "Integrative Analysis of Nucleotide Metabolism-Related Genes Reveals a Diagnostic Signature and In Silico Functional Disruption in Hypertrophic Scarring.",
 "authors": [
@@ -2358,7 +2875,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42667656/",
-"impactScore": 34
+"impactScore": 33
 },
 {
 "pmid": "42667519",
@@ -2383,7 +2900,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42667519/",
-"impactScore": 34
+"impactScore": 33
 },
 {
 "pmid": "42612188",
@@ -2410,7 +2927,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42612188/",
-"impactScore": 34
+"impactScore": 33
 },
 {
 "pmid": "42665814",
@@ -2437,7 +2954,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42665814/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42664376",
@@ -2462,7 +2979,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42664376/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42664371",
@@ -2493,7 +3010,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42664371/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42664369",
@@ -2522,7 +3039,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42664369/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42664368",
@@ -2557,7 +3074,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42664368/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42664190",
@@ -2584,7 +3101,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42664190/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42664187",
@@ -2607,7 +3124,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42664187/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42663928",
@@ -2637,7 +3154,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42663928/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42663671",
@@ -2686,7 +3203,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42663671/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42663123",
@@ -2721,7 +3238,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42663123/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42663116",
@@ -2757,7 +3274,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42663116/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42663113",
@@ -2787,7 +3304,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42663113/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42574268",
@@ -2813,7 +3330,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42574268/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42384761",
@@ -2839,7 +3356,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42384761/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42257458",
@@ -2870,7 +3387,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42257458/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42661034",
@@ -2901,7 +3418,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42661034/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42664758",
@@ -2934,7 +3451,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42664758/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42658474",
@@ -2958,7 +3475,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42658474/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42658391",
@@ -2981,7 +3498,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42658391/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42658290",
@@ -3035,7 +3552,7 @@
 "Comparative Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42658290/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42658233",
@@ -3082,7 +3599,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42658233/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42658232",
@@ -3124,7 +3641,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42658232/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42658339",
@@ -3162,7 +3679,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42658339/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42667922",
@@ -3190,7 +3707,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42667922/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42659875",
@@ -3229,7 +3746,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42659875/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42649480",
@@ -3280,7 +3797,7 @@
 "Validation Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42649480/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42647092",
@@ -3309,7 +3826,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42647092/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42646255",
@@ -3337,7 +3854,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42646255/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42645783",
@@ -3371,7 +3888,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42645783/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42645731",
@@ -3403,7 +3920,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42645731/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42644457",
@@ -3432,7 +3949,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42644457/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42642609",
@@ -3470,7 +3987,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42642609/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42640545",
@@ -3505,7 +4022,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42640545/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42640204",
@@ -3530,7 +4047,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42640204/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42615855",
@@ -3555,7 +4072,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42615855/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42642284",
@@ -3593,7 +4110,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42642284/",
-"impactScore": 29
+"impactScore": 28
 },
 {
 "pmid": "42636409",
@@ -3627,7 +4144,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42636409/",
-"impactScore": 29
+"impactScore": 28
 },
 {
 "pmid": "42636407",
@@ -3662,7 +4179,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42636407/",
-"impactScore": 29
+"impactScore": 28
 },
 {
 "pmid": "42635955",
@@ -3695,7 +4212,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42635955/",
-"impactScore": 29
+"impactScore": 28
 },
 {
 "pmid": "42635954",
@@ -3734,7 +4251,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42635954/",
-"impactScore": 29
+"impactScore": 28
 },
 {
 "pmid": "42635922",
@@ -3771,7 +4288,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42635922/",
-"impactScore": 29
+"impactScore": 28
 },
 {
 "pmid": "42635830",
@@ -3817,7 +4334,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42635830/",
-"impactScore": 29
+"impactScore": 28
 },
 {
 "pmid": "42635825",
@@ -3863,7 +4380,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42635825/",
-"impactScore": 29
+"impactScore": 28
 },
 {
 "pmid": "42635818",
@@ -3905,7 +4422,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42635818/",
-"impactScore": 29
+"impactScore": 28
 },
 {
 "pmid": "42635817",
@@ -3951,7 +4468,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42635817/",
-"impactScore": 29
+"impactScore": 28
 },
 {
 "pmid": "42635810",
@@ -4000,7 +4517,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42635810/",
-"impactScore": 29
+"impactScore": 28
 },
 {
 "pmid": "42635808",
@@ -4052,7 +4569,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42635808/",
-"impactScore": 29
+"impactScore": 28
 },
 {
 "pmid": "42635804",
@@ -4107,7 +4624,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42635804/",
-"impactScore": 29
+"impactScore": 28
 },
 {
 "pmid": "42635803",
@@ -4155,7 +4672,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42635803/",
-"impactScore": 29
+"impactScore": 28
 },
 {
 "pmid": "42635767",
@@ -4207,7 +4724,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42635767/",
-"impactScore": 29
+"impactScore": 28
 },
 {
 "pmid": "42635032",
@@ -4240,7 +4757,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42635032/",
-"impactScore": 29
+"impactScore": 28
 },
 {
 "pmid": "42634958",
@@ -4279,7 +4796,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42634958/",
-"impactScore": 29
+"impactScore": 28
 },
 {
 "pmid": "42635874",
@@ -4327,108 +4844,42 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42635874/",
-"impactScore": 28
+"impactScore": 27
 },
 {
-"pmid": "42660688",
-"title": "Trends, disparities, and outcomes of pediatric firearm-related injuries in the United States: A national analysis from 2016 to 2021.",
+"pmid": "42671734",
+"title": "Early and delayed acute kidney injury after contrast-enhanced CT in critically ill adults: a target trial emulation.",
 "authors": [
-"Balian J",
-"Kwon OJ",
-"Tabibian D",
-"Porter G",
-"Tabibian K",
-"Chaturvedi A",
-"Singer G",
-"Tillou A",
-"Neville A",
-"Benharash P"
+"Orso D",
+"Aldegheri G",
+"Fonda F",
+"Bacchetti G",
+"Lugano M",
+"Zuiani C",
+"Girometti R",
+"Della Rocca G"
 ],
-"journal": "Injury",
-"journalTier": 2,
+"journal": "Emergency radiology",
+"journalTier": 3,
 "journalSJR": null,
 "articleType": "original",
-"pubDate": "2026-08-23",
-"abstract": "Firearm-related injuries have become the leading cause of death among US children and adolescents, yet the evolving epidemiology and disparities in pediatric firearm hospitalizations remain poorly characterized. This was a retrospective study of the 2016-2021 National Inpatient Sample database. Pediatric (<18 years) firearm-related hospitalizations were identified and categorized by injury intent, including unintentional, assault, self-harm, or other. Hospitalizations were further assessed based on the nine geographic divisions defined by the US Census Bureau. Primary outcomes were annual hospitalization rates and in-hospital mortality. Multivariable logistic regression was performed to assess factors associated with hospitalization outcomes, while temporal and regional trends were evaluated using adjusted population-based analyses. Among an estimated 20,270 pediatric firearm hospitalizations, unintentional injuries accounted for 49.7%, followed by assault (40.5%). From 2016-2021, firearm hospitalizations increased by 52.4%, with unintentional injuries surpassing assault-related cases by 2021 (55.2% vs 38.4%, nptrend<0.001). In-hospital mortality increased from 6.7% to 9.8%, with the largest change observed in unintentional injuries (nptrend<0.001). Firearm-related hospitalizations disproportionately affected racial minority children and those from lower-income households across all injury intents. Additionally, Black children were disproportionately affected by assault-related injuries, while self-harm injuries were more common among White adolescents. The East South-Central region demonstrated the highest hospitalization rates, with increasing incidence over time. Pediatric firearm injuries have increased substantially, with shifting injury mechanisms and widening demographic disparities. Future efforts should focus on targeted prevention strategies and policy measures addressing firearm accessibility, storage practices and community-based interventions to reduce injury burden.",
-"doi": "10.1016/j.injury.2026.113604",
+"pubDate": "2026-08-31",
+"abstract": "To assess whether intravenous iodinated contrast administered for computed tomography is associated with early or delayed acute kidney injury (AKI) in critically ill adults. We conducted a retrospective target trial emulation using the Medical Information Mart for Intensive Care IV (MIMIC-IV), a single-center, deidentified electronic health record database of hospital and intensive care admissions. Adults undergoing contrast-enhanced CT (CECT) or non-contrast CT (NCCT) during or immediately before intensive care admission were included. The primary outcome was creatinine-defined AKI within 48 h. Inverse probability of treatment weighting (IPTW) addressed measured confounding. Among 7,772 patients, 5,319 underwent CECT and 2,453 underwent NCCT. AKI within 48 h occurred in 19.3% and 20.4%, respectively. CECT was not associated with AKI within 48-72 h, time to first AKI through 7 days, renal replacement therapy within 7 days, or longitudinal creatinine trajectories. CECT was not associated with early or cumulative 7-day creatinine-defined AKI in critically ill adults. Residual confounding remains possible, particularly because acute illness severity, imaging indication, and post-index events were incompletely captured.",
+"doi": "10.1016/j.bjae.2020.07.006",
 "keywords": [
-"ACS",
-"Disparities",
-"Firearm Violence",
-"Mortality",
-"Pediatric Firearm Injury",
-"Racial Disparities"
+"Acute kidney injury",
+"Computed tomography",
+"Contrast media",
+"Critical illness",
+"Inverse probability weighting",
+"Target trial emulation"
 ],
 "meshTerms": [],
 "pubTypes": [
 "Journal Article"
 ],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42660688/",
-"impactScore": 28
-},
-{
-"pmid": "42648017",
-"title": "An epidemiological evaluation of fatal and nonfatal assault related firearm injuries among youth aged 0-17 years.",
-"authors": [
-"Gilani N",
-"Hunter AA",
-"Lazzarini Z",
-"DiVietro S"
-],
-"journal": "Injury",
-"journalTier": 2,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-08-23",
-"abstract": "Firearm-related injuries are a leading cause of death and disability among youth in the United States (US). Children are at risk for assault-related firearm injuries based on their race, ethnicity, age, and gender. The present study quantifies assault-related firearm morbidity and mortality among US children aged 0-17 years. We utilized data from 41 states reporting to both the Nationwide Emergency Sample (NEDS) and the National Violent Death Reporting System (NVDRS) from 2019 to 2020 to calculate rates of nonfatal and fatal firearm-related assaults, respectively. We also calculated disproportionality and disparity, using the Disproportionality Representation Index (DRI) and Disparity Index (DI). An estimated 6820 (weighted) children experienced a nonfatal firearm assault and over 2300 children died within the two-year study timeframe. Disproportionality and disparity calculations suggest that non-Hispanic Black, male, and older youth bore the greatest burden of morbidity and mortality. Identifying root causes of fatal and nonfatal pediatric firearm assaults in future studies can support preventive healthcare and firearm policy reform in the US. Decreasing the burden of firearm-related death and disability will require additional funding and implementation of community violence reduction programs and councils.",
-"doi": "10.1016/j.injury.2026.113621",
-"keywords": [
-"Assault",
-"Disparity",
-"Disproportionality",
-"Firearm",
-"Morbidity",
-"Mortality"
-],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42648017/",
-"impactScore": 28
-},
-{
-"pmid": "42641232",
-"title": "Transformation into chronic subdural hematoma following acute subdural hematoma: Incidence, outcomes, and predictors.",
-"authors": [
-"Chen H",
-"McIntyre MK",
-"Santdasani S",
-"Lakhani DA",
-"Malhotra A",
-"Kan P",
-"Gandhi D",
-"Colasurdo M"
-],
-"journal": "Injury",
-"journalTier": 2,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-08-23",
-"abstract": "Acute subdural hematoma (aSDH) and chronic subdural hematoma (cSDH) have traditionally been considered distinct clinical entities. However, a subset of patients with aSDH may subsequently develop cSDH, representing a poorly characterized clinical phenomenon with unclear incidence, outcomes, and risk factors. To quantify the incidence and outcomes of cSDH-related readmissions following aSDH, identify independent predictors of transformation, and develop and validate a prediction score for risk stratification. Retrospective cohort study SETTING: Nationwide Readmissions Database (2016-2022). Adult patients (aged ≥18 years) hospitalized with primary aSDH were included. Exclusions included pre-existing subacute or chronic SDH, in-hospital mortality, prolonged hospitalization (≥14 days), comfort care status, middle meningeal artery embolization during index hospitalization, or insufficient follow-up (<30 days). The primary outcome was cSDH-related readmission within 180 days. Secondary outcomes included functional decline, mortality, surgical intervention, and hospitalization costs. Predictors were identified using least absolute shrinkage and selection operator (LASSO) regularization in a Cox proportional hazards framework, and the Post-acute Evolution Risk Score to Identify Subdural Transformation (PERSIST) was developed and validated. Of 189,905 patients meeting inclusion criteria (median age 73 years; 42% female; 95.4% had documented head trauma; 82.5% underwent open craniotomy), 4836 (2.5%) experienced cSDH-related readmissions, representing a cumulative incidence of 2.8% at 180 days. Among patients readmitted with cSDH, 26.0% had functional decline, 33.6% required surgical evacuation, 4.3% died, and the median readmission hospitalization cost was $71,474. In a dedicated training cohort (n = 113,942), LASSO identified 21 independent predictors, including absence of concomitant traumatic pathology, liver disease, male sex, and coagulopathy-associated conditions. In validation (n = 37,983), PERSIST demonstrated adequate discrimination (C-index 0.69 [95%CI 0.67-0.70]) and excellent calibration (integrated calibration index 0.4%). The highest-risk decile (PERSIST ≥48) exhibited 180-day transformation incidence of 7.1%, 10-fold higher than the lowest-risk decile (0.7%) and 1.5-fold higher than the second-highest decile (4.7%). In this nationally representative cohort, cSDH-related readmissions occurred in 2.8% of aSDH patients within 180 days and were associated with substantial morbidity. The PERSIST score demonstrated adequate discrimination and excellent calibration for identifying high-risk patients who may benefit from enhanced surveillance or preventive interventions.",
-"doi": "10.1016/j.injury.2026.113617",
-"keywords": [
-"Acute subdural hematoma",
-"Chronic subdural hematoma",
-"Machine learning",
-"Predictors"
-],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42641232/",
-"impactScore": 28
+"url": "https://pubmed.ncbi.nlm.nih.gov/42671734/",
+"impactScore": 25
 },
 {
 "pmid": "42664445",
@@ -4460,7 +4911,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42664445/",
-"impactScore": 23
+"impactScore": 22
 },
 {
 "pmid": "42664444",
@@ -4490,7 +4941,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42664444/",
-"impactScore": 23
+"impactScore": 22
 },
 {
 "pmid": "42664443",
@@ -4517,7 +4968,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42664443/",
-"impactScore": 23
+"impactScore": 22
 },
 {
 "pmid": "42664442",
@@ -4547,7 +4998,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42664442/",
-"impactScore": 23
+"impactScore": 22
 },
 {
 "pmid": "42664438",
@@ -4583,7 +5034,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42664438/",
-"impactScore": 23
+"impactScore": 22
 },
 {
 "pmid": "42664437",
@@ -4615,7 +5066,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42664437/",
-"impactScore": 23
+"impactScore": 22
 },
 {
 "pmid": "42664432",
@@ -4648,7 +5099,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42664432/",
-"impactScore": 23
+"impactScore": 22
 },
 {
 "pmid": "42664431",
@@ -4681,7 +5132,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42664431/",
-"impactScore": 23
+"impactScore": 22
 },
 {
 "pmid": "42664424",
@@ -4709,7 +5160,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42664424/",
-"impactScore": 23
+"impactScore": 22
 },
 {
 "pmid": "42664420",
@@ -4736,7 +5187,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42664420/",
-"impactScore": 23
+"impactScore": 22
 },
 {
 "pmid": "42664419",
@@ -4774,7 +5225,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42664419/",
-"impactScore": 23
+"impactScore": 22
 },
 {
 "pmid": "42664389",
@@ -4812,7 +5263,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42664389/",
-"impactScore": 23
+"impactScore": 22
 },
 {
 "pmid": "42664388",
@@ -4844,7 +5295,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42664388/",
-"impactScore": 23
+"impactScore": 22
 },
 {
 "pmid": "42664381",
@@ -4867,7 +5318,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42664381/",
-"impactScore": 23
+"impactScore": 22
 },
 {
 "pmid": "42664380",
@@ -4891,7 +5342,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42664380/",
-"impactScore": 23
+"impactScore": 22
 },
 {
 "pmid": "41489394",
@@ -4925,7 +5376,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/41489394/",
-"impactScore": 23
+"impactScore": 22
 },
 {
 "pmid": "42661172",
@@ -4948,7 +5399,7 @@
 "Published Erratum"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42661172/",
-"impactScore": 22
+"impactScore": 21
 },
 {
 "pmid": "42643102",
@@ -4977,7 +5428,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42643102/",
-"impactScore": 21
+"impactScore": 20
 },
 {
 "pmid": "42643057",
@@ -5009,7 +5460,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42643057/",
-"impactScore": 21
+"impactScore": 20
 },
 {
 "pmid": "42642699",
@@ -5040,7 +5491,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42642699/",
-"impactScore": 21
+"impactScore": 20
 },
 {
 "pmid": "42642926",
@@ -5067,7 +5518,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42642926/",
-"impactScore": 20
+"impactScore": 19
 },
 {
 "pmid": "42642727",
@@ -5100,7 +5551,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42642727/",
-"impactScore": 20
+"impactScore": 19
 },
 {
 "pmid": "42642726",
@@ -5130,7 +5581,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42642726/",
-"impactScore": 20
+"impactScore": 19
 },
 {
 "pmid": "42634052",
@@ -5161,40 +5612,6 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42634052/",
-"impactScore": 19
-},
-{
-"pmid": "42634264",
-"title": "A Revised Public Health Emergency Preparedness Logic Model Reflecting the European Experience in the COVID-19 Pandemic.",
-"authors": [
-"Guicciardi S",
-"Stoto MA",
-"Toth F",
-"Savoia E",
-"Piltch-Loeb R",
-"Reno C",
-"Fantini MP"
-],
-"journal": "Health security",
-"journalTier": 3,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-08-23",
-"abstract": "In 2017, the European Centre for Disease Prevention and Control developed a public health emergency preparedness logic model for European Union, differentiating between capacities (resources and infrastructure) and response capabilities (actions during emergencies). Analysis of the COVID-19 experience suggests that the main features of this logic model, including the 5 high-level categories of capabilities, remain valid. Some changes are needed, however, in 3 areas. In the detection and assessment area, \"laboratory analysis\" was integrated with \"testing\" to better represent their combined role; additionally, \"incident recognition,\" \"epidemiological investigation,\" and \"risk characterization\" were included under the wider definition of \"public health intelligence.\" In the health services area, \"preventive medicine\" was replaced with the more specific capability of \"coordination of preventive, primary care and other outpatient services (population-based medicine).\" In the emergency risk communication area, several capabilities were further clarified such as the use of infodemic management. In addition, the analyses identified 4 overarching issues that must also be consider in preparedness assessments: (1) the need to develop new strategies, approaches, and policies under pressure and to review and revise them as the pandemic evolved; (2) the challenges of implementing an emergency response in the context of a country's internal hierarchical structure of public health, healthcare, and related entities; (3) the need for coordination among the different sections of the healthcare system, particularly hospital and community-based levels; and (4) the challenges of scaling up a country's pandemic response.",
-"doi": "10.1177/23265094261472997",
-"keywords": [
-"COVID-19",
-"Epidemic management/response",
-"Hospital preparedness/response",
-"Incident characterization",
-"Public health preparedness/response",
-"Risk communication"
-],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42634264/",
 "impactScore": 18
 },
 {
@@ -5225,6 +5642,36 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42662507/",
+"impactScore": 16
+},
+{
+"pmid": "42670462",
+"title": "Operational Characteristics and System Readiness of Advanced Water-Based EMS Units Along the Chao Phraya River in Bangkok: A Retrospective Descriptive Study.",
+"authors": [
+"Kitchaisawad P",
+"Rojsaengroeng R",
+"Buaprasert P",
+"Kaewnil K"
+],
+"journal": "Open access emergency medicine : OAEM",
+"journalTier": 3,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-01-01",
+"abstract": "Water-related emergencies are a major urban public health concern, particularly along Bangkok's heavily trafficked Chao Phraya River. Between 2019 and 2023, Bangkok reported the third-highest drowning mortality rate in Thailand. Although advanced water-based emergency medical service (EMS) units have operated for more than three decades, their operational characteristics have not been systematically evaluated. To describe the operational characteristics and system structure of advanced water-based EMS units operating along the Chao Phraya River in Bangkok. A retrospective descriptive study analyzed operational data from January 1, 2021, to December 31, 2023, using mission report databases from the Bangkok Metropolitan Administration EMS Center and three designated advanced water-based EMS units. Key variables included annual incident notifications, mission characteristics, operational outcomes, and system structure. Descriptive evaluation identified several system limitations across all units, including inadequate docking infrastructure, shortages of specialized medical equipment, and the absence of standardized clinical protocols and performance monitoring. Comprehensive quantitative analysis was not possible for Units 2 and 3 because of incomplete operational records. Unit 1 recorded 28, 71, and 52 incident notifications in 2021, 2022, and 2023, respectively, resulting in 11, 50, and 18 EMS missions. Medical assistance was provided in 1, 11, and 9 cases, respectively. These findings are presented descriptively and should not be interpreted as comparisons between units because comparable operational data were unavailable for Units 2 and 3. Available data indicate important gaps in infrastructure, documentation, standardized reporting, and performance monitoring within Bangkok's water-based EMS system. Strengthening the system will require improved docking infrastructure, standardized medical equipment, digitized reporting systems, and the implementation of continuous quality improvement processes.",
+"doi": "10.2147/OAEM.S607338",
+"keywords": [
+"drowning",
+"emergency medical services",
+"prehospital care",
+"riverine ambulance",
+"water rescue"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42670462/",
 "impactScore": 16
 },
 {
