@@ -1,25 +1,25 @@
 {
-"generatedAt": "2026-09-13T23:52:00.000Z",
+"generatedAt": "2026-09-15T00:15:05.000Z",
 "daysBack": 7,
 "journalCount": 59,
 "stats": {
-"total": 165,
+"total": 166,
 "byType": {
 "review": 11,
 "meta-analysis": 1,
+"original": 136,
 "editorial": 5,
-"original": 134,
 "clinical-trial": 1,
-"letter": 12,
+"letter": 11,
 "case-report": 1
 },
 "byTier": {
 "1": 50,
-"2": 99,
-"3": 16
+"2": 98,
+"3": 18
 },
-"topScore": 57,
-"avgScore": 36
+"topScore": 55,
+"avgScore": 34
 },
 "articleOfWeek": {
 "pmid": "42727699",
@@ -54,7 +54,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42727699/",
-"impactScore": 57
+"impactScore": 55
 },
 "articles": [
 {
@@ -90,7 +90,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42727699/",
-"impactScore": 57
+"impactScore": 55
 },
 {
 "pmid": "42275083",
@@ -134,7 +134,7 @@
 "Meta-Analysis"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42275083/",
-"impactScore": 57
+"impactScore": 55
 },
 {
 "pmid": "42714474",
@@ -178,7 +178,47 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42714474/",
-"impactScore": 55
+"impactScore": 53
+},
+{
+"pmid": "42735045",
+"title": "Admission whole-blood transcriptomic characterization of a neutrophil-predominant systemic immune response in patients with acute traumatic brain injury.",
+"authors": [
+"Nishida T",
+"Nakamura Y",
+"Matsumoto H",
+"Mitsuyama Y",
+"Ebihara T",
+"Nakao S",
+"Onishi S",
+"Muratsu A",
+"Yoneda K",
+"Nukiwa R",
+"Okuzaki D",
+"Ogura H",
+"Oda J"
+],
+"journal": "Shock (Augusta, Ga.)",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-09-14",
+"abstract": "Acute traumatic brain injury (TBI) is accompanied by systemic immune responses, but their whole-blood transcriptomic features at hospital arrival remain incompletely characterized. We aimed to characterize these features in patients with acute TBI compared with healthy controls. In this single-center prospective observational study, we performed whole-blood RNA sequencing on hospital-arrival samples from 42 patients with acute TBI and 21 healthy controls. Analyses included differential expression (limma-voom; FDR < 0.05, |log2FC| > 0.7), functional enrichment, Ingenuity Pathway Analysis, CIBERSORTx LM22 deconvolution, and per-sample neutrophil degranulation signature scoring. Differential expression analysis identified 996 upregulated and 863 downregulated genes, with marked upregulation of inflammation-, innate immunity-, and neutrophil-related genes including DUSP1, HMGB2, MMP9, and S100A8. Canonical pathways with positive IPA z-scores included Neutrophil degranulation, Neutrophil Extracellular Trap Signaling Pathway, and Toll-like Receptor Signaling; upstream regulators included TNF, IL1B, IFNG, and STAT3. Deconvolution identified 7 of 22 differing subsets (q < 0.05), with relatively higher myeloid and lower lymphoid fractions in TBI. The Neutrophil degranulation signature score correlated with Injury Severity Score within TBI (Spearman ρ = +0.55; q < 0.001). Admission whole-blood transcriptomics characterized a neutrophil-predominant systemic transcriptional response in patients with acute TBI. This response was also evident among patients without major extracranial injury and was associated with total ISS. However, because the study lacked an appropriately matched non-TBI trauma comparator, the findings should be interpreted as a descriptive characterization of a systemic injury response accompanying TBI and do not establish a TBI-specific molecular signature or mechanism.",
+"doi": "10.1097/SHK.0000000000002939",
+"keywords": [
+"gene expression",
+"host response",
+"immune cell composition",
+"innate immunity",
+"leukocyte deconvolution",
+"systemic inflammation"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42735045/",
+"impactScore": 49
 },
 {
 "pmid": "42727703",
@@ -200,7 +240,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42727703/",
-"impactScore": 49
+"impactScore": 47
 },
 {
 "pmid": "42730744",
@@ -237,7 +277,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42730744/",
-"impactScore": 48
+"impactScore": 46
 },
 {
 "pmid": "42728203",
@@ -265,7 +305,7 @@
 "Published Erratum"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42728203/",
-"impactScore": 48
+"impactScore": 46
 },
 {
 "pmid": "42727704",
@@ -297,7 +337,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42727704/",
-"impactScore": 48
+"impactScore": 46
 },
 {
 "pmid": "42727702",
@@ -337,7 +377,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42727702/",
-"impactScore": 48
+"impactScore": 46
 },
 {
 "pmid": "42727701",
@@ -372,7 +412,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42727701/",
-"impactScore": 48
+"impactScore": 46
 },
 {
 "pmid": "42727700",
@@ -403,7 +443,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42727700/",
-"impactScore": 48
+"impactScore": 46
 },
 {
 "pmid": "42727698",
@@ -434,7 +474,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42727698/",
-"impactScore": 48
+"impactScore": 46
 },
 {
 "pmid": "42727697",
@@ -464,7 +504,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42727697/",
-"impactScore": 48
+"impactScore": 46
 },
 {
 "pmid": "42726100",
@@ -502,7 +542,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42726100/",
-"impactScore": 48
+"impactScore": 46
 },
 {
 "pmid": "42725840",
@@ -530,7 +570,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42725840/",
-"impactScore": 48
+"impactScore": 46
 },
 {
 "pmid": "42725838",
@@ -557,7 +597,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42725838/",
-"impactScore": 48
+"impactScore": 46
 },
 {
 "pmid": "42725835",
@@ -591,7 +631,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42725835/",
-"impactScore": 48
+"impactScore": 46
 },
 {
 "pmid": "42725825",
@@ -619,7 +659,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42725825/",
-"impactScore": 48
+"impactScore": 46
 },
 {
 "pmid": "42725819",
@@ -667,7 +707,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42725819/",
-"impactScore": 48
+"impactScore": 46
 },
 {
 "pmid": "42725818",
@@ -700,7 +740,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42725818/",
-"impactScore": 48
+"impactScore": 46
 },
 {
 "pmid": "42722583",
@@ -722,7 +762,7 @@
 "Published Erratum"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42722583/",
-"impactScore": 47
+"impactScore": 45
 },
 {
 "pmid": "42722104",
@@ -754,7 +794,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42722104/",
-"impactScore": 47
+"impactScore": 45
 },
 {
 "pmid": "42721363",
@@ -788,7 +828,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42721363/",
-"impactScore": 47
+"impactScore": 45
 },
 {
 "pmid": "42721360",
@@ -833,7 +873,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42721360/",
-"impactScore": 47
+"impactScore": 45
 },
 {
 "pmid": "42716458",
@@ -859,7 +899,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42716458/",
-"impactScore": 47
+"impactScore": 45
 },
 {
 "pmid": "42716457",
@@ -881,7 +921,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42716457/",
-"impactScore": 47
+"impactScore": 45
 },
 {
 "pmid": "42716466",
@@ -1048,7 +1088,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42716466/",
-"impactScore": 46
+"impactScore": 44
 },
 {
 "pmid": "42715434",
@@ -1071,7 +1111,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42715434/",
-"impactScore": 46
+"impactScore": 44
 },
 {
 "pmid": "42715426",
@@ -1093,7 +1133,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42715426/",
-"impactScore": 46
+"impactScore": 44
 },
 {
 "pmid": "42714473",
@@ -1133,7 +1173,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42714473/",
-"impactScore": 46
+"impactScore": 44
 },
 {
 "pmid": "42713784",
@@ -1171,7 +1211,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42713784/",
-"impactScore": 46
+"impactScore": 44
 },
 {
 "pmid": "42710614",
@@ -1206,7 +1246,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42710614/",
-"impactScore": 45
+"impactScore": 43
 },
 {
 "pmid": "42705474",
@@ -1228,7 +1268,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42705474/",
-"impactScore": 45
+"impactScore": 43
 },
 {
 "pmid": "42153543",
@@ -1282,7 +1322,7 @@
 "Research Support, Non-U.S. Gov't"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42153543/",
-"impactScore": 44
+"impactScore": 42
 },
 {
 "pmid": "42731912",
@@ -1308,7 +1348,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42731912/",
-"impactScore": 44
+"impactScore": 42
 },
 {
 "pmid": "42706578",
@@ -1342,7 +1382,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42706578/",
-"impactScore": 44
+"impactScore": 42
 },
 {
 "pmid": "42706577",
@@ -1363,7 +1403,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42706577/",
-"impactScore": 44
+"impactScore": 42
 },
 {
 "pmid": "42706572",
@@ -1385,7 +1425,7 @@
 "Comment"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42706572/",
-"impactScore": 44
+"impactScore": 42
 },
 {
 "pmid": "42706543",
@@ -1411,7 +1451,7 @@
 "Published Erratum"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42706543/",
-"impactScore": 44
+"impactScore": 42
 },
 {
 "pmid": "42706533",
@@ -1440,7 +1480,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42706533/",
-"impactScore": 44
+"impactScore": 42
 },
 {
 "pmid": "42705906",
@@ -1465,7 +1505,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42705906/",
-"impactScore": 44
+"impactScore": 42
 },
 {
 "pmid": "42705905",
@@ -1493,7 +1533,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42705905/",
-"impactScore": 44
+"impactScore": 42
 },
 {
 "pmid": "42705904",
@@ -1521,7 +1561,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42705904/",
-"impactScore": 44
+"impactScore": 42
 },
 {
 "pmid": "42704783",
@@ -1551,7 +1591,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42704783/",
-"impactScore": 44
+"impactScore": 42
 },
 {
 "pmid": "42704284",
@@ -1588,7 +1628,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42704284/",
-"impactScore": 44
+"impactScore": 42
 },
 {
 "pmid": "42704275",
@@ -1632,7 +1672,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42704275/",
-"impactScore": 44
+"impactScore": 42
 },
 {
 "pmid": "42704263",
@@ -1665,7 +1705,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42704263/",
-"impactScore": 44
+"impactScore": 42
 },
 {
 "pmid": "42704256",
@@ -1701,7 +1741,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42704256/",
-"impactScore": 44
+"impactScore": 42
 },
 {
 "pmid": "42704085",
@@ -1735,7 +1775,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42704085/",
-"impactScore": 44
+"impactScore": 42
 },
 {
 "pmid": "42704058",
@@ -1769,7 +1809,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42704058/",
-"impactScore": 44
+"impactScore": 42
 },
 {
 "pmid": "42704056",
@@ -1806,7 +1846,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42704056/",
-"impactScore": 44
+"impactScore": 42
 },
 {
 "pmid": "42704020",
@@ -1840,7 +1880,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42704020/",
-"impactScore": 44
+"impactScore": 42
 },
 {
 "pmid": "42728426",
@@ -1871,32 +1911,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42728426/",
-"impactScore": 43
-},
-{
-"pmid": "42731911",
-"title": "QTc interval changes following low-dose droperidol administration in the emergency department.",
-"authors": [
-"Bartoe A",
-"Berkvens L",
-"Solano A",
-"Hacnik J",
-"Richman P"
-],
-"journal": "The American journal of emergency medicine",
-"journalTier": 1,
-"journalSJR": null,
-"articleType": "letter",
-"pubDate": "2026-09-06",
-"abstract": "",
-"doi": "10.1016/j.ajem.2026.09.013",
-"keywords": [],
-"meshTerms": [],
-"pubTypes": [
-"Letter"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42731911/",
-"impactScore": 43
+"impactScore": 41
 },
 {
 "pmid": "42731145",
@@ -1931,7 +1946,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42731145/",
-"impactScore": 40
+"impactScore": 38
 },
 {
 "pmid": "42400563",
@@ -1966,7 +1981,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42400563/",
-"impactScore": 40
+"impactScore": 38
 },
 {
 "pmid": "42340329",
@@ -2007,7 +2022,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42340329/",
-"impactScore": 40
+"impactScore": 38
 },
 {
 "pmid": "42286915",
@@ -2049,7 +2064,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42286915/",
-"impactScore": 40
+"impactScore": 38
 },
 {
 "pmid": "42251750",
@@ -2093,7 +2108,165 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42251750/",
-"impactScore": 40
+"impactScore": 38
+},
+{
+"pmid": "42734655",
+"title": "[Left ventricular assist devices in emergency medicine : Case-based analysis for emergency medical services and emergency departments].",
+"authors": [
+"Solf MA",
+"Tomasi R",
+"Kamla CE",
+"Kreuzer J",
+"Feuerecker M",
+"Scheiermann P",
+"Höchter DJ",
+"Schumann T",
+"Müller C"
+],
+"journal": "Medizinische Klinik, Intensivmedizin und Notfallmedizin",
+"journalTier": 2,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-09-14",
+"abstract": "Left ventricular assist devices (LVAD) are an established treatment for advanced heart failure. Due to the continuous flow, pulse palpation, noninvasive blood pressure measurement and pulse oximetry are often unreliable in acute care. Case-based analysis of the acute care of patients with left ventricular assist devices in emergency medical services and emergency departments, exemplified by a patient supported with HeartMate 3® and derivation of practical recommendations for action. Anonymized prehospital and clinical documentation of a 67-year-old female patient was evaluated. Monitoring, clinical assessment, device and power supply checks, pump parameters, diagnostics and triage were analyzed using consensus documents, reviews, registry data and manufacturer's data. In this study three key problem areas emerged: unreliable standard monitoring, initial misclassification as technical device failure and necessary contextual interpretation of pump parameters. Prehospital findings included dyspnea, cyanosis, impaired consciousness and inability to obtain blood pressure or oxygen saturation values. The later device readout showed stable parameters without acute pump malfunction. The underlying cause was severe Staphylococcus aureus bacteremia with renal replacement therapy-dependent renal failure. Severe clinical deterioration in LVAD patients is not necessarily pump-related. Key elements are perfusion assessment, device and power supply checks, interpretation of pump parameters, extended diagnostics and early consultation with an LVAD center.",
+"doi": "10.1016/j.ajem.2020.04.064",
+"keywords": [
+"Emergency department",
+"Emergency medical services",
+"Heart failure",
+"Shock",
+"Ventricular assist devices"
+],
+"meshTerms": [],
+"pubTypes": [
+"English Abstract",
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42734655/",
+"impactScore": 35
+},
+{
+"pmid": "42734164",
+"title": "Contingency Methods for Cleaning Single-Use Medical Equipment in Crisis, Disaster, or War.",
+"authors": [
+"Chevalley K",
+"Taxbro K",
+"Mernelius S",
+"Sigfridsson P",
+"Sandström G"
+],
+"journal": "Prehospital and disaster medicine",
+"journalTier": 2,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-09-14",
+"abstract": "Shortages of disposable medical equipment can critically impair health care delivery during disasters or armed conflict. Although reprocessing single-use medical devices (SUDs) may represent the only feasible option under such conditions, evidence supporting simple, field-adapted cleaning methods is limited. In this exploratory study, 90 clinically used SUDs - endotracheal tubes (ETT), laryngeal mask airway (LMA), intravenous administration sets (IVS), syringes (SYR), indwelling urinary catheters (IDC), and nasogastric tubes (NGT) - were collected after surgery in a regional hospital. Devices were randomly allocated to cleaning with peracetic acid (PAA), 70% ethanol, or dishwashing detergent. Each item was brushed, immersed for ten minutes, and then air-dried. Microbiological sampling included pre-cleaning and post-cleaning cultures, and airway devices underwent Polymerase Chain Reaction (PCR) testing for 28 respiratory pathogens. Functional integrity was assessed after cleaning. All three cleaning agents achieved statistically significant reductions in bacterial load (P < 0.05) with no difference between methods. The PCR testing detected Hemophilus influenzae (H. influenzae) and Staphylococcus aureus (S. aureus) among other pathogens in 47% of airway devices before cleaning; all post-cleaning samples were negative. No structural or functional damage was observed. Basic cleaning procedures with commonly available agents substantially reduced microbial contamination without impairing device function. These methods cannot replace validated sterilization but may serve as the only viable option when medical supply is critically constrained, such as in disasters or in armed conflict. Preparedness planning should encompass strategic stockpiling, surge production capacity, and resilient supply chains, together with rationing and substitution strategies, and - only as a last resort - protocols for cleaning and reusing single-use medical equipment.",
+"doi": "10.1017/S1049023X26109066",
+"keywords": [
+"contingency planning",
+"crisis preparedness",
+"disaster medicine",
+"field conditions",
+"health care resilience",
+"reprocessing",
+"single-use medical devices"
+],
+"meshTerms": [
+"Humans",
+"Warfare",
+"Disasters",
+"Equipment Contamination",
+"Disposable Equipment",
+"Equipment Reuse",
+"Decontamination",
+"Disinfectants",
+"Peracetic Acid",
+"Disinfection"
+],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42734164/",
+"impactScore": 35
+},
+{
+"pmid": "42733362",
+"title": "Implementing Balanced Fluid Resuscitation for Sepsis Patients in a Tertiary Care Pediatric Emergency Department: A Quality Improvement Initiative.",
+"authors": [
+"Arends GE",
+"Kaberline CR",
+"Nienhaus SK",
+"Siddiqi IR",
+"Simonson RJ",
+"Topoz I",
+"Hueschen LA"
+],
+"journal": "Pediatric emergency care",
+"journalTier": 2,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-09-14",
+"abstract": "National data support the use of balanced fluid during volume resuscitation in the setting of sepsis, as it improves morbidity and mortality, particularly preventing acidosis and kidney injury. This single-center quality improvement project aimed to increase the percentage of patients with a positive sepsis screen treated in the tertiary care pediatric emergency department (ED) who received lactated Ringer's (LR) fluid resuscitation from 4.6% to 30% by June 2024. A multidisciplinary team examined barriers using a fishbone diagram, process mapping, and failure mode and effects analysis (FMEA). Interventions included order set and clinical practice guideline changes with subsequent electronic medical record changes, huddle form reminders, increased accessibility to LR, as well as discussion forums. Data showed patients receiving at least one balanced fluid bolus in June 2023 increased from 4.6% to 35.4% with special cause variation detected. Completed sepsis huddle forms documented in the electronic medical record (EMR) improved from 42.8% to 54.2% with special cause variation detected. The time to antibiotics from arrival decreased from 97.7 to 65.6 minutes in December 2023 with special cause variation detected. Through multiple interventions, balanced fluid resuscitation was successfully implemented in the ED. Order set changes with prechecked LR fluids bolus that forced providers to \"opt out\" along with clinical pathway updates seemed to be the most influential changes. FMEA proved to be a helpful tool to ensure safe implementation. Future directions include expansion to the inpatient units in the hospital.",
+"doi": "10.1097/PEC.0000000000003684",
+"keywords": [
+"balanced fluid",
+"pediatrics",
+"resuscitation",
+"sepsis"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42733362/",
+"impactScore": 35
+},
+{
+"pmid": "42646255",
+"title": "Public Acceptance, Trust, and Self-Efficacy Related to Drone-Assisted Emergency Medical Response in Louisiana.",
+"authors": [
+"Swig BA"
+],
+"journal": "Prehospital emergency care",
+"journalTier": 2,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-09-14",
+"abstract": "Drones can deliver automated external defibrillators and other emergency supplies to bystanders before an ambulance arrives, but their public-health value depends on whether the public accepts, trusts, and feels able to use them. This study examined public acceptance of drone-assisted emergency medical response in Louisiana, including trust in drone systems and self-efficacy for using drone-delivered medical supplies, and identified demographic, experiential, and attitudinal predictors of acceptance, trust, and self-efficacy among Louisiana adults. Cross-sectional, observational online survey of 586 Louisiana adults recruited through the Dynata panel and administered via the Research Electronic Data Capture platform. Participants reviewed a standardized educational sequence describing a drone-assisted emergency response scenario before completing validated composite measures of acceptance, trust, and self-efficacy (Cronbach's alpha = .89-.91). Descriptive statistics, independent-samples t tests, paired-samples t tests, one-way analyses of variance, Pearson correlations, hierarchical multiple regression, and thematic analysis of open-ended responses were conducted. Overall attitudes were favorable: mean acceptance 4.1 (standard deviation [SD] = 1.0), trust 3.8 (SD = 1.0), and self-efficacy 4.0 (SD = 0.9). Trust and self-efficacy were the strongest predictors of acceptance (R² = .57), and trust was the strongest predictor of self-efficacy, indicating that modifiable attitudinal factors, rather than fixed demographic characteristics, drive adoption. Telecommunicator guidance increased self-efficacy versus independent action for both family members and strangers (Cohen's d = 0.41-0.44, p < .001), with no difference by recipient type. Younger and Black or African American respondents reported lower acceptance and self-efficacy. Concerns centered on reliability, navigation accuracy, and user competency; confidence was associated with demonstrated reliability, normalization, telecommunicator support, and training. Public acceptance is driven primarily by trust and self-efficacy, modifiable factors amenable to targeted implementation. Programs emphasizing operational reliability, telecommunicator integration, public education, and clear user guidance may accelerate adoption. These findings suggest that equity-focused outreach by emergency medical services agencies and public health partners, particularly toward younger adults and Black or African American respondents, who reported lower acceptance and self-efficacy, may help narrow demographic gaps in the public's readiness to use drone-assisted emergency response.",
+"doi": "10.1080/10903127.2026.2724534",
+"keywords": [],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42646255/",
+"impactScore": 35
+},
+{
+"pmid": "42612190",
+"title": "Identifying Quality Indicators for Prehospital Care Following Out-of-Hospital Cardiac Arrest: A Focused Scoping Review.",
+"authors": [
+"Malherbe P",
+"Bustos E",
+"Dunn W",
+"Cella L",
+"Rappaport L"
+],
+"journal": "Prehospital emergency care",
+"journalTier": 2,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-09-14",
+"abstract": "Out-of-hospital cardiac arrest (OHCA) has a high rate of mortality. While prehospital management of OHCA is well described, post-return of spontaneous circulation (ROSC) care in the prehospital setting is often based on in-hospital care and broadly lacks evidence-based prehospital-specific recommendations. Additionally, there are no formal standardized quality indicators to benchmark post-ROSC care in the prehospital setting. This study served to systematically identify and appraise post-ROSC documents to synthesize a set of potential quality indicators to inform the survey of a multi-stage Delphi consensus for national quality indicators for prehospital care after OHCA. Following Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guidelines, a systematic search was conducted across various databases for quality indicators and recommendations for prehospital care for post-ROSC following OHCA. Two reviewers performed title and abstract screening, full-text review, and quality appraisal using the Mixed Methods Appraisal Tool (MMAT) independently and in duplicate. Identified quality indicators and recommendations were extracted as potential quality indicators and categorized into functional domains by the research team. The search yielded 337 initial records, of which 87 underwent full-text review, and 46 studies met the a priori inclusion criteria. Studies from over 17 different countries were identified, of which the United States published the majority (n = 13). Randomized control trials represented the largest portion of the included studies (n = 18). The majority of study settings were in-hospital. Only five of the included studies made formal recommendations, and only two listed quality indicators. A total of 36 underwent appraisal with MMAT, of which the overall quality was generally high. A total of 16 potential quality indicators were extracted from the included studies and were grouped into five different domains. This focused scoping review highlights a lack of specific prehospital post-ROSC benchmarks and quality indicators. The identified potential quality indicators provide a foundational framework for a Delphi process for expert consensus on specific and measurable quality indicators. These indicators aim to standardize prehospital post-ROSC care for OHCA for national datasets like the Cardiac Arrest Registry to Enhance Survival.",
+"doi": "10.1080/10903127.2026.2719960",
+"keywords": [],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42612190/",
+"impactScore": 35
 },
 {
 "pmid": "42730639",
@@ -2119,7 +2292,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42730639/",
-"impactScore": 35
+"impactScore": 33
 },
 {
 "pmid": "42726189",
@@ -2142,7 +2315,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42726189/",
-"impactScore": 35
+"impactScore": 33
 },
 {
 "pmid": "42728428",
@@ -2166,7 +2339,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42728428/",
-"impactScore": 34
+"impactScore": 32
 },
 {
 "pmid": "42728427",
@@ -2195,7 +2368,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42728427/",
-"impactScore": 34
+"impactScore": 32
 },
 {
 "pmid": "42726412",
@@ -2227,7 +2400,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42726412/",
-"impactScore": 34
+"impactScore": 32
 },
 {
 "pmid": "42726190",
@@ -2248,7 +2421,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42726190/",
-"impactScore": 34
+"impactScore": 32
 },
 {
 "pmid": "42725800",
@@ -2280,7 +2453,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42725800/",
-"impactScore": 34
+"impactScore": 32
 },
 {
 "pmid": "42725789",
@@ -2322,7 +2495,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42725789/",
-"impactScore": 34
+"impactScore": 32
 },
 {
 "pmid": "42725780",
@@ -2353,7 +2526,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42725780/",
-"impactScore": 34
+"impactScore": 32
 },
 {
 "pmid": "42689915",
@@ -2380,7 +2553,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42689915/",
-"impactScore": 34
+"impactScore": 32
 },
 {
 "pmid": "42636409",
@@ -2407,7 +2580,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42636409/",
-"impactScore": 34
+"impactScore": 32
 },
 {
 "pmid": "42636407",
@@ -2436,7 +2609,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42636407/",
-"impactScore": 34
+"impactScore": 32
 },
 {
 "pmid": "42731147",
@@ -2471,7 +2644,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42731147/",
-"impactScore": 33
+"impactScore": 31
 },
 {
 "pmid": "42731146",
@@ -2507,7 +2680,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42731146/",
-"impactScore": 33
+"impactScore": 31
 },
 {
 "pmid": "42731143",
@@ -2540,7 +2713,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42731143/",
-"impactScore": 33
+"impactScore": 31
 },
 {
 "pmid": "42723114",
@@ -2562,7 +2735,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42723114/",
-"impactScore": 33
+"impactScore": 31
 },
 {
 "pmid": "42722811",
@@ -2588,7 +2761,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42722811/",
-"impactScore": 33
+"impactScore": 31
 },
 {
 "pmid": "42720276",
@@ -2626,7 +2799,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42720276/",
-"impactScore": 33
+"impactScore": 31
 },
 {
 "pmid": "42717672",
@@ -2649,7 +2822,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42717672/",
-"impactScore": 33
+"impactScore": 31
 },
 {
 "pmid": "42664371",
@@ -2673,7 +2846,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42664371/",
-"impactScore": 33
+"impactScore": 31
 },
 {
 "pmid": "42664369",
@@ -2696,7 +2869,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42664369/",
-"impactScore": 33
+"impactScore": 31
 },
 {
 "pmid": "42171648",
@@ -2739,7 +2912,7 @@
 "Case Reports"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42171648/",
-"impactScore": 33
+"impactScore": 31
 },
 {
 "pmid": "42723019",
@@ -2771,7 +2944,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42723019/",
-"impactScore": 32
+"impactScore": 30
 },
 {
 "pmid": "42731896",
@@ -2806,7 +2979,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42731896/",
-"impactScore": 32
+"impactScore": 30
 },
 {
 "pmid": "42731149",
@@ -2841,7 +3014,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42731149/",
-"impactScore": 32
+"impactScore": 30
 },
 {
 "pmid": "42731142",
@@ -2875,7 +3048,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42731142/",
-"impactScore": 32
+"impactScore": 30
 },
 {
 "pmid": "42731141",
@@ -2910,7 +3083,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42731141/",
-"impactScore": 32
+"impactScore": 30
 },
 {
 "pmid": "42731140",
@@ -2975,7 +3148,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42731140/",
-"impactScore": 32
+"impactScore": 30
 },
 {
 "pmid": "42731139",
@@ -3009,7 +3182,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42731139/",
-"impactScore": 32
+"impactScore": 30
 },
 {
 "pmid": "42727185",
@@ -3043,7 +3216,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42727185/",
-"impactScore": 32
+"impactScore": 30
 },
 {
 "pmid": "42727182",
@@ -3078,7 +3251,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42727182/",
-"impactScore": 32
+"impactScore": 30
 },
 {
 "pmid": "42727181",
@@ -3113,7 +3286,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42727181/",
-"impactScore": 32
+"impactScore": 30
 },
 {
 "pmid": "42727177",
@@ -3143,7 +3316,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42727177/",
-"impactScore": 32
+"impactScore": 30
 },
 {
 "pmid": "42714807",
@@ -3174,7 +3347,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42714807/",
-"impactScore": 32
+"impactScore": 30
 },
 {
 "pmid": "42714806",
@@ -3196,7 +3369,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42714806/",
-"impactScore": 32
+"impactScore": 30
 },
 {
 "pmid": "42714634",
@@ -3246,7 +3419,7 @@
 "Multicenter Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42714634/",
-"impactScore": 32
+"impactScore": 30
 },
 {
 "pmid": "42714482",
@@ -3276,7 +3449,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42714482/",
-"impactScore": 32
+"impactScore": 30
 },
 {
 "pmid": "42714429",
@@ -3309,7 +3482,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42714429/",
-"impactScore": 32
+"impactScore": 30
 },
 {
 "pmid": "42713875",
@@ -3338,7 +3511,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42713875/",
-"impactScore": 32
+"impactScore": 30
 },
 {
 "pmid": "42713873",
@@ -3366,7 +3539,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42713873/",
-"impactScore": 32
+"impactScore": 30
 },
 {
 "pmid": "42723016",
@@ -3397,7 +3570,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42723016/",
-"impactScore": 31
+"impactScore": 29
 },
 {
 "pmid": "42731251",
@@ -3432,7 +3605,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42731251/",
-"impactScore": 31
+"impactScore": 29
 },
 {
 "pmid": "42727312",
@@ -3462,7 +3635,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42727312/",
-"impactScore": 31
+"impactScore": 29
 },
 {
 "pmid": "42721565",
@@ -3495,7 +3668,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42721565/",
-"impactScore": 31
+"impactScore": 29
 },
 {
 "pmid": "42709224",
@@ -3539,7 +3712,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42709224/",
-"impactScore": 31
+"impactScore": 29
 },
 {
 "pmid": "42709220",
@@ -3589,7 +3762,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42709220/",
-"impactScore": 31
+"impactScore": 29
 },
 {
 "pmid": "42424404",
@@ -3638,7 +3811,7 @@
 "Research Support, Non-U.S. Gov't"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42424404/",
-"impactScore": 31
+"impactScore": 29
 },
 {
 "pmid": "42417809",
@@ -3694,7 +3867,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42417809/",
-"impactScore": 31
+"impactScore": 29
 },
 {
 "pmid": "42405701",
@@ -3734,7 +3907,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42405701/",
-"impactScore": 31
+"impactScore": 29
 },
 {
 "pmid": "42391448",
@@ -3783,7 +3956,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42391448/",
-"impactScore": 31
+"impactScore": 29
 },
 {
 "pmid": "42384943",
@@ -3836,7 +4009,7 @@
 "Research Support, U.S. Gov't, Non-P.H.S."
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42384943/",
-"impactScore": 31
+"impactScore": 29
 },
 {
 "pmid": "42364174",
@@ -3879,7 +4052,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42364174/",
-"impactScore": 31
+"impactScore": 29
 },
 {
 "pmid": "42348733",
@@ -3929,7 +4102,7 @@
 "Research Support, U.S. Gov't, P.H.S."
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42348733/",
-"impactScore": 31
+"impactScore": 29
 },
 {
 "pmid": "42348721",
@@ -3979,7 +4152,7 @@
 "Research Support, N.I.H., Extramural"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42348721/",
-"impactScore": 31
+"impactScore": 29
 },
 {
 "pmid": "42340341",
@@ -4027,7 +4200,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42340341/",
-"impactScore": 31
+"impactScore": 29
 },
 {
 "pmid": "42319065",
@@ -4073,7 +4246,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42319065/",
-"impactScore": 31
+"impactScore": 29
 },
 {
 "pmid": "42319025",
@@ -4120,7 +4293,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42319025/",
-"impactScore": 31
+"impactScore": 29
 },
 {
 "pmid": "42308409",
@@ -4181,7 +4354,7 @@
 "Research Support, U.S. Gov't, P.H.S."
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42308409/",
-"impactScore": 31
+"impactScore": 29
 },
 {
 "pmid": "42308400",
@@ -4224,7 +4397,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42308400/",
-"impactScore": 31
+"impactScore": 29
 },
 {
 "pmid": "42308397",
@@ -4272,7 +4445,7 @@
 "Research Support, U.S. Gov't, P.H.S."
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42308397/",
-"impactScore": 31
+"impactScore": 29
 },
 {
 "pmid": "42296008",
@@ -4325,7 +4498,7 @@
 "Research Support, Non-U.S. Gov't"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42296008/",
-"impactScore": 31
+"impactScore": 29
 },
 {
 "pmid": "42296002",
@@ -4378,7 +4551,7 @@
 "Research Support, Non-U.S. Gov't"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42296002/",
-"impactScore": 31
+"impactScore": 29
 },
 {
 "pmid": "42275081",
@@ -4399,7 +4572,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42275081/",
-"impactScore": 31
+"impactScore": 29
 },
 {
 "pmid": "42275046",
@@ -4449,7 +4622,7 @@
 "Observational Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42275046/",
-"impactScore": 31
+"impactScore": 29
 },
 {
 "pmid": "42275040",
@@ -4504,7 +4677,7 @@
 "Research Support, N.I.H., Extramural"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42275040/",
-"impactScore": 31
+"impactScore": 29
 },
 {
 "pmid": "42261669",
@@ -4530,7 +4703,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42261669/",
-"impactScore": 31
+"impactScore": 29
 },
 {
 "pmid": "42261663",
@@ -4576,7 +4749,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42261663/",
-"impactScore": 31
+"impactScore": 29
 },
 {
 "pmid": "42261654",
@@ -4629,7 +4802,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42261654/",
-"impactScore": 31
+"impactScore": 29
 },
 {
 "pmid": "42252703",
@@ -4669,7 +4842,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42252703/",
-"impactScore": 31
+"impactScore": 29
 },
 {
 "pmid": "42252144",
@@ -4712,7 +4885,7 @@
 "Observational Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42252144/",
-"impactScore": 31
+"impactScore": 29
 },
 {
 "pmid": "42223471",
@@ -4758,7 +4931,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42223471/",
-"impactScore": 31
+"impactScore": 29
 },
 {
 "pmid": "42213092",
@@ -4809,7 +4982,7 @@
 "Observational Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42213092/",
-"impactScore": 31
+"impactScore": 29
 },
 {
 "pmid": "42207149",
@@ -4857,7 +5030,7 @@
 "Observational Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42207149/",
-"impactScore": 31
+"impactScore": 29
 },
 {
 "pmid": "42207146",
@@ -4905,7 +5078,7 @@
 "Research Support, U.S. Gov't, P.H.S."
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42207146/",
-"impactScore": 31
+"impactScore": 29
 },
 {
 "pmid": "42176234",
@@ -4964,7 +5137,7 @@
 "Observational Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42176234/",
-"impactScore": 31
+"impactScore": 29
 },
 {
 "pmid": "42176191",
@@ -5015,7 +5188,7 @@
 "Comparative Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42176191/",
-"impactScore": 31
+"impactScore": 29
 },
 {
 "pmid": "42171667",
@@ -5056,7 +5229,7 @@
 "Research Support, Non-U.S. Gov't"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42171667/",
-"impactScore": 31
+"impactScore": 29
 },
 {
 "pmid": "42166184",
@@ -5102,7 +5275,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42166184/",
-"impactScore": 31
+"impactScore": 29
 },
 {
 "pmid": "42102144",
@@ -5161,7 +5334,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42102144/",
-"impactScore": 31
+"impactScore": 29
 },
 {
 "pmid": "42053371",
@@ -5219,7 +5392,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42053371/",
-"impactScore": 31
+"impactScore": 29
 },
 {
 "pmid": "42709342",
@@ -5257,7 +5430,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42709342/",
-"impactScore": 30
+"impactScore": 28
 },
 {
 "pmid": "42721570",
@@ -5288,7 +5461,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42721570/",
-"impactScore": 30
+"impactScore": 28
 },
 {
 "pmid": "42704606",
@@ -5337,7 +5510,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42704606/",
-"impactScore": 30
+"impactScore": 28
 },
 {
 "pmid": "42704605",
@@ -5366,7 +5539,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42704605/",
-"impactScore": 30
+"impactScore": 28
 },
 {
 "pmid": "42704372",
@@ -5395,7 +5568,7 @@
 "Published Erratum"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42704372/",
-"impactScore": 30
+"impactScore": 28
 },
 {
 "pmid": "42704097",
@@ -5428,7 +5601,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42704097/",
-"impactScore": 30
+"impactScore": 28
 },
 {
 "pmid": "42703070",
@@ -5458,7 +5631,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42703070/",
-"impactScore": 30
+"impactScore": 28
 },
 {
 "pmid": "42702694",
@@ -5483,204 +5656,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42702694/",
-"impactScore": 30
-},
-{
-"pmid": "42731144",
-"title": "Age-specific TBSA thresholds for pediatric burn complications: A 13-year single-center inpatient retrospective cohort.",
-"authors": [
-"Hilewitz D",
-"Har-Shai L",
-"Keller A",
-"Bal M",
-"Hayun Y",
-"Meshulam-Derazon S",
-"Ad-El D",
-"Kalish E",
-"Olshinka A"
-],
-"journal": "Injury",
-"journalTier": 2,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-09-06",
-"abstract": "Pediatric burns are common, yet practical tools that stratify presentation features into age-specific risk remain limited. To characterize pediatric burn presentations and derive clinically interpretable, age-specific total body surface area (TBSA) thresholds, with absolute-risk tables, for fever (≥38.5 °C), Intensive Care Unit (ICU) transfer, surgery, and infection, to guide emergency department (ED) triage and inpatient management. A retrospective cohort of children 0-18 years with acute burns admitted to a tertiary pediatric center (December 2012-May 2025). Exposures included age, TBSA, depth, anatomic site, circumferential pattern, etiology, and post-burn days. Outcomes were ICU transfer, surgery, and in-hospital infection. Fever was analyzed as a clinical sign. We estimated absolute risks by age×TBSA, assessed co-occurrence of adverse events, and derived age-specific TBSA cutoffs using Youden optimizations. Among 942 children (mean age 4.6 ± 4.6 y; 57.4% male; mean TBSA 5.0 ± 5.7%), scalds predominated (74.5%). Event rates were fever 29.0%, ICU transfer 4.4%, surgery 7.7%, infection 5.2%. Delayed presentation (>24 h) was associated with more fever (p ≈ 0.05). Operative risk varied by site: highest in lower extremities and buttocks and was more frequent with circumferential burns. ICU transfer and surgery rarely occurred without fever. Age-stratified adjusted TBSA cutoffs separated higher- from lower-risk strata. Discrimination was strongest for ICU (Youden 0.55-0.99) and lower for surgery (peak 0.71 in ages 6-12). Thresholds populate absolute-risk grids for clinical use. We provide a deployable framework linking age and adjusted TBSA at presentation to four key complications. Findings support earlier ICU consideration at ~8-10% adjusted TBSA in toddlers and ~15% in school-age/adolescents, depth/site-driven surgical review (hands/joints/perineum/buttocks), and heightened vigilance with persistent fever or delayed presentation.",
-"doi": "10.1016/j.injury.2026.113683",
-"keywords": [
-"Burns",
-"Complications",
-"Critical care",
-"Fever",
-"Infection",
-"Length of stay",
-"Pediatrics",
-"Risk prediction",
-"Surgery",
-"Total body surface area"
-],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42731144/",
-"impactScore": 29
-},
-{
-"pmid": "42727186",
-"title": "Surgical management of complex humeral shaft fractures (AO/OTA 12-C): A multicenter comparison of open plating, MIPO, and intramedullary nailing.",
-"authors": [
-"Yoon YC",
-"Song HK",
-"Oh HK",
-"Cho WS",
-"Kim JW"
-],
-"journal": "Injury",
-"journalTier": 2,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-09-06",
-"abstract": "The optimal fixation strategy for complex humeral shaft fractures, especially those with severe comminution, remains controversial. This study compared clinical and radiological outcomes after open reduction and internal fixation (ORIF), minimally invasive plate osteosynthesis (MIPO), or intramedullary (IM) nailing for AO/OTA type 12-C humeral shaft fractures. This multicenter retrospective comparative study included 75 adults with AO/OTA type 12-C humeral shaft fractures treated surgically between 2015 and 2023. Patients were grouped by the fixation method, as follows: ORIF (n = 26), MIPO (n = 30), and IM nailing (n = 19). Radiological outcomes and complications were recorded. Functional outcomes were assessed using the Disabilities of the Arm, Shoulder, and Hand (DASH) score, Mayo Elbow Performance Score (MEPS), and joint range of motion (ROM). Baseline demographics and fracture characteristics did not differ significantly among the groups; however, IM nailing had numerically higher polytrauma rates and median Injury Severity Score. The operative time was significantly longer with ORIF (143.0 vs. 102.1 vs. 95.5 min; P < 0.001), and the intraoperative blood loss was greater with ORIF than with MIPO or IM nailing (292.0 vs. 196.2 vs. 182.3 mL; P < 0.001). Radiographic union occurred in 92.3%, 93.3%, and 84.2% of the patients after ORIF, MIPO, and IM nailing, respectively (P = 0.53). Postoperative radial nerve palsy occurred in five patients (ORIF, 3; MIPO, 1; IM nailing, 1); all but one resolved within 6 months. Nonunion, malunion, and reoperation rates differed only numerically. Functional outcomes, including DASH score (P = 0.11), MEPS (P = 0.18), elbow ROM (P = 0.09), shoulder forward flexion (P = 0.264), and shoulder abduction (P = 0.228), did not differ significantly across the fixation methods. All three techniques achieved acceptable union and functional outcomes in AO/OTA type 12-C humeral shaft fractures. MIPO showed a numerically favorable trend toward fewer complications and less surgical invasiveness than ORIF. IM nailing showed numerical trends toward higher nonunion and malunion rates and slightly lower shoulder mobility, whereas ORIF required longer operative times and demonstrated greater intraoperative blood loss. Considering the retrospective design, surgeon-selected allocation, and limited statistical power, these findings warrant caution. The fixation strategy should be tailored to the fracture morphology, soft-tissue condition, patient factors, and surgeon experience.",
-"doi": "10.1016/j.injury.2026.113685",
-"keywords": [
-"AO/OTA 12-C",
-"Humeral shaft fracture",
-"Humerus",
-"Intramedullary nailing",
-"Minimally invasive plate osteosynthesis",
-"Open reduction and internal fixation"
-],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42727186/",
-"impactScore": 29
-},
-{
-"pmid": "42721569",
-"title": "Patellar fractures: To plate them all? Results of a new treatment protocol.",
-"authors": [
-"Davidson A",
-"Harats E",
-"Levy Y",
-"Stavsky M",
-"Lieberman I",
-"Altergot A",
-"Bloom S"
-],
-"journal": "Injury",
-"journalTier": 2,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-09-06",
-"abstract": "In recent years, anatomically contoured locking plates have been introduced as an alternative fixation method for patellar fractures. Biomechanical studies have demonstrated superior mechanical stability and clinical studies further suggest that plating reduces complication and revision rates, especially in comminuted fracture patterns. However, there is uncertainty regarding the role of plating in less complex fracture types. Following an institutional shift to routine plating of all surgically treated patellar fractures, this study compares outcomes and costs of plate versus non-plate fixation for patellar fractures. Retrospective cohort at a level-I trauma center (2016-2023). Patients undergoing fixation with ≥ 6-month follow-up were included. Major complications were fixation failure or deep infection; minor included superficial infection, ROM < 110°, persistent knee pain, or stair-climbing difficulty. Hardware removal was analyzed separately. 125 patients met criteria (48 plating; 77 non-plate); 70% had AO C1-C2 patterns. Major complications occurred in 4% after plating versus 15% with non-plate (p = 0.07). Hardware removal rate was 8.3% with plating versus 26.0% without. Minor complication rates were lower with plating (p < 0.05). ROM was better after plating (0-136°) than non-plate fixation (1-126°). Cost analysis showed higher primary cost with plating, offset by fewer complications, yielding a net additional expenditure of $6413 overall. Plating reduced complications and hardware removal and improved overall function, with modest additional cost.",
-"doi": "10.1016/j.injury.2026.113652",
-"keywords": [
-"Anatomically contoured locking plate",
-"Complications",
-"Cost analysis",
-"Hardware removal",
-"Patellar fractures",
-"Plating"
-],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42721569/",
-"impactScore": 29
-},
-{
-"pmid": "42715919",
-"title": "Sex differences in martial arts injuries presenting to emergency departments in the United States from 2015 to 2024.",
-"authors": [
-"Hamstra-Wright KL",
-"Kremer H",
-"Coumbe-Lilley JE",
-"Khosla S"
-],
-"journal": "Injury",
-"journalTier": 2,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-09-06",
-"abstract": "Martial arts participation in the United States is increasing, particularly among females, but sex-specific injury patterns remain poorly understood. The purpose of our study was to examine sex differences in martial arts injuries presenting to United States emergency departments by year, age, body region, diagnosis, and martial arts style. We hypothesized injury distributions would differ between females and males METHODS: We conducted a retrospective cohort study where we queried the National Electronic Injury Surveillance for martial arts injuries recorded from 2015 to 2024. We calculated national injury estimates, injury incidence per 100,000 patients, and crude risk differences with 95% confidence intervals between females and males by age, region, diagnosis, and style. A total of 7613 cases corresponded to a national estimate of 277,753 martial arts injuries. Females had a significantly higher proportion of injuries among youth ages 2-17 years (46.1% vs 33.1%; RD 0.13; 95% CI, 0.09-0.17); foot (23.8% vs 17.3%; RD 0.07; 95% CI, 0.04-0.09), hand (14.7% vs 11.9%; RD 0.03; 95% CI, 0.01-0.05), and leg injuries (16.7% vs 14.4%; RD 0.02; 95% CI, 0.00-0.04); strains and sprains (29.9% vs 21.2%; RD 0.09; 95% CI, 0.05-0.12); and striking-style injuries (53.2% vs 32.2%; RD 0.21; 95% CI, 0.18-0.25). Most female injury incidence patterns post-2020 decreased or remained stable, while many male injury incidence patterns sharply rose, particularly those associated with grappling and mixed martial arts. Significant sex differences exist in martial arts injuries presenting to United States emergency departments. Injury distributions align with style categories, with females accounting for more striking-related injuries and males more grappling/mixed martial arts-related injuries. Post-2020 trends show widening sex differences in injury incidence. We highlight specific sex differences in martial arts emergency department injuries for use by healthcare professionals, coaches, and organizations. Recognition of sex-specific injury patterns may inform sex-specific training, injury prevention, and rehabilitation strategies for martial arts athletes across the lifespan.",
-"doi": "10.1016/j.injury.2026.113658",
-"keywords": [
-"Epidemiology",
-"Female athlete",
-"Martial arts",
-"Sex differences"
-],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42715919/",
-"impactScore": 29
-},
-{
-"pmid": "42715918",
-"title": "Open versus percutaneous fibular graft harvesting in long bone nonunion surgery: A comparative cohort study.",
-"authors": [
-"Hseinat LA",
-"Al-Bataineh M",
-"Migdad AA",
-"Aolymate M",
-"Sbaihat M",
-"Badaineh AAA",
-"Alzyadat LAA",
-"Soudi HA"
-],
-"journal": "Injury",
-"journalTier": 2,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-09-06",
-"abstract": "The traditional open harvesting method used in fibular grafting is a well-established reconstructive technique, but it is associated with donor-site morbidity. However, percutaneous harvesting has been introduced as a minimally invasive method to reduce trauma while preserving graft adequacy. A retrospective comparative analysis was conducted to measure the outcomes of percutaneous versus open fibular graft harvesting. Studied variables included patient demographics, intraoperative parameters (harvest time, estimated blood loss, incision length), and postoperative outcomes (pain scores, analgesia requirements, donor-site complications, and functional recovery). Among 34 patients undergoing non-vascularized fibular grafting for long-bone non-unions, 16 (47%) underwent graft harvest using an open approach, and 18 (53%) using a percutaneous technique. Baseline demographic and surgical characteristics were generally similar between the groups. The percutaneous approach was associated with significantly lower postoperative pain scores at 1 week (VAS 7.39 ± 0.61 vs. 8.19 ± 0.66, p = 0.0008), 1 month (4.56 ± 0.78 vs. 6.13 ± 0.66, p < 0.0001), and 3 months, shorter graft harvest time, reduced intraoperative blood loss, and smaller incision length. Sensory deficits of the peroneal nerve were observed exclusively in the open group (37.5% vs. 0%, p = 0.004). Both techniques achieved comparable union rates (100% vs. 88.9%, p = 0.169), graft incorporation during follow-up (100% vs. 83.3%, p = 0.087), overall complication rates, and reoperation rates, with no mortality reported at one-year follow-up. Percutaneous fibular graft harvesting offers a safe and effective alternative to the conventional open approach. It is associated with lower intraoperative morbidity and improved early postoperative recovery, without compromising graft utility or increasing complication rates. These findings support the wider adoption of minimally invasive techniques in fibular graft harvesting.",
-"doi": "10.1016/j.injury.2026.113676",
-"keywords": [
-"Donor site",
-"Fibula graft harvesting",
-"Long bone",
-"Nonunion",
-"Open fibular graft",
-"Percutaneous Fibular Graft"
-],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42715918/",
-"impactScore": 29
-},
-{
-"pmid": "42715915",
-"title": "Evaluating the physical examination and diagnostic workup for occult Neck Of Femur fractures in a district general hospital.",
-"authors": [
-"Maksoud A",
-"Nkala M",
-"Henderson K",
-"Minijenahalli-Narayanaswamy S"
-],
-"journal": "Injury",
-"journalTier": 2,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-09-06",
-"abstract": "Occult Neck of Femur (NOF) fractures are radiographically elusive injuries. Undiagnosed, they lead to delayed treatment, displacement, and increased morbidity. While MRI is the gold standard for detection, CT is frequently used when MRI is unavailable. Physical examination manoeuvres, specifically the hip log-roll (HR) and straight leg raise (SLR), are often employed to guide decisions regarding cross-sectional imaging. This study explores the utility of these physical examinations in guiding the workup for occult NOF fractures. A prospective service evaluation was performed at a 400-bed UK district general hospital (Jan 2023-Apr 2025). An electronic data-capture form integrated into CT/MRI requests identified 133 imaging requests ordered for suspected occult NOF fractures (120 CT and 14 MRI). Fifteen requests were cancelled (12 CT and 1 MRI out of a total 146 requests in 143 patients), and 14 CT Investigations related to suspected periprosthetic fracture were excluded from the primary native-hip analysis. Clinician-recorded results for HR, SLR, axial loading, and heel-percussion tests were compared against CT and MRI outcomes. Sensitivity, specificity, predictive values, and area under the ROC curve (AUC) were calculated for each test. A 4-point risk score (age > 70, female gender, positive HR, positive SLR) was evaluated for its discriminatory power. CT confirmed 38 occult NOF fractures, with 4 further cases confirmed on MRI (including one initially missed on CT) and 3 on initial radiographic re-assessment. ). HR and SLR were performed in more than 95% of patients, demonstrating high sensitivities of 0.96 and 0.91, respectively, but low specificities (<0.35). Axial loading and heel percussion showed lower sensitivities (0.68 and 0.64). Combined HR + SLR yielded a fair AUC (0.68), which improved to 0.72 when age and gender were incorporated into the risk score. In this setting, CT detected 97% of occult NOF fractures, missing only one micro-trabecular injury subsequently detected on MRI. The hip log roll and straight leg raise tests demonstrated high sensitivity but limited specificity, with improved performance when combined with demographic factors. These findings suggest that clinical examination manoeuvres are most useful for ruling out, rather than confirming, occult NOF fractures. Importantly, they reinforce the role of careful bedside physical examination in guiding appropriate imaging, particularly in an era of increasing reliance on radiological investigations.",
-"doi": "10.1016/j.injury.2026.113656",
-"keywords": [
-"Neck of femur fracture",
-"Occult fracture"
-],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42715915/",
-"impactScore": 29
+"impactScore": 28
 },
 {
 "pmid": "42726362",
@@ -5710,7 +5686,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42726362/",
-"impactScore": 24
+"impactScore": 22
 },
 {
 "pmid": "42728612",
@@ -5744,7 +5720,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42728612/",
-"impactScore": 23
+"impactScore": 21
 },
 {
 "pmid": "42723005",
@@ -5779,7 +5755,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42723005/",
-"impactScore": 23
+"impactScore": 21
 },
 {
 "pmid": "42720891",
@@ -5812,7 +5788,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42720891/",
-"impactScore": 23
+"impactScore": 21
 },
 {
 "pmid": "42717156",
@@ -5847,7 +5823,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42717156/",
-"impactScore": 23
+"impactScore": 21
 },
 {
 "pmid": "42723022",
@@ -5877,7 +5853,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42723022/",
-"impactScore": 22
+"impactScore": 20
 },
 {
 "pmid": "42717312",
@@ -5910,7 +5886,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42717312/",
-"impactScore": 22
+"impactScore": 20
 },
 {
 "pmid": "42717311",
@@ -5943,7 +5919,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42717311/",
-"impactScore": 22
+"impactScore": 20
 },
 {
 "pmid": "42711685",
@@ -5972,7 +5948,7 @@
 "Published Erratum"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42711685/",
-"impactScore": 21
+"impactScore": 19
 },
 {
 "pmid": "42706461",
@@ -6000,7 +5976,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42706461/",
-"impactScore": 21
+"impactScore": 19
 },
 {
 "pmid": "42702696",
@@ -6036,7 +6012,69 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42702696/",
-"impactScore": 20
+"impactScore": 18
+},
+{
+"pmid": "42733855",
+"title": "Strengthening Prehospital Emergency Care in Somalia: Current Barriers and Priorities for System Reform.",
+"authors": [
+"Adan HAA"
+],
+"journal": "Open access emergency medicine : OAEM",
+"journalTier": 3,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-01-01",
+"abstract": "Effective prehospital emergency care is a core component of an emergency care system because assessment, initial stabilization, communication, and transport begin before definitive hospital treatment. In Somalia, prehospital services remain fragmented, with substantial reliance on informal transport and limited access to trained responders, standardized protocols, dispatch, and coordinated referral. Somalia-specific reports have documented major gaps in organized prehospital care, including limited ambulance capacity and a lack of a unified national system. This Perspective examines these barriers and proposes a pragmatic pathway for reform that prioritizes governance, workforce development, community first response, dispatch and communication, ambulance standards, and linkage with receiving hospitals. Rather than proposing an expensive high-resource model, the paper advocates phased development beginning with context-appropriate first-responder and basic ambulance-provider training, followed by regulated expansion of advanced prehospital care as workforce, financing, and clinical governance mature. Existing Somali experience with WHO-supported emergency-care training provides a foundation for local capacity building, while regional experience from Kenya illustrates the value of policy, regulation, data, and coordinated dispatch. Mobile communication technologies may offer a feasible bridge where conventional dispatch infrastructure is limited. The immediate priority should be to establish a nationally coordinated, measurable, and sustainable prehospital system that connects communities, responders, ambulances, and hospitals.",
+"doi": "10.1016/j.surg.2017.05.020",
+"keywords": [
+"Somalia",
+"emergency medical services",
+"emergency medical technicians",
+"health systems strengthening",
+"prehospital care",
+"trauma"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42733855/",
+"impactScore": 16
+},
+{
+"pmid": "42733809",
+"title": "Emergency CT KUB: Incidental Findings and Their Clinical Significance.",
+"authors": [
+"Dayraki M",
+"Anjum S",
+"AlKhulaifi L",
+"Miranda L",
+"Mohmmad DAM",
+"Jabeen A",
+"Bhutta ZA",
+"Yigit Y"
+],
+"journal": "Open access emergency medicine : OAEM",
+"journalTier": 3,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-01-01",
+"abstract": "Incidental findings (IFs) on computed tomography of the kidneys, ureters, and bladder (CT KUB) are increasingly common in emergency departments (EDs) due to the widespread use of advanced imaging. These findings, often unrelated to the primary diagnostic indication, present clinical and operational challenges, particularly in high-volume, demographically diverse settings. To evaluate the prevalence, classification, and clinical significance of incidental findings on CT KUB scans performed in the ED for suspected obstructive uropathy, and to identify factors associated with clinically significant IFs and evaluate their clinical outcomes. A retrospective single-center observational study was conducted at a national tertiary-care hospital in Qatar, including all adult patients who underwent non-contrast CT KUB for suspected renal colic between January 1 and November 30, 2024. Demographic, clinical, and radiological data were extracted. IFs were categorized as major, moderate, or minor based on clinical relevance. Outcomes included prevalence and distribution of IFs, subsequent management actions, and factors associated with major IFs. Of 2786 CT KUB scans analyzed, 1531 (54.9%) revealed at least one incidental finding. Most incidental findings were classified as minor (63.2%), whereas 6.1% were major and 30.8% were moderate according to the highest-severity incidental finding per scan. Major IFs (e.g, suspected malignancy, aortic aneurysm) accounted for most urgent interventions and admissions. Multivariable analysis identified that older age, nationality, fever, desaturation, and abdominal tenderness were independently associated with major IFs (all p<0.05). Management of the primary condition was delayed due to IFs in only 0.6% of cases. The most frequent IFs were vascular calcifications, bone lesions, and hernias. Incidental findings on CT KUB are common in the ED, with a significant proportion requiring further intervention or specialist referral. The high prevalence in a younger, multi-ethnic population underscores the need for context-specific protocols, structured reporting, and robust follow-up systems.",
+"doi": "10.1016/j.jacr.2017.03.010",
+"keywords": [
+"CT KUB",
+"emergency department",
+"incidental findings",
+"obstructive uropathy",
+"risk stratification"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42733809/",
+"impactScore": 16
 },
 {
 "pmid": "42724137",
