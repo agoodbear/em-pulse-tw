@@ -1,25 +1,25 @@
 {
-"generatedAt": "2026-09-19T23:52:24.000Z",
+"generatedAt": "2026-09-20T23:49:26.000Z",
 "daysBack": 7,
 "journalCount": 59,
 "stats": {
-"total": 119,
+"total": 125,
 "byType": {
 "guideline": 1,
 "meta-analysis": 1,
 "systematic-review": 2,
-"review": 8,
+"review": 9,
+"original": 90,
 "editorial": 2,
-"original": 87,
-"letter": 17,
+"letter": 19,
 "case-report": 1
 },
 "byTier": {
-"1": 46,
+"1": 52,
 "2": 51,
 "3": 22
 },
-"topScore": 76,
+"topScore": 75,
 "avgScore": 38
 },
 "articleOfWeek": {
@@ -71,7 +71,7 @@
 "Practice Guideline"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42744113/",
-"impactScore": 76
+"impactScore": 75
 },
 "articles": [
 {
@@ -123,7 +123,7 @@
 "Practice Guideline"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42744113/",
-"impactScore": 76
+"impactScore": 75
 },
 {
 "pmid": "42097878",
@@ -159,7 +159,7 @@
 "Meta-Analysis"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42097878/",
-"impactScore": 75
+"impactScore": 74
 },
 {
 "pmid": "42759966",
@@ -192,7 +192,7 @@
 "Systematic Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42759966/",
-"impactScore": 72
+"impactScore": 71
 },
 {
 "pmid": "42309779",
@@ -233,7 +233,42 @@
 "Systematic Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42309779/",
-"impactScore": 72
+"impactScore": 71
+},
+{
+"pmid": "42762987",
+"title": "Delivering Bronchiectasis and NTM Care in Safety-Net Health Systems: A Practical Framework for Implementation.",
+"authors": [
+"MacRae S",
+"Swenson C",
+"Flowers RC",
+"Hurtado RM",
+"Maselli DJ",
+"Domaradzki L",
+"Millero J",
+"Basavaraj A",
+"Zha BS"
+],
+"journal": "Chest",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "review",
+"pubDate": "2026-09-19",
+"abstract": "The prevalence of bronchiectasis and nontuberculous mycobacterial (NTM) pulmonary disease are rising and increasingly managed in United States community and safety-net health systems. However, patients cared for in these settings remain underrepresented in epidemiologic studies and clinical trials that inform clinical practice guidelines. Although existing recommendations provide important standards of care, they often assume reliable access to subspecialty evaluation, advanced diagnostics, and costly therapies. In under-resourced systems, structural constraints shape how and when patients obtain subspecialty evaluation and evidence-based therapies. Drawing on previous evidence and experience from centers within the Bronchiectasis and NTM Care Center Network, we propose a practical framework for adapting guideline-concordant care to under-resourced systems. This framework focuses on four domains: diagnostic pathways that support earlier recognition, co-management models that prioritize high-risk patients and leverage disease expertise, pragmatic approaches to evidence-based therapies aligned with available resources, and linguistic and culturally responsive education to support adherence and shared decision-making. Aligning evidence-based recommendations with structural realities is necessary to improve care delivery and reduce inequality in bronchiectasis and NTM care.",
+"doi": "10.1016/j.chest.2026.09.012",
+"keywords": [
+"bronchiectasis",
+"health equity",
+"nontuberculous mycobacterium",
+"safety-net care"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article",
+"Review"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42762987/",
+"impactScore": 58
 },
 {
 "pmid": "42062049",
@@ -273,7 +308,182 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42062049/",
-"impactScore": 58
+"impactScore": 57
+},
+{
+"pmid": "42762986",
+"title": "Impact of pre-ICU balanced crystalloids versus saline on mortality in sepsis: a propensity score-matched multicenter cohort study.",
+"authors": [
+"Kim TW",
+"Kim Y",
+"Baek MS",
+"Kim G",
+"Ko RE",
+"Suh GY",
+"Lim CM",
+"Jeon N",
+"Kim WY",
+"Korean Sepsis Alliance (KSA) Investigators"
+],
+"journal": "Chest",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-09-19",
+"abstract": "The optimal crystalloids for initial fluid resuscitation in sepsis remain uncertain. Most previous studies have focused on intensive care unit (ICU), leaving the pre-ICU admission impact of crystalloid type unclear. Is there an association between pre-ICU admission crystalloid type administration and clinical outcomes in patients with sepsis? This nationwide multicenter retrospective cohort study analyzed adult patients with sepsis between September 2019 and December 2023. Patients receiving initial fluid resuscitation before ICU admission were categorized into balanced crystalloid or 0.9% sodium chloride (saline) groups. The primary outcome was 30-day mortality. Among 3,688 patients (mean [standard deviation] age 71.9 [13.8] years; 58% male), 1,381 (37.4%) received balanced crystalloids and 2,307 (62.6%) received saline before ICU admission. After propensity score matching, 1,335 patients remained in each group. Balanced crystalloid use was associated with lower 30-day mortality, resulting in an adjusted odds ratio (aOR) of 0.69 (95% confidence interval [CI] 0.56-0.83). The finding was consistent after inverse probability of treatment weighting (aOR, 0.78; 95% CI 0.69-0.88). The association between balanced crystalloids and mortality was consistent across age, sex, disease severity, liberal fluid management (pre-ICU fluid volume >30 mL/kg), and pre-ICU vasopressor use. Notably, mortality risk was lower with balanced crystalloids in patients without chronic kidney disease, received fluids in the emergency department or ward (vs. operating room or other ICU), with baseline chloride ≤110 mmol/L, and baseline pH <7.35. Further, balanced crystalloid use was associated with reduced need for continuous renal replacement therapy during ICU stay, reduced renal replacement therapy at ICU discharge, and increased 28-day ventilator-free days. Pre-ICU administered balanced crystalloid use was associated with lower 30-day mortality in patients with sepsis than saline.",
+"doi": "10.1016/j.chest.2026.09.008",
+"keywords": [
+"balanced crystalloids",
+"fluid challenge",
+"mortality",
+"saline",
+"sepsis",
+"septic shock"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42762986/",
+"impactScore": 49
+},
+{
+"pmid": "42762985",
+"title": "Non-Cystic Fibrosis Bronchiectasis in the United States: Prevalence Trends in a Large Electronic Health Record Population, 2015-2025.",
+"authors": [
+"Jung F",
+"MacRae S"
+],
+"journal": "Chest",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-09-19",
+"abstract": "Despite growing clinical awareness of bronchiectasis, contemporary estimates of its burden in the general United States population are lacking. What are the trends in prevalence of non-cystic fibrosis bronchiectasis in a US primary care population from 2015-2025, and how does prevalence vary by demographic characteristics and subspecialist evaluation? We conducted a retrospective, repeated cross-sectional population analysis using the Epic Cosmos electronic health record database encompassing over 307 million de-identified patients across the US. Adults aged ≥18 years with at least one visit to an internal medicine, family medicine, geriatrics, or gynecology provider between 2015 and 2025 formed the primary care (PC) population. Bronchiectasis (excluding cystic fibrosis) was identified by ICD-10 and CPT codes requiring a discharge diagnosis, two clinic visits with a billed diagnosis, or one visit with a billed diagnosis preceded by a chest CT. We calculated annual age-adjusted prevalence rates with 95% confidence intervals and performed multivariable regression. In 2025, the PC population included over 58 million patients. There were 191,203 individuals who met the bronchiectasis case definition, yielding an age-adjusted prevalence of 270.3 (95% CI, 267.2-273.5) per 100,000 patients. Prevalence increased 133% from 2015 to 2025. Patients with case-defined bronchiectasis were older (average age 72.1 vs 58.1), more often female (66% vs 60%), more likely to identify as white (75.3% vs 63.8%), less likely to identify as Hispanic or Latino (5% vs 9%), and more likely to have Medicare coverage (61.4% vs 23.5%) than the PC population.",
+"doi": "10.1016/j.chest.2026.09.014",
+"keywords": [
+"CT",
+"List: bronchiectasis",
+"epidemiology"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42762985/",
+"impactScore": 49
+},
+{
+"pmid": "42762984",
+"title": "Mixed Mucus Plug-Emphysema Subtype and Acute Exacerbation in Chronic Obstructive Pulmonary Disease.",
+"authors": [
+"Li Y",
+"Wang Y",
+"Zhang M",
+"Wang G",
+"Cui J",
+"Zhang Z",
+"Wang X",
+"Yang X",
+"Guo Y"
+],
+"journal": "Chest",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-09-19",
+"abstract": "Conventional clinical assessments inadequately capture chronic obstructive pulmonary disease (COPD) heterogeneity. Quantitative computed tomography metrics may enable refined phenotyping and improved prognostic assessment. What is the prognostic value of quantitative computed tomography-derived mucus plugs and emphysema for acute exacerbations in COPD? This prospective cohort study collected clinical data, chest computed tomography, and pulmonary function tests from patients with COPD. Patients were stratified by mucus plug score (cutoff: 4) and emphysema severity (%LAA-950 cutoff: 5%). Multivariate logistic regression analysis was performed to assess the association between subgroups and acute exacerbations. Stratified analysis was employed to evaluate both independent and combined effects. A total of 215 patients were categorized into four subgroups: low mucus/low emphysema (n=61), low mucus/high emphysema (n=46), high mucus/low emphysema (n=62), and high mucus/high emphysema (n=46). Compared with the low mucus/low emphysema group, the risk of acute exacerbation increased progressively across the other three subgroups, with adjusted ORs of 2.885 (95%CI:1.060-8.166, P=0.041), 3.134 (95%CI:1.212-8.540, P=0.021), and 3.297 (95%CI:1.096-10.298, P=0.036). Additionally, each 1-point increase in the mucus plug score was associated with a 1.1-fold higher risk of acute exacerbation (OR 1.111, 95%CI: 1.005-1.232, P=0.041). The association between higher mucus plugs (≥4 vs. <4) and acute exacerbations was statistically significant only in the low emphysema subgroup (OR 3.318, 95%CI: 1.114-10.731, P=0.036). Quantitative computed tomography-defined mucus plugs and emphysema jointly identify clinically meaningful COPD subgroups and predict exacerbations, supporting their use for personalized risk stratification and targeted prevention.",
+"doi": "10.1016/j.chest.2026.09.006",
+"keywords": [
+"%LAA-950",
+"Acute exacerbation",
+"Chronic obstructive pulmonary disease",
+"Mucus plug score",
+"Quantitative computed tomography"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42762984/",
+"impactScore": 49
+},
+{
+"pmid": "42762983",
+"title": "Thoracentesis with pleural fluid cytology versus thoracoscopy with pleural biopsy for the diagnosis of malignant pleural effusion: a cost-effectiveness study.",
+"authors": [
+"Bridwell GJ",
+"Xiao D",
+"Grosu HB",
+"Chaddha U",
+"Agrawal A",
+"Gesthalter YB",
+"Godfrey CM",
+"Leonard K",
+"Ratwani AP",
+"Paez R",
+"Duke JD",
+"Pichiarello C",
+"Kammer MN",
+"Ost D",
+"Grogan EL",
+"Lentz RJ",
+"Maldonado F",
+"Shojaee S"
+],
+"journal": "Chest",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-09-19",
+"abstract": "Thoracentesis with pleural fluid (PF) cytology has a sensitivity of ∼60% to diagnose malignant pleural effusion (MPE). Medical thoracoscopy with pleural biopsy has a higher diagnostic sensitivity. This study evaluates the cost-effectiveness of thoracentesis versus thoracoscopy for diagnosis of MPE in patients with prior or active malignancy. When is thoracentesis or thoracoscopy cost-effective for the diagnosis of malignant pleural effusion in patients with prior or active malignancy? A cost-effectiveness model was developed comparing thoracentesis with PF-cytology to medical thoracoscopy with pleural biopsy for the diagnosis of MPE in two scenarios: 1) initial evaluation of unilateral pleural effusion in patients with prior or active malignancy, 2) evaluation of a recurrent effusion following a cytology-negative thoracentesis. The primary outcome was cost per complication avoided with willingness-to-pay threshold of $10,000. One-way deterministic sensitivity analyses were conducted on all parameters. Model assumptions were established by consensus among a multicenter panel of pleural disease experts. In unilateral pleural effusion and prior or active malignancy, a thoracoscopy-first diagnostic strategy resulted in 0.0311 fewer complications and cost an additional $1,890 compared to a thoracentesis-first strategy. Thoracoscopy-first strategy was more cost-effective when PF-cytology sensitivity was ≤27%. In recurrent effusion following a cytology-negative thoracentesis in patients with prior or active malignancy, a thoracoscopy-next strategy resulted in 0.0278 fewer complications and cost an additional $19 compared to the thoracentesis-next strategy. Thoracoscopy-next strategy was more cost-effective unless the second-thoracentesis PF-cytology sensitivity was above 29%. In patients with prior or active malignancy, thoracentesis is a more cost-effective initial diagnostic strategy for malignant pleural effusion in cancers that have a PF-cytology diagnostic sensitivity of >27%. In recurrent effusion following a cytology-negative thoracentesis, thoracoscopy with pleural biopsy is more cost-effective than a second thoracentesis.",
+"doi": "10.1016/j.chest.2026.08.051",
+"keywords": [
+"Cost-effectiveness",
+"malignant pleural effusion",
+"pleuroscopy",
+"thoracentesis",
+"thoracoscopy"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42762983/",
+"impactScore": 49
+},
+{
+"pmid": "42762982",
+"title": "Multicomponent Pulmonary Rehabilitation for Prolonged Mechanical Ventilation in Patients Aged 80 Years or Older: A Randomized Controlled Trial.",
+"authors": [
+"Liu T",
+"Kou T",
+"Wei G",
+"Zhang H",
+"Li G",
+"Hou H",
+"Liu B",
+"Zhao J"
+],
+"journal": "Chest",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-09-19",
+"abstract": "Older patients receiving prolonged mechanical ventilation have a low likelihood of successful ventilator liberation and remain at risk for infectious complications and death. In patients aged ≥80 years receiving prolonged mechanical ventilation, does a multicomponent pulmonary rehabilitation program increase successful weaning? This single-center, assessor-blinded randomized controlled trial was conducted at Chinese PLA General Hospital. Patients aged ≥80 years receiving prolonged mechanical ventilation were randomized to multicomponent pulmonary rehabilitation or standard rehabilitation. The primary outcome was successful weaning. Secondary outcomes were oxygen saturation off mechanical ventilation, diaphragm thickening fraction, cough ability, muscle strength, and the incidence of ventilator-associated pneumonia (VAP) assessed at 30, 60, and 90 days. Deep vein thrombosis (DVT) was assessed at day 90 or when participation ended. The intention-to-treat analysis included 75 patients in each group. Among patients who received the multicomponent pulmonary rehabilitation program, 45.3% achieved successful weaning, compared with 12.0% among patients receiving standard rehabilitation (adjusted HR = 5.11; 95% CI, 2.46-11.23; P < 0.001). There was no significant difference in the incidence of DVT between the two groups. The intervention group had higher odds of meeting the prespecified improvement criteria for oxygen saturation, diaphragm thickening fraction, cough strength, and muscle strength at 30, 60, and 90 days, while VAP incidence was lower at days 60 and 90. The all-cause mortality rate at 90 days was 2.7% (2/75) in the trial group and 4.0% (3/75) in the control group (P = 1.000). The per-protocol analysis yielded similar results. The Fine-Gray competing-risk analysis yielded an sHR of 4.45 (95% CI, 2.11-9.36; P < 0.001). In patients aged ≥80 years receiving prolonged mechanical ventilation, the multicomponent pulmonary rehabilitation program improved physiological recovery and significantly increased successful weaning. Chinese Clinical Trial Registry; ChiCTR2100050342; registered on August 26, 2021; URL: https://www.chictr.org.cn/.",
+"doi": "10.1016/j.chest.2026.08.050",
+"keywords": [
+"mechanical ventilation",
+"multicomponent pulmonary rehabilitation",
+"older patients",
+"weaning"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42762982/",
+"impactScore": 49
 },
 {
 "pmid": "41997740",
@@ -297,7 +507,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/41997740/",
-"impactScore": 50
+"impactScore": 49
 },
 {
 "pmid": "42760539",
@@ -330,7 +540,7 @@
 "Published Erratum"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42760539/",
-"impactScore": 49
+"impactScore": 48
 },
 {
 "pmid": "42759965",
@@ -355,7 +565,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42759965/",
-"impactScore": 49
+"impactScore": 48
 },
 {
 "pmid": "42759647",
@@ -386,7 +596,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42759647/",
-"impactScore": 49
+"impactScore": 48
 },
 {
 "pmid": "42580876",
@@ -416,7 +626,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42580876/",
-"impactScore": 49
+"impactScore": 48
 },
 {
 "pmid": "42336613",
@@ -456,7 +666,7 @@
 "Observational Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42336613/",
-"impactScore": 49
+"impactScore": 48
 },
 {
 "pmid": "42031524",
@@ -485,7 +695,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42031524/",
-"impactScore": 49
+"impactScore": 48
 },
 {
 "pmid": "41730669",
@@ -511,7 +721,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/41730669/",
-"impactScore": 49
+"impactScore": 48
 },
 {
 "pmid": "41500797",
@@ -536,7 +746,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/41500797/",
-"impactScore": 49
+"impactScore": 48
 },
 {
 "pmid": "41475794",
@@ -575,7 +785,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/41475794/",
-"impactScore": 49
+"impactScore": 48
 },
 {
 "pmid": "41276288",
@@ -623,7 +833,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/41276288/",
-"impactScore": 49
+"impactScore": 48
 },
 {
 "pmid": "40730461",
@@ -673,7 +883,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/40730461/",
-"impactScore": 49
+"impactScore": 48
 },
 {
 "pmid": "42754390",
@@ -701,7 +911,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42754390/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42754389",
@@ -730,7 +940,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42754389/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42754388",
@@ -763,7 +973,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42754388/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42754387",
@@ -791,7 +1001,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42754387/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42754386",
@@ -813,7 +1023,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42754386/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42753859",
@@ -835,7 +1045,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42753859/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42753858",
@@ -860,7 +1070,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42753858/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42752610",
@@ -889,7 +1099,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42752610/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42752598",
@@ -917,7 +1127,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42752598/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42752565",
@@ -950,7 +1160,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42752565/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42752385",
@@ -994,7 +1204,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42752385/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42749042",
@@ -1015,7 +1225,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42749042/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42754897",
@@ -1063,7 +1273,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42754897/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42750058",
@@ -1085,7 +1295,7 @@
 "Comment"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42750058/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42748345",
@@ -1108,7 +1318,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42748345/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42748340",
@@ -1131,7 +1341,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42748340/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42759233",
@@ -1165,7 +1375,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42759233/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42745344",
@@ -1192,7 +1402,7 @@
 "Comment"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42745344/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42745288",
@@ -1223,7 +1433,7 @@
 "Comment"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42745288/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42743556",
@@ -1244,7 +1454,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42743556/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42743555",
@@ -1280,7 +1490,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42743555/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42743538",
@@ -1311,7 +1521,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42743538/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42743325",
@@ -1345,7 +1555,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42743325/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42760238",
@@ -1370,7 +1580,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42760238/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42750044",
@@ -1419,7 +1629,7 @@
 "Multicenter Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42750044/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42735815",
@@ -1450,7 +1660,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42735815/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42735814",
@@ -1476,7 +1686,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42735814/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42735045",
@@ -1516,7 +1726,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42735045/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42754430",
@@ -1545,7 +1755,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42754430/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42753094",
@@ -1574,7 +1784,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42753094/",
-"impactScore": 43
+"impactScore": 42
 },
 {
 "pmid": "42742689",
@@ -1606,7 +1816,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42742689/",
-"impactScore": 41
+"impactScore": 40
 },
 {
 "pmid": "42742688",
@@ -1652,7 +1862,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42742688/",
-"impactScore": 41
+"impactScore": 40
 },
 {
 "pmid": "42736486",
@@ -1706,7 +1916,55 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42736486/",
-"impactScore": 41
+"impactScore": 40
+},
+{
+"pmid": "42762372",
+"title": "Oral semaglutide vs DPP-4 inhibitors in reducing risk of cognitive impairment in elderly patients with HFpEF and obesity: comment.",
+"authors": [
+"Odic P",
+"Nardi O",
+"Foucault-Fruchard L"
+],
+"journal": "Internal and emergency medicine",
+"journalTier": 2,
+"journalSJR": null,
+"articleType": "letter",
+"pubDate": "2026-09-19",
+"abstract": "",
+"doi": "10.1097/EDE.0b013e3181a819a1",
+"keywords": [],
+"meshTerms": [],
+"pubTypes": [
+"Letter"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42762372/",
+"impactScore": 35
+},
+{
+"pmid": "42762371",
+"title": "Observed variability of oxygen administration between prehospital settings and the emergency department.",
+"authors": [
+"Gislon H",
+"Fusco A",
+"Ferrari AM",
+"Marta C",
+"Costantino G"
+],
+"journal": "Internal and emergency medicine",
+"journalTier": 2,
+"journalSJR": null,
+"articleType": "letter",
+"pubDate": "2026-09-19",
+"abstract": "",
+"doi": "10.1136/EMJ.2008.059287",
+"keywords": [],
+"meshTerms": [],
+"pubTypes": [
+"Letter"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42762371/",
+"impactScore": 35
 },
 {
 "pmid": "42758640",
@@ -1750,7 +2008,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42758640/",
-"impactScore": 35
+"impactScore": 34
 },
 {
 "pmid": "42758524",
@@ -1780,7 +2038,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42758524/",
-"impactScore": 35
+"impactScore": 34
 },
 {
 "pmid": "42758262",
@@ -1812,7 +2070,7 @@
 "Published Erratum"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42758262/",
-"impactScore": 35
+"impactScore": 34
 },
 {
 "pmid": "42758042",
@@ -1840,7 +2098,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42758042/",
-"impactScore": 35
+"impactScore": 34
 },
 {
 "pmid": "42757870",
@@ -1870,7 +2128,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42757870/",
-"impactScore": 35
+"impactScore": 34
 },
 {
 "pmid": "42757863",
@@ -1901,7 +2159,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42757863/",
-"impactScore": 35
+"impactScore": 34
 },
 {
 "pmid": "42755255",
@@ -1932,7 +2190,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42755255/",
-"impactScore": 35
+"impactScore": 34
 },
 {
 "pmid": "42754829",
@@ -1969,7 +2227,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42754829/",
-"impactScore": 34
+"impactScore": 33
 },
 {
 "pmid": "42754365",
@@ -2002,7 +2260,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42754365/",
-"impactScore": 34
+"impactScore": 33
 },
 {
 "pmid": "42753095",
@@ -2025,7 +2283,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42753095/",
-"impactScore": 34
+"impactScore": 33
 },
 {
 "pmid": "42752941",
@@ -2069,7 +2327,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42752941/",
-"impactScore": 34
+"impactScore": 33
 },
 {
 "pmid": "42752926",
@@ -2110,7 +2368,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42752926/",
-"impactScore": 34
+"impactScore": 33
 },
 {
 "pmid": "42752339",
@@ -2137,7 +2395,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42752339/",
-"impactScore": 34
+"impactScore": 33
 },
 {
 "pmid": "42752311",
@@ -2174,7 +2432,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42752311/",
-"impactScore": 34
+"impactScore": 33
 },
 {
 "pmid": "42752295",
@@ -2207,7 +2465,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42752295/",
-"impactScore": 34
+"impactScore": 33
 },
 {
 "pmid": "42752252",
@@ -2235,7 +2493,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42752252/",
-"impactScore": 34
+"impactScore": 33
 },
 {
 "pmid": "42750413",
@@ -2273,7 +2531,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42750413/",
-"impactScore": 34
+"impactScore": 33
 },
 {
 "pmid": "42749989",
@@ -2301,7 +2559,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42749989/",
-"impactScore": 34
+"impactScore": 33
 },
 {
 "pmid": "42749954",
@@ -2332,7 +2590,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42749954/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42753348",
@@ -2355,7 +2613,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42753348/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42748497",
@@ -2384,7 +2642,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42748497/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42748287",
@@ -2416,7 +2674,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42748287/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42748282",
@@ -2440,7 +2698,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42748282/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42748279",
@@ -2465,7 +2723,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42748279/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42747461",
@@ -2496,7 +2754,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42747461/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42747383",
@@ -2529,7 +2787,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42747383/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42745505",
@@ -2561,7 +2819,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42745505/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42745493",
@@ -2595,7 +2853,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42745493/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42745357",
@@ -2630,7 +2888,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42745357/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42745353",
@@ -2667,7 +2925,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42745353/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42745349",
@@ -2695,7 +2953,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42745349/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42664368",
@@ -2723,7 +2981,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42664368/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42742678",
@@ -2773,7 +3031,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42742678/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42742674",
@@ -2821,7 +3079,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42742674/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42742658",
@@ -2869,7 +3127,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42742658/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42742526",
@@ -2898,7 +3156,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42742526/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42742186",
@@ -2929,7 +3187,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42742186/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42684881",
@@ -2974,7 +3232,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42684881/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42684876",
@@ -3012,7 +3270,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42684876/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42760195",
@@ -3049,7 +3307,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42760195/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42759116",
@@ -3079,7 +3337,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42759116/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42750072",
@@ -3124,7 +3382,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42750072/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42734655",
@@ -3160,7 +3418,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42734655/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42734164",
@@ -3204,7 +3462,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42734164/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42733362",
@@ -3236,7 +3494,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42733362/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42646255",
@@ -3257,7 +3515,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42646255/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42612190",
@@ -3282,7 +3540,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42612190/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42753573",
@@ -3313,62 +3571,6 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42753573/",
-"impactScore": 30
-},
-{
-"pmid": "42735548",
-"title": "Operative versus nonoperative management of pelvic ring fractures in older adults: A propensity-matched analysis of mortality and complications.",
-"authors": [
-"Johnson M",
-"Sabat L",
-"Allam J",
-"Perdue P",
-"Zuelzer D"
-],
-"journal": "Injury",
-"journalTier": 2,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-09-12",
-"abstract": "Pelvic ring fractures are an increasingly common injury in the aging population, carrying mortality comparable to hip fractures and substantial functional decline. Most geriatric fractures are managed nonoperatively, with operative fixation reserved for unstable patterns, but high-quality evidence comparing both treatment strategies is lacking. This study compared mortality and complications between operatively and nonoperatively managed pelvic ring fractures in older adults across multiple time points. This retrospective cohort study used the TriNetX database to identify patients aged 55 years or older with a pelvic ring fracture. Patients were assigned to operative or nonoperative cohorts and matched 1:1. Co-primary outcomes were 30-day and 1-year all-cause mortality. Secondary outcomes were mortality at 90 days and 2 years, and VTE, pneumonia, and MI at each time window. A multivariable Cox model was constructed for 1-year mortality. Following matching, 5314 patients were retained in each cohort. Mortality did not differ at 30 days (p = 0.108) or 90 days, but was significantly lower in the operative cohort at 1 year (p = 0.034) and 2 years (p < .001). This benefit did not persist in the multivariable Cox model (HR 0.939; p = 0.296). VTE and pneumonia were significantly more common in the operative cohort at all time points, while MI did not differ. In the sensitivity analysis of isolated acetabular fractures (1772 matched patients per cohort), the 1-year mortality benefit attenuated to non-significance (p = 0.057), whereas the 2-year benefit was preserved (p < 0.001); the higher operative rates of VTE and pneumonia, the null MI finding, and the null adjusted Cox result (HR 0.888; p = 0.258) were all consistent with the primary analysis. Operative management was associated with lower 2-year mortality that was robust across analyses and a 1-year mortality signal that was not robust to case-mix, with neither benefit persisting after multivariable adjustment. Operative management was also consistently associated with higher rates of VTE and pneumonia. The decision to operate must balance improved mobility against perioperative risk, and prospective trials assessing fracture characteristics, frailty and functional measures are needed.",
-"doi": "10.1016/j.injury.2026.113717",
-"keywords": [
-"Conservative Treatment, Treatment Outcome",
-"Fracture Fixation, Internal",
-"Mortality",
-"Pelvic Bones, Fractures, Bone"
-],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42735548/",
-"impactScore": 29
-},
-{
-"pmid": "42730639",
-"title": "Predicting unplanned CRRT interruptions in critically Ill burn patients using stacked ensemble machine learning framework.",
-"authors": [
-"Li T",
-"Liu H",
-"Chu Z",
-"Xi M",
-"Li F",
-"Wu H"
-],
-"journal": "Journal of burn care & research : official publication of the American Burn Association",
-"journalTier": 2,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-09-12",
-"abstract": "Unplanned interruption of continuous renal replacement therapy (CRRT) is a frequent complication in critically ill burn patients that may compromise therapeutic efficacy and clinical outcomes, yet accurate risk identification remains challenging due to complex interactions among patient characteristics, coagulation status, and treatment parameters. In this retrospective cohort study of 666 critically ill burn patients undergoing CRRT (training cohort 2015-2023, n=560; temporal validation cohort 2024-2026, n=106), we identified 12 independently associated variables through multivariate logistic regression and systematically evaluated 47 machine learning algorithms, ultimately constructing a stacking ensemble model integrating bayesglm, fda, knn, and naive_bayes as base learners. In the temporal validation cohort, the ensemble model achieved an AUC of 0.963, accuracy of 0.943, sensitivity of 1.000, specificity of 0.896, and a Kappa of 0.887, with satisfactory calibration and significant clinical net benefit across a wide range of threshold probabilities. Two-level SHAP analysis identified blood flow rate, anticoagulation strategy, hematocrit, filtration fraction, and other CRRT-related parameters as substantial contributors to prediction. This interpretable ensemble model demonstrates robust discrimination, calibration, and clinical utility, and may support early nursing surveillance, individualized CRRT management, and preventive interventions to reduce unplanned interruptions in burn intensive care settings.",
-"doi": "10.1093/jbcr/irag163",
-"keywords": [],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42730639/",
 "impactScore": 29
 },
 {
@@ -3395,7 +3597,7 @@
 "Comment"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42760493/",
-"impactScore": 26
+"impactScore": 25
 },
 {
 "pmid": "42754843",
@@ -3425,7 +3627,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42754843/",
-"impactScore": 24
+"impactScore": 23
 },
 {
 "pmid": "42750007",
@@ -3449,7 +3651,7 @@
 "Comment"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42750007/",
-"impactScore": 23
+"impactScore": 22
 },
 {
 "pmid": "42736569",
@@ -3473,7 +3675,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42736569/",
-"impactScore": 22
+"impactScore": 21
 },
 {
 "pmid": "42684882",
@@ -3495,7 +3697,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42684882/",
-"impactScore": 22
+"impactScore": 21
 },
 {
 "pmid": "42684880",
@@ -3518,7 +3720,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42684880/",
-"impactScore": 22
+"impactScore": 21
 },
 {
 "pmid": "42684879",
@@ -3553,7 +3755,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42684879/",
-"impactScore": 22
+"impactScore": 21
 },
 {
 "pmid": "42684878",
@@ -3599,7 +3801,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42684878/",
-"impactScore": 22
+"impactScore": 21
 },
 {
 "pmid": "42684877",
@@ -3637,7 +3839,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42684877/",
-"impactScore": 22
+"impactScore": 21
 },
 {
 "pmid": "42684875",
@@ -3679,7 +3881,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42684875/",
-"impactScore": 22
+"impactScore": 21
 },
 {
 "pmid": "42684874",
@@ -3702,7 +3904,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42684874/",
-"impactScore": 22
+"impactScore": 21
 },
 {
 "pmid": "42684873",
@@ -3748,7 +3950,7 @@
 "Observational Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42684873/",
-"impactScore": 22
+"impactScore": 21
 },
 {
 "pmid": "42684872",
@@ -3769,7 +3971,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42684872/",
-"impactScore": 22
+"impactScore": 21
 },
 {
 "pmid": "42684871",
@@ -3791,7 +3993,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42684871/",
-"impactScore": 22
+"impactScore": 21
 },
 {
 "pmid": "42684870",
@@ -3818,7 +4020,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42684870/",
-"impactScore": 22
+"impactScore": 21
 },
 {
 "pmid": "42684869",
@@ -3841,7 +4043,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42684869/",
-"impactScore": 22
+"impactScore": 21
 },
 {
 "pmid": "42736586",
@@ -3867,7 +4069,7 @@
 "Published Erratum"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42736586/",
-"impactScore": 21
+"impactScore": 20
 },
 {
 "pmid": "42736571",
@@ -3893,7 +4095,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42736571/",
-"impactScore": 21
+"impactScore": 20
 },
 {
 "pmid": "42736537",
@@ -3919,7 +4121,7 @@
 "Published Erratum"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42736537/",
-"impactScore": 21
+"impactScore": 20
 }
 ]
 }
