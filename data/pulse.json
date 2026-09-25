@@ -1,23 +1,23 @@
 {
-"generatedAt": "2026-09-24T00:12:52.000Z",
+"generatedAt": "2026-09-25T00:15:01.000Z",
 "daysBack": 7,
 "journalCount": 59,
 "stats": {
-"total": 128,
+"total": 124,
 "byType": {
 "meta-analysis": 1,
 "systematic-review": 2,
-"review": 9,
-"letter": 19,
-"editorial": 3,
-"original": 94
+"review": 11,
+"letter": 20,
+"original": 88,
+"editorial": 2
 },
 "byTier": {
-"1": 62,
-"2": 52,
-"3": 14
+"1": 63,
+"2": 45,
+"3": 16
 },
-"topScore": 70,
+"topScore": 69,
 "avgScore": 38
 },
 "articleOfWeek": {
@@ -54,7 +54,7 @@
 "Meta-Analysis"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42097878/",
-"impactScore": 70
+"impactScore": 69
 },
 "articles": [
 {
@@ -91,7 +91,7 @@
 "Meta-Analysis"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42097878/",
-"impactScore": 70
+"impactScore": 69
 },
 {
 "pmid": "42759966",
@@ -124,7 +124,7 @@
 "Systematic Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42759966/",
-"impactScore": 67
+"impactScore": 66
 },
 {
 "pmid": "42309779",
@@ -165,7 +165,7 @@
 "Systematic Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42309779/",
-"impactScore": 67
+"impactScore": 66
 },
 {
 "pmid": "42764103",
@@ -200,7 +200,54 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42764103/",
-"impactScore": 55
+"impactScore": 54
+},
+{
+"pmid": "42778957",
+"title": "The NLRP3 inflammasome in physiological and dysfunctional host response in human sepsis and critical illness: a narrative review.",
+"authors": [
+"Neumann C",
+"Hickl F",
+"Kemnitzer J",
+"Leitner M",
+"Giamarellos-Bourboulis EJ",
+"Rubio I"
+],
+"journal": "Critical care (London, England)",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "review",
+"pubDate": "2026-09-19",
+"abstract": "The NLRP3 inflammasome is a cytosolic multiprotein complex that serves as a key regulator of innate immunity by reacting to pathogen- and damage-associated signals and orchestrating downstream inflammatory responses. Inflammasome activation induces caspase-1-dependent maturation of interleukin (IL)-1β, IL-18 and gasdermin D, which results in pyroptotic cell death. While tightly controlled inflammasome activation is essential for effective host defence and pathogen clearance, accumulating evidence implicates its dysregulation as a central driver of host response imbalance in critical illness. In conditions such as sepsis and acute respiratory distress syndrome, excessive activation contributes to hyperinflammation, endothelial dysfunction, immunothrombosis, and multi-organ failure. Conversely, insufficient or exhausted inflammasome responses may impair microbial clearance and predispose to secondary infections. These observations underscore the context-dependent and temporally dynamic role of inflammasome signalling as being either protective or pathogenic. Emerging therapeutic strategies aim to restore immune homeostasis through targeted modulation of inflammasome pathways, including IL-1 blockade (e.g., anakinra) and inhibition of upstream signalling components. However, clinical translation remains challenging, requiring improved patient stratification, biomarker-guided approaches, and a deeper understanding of disease heterogeneity. Inflammasome signalling plays a highly dynamic role in critical illness, contributing to effective host defence, if functional, or to pathological inflammation, if dysregulated. Although targeted modulation of inflammasome pathways represents a promising therapeutic strategy, further research is needed to refine patient selection, identify reliable biomarkers, and better characterise disease heterogeneity to enable successful clinical translation.",
+"doi": "10.1056/NEJMoa1705835",
+"keywords": [
+"DAMPs (damage-associated molecular patterns)",
+"Hyperinflammation",
+"Immune paralysis",
+"Inflammasome",
+"Interleukin-18 (IL-18)",
+"Interleukin-1β (IL-1β)",
+"NLRP3",
+"PAMPs (pathogen-associated molecular patterns)",
+"Sepsis",
+"Therapeutic targets"
+],
+"meshTerms": [
+"Humans",
+"Sepsis",
+"Inflammasomes",
+"NLR Family, Pyrin Domain-Containing 3 Protein",
+"Critical Illness",
+"Interleukin-18",
+"Immunity, Innate",
+"Interleukin-1beta"
+],
+"pubTypes": [
+"Journal Article",
+"Review"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42778957/",
+"impactScore": 53
 },
 {
 "pmid": "42762987",
@@ -235,7 +282,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42762987/",
-"impactScore": 54
+"impactScore": 53
 },
 {
 "pmid": "42062049",
@@ -275,7 +322,149 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42062049/",
-"impactScore": 53
+"impactScore": 52
+},
+{
+"pmid": "42778956",
+"title": "Eligibility criteria in sepsis-associated AKI trials preferentially exclude patients at risk to develop adverse kidney outcomes.",
+"authors": [
+"Kamdem KV",
+"Vardon F",
+"Silva S",
+"Faguer S"
+],
+"journal": "Critical care (London, England)",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "letter",
+"pubDate": "2026-09-23",
+"abstract": "",
+"doi": "10.1186/s13054-025-05351-5",
+"keywords": [
+"Acute kidney injury",
+"Exclusion criteria",
+"Intensive care",
+"Randomized control trial",
+"Sepsis"
+],
+"meshTerms": [],
+"pubTypes": [
+"Letter"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42778956/",
+"impactScore": 48
+},
+{
+"pmid": "42778343",
+"title": "Alcohol, drugs and self-harm emergencies in a national unscheduled care system: a retrospective observational study.",
+"authors": [
+"Schölin L",
+"McStravick M",
+"Lloyd A",
+"Brett J",
+"Eddleston M",
+"Humphries C"
+],
+"journal": "Emergency medicine journal : EMJ",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-09-23",
+"abstract": "Alcohol, drugs and self-harm are important public health issues that often coincide with socioeconomic inequalities. While national policy frameworks highlight these as important issues, data describing their prevalence in unscheduled care are lacking. To conduct the first national-level description of the number, demographic characteristics and routes of care involving alcohol, drugs or self-harm emergencies across all unscheduled care services in Scotland. A retrospective cross-sectional study using linked data from all unscheduled care services in Scotland (NHS 24 telephone triage service; primary care out-of-hours; ambulance; emergency department (ED); acute admission and mental health admission). All continuous care episodes (defined as pathways) were analysed and within these, indicators for involvement of alcohol, drugs and/or self-harm were identified from service level 'flags' and clinical codes. Pathways from 1 April 2022 to 31 March 2023 were included. Descriptive analyses of characteristics, exploration of the top 30 most common pathways and top-down pathway-attributable-cost analyses were undertaken. Of 2 721 120 pathways, 2.7% involved alcohol, drugs and/or self-harm-indicating considerable overlaps and complexity of care episodes. In 1.9% of all pathways only one of these indicators was identified. For the top 30 pathways (reflecting 79.0% of pathways involving only one indicator), the most common patient journey was ambulance to ED to acute admission, with an overall directly attributable cost to the National Health Service of approximately £216.9 million. Using current structured data, 1.9% of unscheduled care pathways in Scotland involve alcohol, drugs or self-harm and 2.7% involve one or several of these indicators. Ambulance services and EDs feature in most of these care pathways and are potential settings for intervention. Future work should explore these pathways in greater depth, refine case identification at service level and develop integrated care models within the ED to better serve this patient population and address health inequalities.",
+"doi": "10.1136/emermed-2025-215639",
+"keywords": [
+"acute care",
+"alcohol abuse",
+"emergency departments",
+"self harm"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42778343/",
+"impactScore": 48
+},
+{
+"pmid": "42778041",
+"title": "Multimodal Neuroprognostication After Cardiac Arrest following the 2025 ERC/ESICM recommendations: A Single-Centre Retrospective Study.",
+"authors": [
+"Heritage D",
+"Koo A",
+"Soto CL"
+],
+"journal": "Resuscitation",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "letter",
+"pubDate": "2026-09-23",
+"abstract": "",
+"doi": "10.1016/j.resuscitation.2026.111322",
+"keywords": [],
+"meshTerms": [],
+"pubTypes": [
+"Letter"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42778041/",
+"impactScore": 48
+},
+{
+"pmid": "42777910",
+"title": "Epithelial injury and inflammatory phenotypes for personalized ventilation in ARDS: Secondary analysis of the LIVE trial.",
+"authors": [
+"Pensier J",
+"Renard-Triché L",
+"Theilliere C",
+"Henrioux F",
+"Sapin V",
+"Bouvier D",
+"Godet T",
+"Garnier M",
+"Jaber S",
+"Constantin JM",
+"Futier E",
+"Jabaudon M"
+],
+"journal": "Chest",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-09-23",
+"abstract": "Guidelines recommend against systematic lung recruitment strategies in acute respiratory distress syndrome (ARDS). sRAGE, an alveolar epithelial injury plasmatic biomarker, and inflammatory phenotypes may guide personalized approaches. Does baseline sRAGE or inflammatory phenotype identify heterogeneity in the treatment effect of lung recruitment on mortality in ARDS? This analysis included 259 patients with plasma sRAGE measurements from the original LIVE trial that compared lung recruitment with low-PEEP strategies in patients with focal or non-focal ARDS. Baseline sRAGE was dichotomized at 2,440 pg/mL into high and low groups. Inflammatory phenotypes were identified using a validated parsimonious model (IL-8, sTNFr-1, bicarbonate). The primary and secondary outcomes were 90-day mortality and sRAGE trajectory until day 6. Inverse probability weighting and weighted Cox models were used; sRAGE trajectories were assessed using joint models. High plasma sRAGE (r=0.26, p<0.001), but not the inflammatory phenotype, was moderately correlated with non-focal ARDS. Treatment effect varied by baseline sRAGE (p-for-interaction=0.006), but not by inflammatory phenotype (p-for-interaction=0.56); however, the hyperinflammatory phenotype was associated with 90-day mortality (57% vs 26%, p<0.001). Among high-sRAGE patients, lung recruitment was associated with lower 90-day mortality (HR 0.41, 95%CI 0.18-0.93; p=0.033); among low-sRAGE patients it was associated with higher mortality (HR 3.27, 95%CI, 1.06-10.1; p=0.039). Lung recruitment was associated with different sRAGE slopes compared with low PEEP, with effect modification by baseline sRAGE. Lung recruitment was associated with a steeper decline in sRAGE among patients with high baseline sRAGE (p-for-interaction<0.001), and with a slower decline among patients with low baseline sRAGE (p-for-interaction=0.038). Inflammatory phenotypes did not identify heterogeneity of treatment effect. Sensitivity analyses without inverse probability weighting were directionally consistent. In ARDS, epithelial injury assessed by plasma sRAGE may identify heterogeneity of treatment effect with lung recruitment, whereas inflammatory phenotypes remained prognostic for mortality.",
+"doi": "10.1016/j.chest.2026.08.054",
+"keywords": [
+"Acute respiratory distress syndrome",
+"mechanical ventilation",
+"phenotyping",
+"sRAGE"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42777910/",
+"impactScore": 48
+},
+{
+"pmid": "42777692",
+"title": "Re: A simplified Sequential Organ Failure Assessment score is associated with 30-day trauma mortality: A novel tool for a low-resource practice setting.",
+"authors": [
+"Lassad G"
+],
+"journal": "The journal of trauma and acute care surgery",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-09-23",
+"abstract": "",
+"doi": "10.1097/TA.0000000000005192",
+"keywords": [],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42777692/",
+"impactScore": 48
 },
 {
 "pmid": "42776196",
@@ -299,7 +488,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42776196/",
-"impactScore": 49
+"impactScore": 48
 },
 {
 "pmid": "42771176",
@@ -321,7 +510,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42771176/",
-"impactScore": 49
+"impactScore": 48
 },
 {
 "pmid": "42773480",
@@ -347,7 +536,7 @@
 "Comment"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42773480/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42773466",
@@ -382,7 +571,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42773466/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42771873",
@@ -427,7 +616,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42771873/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42771865",
@@ -457,7 +646,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42771865/",
-"impactScore": 48
+"impactScore": 47
 },
 {
 "pmid": "42768382",
@@ -480,7 +669,7 @@
 "Comment"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42768382/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42768364",
@@ -507,7 +696,7 @@
 "Published Erratum"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42768364/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42767598",
@@ -535,7 +724,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42767598/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42767597",
@@ -564,7 +753,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42767597/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42767596",
@@ -599,7 +788,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42767596/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42767595",
@@ -634,7 +823,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42767595/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42767594",
@@ -667,7 +856,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42767594/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42767593",
@@ -696,7 +885,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42767593/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42767592",
@@ -733,7 +922,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42767592/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42767212",
@@ -762,7 +951,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42767212/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42767210",
@@ -790,7 +979,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42767210/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42766977",
@@ -824,7 +1013,7 @@
 "Published Erratum"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42766977/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42766976",
@@ -865,7 +1054,7 @@
 "Published Erratum"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42766976/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42766975",
@@ -899,7 +1088,7 @@
 "Published Erratum"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42766975/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42766022",
@@ -952,7 +1141,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42766022/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "42765799",
@@ -987,7 +1176,48 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42765799/",
-"impactScore": 47
+"impactScore": 46
+},
+{
+"pmid": "42779475",
+"title": "Defining the \"Critical Casualty\" through Reference-Standard Constructs, Reporting Completeness, and Reproducibility in Mass-Casualty Incident Triage Research: Methodology Scoping Review.",
+"authors": [
+"Aran Ö",
+"Eyison RK",
+"Kılınç D",
+"Genç O",
+"Işık H"
+],
+"journal": "Prehospital and disaster medicine",
+"journalTier": 2,
+"journalSJR": null,
+"articleType": "review",
+"pubDate": "2026-09-24",
+"abstract": "Mass-casualty incident (MCI) triage algorithms are evaluated against reference standards that operationally define the \"critical casualty,\" yet the constructs underlying these standards and the completeness of their reporting have not been systematically characterized. A PRISMA-ScR methodology scoping review was conducted using a pre-registered Open Science Framework (OSF) protocol; MEDLINE, Scopus, Web of Science, and CINAHL were searched on May 5, 2026 for English-language full-text sources that described, derived, validated, or applied a reference standard for distinguishing critical from non-critical casualties in MCI triage. Reference standards were classified using a pre-specified taxonomy, and reporting completeness was assessed with the eight-item Reference Standard Reporting Index for MCI Triage (RSRI-MCI), developed a priori for this review and not externally validated. Two reviewers independently classified and coded all sources. Sixty sources published from 2001 through 2025 were included. Operationalized reference standards clustered around four foundational methodological sources, while only five sources (8%) analyzed retrospective data from actual MCIs. Five reference-standard families were identified: Life-Saving Intervention (LSI)-Based (38%), Composite/Hybrid (30%), Expert Panel (15%), Outcome/Resource (12%), and Anatomic Severity (5%); LSI-Based and Composite constructs together accounted for approximately two-thirds of the field. Reporting was asymmetric: definition (98%), components (97%), and rationale (88%) were reported almost universally, whereas time window (40%), dead/expectant handling (57%), binary mapping (65%), missing-data handling (58%), and reference-standard limitations (58%) were reported less consistently. Inter-rater agreement was substantial overall (83%) and for family classification (93%; Gwet's Chance-Corrected Agreement Coefficient [AC1] = 0.919; 95% CI, 0.837-0.980). Mass-casualty incident triage studies routinely report what their reference standard is but inconsistently report how it is operationalized, particularly its time window. Five reporting recommendations are proposed for future MCI triage validation research.",
+"doi": "10.1017/S1049023X2610908X",
+"keywords": [
+"disaster medicine",
+"life-saving intervention",
+"mass-casualty incident",
+"reference standard",
+"triage"
+],
+"meshTerms": [
+"Triage",
+"Mass Casualty Incidents",
+"Humans",
+"Reproducibility of Results",
+"Reference Standards",
+"Disaster Planning",
+"Algorithms"
+],
+"pubTypes": [
+"Journal Article",
+"Scoping Review",
+"Review"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42779475/",
+"impactScore": 44
 },
 {
 "pmid": "42762986",
@@ -1024,7 +1254,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42762986/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42762985",
@@ -1050,7 +1280,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42762985/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42762984",
@@ -1085,7 +1315,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42762984/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42762983",
@@ -1129,7 +1359,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42762983/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42762982",
@@ -1162,7 +1392,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42762982/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "41997740",
@@ -1186,7 +1416,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/41997740/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "42760539",
@@ -1219,7 +1449,7 @@
 "Published Erratum"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42760539/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42759965",
@@ -1244,7 +1474,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42759965/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42759647",
@@ -1275,7 +1505,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42759647/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42580876",
@@ -1305,7 +1535,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42580876/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42336613",
@@ -1345,7 +1575,7 @@
 "Observational Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42336613/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "42031524",
@@ -1374,7 +1604,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42031524/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "41730669",
@@ -1400,7 +1630,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/41730669/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "41500797",
@@ -1425,7 +1655,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/41500797/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "41475794",
@@ -1464,7 +1694,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/41475794/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "41276288",
@@ -1512,7 +1742,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/41276288/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "40730461",
@@ -1562,7 +1792,36 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/40730461/",
-"impactScore": 44
+"impactScore": 43
+},
+{
+"pmid": "42777313",
+"title": "Emergency department utilization and outcomes among patients with Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS) syndrome.",
+"authors": [
+"Razi S",
+"Javaid K",
+"Pathak GN",
+"Morgan A",
+"Rao B"
+],
+"journal": "The American journal of emergency medicine",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-09-17",
+"abstract": "Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS) syndrome is a rare but potentially life threatening condition, with many patients presenting to the emergency department (ED) for initial symptoms. However, data describing ED utilization and outcomes remains limited. A retrospective analysis of the Nationwide Emergency Department Sample (NEDS) database. 2020-2022 was conducted for all visits for \"DRESS\" and compared to all non-DRESS cohorts. Clinical parameters including length of stay (LOS), mortality, discharge quarter, and hospital charges were evaluated. We found that DRESS hospitalizations are associated with higher LOS and total hospital charges than non-DRESS groups, underscoring high disease burden and complexity of multi-organ conditions. Compared with controls, patients with DRESS were significantly more likely to present with comorbidities such as acute kidney injury (33.85% vs 4.15%) and electrolyte abnormalities (40.93% vs 7.64%). These findings highlight how early recognition and intervention of DRESS, including discontinuation of the offending agent and laboratory monitoring, is critical to assess organ functional status. Implementing these measures may help mitigate disease progression, thereby reducing LOS and costs.",
+"doi": "10.1016/j.ajem.2026.09.031",
+"keywords": [
+"DRESS",
+"Emergency department",
+"NEDS"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42777313/",
+"impactScore": 42
 },
 {
 "pmid": "42754390",
@@ -1590,7 +1849,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42754390/",
-"impactScore": 43
+"impactScore": 42
 },
 {
 "pmid": "42754389",
@@ -1619,7 +1878,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42754389/",
-"impactScore": 43
+"impactScore": 42
 },
 {
 "pmid": "42754388",
@@ -1652,7 +1911,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42754388/",
-"impactScore": 43
+"impactScore": 42
 },
 {
 "pmid": "42754387",
@@ -1680,7 +1939,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42754387/",
-"impactScore": 43
+"impactScore": 42
 },
 {
 "pmid": "42754386",
@@ -1702,7 +1961,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42754386/",
-"impactScore": 43
+"impactScore": 42
 },
 {
 "pmid": "42753859",
@@ -1724,7 +1983,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42753859/",
-"impactScore": 43
+"impactScore": 42
 },
 {
 "pmid": "42753858",
@@ -1749,7 +2008,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42753858/",
-"impactScore": 43
+"impactScore": 42
 },
 {
 "pmid": "42752610",
@@ -1778,7 +2037,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42752610/",
-"impactScore": 43
+"impactScore": 42
 },
 {
 "pmid": "42752598",
@@ -1806,7 +2065,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42752598/",
-"impactScore": 43
+"impactScore": 42
 },
 {
 "pmid": "42752565",
@@ -1839,7 +2098,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42752565/",
-"impactScore": 43
+"impactScore": 42
 },
 {
 "pmid": "42752385",
@@ -1883,171 +2142,6 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42752385/",
-"impactScore": 43
-},
-{
-"pmid": "42749042",
-"title": "Beyond the Shock: Cerebral Oximetry as a Window Into Resuscitation Physiology.",
-"authors": [
-"Cheskes S"
-],
-"journal": "Resuscitation",
-"journalTier": 1,
-"journalSJR": null,
-"articleType": "editorial",
-"pubDate": "2026-09-16",
-"abstract": "",
-"doi": "10.1016/j.resuscitation.2026.111312",
-"keywords": [],
-"meshTerms": [],
-"pubTypes": [
-"Editorial"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42749042/",
-"impactScore": 43
-},
-{
-"pmid": "42771920",
-"title": "Contrast agent substitution or corticosteroid premedication: association with emergency department throughput.",
-"authors": [
-"Sertic M",
-"Johnston H",
-"Dempsey PJ",
-"Glazer DI"
-],
-"journal": "The American journal of emergency medicine",
-"journalTier": 1,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-09-16",
-"abstract": "To compare the operational efficiency of contrast agent substitution versus corticosteroid premedication in emergency department (ED) patients with prior mild allergic-like reactions to iodinated contrast media. A retrospective study was performed 6/3/24-1/29/26 in EDs at two academic medical centers. Adult patients undergoing contrast-enhanced CT with a prior allergic-like reaction to iodinated contrast were included. Patients underwent either contrast agent substitution without corticosteroid premedication (if the agent inciting the index reaction was known) or standard corticosteroid premedication (if the agent inciting the index reaction was unknown) per institutional protocols. The primary outcomes were time from CT order entry to examination start and from order entry to ED discharge. Secondary outcome was breakthrough reaction rate in the contrast agent substitution group. 63 patients underwent contrast agent substitution and 727 patients were premedicated with corticosteroids (696 with a 5-h premedication regimen and 31 with a 13-h premedication regimen). Time from CT order entry to examination performance was 4.28 h faster when contrast agent substitution was utilized compared to corticosteroid premedication (95% confidence interval [CI]: 3.85-4.72 h). Time to ED discharge was also almost 4 h shorter (3.97 h, 95% CI: 2.72-5.30 h). Among the 63 patients who underwent contrast agent substitution, there were no breakthrough allergic-like reactions (95% CI: 0.0-5.7%). Contrast agent substitution was associated with reduced time to imaging and ED discharge compared to corticosteroid premedication. No breakthrough reactions were observed in the substitution group although the study was not designed to compare management strategies.",
-"doi": "10.1016/j.ajem.2026.09.009",
-"keywords": [
-"Contrast allergy",
-"Contrast substitution",
-"Corticosteroid premedication"
-],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42771920/",
-"impactScore": 42
-},
-{
-"pmid": "42754897",
-"title": "Personalised energy targeting during venovenous ECMO: serial assessment of resting energy expenditure reveals phase-dependent metabolic demand and systematic discordance with predictive equations.",
-"authors": [
-"Wilke SK",
-"Behnel N",
-"Weber-Carstens S",
-"Edel A",
-"Müller M",
-"Mahlau A",
-"Falk R",
-"Ruß M",
-"Wollersheim T"
-],
-"journal": "Critical care (London, England)",
-"journalTier": 1,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-09-16",
-"abstract": "In patients receiving extracorporeal membrane oxygenation (ECMO), metabolic demand varies dynamically across the disease course, while conventional indirect calorimetry in ECMO patients underestimates measured energy expenditure (measured EE) because a substantial proportion of gas exchange occurs across the membrane lung. Specialised protocols can overcome this limitation and measure EE directly during ECMO. However, no adult study has yet compared serial measured EE measurements with concurrent energy intake to assess feeding equipoise or to quantify the temporal variability that personalised nutrition must address. Post-hoc analysis of prospectively collected data from 9 adult patients receiving venovenous ECMO for acute respiratory distress syndrome at Charité - Universitätsmedizin Berlin. Measured-EE was assessed using the MEEP protocol (75 valid measurements). Feeding equipoise was assessed as the ratio of actual energy intake to measured EE (equipoise: 80-110%). Discordance analysis compared measurement-based classification with hypothetical ESPEN-guided nutrition (25 kcal/kg/day) using adjusted body weight (primary) and actual body weight (sensitivity analysis). Median measured EE was 1923 kcal/day (interquartile range, 1594-2222). The ECMO circuit accounted for 60.5% ± 18.2% of total gas exchange. Feeding equipoise was achieved on only 30 of 75 measurement days (40%); patients were overfed on 44% and underfed on 16%. ESPEN 25 kcal/kg/day with adjusted body weight misclassified feeding equipoise on 55% of days (concordance 45%); actual body weight yielded concordance of 49%. The respiratory quotient (0.908 ± 0.131) did not correlate with the feeding ratio (ρ = 0.024). Both actual feeding practice and standard predictive equations failed to match measured energy requirements regardless of body weight choice. The substantial intra-individual measured EE variability and the progressive decline in extracorporeal gas exchange contribution support a phase-specific, personalised approach guided by serial assessment of measured EE rather than static weight-based targets.",
-"doi": "10.1186/s13054-026-06123-5",
-"keywords": [
-"Calorimetry, Indirect",
-"Critical care",
-"Energy metabolism",
-"Extracorporeal membrane oxygenation",
-"Nutritional status"
-],
-"meshTerms": [
-"Humans",
-"Extracorporeal Membrane Oxygenation",
-"Energy Metabolism",
-"Female",
-"Male",
-"Prospective Studies",
-"Middle Aged",
-"Adult",
-"Calorimetry, Indirect",
-"Energy Intake",
-"Germany",
-"Basal Metabolism"
-],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42754897/",
-"impactScore": 42
-},
-{
-"pmid": "42750058",
-"title": "Rate control in septic shock-associated atrial fibrillation: flow, not heart rate alone, should define haemodynamic success.",
-"authors": [
-"Chalkias A"
-],
-"journal": "Critical care (London, England)",
-"journalTier": 1,
-"journalSJR": null,
-"articleType": "letter",
-"pubDate": "2026-09-16",
-"abstract": "",
-"doi": "10.1002/cph4.70176",
-"keywords": [],
-"meshTerms": [],
-"pubTypes": [
-"Letter",
-"Comment"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42750058/",
-"impactScore": 42
-},
-{
-"pmid": "42748345",
-"title": "Perioperative management and multidisciplinary protocols for enteral access in progressive neuromuscular disease.",
-"authors": [
-"Villarreal JA",
-"Lorenzo J",
-"Forrester JD"
-],
-"journal": "The journal of trauma and acute care surgery",
-"journalTier": 1,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-09-16",
-"abstract": "",
-"doi": "10.1097/TA.0000000000005179",
-"keywords": [],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42748345/",
-"impactScore": 42
-},
-{
-"pmid": "42748340",
-"title": "Authors' response to the letter by Milford et al.",
-"authors": [
-"Clements TW",
-"Cotton BA",
-"Van Gent JM"
-],
-"journal": "The journal of trauma and acute care surgery",
-"journalTier": 1,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-09-16",
-"abstract": "",
-"doi": "10.1097/TA.0000000000005037",
-"keywords": [],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42748340/",
 "impactScore": 42
 },
 {
@@ -2077,7 +2171,120 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42753094/",
-"impactScore": 38
+"impactScore": 37
+},
+{
+"pmid": "42779550",
+"title": "Focused transthoracic echocardiography in acute pulmonary embolism: a systematic review and meta-analysis of diagnostic accuracy.",
+"authors": [
+"Mani N",
+"Morris E",
+"Tahvili A"
+],
+"journal": "European journal of emergency medicine : official journal of the European Society for Emergency Medicine",
+"journalTier": 2,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-09-24",
+"abstract": "Computed tomography pulmonary angiography is the diagnostic gold standard for acute pulmonary embolism, but delays and radiation risks necessitate rapid bedside alternatives. To evaluate the diagnostic accuracy of isolated point-of-care focused echocardiography and a combined approach of focused echocardiography and lower limb deep vein ultrasound for suspected acute pulmonary embolism. Systematic review and meta-analysis. Adult patients presenting to acute healthcare settings with suspected acute pulmonary embolism. Specific morphological signs [dilated right ventricle (RV), tricuspid annular plane systolic excursion] and highly specific functional signs [McConnell's sign, the 60/60 sign, abnormal interventricular motion, RV outflow tract early systolic notching (ESN), and clot-in-transit] assessed via isolated focused echocardiography, alongside a combined echocardiography and deep vein ultrasound strategy. Bivariate random-effects meta-analysis to determine pooled sensitivity and specificity. Thirty-three studies (3981 patients) were included. Isolated focused echocardiography signs demonstrated poor sensitivities (0.03-0.65) but high specificities, including McConnell's sign (0.98), the 60/60 sign (0.93), and RV outflow tract ESN (0.98). The combined echocardiography and deep vein ultrasound approach yielded a pooled sensitivity of 0.62 and a pooled specificity of 0.98. In this meta-analysis, isolated focused echocardiography signs demonstrated a reportedly low sensitivity but high specificity for the diagnosis of acute pulmonary embolism. Integrating lower limb deep vein ultrasound improves diagnostic sensitivity, though definitive exclusion still requires computed tomography.",
+"doi": "10.1097/MEJ.0000000000001378",
+"keywords": [
+"deep vein thrombosis",
+"echocardiography",
+"focused cardiac ultrasound",
+"point-of-care ultrasound",
+"pulmonary embolism",
+"ultrasonography",
+"ultrasound"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42779550/",
+"impactScore": 35
+},
+{
+"pmid": "42779261",
+"title": "Clinical and Laboratory Findings When Pediatric Male Sexual Assault Survivors Present to the Emergency Department.",
+"authors": [
+"Donaruma-Kwoh MM",
+"Thorn E",
+"Vigil C",
+"Cruz AT"
+],
+"journal": "Pediatric emergency care",
+"journalTier": 2,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-09-24",
+"abstract": "The child sexual abuse (CSA) literature demonstrates that the majority of female pediatric survivors present with normal, uninjured, and uninfected anogenital examinations, yet the clinical presentation of male survivors remains underexplored. This study describes the history, clinical presentation, and medical examination findings of boys and male adolescents presenting to a large urban children's hospital emergency department (ED) seeking care for sexual assault. A retrospective cross-sectional chart review was conducted for male patients aged 0-18 years who presented to an urban pediatric ED following a chief complaint of CSA or acute sexual assault between October 2019 and March 2024. Data extracted included patient demographics, history of the present illness, elapsed time to evaluation, and documented anogenital examination and laboratory findings. A total of 92 male patients with 93 system encounters met the inclusion criteria. The median age at presentation was 12.9 years. Like patterns for female counterparts, male sexual abuse survivors evaluated in the ED manifested only rare physical trauma or acute infection. Normal healthy anatomy was documented in 93% of patients who allowed physical examinations. Acute physical injury or positive laboratory findings were identified in only 7% and 3% of tested cases, respectively. Male pediatric CSA survivors evaluated in the ED rarely manifest anogenital trauma or acute infection upon medical examination. These findings align closely with established female pediatric cohorts and emphasize that a lack of physical or laboratory findings should be anticipated in both male and female pediatric patients disclosing sexual abuse in an acute care setting.",
+"doi": "10.1097/PEC.0000000000003714",
+"keywords": [
+"boys",
+"child sexual abuse",
+"male adolescents",
+"sexual abuse exam"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42779261/",
+"impactScore": 35
+},
+{
+"pmid": "42778953",
+"title": "Daily emergency department volume and in-hospital mortality: the importance of temporal alignment.",
+"authors": [
+"Gültekin M"
+],
+"journal": "Scandinavian journal of trauma, resuscitation and emergency medicine",
+"journalTier": 2,
+"journalSJR": null,
+"articleType": "letter",
+"pubDate": "2026-09-23",
+"abstract": "",
+"doi": "10.1016/j.annemergmed.2019.11.009",
+"keywords": [],
+"meshTerms": [],
+"pubTypes": [
+"Letter"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42778953/",
+"impactScore": 34
+},
+{
+"pmid": "42778865",
+"title": "Atrial fibrillation and atrial flutter in China: trends and projections to 2050 from GBD 2023.",
+"authors": [
+"Wu R",
+"Zhou Z",
+"Sun B",
+"Li J",
+"Yu L",
+"Wang H"
+],
+"journal": "Internal and emergency medicine",
+"journalTier": 2,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-09-23",
+"abstract": "Atrial fibrillation and atrial flutter (AF/AFL) impose a mounting health burden worldwide, yet no comprehensive study has systematically evaluated their long‑term trajectories and future scenarios for China using the latest Global Burden of Disease (GBD) data. Using the GBD 2023 dataset, we extracted age- and sex-specific burden estimates of AF/AFL for China (1990-2023). Joinpoint regression, age-period-cohort modeling, decomposition analysis, frontier analysis, and autoregressive integrated moving average (ARIMA) forecasting were applied to characterize historical dynamics and future trajectories. In 2023, China had 12.39 million prevalent cases, 1.06 million incident cases, 65,008 deaths, and 1.75 million disability‑adjusted life years (DALYs). Males had higher age‑standardized prevalence rate (ASPR) (614.89 vs. 472.17) and age‑standardized incidence rate (ASIR) (49.22 vs. 43.00), while females had higher age‑standardized mortality rate (ASMR) (3.69 vs. 2.52) per 100,000. The age‑standardized DALY rate (ASDR) was slightly higher in males (79.24) than in females (77.34) per 100,000. The mortality rate, which fell substantially during 1998-2004 (annual percentage change [APC]: - 5.46; 95% confidence interval [CI]: - 6.28 to - 4.64), unexpectedly reversed to a sharp rise after 2020 (APC: 3.91; 95% CI: 2.23 to 5.62). Decomposition analysis identified population aging and demographic growth as the predominant drivers of the increasing burden. Frontier analysis revealed a persistent gap between observed burden and achievable benchmarks. ARIMA models project the burden will remain substantial through 2050, with sustained nonfatal morbidity. China's AF/AFL burden more than doubled from 1990 to 2023, driven by aging and population growth. The post-2020 mortality reversal and persistently high nonfatal burden highlight the urgent need for age- and sex-tailored prevention, early detection, and enhanced chronic care strategies.",
+"doi": "10.1093/europace/euaf149",
+"keywords": [
+"Atrial fibrillation",
+"Atrial flutter",
+"China",
+"Disease burden",
+"GBD 2023"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42778865/",
+"impactScore": 34
 },
 {
 "pmid": "42776990",
@@ -2105,7 +2312,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42776990/",
-"impactScore": 35
+"impactScore": 34
 },
 {
 "pmid": "42776976",
@@ -2126,7 +2333,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42776976/",
-"impactScore": 35
+"impactScore": 34
 },
 {
 "pmid": "42776263",
@@ -2173,7 +2380,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42776263/",
-"impactScore": 35
+"impactScore": 34
 },
 {
 "pmid": "42776248",
@@ -2216,7 +2423,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42776248/",
-"impactScore": 35
+"impactScore": 34
 },
 {
 "pmid": "42776226",
@@ -2261,7 +2468,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42776226/",
-"impactScore": 35
+"impactScore": 34
 },
 {
 "pmid": "42773893",
@@ -2296,7 +2503,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42773893/",
-"impactScore": 35
+"impactScore": 34
 },
 {
 "pmid": "42773063",
@@ -2326,7 +2533,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42773063/",
-"impactScore": 34
+"impactScore": 33
 },
 {
 "pmid": "42771121",
@@ -2348,7 +2555,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42771121/",
-"impactScore": 34
+"impactScore": 33
 },
 {
 "pmid": "42771002",
@@ -2379,7 +2586,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42771002/",
-"impactScore": 34
+"impactScore": 33
 },
 {
 "pmid": "42770634",
@@ -2409,7 +2616,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42770634/",
-"impactScore": 34
+"impactScore": 33
 },
 {
 "pmid": "42768861",
@@ -2451,7 +2658,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42768861/",
-"impactScore": 34
+"impactScore": 33
 },
 {
 "pmid": "42773496",
@@ -2485,7 +2692,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42773496/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42768365",
@@ -2508,7 +2715,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42768365/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42768273",
@@ -2536,7 +2743,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42768273/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42766494",
@@ -2575,7 +2782,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42766494/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42766277",
@@ -2605,7 +2812,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42766277/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42764761",
@@ -2634,7 +2841,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42764761/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42742186",
@@ -2659,7 +2866,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42742186/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "42773409",
@@ -2688,7 +2895,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42773409/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42764326",
@@ -2718,7 +2925,42 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42764326/",
-"impactScore": 32
+"impactScore": 31
+},
+{
+"pmid": "42778445",
+"title": "An evaluation of the variability in the number of high-level trauma centers per million people across the United States.",
+"authors": [
+"York WY",
+"Wohl RB",
+"Moore EE",
+"Ahn J",
+"Schenker ML",
+"Parry JA"
+],
+"journal": "Injury",
+"journalTier": 2,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-09-19",
+"abstract": "The number of High-Level Trauma Centers (HLTCs) (Level I or II) per million people across the United States (US) is variable. The purpose of this study was to describe that variability and to determine if it was correlated with state characteristics. A cross-sectional study of the US was performed utilizing census data. The number of HLTCs per million people in each state was calculated. The correlation between the number of HLTCs per million and the following variables was evaluated for: population density, black and white race, land area, median household income, employment rate, uninsured rate, poverty rate, and public health insurance coverage rate. All fifty states were included. The median number of HLTCs per million was 1.58 (IQR 1.14-2.45) and ranged from 0.47 in New Mexico to 6.28 in North Dakota. The median ratio of level 1 to level 2 trauma centers located in each area was 0.51 (IQR 0.25-1.0) and ranged from 0.0 to 4.0. HLTCs per million was positively correlated with white race (R=0.41, p = 0.002) and employment rate (R=0.32, p = 0.02) and negatively correlated with population density (R=-0.31, p = 0.02) and black race (R=-0.37, p = 0.008). No statistically significant correlations were observed between HLTCs per million and land area, median household income, uninsured rate, poverty rate, disability rate, or public health insurance coverage rate (p > 0.05). The number of HLTCs per million across the United States varied widely and was positively correlated with white race and employment rate and negatively correlated with black race and population density.",
+"doi": "10.1016/j.injury.2026.113723",
+"keywords": [
+"Disparities",
+"High-level trauma center",
+"Level I",
+"Level II",
+"Per million",
+"Population",
+"Proliferation",
+"States"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42778445/",
+"impactScore": 30
 },
 {
 "pmid": "42773003",
@@ -2751,7 +2993,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42773003/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42762372",
@@ -2774,7 +3016,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42762372/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42762371",
@@ -2799,7 +3041,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42762371/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "42758640",
@@ -2843,7 +3085,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42758640/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42758524",
@@ -2873,7 +3115,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42758524/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42758262",
@@ -2905,7 +3147,7 @@
 "Published Erratum"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42758262/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42758042",
@@ -2933,7 +3175,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42758042/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42757870",
@@ -2963,7 +3205,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42757870/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42757863",
@@ -2994,7 +3236,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42757863/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42755255",
@@ -3025,7 +3267,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42755255/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "42754829",
@@ -3062,7 +3304,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42754829/",
-"impactScore": 29
+"impactScore": 28
 },
 {
 "pmid": "42754365",
@@ -3095,7 +3337,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42754365/",
-"impactScore": 29
+"impactScore": 28
 },
 {
 "pmid": "42753095",
@@ -3118,7 +3360,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42753095/",
-"impactScore": 29
+"impactScore": 28
 },
 {
 "pmid": "42752941",
@@ -3162,7 +3404,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42752941/",
-"impactScore": 29
+"impactScore": 28
 },
 {
 "pmid": "42752926",
@@ -3203,7 +3445,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42752926/",
-"impactScore": 29
+"impactScore": 28
 },
 {
 "pmid": "42752339",
@@ -3230,7 +3472,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42752339/",
-"impactScore": 29
+"impactScore": 28
 },
 {
 "pmid": "42752311",
@@ -3267,7 +3509,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42752311/",
-"impactScore": 29
+"impactScore": 28
 },
 {
 "pmid": "42752295",
@@ -3300,7 +3542,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42752295/",
-"impactScore": 29
+"impactScore": 28
 },
 {
 "pmid": "42752252",
@@ -3328,7 +3570,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42752252/",
-"impactScore": 29
+"impactScore": 28
 },
 {
 "pmid": "42750413",
@@ -3366,7 +3608,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42750413/",
-"impactScore": 29
+"impactScore": 28
 },
 {
 "pmid": "42749989",
@@ -3394,7 +3636,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42749989/",
-"impactScore": 29
+"impactScore": 28
 },
 {
 "pmid": "42749954",
@@ -3425,398 +3667,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42749954/",
-"impactScore": 28
-},
-{
-"pmid": "42753348",
-"title": "What is the best pin care for external fixation pins?",
-"authors": [
-"Elaschuk C",
-"Nikpay A",
-"Buckley R"
-],
-"journal": "Injury",
-"journalTier": 2,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-09-16",
-"abstract": "",
-"doi": "10.1016/j.injury.2026.113716",
-"keywords": [],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42753348/",
-"impactScore": 28
-},
-{
-"pmid": "42748497",
-"title": "Predictors of Early Failure in an Epley-First Approach for Posterior Canal Benign Paroxysmal Positional Vertigo in the Emergency Department.",
-"authors": [
-"Kamiloğlu M",
-"Karabulut KU",
-"Karagöz SA"
-],
-"journal": "The Journal of emergency medicine",
-"journalTier": 2,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-09-16",
-"abstract": "Benign paroxysmal positional vertigo (BPPV) is a common cause of dizziness in the emergency department (ED), yet bedside diagnostic and therapeutic maneuvers remain underused, often leading to unnecessary imaging and resource utilization. To evaluate the effectiveness of an Epley-first approach and identify predictors of early treatment failure in patients with posterior canal BPPV. In this retrospective observational study, 774 adult ED patients with posterior canal BPPV were managed with the Epley maneuver as the initial treatment strategy. Early treatment success was defined as symptom resolution without the need for additional intervention within 60 min. Logistic regression analysis was performed to identify independent predictors of treatment failure. Early symptom resolution was achieved in 81.8% of patients, while 18.2% required additional interventions. Patients with treatment failure were significantly older and had longer symptom duration (both p < 0.001). In multivariable analysis, age (OR: 1.06, 95% CI: 1.04-1.08, p < 0.001) and symptom duration (OR: 1.03 per minute, 95% CI: 1.02-1.03, p < 0.001) were identified as independent predictors of failure. The predictive model demonstrated strong discriminative performance (AUC: 0.876). No newly identified focal neurological deficits suggestive of an acute central neurological disorder were documented during ED evaluation. The Epley-first approach was associated with rapid early symptom control in appropriately selected patients with posterior canal BPPV presenting to the ED. Age and symptom duration may facilitate early risk stratification and support more individualized diagnostic decision-making in appropriately selected patients.",
-"doi": "10.1016/j.jemermed.2026.08.016",
-"keywords": [
-"Epley maneuver",
-"benign paroxysmal positional vertigo",
-"emergency department",
-"risk factors",
-"treatment failure"
-],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42748497/",
-"impactScore": 28
-},
-{
-"pmid": "42748287",
-"title": "Prehospital Whole Blood Transfusion During Medically Directed Rescue of an Entrapped Trauma Patient: A Case Report.",
-"authors": [
-"Wilhelm K",
-"Warren J",
-"Kashani S",
-"Kazan C",
-"Goolsby C",
-"Singer G",
-"Alexander S",
-"Deane M",
-"Putnam B",
-"Rangwala R",
-"Banjo E",
-"Bosson N"
-],
-"journal": "Prehospital emergency care",
-"journalTier": 2,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-09-16",
-"abstract": "Prehospital blood programs and Hospital Emergency Response Teams (HERT) have independently emerged to address critical gaps in early trauma care, particularly when rapid transport is not feasible. We describe a case demonstrating coordinated use of these capabilities during a prolonged and complex medically directed rescue. A multi-agency response, involving a fire-based paramedic unit with prehospital blood capability, an Urban Search and Rescue (US&R) team, and a HERT for physician-level on scene care, managed an entrapped patient following a major motor vehicle collision. Prolonged extrication necessitated extended field care, including advanced airway management, finger thoracostomies, and multiple units of O-positive low-titer group O whole blood (O-positive LTOWB) to treat hemorrhagic shock in the prehospital setting . This case demonstrates that coordinated integration of prehospital blood programs can enhance medically directed rescues of patients with prolonged entrapment. Notably, the blood units deployed with the HERT were supplied through the regional prehospital blood transfusion program and redistributed to the trauma center prior to the response, demonstrating bidirectional integration of blood resources across prehospital and hospital systems.",
-"doi": "10.1080/10903127.2026.2727591",
-"keywords": [],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42748287/",
-"impactScore": 28
-},
-{
-"pmid": "42748282",
-"title": "Management of Patients with Medetomidine Withdrawal During Interfacility Transfer.",
-"authors": [
-"Kenney JK",
-"Lynch MJ",
-"Pizon AF",
-"Martin-Gill C"
-],
-"journal": "Prehospital emergency care",
-"journalTier": 2,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-09-16",
-"abstract": "Alpha-2 agonists including medetomidine are becoming increasingly prevalent as adulterants in the United States opioid supply. Complicated withdrawal following use of these agents is characterized by severe symptoms including agitation and nausea, often requiring treatment with high-dose dexmedetomidine infusion and transfer between community emergency departments and tertiary critical care units. We aimed to describe interventions and outcomes of patients undergoing interfacility transport while receiving a dexmedetomidine infusion for medetomidine withdrawal to inform safe transfer practices for this patient population. We performed a retrospective observational cohort study of consecutive non-intubated patients receiving dexmedetomidine infusion for management of suspected medetomidine withdrawal transported by a regional critical care transport agency between March 2024 and February 2026. We identified clinical characteristics, characterized withdrawal symptoms, and identified the incidence of and indications for supplemental medical therapy provided during transport. We also identified the prevalence of hemodynamic instability, hypoxia, or need for advanced airway interventions. Among the 100 patients receiving dexmedetomidine infusion for suspected medetomidine withdrawal, most experienced agitation (53%), nausea/vomiting (58%), tachycardia/bradycardia (62%), or hypertension (71%) upon or prior to crew arrival. During transport, 10% of patients received dexmedetomidine titration, 12% received additional antiemetics, 9% received sedatives, and 1% received vasoactive infusion for hypotension. No patients received additional sedative infusions. Many patients exhibited hypertension (systolic blood pressure [SBP] > 140 mmHg; 78%) or profound hypertension (SBP >180 mmHg or diastolic BP >110 mmHg; 39%). Patients also experienced tachycardia (heart rate [HR] > 120; 35%), bradycardia (HR <50; 6%), or hypotension (SBP <90 mmHg; 6%). Only 3% of patients experienced hypoxia (SpO2 < 90%), or were treated with supplemental oxygen, and no patients required advanced airway management. Patients undergoing transport while receiving dexmedetomidine infusion for suspected medetomidine withdrawal were commonly hypertensive and rarely hypoxic. While some patients required additional antiemetic or sedative medications, no patients required alternate sedative infusions, most remained stable on the dexmedetomidine infusion, and need for vasopressors was very rare. Early symptom recognition and pharmacologic alpha-2 agonism are likely key in prehospital management of this toxidrome, which can safely be continued during interfacility transport.",
-"doi": "10.1080/10903127.2026.2728131",
-"keywords": [],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42748282/",
-"impactScore": 28
-},
-{
-"pmid": "42748279",
-"title": "Medical Management of Aortic Emergencies in Critical Care Transport.",
-"authors": [
-"George NH",
-"Guyette FX",
-"Ramgopal S",
-"Liang NL",
-"Martin-Gill C"
-],
-"journal": "Prehospital emergency care",
-"journalTier": 2,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-09-16",
-"abstract": "Aortic emergencies (e.g., dissection or aneurysm; AE) are life-threatening events commonly encountered in critical care transport. Guidelines recommend beta-blockers to control heart rate (HR), with calcium channel blockers added for systolic blood pressure (SBP) control or as an alternative. There is little human data to support either strategy or to document adverse events. We aimed to determine the frequency with which medications commonly used to treat AE reach guideline-recommended hemodynamic targets and characterize adverse events during critical care transport (CCT). We performed an observational study design and retrospective cohort analysis of patients ≥18 years old with an AE undergoing CCT between 2003-2024. We included patients who received esmolol, nicardipine, labetalol, or combinations. We evaluated the primary outcome of target HR (60-80 bpm) or SBP (90-120 mmHg) with multivariable logistic regression controlling for age, sex, weight, year, and prior vasoactive medications. Secondary outcomes included hypotension (SBP <90 mmHg), bradycardia (HR <50 bpm), tachycardia (HR >100 bpm), and vasopressor support or cardiac arrest. We included 1,530 AE encounters, of which 792 (51.8%) received nicardipine, 236 (15.4%) esmolol, 194 (12.7%) labetalol, 163 (10.7%) esmolol and nicardipine, and 145 (9.5%) labetalol and nicardipine. Compared to esmolol alone, all other treatment strategies had a similar likelihood of achieving target HR or SBP goals. Patients receiving labetalol alone had the lowest incidence of hypotension (2.1% [0.1-4.1%]) and combined esmolol/nicardipine had the lowest incidence of tachycardia (11.0% [6.2-15.9%]). Esmolol compared to nicardipine alone had similar rates of tachycardia (19.1% [14.1-24.1%] versus 25.3% [22.2-28.3%], respectively), while esmolol had the highest incidence of hypotension (9.3% [5.6-13.0%]). We observed a similar odds of achieving HR and SBP targets regardless of medication used in a large sample of patients with aortic emergencies. While a combination of beta and calcium channel blockers may be optimal medical therapy, treatment with esmolol, labetalol, or nicardipine as single agents may be reasonable to achieve HR and SBP goals.",
-"doi": "10.1080/10903127.2026.2728128",
-"keywords": [],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42748279/",
-"impactScore": 28
-},
-{
-"pmid": "42747461",
-"title": "Care gaps in an uninsured population in Germany: insights from open.med Munich.",
-"authors": [
-"Spitznagel N",
-"Varnaccia G",
-"Reinbacher D",
-"Weber A",
-"Hinzmann D"
-],
-"journal": "Medizinische Klinik, Intensivmedizin und Notfallmedizin",
-"journalTier": 2,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-09-16",
-"abstract": "In Germany, people without health insurance face barriers to routine care. open.med Munich provides humanitarian care through Doctors of the World. We retrospectively analyzed pseudonymized 2024 routine data on demographics, insurance/residency, housing, access barriers, diagnoses, and emergency referrals. Emergency referral meant an open.med-initiated referral for emergency-level assessment/intervention. In 2024, 984 patients consented to data use, generating 3738 contacts. Of these, 865 (88%) had no health insurance, 890 (91%) were homeless/in precarious housing, and 407 (42%) were legally excluded from German social/health benefits. Emergency referral was required for 54 (5.5%). Among 949 patients with ≥1 diagnosis, the most frequent ICD-10-GM chapters were symptoms/abnormal findings (R00-R99, 215, 23%), respiratory (J00-J99, 183, 19%), circulatory (I00-I99, 178, 19%), health-status/contact factors (Z00-Z99, 166, 18%), digestive (K00-K93, 158, 17%), musculoskeletal/connective tissue (M00-M99, 158, 17%), infectious/parasitic (A00-B99, 149, 16%), injuries/poisoning (S00-T98, 119, 13%), and mental/behavioral disorders (F00-F99, 126, 13%). Among emergency referrals, injuries/poisoning were most frequent (18, 33%), followed by cardiovascular (7, 13%), respiratory (6, 11%), gastrointestinal (6, 11%), and pregnancy-related complications (5, 9%). Spectrum comprised common conditions. Structurally obstructed routine care may contribute to delayed presentation and emergency referrals. Reform should include coverage clearing, non-punitive referrals, interpreters, and coordination among emergency, social, insurance, and humanitarian services.",
-"doi": "10.1146/annurev-publhealth-032013-182419",
-"keywords": [
-"Health system navigation",
-"Healthcare access barriers",
-"Homelessness",
-"Social exclusion",
-"Undocumented migrants"
-],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42747461/",
-"impactScore": 28
-},
-{
-"pmid": "42747383",
-"title": "Safety and Adverse Event Profile of Procedural Sedation for Pediatric Burn Wound Care: A Single-Center Retrospective Cohort Study.",
-"authors": [
-"Tumberger J",
-"Ganatra H",
-"Burns A",
-"Lauterwasser D",
-"Slater JC",
-"Marquès FP",
-"Langner TR",
-"Sood SB"
-],
-"journal": "Journal of burn care & research : official publication of the American Burn Association",
-"journalTier": 2,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-09-16",
-"abstract": "Procedural sedation is essential for pediatric burn care, yet standardized, evidence-based regimens are lacking. This study characterizes the safety profile and pharmacological predictors of adverse events (AEs) in intensivist-led pediatric burn sedations. We conducted a retrospective cohort study of 626 procedural sedations across 208 pediatric burn patients at a single tertiary pediatric intensive care unit (PICU) from 2016 to 2025. Sedations were evaluated for medication exposure, burn severity, and clinical outcomes. A generalized estimating equation (GEE) logistic regression model, adjusting for patient demographics, burn severity, and repeated encounters, was utilized to identify independent predictors of AEs. The median patient age was 3 years, with a median total body surface area burned of 5%. The overall AE rate was 13.1%, predominantly consisting of transient respiratory events, including oxygen desaturation (9.1%) and airway obstruction (8.1%). There were zero serious AEs, such as unplanned intubations or death. Multi-drug regimens were utilized in 79.9% of encounters. In multivariable analysis, both propofol use (OR 5.10, 95% CI 2.22-11.75, p<0.001) and ketamine use (OR 2.64, 95% CI 1.19-5.89, p=0.018) were independent predictors of AEs, even after adjusting for baseline case complexity and burn severity. Pediatric critical care physician-led procedural sedation for pediatric burn wound care is safe, with zero serious adverse events observed over a 9-year period. While propofol and ketamine are both independently associated with transient respiratory events, propofol exhibits a strict dose-dependent risk whereas ketamine's risk is dose-independent. Both require vigilance, but these predictable risk profiles allow for highly individualized, bedside risk-stratification.",
-"doi": "10.1093/jbcr/irag165",
-"keywords": [
-"Burn Care",
-"Pediatric Intensivist",
-"Procedural Sedation",
-"Propofol"
-],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42747383/",
-"impactScore": 28
-},
-{
-"pmid": "42745505",
-"title": "A Badge-Sized Cognitive Aid and Pediatric Point-of-Care Ultrasound Integration in the Emergency Department.",
-"authors": [
-"Holmes DAS",
-"Harel-Sterling M",
-"Soffer GP",
-"Kvatinsky N",
-"Capua M"
-],
-"journal": "Pediatric emergency care",
-"journalTier": 2,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-09-16",
-"abstract": "Point-of-care ultrasound (POCUS) is widely taught in pediatric emergency medicine, yet achieving confident, independent bedside scanning remains difficult for many trainees. To bridge this gap between knowledge and real-time performance, we evaluated a badge-sized, wearable cognitive aid designed to support learner confidence and POCUS use. We conducted a prospective educational intervention study in a tertiary pediatric emergency department between July 2024 and July 2025. Fellows and trainees received a badge-sized cognitive aid summarizing common pediatric POCUS applications. Self-reported confidence was measured at baseline and one month using 5-point Likert scales, with additional follow-up at 3 and 6 months for fellows. Changes were analyzed using Wilcoxon signed-rank tests with effect sizes calculated using Cohen's d. Secondary outcomes included workflow integration and weekly POCUS use. Forty-seven learners completed baseline surveys; 34 (72%) completed 1-month follow-up. Significant improvements were observed across all confidence domains at one month, including overall confidence (2.54 to 3.40, P<0.001; d=0.81), image acquisition (2.43 to 3.40, P<0.001; d=0.99), image interpretation (2.50 to 3.43, P<0.001; d=0.91), understanding of indications (3.33 to 3.80, P<0.001; d=0.49), and clinical integration (3.07 to 3.94, P<0.001; d=0.88). Improvements were sustained at 3 and 6 months. Self-reported weekly POCUS use increased over time. A badge-sized cognitive aid was associated with sustained improvements in learner confidence and increased POCUS use. Wearable cognitive supports may facilitate independent bedside POCUS integration during clinical training.",
-"doi": "10.1097/PEC.0000000000003708",
-"keywords": [
-"cognitive offloading",
-"fellowship training",
-"just-in-time learning",
-"medical education",
-"pediatric emergency medicine",
-"point-of-care ultrasound"
-],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42745505/",
-"impactScore": 28
-},
-{
-"pmid": "42745493",
-"title": "Diagnostic Utility of the Albumin-to-Globulin Ratio for Kawasaki Disease in Children Presenting to the Emergency Department.",
-"authors": [
-"Lim SY",
-"Choi SJ",
-"Park JS",
-"Han J",
-"Kim D",
-"Chun MK",
-"Lee JY",
-"Lee JS"
-],
-"journal": "Pediatric emergency care",
-"journalTier": 2,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-09-16",
-"abstract": "Early diagnosis of Kawasaki disease (KD) is essential to prevent coronary artery complications but may be challenging in the emergency department (ED), particularly in patients who do not meet the complete clinical criteria. Although hypoalbuminemia is commonly used as a supportive marker, albumin levels may be influenced by various clinical factors. Therefore, we aimed to evaluate the diagnostic performance of the albumin-to-globulin (A/G) ratio in children with prolonged fever presenting to the ED. This retrospective case-control study included pediatric patients who presented to a tertiary ED between January 2022 and July 2023. Children diagnosed with KD were compared with febrile controls (fever ≥5 d) diagnosed with other illnesses. The A/G ratio was calculated as albumin/(total protein - albumin). Receiver operating characteristic curve analysis was performed, and areas under the curve (AUCs) were compared using the DeLong test. A total of 134 children with KD and 141 febrile controls were included. Using a cutoff value of ≤1.0, the A/G ratio demonstrated a sensitivity of 82.1% and was associated with an increased likelihood of KD (OR: 5.06; 95% CI: 2.92-8.79). The A/G ratio showed superior discriminatory performance compared with albumin alone (AUC: 0.691 vs. 0.611; P=0.004). No significant differences in the A/G ratio were observed between complete and incomplete KD. An inverted A/G ratio (≤1.0) demonstrated better diagnostic performance than hypoalbuminemia alone and may serve as a simple adjunctive marker for suspected KD in children with prolonged fever presenting to the ED.",
-"doi": "10.1097/PEC.0000000000003705",
-"keywords": [
-"Kawasaki disease",
-"ROC curve",
-"albumins",
-"emergency medicine",
-"globulins"
-],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42745493/",
-"impactScore": 28
-},
-{
-"pmid": "42745357",
-"title": "The Impact of Tablet-Based Screening on Trichomonas Testing in the Pediatric Emergency Department.",
-"authors": [
-"Stukus KS",
-"Goyal MK",
-"Augustine E",
-"Casper TC",
-"Cruz AT",
-"Elsholz C",
-"Palmer C",
-"Pickett ML",
-"Schmidt SK",
-"Reed JL"
-],
-"journal": "Pediatric emergency care",
-"journalTier": 2,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-09-16",
-"abstract": "Sexually transmitted infections (STIs) are a public health concern for adolescents and young adults, with half of STIs diagnosed annually among 15 to 24-year-olds. Trichomonas vaginalis is a high-prevalence STI, linked with increased risk for HIV and premature births. This was a planned, secondary analysis of a prospective pragmatic clinical effectiveness trial comparing targeted to universally-offered Neisseria gonorrhea and Chlamydia trachomatis (GC/CT) screening. Patients aged 15 to 21 years old across 6 pediatric emergency departments (PEDs) completed tablet-based sexual health surveys. In the universally offered phase, clinician decision support (CDS) fired if participants requested GC/CT testing. In the targeted phase, sexual health risks were stratified and providers were notified of at-risk and high-risk scores. Subsequent testing was per provider discretion. We compared Trichomonas testing rates and used multivariable logistic regression to test for effects of interest. There were 98,413 patients seen across 6 sites; 4191 patients (4.3%) were tested for Trichomonas, with 219 testing positive (5.2%). Patients with CDS firing had 8.1 (aOR, 95% CI: 7.2-9.2) times higher odds of being tested for Trichomonas. Those triggering CDS in the universally-offered phase had 2.4 times higher odds of being tested (aOR, 95% CI: 1.8-3.3) compared with those during the targeted phase. In the targeted testing phase, high-risk patients had higher odds of testing, compared with low-risk patients (aOR: 22.1, 95% CI: 13.9-37.4). CDS alerts for GC/CT testing were associated with higher Trichomonas testing rates. Using an integrated CDS screening tool may increase Trichomonas testing in the PED and should be expanded to identify these infections.",
-"doi": "10.1097/PEC.0000000000003697",
-"keywords": [
-"Trichomonas",
-"clinician decision support",
-"screening",
-"sexually transmitted infections"
-],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42745357/",
-"impactScore": 28
-},
-{
-"pmid": "42745353",
-"title": "Duration of Resuscitation and Survival of Pediatric Traumatic Cardiac Arrest: A Systematic Review of the Literature and Meta-Analysis.",
-"authors": [
-"Erblich R",
-"Knöll M",
-"Wildner B",
-"Jenny D",
-"Noitz M",
-"Eichler B",
-"Mer M",
-"Meier J",
-"Dünser MW"
-],
-"journal": "Pediatric emergency care",
-"journalTier": 2,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-09-16",
-"abstract": "To evaluate the association between resuscitation duration and survival from pediatric traumatic cardiac arrest (TCA). A meta-analysis was conducted. CENTRAL, MEDLINE, and EMBASE were searched from January 1, 2000, to January 31, 2026. Eligible studies included English-language original research involving children (<18 y) undergoing resuscitation for TCA. Thirteen studies were included, comprising 28 survivors, 21 survivors with favorable outcomes, and 281 nonsurvivors or patients with unfavorable outcomes. The pooled mean resuscitation duration was 5.9 (95% CI: 2.5-9.2) minutes among survivors, 7.7 (95% CI: 0.1-17.7) minutes among survivors with favorable outcomes, and 44.8 (95% CI: 33.0-56.6) minutes among nonsurvivors or those with unfavorable outcomes. Resuscitation duration was significantly shorter in survivors than nonsurvivors (P=0.0002) and in patients with favorable versus unfavorable outcomes (P=0.0293). Individual patient data showed that 50% of survivors achieved return of spontaneous circulation (ROSC) within 13 minutes, 77.8% within 23 minutes, 88.9% within 30 minutes, and all survivors within 45 minutes. Among survivors with favorable outcomes, 87.5% achieved ROSC within 30 minutes, and all within 45 minutes. Evidence regarding the association between resuscitation duration and survival after pediatric TCA remains highly limited. Available data suggest that survivors of predominantly blunt pediatric TCA generally achieve ROSC early during resuscitation, with pooled mean resuscitation durations of ~6 minutes in all survivors and 8 minutes in survivors with favorable outcome. Resuscitation efforts in nonsurvivors are continued for a pooled mean duration of ~45 minutes. No survivor was identified after resuscitation >45 minutes.",
-"doi": "10.1097/PEC.0000000000003706",
-"keywords": [
-"cardiac arrest",
-"cardiopulmonary resuscitation",
-"children",
-"favorable outcome",
-"outcome",
-"time",
-"trauma"
-],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42745353/",
-"impactScore": 28
-},
-{
-"pmid": "42745349",
-"title": "Comparing Oscillometric and Manual Mean Arterial Pressure Measurements Among Children in the Emergency Department.",
-"authors": [
-"Diasso-Adamou A",
-"Payan C",
-"Cory D",
-"Ramgopal S"
-],
-"journal": "Pediatric emergency care",
-"journalTier": 2,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-09-16",
-"abstract": "To evaluate agreement among three approaches to mean arterial pressure (MAP) measurement in children. We performed a single-center prospective study of a convenience sample of children (<18 y) presenting to a pediatric emergency department. We compared MAP agreement using the intraclass correlation coefficient (ICC) measured in three ways: calculated via auscultation, calculated from oscillometric systolic and diastolic measurements, and measurement via oscillometry. We included 347 patients (median age 8 y, IQR: 4 to 13). The highest ICC was observed between calculated and device-reported oscillometric MAP measurements (0.83, 95% CI: 0.79-0.86), indicating good agreement. Agreement was poor between manual and device-reported oscillometric MAP (ICC: 0.33, 95% CI: 0.22-0.43) and between manual and calculated oscillometric MAP (ICC: 0.38, 95% CI: 0.20-0.52). The median difference between calculated oscillometric and device-reported oscillometric MAP was 1.0 mm Hg (IQR: 0.0 to 2.3), compared with -3.3 mm Hg (IQR: -8.3 to 2.0) between manual and device-reported oscillometric MAP and -4.0 mm Hg (IQR: -9.3 to 0.3) between manual and calculated oscillometric MAP. Bland-Altman plots suggested that manual MAP measurements were slightly lower than both device-reported oscillometric and calculated oscillometric MAP measurements. Agreement between calculated oscillometric and device-reported oscillometric MAP was highest among children <2 years and lowest among children 12 to <18 years. Agreement involving manual MAP remained poor across most age groups. Similar patterns were observed when stratified by weight and patient state. Calculated oscillometric MAP had good agreement with device-reported oscillometric MAP, while manual MAP had poorer agreement with either oscillometric measure. Further study is needed to determine the clinical implications of these differences across age, weight, and patient-state subgroups.",
-"doi": "10.1097/PEC.0000000000003696",
-"keywords": [
-"blood pressure",
-"mean arterial pressure",
-"oscillometry"
-],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42745349/",
-"impactScore": 28
-},
-{
-"pmid": "42664368",
-"title": "Prehospital Blood Transfusion for Medical Causes of Hemorrhage: A Case Series.",
-"authors": [
-"Cornelius AP",
-"Siegler J",
-"Kroll M",
-"Miller BL",
-"Yang BY",
-"Verna D",
-"Scanlon A",
-"Jarvis J"
-],
-"journal": "Prehospital emergency care",
-"journalTier": 2,
-"journalSJR": null,
-"articleType": "original",
-"pubDate": "2026-09-16",
-"abstract": "Much attention has been given to prehospital blood use for trauma, but evidence is lacking for non-traumatic hemorrhage. Therefore, we sought to evaluate the epidemiology of patients receiving prehospital whole blood for nontraumatic hemorrhage. We conducted a retrospective observational study of patients receiving prehospital blood transfusions for non-traumatic hemorrhagic shock within two fire-based emergency medical services (EMS) systems, between February 20, 2024, and April 23, 2026. Patients were included if blood products were administered for a non-traumatic cause of hemorrhagic shock. Exclusion criteria included cardiac arrest and blood transfusion prior to EMS arrival. Data collected from electronic patient care records included demographics, scene type, blood product administered, operational time intervals, and physiologic parameters. Shock index was calculated at patient-level by dividing heart rate (HR) by systolic blood pressure (SBP) at initial EMS assessment, immediately prior to transfusion, and emergency department (ED) arrival. Of 163 blood transfusions, 50 (30.7%) were administered for non-traumatic hemorrhagic shock. After exclusions, 47 patients were included. Mean age was 66 years, and 55% were male. Gastrointestinal bleeding (GI) was the most common source (49%), followed by unspecified hemorrhagic shock (43%) and obstetric/gynecologic hemorrhage (4.3%). Most encounters occurred in private residences (57%) or rehabilitation/skilled nursing facilities (32%). Mean heart rate decreased from 102 at initial EMS assessment to 96 on ED arrival, while mean systolic blood pressure increased from 83 mmHg to 106 mmHg. Mean shock index decreased from 1.34 to 1.01. Our two-system observational study found just under a third of patients received blood for non-traumatic reasons, with the majority being for GI bleeding. Further work is needed to better understand the impact of blood for medical patients on patient outcomes.",
-"doi": "10.1080/10903127.2026.2726541",
-"keywords": [],
-"meshTerms": [],
-"pubTypes": [
-"Journal Article"
-],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42664368/",
-"impactScore": 28
+"impactScore": 27
 },
 {
 "pmid": "42770032",
@@ -3854,6 +3705,40 @@
 "impactScore": 25
 },
 {
+"pmid": "42778885",
+"title": "Cardiac tamponade caused by effusive-constrictive pericarditis in a patient with common variable immunodeficiency: a case report.",
+"authors": [
+"Khan A",
+"Tahir O",
+"Batool A",
+"Farman J",
+"Javaid MH",
+"Farhaan AR"
+],
+"journal": "International journal of emergency medicine",
+"journalTier": 3,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-09-23",
+"abstract": "Common variable immunodeficiency (CVID) is an immunodeficiency syndrome that is marked by impaired antibody formation and chronic infections. However, it is also associated with immune dysregulation and non-infectious inflammatory disorders. Cardiac involvement is not common, but effusive-constrictive pericarditis (ECP) complicated by cardiac tamponade is rarely seen in CVID patients. A 17-year-old male patient with CVID (diagnosis made in 2022) under regular replacement therapy with monthly intravenous immunoglobulin (IVIG) was admitted due to progressive dyspnea, dry cough, weakness, fatigue, and severe hypoxemia lasting for several days. Previous medical history included frequent lower respiratory tract infections, inflammatory bowel disease, celiac disease, malnutrition, and psoas abscess. Admission examination revealed arterial blood pressure 90/60 mmHg, oxygen saturation 75% in room air, increased jugular venous pressure, dullness in auscultation, pulsus paradoxus, bilateral rales and peripheral edema. Echo showed a 12-15 mm thick pericardial effusion, mobile fibrin-rich mass in pericardium, dilatation of inferior vena cava (23 mm with < 50% collapse), respiratory variation of mitral and tricuspid inflow with septal bounce. Left ventricle ejection fraction was 40%. Pericardiocentesis was done in an emergency manner and 320 ml of turbid serosanguineous effusion with fibrinous clots was drained. Microbiologic investigations of the sample including bacteriological cultures, acid-fast bacilli, mycobacteria, and MTB/RIF showed negative results. There were no malignant cells in cytological and cell-block analysis. After pericardiocentesis, central venous pressure remained elevated and Doppler investigation showed signs of constrictive physiology such as more than 25% variation in mitral inflow, expiratory reverse flow in hepatic veins, plethoric IVC, and septal bounce, which helped to confirm ECP. Ventricular function and constrictive physiology gradually improved after supportive therapy and IVIG and nutrition treatment without pericardiectomy. ECP with tamponade is a rare life-threatening complication in CVID patients. In the case of unexplained cardiopulmonary failure in an immunocompromised patient, tamponade cannot be considered only due to the infection. Urgent echocardiography, drainage, and investigation of various infectious, tuberculous, malignant and inflammatory causes is crucial.",
+"doi": "10.1001/jama.2015.12763",
+"keywords": [
+"Cardiac tamponade",
+"Common variable immunodeficiency",
+"Effusive-constrictive pericarditis",
+"Intravenous immunoglobulin",
+"Pericardial effusion",
+"Pericarditis",
+"Primary immunodeficiency"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42778885/",
+"impactScore": 24
+},
+{
 "pmid": "42768188",
 "title": "Diagnostic accuracy & clinical importance of AI confidence for extremity fracture detection: 2,508-patient retrospective cohort.",
 "authors": [
@@ -3884,7 +3769,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42768188/",
-"impactScore": 24
+"impactScore": 23
 },
 {
 "pmid": "42773414",
@@ -3919,7 +3804,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42773414/",
-"impactScore": 23
+"impactScore": 22
 },
 {
 "pmid": "42764325",
@@ -3950,7 +3835,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42764325/",
-"impactScore": 23
+"impactScore": 22
 },
 {
 "pmid": "42768315",
@@ -3984,7 +3869,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42768315/",
-"impactScore": 21
+"impactScore": 20
 },
 {
 "pmid": "42760493",
@@ -4010,7 +3895,38 @@
 "Comment"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42760493/",
-"impactScore": 21
+"impactScore": 20
+},
+{
+"pmid": "42778893",
+"title": "Aconitine accidental poisoning: two case reports and literature review.",
+"authors": [
+"Zhao Q",
+"Wang L",
+"Zeng F",
+"Jiang XB",
+"Shao YX"
+],
+"journal": "International journal of emergency medicine",
+"journalTier": 3,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-09-18",
+"abstract": "Chinese Herbal Medicine (CHM) is widely integrated into clinical practice across Asia and other regions for disease treatment and health maintenance. Aconitine, a potent diterpenoid alkaloid derived from plants of the Aconitum genus (e.g., Aconitum carmichaelii and Aconitum kusnezoffii), exhibits significant pharmacological activity but also considerable toxicity. While properly processed Aconitum herbs are prescribed for their analgesic and anti-rheumatic properties, inadequate detoxification during processing or improper clinical use can lead to accidental aconitine poisoning. This condition characterized by severe cardiotoxicity and neurotoxicity, which may progress to fatal outcomes. Recently, with the expanding clinical application of traditional medicines globally, the incidence of aconitine poisoning has risen, particularly in Asian populations. We present two cases of aconitine poisoning in middle-aged patients following ingestion of herbal preparations containing aconitine. Both patients developed significant cardiac arrhythmias of varying severity. Clinical management included gastric lavage, catharsis induced by mannitol, gastric mucosal protection, intravenous fluid resuscitation, and hemoperfusion. One patient experienced cardiac arrest and subsequently died after family members elected to withdraw life-sustaining therapy. The second patient was successfully weaned from mechanical ventilation and was eventually discharged following a short-term hospitalization. These cases emphasize the urgent need to enhance the awareness of healthcare professionals and the public regarding the risks of certain traditional Chinese medicines, especially those containing aconitine. Heightening vigilance and promoting their rational use are crucial for improving public health knowledge and preventing similar adverse events.",
+"doi": "10.1001/jama.297.8.894",
+"keywords": [
+"Aconitine poisoning",
+"Arrhythmia",
+"Chinese herbal medicine",
+"Hemoperfusion",
+"Treatment"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/42778893/",
+"impactScore": 19
 },
 {
 "pmid": "42768310",
@@ -4046,7 +3962,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42768310/",
-"impactScore": 20
+"impactScore": 19
 },
 {
 "pmid": "42768308",
@@ -4078,7 +3994,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42768308/",
-"impactScore": 20
+"impactScore": 19
 },
 {
 "pmid": "42754843",
@@ -4108,31 +4024,36 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42754843/",
-"impactScore": 19
+"impactScore": 18
 },
 {
-"pmid": "42750007",
-"title": "Matters arising: expanding the literature base on blunt trauma-induced abdominal wall hernia.",
+"pmid": "42780583",
+"title": "Red Cell Distribution Width to Red Blood Cell Ratio: A Novel Biomarker for Predicting 30-Day Mortality in Type B Acute Aortic Dissection.",
 "authors": [
-"Hajri M",
-"Gharbi L",
-"Hadrich Z"
+"Wang J",
+"Zhou J"
 ],
-"journal": "International journal of emergency medicine",
+"journal": "Emergency medicine international",
 "journalTier": 3,
 "journalSJR": null,
-"articleType": "letter",
-"pubDate": "2026-09-16",
-"abstract": "",
-"doi": "10.1007/s005950050655",
-"keywords": [],
+"articleType": "original",
+"pubDate": "2026-01-01",
+"abstract": "Type B acute aortic dissection (BAAD) is associated with significant morbidity and mortality. Early identification of high-risk patients remains challenging. This study aimed to investigate whether the ratio of red cell distribution width to red blood cell count (RRR) could serve as a novel prognostic biomarker for 30-day mortality in patients with BAAD. This retrospective cohort study enrolled 126 BAAD patients between 2017 and 2019. The primary outcome was 30-day mortality. To mitigate overfitting and identify robust predictors from a comprehensive panel of laboratory parameters, we employed the Boruta algorithm for feature selection, followed by variance inflation factor (VIF) analysis to assess multicollinearity. Variables with VIF > 5 were excluded. An optimal RRR cutoff was determined using receiver operating characteristic (ROC) analysis. The Boruta algorithm and multivariate logistic regression were used to identify independent predictors. During the 30-day follow-up period, 16 deaths (12.7%) were recorded. Comparative analysis showed that nonsurvivors had significantly lower RBC counts and hemoglobin, higher RDW, and markedly elevated RRR compared to survivors (all p < 0.05). The AUC for RRR was 0.774 (95% CI: 0.672-0.876) (RBC AUC = 0.741; RDW AUC = 0.684). However, the prognostic performance of RRR was not statistically superior to that of RDW alone (DeLong's test, p = 0.155) or RBC alone (DeLong's test, p = 0.335). After Boruta selection and VIF-based exclusion of collinear variables (AST and RBC, both VIF > 5), the final multivariable logistic regression model included RRR, ALT, PLT, and CREA. In multivariate analysis, only RRR remained independently associated with mortality within this model (OR = 3.059, 95% CI: 1.431-6.540, p = 0.004). The RRR, a simple index derived from routine blood tests, was independently associated with 30-day mortality within our laboratory-based model in patients with BAAD. Given this association, the RRR warrants prospective validation as a prognostic tool.",
+"doi": "10.1155/emmi/5722036",
+"keywords": [
+"Type B",
+"aortic dissection",
+"mortality",
+"prognosis",
+"red blood cell count",
+"red cell distribution width"
+],
 "meshTerms": [],
 "pubTypes": [
-"Letter",
-"Comment"
+"Journal Article"
 ],
-"url": "https://pubmed.ncbi.nlm.nih.gov/42750007/",
-"impactScore": 18
+"url": "https://pubmed.ncbi.nlm.nih.gov/42780583/",
+"impactScore": 16
 }
 ]
 }
