@@ -400,8 +400,14 @@ const COLORS = [
 ];
 
 let allTopics = [];
-let colorMap = {};
+let colorMap = Object.create(null);
 let cIdx = 0;
+
+// PubMed 關鍵字屬第三方內容，插進 innerHTML 前一律跳脫
+function esc(v) {
+  return String(v ?? '').replace(/[&<>"']/g, c => (
+    { '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;' }[c]));
+}
 
 function getColor(w) {
   if (!colorMap[w]) colorMap[w] = COLORS[cIdx++ % COLORS.length];
@@ -426,7 +432,7 @@ function buildCloud(topics) {
     if (!sz) return;
     const col = getColor(word);
     const enc = encodeURIComponent('"' + word + '"');
-    h += `<a href="https://pubmed.ncbi.nlm.nih.gov/?term=${enc}" target="_blank" rel="noopener" style="font-size:${sz}em;color:${col}">${word}<sup>${count}</sup></a> `;
+    h += `<a href="https://pubmed.ncbi.nlm.nih.gov/?term=${enc}" target="_blank" rel="noopener" style="font-size:${sz}em;color:${col}">${esc(word)}<sup>${esc(count)}</sup></a> `;
   });
   return h;
 }
@@ -501,7 +507,7 @@ function renderUI(topics, fromCache, cacheTime) {
 }
 
 async function loadData() {
-  colorMap = {}; cIdx = 0; allTopics = [];
+  colorMap = Object.create(null); cIdx = 0; allTopics = [];
   document.getElementById('cacheNote').style.display = 'none';
   document.getElementById('app').innerHTML = `
     <div class="loading">
@@ -591,7 +597,7 @@ async function loadData() {
     app.innerHTML = `
       <div class="err">
         <strong>&#9888; 無法連線 PubMed</strong>
-        ${err.message}<br>
+        ${esc(err.message)}<br>
         <small>請檢查網路連線後重新整理頁面。</small>
         <br><br>
         <button onclick="hardRefresh()" style="font-family:inherit;font-size:12px;padding:5px 12px;border-radius:6px;border:1px solid currentColor;background:none;color:inherit;cursor:pointer">

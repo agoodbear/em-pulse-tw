@@ -17,6 +17,7 @@ import json
 import os
 import socket
 import sys
+import tempfile
 import time
 import urllib.parse
 import urllib.request
@@ -130,7 +131,17 @@ def esearch(journals):
         "datetype": "pdat", "reldate": DAYS_BACK, "term": term, "sort": "pub_date",
     })
     data = http_get(f"{EUTILS}/esearch.fcgi?{q}", parse=json.loads)
-    return data.get("esearchresult", {}).get("idlist", [])
+    res = data.get("esearchresult", {})
+    ids = res.get("idlist", [])
+    try:
+        count = int(res.get("count", len(ids)))
+    except (TypeError, ValueError):
+        count = len(ids)
+    if count > len(ids):
+        # 超過 RETMAX 會被靜默截斷（依 pub_date 排序，掉的是較舊的文獻）
+        print(f"      ⚠ PubMed 命中 {count} 筆，超過 RETMAX={RETMAX}，只取前 {len(ids)} 筆；"
+              f"請調高 RETMAX 或改分頁抓取", file=sys.stderr)
+    return ids
 
 
 def efetch(pmids):
@@ -161,8 +172,8 @@ def parse_pubdate(art):
         d = text(pd.find("Day"))
         medline = text(pd.find("MedlineDate"))
         if y:
-            mm = months.get(m, m if m.isdigit() else "01").zfill(2)
-            dd = d.zfill(2) if d else "01"
+            mm = months.get(m[:3], m if m.isdigit() else "01").zfill(2)
+            dd = d.zfill(2) if d.isdigit() else "01"
             return f"{y}-{mm}-{dd}"
         if medline:
             parts = medline.split()
@@ -174,7 +185,7 @@ def parse_pubdate(art):
     art_date = art.find(".//PubMedPubDate[@PubStatus='pubmed']")
     if art_date is not None:
         y = text(art_date.find("Year")); m = text(art_date.find("Month")); d = text(art_date.find("Day"))
-        if y:
+        if y and m.isdigit() and d.isdigit():
             return f"{y}-{m.zfill(2)}-{d.zfill(2)}"
     return ""
 
@@ -260,6 +271,23 @@ def impact_score(a, today):
     return round(base + bonus + recency)
 
 
+def write_json_atomic(path, obj):
+    """先寫暫存檔再 os.replace：中途被砍（timeout/OOM）也不會留下半截的 pulse.json。"""
+    d = os.path.dirname(path)
+    os.makedirs(d, exist_ok=True)
+    fd, tmp = tempfile.mkstemp(dir=d, prefix=".pulse-", suffix=".tmp")
+    try:
+        with os.fdopen(fd, "w", encoding="utf-8") as f:
+            json.dump(obj, f, ensure_ascii=False, indent=0)
+        os.replace(tmp, path)
+    except BaseException:
+        try:
+            os.unlink(tmp)
+        except OSError:
+            pass
+        raise
+
+
 def main():
     journals = load_journals()
     print(f"[1/4] esearch：{len(journals)} 本期刊、近 {DAYS_BACK} 天 …", file=sys.stderr)
@@ -281,6 +309,10 @@ def main():
             continue
         a["impactScore"] = impact_score(a, today)
         arts.append(a)
+
+    if not arts:
+        print("      efetch 後無可用文獻，中止（不覆寫舊檔）", file=sys.stderr)
+        sys.exit(1)
 
     if UNMATCHED_JOURNALS:
         print(f"      ⚠ {len(UNMATCHED_JOURNALS)} 本期刊對不到分級，暫記 tier 3"
@@ -313,9 +345,7 @@ def main():
         "articles": arts,
     }
 
-    os.makedirs(os.path.dirname(OUT_FP), exist_ok=True)
-    with open(OUT_FP, "w", encoding="utf-8") as f:
-        json.dump(out, f, ensure_ascii=False, indent=0)
+    write_json_atomic(OUT_FP, out)
     print(f"[4/4] 完成：{len(arts)} 篇 → {OUT_FP}", file=sys.stderr)
     print(f"      Tier {by_tier} | topScore {out['stats']['topScore']} | "
           f"avg {out['stats']['avgScore']}", file=sys.stderr)

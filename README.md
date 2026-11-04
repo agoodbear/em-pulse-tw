@@ -43,6 +43,17 @@ python3 -m http.server 8800        # 因為前端用 fetch()，必須用 http �
 # 瀏覽器開 http://127.0.0.1:8800/
 ```
 
+## 測試與檢查
+
+零相依（Python 標準函式庫 + Node 內建 `node:test`），需要 Python 3.12+、Node 22+：
+
+```bash
+make build   # 語法、journals.json、pulse.json schema、內嵌 JS 語法
+make test    # Python + 前端單元測試
+```
+
+PR 會自動跑 `.github/workflows/test.yml`。稽核報告見 `docs/review/`。
+
 ## 部署到 GitHub Pages
 
 ```bash
