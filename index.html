@@ -720,17 +720,41 @@ const TYPE_ORDER = ['guideline','meta-analysis','systematic-review','rct','clini
 
 function typeLabel(t) { return TYPE_LABELS[t] || t; }
 
-function relDate(s) {
-  if (!s) return '';
-  const d = new Date(s), now = new Date();
-  const days = Math.floor((now - d) / 86400000);
+// 所有來自 pulse.json（即 PubMed 第三方內容）的字串，插進 innerHTML 前一律跳脫
+function esc(v) {
+  return String(v ?? '').replace(/[&<>"']/g, c => (
+    { '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;' }[c]));
+}
+// 只允許 http(s) 連結，擋 javascript: 等協定
+function safeUrl(u) {
+  const s = String(u ?? '');
+  return /^https?:\/\//i.test(s) ? esc(s) : '#';
+}
+// tier 只會是 1/2/3；其他值一律當 3，避免被塞進 class 屬性
+function tierOf(a) { const t = Number(a?.journalTier); return [1,2,3].includes(t) ? t : 3; }
+// articleType 只允許已知類型，否則歸 original（同時用在 class 名稱）
+function typeOf(a) { return TYPE_ORDER.includes(a?.articleType) ? a.articleType : 'original'; }
+
+// 依「本地日曆日」計算相差天數；'YYYY-MM-DD' 用 new Date(s) 會被當 UTC 午夜，
+// 在台灣（UTC+8）清晨會差一天。未來日期（期刊預排期號）不顯示「-N 天前」。
+function relDate(s, now = new Date()) {
+  const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(String(s ?? ''));
+  if (!m) return '';
+  const d = new Date(+m[1], +m[2] - 1, +m[3]);
+  // 擋 2026-00-00、2026-02-31 這類會被 Date 自動「滾動」成別天的值
+  if (isNaN(d) || d.getMonth() !== +m[2] - 1 || d.getDate() !== +m[3]) return '';
+  const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+  const days = Math.round((today - d) / 86400000);
   if (days === 0) return '今天';
   if (days === 1) return '昨天';
-  if (days < 7) return `${days} 天前`;
+  if (days > 1 && days < 7) return `${days} 天前`;
   return d.toLocaleDateString('zh-TW', { month:'long', day:'numeric' });
 }
 
-function sw(score, max) { return Math.max(5, Math.round((score / Math.max(max,1)) * 100)); }
+function sw(score, max) {
+  const s = Number(score) || 0;
+  return Math.min(100, Math.max(5, Math.round((s / Math.max(Number(max) || 1, 1)) * 100)));
+}
 
 let state = {
   all:[], filtered:[], activeFilter:'all', activeKeyword:null,
@@ -738,16 +762,17 @@ let state = {
 };
 
 function renderStats(data) {
-  document.getElementById('stat-total').textContent    = data.stats.total;
-  document.getElementById('stat-tier1').textContent    = data.stats.byTier?.[1] ?? '—';
+  document.getElementById('stat-total').textContent    = data.stats?.total ?? '—';
+  document.getElementById('stat-tier1').textContent    = data.stats?.byTier?.[1] ?? '—';
   const d = new Date(data.generatedAt);
-  document.getElementById('stat-updated').textContent  =
+  document.getElementById('stat-updated').textContent  = isNaN(d) ? '—' :
     d.toLocaleTimeString('zh-TW', { hour:'2-digit', minute:'2-digit' });
   document.getElementById('live-label').textContent = '即時';
 }
 
 function renderAOW(a, max) {
   if (!a) return '';
+  const tier = tierOf(a), type = typeOf(a), authors = a.authors || [];
   return `
   <div class="section-head fade-in">
     <span class="section-label">本週精選</span>
@@ -755,18 +780,18 @@ function renderAOW(a, max) {
   </div>
   <div class="aow fade-in">
     <div class="aow-badge">★ 本週文獻</div>
-    <div class="aow-title"><a href="${a.url}" target="_blank" rel="noopener">${a.title}</a></div>
+    <div class="aow-title"><a href="${safeUrl(a.url)}" target="_blank" rel="noopener">${esc(a.title)}</a></div>
     <div class="aow-meta">
-      <span class="tier-badge t${a.journalTier}">Tier ${a.journalTier}</span>
-      <span class="type-badge ${a.articleType}">${typeLabel(a.articleType)}</span>
-      <span class="meta-journal">${a.journal}</span>
-      <span class="meta-date">${relDate(a.pubDate)}</span>
+      <span class="tier-badge t${tier}">Tier ${tier}</span>
+      <span class="type-badge ${type}">${esc(typeLabel(type))}</span>
+      <span class="meta-journal">${esc(a.journal)}</span>
+      <span class="meta-date">${esc(relDate(a.pubDate))}</span>
     </div>
-    ${a.abstract ? `<p class="aow-abstract">${a.abstract}</p>` : ''}
+    ${a.abstract ? `<p class="aow-abstract">${esc(a.abstract)}</p>` : ''}
     <div class="aow-footer">
-      <span class="aow-authors">${a.authors.join(', ')}</span>
+      <span class="aow-authors">${esc(authors.join(', '))}</span>
       <div class="score-wrap">
-        <span class="score-label">影響力 ${a.impactScore}</span>
+        <span class="score-label">影響力 ${esc(a.impactScore)}</span>
         <div class="score-bar"><div class="score-bar-fill" style="width:${sw(a.impactScore,max)}%"></div></div>
       </div>
     </div>
@@ -774,18 +799,19 @@ function renderAOW(a, max) {
 }
 
 function renderCard(a, rank, max) {
+  const tier = tierOf(a), type = typeOf(a), authors = a.authors || [];
   return `
-  <a class="article-card fade-in" href="${a.url}" target="_blank" rel="noopener">
+  <a class="article-card fade-in" href="${safeUrl(a.url)}" target="_blank" rel="noopener">
     <div class="article-rank">${String(rank).padStart(2,'0')}</div>
     <div>
-      <div class="article-title">${a.title}</div>
+      <div class="article-title">${esc(a.title)}</div>
       <div class="article-meta">
-        <span class="tier-badge t${a.journalTier}">T${a.journalTier}</span>
-        <span class="type-badge ${a.articleType}">${typeLabel(a.articleType)}</span>
-        <span class="meta-journal">${a.journal}</span>
-        <span class="meta-date">${relDate(a.pubDate)}</span>
-        <span class="meta-authors">${a.authors.slice(0,2).join(', ')}${a.authors.length>2?' 等':''}</span>
-        <span class="score-mini">↑${a.impactScore}</span>
+        <span class="tier-badge t${tier}">T${tier}</span>
+        <span class="type-badge ${type}">${esc(typeLabel(type))}</span>
+        <span class="meta-journal">${esc(a.journal)}</span>
+        <span class="meta-date">${esc(relDate(a.pubDate))}</span>
+        <span class="meta-authors">${esc(authors.slice(0,2).join(', '))}${authors.length>2?' 等':''}</span>
+        <span class="score-mini">↑${esc(a.impactScore)}</span>
       </div>
     </div>
   </a>`;
@@ -814,12 +840,12 @@ function renderKeywords(articles) {
   const counts = {};
   articles.forEach(a => {
     [...(a.keywords||[]),...(a.meshTerms||[])].forEach(k => {
-      const n = k.trim();
+      const n = String(k ?? '').trim();
       if (n.length > 3 && n.length < 40) counts[n] = (counts[n]||0)+1;
     });
   });
   return Object.entries(counts).sort((a,b)=>b[1]-a[1]).slice(0,28)
-    .map(([k]) => `<span class="keyword-tag" data-kw="${k}">${k}</span>`).join('');
+    .map(([k]) => `<span class="keyword-tag" data-kw="${esc(k)}">${esc(k)}</span>`).join('');
 }
 
 function renderPagination(filtered, page, ps) {
@@ -850,11 +876,11 @@ function renderContent() {
         <button class="filter-btn${activeFilter===f&&!activeKeyword?' active':''}" data-filter="${f}">
           ${fLabels[f]}
         </button>`).join('')}
-      ${activeKeyword ? `<button class="filter-btn active" data-filter="all">「${activeKeyword}」✕</button>` : ''}
+      ${activeKeyword ? `<button class="filter-btn active" data-filter="all">「${esc(activeKeyword)}」✕</button>` : ''}
     </div>`;
 
   const listLabel = activeKeyword
-    ? `「${activeKeyword}」共 ${filtered.length} 筆結果`
+    ? `「${esc(activeKeyword)}」共 ${filtered.length} 筆結果`
     : `${filtered.length} 篇文獻`;
   const sectionHead = `
     <div class="section-head fade-in">
@@ -903,7 +929,7 @@ function renderContent() {
     btn.addEventListener('click', () => applyFilter(btn.dataset.filter)));
   document.querySelectorAll('.page-btn[data-page]').forEach(btn =>
     btn.addEventListener('click', () => {
-      state.page = parseInt(btn.dataset.page);
+      state.page = parseInt(btn.dataset.page, 10) || 0;
       renderContent();
       window.scrollTo({ top: 180, behavior: 'smooth' });
     }));
@@ -914,8 +940,8 @@ function renderContent() {
 function applyFilter(type) {
   state.activeFilter = type; state.activeKeyword = null; state.page = 0;
   state.filtered = type === 'all' ? [...state.all]
-    : type === 'tier1' ? state.all.filter(a => a.journalTier === 1)
-    : state.all.filter(a => a.articleType === type);
+    : type === 'tier1' ? state.all.filter(a => tierOf(a) === 1)
+    : state.all.filter(a => typeOf(a) === type);
   renderContent();
 }
 
@@ -923,9 +949,9 @@ function applyKeyword(kw) {
   state.activeKeyword = kw; state.activeFilter = 'all'; state.page = 0;
   const kl = kw.toLowerCase();
   state.filtered = state.all.filter(a =>
-    (a.keywords||[]).some(k => k.toLowerCase().includes(kl)) ||
-    (a.meshTerms||[]).some(k => k.toLowerCase().includes(kl)) ||
-    a.title.toLowerCase().includes(kl));
+    (a.keywords||[]).some(k => String(k).toLowerCase().includes(kl)) ||
+    (a.meshTerms||[]).some(k => String(k).toLowerCase().includes(kl)) ||
+    String(a.title ?? '').toLowerCase().includes(kl));
   renderContent();
 }
 
@@ -942,7 +968,7 @@ async function loadData() {
   } catch(e) {
     document.getElementById('content').innerHTML = `
       <div class="status">
-        <p class="status-text" style="color:#c0392b">資料載入失敗 — ${e.message}</p>
+        <p class="status-text" style="color:#c0392b">資料載入失敗 — ${esc(e.message)}</p>
       </div>`;
     document.getElementById('live-label').textContent = '錯誤';
   }
