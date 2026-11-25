@@ -1,25 +1,25 @@
 {
-"generatedAt": "2026-11-24T05:43:33.000Z",
+"generatedAt": "2026-11-25T04:45:42.000Z",
 "daysBack": 7,
 "journalCount": 59,
 "stats": {
-"total": 116,
+"total": 132,
 "byType": {
-"meta-analysis": 1,
-"review": 9,
+"meta-analysis": 2,
+"review": 11,
+"editorial": 8,
 "systematic-review": 1,
-"editorial": 7,
-"letter": 15,
-"original": 82,
+"original": 91,
+"letter": 18,
 "case-report": 1
 },
 "byTier": {
-"1": 66,
-"2": 40,
-"3": 10
+"1": 75,
+"2": 45,
+"3": 12
 },
-"topScore": 71,
-"avgScore": 40
+"topScore": 70,
+"avgScore": 39
 },
 "articleOfWeek": {
 "pmid": "43058869",
@@ -61,7 +61,7 @@
 "Meta-Analysis"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43058869/",
-"impactScore": 71
+"impactScore": 70
 },
 "articles": [
 {
@@ -104,7 +104,72 @@
 "Meta-Analysis"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43058869/",
-"impactScore": 71
+"impactScore": 70
+},
+{
+"pmid": "43074020",
+"title": "The sepsis trial landscape: a domain-specific systematic review and meta-analysis of adult sepsis randomized controlled trials.",
+"authors": [
+"Premer C",
+"Starahs M",
+"Hare JM",
+"Merchant RC"
+],
+"journal": "Critical care (London, England)",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "meta-analysis",
+"pubDate": "2026-11-17",
+"abstract": "Despite decades of sepsis randomized clinical trials (RCTs), few therapeutic interventions have demonstrated reproducible mortality benefit. Whether this phenomenon reflects failure of individual therapies or broader limitations in sepsis RCT design remains unclear. We hypothesized that examining clinically distinct treatment domains would reveal differences in mortality effect estimates while identifying recurrent trial-design limitations shared across domains. Therefore, we performed a domain-specific meta-analysis of adult sepsis RCTs and evaluated the distribution of mortality effect estimates across treatment domains using a complementary landscape analysis framework and structured trial-design analysis. We conducted a meta-analysis of adult sepsis and septic shock RCTs published between 2000 and 2025 (PROSPERO CRD420261289221). Using PubMed/MEDLINE, Embase, and CENTRAL, two reviewers screened studies and extracted data. Trials were grouped into six treatment domains: initial resuscitation interventions, intravenous fluid quantity, intravenous fluid type, vasopressors, corticosteroids, and vitamin C-based therapies. Separate random-effects meta-analyses estimated pooled risk ratios (RRs) and 95% confidence intervals (CIs). We also performed a complementary landscape analysis using Python to evaluate the distribution of mortality effect estimates relative to study sample size, as well as a structured thematic analysis to identify recurrent trial design constraints across treatment domains. Across 62 RCTs (n = 36,739), pooled mortality effects demonstrated no mortality benefit across each of the six treatment domains: resuscitation interventions (RR 0.88, 95% CI 0.77-1.01), intravenous fluid quantity (RR 0.96, 95% CI 0.88-1.05), intravenous fluid type (RR 0.95, 95% CI 0.89-1.01), vasopressors (RR 0.97, 95% CI 0.88-1.07), corticosteroids (RR 0.92, 95% CI 0.84-1.00), and vitamin C-based therapies (RR 0.95, 95% CI 0.83-1.09). A landscape analysis showed wider dispersion of mortality effect estimates among smaller trials, whereas larger trial estimates generally clustered near the null. A structured thematic analysis using a prespecified trial-constraint framework identified recurrent design limitations across treatment domains, including delayed intervention timing, biologic and clinical heterogeneity, treatment contamination, and trial design and infrastructure constraints. Across the six prespecified treatment domains in sepsis, RCTs have not demonstrated consistent reductions in mortality. Recurrent trial-design limitations were common across treatment domains and may inform interpretation and future trial design.",
+"doi": "10.1136/bmj-2024-081124",
+"keywords": [
+"Clinical trial design",
+"Critical care",
+"Mortality",
+"Randomized controlled trials",
+"Sepsis"
+],
+"meshTerms": [
+"Humans",
+"Sepsis",
+"Randomized Controlled Trials as Topic"
+],
+"pubTypes": [
+"Journal Article",
+"Meta-Analysis",
+"Systematic Review"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/43074020/",
+"impactScore": 68
+},
+{
+"pmid": "43076804",
+"title": "Managing Analgesia for Nonspecific Low Back Pain.",
+"authors": [
+"Gawel RJ",
+"Gottlieb M",
+"Shalaby M"
+],
+"journal": "Annals of emergency medicine",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "review",
+"pubDate": "2026-11-23",
+"abstract": "",
+"doi": "10.1016/j.annemergmed.2026.10.012",
+"keywords": [
+"Low back pain",
+"Pain management",
+"Physical therapy",
+"Regional anesthesia"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article",
+"Review"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/43076804/",
+"impactScore": 57
 },
 {
 "pmid": "43071126",
@@ -147,7 +212,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43071126/",
-"impactScore": 58
+"impactScore": 57
 },
 {
 "pmid": "43057568",
@@ -187,7 +252,45 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43057568/",
-"impactScore": 54
+"impactScore": 53
+},
+{
+"pmid": "43055713",
+"title": "Prehospital Management of Pediatric Traumatic Out-of-Hospital Circulatory Arrest - A Joint Position Statement.",
+"authors": [
+"Anders JF",
+"Harris MI",
+"Adelgais KM",
+"Remick KE",
+"Cicero MX",
+"Nagler J",
+"Jaeger L",
+"Knoles C",
+"Pappas PA",
+"Vaughan E"
+],
+"journal": "Annals of emergency medicine",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "editorial",
+"pubDate": "2026-12-01",
+"abstract": "Policy statements and clinical policies are the official policies of the American College of Emergency Physicians and, as such, are not subject to the same peer review process as articles appearing in the journal. Policy statements and clinical policies of ACEP do not necessarily reflect the policies and beliefs of Annals of Emergency Medicine and its editors.",
+"doi": "10.1016/j.annemergmed.2026.09.022",
+"keywords": [],
+"meshTerms": [
+"Humans",
+"Emergency Medical Services",
+"Out-of-Hospital Cardiac Arrest",
+"Child",
+"Wounds and Injuries",
+"Cardiopulmonary Resuscitation"
+],
+"pubTypes": [
+"Consensus Statement",
+"Editorial"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/43055713/",
+"impactScore": 51
 },
 {
 "pmid": "43058488",
@@ -237,45 +340,28 @@
 "Systematic Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43058488/",
-"impactScore": 52
+"impactScore": 51
 },
 {
-"pmid": "43055713",
-"title": "Prehospital Management of Pediatric Traumatic Out-of-Hospital Circulatory Arrest - A Joint Position Statement.",
+"pmid": "43076803",
+"title": "Ready for the Airway: Building and Sustaining Pediatric Airway Competence in Emergency Physicians.",
 "authors": [
-"Anders JF",
-"Harris MI",
-"Adelgais KM",
-"Remick KE",
-"Cicero MX",
-"Nagler J",
-"Jaeger L",
-"Knoles C",
-"Pappas PA",
-"Vaughan E"
+"Naik V"
 ],
 "journal": "Annals of emergency medicine",
 "journalTier": 1,
 "journalSJR": null,
 "articleType": "editorial",
-"pubDate": "2026-12-01",
-"abstract": "Policy statements and clinical policies are the official policies of the American College of Emergency Physicians and, as such, are not subject to the same peer review process as articles appearing in the journal. Policy statements and clinical policies of ACEP do not necessarily reflect the policies and beliefs of Annals of Emergency Medicine and its editors.",
-"doi": "10.1016/j.annemergmed.2026.09.022",
+"pubDate": "2026-11-23",
+"abstract": "",
+"doi": "10.1016/j.annemergmed.2026.10.004",
 "keywords": [],
-"meshTerms": [
-"Humans",
-"Emergency Medical Services",
-"Out-of-Hospital Cardiac Arrest",
-"Child",
-"Wounds and Injuries",
-"Cardiopulmonary Resuscitation"
-],
+"meshTerms": [],
 "pubTypes": [
-"Consensus Statement",
 "Editorial"
 ],
-"url": "https://pubmed.ncbi.nlm.nih.gov/43055713/",
-"impactScore": 51
+"url": "https://pubmed.ncbi.nlm.nih.gov/43076803/",
+"impactScore": 49
 },
 {
 "pmid": "43071125",
@@ -299,7 +385,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43071125/",
-"impactScore": 50
+"impactScore": 49
 },
 {
 "pmid": "43071124",
@@ -322,7 +408,204 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43071124/",
-"impactScore": 50
+"impactScore": 49
+},
+{
+"pmid": "43076808",
+"title": "Prediction of Acetaminophen-Induced Hepatotoxicity in Acetylcysteine-Treated Patients Using Routine Admission Biomarkers.",
+"authors": [
+"Humphries C",
+"Kilpatrick AM",
+"Addison ML",
+"Cartwright JA",
+"Lyall MJ",
+"Schumacher LJ",
+"Forbes SJ",
+"Dear JW"
+],
+"journal": "Annals of emergency medicine",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-11-23",
+"abstract": "Some acetaminophen-overdose patients develop hepatotoxicity despite acetylcysteine treatment. Established tools struggle to prospectively identify subsequent toxicity. We developed a model using only routine admission biomarkers to identify acetylcysteine-treated patients at highest risk and compared it with the current benchmark, the acetaminophen-aminotransferase multiplication product (AT product). Retrospective cohort study of acetaminophen overdose admissions aged 12 years and older (International Classification of Diseases 10th revision code of T39.1) with alanine aminotransferase (ALT) ≤1,000 U/L at admission from 3 UK hospitals (2008-2024). We fitted elastic-net logistic models stratified by presentation ALT. The outcome was peak ALT >1,000 U/L. Performance was assessed on a 25% held-out test set and benchmarked against the AT product >1,500. Of 4,705 admissions, 119 (2.5%) developed hepatotoxicity. The model used 7 routine blood tests, 4 per stratum. At presentation, those with ALT ≤50 U/L, acetaminophen, sodium, potassium, and lymphocyte count remained in the model. In those with ALT 51 to 1,000 U/L at presentation, ALT, bilirubin, alkaline phosphatase, and lymphocyte count were used. In the test set (n=1,175), it achieved an area under the curve of 0.93 (95% confidence interval [CI] 0.89 to 0.97) versus 0.82 (0.72 to 0.91) for the AT product (paired difference 0.11; 95% CI 0.01 to 0.22; P=.03), with higher specificity and a higher positive likelihood ratio at every matched sensitivity. The model had a specificity of 82.5%, whereas an AT product > 1,500 had a specificity of 62.6%. The model positive likelihood ratio was 5.1 versus 2.4 for the AT product, with half the number of false-positive escalations (171 versus 365 per 1,000 patients). A stratified model using only routine admission biomarkers (the Edinburgh Risk Score) identifies acetylcysteine-treated patients at the highest residual hepatotoxicity risk, outperforming the AT product >1,500 across decision thresholds, supporting selection for intensified therapy.",
+"doi": "10.1016/j.annemergmed.2026.10.008",
+"keywords": [
+"Acetaminophen",
+"Acetylcysteine",
+"Drug-induced liver injury",
+"Hepatotoxicity",
+"Paracetamol",
+"Risk prediction"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/43076808/",
+"impactScore": 48
+},
+{
+"pmid": "43076807",
+"title": "Higher Quality Temperature Control Is Associated With Improved Outcomes Following Out-of-Hospital Cardiac Arrest: A Multicenter Validation Study.",
+"authors": [
+"Beekman R",
+"McCarthy W",
+"Nguyen C",
+"Tam J",
+"Case N",
+"Elmer J",
+"Roy S",
+"Suliman M",
+"Beiser DG",
+"Helwagen E",
+"Sircelij V",
+"Coulter D",
+"Nassal MM",
+"Salhi HE",
+"Wira C",
+"Perman SM",
+"Gilmore EJ"
+],
+"journal": "Annals of emergency medicine",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-11-23",
+"abstract": "Hypothermic temperature control has not consistently demonstrated a neuroprotective effect, resulting in heterogeneity of use in clinical practice. We evaluated temperature control quality across 4 institutions and its association with clinical outcomes. Retrospective analysis of institutional registry data collected between 2021 and 2024 in survivors of out-of-hospital cardiac arrest (OHCA) with Glasgow Coma Scale Motor score less than 6 from 4 academic centers with established cardiac arrest programs. Eligible patients included those 18 years of age or older, treated with hypothermic temperature control (33-36°C) using a feedback-controlled device, and admitted to an intensive care unit (ICU). A temperature control quality score (0-6) was assigned for each patient. The primary outcome was survival to hospital discharge. The secondary outcome was good neurologic outcome at hospital discharge, defined as a Cerebral Performance Category (CPC) score of 1-2. Univariable and multivariable logistic regressions quantified the relationship between quality of temperature control, as an ordinal variable, and outcomes. Among 356 included patients, most were male (N=224, 62.9%) with mean (standard deviation [SD]) age 58.1 (15.2) years. Most suffered a nonshockable arrest (N=262, 73.6%) and did not receive layperson CPR (N=225, 63.2%). Median [IQR] Pittsburgh Cardiac Arrest Category score was 4 [3,4], mean (SD) lactate 9.1 (4.1) mmol/L, and pH 7.09 (0.17). Median [IQR] preinduction time was 2.3 [1.5 to 3.5] hours and 150 (42.1%) were treated with early neuromuscular blockade. Adjusting for confounders in the multivariable model, an increase of one-point in the temperature control quality score was associated with improved survival at hospital discharge (odds ratio [OR] 1.32; 95% confidence interval [CI], 1.07 to 1.64). A one-point increase in the quality score also resulted in a shift towards lower (improved) CPC score (OR 1.28; 95% CI, 0.05 to 1.55). The direction of effect was consistent across all centers. In unresponsive survivors of OHCA, an increase in temperature control quality was associated with improved survival and better neurologic outcome; however, confounding by site, injury severity, or perceived prognosis is possible. Lack of temperature control parameter standardization may influence efficacy and practice variability within pragmatic-design clinical trials possibly contributed to neutral trial results. Prospective trials evaluating the importance of temperature control quality and the population most likely to benefit from hypothermic temperature control are essential.",
+"doi": "10.1016/j.annemergmed.2026.09.026",
+"keywords": [
+"Out-of-hospital cardiac arrest",
+"Outcomes",
+"Quality",
+"Temperature control"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/43076807/",
+"impactScore": 48
+},
+{
+"pmid": "43076806",
+"title": "State-Level Trends in Severe Sepsis and Septic Shock Management Bundle (SEP-1) Compliance and Sepsis Mortality in the United States.",
+"authors": [
+"Ford JS",
+"Yealy DM",
+"Pavuluri SK",
+"May L",
+"Venkatesh AK"
+],
+"journal": "Annals of emergency medicine",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-11-23",
+"abstract": "",
+"doi": "10.1016/j.annemergmed.2026.10.005",
+"keywords": [
+"Health policy",
+"SEP-1",
+"Sepsis",
+"Treatment bundles"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/43076806/",
+"impactScore": 48
+},
+{
+"pmid": "43076805",
+"title": "Frequency and Causes of Waveform Capnography Failure After Successful Emergency Tracheal Intubation.",
+"authors": [
+"Driver BE",
+"Robinson AE",
+"Kuo J",
+"Prekker ME"
+],
+"journal": "Annals of emergency medicine",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-11-23",
+"abstract": "Multidisciplinary guidelines recommend waveform capnography as the preferred method for determining endotracheal tube location after intubation and advise immediate tube removal when the waveform is absent or inadequate unless a fault can be immediately identified and corrected. Because capnography depends on several components that can each fail, an absent waveform does not always indicate an esophageal tube, and removing a correctly placed tube exposes a critically ill patient to the risks of reintubation. How often waveform capnography fails despite correct tracheal placement has been estimated only from trials of colorimetric detectors in populations with high proportions of cardiac arrest, and the causes have not been described. We performed a retrospective analysis of a prospectively collected continuous quality improvement database of emergency intubations at an urban, safety-net hospital, including patients aged ≥14 years intubated between January 1, 2022, and April 21, 2025. Trained observers collected intubation data in real time, and the intubating physician completed a structured form after each procedure. The primary outcome was CO2 waveform failure following successful tracheal intubation. Secondary outcomes were the reported cause of failure and whether the tube was removed. Of 2,875 successful tracheal intubation procedures, 124 (4.3%; 95% confidence interval 3.6 to 5.1%) had CO2 waveform failure despite the tube being located in the trachea. Human error accounted for 83 events (67%), nearly all of which were from the CO2 sampling line not being connected to the bag or the monitor (82 events, 66%). Identified equipment failure accounted for 11 events (9%). The cause was undetermined in 33 events (27%), including 30 (24%) in which the failure was never explained despite confirmed tracheal placement and 3 in which the cause was not formally categorized. The endotracheal tube was removed because of the absent waveform in 1 event (1%). CO2 waveform failure occurred in approximately 4% of successful intubation procedures.",
+"doi": "10.1016/j.annemergmed.2026.09.025",
+"keywords": [
+"Confirmation of tube location",
+"Monitoring",
+"Tracheal intubation",
+"Waveform capnography"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/43076805/",
+"impactScore": 48
+},
+{
+"pmid": "43074062",
+"title": "Response to: \"To guide or not to guide percutaneous dilational tracheostomy? Bronchoscope, ultrasound or nothing?\".",
+"authors": [
+"Nachshon A",
+"Shapiro A",
+"Goldfarb S",
+"Kuzmina N",
+"Romain M",
+"Schwartz A",
+"Abutbul A",
+"Vilchik I",
+"Beil M",
+"van Heerden PV",
+"Tracheostomy Study Group"
+],
+"journal": "Critical care (London, England)",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "letter",
+"pubDate": "2026-11-23",
+"abstract": "",
+"doi": "10.5114/ait.2024.138437",
+"keywords": [],
+"meshTerms": [],
+"pubTypes": [
+"Letter"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/43074062/",
+"impactScore": 48
+},
+{
+"pmid": "43074031",
+"title": "Limited antimicrobial sequestration during ECMO does not exclude clinically relevant underexposure: the role of therapeutic drug monitoring.",
+"authors": [
+"Honoré PM",
+"Ismail AEB",
+"Benkaddour Y",
+"Muscato CY"
+],
+"journal": "Critical care (London, England)",
+"journalTier": 1,
+"journalSJR": null,
+"articleType": "letter",
+"pubDate": "2026-11-23",
+"abstract": "",
+"doi": "10.1093/jac/dkx149",
+"keywords": [
+"Extracorporeal membrane oxygenation - antibiotics",
+"Pharmacokinetics/pharmacodynamics",
+"Therapeutic drug monitoring",
+"Underdosing"
+],
+"meshTerms": [],
+"pubTypes": [
+"Letter",
+"Comment"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/43074031/",
+"impactScore": 48
 },
 {
 "pmid": "43073015",
@@ -346,7 +629,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43073015/",
-"impactScore": 49
+"impactScore": 48
 },
 {
 "pmid": "43073014",
@@ -379,7 +662,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43073014/",
-"impactScore": 49
+"impactScore": 48
 },
 {
 "pmid": "43072578",
@@ -422,7 +705,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43072578/",
-"impactScore": 49
+"impactScore": 48
 },
 {
 "pmid": "43072577",
@@ -452,7 +735,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43072577/",
-"impactScore": 49
+"impactScore": 48
 },
 {
 "pmid": "43072576",
@@ -492,7 +775,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43072576/",
-"impactScore": 49
+"impactScore": 48
 },
 {
 "pmid": "43071733",
@@ -528,7 +811,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43071733/",
-"impactScore": 49
+"impactScore": 48
 },
 {
 "pmid": "43071671",
@@ -564,7 +847,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43071671/",
-"impactScore": 49
+"impactScore": 48
 },
 {
 "pmid": "43071668",
@@ -594,7 +877,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43071668/",
-"impactScore": 49
+"impactScore": 48
 },
 {
 "pmid": "43041153",
@@ -635,7 +918,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43041153/",
-"impactScore": 49
+"impactScore": 48
 },
 {
 "pmid": "43067380",
@@ -669,7 +952,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43067380/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "43067379",
@@ -699,7 +982,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43067379/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "43067378",
@@ -737,7 +1020,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43067378/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "43067377",
@@ -775,7 +1058,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43067377/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "43064338",
@@ -796,7 +1079,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43064338/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "43064335",
@@ -818,7 +1101,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43064335/",
-"impactScore": 47
+"impactScore": 46
 },
 {
 "pmid": "43070803",
@@ -857,7 +1140,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43070803/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "43065107",
@@ -888,7 +1171,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43065107/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "43065071",
@@ -914,7 +1197,7 @@
 "Comment"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43065071/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "43064503",
@@ -942,7 +1225,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43064503/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "43064336",
@@ -965,7 +1248,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43064336/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "43063354",
@@ -1001,7 +1284,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43063354/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42901745",
@@ -1028,7 +1311,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42901745/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42901742",
@@ -1054,7 +1337,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42901742/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42869640",
@@ -1088,7 +1371,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42869640/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42778343",
@@ -1119,7 +1402,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42778343/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42637519",
@@ -1146,7 +1429,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42637519/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42580879",
@@ -1177,7 +1460,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42580879/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42580877",
@@ -1207,7 +1490,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42580877/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42498501",
@@ -1237,7 +1520,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42498501/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42481216",
@@ -1266,7 +1549,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42481216/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42420017",
@@ -1292,7 +1575,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42420017/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42399087",
@@ -1318,7 +1601,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42399087/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42315322",
@@ -1344,7 +1627,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42315322/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "42264913",
@@ -1372,7 +1655,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42264913/",
-"impactScore": 46
+"impactScore": 45
 },
 {
 "pmid": "41592949",
@@ -1401,7 +1684,40 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/41592949/",
-"impactScore": 46
+"impactScore": 45
+},
+{
+"pmid": "43076956",
+"title": "[Physiotherapy in intensive care units in Germany, Austria, and Switzerland: tasks, developments, and challenges].",
+"authors": [
+"Nessizius S",
+"Filipovic S",
+"Klarmann S",
+"Müller A",
+"Perren A"
+],
+"journal": "Medizinische Klinik, Intensivmedizin und Notfallmedizin",
+"journalTier": 2,
+"journalSJR": null,
+"articleType": "review",
+"pubDate": "2026-11-24",
+"abstract": "Physiotherapy in intensive care units across the German-speaking region of Europe (Germany, Austria, and Switzerland-DACH) plays a central role in interprofessional early rehabilitation. Based on multimodal approaches and evidence-based assessments, it improves functional quality of life and reduces the incidence of post-intensive care syndrome. National and international guidelines establish early rehabilitation-ideally commencing within 72 h-as the standard of care. However, there is significant heterogeneity in physiotherapy training across these three countries. This article aims to outline the differences and similarities regarding education and the implementation of physiotherapeutic interventions in the intensive care setting.",
+"doi": "10.1016/j.iccn.2026.104390",
+"keywords": [
+"Critical illness",
+"Delirium",
+"Early mobilization",
+"Educational status",
+"Rehabilitation"
+],
+"meshTerms": [],
+"pubTypes": [
+"English Abstract",
+"Journal Article",
+"Review"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/43076956/",
+"impactScore": 44
 },
 {
 "pmid": "43064337",
@@ -1434,7 +1750,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43064337/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "43057569",
@@ -1462,7 +1778,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43057569/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "43057567",
@@ -1493,7 +1809,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43057567/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "43055972",
@@ -1519,7 +1835,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43055972/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "43055546",
@@ -1569,7 +1885,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43055546/",
-"impactScore": 45
+"impactScore": 44
 },
 {
 "pmid": "43070994",
@@ -1602,7 +1918,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43070994/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "43072057",
@@ -1632,7 +1948,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43072057/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "43051574",
@@ -1657,7 +1973,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43051574/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "43051573",
@@ -1682,7 +1998,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43051573/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "43051450",
@@ -1729,7 +2045,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43051450/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "43049889",
@@ -1752,7 +2068,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43049889/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "43049888",
@@ -1775,7 +2091,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43049888/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "43049476",
@@ -1831,7 +2147,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43049476/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "43049463",
@@ -1868,7 +2184,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43049463/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "43049461",
@@ -1899,7 +2215,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43049461/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "43049460",
@@ -1931,7 +2247,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43049460/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "43049459",
@@ -1970,7 +2286,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43049459/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "43049457",
@@ -1999,7 +2315,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43049457/",
-"impactScore": 44
+"impactScore": 43
 },
 {
 "pmid": "43072056",
@@ -2026,7 +2342,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43072056/",
-"impactScore": 43
+"impactScore": 42
 },
 {
 "pmid": "43044728",
@@ -2060,7 +2376,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43044728/",
-"impactScore": 43
+"impactScore": 42
 },
 {
 "pmid": "43044727",
@@ -2100,7 +2416,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43044727/",
-"impactScore": 43
+"impactScore": 42
 },
 {
 "pmid": "43044726",
@@ -2136,7 +2452,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43044726/",
-"impactScore": 43
+"impactScore": 42
 },
 {
 "pmid": "43044725",
@@ -2183,7 +2499,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43044725/",
-"impactScore": 43
+"impactScore": 42
 },
 {
 "pmid": "43044724",
@@ -2222,7 +2538,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43044724/",
-"impactScore": 43
+"impactScore": 42
 },
 {
 "pmid": "43044723",
@@ -2259,7 +2575,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43044723/",
-"impactScore": 43
+"impactScore": 42
 },
 {
 "pmid": "43044722",
@@ -2296,7 +2612,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43044722/",
-"impactScore": 43
+"impactScore": 42
 },
 {
 "pmid": "43072322",
@@ -2333,7 +2649,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43072322/",
-"impactScore": 41
+"impactScore": 40
 },
 {
 "pmid": "43008211",
@@ -2361,7 +2677,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43008211/",
-"impactScore": 40
+"impactScore": 39
 },
 {
 "pmid": "43043559",
@@ -2394,7 +2710,119 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43043559/",
-"impactScore": 38
+"impactScore": 37
+},
+{
+"pmid": "43077160",
+"title": "Physical examination in asymptomatic adults: implications for Internal Medicine residency training.",
+"authors": [
+"Patoulias D",
+"Gómez-Huelgas R"
+],
+"journal": "Internal and emergency medicine",
+"journalTier": 2,
+"journalSJR": null,
+"articleType": "letter",
+"pubDate": "2026-11-24",
+"abstract": "",
+"doi": "10.1016/j.ejim.2026.107056",
+"keywords": [],
+"meshTerms": [],
+"pubTypes": [
+"Letter"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/43077160/",
+"impactScore": 35
+},
+{
+"pmid": "43076955",
+"title": "[Extracorporeal life support (ECLS)-update 2026].",
+"authors": [
+"Rottmann FA",
+"Michels G",
+"Pott L",
+"Magnet I",
+"Preusch MR",
+"Wengenmayer T",
+"Boeken U",
+"Staudacher DL"
+],
+"journal": "Medizinische Klinik, Intensivmedizin und Notfallmedizin",
+"journalTier": 2,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-11-24",
+"abstract": "",
+"doi": "10.1016/S0140-6736(26)00851-2",
+"keywords": [],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/43076955/",
+"impactScore": 35
+},
+{
+"pmid": "43075951",
+"title": "Transition-Phase Injuries and Wilderness EMS Operations During a Mountain Paragliding Festival: A Brief Report.",
+"authors": [
+"Golcuk Y",
+"Karakoyun ÖF",
+"Demir A"
+],
+"journal": "Wilderness & environmental medicine",
+"journalTier": 2,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-11-24",
+"abstract": "IntroductionMountain paragliding festivals concentrate repeated takeoff, flight, and landing activity within terrain-dependent environments, potentially creating complex wilderness emergency medical services (EMS) demands. This brief report characterized festival-associated injury events, flight-phase distribution, environmental conditions, and EMS response requirements during a 2-day international mountain paragliding festival at Mount Babadağ, Turkey.MethodsWe retrospectively reviewed deidentified operational, prehospital, transport, and referral records for all festival-associated paragliding injury events. Variables included patient demographics, flight phase at injury, injury pattern, transport modality, prehospital acuity, and documented EMS resource utilization. Event-period meteorological conditions were summarized using hourly environmental data for the Mount Babadağ coordinate region.ResultsDuring the study period, 4716 paragliding flights and 13 injury events were recorded. The mean patient age was 41.5 ± 6.9 years. Ten injuries (76.9%) occurred during landing, 1 (7.7%) during takeoff, and 2 (15.4%) during sustained flight. Lower-extremity trauma predominated. Three patients were managed onsite, 8 were transported directly by ground ambulance, and 1 underwent maritime-to-ground ambulance transfer. One deceased pilot required helicopter-assisted postmortem recovery. Regional meteorological data showed mild temperatures and relatively low wind speeds.ConclusionsInjuries clustered around terrain-transition phases, especially landing. Mountain paragliding festivals require terrain-aware EMS planning, distributed response capability, and coordinated rescue and recovery resources.",
+"doi": "10.1177/10806032261509593",
+"keywords": [
+"mass gatherings",
+"mountain rescue",
+"paragliding",
+"prehospital care",
+"wilderness EMS"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/43075951/",
+"impactScore": 35
+},
+{
+"pmid": "43074475",
+"title": "Seeing Beyond the Bowel: A Sentinel Loop as a Sonographic Clue to Pancreatobiliary Obstruction.",
+"authors": [
+"Gouveia de Aguiar G",
+"Holmes DAS"
+],
+"journal": "Pediatric emergency care",
+"journalTier": 2,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-11-24",
+"abstract": "The sentinel loop is a localized area of dilated bowel indicating localized abdominal inflammation, traditionally identified on plain films and computed tomography. Despite its diagnostic importance, sentinel loops have not been extensively characterized using point-of-care ultrasound (POCUS) in pediatric populations. We report a case of a 3-year-old girl who presented with persistent abdominal pain, initially attributed to constipation. POCUS identified a sentinel loop associated with a choledochal cyst complicated by pancreatobiliary obstruction, an uncommon underlying pathology. Sonographic recognition of the sentinel loop redirected the diagnostic evaluation toward adjacent pathology in this case, illustrating its potential value as a contextual POCUS finding while underscoring the need for cautious interpretation given its nonspecificity and uncertain diagnostic performance.",
+"doi": "10.1097/PEC.0000000000003755",
+"keywords": [
+"abdominal ultrasound",
+"choledochal cyst",
+"hepatobiliary imaging",
+"pancreatobiliary maljunction",
+"pediatric POCUS",
+"pediatric abdominal pain",
+"point-of-care ultrasound",
+"sentinel loop",
+"ultrasound case report",
+"ultrasound in pediatrics"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/43074475/",
+"impactScore": 35
 },
 {
 "pmid": "43071263",
@@ -2419,7 +2847,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43071263/",
-"impactScore": 35
+"impactScore": 34
 },
 {
 "pmid": "43071262",
@@ -2445,7 +2873,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43071262/",
-"impactScore": 35
+"impactScore": 34
 },
 {
 "pmid": "43071255",
@@ -2468,7 +2896,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43071255/",
-"impactScore": 35
+"impactScore": 34
 },
 {
 "pmid": "43071176",
@@ -2515,7 +2943,7 @@
 "Comparative Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43071176/",
-"impactScore": 35
+"impactScore": 34
 },
 {
 "pmid": "43070993",
@@ -2546,7 +2974,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43070993/",
-"impactScore": 35
+"impactScore": 34
 },
 {
 "pmid": "43066569",
@@ -2574,7 +3002,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43066569/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "43065106",
@@ -2598,7 +3026,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43065106/",
-"impactScore": 33
+"impactScore": 32
 },
 {
 "pmid": "43062626",
@@ -2630,7 +3058,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43062626/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "43062363",
@@ -2666,7 +3094,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43062363/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "43062355",
@@ -2701,7 +3129,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43062355/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "43062117",
@@ -2734,7 +3162,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43062117/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "42976244",
@@ -2767,7 +3195,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42976244/",
-"impactScore": 32
+"impactScore": 31
 },
 {
 "pmid": "43073135",
@@ -2801,7 +3229,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43073135/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "43072321",
@@ -2836,7 +3264,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43072321/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "43067125",
@@ -2873,7 +3301,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43067125/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "43058295",
@@ -2903,7 +3331,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43058295/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "43056149",
@@ -2942,7 +3370,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43056149/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "43056078",
@@ -2979,7 +3407,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43056078/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "43055937",
@@ -3029,7 +3457,7 @@
 "Comparative Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43055937/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "43055685",
@@ -3059,7 +3487,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43055685/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "43055676",
@@ -3097,7 +3525,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43055676/",
-"impactScore": 31
+"impactScore": 30
 },
 {
 "pmid": "43055919",
@@ -3130,7 +3558,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43055919/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "43052641",
@@ -3163,7 +3591,7 @@
 "Review"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43052641/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "43052529",
@@ -3190,26 +3618,27 @@
 "Traumatic brain injury"
 ],
 "meshTerms": [
+"Adolescent",
+"Child",
+"Child, Preschool",
+"Female",
 "Humans",
+"Infant",
+"Male",
 "Brain Injuries, Traumatic",
 "Glasgow Coma Scale",
-"Female",
-"Male",
-"Child",
-"Prognosis",
-"Child, Preschool",
-"Predictive Value of Tests",
 "Hospital Mortality",
-"Adolescent",
-"Infant",
+"Predictive Value of Tests",
+"Prognosis",
 "Registries"
 ],
 "pubTypes": [
 "Journal Article",
-"Multicenter Study"
+"Multicenter Study",
+"Observational Study"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43052529/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "43052526",
@@ -3262,7 +3691,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43052526/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "43052506",
@@ -3296,7 +3725,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43052506/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "43049612",
@@ -3336,7 +3765,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43049612/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "43049234",
@@ -3372,7 +3801,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43049234/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "43046510",
@@ -3408,7 +3837,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43046510/",
-"impactScore": 30
+"impactScore": 29
 },
 {
 "pmid": "43049836",
@@ -3434,7 +3863,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43049836/",
-"impactScore": 29
+"impactScore": 28
 },
 {
 "pmid": "43045941",
@@ -3470,7 +3899,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43045941/",
-"impactScore": 29
+"impactScore": 28
 },
 {
 "pmid": "43044058",
@@ -3506,7 +3935,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43044058/",
-"impactScore": 29
+"impactScore": 28
 },
 {
 "pmid": "43044057",
@@ -3558,7 +3987,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43044057/",
-"impactScore": 29
+"impactScore": 28
 },
 {
 "pmid": "43044053",
@@ -3585,7 +4014,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43044053/",
-"impactScore": 29
+"impactScore": 28
 },
 {
 "pmid": "43043438",
@@ -3630,7 +4059,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43043438/",
-"impactScore": 29
+"impactScore": 28
 },
 {
 "pmid": "43040623",
@@ -3662,7 +4091,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43040623/",
-"impactScore": 29
+"impactScore": 28
 },
 {
 "pmid": "42976233",
@@ -3690,7 +4119,39 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/42976233/",
-"impactScore": 29
+"impactScore": 28
+},
+{
+"pmid": "43076027",
+"title": "Migration of a Right Ventricular Outflow Tract Stent Causing Incomplete Cardioplegic Arrest: Stent Gone Astray!",
+"authors": [
+"Jain AK",
+"Goel K",
+"Mital T",
+"Kohli JK",
+"Patel P"
+],
+"journal": "Turkish journal of anaesthesiology and reanimation",
+"journalTier": 3,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-11-24",
+"abstract": "Right ventricular outflow tract (RVOT) stenting is an established palliative option in tetralogy of Fallot (TOF) when surgical repair poses a high-risk. We report a rare, life-threatening complication in a 4-year-old child with TOF, a hypoplastic pulmonary annulus, and multiple comorbidities that precluded primary corrective surgery. RVOT stenting was therefore planned. During catheterization, the stent embolized, necessitating emergency surgical retrieval. Intraoperatively, the stent was seen lodged across the aortic valve, preventing complete leaflet coaptation, and causing the cardioplegia to leak into the left ventricle. This resulted in an incomplete cardioplegic arrest. Real-time transesophageal echocardiography (TEE) identified the mechanism of cardioplegia failure, delineated the stent position, guided its repositioning, and facilitated successful cardioplegia delivery and definitive surgical repair. This case emphasizes meticulous anatomical evaluation and highlights the indispensable role of intraoperative TEE in high-risk RVOT stenting.",
+"doi": "10.4274/TJAR.2026.262570",
+"keywords": [
+"Tetrology of Fallot",
+"aortic valve insufficiency",
+"cardiovascular and thoracic anaesthesia",
+"echocardiography",
+"endovascular procedures/stents",
+"except pci"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/43076027/",
+"impactScore": 25
 },
 {
 "pmid": "43069831",
@@ -3723,6 +4184,33 @@
 "impactScore": 25
 },
 {
+"pmid": "43074200",
+"title": "Needed: New Guidelines for Greater Health Security in a Climate-Changed World.",
+"authors": [
+"Moulton AD"
+],
+"journal": "Health security",
+"journalTier": 3,
+"journalSJR": null,
+"articleType": "original",
+"pubDate": "2026-11-23",
+"abstract": "Climate change is already giving dramatic proof of the myriad of severe threats it poses to health and health security. Effective institutional guidelines are essential to help hospitals, public health departments, and other health service organizations build the capacity and resilience needed to protect the American population from those dangers. Review of 30 evaluation studies shows, however, that 16 pertinent existing sets of guidelines have had uncertain success in addressing health threats that predate the climate change era. US health leaders and policymakers should take corrective actions to: (1) create a standing research program dedicated to developing guidelines and related incentives that can help strengthen health sector climate resilience and progressively improve health outcomes; (2) revamp the current Medicare and Medicaid conditions of participation to ensure that hospitals, public health departments, and other health providers adapt effectively to climate change; and (3) require that health guideline organizations and health service providers that receive public funding publish annual reports on their progress toward meeting those goals.",
+"doi": "10.1177/23265094261499978",
+"keywords": [
+"Climate change adaptation",
+"Health outcomes",
+"Hospital preparedness/response",
+"Policy",
+"Public health preparedness/response"
+],
+"meshTerms": [],
+"pubTypes": [
+"Journal Article"
+],
+"url": "https://pubmed.ncbi.nlm.nih.gov/43074200/",
+"impactScore": 24
+},
+{
 "pmid": "43058480",
 "title": "What the 2026 AHA acute ischemic stroke guideline changes in emergency care.",
 "authors": [
@@ -3741,7 +4229,7 @@
 "Editorial"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43058480/",
-"impactScore": 22
+"impactScore": 21
 },
 {
 "pmid": "43058467",
@@ -3771,7 +4259,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43058467/",
-"impactScore": 21
+"impactScore": 20
 },
 {
 "pmid": "43058441",
@@ -3797,7 +4285,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43058441/",
-"impactScore": 20
+"impactScore": 19
 },
 {
 "pmid": "43053344",
@@ -3830,7 +4318,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43053344/",
-"impactScore": 20
+"impactScore": 19
 },
 {
 "pmid": "43046769",
@@ -3857,7 +4345,7 @@
 "Letter"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43046769/",
-"impactScore": 20
+"impactScore": 19
 },
 {
 "pmid": "43042506",
@@ -3884,7 +4372,7 @@
 "Journal Article"
 ],
 "url": "https://pubmed.ncbi.nlm.nih.gov/43042506/",
-"impactScore": 19
+"impactScore": 18
 },
 {
 "pmid": "43068179",
